@@ -1,0 +1,76 @@
+ROM fact sheet - mother.nes
+Platform: NES / Famicom
+
+== ROM ==
+Title / region / revision : mother / region: see header / Rev 0 (no tag)
+File name / size          : mother.nes / 524,304 bytes
+CRC32 / SHA-1 (file)      : ABBE02FA / f338af0af0058dc692d6003e04b4094bb324d2c5
+MD5 (file)                : 54387b6e68142d69083a38b437196450
+CRC32 / SHA-1 (no header) : 53A9E2BA / 8e9bd7f4d3999c973c1f2c28a995311267586c87
+Header type               : NES 2.0 (16-byte header)
+Trainer                   : no
+Base patch used (if any)  : (fill in)
+
+== Hardware ==
+Platform / CPU / endian    : NES/Famicom / Ricoh 2A03 (6502, no decimal mode) / little-endian
+Mapper                     : 4 - MMC3 (TxROM)
+PRG-ROM                    : 256 KB (262,144 bytes) at file offset $0010
+CHR                        : CHR-ROM 256 KB (262,144 bytes) at file offset $40010
+Mirroring                  : horizontal (header; mapper may override)
+Bank size / fixed bank(s)  : 8 KB (8,192 bytes) / last 8 KB at $E000 (+ second-last at $C000 or $8000)
+offset <-> address formula : file = 16 + bank*$2000 + (cpu - window base); cpu window $8000-$FFFF; vectors NMI/RESET/IRQ at $FFFA-$FFFF (last bank)
+Vectors (last PRG bytes)   : NMI $F79F  RESET $FF40  IRQ $FE13
+Save RAM                   : PRG-RAM 0 bytes, PRG-NVRAM (battery) 8 KB (8,192 bytes), CHR-RAM 0 bytes, CHR-NVRAM 0 bytes
+Timing                     : NTSC
+Header / ROM checksum      : none on this platform (the game may still check its save data)
+Checked by game?           : (fill in) (patch one byte in unused space and boot to test)
+
+== Space ==
+Scan settings           : runs of $00 or $FF >= 64 bytes, split at bank borders (filler runs may still be data - verify with a debugger)
+Total free (candidate)  : 28,685 bytes of 256 KB (262,144 bytes) (10.9%)
+Free ROM space per bank :    bank 00  free      918 B in   5 run(s); largest     253 B of 00 at file 000A60 / 00:8A50
+                             bank 01  free      884 B in   4 run(s); largest     512 B of 00 at file 002610 / 01:8600
+                             bank 02  free      217 B in   2 run(s); largest     133 B of 00 at file 00437C / 02:836C
+                             bank 03  free      388 B in   2 run(s); largest     196 B of 00 at file 006F50 / 03:8F40
+                             bank 05  free      944 B in   4 run(s); largest     576 B of 00 at file 00ADD0 / 05:8DC0
+                             bank 07  free    1,344 B in  10 run(s); largest     240 B of 00 at file 00E320 / 07:8310
+                             bank 08  free      532 B in   5 run(s); largest     116 B of 00 at file 010C9C / 08:8C8C
+                             bank 09  free    1,564 B in   7 run(s); largest     736 B of 00 at file 012530 / 09:8520
+                             bank 0A  free      603 B in   6 run(s); largest     101 B of 00 at file 01568C / 0A:967C
+                             bank 0B  free    3,283 B in  12 run(s); largest     726 B of 00 at file 016150 / 0B:8140
+                             bank 0D  free    1,250 B in  13 run(s); largest     144 B of 00 at file 01A790 / 0D:8780
+                             bank 0E  free      184 B in   2 run(s); largest      92 B of 00 at file 01DC10 / 0E:9C00
+                             bank 0F  free    3,277 B in  10 run(s); largest     704 B of 00 at file 01E950 / 0F:8940
+                             bank 11  free      341 B in   1 run(s); largest     341 B of FF at file 023EBB / 11:9EAB
+                             bank 12  free      138 B in   1 run(s); largest     138 B of FF at file 025F86 / 12:9F76
+                             bank 13  free      263 B in   1 run(s); largest     263 B of FF at file 027F09 / 13:9EF9
+                             bank 14  free      900 B in  11 run(s); largest     107 B of 00 at file 0288A5 / 14:8895
+                             bank 15  free      772 B in   1 run(s); largest     772 B of FF at file 02BD0C / 15:9CFC
+                             bank 16  free       72 B in   1 run(s); largest      72 B of FF at file 02DFC8 / 16:9FB8
+                             bank 18  free    3,089 B in   6 run(s); largest   1,680 B of FF at file 031780 / 18:9770
+                             bank 19  free    4,284 B in   2 run(s); largest   3,932 B of FF at file 0328B4 / 19:88A4
+                             bank 1B  free    2,936 B in   1 run(s); largest   2,936 B of FF at file 037498 / 1B:9488
+                             bank 1D  free      344 B in   1 run(s); largest     344 B of FF at file 03BEB8 / 1D:9EA8
+                             bank 1F  free      158 B in   1 run(s); largest     158 B of FF at file 03FEB2 / 1F:FEA2
+Largest 20 runs         : file 0328B4      19:88A4    3,932 B  fill FF
+                          file 037498      1B:9488    2,936 B  fill FF
+                          file 031780      18:9770    1,680 B  fill FF
+                          file 02BD0C      15:9CFC      772 B  fill FF
+                          file 012530      09:8520      736 B  fill 00
+                          file 016150      0B:8140      726 B  fill 00
+                          file 01E950      0F:8940      704 B  fill 00
+                          file 01E190      0F:8180      640 B  fill 00
+                          file 0169D0      0B:89C0      592 B  fill 00
+                          file 00ADD0      05:8DC0      576 B  fill 00
+                          file 016DFF      0B:8DEF      533 B  fill 00
+                          file 01E610      0F:8600      528 B  fill 00
+                          file 030D48      18:8D38      516 B  fill 00
+                          file 01EE10      0F:8E00      513 B  fill 00
+                          file 002610      01:8600      512 B  fill 00
+                          file 031593      18:9583      490 B  fill 00
+                          file 033EB0      19:9EA0      352 B  fill FF
+                          file 03BEB8      1D:9EA8      344 B  fill FF
+                          file 023EBB      11:9EAB      341 B  fill FF
+                          file 0170E4      0B:90D4      306 B  fill 00
+Free RAM                : (fill in) (watch RAM in a debugger; look for areas never written)
+Expansion plan          : current 256 KB (262,144 bytes), platform/mapper limit about 512 KB (524,288 bytes) -> up to 256 KB (262,144 bytes) can be added; (fill in)

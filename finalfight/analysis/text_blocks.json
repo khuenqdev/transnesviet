@@ -1,0 +1,22 @@
+[
+  {
+    "name": "opening_and_ending_dialogue",
+    "file_start": 6986,
+    "file_end": 7886,
+    "prg_relative_start": 6970,
+    "prg_relative_end": 7886,
+    "notes": "Contains opening story, character dialogue, and ending dialogue."
+  },
+  {
+    "name": "boss_and_encounter_dialogue",
+    "file_start": 40561,
+    "file_end": 42900,
+    "notes": "Contains boss/encounter speech, with control/presentation bytes interleaved."
+  },
+  {
+    "name": "credits",
+    "file_start": 75744,
+    "file_end": 76188,
+    "notes": "Credits text block."
+  }
+]

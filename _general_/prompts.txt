@@ -1,0 +1,3 @@
+[Phase 0: Planning and ROM analysis]
+1. Analyze this NES game ROM and create a step-by-step plan to translate this NES ROM to Vietnamese with full tones and diacritics. Necessary ROM modification can be done to fit the translated texts and prevent crashing. Give me all file outputs of this task.
+2. Base on the plan you just provided, execute the next step and provide the file outputs.

@@ -1,0 +1,73 @@
+{
+  "rom": {
+    "file": "Mighty Final Fight (USA).nes",
+    "size": 262160,
+    "nes_version": "NES 2.0",
+    "mapper": 4,
+    "prg_bytes": 131072,
+    "chr_bytes": 131072,
+    "body_crc32": "3F78037C",
+    "prg_crc32": "2EE3EF15",
+    "chr_crc32": "BCFEB409",
+    "body_md5": "be4670792b17c74eecf3a0e7f37ecfe2"
+  },
+  "verified_pointer_tables": {
+    "opening": {
+      "low_cpu": "$9B2C",
+      "high_cpu": "$9B33",
+      "count": 7,
+      "prg_bank": 0,
+      "cpu_window": "$8000-$9FFF"
+    },
+    "boss_dialogue": {
+      "low_cpu": "$A54C",
+      "high_cpu": "$A4FD",
+      "count": 78,
+      "prg_bank": 4,
+      "cpu_window": "$8000-$9FFF"
+    },
+    "credits": {
+      "low_cpu": "$A7D6",
+      "high_cpu": "$A7DB",
+      "count": 5,
+      "prg_bank": 9,
+      "cpu_window": "$A000-$BFFF"
+    }
+  },
+  "renderer_hooks": {
+    "opening_renderer": {
+      "cpu_entry": "$9A00",
+      "prg_offset": "0x01A00",
+      "notes": "Loads text pointer from $9B2C/$9B33 using index in $B8; reads (zp $0C),Y; terminates on $FF and interprets $FE as line/layout control."
+    },
+    "boss_loader": {
+      "prg_offset": "0x0991F",
+      "notes": "Loads pointer low bytes from $A54C and high bytes from $A4FD into zero-page $0C/$0D, then processes script bytes via (zp $0C),Y."
+    },
+    "credits_renderer": {
+      "prg_offset": "0x12708",
+      "notes": "Second text renderer with pointer table at $A7D6/$A7DB; credits texts occupy PRG 0x127E0-0x1299B."
+    },
+    "render_command_area": "$0780-$0784",
+    "glyph_pipeline_call": "JSR $F406",
+    "font_tile_lookup": "not yet isolated; character byte is queued in $0783 before JSR $F406"
+  },
+  "text_regions": {
+    "opening": {
+      "prg_start": "0x01B3A",
+      "prg_end": "0x01EC4",
+      "notes": "7 indexed records; multi-line cutscene text."
+    },
+    "boss_dialogue": {
+      "prg_start": "0x09D71",
+      "prg_end": "0x0A4E9",
+      "notes": "78 indexed pointers; many records share or split across display lines."
+    },
+    "credits": {
+      "prg_start": "0x127E0",
+      "prg_end": "0x1299B",
+      "notes": "5 indexed records."
+    }
+  },
+  "status": "pointer_tables_and_message_readers_verified; exact glyph-tile lookup and safe relocation still pending"
+}

@@ -1,0 +1,19 @@
+{
+  "project": "Mighty Final Fight Vietnamese Translation",
+  "status": "analysis_complete_pointer_font_runtime_verification_pending",
+  "source": "/mnt/data/Mighty Final Fight (USA).nes",
+  "outputs": [
+    "02_TRANSLATION_PLAN.md",
+    "README.md",
+    "analysis/chr_page31_indexed.png",
+    "analysis/confirmed_text_extract.txt",
+    "analysis/font_strategy.md",
+    "analysis/rom_analysis.json",
+    "analysis/text_blocks.json",
+    "analysis/vietnamese_draft_confirmed_blocks.md",
+    "mighty_final_fight.tbl",
+    "tools/analyze_mff.py",
+    "tools/build_vn_scaffold.py",
+    "tools/extract_mff_text.py"
+  ]
+}

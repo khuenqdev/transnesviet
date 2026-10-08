@@ -1,0 +1,86 @@
+Text fact sheet - mother.nes
+Platform: NES / Famicom
+
+== Text ==
+Table file                                : ASCII (auto-detected)
+Control codes                             : 00 end (terminator); 3 other code(s) - see Control codes
+Dictionary / DTE / compression            : none detected; no high-entropy blocks
+Pointer tables                            : none found
+Hard-coded pointers                       : 1 found - see list
+Window size / line width / lines per page : (fill in)
+Fixed width or VWF                        : (fill in) (NES: almost always fixed 8x8; a VWF has to draw into CHR-RAM tiles)
+Non-script text                           : 227 text block(s) not reached by any pointer and similar to the script (102 end with the terminator; menus, names, fixed fields, jump targets?) + 0 less likely - see list
+
+== Encoding ==
+Table: ASCII (auto-detected)
+  ASCII: 119 region(s), 3,452 bytes of text-like data
+  Shift-JIS: 118 region(s), 3,434 bytes of text-like data
+
+== Text regions ==
+228 region(s), 4,678 bytes (min 8 chars, gap <= 1, text share >= 0.8)
+    00A1A8-00A250  05:81A8      168 B  5332444S2R3232424R2S;;;;2333S4P4RS4RSUVS...
+    007204-007286  03:9204      130 B  -0sn1qnnqrtu-33.nttuummmmsvw..77ntxuyqnn...
+    004469-0044C8  02:8469       95 B  WWo[1B]PQ6abcC[1B]PR6pEFC7DE6`^_C[1B]TU6...
+    00A0B9-00A10E  05:80B9       85 B  "$8:"$8WX5SR34SR453WX44UVRSR3R3343P4R44W...
+    007621-007674  03:9621       83 B  FG[08]nnnLIJMNKnOn\][1E]_`abc0qvwpqxy2s6...
+    00AA00-00AA48  05:8A00       72 B  MM\MSTMMM\RMPWMMAPRM[EFAMCDVBWV[BMAPMM[P...
+    007166-0071AC  03:9166       70 B  >BB}BWdEWX&[02]%[02]BBBBBBCmBCFfnnABofoe...
+    00EBBA-00EC00  07:8BBA       70 B  GIN1KKGLLLFLLLGLLLNKEKLL03LL6;LL05LL6[11...
+    007381-0073C0  03:9381       63 B  BBCnDnIEEEEEEEJFfofEEIEnInGEJmHEEmmIEGmo...
+    036AE7-036B21  1B:8AE7       58 B  PX^hBPZbJPXb@NX^BPZX[02]X^hBPZN[02]T^fBZ...
+    037404-03743E  1B:9404       58 B  PX^hBPZbJPXb@NX^BPZX[02]X^hBPZN[02]T^fBZ...
+    03B648-03B682  1D:9648       58 B  PX^hBPZbJPXb@NX^BPZX[02]X^hBPZN[02]T^fBZ...
+    007676-0076AF  03:9676       57 B  NO[07]HI}~n~L;<MNCDEFnnABGHGH..nnnnononn...
+    009710-009748  04:9710       56 B  K]KMMKOOLKNMMNLx|lkxkKKKKKKKKKKKKKK~v[7F...
+    036A9C-036AD4  1B:8A9C       56 B  PX^hBPZbJPXb@NX^BPZX[02]X^hBPZN[02]T^fBZ...
+    002060-002091  01:8060       49 B  663677676876775700006666777700;003486007...
+    014800-01482F  0A:8800       47 B  HHHHHe\ZehiuhidL]u\ZLM]u\ZLdHe\ZHzZHzZe\...
+    014C00-014C2F  0A:8C00       47 B  He\ZHHzZHHLdHHzZHHLdHHe\ZHzXXYZe\ce\ZHHH...
+    01ED40-01ED6D  0F:8D40       45 B  011101110145011111%6451112331+,-7[0B]9[0...
+    014B00-014B2C  0A:8B00       44 B  HHe\XY`aczYXXY`aXYXYXXce\Zehiu\ZLdHe\ZHH...
+
+== Pointer tables ==
+  'entries' = total / pointing at a detected string start
+  file    address        format                         entries   target   first strings
+
+== Hard-coded pointers ==
+  code at  address        pattern                        -> string
+  02994E   14:994E        LDA/LDX/LDY #lo ... #hi        -> 14:99F9  vpPQRSvpHIJK[0F]8!4[CA][ED]
+
+== Control codes ==
+  from 1 pointed string(s); 'repeat' = characters since the same code (or string start); 'next' = what follows
+  code   count strings  repeat(median/max)  next (top 3)                guess
+  $0F        1       1      12/12           char:1                       control?
+  $CA        1       1      16/16           ED:1                         control with argument byte(s)?
+  $ED        1       1      17/17           end:1                        end-type (before terminator)?
+  terminator 00 (from the bytes before pointed strings)
+
+== Non-script text candidates ==
+  'score' = how close the characters are to the pointed script (0 = same, below -1.0 = probably data); 'T' = followed by the terminator
+  file    address        bytes  score T  layout                  preview
+  00A1A8  05:81A8          168      - T                          5332444S2R3232424R2S;;;;2333S4P4RS4RSUVS3533...
+  014B00  0A:8B00           44      - T                          HHe\XY`aczYXXY`aXYXYXXce\Zehiu\ZLdHe\ZHHHHHH
+  014DD0  0A:8DD0           44      - T                          vvvvmynRQynoQxRlvvmljvvmM@|}C`ff]bfc@AB|vvvv
+  00DD20  06:9D20           40      - T                          LL{KKxmllllmmk@UU]xlkKKO]KKKKKKKKKKK\xk@
+  008D20  04:8D20           32      - T                          jyjyKKKKK_ACQQQRSKKKNzbqa]KKjyOz
+  00D404  06:9404           32      - T                          HHHHHe\JZe\XXYXYXXX`ace\JZHHxkK]
+  010E6C  08:8E6C           32      - T                          HHHe\XIYX`acHe\YIXY`acHe\YIXY`ac
+  01156C  08:956C           32      - T                          HHHe\YIYX`acHe\YIXY`acHe\XIXY`ac
+  009021  04:9021           31      - T                          z@zKKKKNLMOp_MK\\]^zKKKNbqazNzO
+  009121  04:9121           31      - T                          U@z_KKKKKKObqqhihiazKKK]LLpx}y^
+  01D4A1  0E:94A1           27      - T                          HIJ5PR65ZA6[02]PU6[1B]ZA6[0E]PQ6[1B]ZA6
+  008FFC  04:8FFC           25      - T                          KKKK5no6@EF@5PQ6DAB@O@xmk
+  0071E8  03:91E8           24      - T                          mmmmoooo....ijklngghhnnn
+  00C97C  06:897C           24      - T                          nnnnf_I`apYXXYXY`qsnnnnn
+  00CB7C  06:8B7C           24      - T                          nnf_ZHzXYYXX`aczYYX`qsnn
+  00CC7C  06:8C7C           24      - T                          nf_ZHHHHHHHe\ZHLdHeN[nnn
+  00CD7C  06:8D7C           24      - T                          f{iMMMMdHLuhiMu\ceN[nnnn
+  00DC00  06:9C00           24      - T                          He\JZHzXYYXXczYXYZe\JZHH
+  01D190  0E:9190           24      - T                          @@M_[00]5tpqrfg01O[[00]5tpqrfg
+  03A31C  1D:831C           24      - T                          BPL[B2]V[B0]TR[B5]PZ[B0]RPRVZ^`^`dhj
+
+== Notes ==
+- PRG image 256 KB, mapper 4, 32 bank(s) of 8 KB, fixed bank(s): 1F. Offsets in this report are PRG offsets (file offset - 16).
+- Pointers are 16-bit little-endian CPU addresses; the bank is implied by the code that reads them.
+- All values are candidates from static analysis: confirm control codes, window size and VWF in a debugger.
+- Pointer tables are matched against string starts inside text regions; tables whose entries point to compressed/DTE text, split low/high-byte tables and pointers with a bank byte elsewhere are not found.

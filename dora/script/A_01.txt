@@ -1,0 +1,446 @@
+#L816f A0
+{fa}
+{end}
+#L8172 A1
+{fa}{e9}
+đã hồi sức!
+{p}{end}
+#L8183 A2
+{fa}Cả nhóm hồi
+sức!
+{p}{end}
+#L8195 A3
+{fa}{e9}
+đã hết độc!
+{p}{end}
+#L81a4 A4
+{fa}Chất độc trong
+người {e9}
+đã tan biến…
+{p}{end}
+#L81b8 A5
+{e8} dùng
+{ea}
+cho {e9}!
+{p}{end}
+#L81c9 A6
+{e8}đã dùng
+{ea}!
+{p}{end}
+#L81d7 A7
+{e8}
+chẳng có gì cả!
+{end}
+#L81e7 A8
+Không đủ
+bánh rán rồi…
+{p}{end}
+#L81f3 A9
+{fa}Nhưng chẳng có
+gì xảy ra cả…
+{p}{end}
+#L8208 A10
+Tem xua quái đã
+hết tác dụng!
+{p}{end}
+#L821d A11
+{fa}{e8} cần
+thêm {ec} điểm
+để lên cấp!
+{p}{end}
+#L8245 A12
+Túi chẳng có
+món nào cả!
+{end}
+#L8255 A13
+Chẳng có ai
+ở đây cả…
+{end}
+#L8265 A14
+Thử xem dưới
+chân thì…
+{p}{end}
+#L8278 A15
+{fa}Chán thật!
+Chẳng có gì cả…
+{end}
+#L828c A16
+{fa}Hay quá!
+Tìm thấy
+{ea}!
+{p}{end}
+#L829e A17
+{fa}Doraemon cất
+nó vào túi…
+{end}
+#L82b1 A18
+{fa}Nhưng túi đầy
+rồi! Phải vứt
+bớt thứ gì đó…
+{end}
+#L82d3 A19
+{fa}Nhưng không thể
+mang thêm nữa…
+{end}
+#L82e5 A20
+Đã vứt đi rồi!
+{end}
+#L82ef A21
+Đó là đồ quan
+trọng, đừng
+vứt!
+{end}
+#L8308 A22
+{fa}{e8} đưa
+{ea}
+cho {e9}!
+{end}
+#L8321 A23
+{e9}
+không mang thêm
+được nữa!
+{end}
+#L832e A24
+{f5 78}{f6 10}{w0}Anh ơi! {d3}!
+Vất vả rồi!
+Nghỉ ngơi nhé!
+{p}{w1}Ừ!
+{p}{w0}Em làm {ec}
+cái bánh rán
+anh thích nhất!
+{p}{w1}Cảm ơn em,
+Dorami…
+ 
+{p}{w0}Còn nữa, có
+muốn ghi lại
+hành trình chứ?
+{w1}
+{fa}{yesno L83a9 L83d4}
+#L83a9
+{w0}
+{fa}{w0}Vậy em sẽ
+ghi lại nhé!
+{fc}{p}{fa}{w0}Anh lại đi
+phiêu lưu tiếp
+à?
+{w1}
+{fa}{yesno L83d4 L83e7}
+#L83d4
+{f5 79}{w0}
+{fa}{w0}Mọi người cố
+lên nhé!
+{end}
+#L83e7
+{w0}Giữ nút RESET
+rồi tắt nguồn!
+Chúc ngủ ngon…
+{halt}
+#L8413 A25
+Đây là chỗ đổi
+bánh rán ra đồ.
+Đổi không nào?
+{end}
+#L8437 A26
+{fa}Này này! Không
+đủ bánh rán!
+{end}
+#L844a A27
+{fa}Túi của cậu
+không chứa thêm
+được nữa rồi…
+{end}
+#L8465 A28
+{fa}Đừng tham quá!
+{end}
+#L8474 A29
+{fa}Đây! Cất vào
+túi đi nhé!
+Lấy gì nữa nào?
+{end}
+#L849a A30
+{fa}Vậy hẹn gặp
+lại nhé…
+{p}{end}
+#L84aa A31
+{f6 15}{w1}Ở đây không gọi
+Dorami được…
+{end}
+#L84be A32
+{f5 78}{f6 14}{w0}Anh ơi!
+Tỉnh lại đi!
+{p}{w1}Ưm…
+Dorami à…
+{p}{w0}
+{fa}{w0}Anh ổn chứ?
+{p}{w1}
+{fa}{f6 17}{w1}Ừ…
+{p}{w0}
+{fa}{w0}Cố lên nhé!
+{end}
+#L8503 A33
+Doraemon lấy
+{ea}
+ra từ túi…
+{p}{end}
+#L8519 A34
+{fa}Doraemon cất
+{ea}
+vào túi…
+{end}
+#L852f A37
+Gâu gâu!
+Gâu gâu gâu!!
+{p}{end}
+#L8542 A38
+{flag 0b L8570 L8546}
+#L8546
+{fa}Có hình mờ mờ
+trong quả cầu…
+Nhưng không rõ…
+{p}{end}
+#L8570
+{fa}Quả cầu hiện ra
+vòng phép thuật
+ở Thị trấn Sao…
+{p}Cả nhóm bị hút
+bay về lại
+Thị trấn Sao!
+{p}{fb 0f}{end}
+#L85ba A59
+Quả cầu bạc đã
+vỡ tan!
+{p}{end}
+#L85cb A60
+{fa}Hay quá!
+Bagi hồi sinh!
+{f9 14}{p}{fa}Doraemon cất
+Bagi vào túi…
+{p}{end}
+#L8601 A35
+{f5 12}{f6 02}{w0}Ơ? Ơ kìa?
+Đây là đâu?
+{p}{w1}Do, Doraemon…
+{p}{f5 17}{w0}Ơ? Chẳng phải
+{d3} đấy sao…
+{p}{w0}Vậy là tớ đã
+trở về thị trấn
+cũ rồi sao…
+{p}{flag 39 L8650 L866e}
+#L8650
+{w1}Tự dưng cậu
+hiện ra ngay
+trước mắt tớ…
+{jmp L868a}
+#L866e
+{w1}Tự dưng cậu
+hiện ra ngay
+trước mắt tớ…{n}
+#L868a
+{p}{fa}{w1}Chuyện gì vậy?
+{p}{f5 11}{w0}
+{fa}{w0}Gay go rồi!
+{p}{w0}Tinh Linh Vương
+Giga Zombie
+muốn xâm lược!
+{p}{f5 14}{w0}Trời ơi… Phải
+tìm Nobita và
+mọi người thôi!
+{p}{f5 17}{w0}Này, cậu đi
+cứu mọi người
+cùng tớ nhé?
+{w1}
+{fa}{yesno L876f L871e}
+#L871e
+{f5 15}{w0}
+{fa}{w0}Thật sao? Đi
+mà…
+{w1}
+{fa}{yesno L876f L8737}
+#L8737
+{w0}
+{fa}{w0}Tớ năn nỉ mà…
+{w1}
+{fa}{yesno L876f L874a}
+#L874a
+{f5 11}{w0}
+{fa}{w0}Năn nỉ cậu mà!
+{w1}
+{fa}{yesno L876f L875e}
+#L875e
+{f5 14}{w0}
+{fa}{w0}Hu hu…
+{p}{fb 00}{end}
+#L876f
+{f5 10}{w0}
+{fa}{w0}Hay quá! Cảm
+ơn!
+{f9 12}{f5 16}{w0}Vậy thì mau
+dùng máy đếm
+thời không này
+{p}{w0}để tìm xem mọi
+người ở đâu
+nào!
+ 
+{p}{f5 17}{w0}Để xem… A!
+Có người bị đưa
+đến Ma Giới!
+{p}{f6 00}{w1}
+{fa}{w1}Vậy trước hết
+{flag 39 L87f8 L8811}
+#L87f8
+{w1}tìm cách tới
+Ma Giới đã!
+Đi nào Doraemon
+{p}{end}
+#L8811
+{w1}tìm cách tới Ma
+Giới nhé! Đi
+nào Doraemon!
+{p}{end}
+#L882c A36
+{f5 30}{w0}Doraemon, tớ
+là Miyoko…
+{p}{f6 12}{w1}Miyoko!
+{p}{w0}Tớ lại bị
+Ma Vương yểm
+phép rồi…
+{p}{w0}Hạ Ma Vương thì
+Nobita mới trở
+lại như cũ…
+{p}{w0}Muốn vậy, cần
+có được mũi
+tên bạc…
+{p}{f6 16}{w1}Cứ để bọn tớ!
+Nhất định sẽ hạ
+được Demaon!
+{p}{w0}Khoan đã!
+Tớ cũng sẽ cùng
+chiến đấu…
+{f9 12}{end}
+#L88db A39
+{f5 35}{f6 30}{w1}Cha ơi… cha có
+nghe thấy thần
+giao cách cảm?
+{p}{w0}Ôi Miyoko…
+Ta bị Medusa
+hóa đá rồi…
+{p}{w0}Các con hãy
+tự tay đánh bại
+Ma Vương!
+{p}{w1}Hạ Ma Vương thì
+cha sẽ trở lại
+như cũ phải ko?
+{p}{w0}Phải…
+Nhưng Ma Vương
+rất mạnh đấy!
+{p}{w0}Làm hắn yếu đi
+thì mũi tên bạc
+mới tới tim…
+{p}{w1}
+{fa}{w1}Con hiểu rồi…
+{p}{w0}Với chút ma lực
+còn lại, ta sẽ
+trả dáng cũ…
+{p}{end}
+#L89d0 A40
+{f5 34}{f6 02}{w1}Tiến sĩ
+Mangetsu ông
+không sao ạ?
+{p}{w0}Ừ… Các cháu
+giỏi lắm… Nhờ
+các cháu cả…
+{p}{w0}Nào, về thôi…
+Phép yểm Nobita
+chắc đã hết…
+{p}{end}
+#L8a33 A41
+{f5 1c}{f6 10}{w0}Oa… Doraemon…
+Cảm ơn… Tớ
+được cứu rồi!
+{p}{f5 1a}{w0}Từ giờ tớ cũng
+sẽ chiến đấu
+cùng các cậu!
+{f9 12}{p}{f5 2c}{f6 00}{w0}Tớ cũng trở
+lại như cũ rồi…
+Cảm ơn nhiều…
+{p}{w0}Tớ không đi
+cùng được đâu,
+cố lên nhé!
+{p}{f5 34}{fa}{w0}Phải rồi, ta
+thấy thứ này ở
+thành Ma Vương
+{p}{w0}Tặng các cháu…
+{p}{f6 12}{w1}A! Đó là tàu
+ngầm mini và
+kẹo thích nghi!
+{f9 14}{p}{w0}Nào, giờ ta sẽ
+đưa các cháu về
+thế giới cũ…
+{p}{fa}{w0}Chinkara
+karachin hoi!
+{p}{end}
+#L8b32 A42
+{f5 16}{f6 01}{w0}Được, thử dò
+lại xem nào…
+Ưmm…
+{p}{w1}Sao rồi?
+{p}{w0}Hình như có ai
+bị đưa xuống
+đáy biển…
+{p}{f6 19}{w1}
+{fa}{w1}Chỗ của El,
+người đáy biển!
+{p}{end}
+#L8b87 A43
+{f5 74}{f6 16}{w0}Ta là Poseidon,
+thần báo thù!
+Lũ sâu bọ kia!
+{p}{w1}Poseidon!
+{p}{w0}Ta sẽ diệt các
+ngươi để bảo vệ
+Atlantis!
+{p}{f6 1a}{w1}
+{fa}{w1}Atlantis diệt
+vong lâu rồi…
+Ngươi bị lừa!
+{p}{w0}Nói xong chưa…
+Giờ tàn của các
+ngươi đã đến!
+{p}{f6 04}{w1}
+{fa}{flag 39 L8c3d L8c4e}
+#L8c3d
+{w1}Dừng lại đi,
+Poseidon!!
+{p}{end}
+#L8c4e
+{w1}Dừng lại mà,
+Poseidon!!
+{p}{end}
+#L8c5d A44
+{f5 16}{w0}Tớ lo cho El
+quá… Về mau!
+{p}{end}
+#L8c7a A45
+{f5 42}{f6 00}{w0}Các cháu giỏi
+lắm! Cảm ơn!
+{p}{w0}Mà này, những
+thứ này có phải
+của các cháu?
+{p}{f6 12}{w1}Găng kỹ thuật!
+A! Cả Lỗ Đi Đâu
+Cũng Được nữa!
+{p}{w0}Quả nhiên là
+vậy… Ta xin
+trả lại…
+{f9 14}{p}{f5 3c}{w0}
+{fa}{w0}Nhờ các cháu mà
+thị trấn được
+cứu! Cảm ơn!
+{p}{f5 44}{w0}
+{fa}{w0}TÔI THÍCH NƠI
+NÀY… TÔI Ở LẠI
+CHÀO SHIZUKA…
+{p}{f6 10}{w1}Ừ, tớ hiểu… Nào
+mọi người, về
+mặt đất thôi…
+{p}{end}

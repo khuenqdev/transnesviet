@@ -1,0 +1,353 @@
+#L8b41 E54
+Pháp sư khó
+tính lắm, chẳng
+chịu nói đâu!
+{end}
+#L8b67 E55
+Nghe nói đồ của
+pháp sư là thứ
+ác quỷ đánh rơi
+{p}Có thêm một
+món nữa là tới
+được lâu đài
+{p}Ma Vương…
+{p}Mà chắc chẳng
+ai muốn tới chỗ
+đó đâu…
+{end}
+#L8be4 E56
+Trong làng từng
+có người bị
+bắt cóc đấy…
+{end}
+#L8c01 E57
+Nghe nói gần
+làng có cái
+hang có ác quỷ…
+{end}
+#L8c26 E58
+Mẹ bảo tè dầm
+sẽ bị ác quỷ
+ăn thịt…
+{p}Oa oa!
+Hôm nay em
+tè dầm rồi!
+{end}
+#L8c65 E59
+Có ác quỷ thật
+không nhỉ?
+{end}
+#L8c7a E60
+Biết rêu phát
+sáng không? Nó
+làm hang sáng
+{p}{fa}lên đấy…
+{end}
+#L8ca3 E61
+Muốn gặp pháp
+sư à?
+{p}Vậy nhờ trưởng
+làng viết thư
+giới thiệu đi…
+{end}
+#L8cdb E62
+………
+{end}
+#L8ce1 E63
+Ưm!
+{end}
+#L8ce7 E64
+………
+{end}
+#L8ced E65
+Đừng có nói
+chuyện với cửa!
+{end}
+#L8cfe E66
+………
+{end}
+#L8d04 E67
+Đồn rằng làng
+bên có bạc…
+{p}{fa}Làng Cảng bên
+cạnh ở phía
+đông đây…
+{end}
+#L8d3a E68
+{flag 04 L8d6e L8d3e}
+#L8d3e
+Dưới gốc cây
+cạnh ao có
+miếng thạch lạ
+{p}{fa}Ai vứt nhỉ?
+{end}
+#L8d6e
+Ăn đồ nhặt
+được là đau
+bụng đấy…
+{end}
+#L8d87 E69
+{flag 05 L8db5 L8d8b}
+#L8d8b
+Nghe nói có
+món ăn giúp
+hiểu tiếng thú
+{p}{fa}Thật không nhỉ?
+{end}
+#L8db5
+Con mèo dễ
+thương ghê!
+{end}
+#L8dc1 E70
+Chú tôi là thợ
+rèn… Giỏi nhất
+là làm đồ bạc…
+{p}Chú ở Làng
+Thợ…
+{end}
+#L8dfb E71
+Đi lên bắc là
+tới Làng Thợ…
+{p}{fa}Có đủ loại
+thợ ở đó…
+{end}
+#L8e26 E72
+Tôi là thợ
+khóa… Trưởng
+làng Thung Lũng
+{p}mang tới một
+chiếc chìa khóa
+{p}Nhưng ngay cả
+tôi cũng chẳng
+biết khóa gì…
+{end}
+#L8e6b E73
+Có mũi tên bạc
+chưa?
+{yesno L8e7c L8e88}
+#L8e7c
+{fa}Vậy thì tốt…
+{end}
+#L8e88
+{fa}Không có nó
+thì không hạ
+được Ma Vương!
+{end}
+#L8ea1 E74
+{flag 09 L8ea5 L8ec2}
+#L8ea5
+Gì? Còn việc gì
+nữa… Ta bận
+lắm đấy…
+{end}
+#L8ec2
+{flag 08 L8ec6 L8f31}
+#L8ec6
+Con chó khỏe
+chứ? Vậy thì
+ta yên tâm…
+{p}Ơ? Đó chẳng
+phải là bạc
+sao…
+{p}Được! Ta sẽ
+làm mũi tên
+bạc cho…
+{p}{fa}Chinkara hoi
+leng keng leng
+keng!
+{p}Đây! Mũi tên
+bạc đây…
+{f9 14}{fb 09}{end}
+#L8f31
+{flag 06 L8f35 L8f3e}
+#L8f35
+Nhờ cả vào các
+cháu đấy!
+{end}
+#L8f3e
+Ta là thợ rèn
+Masa… Làm đồ
+bạc à?
+{p}Giờ ta chẳng
+có tâm trạng…
+{p}Con chó của
+ta ở làng bên,
+ta lo lắm…
+{p}{fa}Các cháu xem
+nó có khỏe
+không giúp ta?
+{yesno L8fc3 L8fad}
+#L8fad
+Tiếc quá…
+Thật là
+tiếc quá…
+ 
+{end}
+#L8fc3
+Cảm ơn nhiều…
+Thấy nó thì
+cho nó cái
+{p}xương này…
+Nó thích lắm…
+{f9 14}{p}Hả! Sao nó
+lại ở làng
+bên à?
+{p}Vợ ta ghét
+chó, không cho
+nuôi… Hu hu…
+{fb 06}{end}
+#L9039 E75
+Làng Thung Lũng
+ở phía đông…
+{end}
+#L904d E76
+{flag 3b L9051 L9068}
+#L9051
+Ta rất thích
+đồ ngọt…
+{end}
+#L9068
+Chào chào…
+Ồ! Mùi này là
+bánh rán nhỉ…
+{p}{fa}Trông ngon
+quá… Cho ta
+một ít nhé?
+{yesno L90a9 L90ef}
+#L90a9
+Ôi cảm ơn…
+Lũ trẻ tốt
+bụng quá…
+{p}Để cảm ơn, ta
+tặng chiếc
+chìa khóa này
+{p}{fa}Chắc sẽ có
+ích đấy…
+{f9 14}{fb 3b}{end}
+#L90ef
+{fa}Tiếc thật…
+{end}
+#L90fb E77
+Làng Chinkara
+ở bên kia Đồng
+Bằng Ảo Ảnh…
+{p}Đồng bằng đó
+rất đáng sợ,
+không có dũng
+{p}khí thì đừng
+đi đấy…
+{end}
+#L9149 E78
+{flag 0a L914d L9161}
+#L914d
+Haizz…
+Ta toàn lo
+nghĩ thôi…
+{end}
+#L9161
+Haizz… Ta là
+trưởng làng.
+Nghe ta than
+{p}{fa}thở không?
+{yesno L9186 L91d2}
+#L9186
+Haizz… Ác quỷ
+đầy rẫy, nghĩ
+tới tương lai
+{p}làng này mà…
+{p}Haizz… Còn
+một nỗi lo
+nữa, nghe nhé?
+{yesno L91d9 L91d2}
+#L91d2
+{fa}Haizz…
+{end}
+#L91d9
+Ngoan quá…
+Các cháu chẳng
+có nỗi lo nào?
+{p}Muốn gặp pháp
+sư à? Vậy ta
+viết thư giới
+{p}thiệu cho…
+{p}Hắn là bạn
+ta mà…
+Đây! Cầm lấy!
+{f9 14}{fb 0a}{p}{fa}Dù sao thì…
+haizz…
+{end}
+#L9256 E79
+Phía bắc làng
+có cái hang…
+{p}Hang tối lắm,
+không có đèn
+thì nguy hiểm!
+{end}
+#L9289 E80
+Trưởng làng này
+lo nghĩ nhiều
+quá… Suốt ngày
+{p}{fa}thở dài…
+{end}
+#L92ba E81
+Ta là bà thầy
+bói của làng…
+Để ta bói cho…
+{p}Ừm! Các cháu!
+Cố gắng thì
+đường sẽ mở!
+{p}{fa}Ừm! Ừm!!
+{end}
+#L9306 E82
+{flag 0b L930a L9319}
+#L930a
+Cố lên nhé,
+lũ trẻ…
+{end}
+#L9319
+Ta là pháp sư…
+{flag 0a L9341 L932c}
+#L932c
+Ta ghét trẻ
+con… Về đi!
+{end}
+#L9341
+Các cháu quen
+trưởng làng à…
+Thật ra…
+{p}Ta đang tìm
+người có thể
+hạ Ma Vương…
+{p}Sao… Các cháu
+có dũng khí
+đó không?
+{yesno L93a6 L939a}
+#L939a
+{fa}Chắc vậy rồi…
+{end}
+#L93a6
+{flag 09 L93d0 L93aa}
+#L93aa
+Có dũng khí mà
+không có mũi
+tên bạc thì
+{p}{fa}sao thắng nổi!
+{end}
+#L93d0
+Gì! Thật sao?
+Vậy ta tặng
+Mắt Pha Lê…
+{f9 14}{fb 0b}{p}Có nó và Pha
+Lê Dẫn Đường
+sẽ được dẫn
+{p}tới lâu đài
+Ma Vương…
+{p}Pha Lê Dẫn
+Đường ở trong
+tay một ác quỷ
+{p}{fa}Các cháu chắc
+sẽ tìm ra…
+{p}{fa}Nếu có được
+nó thì nhớ
+dùng thử nhé…
+{end}

@@ -1,0 +1,385 @@
+#L8d6a A46
+{f5 16}{f6 02}{w0}Để tớ dò lại…
+{p}{w1}Sao, Doraemon?
+{p}{w0}A! Có người bị
+đưa xuống lòng
+đất…
+{p}{f6 19}{w1}
+{fa}{w1}Xứ hiệp sĩ
+rồng… Gặp lại
+Banhoo và Rô?
+{p}{f6 2a}{w1}
+{fa}{w1}Này Doraemon…
+Ta được găng kỹ
+thuật rồi ha?
+{p}{f5 17}{w0}
+{fa}{w0}Ừ, tớ có đây…
+{p}{w1}Nếu cải tạo xe
+điều khiển, nó
+sẽ thành vũ khí
+{p}{w1}hạ lũ quái vật!
+{p}{f5 10}{w0}
+{fa}{w0}Ý hay đấy…
+{p}{w1}Có thể mất thời
+gian, nhưng tớ
+sẽ cố làm xong…
+{p}{w0}Được rồi…
+Đây, găng
+kỹ thuật…
+{p}{w1}Không phải tớ
+sợ mà trốn
+đâu nhé!
+{p}{w0}
+{fa}{w0}Tớ biết mà…
+{p}{w0}Bọn tớ sẽ
+xuống lòng
+đất xem sao…
+{p}{end}
+#L8eb2 A47
+{f5 56}{f6 00}{w0}Các cháu giỏi
+lắm… Mục đích
+của Tsuchidama
+{p}{w0}là thống trị
+lòng đất này…
+{p}{f5 54}{w0}Chúng muốn ta
+và tộc Nanja
+đánh nhau để
+{p}{w0}cả hai cùng
+diệt vong…
+{p}{w0}Chúng còn điều
+khiển lũ khủng
+long tùy ý
+{p}{f5 48}{w0}
+{fa}{w0}Tôi sẽ tới chỗ
+tộc Nanja để
+chấm dứt chiến
+{p}{w0}tranh…
+{p}{f5 56}{w0}Ừm, nhờ cậu…
+Còn lại là
+lũ khủng long…
+{p}{f6 01}{w1}Bọn cháu sẽ
+đi hạ bọn
+Tsuchidama…
+{p}{fa}{w0}Ồ! Vậy thì
+tốt quá… Trùm
+Tsuchidama ở
+{p}{w0}tháp
+Cro-Magnon…
+{p}{fa}{w0}Nhưng nhớ cẩn
+thận đấy nhé…
+{w1}
+{fa}{w1}Vâng!
+{p}{f5 48}{w0}
+{fa}{w0}Đây là thứ lấy
+từ lũ quái…
+Cầm lấy đi…
+{p}{f6 10}{w1}
+{fa}{w1}Là Máy chắn!
+Cảm ơn nhé,
+Banhoo!
+{f9 14}{p}{f5 26}{w0}
+{fa}{w0}Này, mọi người
+đợi lâu chưa!
+{p}{w0}Tớ đến như
+đã hứa đây! Tớ
+cũng chiến đấu!
+{f9 12}{p}{w1}Có Jaian đi
+cùng thì yên
+tâm rồi!
+{p}{w0}Cỗ máy thời
+gian bị hút
+theo tớ… Cất đi
+{f9 14}{p}{end}
+#L90ab A48
+{f5 10}{f6 00}{w1}Hay quá!
+{p}{w0}Mọi người giỏi
+lắm! Nào, về
+thành Enlil!
+{p}{end}
+#L90db A49
+{f5 56}{f6 00}{w0}Các cháu thật
+sự giỏi lắm!
+{p}{fa}{f5 4a}{w0}Nhờ các cháu,
+lũ khủng long
+đã hiền lại…
+{p}{w0}Chúng tôi sẽ
+sống hòa thuận
+với tộc Nanja…
+{p}{f5 4d}{w0}
+{fa}{w0}Mong sớm tìm
+được Shizuka…
+{p}{w1}Vâng!
+{p}{f6 10}{w1}
+{fa}{w1}Vậy chào mọi
+người… Bọn cháu
+về mặt đất đây…
+{p}{f6 1d}{fa}{w1}Mọi người khỏe!
+{p}{end}
+#L918a A50
+{f5 19}{f6 16}{w1}Chỉ còn Shizuka
+thôi… Dò nào…
+{p}{fa}{w1}Được!
+{p}{w0}Đâu? Đâu rồi?
+{p}{w1}
+{fa}{w1}Thời cổ đại!
+Nhật Bản xưa…
+{p}{f5 25}{w0}
+{fa}{w0}Được! Đi thôi…
+Mà khoan, tớ
+phải về gặp mẹ…
+{p}{w0}Tớ trốn trông
+tiệm, mẹ giận
+lắm… Gặp sau!
+{p}{f5 18}{w0}
+{fa}{w0}Liệu có quay
+lại được không…
+Jaian…
+{p}{flag 40 L923c L928b}
+#L923c
+{w1}
+{fa}{f6 11}{w1}A!
+{p}{w0}
+{fa}{w0}Sao thế?
+Doraemon…
+{p}{f6 14}{w1}Chong chóng tre
+hết pin mất
+rồi…
+{p}{w0}Đành vậy…
+Từ giờ ta
+đi bộ thôi…{n}
+#L928b
+{p}{end}
+#L928d A51
+{f5 61}{f6 00}{w0}Cảm ơn mọi
+người… Giờ thì
+yên tâm rồi…
+{p}{w1}Tốt quá!
+{p}{w0}Nào… tôi sẽ
+đưa các bạn về
+thế giới cũ…
+{p}{end}
+#L92d6 A52
+{f5 1d}{f6 00}{w0}Nào nào…
+Đi gặp Shizuka
+thôi…
+{p}{flag 39 L92f6 L9301}
+#L92f6
+{w1}Ừ… Đi thôi!
+{p}{end}
+#L9301
+{w1}Ừ… Đi nào!
+{p}{end}
+#L930e A53
+{f5 68}{w0}Chà chà, đông
+đủ cả nhỉ…
+{p}{f6 22}{w1}Giga Zombie!
+{p}{w1}Ông có biết
+việc ông làm
+khiến Tera
+{p}{w1}khổ sở thế
+nào không?
+{p}{w0}Im đi!
+Có máy tái sinh
+này, ta sẽ là
+{p}{w0}vua thế giới!
+{p}{w0}Rồi Tera cũng
+sẽ hiểu cho ta…
+ 
+{p}{f6 17}{w1}
+{fa}{w1}Máy tái sinh ư?
+{p}{w0}Phải… Với nó,
+ta sẽ hồi sinh
+lũ thuộc hạ
+{p}{w0}
+{fa}{w0}Ha ha ha ha!
+{p}{f6 63}{w1}
+{fa}{w1}Cha ơi…
+{p}{w0}Tera!
+Sao con lại
+ở đây?
+{p}{f6 64}{w1}Con… đã phá
+hủy máy tái
+sinh rồi…
+{p}{w0}Cái gì!
+Vậy còn Đá
+Sinh Mệnh?
+{p}{w1}
+{fa}{w1}Cái… cái đó…
+vẫn chưa…
+{p}{w0}Ha ha! Chỉ cần
+có Đá Sinh Mệnh
+{p}{w0}thì máy tái
+sinh làm lúc
+nào cũng được!
+{p}{f6 63}{w1}
+{fa}{w1}Thôi đi cha!
+{p}{w0}
+{fa}{w0}Tera…
+{p}{end}
+#L9490 A54
+{f5 68}{f6 6d}{w1}Này Giga
+Zombie!
+{p}{w1}Ngươi tưởng
+ta sẽ làm tay
+sai cho một
+{p}{w1}con người như
+ngươi à!
+{p}Đồ ngốc!
+Thế giới này là
+của ta!
+{p}{w0}Dừng lại! Ngươi
+làm gì vậy,
+Ngưu Ma Vương…
+{p}{w1}Ta sẽ giết hết
+các ngươi! Đầu
+tiên là đứa con
+{p}{w1}gái yêu quý
+của ngươi!
+{p}{f5 63}{w0}
+{fa}{w0}Á á!
+{p}{f5 68}{w0}
+{fa}{w0}Teraaa!
+{p}{w1}
+{fa}{w1}Cả ngươi nữa…
+Giga Zombie!
+{p}{w0}
+{fa}{w0}Hự! Ực…
+{p}{w1}
+{fa}{f6 02}{flag 39 L955b L9564}
+#L955b
+{w1}Dừng lại!
+{jmp L956b}
+#L9564
+{w1}Dừng lại đi!{n}
+#L956b
+{p}{end}
+#L956d A55
+{flag 35 L959d L9571}
+#L9571
+{f5 68}{w0}Te… Tera!
+Ôi! Tera…
+chết rồi!
+{p}{f6 18}{w1}Hả! Sao… sao
+lại thế!
+{p}
+#L959d
+{f5 6c}{w0}{d3} phải
+không… Ta sẽ
+giết rồi ăn
+{p}{w0}thịt các
+ngươi!
+{p}{f5 6d}{w0}
+{fa}{w0}Tới đây!
+{p}{f6 27}{w1}
+{fa}{w1}Khoan đã!!
+{p}{end}
+#L95d9 A56
+{f5 25}{f6 18}{w1}A! Jaian!
+{p}{fa}{f5 2a}{w1}Suneo!
+{p}{w0}Xin lỗi! Tới
+muộn… Mãi mới
+tìm được Jaian…
+{p}{f6 26}{w1}
+{fa}{w1}Này! Mọi người
+không sao chứ?
+Kịp lúc rồi nhỉ
+{p}{f5 6c}{f6 27}{w0}
+{fa}{w1}Này!! Ta đã tới
+thì đừng hòng
+làm càn!
+{p}{w0}Láo! Thằng
+nhóc!
+{p}{end}
+#L966d A57
+{f6 24}{w1}Hay quá! Hạ
+được Ngưu Ma
+Vương!
+{p}{f5 28}{w0}Nhưng Tera…
+{p}{f6 16}{w1}
+{fa}{w1}Giga Zombie!
+Sửa máy tái
+sinh cứu Tera!
+{p}{f5 68}{w0}Máy đó không
+hồi sinh được
+người… Trừ một
+{p}{w0}cách…
+{p}{f6 02}{w1}
+{fa}{w1}Cách gì vậy?
+{p}{w0}Dùng hết sức
+của Đá Sinh
+Mệnh… Nhưng
+{p}{w0}thế thì không
+làm máy được
+nữa
+{p}{w0}Việc chinh phục
+thế giới cũng
+chấm hết…
+{p}{f6 21}{w1}
+{fa}{w1}Ông vẫn còn
+nói thế sao?!
+{p}{w0}
+{fa}{w0}………
+{p}{f6 16}{w1}
+{fa}{w1}Giga Zombie!!
+{p}{w0}Ta biết…
+Với ta, Tera là
+quý nhất…
+{p}{f5 69}{w0}Nếu ta không
+có ý nghĩ ngu
+ngốc, Tera đã
+{p}{w0}không ra nông
+nỗi này…
+{p}{f6 19}{w1}
+{fa}{w1}Ông hiểu rồi!
+Mau cứu Tera
+đi!
+{p}{w0}Được!
+Chỗ này thế
+này… Ư, ừm…
+{p}{w0}Được! Thế
+này là xong…
+{p}{w0}Xin con!
+Tera ơi,
+sống lại đi!
+{p}{end}
+#L9821 A58
+{f5 6a}{f6 63}{f9 12}{w0}Te… Tera!
+{p}{w1}Cha ơi!
+{p}{w0}Tera! Cha xin
+lỗi… Cha sẽ
+không để con
+{p}{w0}khổ nữa…
+{p}{w1}
+{fa}{w1}Cha hiểu rồi!
+{p}{f5 61}{f6 02}{fa}{w0}
+{fa}{w0}Mọi người…
+thật sự cảm ơn!
+{p}{f5 6a}{w0}Ta không biết
+phải xin lỗi
+thế nào…
+{p}{f6 10}{w1}Không sao… Từ
+giờ hãy thương
+Tera nhé…
+{p}{f5 61}{w0}Được gặp các
+bạn, tôi thật
+sự rất vui!
+{p}{f6 00}{w1}
+{fa}{flag 39 L98ee L98f9}
+#L98ee
+{w1}Bọn tớ cũng
+thế!
+{jmp L9901}
+#L98f9
+{w1}Bọn mình cũng
+vậy!{n}
+#L9901
+{p}{f6 10}{fa}{w1}Nào!
+Bọn tớ về đây!
+Tạm biệt Tera!
+{p}{w0}Mọi người…
+Tạm biệt! Hẹn
+gặp lại nhé!
+{p}{w1}
+{fa}{f6 00}{w1}Tạm biệt!
+Tạm biệt!!
+{p}{end}

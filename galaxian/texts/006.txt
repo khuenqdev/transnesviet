@@ -1,0 +1,75 @@
+=== EXTRACTED SCREEN SCRIPT (PPU STREAM) ===
+Source: capture_006_ppu.json | Table: galaxian.tbl
+
+Nametable 0 [Row 03 | PPU $2065] | Length: 15 bytes
+Text: 1UP    HI-SCORE
+Hex : 0A 25 20 10 10 10 10 18 19 2B 23 13 1F 22 15
+-------------------------------------------------------
+Nametable 0 [Row 04 | PPU $2088] | Length: 11 bytes
+Text: 00     5000
+Hex : 00 00 10 10 10 10 10 05 00 00 00
+-------------------------------------------------------
+Nametable 0 [Row 20 | PPU $228D] | Length: 5 bytes
+Text: PAUSE
+Hex : 20 11 25 23 15
+-------------------------------------------------------
+Nametable 1 [Row 03 | PPU $2465] | Length: 15 bytes
+Text: 1UP    HI-SCORE
+Hex : 0A 25 20 10 10 10 10 18 19 2B 23 13 1F 22 15
+-------------------------------------------------------
+Nametable 1 [Row 04 | PPU $2488] | Length: 11 bytes
+Text: 00     5000
+Hex : 00 00 10 10 10 10 10 05 00 00 00
+-------------------------------------------------------
+Nametable 1 [Row 20 | PPU $268D] | Length: 5 bytes
+Text: PAUSE
+Hex : 20 11 25 23 15
+-------------------------------------------------------
+Nametable 2 [Row 03 | PPU $2865] | Length: 21 bytes
+Text: 1UP    HI-SCORE   2UP
+Hex : 0A 25 20 10 10 10 10 18 19 2B 23 13 1F 22 15 10 10 10 0B 25 20
+-------------------------------------------------------
+Nametable 2 [Row 04 | PPU $2888] | Length: 20 bytes
+Text: 00     5000       00
+Hex : 00 00 10 10 10 10 10 05 00 00 00 10 10 10 10 10 10 10 00 00
+-------------------------------------------------------
+Nametable 2 [Row 16 | PPU $2A0C] | Length: 8 bytes
+Text: 1 PLAYER
+Hex : 0A 10 20 1C 11 29 15 22
+-------------------------------------------------------
+Nametable 2 [Row 18 | PPU $2A4C] | Length: 9 bytes
+Text: 2 PLAYERS
+Hex : 0B 10 20 1C 11 29 15 22 23
+-------------------------------------------------------
+Nametable 2 [Row 24 | PPU $2B05] | Length: 20 bytes
+Text: ©1979 1984 NAMCO LTD
+Hex : 2D 0A 0F 0D 0F 10 0A 0F 0E 0C 10 1E 11 1D 13 1F 10 1C 24 14
+-------------------------------------------------------
+Nametable 2 [Row 26 | PPU $2B46] | Length: 19 bytes
+Text: ALL RIGHTS RESERVED
+Hex : 11 1C 1C 10 22 19 17 18 24 23 10 22 15 23 15 22 26 15 14
+-------------------------------------------------------
+Nametable 3 [Row 03 | PPU $2C65] | Length: 21 bytes
+Text: 1UP    HI-SCORE   2UP
+Hex : 0A 25 20 10 10 10 10 18 19 2B 23 13 1F 22 15 10 10 10 0B 25 20
+-------------------------------------------------------
+Nametable 3 [Row 04 | PPU $2C88] | Length: 20 bytes
+Text: 00     5000       00
+Hex : 00 00 10 10 10 10 10 05 00 00 00 10 10 10 10 10 10 10 00 00
+-------------------------------------------------------
+Nametable 3 [Row 16 | PPU $2E0C] | Length: 8 bytes
+Text: 1 PLAYER
+Hex : 0A 10 20 1C 11 29 15 22
+-------------------------------------------------------
+Nametable 3 [Row 18 | PPU $2E4C] | Length: 9 bytes
+Text: 2 PLAYERS
+Hex : 0B 10 20 1C 11 29 15 22 23
+-------------------------------------------------------
+Nametable 3 [Row 24 | PPU $2F05] | Length: 20 bytes
+Text: ©1979 1984 NAMCO LTD
+Hex : 2D 0A 0F 0D 0F 10 0A 0F 0E 0C 10 1E 11 1D 13 1F 10 1C 24 14
+-------------------------------------------------------
+Nametable 3 [Row 26 | PPU $2F46] | Length: 19 bytes
+Text: ALL RIGHTS RESERVED
+Hex : 11 1C 1C 10 22 19 17 18 24 23 10 22 15 23 15 22 26 15 14
+-------------------------------------------------------

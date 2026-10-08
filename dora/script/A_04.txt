@@ -1,0 +1,646 @@
+#La206 C0
+{flag 28 La22d La20a}
+#La20a
+{f5 28}{f6 13}{w0}Làm sao xong
+nhanh vậy được!
+{p}{w1}Cũng phải…
+{end}
+#La22d
+{flag 2f La280 La231}
+#La231
+{f5 29}{f6 17}{w0}Xin lỗi… vẫn
+chưa xong… Đợi
+thêm chút nữa…
+{p}{w1}Ừ… Cố làm
+xong nhé!
+{p}{w1}Bọn tớ đi tìm
+Shizuka đây…
+{end}
+#La280
+{f5 2a}{f6 01}{flag 45 La2c9 La288}
+#La288
+{w0}Vừa mới xong
+đây… Đây là
+Quân đoàn Mô
+{p}{w0}hình cải tạo…
+{p}{f6 00}{w1}Tuyệt quá…
+{p}{w0}Tớ đưa cho
+Doraemon nhé…
+ 
+{f9 14}{fb 45}{end}
+#La2c9
+{flag 30 La2cd La30d}
+#La2cd
+{w0}Giga Zombie là
+đồ giả sao?
+Ra vậy…
+{p}Tớ sẽ tìm
+Jaian rồi đi
+theo sau…
+{p}{w1}Vậy bọn tớ
+đi trước nhé…
+{end}
+#La30d
+{w0}Hả! Hạ được
+Giga Zombie à?
+Tớ mất công
+{p}{w0}làm thế này…
+{end}
+#La32d C1
+{f5 23}{f6 19}{w1}Shizuka!
+{p}{w0}Nobita…
+Mọi người đều
+bình an cả!
+{p}{w1}Ừ! Mà Tera
+gửi lời hỏi
+thăm cậu đấy!
+{p}{w0}
+{fa}{f5 21}{w0}Hả! Cậu gặp
+Tera rồi à?
+{p}{f6 1d}{w1}
+{fa}{w1}Ừ! Bọn tớ đã
+cùng hạ Giga
+Zombie đấy!
+{p}{w0}Không thể nào!
+Tera là con gái
+Giga Zombie mà!
+{p}{f6 18}{w1}
+{fa}{w1}Hả! Cái gì!
+{p}{f5 20}{w0}
+{fa}{w0}Tớ tình cờ
+biết được…
+{p}{w0}Tera lừa dân
+làng để thu
+thập sinh lực…
+{p}{w1}
+{fa}{w1}Sao… sao lại?
+{p}{w0}Vì cần nó để
+hồi sinh lũ
+quái vật…
+{p}{f6 1b}{w1}
+{fa}{w1}Tera lại làm
+chuyện đó sao…
+{p}{w0}Ừ… Có vẻ Tera
+cũng không
+muốn làm vậy…
+{p}{w0}Còn nữa, người
+cứu bọn tớ khỏi
+dòng loạn lưu
+{p}thời không, hóa
+ra lại là Tera…
+ 
+{p}{w1}
+{fa}{w1}Hả!
+{p}{f5 22}{w0}
+{fa}{w0}Tera chắc hẳn
+là cô gái tốt…
+{p}{fa}{w0}Chỉ vì cha
+nên bất đắc dĩ…
+{p}{f6 16}{w1}
+{fa}{w1}Tới Yêu Ma
+Thành thì có
+lẽ sẽ rõ…
+{p}{w1}Dù sao cũng
+quay lại đã!
+Lên cỗ máy
+{p}{w1}thời gian nào!
+{p}{f5 21}{w0}
+{fa}{w0}Tớ cũng đi!
+{f9 12}{fb 30}{end}
+#La559 C2
+{flag 14 La5bc La55d}
+#La55d
+{f5 71}{f6 00}{flag 02 La565 La56f}
+#La565
+{w0}Cố lên nhé!
+{end}
+#La56f
+{w1}Dekisugi…
+{p}{f6 02}{w1}Thật ra Nobita
+và mọi người
+mất tích, giờ
+{p}{w1}tớ đi tìm…
+{p}{w1}Dạo này thị
+trấn có gì lạ
+không?
+{jmp La5be}
+#La5bc
+{jmp La5e8}
+#La5be
+{p}{w0}Ưm… À đúng!
+Hình như có
+một bốt điện
+{p}{w0}thoại kỳ lạ…
+{p}{jmp La5ea}
+#La5e8
+{jmp La63f}
+#La5ea
+{f5 70}{w0}Nó tự dưng
+xuất hiện trong
+thị trấn, mà
+{p}{w0}chẳng gọi
+được gì cả…
+{p}{f6 10}{w1}
+{fa}{w1}Có khi là Bốt
+Giá Như bị mất!
+Cảm ơn… Tớ đi
+{p}{w1}tìm thử…
+{jmp La641}
+#La63f
+{jmp La695}
+#La641
+{p}{f5 71}{w0}A, khoan đã!
+Tặng cậu búa
+Pikotan và
+{p}{w0}mũ bảo hiểm…
+{p}{fa}{w0}Chắc chắn sẽ
+có ích đấy…
+{f9 14}{p}{f6 00}{w1}
+{fa}{w1}Dekisugi…
+Cảm ơn nhé!
+{fb 02}{end}
+#La695
+{flag 1b La6f0 La699}
+#La699
+{f5 71}{f6 01}{w0}Nước hồ hơi
+mặn nhỉ… Chắc
+nó thông ra
+{p}{w0}biển đấy…
+{p}{fa}Nếu có tàu
+ngầm thì lặn
+xuống xem được…
+{p}{f6 03}{w1}Ra vậy…
+{end}
+#La6f0
+{flag 28 La73c La6f4}
+#La6f4
+{f5 70}{f6 17}{w0}Nghe nói bãi
+đất trống xưa
+có đường hầm…
+{p}{w1}Nhắc mới nhớ,
+chỗ trước mấy
+ống cống hơi
+{p}{w1}lạ thật…
+{end}
+#La73c
+{f5 70}{f6 18}{w0}Có người bảo
+bàn học nhà
+Nobita có bí
+{p}{w0}mật gì đó…
+{p}{f6 19}{w1}Hả? À, cỗ
+máy thời… Á!
+Ối ối ối!
+{p}{f6 1d}{w1}
+{fa}{w1}Kh… không có
+gì đâu… Hì hì
+{end}
+#La799 C3
+{f5 38}{f6 04}{w0}Dám chống lại
+Demaon ta,
+lũ ngu ngốc!
+{p}{flag 39 La7bd La7dc}
+#La7bd
+{w1}Tớ sẽ hạ
+ngươi để cứu
+mọi người và
+{p}{w1}Nobita!
+{jmp La7f9}
+#La7dc
+{w1}Tớ sẽ hạ
+ngươi để cứu
+mọi người và
+{p}{w1}Nobita đấy!{n}
+#La7f9
+{p}{w0}Ha ha ha ha!
+Lũ ngu… Ta sẽ
+xé xác các
+{p}{w0}ngươi!
+{p}{fb 14}{end}
+#La823 C4
+{f5 30}{f6 00}{w0}Meo… Meo…
+{p}{w1}Dễ thương quá
+{end}
+#La839 C5
+{flag 3e La83d La875}
+#La83d
+{f5 7c}{w0}Này, lần này
+chơi dây với
+bạn chồn xanh
+{p}{w0}kia đi…
+{p}{f6 16}{w1}Tớ là mèo
+máy!!
+{end}
+#La875
+{f5 7c}{f6 00}{w0}Chơi dây với
+tớ, thắng thì
+có quà. Chơi
+{p}{w0}không?
+{yesno La8b6 La8a0}
+#La8a0
+{w0}Chẳng ai thắng
+nổi tớ đâu…
+ 
+{end}
+#La8b6
+{f6 1d}{w1}
+{fa}{w1}Chơi dây thì
+cứ để tớ…
+{p}{fa}{w1}Hây! Hây!
+Hây nào!
+{p}{f5 10}{w0}
+{fa}{w0}Giỏi ghê đó!
+Nobita…
+{p}{f6 1a}{w1}
+{fa}{w1}Hừm! Khá lắm!
+{p}{f5 13}{w0}
+{fa}{w0}Cố lên! Cố
+lên Nobita!!
+{p}{f6 1c}{w1}Ối! Nguy
+rồi… Oa!
+Cứu tớ với
+{p}{w1}Doraemon!
+{p}{f5 11}{w0}Với bàn tay
+này thì giúp
+kiểu gì chứ!
+{p}{f6 1a}{w1}Xem đây!
+Ultra Super
+Nobita Special!
+{p}{f5 12}{w0}Giỏi quá!
+Thắng rồi! Ai
+cũng có một
+{p}{w0}sở trường…
+{p}{f6 1b}{w1}
+{fa}{w1}Thế là khen
+à?
+{p}{f5 7c}{w0}
+{fa}{w0}Lần đầu tớ
+bị thua đấy!
+Hứa rồi, đây!
+{fb 3e}{p}{f6 19}{w1}
+{fa}{w1}Đó là Ống
+hút lốc xoáy!
+{f9 14}{end}
+#La9ee C6
+{f5 40}{f6 18}{w1}Thủ tướng!
+Lâu quá không
+gặp ạ…
+{p}{w0}May quá các
+cháu đến! Ta
+cần các cháu
+{p}{w0}giúp sức…
+{p}{w0}Poseidon, kẻ
+lẽ ra đã bị
+các cháu phá
+{p}{w0}hủy, đã hồi
+sinh…
+{p}{w0}Khi nhận ra
+thì thành phố
+đã bị lính sắt
+{p}{w0}bao vây rồi…
+{p}{f5 41}{w0}Nhóm El đi
+điều tra cũng
+mất liên lạc…
+{p}{f6 16}{w1}
+{fa}{w1}El bị
+Poseidon bắt
+rồi! Phải đi
+{p}{w1}cứu cậu ấy!
+{end}
+#Laabf C7
+{f5 3c}{f6 19}{w0}Các cậu tới
+cứu tôi à…
+Cảm ơn nhé!
+{p}{w1}El! Cậu bình
+an rồi!
+{p}{f5 3d}{w0}Poseidon ở
+trong ngôi
+đền này… Đi!
+{p}{f6 16}{w1}
+{fa}{w1}Không… Tớ
+muốn cậu về
+đền Nabara…
+{p}{w0}
+{fa}{w0}Doraemon!
+Tôi cũng đi!
+{p}{w1}Giờ Mu đang
+bị lính sắt
+tấn công, rất
+{p}{w1}nguy hiểm!
+{p}{w1}Hãy mau về
+cứu mọi người
+đi!
+{p}{w1}Poseidon thì
+bọn tớ nhất
+định sẽ hạ…
+{p}{w0}Tôi hiểu…
+Doraemon…
+{p}{w0}Vậy mọi
+người! Cùng
+cố gắng nhé!
+{fb 19}{end}
+#Labb9 C8
+{f5 28}{f6 1d}{w0}Oa oa!
+Cảm ơn mọi
+người nhiều!!
+{p}{w1}Tốt quá…
+Suneo… Nào,
+đi cùng nhé!
+{f9 12}{p}{f5 2a}{w0}Đây là chìa
+khóa đền của
+Poseidon…
+{p}{w0}Tớ đưa cho
+Doraemon nhé…
+{f9 14}{fb 1a}{p}{f6 16}{w1}
+{fa}{w1}Giờ thì hạ
+được Poseidon
+rồi!
+{end}
+#Lac2b C9,C10
+{f5 58}{w0}Cuối cùng các
+ngươi cũng tới
+đây!
+{p}{fa}{w0}Nhưng không
+thắng nổi bọn
+ta đâu!
+{p}{fb 28}{end}
+#Lac54 C11
+{f5 56}{w0}Kẻ ở trên là
+Tsuchidama giả
+dạng ta…
+{p}{w0}Nhưng bọn ta
+không địch nổi
+hắn…
+{p}{w0}Xin các cháu!
+Hãy thay bọn
+ta hạ hắn!
+{p}{f6 1a}{w1}Cứ để bọn
+cháu! Thưa
+Pháp Vương…
+{end}
+#Lacb8 C12
+{f5 48}{f6 01}{w1}Chú Banhoo!
+Cô Rô đang
+tìm chú đấy…
+{p}{w0}Đừng lo cho
+bọn ta, hãy
+đi trước hạ
+{p}{w0}Pháp Vương
+giả đi!
+{fb 25}{end}
+#Lad07 C13
+{flag 25 Lad0b Lad4b}
+#Lad0b
+{f5 55}{flag 26 Lad11 Lad1a}
+#Lad11
+{w0}Trông cậy cả
+vào các cháu!
+{end}
+#Lad1a
+{w0}Xem ra bị
+lộ rồi nhỉ!
+{p}{f5 58}{fa}{w0}Đây mới là
+bộ dạng thật
+của ta!
+{p}{fb 26}{end}
+#Lad4b
+{f5 54}{w0}Tộc Nanja
+muốn ngừng
+chiến ư!
+{p}{w0}Không đời
+nào!
+{p}{fa}{w0}Phải đánh tới
+khi một bên
+diệt vong!
+{p}{fa}{w0}Dù đội hiệp
+sĩ có bị xóa
+sổ cũng vậy…
+{p}{flag 42 Lae07 Ladab}
+#Ladab
+{w0}Thư từ thế
+này thì xé
+đi là xong!
+{p}{w0}Xoẹt!
+{fb 42}{p}{fa}{w1}
+{fa}{f5 1b}{f6 16}{w0}Doraemon, Pháp
+Vương có vẻ
+lạ lắm nhỉ?
+{p}{w1}Thử điều tra
+bên trong
+xem sao…{n}
+#Lae07
+{end}
+#Lae08 C14
+{f5 4c}{f6 18}{w1}Cô Rô!
+{p}{w0}Nobita, cậu
+đến rồi…
+Chiến tranh
+{p}{w0}này có gì
+đó lạ lắm…
+{flag 21 Lae3f Lae40}
+#Lae3f
+{end}
+#Lae40
+{p}{w0}Nên nghe cả
+lời người tộc
+Nanja nữa…
+{p}{w0}Nếu các cậu
+mang cờ trắng
+này tới, có
+{p}{w0}lẽ họ sẽ
+chịu gặp…
+{p}{w1}Vậy cháu xin
+giữ lá cờ
+trắng này…
+ 
+{f9 14}{fb 21}{p}{fa}{w1}Cháu sẽ mang
+nó tới gặp
+tộc Nanja…
+{end}
+#Laec8 C15
+{f5 24}{f6 19}{w0}Ồ! Bạn tâm
+giao của tớ!
+{p}{w1}Jaian!
+{p}{f5 25}{w0}Tớ cũng muốn
+đi cùng, nhưng
+đã hứa bảo vệ
+{p}{w0}Rô và trại
+này tới khi
+đội tuần tra
+{p}{w0}quay về…
+{p}{w0}Khi họ về,
+tớ sẽ tới
+Enlil…
+{p}{fa}{f5 26}{w0}Gặp nhau ở
+đó nhé!
+{p}{f6 1d}{w1}
+{fa}{w1}Enlil hả…
+Tớ hiểu rồi…
+{end}
+#Laf6d C16
+{flag 23 Laf71 Laf89}
+#Laf71
+{f5 50}{w0}NHỜ CÁC CẬU
+LO LÁ THƯ…
+{end}
+#Laf89
+{f5 50}{f6 02}{w1}Xin hãy nghe!
+Chiến tranh
+này có gì đó
+{p}{w1}rất lạ…
+{p}{w1}Hai bên đều
+nói bên kia
+khơi mào…
+{p}{w0}………
+{p}{f6 16}{w1}
+{fa}{w1}Ông bảo bên
+kia điều khiển
+khủng long,
+{p}{w1}nhưng không
+phải vậy…
+{p}{f6 1b}{fa}{w1}Xin đừng đánh
+nữa, hãy nói
+chuyện đàng
+{p}{w1}hoàng đi!
+{p}{f6 17}{fa}{w1}Xin hãy dừng
+chiến tranh
+lại…
+{p}{f5 51}{w0}CÁC CẬU LÀ
+THẦN ĐÃ CỨU
+TỔ TIÊN TA…
+{p}{w0}ĐƯỢC, TA TIN
+CÁC CẬU. TA
+SẼ NGỪNG CHIẾN
+{p}{w0}HÃY MANG THƯ
+NÀY TỚI CHỖ
+PHÁP VƯƠNG…
+{fb 23}{p}{f6 00}{w1}
+{fa}{w1}Cảm ơn! Nhất
+định sẽ trao
+tận tay ạ…
+{end}
+#Lb0df C17
+{flag 2b Lb11e Lb0e3}
+#Lb0e3
+{f5 5c}{f6 19}{w1}Chào! Kukuru
+đấy à… Lâu
+quá! Khỏe chứ?
+{p}{w0}Ừ… Nobita
+và các cậu
+cũng khỏe nhỉ
+{end}
+#Lb11e
+{flag 2c Lb14d Lb122}
+#Lb122
+{f5 5d}{f6 17}{w0}Mẹ tớ bị quái
+vật phun
+chất độc…
+{p}{jmp Lb151}
+#Lb14d
+{flag 2d Lb1a3 Lb192}
+#Lb151
+{w0}Có cỏ thuốc
+đỏ thì chữa
+được, nhưng
+{p}{w0}chẳng biết
+ở đâu…
+{p}{f6 16}{w1}Được! Bọn
+tớ sẽ tìm
+giúp cậu!
+{jmp Lb194}
+#Lb192
+{jmp Lb1cf}
+#Lb194
+{p}{f5 5c}{w0}
+{fa}{w0}Cảm ơn nhé!
+{end}
+#Lb1a3
+{f5 5f}{f6 1d}{w0}Dù không có
+Tera, tớ vẫn
+bảo vệ làng!
+{p}{w1}Trông cả vào
+cậu… Kukuru!
+{end}
+#Lb1cf
+{f5 5e}{flag 46 Lb207 Lb1d5}
+#Lb1d5
+{w0}Các cậu tìm
+được cỏ thuốc
+đỏ rồi à!
+{p}{w0}Có nó thì mẹ
+tớ chắc chắn
+sẽ khỏi!
+{fb 46}
+#Lb207
+{w0}Cảm ơn mọi
+người!
+{p}{f6 10}{w1}Tốt quá rồi!
+{end}
+#Lb21f C18
+{flag 2b Lb27a Lb223}
+#Lb223
+{f5 60}{f6 01}{w0}Tôi là Tera…
+{p}Cô bé tên
+Shizuka thì
+tôi biết…
+{p}{w0}Cô ấy không
+phải người
+thế giới này
+{p}{f5 62}{w0}nên tôi đã
+đưa cô ấy về
+thế giới cũ…
+{jmp Lb27c}
+#Lb27a
+{jmp Lb2eb}
+#Lb27c
+{p}{f6 00}{w1}Tốt quá!
+Cảm ơn chị!
+{p}{w0}Các bạn cũng
+đừng làm việc
+nguy hiểm nữa,
+{p}{w0}về đi thôi…
+{p}{f6 16}{w1}
+{fa}{w1}Nhưng bọn tớ
+phải ngăn âm
+mưu của Giga
+{p}{w1}Zombie…
+{p}{w0}
+{fa}{f5 64}{w0}Vậy sao…
+{end}
+#Lb2eb
+{flag 2c Lb33f Lb2ef}
+#Lb2ef
+{f5 62}{w0}Quạt lá
+chuối ư?
+{p}{w0}Mà mẹ của
+Kukuru bị
+bệnh rồi…
+{p}Muốn chữa
+cần có cỏ
+thuốc đỏ…
+{jmp Lb341}
+#Lb33f
+{jmp Lb387}
+#Lb341
+{p}{f6 01}{w1}Cỏ thuốc đó
+ở đâu vậy?
+{p}{w0}Trong hang
+gần Làng Bóng
+Tối, cạnh cái
+{p}{w0}rương đã mở…
+{jmp Lb389}
+#Lb387
+{jmp Lb3f1}
+#Lb389
+{p}{f5 65}{fa}{w0}Nhưng chỗ đó
+rất nguy
+hiểm…
+{p}{w0}Tôi không thể
+để các bạn đi
+tới đó được…
+{p}{f6 1a}{w1}
+{fa}{w1}Kukuru là
+bạn bọn tớ…
+Không bỏ được!
+{p}{w0}
+{fa}{w0}Tôi hiểu rồi
+{end}

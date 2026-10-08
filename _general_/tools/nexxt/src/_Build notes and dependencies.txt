@@ -1,0 +1,63 @@
+Build guide:
+
+For legacy reasons, nexxt only builds in borland builder. 
+You may have luck converting the project to Embarcadero RAD tools,
+something i'm considering doing at some later point, but it's
+currently not something i can provide a guide for. 
+
+The below goes for my experience getting it to build on win10. 
+
+1) Find a copy of Borland Builder 2006. 
+2) Find its dependencies, listed below:
+ 
+Microsoft .NET Framework v.1.1 Redistributable
+Microsoft .NET SDK	 v.1.1
+Microsoft Visual J#	 v.1.1 Redistributable
+Microsoft Internet Explorer 6 SP1
+Microsoft XML Core Services v5.0 SP2
+
+Some of these may already be covered by what you have on your
+PC, or by later versions, but one in particular gave
+me problems due to the installer not recognizing an updated
+version that is supposed to cover the old one.
+It's .net framework 1.1 (dotnetfx.exe). 
+
+Its installer in turn won't function on win10, even with
+compatibility modes turned on. 
+You have to install manually it through the cmd prompt.
+Here's how i did it:
+
+1) create a new folder at c:\
+	I called mine DotNet. Refer to this folder in the following steps.
+
+2) Find and download Microsoft .NET Framework 1.1 redistrutable package (dotnetfx.exe)
+
+3) Find and download Microsoft .NET framework 1.1 service pack 1 (DP1.1sp1-KB867460-X86.exe). 
+Rename it dotnetfxsp1.exe. - I'm unsure if this is actually needed, but did it anyway.
+
+4) Move both to your folder (in my case C:\DotNet)
+
+5) Run command prompt as administrator
+
+6) cd C:\DotNet
+
+7) dotnetfx.exe /c:"msiexec.exe /a netfx.msi TARGETDIR=C:\DotNet"
+
+8) A dialog shows. Click yes.
+
+9) Another dialog. Click OK.
+
+10) Go to the cmd prompt again. this time, run: 
+    dotnetfxsp1.exe /Xp:C:\DotNet\netfxsp.msp
+    No message will show. 
+11) msiexec.exe /a c:\DotNet\netfx.msi /p c:\DotNet\netfxsp.msp
+
+12) Wait for the dialog to be done
+
+13) In your folder, there's now a file called netfx.msi. Run it.
+
+14) wait for it to complete and close.
+
+15) if you wish to confirm that it has been installed correctly, go to Control panel > Program and Features.
+
+

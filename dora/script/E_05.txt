@@ -1,0 +1,518 @@
+#La863 E174
+{flag 26 La867 La885}
+#La867
+Giờ lại phải
+đánh cả khủng
+long nữa!
+{end}
+#La885
+Thỉnh thoảng
+Pháp Vương
+xuống tầng
+{p}{fa}hầm làm gì
+nhỉ…
+{end}
+#La8b3 E175
+{flag 26 La8b7 La8e0}
+#La8b7
+Tháp Cro-Magnon
+ở xa hơn về nam
+từ chỗ xuôi
+{p}{fa}đại vận hà…
+{end}
+#La8e0
+Đôi khi tôi
+thấy ảo giác
+búp bê đất
+{p}{fa}đi lại…
+{p}{fa}Chắc tôi mệt
+quá rồi…
+{end}
+#La91a E176
+{flag 26 La91e La94b}
+#La91e
+Tiếng dưới sàn
+là ngài Banhoo!
+Giá biết sớm…
+{end}
+#La94b
+Thỉnh thoảng có
+tiếng vọng lên
+từ dưới sàn…
+{p}{fa}Ôi, sợ quá!
+{end}
+#La96e E177
+Ư hừm…
+{end}
+#La976 E178
+{flag 41 La97a La99a}
+#La97a
+Khách thứ 20000
+thì tặng gì
+đây nhỉ…
+{end}
+#La99a
+Bạn may mắn
+đấy! Là khách
+thứ 10000!
+{p}{fa}Tặng bạn món
+này làm kỷ niệm
+{f9 14}{p}Hả! Nó tên là
+Máy Hút Ruột
+à? Tôi đâu
+{p}{fa}biết…
+{fb 41}{end}
+#La9f6 E179
+Làng Nodon ở
+phía đông
+đây…
+{end}
+#Laa17 E180
+Tộc Nanja cứ
+khăng khăng là
+chúng tôi gây
+{p}{fa}chiến… Kỳ
+lạ thật…
+{end}
+#Laa53 E181
+{flag 1e Laa57 Laa77}
+#Laa57
+Hồi trẻ ta lập
+nhiều chiến
+công lắm…
+{end}
+#Laa77
+Ta là đội
+trưởng… Gì?
+Muốn đi thuyền
+{p}{fa}chuyển chiều?
+{p}Chuyện đó để
+sau, nghe ta
+kể chiến công
+{p}{fa}hồi trẻ nhé?
+{yesno Laac8 Lab3b}
+#Laac8
+Lũ trẻ với
+con chồn ngoan
+quá… Vậy nghe
+{p}{fa}ta kể nhé…
+{p}{fa}Kể mãi…
+{p}{fa}Sao, hay
+chứ hả?
+{yesno Lab16 Lab3b}
+#Lab16
+Vậy ta cho giấy
+phép lên thuyền
+Cố lên nhé!
+{f9 14}{fb 1e}{end}
+#Lab3b
+{fa}Vậy thì xin
+lỗi nhé!
+{end}
+#Lab4b E182
+Tộc Nanja điều
+khiển khủng
+long! Chắc
+{p}{fa}chắn thế!
+{end}
+#Lab71 E183
+Trang bị khá
+đấy, nhưng
+còn thiếu chút…
+{end}
+#Lab94 E184
+Vũ khí giáp
+trụ hiệp sĩ
+dùng tốt lắm!
+{end}
+#Labaf E185
+Nghe nói tù
+trưởng Nanja
+là người biết
+{p}{fa}điều lắm…
+{p}Pháo đài Nanja
+của ông ta ở
+phía tây…
+{end}
+#Lac01 E186
+Biết Kiếm Diệt
+Rồng không?
+{end}
+#Lac17 E187
+ĐI THÁP CRO-
+MAGNON À? VẬY
+NGHỈ NGƠI ĐI…
+{p}THÁP RẤT CAO…
+KHÔNG CÓ SỨC
+THÌ KHÔNG LEO
+{p}{fa}NỔI ĐÂU…
+{end}
+#Lac63 E188
+Đây là làng
+Toro…
+{end}
+#Lac73 E189
+Nghe nói làng
+Nanbo bị tộc
+Bóng Tối tấn
+{p}công… Làng ở
+phía đông đây…
+{end}
+#Laca0 E190
+Nếu đang tìm
+người thì hỏi
+ngài Tera là
+{p}{fa}biết ngay…
+{end}
+#Lacc4 E191
+{flag 2d Lad18 Lacc8}
+#Lacc8
+Có một vị
+bảo vệ chúng
+tôi khỏi Giga
+{p}Zombie…
+{p}Đó là ngài
+Tera, sứ giả
+của thần, biết
+{p}{fa}phép thần kỳ…
+{end}
+#Lad18
+Xin bảo vệ
+chúng tôi khỏi
+Giga Zombie…
+{end}
+#Lad31 E192
+Tộc Bóng Tối
+làm tay sai
+Giga Zombie,
+{p}bắt dân làng
+đi…
+{p}Người trở về
+chẳng nhớ gì
+và rất mệt mỏi
+{end}
+#Lad84 E193
+Giga Zombie hồi
+sinh nên chẳng
+sống yên được…
+{end}
+#Lada7 E194
+{flag 2d Ladc8 Ladab}
+#Ladab
+Biết ngài Tera
+không? Không
+biết à? Lạc
+{p}{fa}hậu quá!
+{end}
+#Ladc8
+Em thích ngài
+Tera lắm!
+{end}
+#Ladd9 E195
+Ở Yêu Ma Thành
+có Tinh Linh
+Vương Giga
+{p}{fa}Zombie đáng
+sợ lắm đấy!
+{end}
+#Lae01 E196
+Đây là làng
+Nanbo…
+{end}
+#Lae11 E197
+Làng bị tộc
+Bóng Tối
+tấn công rồi…
+{end}
+#Lae2b E198
+Trưởng lão bị
+tộc Bóng Tối
+bắt đi…
+{p}Ông về được
+nhưng chẳng nhớ
+về bằng cách
+{p}{fa}nào…
+{end}
+#Lae75 E199
+{flag 2d Laea1 Lae79}
+#Lae79
+Trùm tộc Bóng
+Tối biết rõ về
+quạt lá chuối…
+{end}
+#Laea1
+Từ giờ phải cố
+xây lại làng!
+{end}
+#Laeba E200
+Hình như trưởng
+lão đã biết bí
+mật gì đó của
+{p}{fa}ngài Tera…
+{end}
+#Laee1 E201
+{flag 2d Laf04 Laee5}
+#Laee5
+Ngài Tera ở
+làng Ánh Sáng,
+bên kia núi…
+{end}
+#Laf04
+Cố lên nhé!
+{end}
+#Laf13 E202
+Chào mừng tới
+làng Ánh Sáng!
+{end}
+#Laf23 E203
+{flag 2d Laf41 Laf27}
+#Laf27
+Làng này được
+ngài Tera
+bảo vệ…
+{end}
+#Laf41
+Đi cẩn thận…
+{end}
+#Laf4b E204
+Làng tộc Bóng
+Tối ở phía
+bắc đây…
+{end}
+#Laf72 E205
+Có người bị
+quái phun độc…
+Ngài Tera cũng
+{p}{fa}không chữa được
+{end}
+#Lafa1 E206
+Hiếm có thật!
+Đi du lịch
+cùng con chồn
+{p}{fa}à? Cẩn thận…
+{end}
+#Lafc9 E207
+Ngài Tera thật
+tuyệt vời!
+{end}
+#Lafdb E208
+{flag 2b Laff9 Lafdf}
+#Lafdf
+Con trai tôi,
+Kukuru, rất
+chăm chỉ…
+{end}
+#Laff9
+{flag 46 Lb02a Laffd}
+#Laffd
+Vợ tôi bị quái
+vật phun độc…
+Ôi! Cứ thế này
+{p}{fa}thì chết mất!
+{end}
+#Lb02a
+Cảm ơn các
+cháu!
+{end}
+#Lb037 E209
+Tộc Bóng Tối
+hung dữ lắm…
+Thích đánh nhau
+{end}
+#Lb05b E210
+{flag 2a Lb0af Lb05f}
+#Lb05f
+Đúng đây là nhà
+trùm, nhưng các
+ngươi là ai?
+{p}Mà… lạnh quá…
+Ơ? Tuyết rơi!
+Trắng xóa luôn!
+{jmp Lb0b1}
+#Lb0af
+{jmp Lb0dc}
+#Lb0b1
+{p}{fa}Ngươi thích
+tuyết không?
+{fb 2a}{yesno Lb0c6 Lb0de}
+#Lb0c6
+{fa}Ta ghét!
+Bốp!
+{f9 23}{end}
+#Lb0dc
+{jmp Lb111}
+#Lb0de
+{fa}Phải rồi, lạnh
+mà… Lạnh thì
+đói nhỉ?
+{yesno Lb115 Lb102}
+#Lb102
+{fa}Ta đói đây!!
+{end}
+#Lb111
+{flag 44 Lb167 Lb115}
+#Lb115
+{fa}Này, cho ta
+cái bánh rán
+ngon lành kia?
+{yesno Lb12f Lb14b}
+#Lb12f
+{fa}Ồ! Cảm ơn!
+Ngon tuyệt!!
+{fb 44}{end}
+#Lb14b
+{fa}Chậc! Lạnh cả
+người lẫn lòng!
+Bốp!
+{f9 23}{end}
+#Lb167
+Ồ! Lại là
+các ngươi…
+{fb 44}{end}
+#Lb175 E211
+Tộc Bóng Tối
+oai thì xây
+nhà…
+{p}Không oai thì
+đào hang ở…
+Hiểu chưa?
+{end}
+#Lb1b0 E212
+Đây là làng
+Bóng Tối chứ
+đâu nữa!
+{p}{fa}Bốp!
+{f9 23}{end}
+#Lb1d1 E213
+Ồn ào quá…
+Đánh bây giờ!
+Bốp!
+{f9 23}{end}
+#Lb1ea E214
+Ngươi là ai!
+Không phải
+người làng này!
+{p}{fa}Bốp!
+{f9 23}{end}
+#Lb20d E215
+Ta đang bực…
+Cho ta đánh
+một cái…
+{yesno Lb226 Lb226}
+#Lb226
+{fa}Thằng này!
+Bốp!
+{f9 23}{end}
+#Lb237 E216
+Làng Nanbo ở
+tít phía đông
+{end}
+#Lb24c E217
+Nobita trông
+chậm chạp…
+Nhưng khiến
+{p}người ta không
+bỏ mặc được…
+Cố lên nhé!
+{end}
+#Lb27c E218
+Quanh Yêu Ma
+Thành là thung
+lũng lửa…
+{p}Có quạt lá
+chuối thì dập
+được lửa…
+{end}
+#Lb2c0 E219
+Làng Ánh Sáng
+ở phía đông…
+Phải vòng núi
+{end}
+#Lb2e7 E220
+Ôi, hình như ta
+đã biết chuyện
+hệ trọng về
+{p}{fa}ngài Tera…
+{p}{fa}Không được!
+Chẳng nhớ ra!
+{end}
+#Lb323 E221
+Nghe nói có
+đúng một cách
+rút độc quái
+{p}{fa}vật ra…
+{end}
+#Lb34e E222
+{flag 2d Lb352 Lb35e}
+#Lb352
+Đ… đi cẩn
+thận nhé…
+{end}
+#Lb35e
+Tôi thấy ngài
+Tera nói chuyện
+với ai đó vô
+{p}hình…
+{p}Ngài xin đừng
+lấy hết sinh
+lực dân làng…
+{p}Tôi đã nghe
+bí mật hệ trọng
+Ôi, sợ quá…
+{end}
+#Lb3d6 E223
+{flag 2b Lb402 Lb3da}
+#Lb3da
+Bọn ngươi… Hừm!
+Khả nghi lắm!
+Ta đánh cho!
+{fb 2b}{end}
+#Lb402
+Hừm, ta thua…
+Ngươi mạnh…
+Ta không chống
+{p}kẻ mạnh hơn…
+{p}Hả? Ai giữ
+quạt lá chuối
+à? Hừm…
+{p}Đó… đó là…
+ngài Tera…
+ 
+{p}Đừng nói với
+ai là ngài Tera
+giữ quạt nhé…
+{end}
+#Lb48b E224
+Muốn tới Yêu Ma
+Thành phải qua
+thung lũng lửa!
+{p}Thung lũng ở
+phía tây… Đi
+được thì đi đi!
+{p}{fa}Bốp!
+{f9 23}{end}
+#Lb4d9 E225
+Đất ở thung
+lũng lửa không
+đi nổi đâu…
+{p}Muốn dập lửa
+phải dùng cái
+quạt tên là
+{p}quạt lá chuối…
+{p}Dùng quạt ở
+giữa thung
+lũng nhé!
+{p}{fa}Bốp!
+{f9 23}{end}
+#Lb541 E226
+Không có việc
+thì đừng bắt
+chuyện!
+{p}{fa}Bốp!
+{f9 23}{end}
+#Lb55d E227
+Tránh ra!
+Ta nóng tính
+lắm đấy!
+{p}{fa}Bốp!
+{f9 23}{end}

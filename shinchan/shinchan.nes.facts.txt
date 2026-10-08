@@ -1,0 +1,48 @@
+ROM fact sheet - shinchan.nes
+Platform: NES / Famicom
+
+== ROM ==
+Title / region / revision : shinchan / region: see header / Rev 0 (no tag)
+File name / size          : shinchan.nes / 262,160 bytes
+CRC32 / SHA-1 (file)      : F3259AB4 / a194b3ac9ca499cb4c56ebbb351772a6b310689e
+MD5 (file)                : d1b7abd50f9e010cf9cb1b1019629045
+CRC32 / SHA-1 (no header) : DB05106E / 8c9e26126bfa2c6f5c123e806db468e1f0d66547
+Header type               : NES 2.0 (16-byte header)
+Trainer                   : no
+Base patch used (if any)  : (fill in)
+
+== Hardware ==
+Platform / CPU / endian    : NES/Famicom / Ricoh 2A03 (6502, no decimal mode) / little-endian
+Mapper                     : 16 - Bandai FCG, submapper 5
+PRG-ROM                    : 128 KB (131,072 bytes) at file offset $0010
+CHR                        : CHR-ROM 128 KB (131,072 bytes) at file offset $20010
+Mirroring                  : horizontal (header; mapper may override)
+Bank size / fixed bank(s)  : 16 KB (16,384 bytes) / last 16 KB at $C000
+offset <-> address formula : file = 16 + bank*$4000 + (cpu - window base); cpu window $8000-$FFFF; vectors NMI/RESET/IRQ at $FFFA-$FFFF (last bank)
+Vectors (last PRG bytes)   : NMI $C0AC  RESET $C001  IRQ $C13D
+Save RAM                   : PRG-RAM 0 bytes, PRG-NVRAM (battery) 0 bytes, CHR-RAM 0 bytes, CHR-NVRAM 0 bytes
+Timing                     : NTSC
+Header / ROM checksum      : none on this platform (the game may still check its save data)
+Checked by game?           : (fill in) (patch one byte in unused space and boot to test)
+
+== Space ==
+Scan settings           : runs of $00 or $FF >= 64 bytes, split at bank borders (filler runs may still be data - verify with a debugger)
+Total free (candidate)  : 9,195 bytes of 128 KB (131,072 bytes) (7.0%)
+Free ROM space per bank :    bank 00  free      126 B in   1 run(s); largest     126 B of FF at file 003F92 / 00:BF82
+                             bank 01  free      220 B in   1 run(s); largest     220 B of FF at file 007F34 / 01:BF24
+                             bank 02  free    2,949 B in   1 run(s); largest   2,949 B of FF at file 00B48B / 02:B47B
+                             bank 03  free      863 B in   1 run(s); largest     863 B of FF at file 00FCB1 / 03:BCA1
+                             bank 04  free      335 B in   1 run(s); largest     335 B of FF at file 013EC1 / 04:BEB1
+                             bank 05  free    2,799 B in   1 run(s); largest   2,799 B of FF at file 017521 / 05:B511
+                             bank 06  free      747 B in   1 run(s); largest     747 B of FF at file 01BD25 / 06:BD15
+                             bank 07  free    1,156 B in   1 run(s); largest   1,156 B of FF at file 01FB86 / 07:FB76
+Largest 8 runs          : file 00B48B      02:B47B    2,949 B  fill FF
+                          file 017521      05:B511    2,799 B  fill FF
+                          file 01FB86      07:FB76    1,156 B  fill FF
+                          file 00FCB1      03:BCA1      863 B  fill FF
+                          file 01BD25      06:BD15      747 B  fill FF
+                          file 013EC1      04:BEB1      335 B  fill FF
+                          file 007F34      01:BF24      220 B  fill FF
+                          file 003F92      00:BF82      126 B  fill FF
+Free RAM                : (fill in) (watch RAM in a debugger; look for areas never written)
+Expansion plan          : current 128 KB (131,072 bytes), platform/mapper limit about 256 KB (262,144 bytes) -> up to 128 KB (131,072 bytes) can be added; (fill in)

@@ -1,0 +1,416 @@
+#L995b A61
+Giga Zombie,
+kẻ từng muốn
+trị nhân loại!!
+{end}
+#L9985 A62
+Nay hắn lại lập
+kế hoạch chinh
+phục thế giới!
+{end}
+#L99b0 A63
+Hắn hồi sinh,
+điều khiển các
+bạo chúa xưa
+{end}
+#L99dc A64
+Biết chuyện,
+nhóm Doraemon
+ra tay cản hắn
+{end}
+#L9a02 A65
+Họ dùng cỗ máy
+thời gian về
+thời tiền sử
+{end}
+#L9a2c A66
+Nhưng hay tin,
+Giga Zombie bẻ
+cong không gian
+{end}
+#L9a57 A67
+Cả nhóm bị văng
+vào dòng loạn
+lưu thời không!
+{end}
+#L9a78 A68
+Chỉ Doraemon
+về được thị
+trấn quê nhà…
+{end}
+#L9a98 A69
+     HẾT
+{end}
+#L9aa5 A70
+Cảm ơn {d3}!
+Nhờ cậu mà trái
+đất được cứu!
+{end}
+#L9acc A71
+Bọn tớ thật vui
+vì đã được gặp
+cậu!
+{end}
+#L9ae7 A72
+Mong có ngày
+lại cùng nhau
+phiêu lưu nhé!!
+{end}
+#L9b0c A73
+ 
+ 
+ 
+   SẢN XUẤT
+   EPOCH
+{end}
+#L9b2b A74
+{f5 00}{w0}NGƯỜI CHƠI
+  {d3}
+{f6 10}{w1}NHÀ SẢN XUẤT
+  Hiroshi Ukisu
+{end}
+#L9b4f A75
+{f5 1d}{w0}TỔNG CHỈ ĐẠO
+Sadao Miyahara
+{f6 26}{w1}ĐẠO DIỄN
+  Sansei Ikou
+{end}
+#L9b7b A76
+{f5 2a}{w0}ĐẠO DIỄN CHÍNH
+ Masayuki Horie
+Font "Horieeru"
+{f6 23}{w1}PHÓ ĐẠO DIỄN
+ Tarshi Looper
+ Noba Hohihohi
+{end}
+#L9bc6 A77
+{f5 70}{w0}CHƯƠNG TRÌNH
+  HIMAX
+{f6 2c}{w1}LẬP TRÌNH
+Oikawa,Watanabe
+Shinomiya
+{end}
+#L9c0c A78
+{f5 3c}{w0}ĐỒ HỌA Takashi
+Nagasaki Tomoe
+Inazawa
+{f6 48}{w1}ÂM THANH
+ Tarshi Looper
+{end}
+#L9c46 A79
+{f5 60}{w0}KỊCH BẢN
+ Red Company
+ Pop House
+{f6 78}{w1}HỢP TÁC
+ Shogakukan
+{end}
+#L9c78 A80
+{f5 30}{w0}CỐ VẤN
+ Ennoshita no
+ Taikomochi
+{f6 5c}{w1}CỐ VẤN
+Akagii,Sawada
+Seiji,Satobot
+{end}
+#L9cc8 B0
+{fa}
+{end}
+#L9ccb B1
+{e9} hồi sức!
+{end}
+#L9cda B2
+{fa}Cả nhóm hồi sức!
+ 
+ 
+{end}
+#L9cef B3
+{fa}{e9} khỏe lại rồi!
+ 
+ 
+{end}
+#L9d01 B4
+{fa}{e9} đã hết độc!
+ 
+ 
+{end}
+#L9d17 B5
+{fa}{e8} dùng {ea}
+cho {e9}!
+{end}
+#L9d27 B6
+{fa}{e8} đã dùng
+{ea}!
+{end}
+#L9d35 B7
+{e8} chẳng có
+gì cả…
+{end}
+#L9d46 B8
+Không đủ bánh rán!
+{end}
+#L9d50 B9
+{fa}Nhưng không hiệu quả!
+ 
+ 
+{end}
+#L9d61 B10
+{eb} xuất hiện!
+{end}
+#L9d6c B11
+{fa}Doraemon sợ tê cứng!
+ 
+ 
+{end}
+#L9d86 B12
+{fa}Quái vật bỏ chạy!
+ 
+ 
+{end}
+#L9d98 B13
+{fa}Nhóm {d3} bị đánh úp!
+ 
+ 
+{end}
+#L9dac B14
+{fa}Quái vật đang run sợ!
+ 
+ 
+{end}
+#L9dc1 B15
+{fa}{eb} tấn công!
+{end}
+#L9dcc B16
+{fa}{eb} dùng phép!
+ 
+ 
+{end}
+#L9de0 B17
+{fa}{e8} ngủ thiếp đi!
+ 
+ 
+{end}
+#L9df3 B18
+{fa}{e8} không hề hấn!
+ 
+ 
+{end}
+#L9e09 B19
+{fa}{eb} phun lửa!
+{end}
+#L9e1a B20
+{e8} mất {ec} HP!
+{end}
+#L9e2b B21
+{eb} lao vào húc!
+{end}
+#L9e3b B22
+{fa}{e8} bị tê liệt!
+ 
+ 
+{end}
+#L9e4e B23
+{fa}{e8} bị trúng độc!
+ 
+ 
+{end}
+#L9e62 B24
+Nhưng {e8} né được!
+{end}
+#L9e75 B25
+{fa}{eb} vẫn còn ngã!
+ 
+ 
+{end}
+#L9e89 B26
+{fa}{eb} đứng dậy!
+ 
+ 
+{end}
+#L9e9a B27
+{fa}{eb} bị dây quấn!
+ 
+ 
+{end}
+#L9eb0 B28
+{fa}{eb} gỡ được dây!
+ 
+ 
+{end}
+#L9ec6 B29
+{fa}{eb} đứng im!
+ 
+ 
+{end}
+#L9ed8 B30
+{fa}{eb} cử động lại!
+ 
+ 
+{end}
+#L9ee9 B31
+Ơ, đánh trượt rồi!
+ 
+{end}
+#L9ef7 B32
+{fa}{e8} tấn công!
+{end}
+#L9f02 B33
+{fa}{e8} cố gắng!
+{end}
+#L9f0e B34
+{fa}Miyoko dùng phép!
+{end}
+#L9f20 B35
+{fa}Gây {ec} sát thương
+cho {eb}!
+{end}
+#L9f34 B36
+Hạ được {eb}!
+{end}
+#L9f3f B37
+{fa}Nhóm {d3} bỏ chạy!
+{end}
+#L9f4d B38
+Nhưng bị chặn lại!
+ 
+{end}
+#L9f5f B39
+Hút {ec} HP của
+{eb}!
+{end}
+#L9f6f B40
+Sức của {eb}
+giảm {ec}!
+{end}
+#L9f7e B41
+{fa}{eb} ngã nhào!
+ 
+ 
+{end}
+#L9f8e B42
+{fa}{eb} bất động!
+ 
+ 
+{end}
+#L9fa1 B43
+{e8} nhẹ bẫng người!
+{end}
+#L9fb0 B44
+{fa}Đòn tụ lực!
+{end}
+#L9fc0 B45
+{fa}Đòn nhanh như chớp!
+{end}
+#L9fd1 B46
+{e8} khó trúng đòn!
+{end}
+#L9fe5 B47
+{e8} nấp sau ô!
+{end}
+#L9ff3 B48
+{e8} tăng {ec} thủ!
+{end}
+#La003 B49
+{e9} tỉnh dậy!
+{end}
+#La00f B50
+Cả nhóm phân thân!
+{end}
+#La01d B51
+Thủ cả nhóm tăng lên!
+{end}
+#La02e B52
+{eb} bị dây quấn!
+{end}
+#La03e B53
+{e9} hết tê liệt!
+{end}
+#La050 B54
+{e9} tỉnh lại rồi!
+{end}
+#La05c B55
+Nhưng chưa tới tim!
+{end}
+#La06e B56
+{fa}{eb} yếu đi!
+ 
+ 
+{end}
+#La07e B57
+{e8} dùng
+{ea}!
+{end}
+#La08b B58
+{end}
+#La08c B59
+{fa}{e8} đang phòng thủ!
+ 
+ 
+{end}
+#La09f B60
+{fa}{e8} đang tê liệt!
+ 
+ 
+{end}
+#La0b0 B61
+{fa}{e8} hết tê liệt!
+ 
+ 
+{end}
+#La0c7 B62
+{fa}{e8} đang ngủ say!
+ 
+ 
+{end}
+#La0dd B63
+{fa}{e8} tỉnh dậy!
+ 
+ 
+{end}
+#La0ee B64
+{e8} ngất đi!
+{end}
+#La0fb B65
+{fa}Cả nhóm {d3} gục ngã!
+{end}
+#La112 B66
+Hạ được {eb}!
+{end}
+#La11d B67
+{fa}Quái vật bị tiêu diệt!
+{end}
+#La12e B68
+Nhóm {d3} mỗi người
+nhận {ec} kinh nghiệm!
+{end}
+#La149 B69
+{fa}{e8} tăng dũng khí!
+{p}{end}
+#La15a B70
+HP tăng {ec}!
+{end}
+#La168 B71
+Sức tăng {ec}!
+{end}
+#La176 B72
+Thủ tăng {ec}!
+{end}
+#La184 B73
+Ối, {eb}
+né mất rồi!
+{end}
+#La196 B74
+{fa}Nhưng {eb}
+vẫn bình thản!
+{end}
+#La1a7 B75
+Nhưng không tìm thấy
+đối thủ để đánh!
+{end}
+#La1bf B76
+{fa}Phản đòn sát thương!
+{end}
+#La1d2 B77
+{fa}"Ha ha! Ta đâu dễ bị
+ lũ các ngươi hạ!"
+Ngưu Ma Vương biến mất!
+{p}{end}

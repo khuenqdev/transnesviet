@@ -1,0 +1,442 @@
+addr	type	japanese	vietnamese
+8C92	story	おかえり〜/	CHÀO MỪNG VỀ NHÀ~
+8C9A	story	コラ!　しんのすけ!⏎かえったら　ただいまでしょ!!/	NÀY! SHINNOSUKE! VỀ NHÀ THÌ PHẢI NÓI "CON ĐÃ VỀ" CHỨ!!
+8CB9	story	マサオくん　ち　いってくる⏎じゃ/	CON QUA NHÀ MASAO CHƠI ĐÂY. BÁI BAI!
+8E4A	story	キャン　キャン　キャン!!/	ẲNG ẲNG ẲNG!!
+8CCF	story	うう〜　なんだか　うるさいな〜/	ƯM~ SAO MÀ ỒN THẾ NHỈ~
+8CE2	story	おおっ　シロ!/	Ồ! SHIRO!
+8CEC	story	へツ　へツ　へツ/	HỘC HỘC HỘC
+8CF7	story	キャ、キャン　キャン!/	ẲNG, ẲNG ẲNG!
+8D05	story	おお/	Ồ Ồ
+8D0A	story	おお　おお⏎だいじょーぶだ　シロ⏎くるまには　きを　つけるゾ/	Ồ, Ồ. KHÔNG SAO ĐÂU SHIRO. PHẢI CẨN THẬN XE CỘ ĐÓ!
+8D30	story	キャン!!/	ẲNG!!
+8D38	story	うん　うん/	ỪM, ỪM.
+8D40	story	キャン　キャン!!/	ẲNG ẲNG!!
+8D4C	story	お?　‥‥‥なんだ、シロ⏎おさんぽに　いきたいのか⏎もう　わがままだなあ/	HẢ? …GÌ VẬY SHIRO, MUỐN ĐI DẠO HẢ? CHÀ, ĐÚNG LÀ ĐỒ NHÕNG NHẼO!
+8D77	story	だけど、オラ⏎いろいろ　つきあいがあって⏎いそがしいんだ/	NHƯNG MÀ TỚ CÒN BAO NHIÊU CHUYỆN XÃ GIAO, BẬN LẮM ĐÓ!
+8D9B	story	‥‥‥‥‥‥‥/	………
+8DA5	story	よし　オラと　しょうぶして⏎シロが　かったら　おさんぽに⏎つれていって　やるゾ/	ĐƯỢC! THI ĐẤU VỚI TỚ ĐI. NẾU SHIRO THẮNG, TỚ SẼ DẮT ĐI DẠO!
+8DD3	story	キャン!!/	ẲNG!!
+8DDB	story	わーい　わーい⏎かったゾ　かったゾ〜!!/	A HA! A HA! THẮNG RỒI! THẮNG RỒI~!!
+8DF4	story	‥‥‥‥‥‥‥/	………
+8DFE	story	しんちゃん‥‥‥/	SHIN À……
+8E09	story	うっ‥‥‥/	Ư……
+8E11	story	いじわる　しないで⏎つれていって　あげなさい!/	ĐỪNG CÓ BẮT NẠT NÓ, DẮT NÓ ĐI DẠO ĐI!
+8E2E	story	へえええ!!!‥‥/	TRỜI ƠI!!!……
+8E3A	story	シ、シロに　まけた‥‥‥‥/	TH… THUA CẢ SHIRO……
+AA23	bubble	パズルで　しょうぶだゾ/	VÀO TRẬN NÀO!
+AA35	bubble	パーッを　おしたゾ/	ĐẨY KHỐI NÈ!
+AA41	bubble	ほ〜ら/	THẤY CHƯA~
+AA45	bubble	ダメだなあ/	DỞ QUÁ À.
+AA4D	bubble	おせば?/	ĐẨY ĐI CHỨ?
+AA53	bubble	おおっ　ずるいゾ/	Ồ! GIAN THẾ!
+AA5E	bubble	やだやだやだ〜/	KHÔNG CHỊU~!
+AA69	bubble	あくしょんび〜む‼/	ACTION BEAM!!
+AA74	bubble	ムキに　なるなよ/	ĐỪNG CAY CÚ!
+AA7D	bubble	ほ〜ら　れんぞくけし　だゾ!/	XÓA LIÊN HOÀN!
+AA8F	bubble	わ〜い　わ〜い　かったゾ‼/	A HA, THẮNG!!
+AA9E	bubble	へえ!!　まけたあ/	ÁI!! THUA RỒI
+AAA8	bubble	キャン!/	ẲNG!
+AAAD	bubble	キャン/	ẲNG
+AAB1	bubble	キャン　キャン/	ẲNG ẲNG
+AAB9	bubble	キャン　キャン　キャン/	ẲNG ẲNG ẲNG
+AAC5	bubble	キャン!?/	ẲNG!?
+AACB	bubble	キャン!/	ẲNG!
+AAD0	bubble	キャン　キャン‼/	ẲNG ẲNG!!
+AAD9	bubble	キャン　キャン　キャン‼/	ẲNG ẲNG ẲNG!!
+AAE6	bubble	キャ〜ン/	ẲNG~
+AAEB	bubble	キャン　キャン!/	ẲNG ẲNG!
+AAF4	bubble	キャン　キャン　キャン‼/	ẲNG ẲNG ẲNG!!
+AB01	bubble	‥‥‥‥‥‥‥‥/	………
+AB0A	bubble	まけないわよ!/	MẸ SẼ THẮNG!
+AB12	bubble	ほらっ　パーッを　おしたわよ/	ĐẨY KHỐI ĐÂY!
+AB22	bubble	わたしって　うまいわ/	MẸ GIỎI THẬT!
+AB2D	bubble	どう　わたしの　こうげき?/	THẤY ĐÒN CHƯA?
+AB3D	bubble	ちょっと　まってよ〜/	KHOAN ĐÃ~!
+AB48	bubble	あわわわわわ/	Á Á Á Á Á!
+AB4F	bubble	ほっといてよ!/	MẶC KỆ MẸ!
+AB57	bubble	げんこつビーム!/	TIA CỐC ĐẦU!
+AB62	bubble	あ〜!　やったな〜‼/	Á~! DÁM À~!!
+AB6D	bubble	みて‼　れんぞくげしよ!/	LIÊN HOÀN NÈ!
+AB7C	bubble	わたしって　つよい‼　ほほほ/	MẸ MẠNH! HÔ HÔ
+AB8B	bubble	あ〜あ　まけちゃったあ‥‥/	ÔI, THUA RỒI…
+AB99	bubble	へへ　まけないよ/	TỚ KHÔNG THUA!
+ABA2	bubble	へへへ　おしちゃうよ/	HÊ HÊ, ĐẨY NÈ!
+ABAD	bubble	けっこう　つまったね/	ĐẦY KHỐI RỒI!
+ABB8	bubble	もう　すこしだよ!/	SẮP XONG RỒI!
+ABC3	bubble	あ〜あ/	ÔI CHAO~
+ABC7	bubble	ま　まってよ　しんちゃん/	Đ-ĐỢI ĐÃ SHIN!
+ABD4	bubble	あああ　まけちゃうよ〜/	ÁÁ, SẮP THUA~
+ABE0	bubble	おもいっきり　おすよ‼/	ĐẨY HẾT SỨC!!
+ABEC	bubble	や　やめてよ〜/	Đ-ĐỪNG MÀ~
+ABF4	bubble	へへ　れんぞくけし　だよ!/	HÊ, LIÊN HOÀN!
+AC04	bubble	わ〜い　わ〜い　かった〜/	A HA! THẮNG~
+AC11	bubble	あああ　まけちゃった〜/	ÁÁ, THUA RỒI~
+AC1D	bubble	ネネ　まけないから!/	NENE SẼ THẮNG!
+AC28	bubble	パーッを　おしたの/	ĐẨY KHỐI ĐÓ.
+AC33	bubble	もう　ここまで　おしたよ/	ĐẨY TỚI ĐÂY!
+AC41	bubble	もう　ネネの　かちね!/	NENE THẮNG NHÉ
+AC4D	bubble	あ〜　おした〜/	Á~ ĐẨY RỒI~
+AC55	bubble	しんちゃん　ひどい〜/	SHIN ÁC QUÁ~
+AC61	bubble	し　しんちゃん　まってよ/	SH-SHIN ĐỢI ĐÃ
+AC6E	bubble	ネネの　ひっさつわざ〜!/	TUYỆT CHIÊU~!
+AC7C	bubble	しんちゃん　ひどい〜!/	SHIN ÁC QUÁ~!
+AC89	bubble	ほら　れんぞくけし〜!/	LIÊN HOÀN NÈ~!
+AC96	bubble	わ〜い　わ〜い　かった〜/	A HA! THẮNG~
+ACA3	bubble	ううう　まけた〜/	HU HU, THUA~
+ACAC	bubble	よし　こい　しんのすけ!/	LẠI ĐÂY, SHIN!
+ACB9	bubble	パーッを　おしたぞ/	ĐẨY KHỐI ĐÂY!
+ACC5	bubble	ど〜だい　しんのすけ!/	THẾ NÀO, SHIN!
+ACD3	bubble	まけを　みとめな‼/	CHỊU THUA ĐI!!
+ACDD	bubble	ちっ!!/	CHẬC!!
+ACE2	bubble	や　やるじゃないか/	C-CŨNG KHÁ ĐẤY
+ACED	bubble	ううっ　まけちゃう〜/	ƯƯ, SẮP THUA~
+ACF8	bubble	ひっさつ　こうげき‼/	ĐÒN TẤT SÁT!!
+AD04	bubble	ああ　ちくしょ〜!/	Á, CHẾT TIỆT~!
+AD0E	bubble	ほら　れんぞくけしだ!/	LIÊN HOÀN ĐÂY!
+AD1C	bubble	ざっと　こんなもんさ‼/	DỄ ỢT MÀ!!
+AD29	bubble	うううっ　まけた‥‥‥/	ƯƯ… THUA RỒI…
+AD35	bubble	いっかい　しょうぶよ‼/	ĐẤU MỘT VÁN!!
+AD42	bubble	パーッを　おすわね/	ĐẨY KHỐI NHÉ.
+AD4D	bubble	ほら　どんどん　いくわよ/	TỚI LUÔN NÀO!
+AD5C	bubble	ほらほら　かつ　わよ‼/	CÔ THẮNG ĐÂY!!
+AD68	bubble	あちゃ〜/	CHẾT CHA~
+AD6D	bubble	ち　ちょっと　まってよ!/	KH-KHOAN ĐÃ!
+AD7A	bubble	ど　ど〜して〜!?/	S-SAO THẾ~!?
+AD86	bubble	オニは〜　そと〜‼/	QUỶ CÚT RA~!!
+AD90	bubble	あ〜　ひど〜い‼/	Á~ ÁC QUÁ!!
+AD9A	bubble	ほらほら　れんぞくけし!/	LIÊN HOÀN NÈ!
+ADA8	bubble	わ〜い　わ〜い　かったわ/	A HA! THẮNG!
+ADB5	bubble	あちゃ〜　まけた〜/	CHẾT, THUA~
+ADBF	bubble	あいて　して　あげるわ/	CHIỀU EM ĐÂY.
+ADCC	bubble	ほら　パーッを　おしたわ/	ĐẨY KHỐI ĐÂY!
+ADDA	bubble	ふふふっ　ほ〜ら/	HỪ HỪ, NÀY~
+ADE3	bubble	ダメね!　ひまわりグミは/	DỞ QUÁ ĐI!
+ADF2	bubble	あ　あら　やるじゃない/	Ơ, KHÁ ĐẤY!
+ADFF	bubble	ちょっと　まちなさいよ!/	KHOAN ĐÃ NÀO!
+AE0C	bubble	やだ　もう　ちょっと〜/	THÔI MÀ, NÀY~
+AE19	bubble	どう?　この　こうげき!/	ĐÒN NÀY SAO?
+AE28	bubble	あ〜!　やったわね〜‼/	Á~! DÁM À!!
+AE34	bubble	ほほほほ　れんぞくけしよ!/	HÔ, LIÊN HOÀN!
+AE43	bubble	おほほほほほ　かったわ‼/	HÔ HÔ! THẮNG!!
+AE50	bubble	うううっ　まけたわ‥‥/	ƯƯ… THUA RỒI…
+AE5C	bubble	はい　がんばりましょう/	CỐ LÊN NÀO!
+AE6A	bubble	パーッを　おしましたよ/	CÔ ĐẨY ĐẤY!
+AE77	bubble	う〜ん　いいかんじかな?/	ỪM~ ỔN CHỨ?
+AE85	bubble	ごめんね　しんのすけくん/	XIN LỖI SHIN!
+AE93	bubble	あ〜　やられたね!/	Á~ BỊ HẠ RỒI!
+AE9D	bubble	こ　これは　ちよっと‥‥/	C-CÁI NÀY THÌ…
+AEAA	bubble	ちった　てかげんしろい!/	NƯƠNG TAY CHỨ!
+AEB8	bubble	つばめ　がえし〜!/	CHIÊU YẾN HỒI!
+AEC4	bubble	あああああああああ/	ÁÁÁÁÁÁÁÁÁ
+AECE	bubble	ほら　れんぞくけし　ですよ/	LIÊN HOÀN ĐÓ!
+AEDE	bubble	ごめんね　しんのすけくん/	XIN LỖI SHIN!
+AEEC	bubble	うっ　うっ　うっ　まけたあ/	HU HU… THUA~
+AEFA	bubble	しょうがないわね〜/	ĐÀNH CHỊU VẬY~
+AF05	bubble	おほほ　おしたわよ/	HÔ HÔ, ĐẨY ĐÓ
+AF0F	bubble	ほ〜ら　おしたわよ/	NÀY~ ĐẨY ĐÓ!
+AF19	bubble	おほほほほほほほほほほ/	HÔ HÔ HÔ HÔ HÔ
+AF25	bubble	あ　あら　やったわね/	Ơ, DÁM À?
+AF30	bubble	なにが　ほ〜ら　よ‼/	NÀY~ CÁI GÌ!!
+AF3C	bubble	うるさい　ぐりぐりぼ〜ず/	IM NGAY, NHÓC!
+AF4D	bubble	おほほ　さあ　これからよ!/	MỚI BẮT ĐẦU!
+AF5B	bubble	やっ　やっ　やったわね〜‼/	D-D-DÁM À~!!
+AF69	bubble	ほらっ　れんぞくけしよ!/	LIÊN HOÀN NÈ!
+AF77	bubble	おばさんの　かちよ‼/	CÔ THẮNG RỒI!!
+AF83	bubble	ああああ　ま　まけた‥‥/	ÁÁÁ… TH-THUA…
+AF90	bubble	いくぞ　しんのすけくん!/	TỚI ĐÂY, SHIN!
+AF9E	bubble	よし　パーッを　おしたぞ/	ĐƯỢC, ĐẨY ĐÂY!
+AFAD	bubble	うむ　じゅんちょうだ!/	ỪM, THUẬN LỢI!
+AFBB	bubble	さあ　もう　ひといきだ‼/	CỐ THÊM CHÚT!!
+AFC9	bubble	うっ　やるな!/	HỰ, GIỎI LẮM!
+AFD1	bubble	うぐ　なかなか　やるな!/	HỰ, KHÁ LẮM!
+AFDF	bubble	うおっ　き　きけんだ‼/	N-NGUY HIỂM!!
+AFEC	bubble	アクションビーム‼/	ACTION BEAM!!
+AFF7	bubble	ああっ　なんてことだ!/	TRỜI ĐẤT ƠI!
+B004	bubble	よしっ　れんぞくけしだ!/	LIÊN HOÀN ĐÂY!
+B013	bubble	□ツハツハツハツハツ‼/	HA HA HA HA!!
+B01F	bubble	う〜む　まけてしまった/	ỪM… TA THUA.
+B02B	clear	なかなか　やるな　オラも!⏎つぎは　ぼんさいコースを　するゾ‼/	TỚ CŨNG KHÁ ĐẤY CHỨ! TIẾP THEO CHƠI KHÓA THƯỜNG NÀO!!
+B04E	clear	ともだちの　なかでは　いちばんだゾ⏎つぎは　しゅうさいコースだ‼/	TRONG ĐÁM BẠN, TỚ LÀ SỐ MỘT! TIẾP THEO LÀ KHÓA GIỎI!!
+B076	clear	ようちえんでは　むてきだゾ!　つぎは⏎てんさいコースに　チャレンジ　するゾ‼/	Ở NHÀ TRẺ TỚ VÔ ĐỊCH! TIẾP THEO THỬ THÁCH KHÓA THIÊN TÀI!!
+B0A3	clear	おお　オラが　パズル　チャンピオンだゾ‼⏎わっはっはっはっはっ‼/	Ồ! TỚ LÀ VUA GIẢI ĐỐ RỒI!! HA HA HA HA HA!!
+8FBC	story	あー　いそがしい!⏎あー　いそがしい!/	TRỜI, BẬN QUÁ! TRỜI, BẬN QUÁ ĐI!
+8FD4	story	しんちゃ〜ん⏎ちょっと　いらっしゃ〜い/	SHIN ƠI~ LẠI ĐÂY MẸ BẢO NÀY~
+8FEA	story	いまいそがしいから　ダメ‼/	GIỜ CON ĐANG BẬN, KHÔNG ĐƯỢC!!
+8FFC	story	ん‥‥?⏎なにしてんのよ〜/	HỬ……? CON ĐANG LÀM GÌ ĐÓ~
+900C	story	わーはっはっはっはっ⏎アクショ〜ン　かめ〜ん‼/	HA HA HA HA HA! ACTION~ KAMEN~!!
+9026	story	‥‥‥‥しんのすけ?/	……SHINNOSUKE?
+9033	story	ギクツ/	GIẬT THÓT!
+903A	story	ママが　よんだら　すぐに　きなさいっ/	MẸ GỌI THÌ PHẢI ĐẾN NGAY CHỨ!
+9050	story	ポカツ!/	CỐC!
+9058	story	おちゃわん　はこんでね/	BƯNG CHÉN BÁT GIÚP MẸ NHÉ.
+9067	story	ほ〜い‥‥‥/	VÂNG~……
+9070	story	えらいわねー　しんちゃん/	GIỎI QUÁ, SHIN!
+907D	story	ガチャン‼/	XOẢNG!!
+9086	story	まさか!?/	KHÔNG LẼ!?
+9090	story	しんのすけ‼/	SHINNOSUKE!!
+9099	story	うっ/	Ư!
+909E	story	さいごまで　おてつだい⏎しなきゃ　ダメでしょ‼/	PHẢI GIÚP MẸ ĐẾN CÙNG CHỨ!!
+90BD	story	ひえ!!/	ÁI!!
+90C4	story	あーあ、パパの　おちゃわん⏎わっちゃって〜/	TRỜI ƠI, LÀM VỠ CHÉN CỦA BỐ RỒI~
+90DE	story	ダメだなあ　か〜ちゃんは/	MẸ THẬT LÀ VỤNG VỀ.
+90EF	story	あんたでしょ‼/	LÀ CON ĐẤY!!
+90FA	story	しらないわよ〜/	MẸ KHÔNG BIẾT ĐÂU NHA~
+9104	story	パパおこって　しんちゃんと⏎あそんで　くれなく　なるかも‥‥/	BỐ MÀ GIẬN THÌ CÓ KHI SẼ KHÔNG CHƠI VỚI SHIN NỮA ĐÂU……
+9128	story	えっ!?　じゃ⏎アクションかめんの　ショーに⏎つれてってくれる　おやくそくは?/	HẢ!? VẬY CÒN LỜI HỨA DẪN CON ĐI XEM ACTION KAMEN BIỂU DIỄN THÌ SAO?
+9153	story	ダメなんじゃな〜い?⏎パパ　この　おちゃわん⏎きに　いってたしな〜/	CHẮC HỎNG RỒI~ BỐ THÍCH CÁI CHÉN NÀY LẮM MÀ~
+917B	story	か、か〜ちゃん　か〜ちゃん‼⏎オラと　しょ〜ぶして‼⏎オラが　かったら　と〜ちゃんには⏎ゆわないで‼/	M… MẸ ƠI, MẸ ƠI!! ĐẤU VỚI CON ĐI!! NẾU CON THẮNG THÌ ĐỪNG MÁCH BỐ NHA!!
+91B3	story	ん‥‥　べつに　いいけど‥‥?/	HỬ…… CŨNG ĐƯỢC THÔI……?
+91C7	story	ママ　つよいわよ〜/	MẸ MẠNH LẮM ĐẤY NHÉ~
+91D5	story	ちょっ、ちょっと　しんのすけ!⏎もう　いっかい　しょうぶよ!⏎もう　いっかい‼/	KHOAN, KHOAN ĐÃ SHINNOSUKE! ĐẤU LẠI LẦN NỮA! LẦN NỮA!!
+91FE	story	パキツ/	RẮC!
+9205	story	うっ/	Ư!
+920A	story	あ‼/	Á!!
+920F	story	コラー‼　しんのすけー‼⏎ママの　おちゃわんまで　こわして‼⏎なんてこと　するの‼/	NÀY!! SHINNOSUKE!! LÀM VỠ LUÔN CẢ CHÉN CỦA MẸ!! CON LÀM CÁI TRÒ GÌ VẬY!!
+923C	story	か、か〜ちゃん　ごはんは?/	M… MẸ ƠI, CƠM ĐÂU Ạ?
+924D	story	はなしを　はぐらかすなー‼/	ĐỪNG CÓ LẢNG SANG CHUYỆN KHÁC!!
+925E	story	へええ!!　まけた‥‥‥/	TRỜI ƠI!! THUA RỒI……
+926D	story	やーい　やーい　かったぞ〜/	Ê Ê! MẸ THẮNG RỒI NHÉ~
+927E	story	こども　あいてに⏎ほんきに　なるなんて⏎おとなげ　ないゾ/	ĐẤU VỚI CON NÍT MÀ CŨNG NGHIÊM TÚC, MẸ THẬT LÀ TRẺ CON!
+92A0	story	なんですってー‼⏎もとはと　いえば⏎あんたの　せいでしょー‼/	CÁI GÌ!! NÓI CHO CÙNG THÌ CŨNG TẠI CON ĐẤY!!
+92C4	story	ギャピー‼/	OÁI!!
+92CE	story	しんちゃ〜ん⏎しんちゃ〜ん⏎あそぼ〜⏎しんちゃ〜ん/	SHIN ƠI~ SHIN ƠI~ CHƠI ĐI~ SHIN ƠI~
+92EB	story	‥‥しんちゃん⏎なに　してるの?/	……SHIN, CẬU ĐANG LÀM GÌ VẬY?
+92FE	story	コアラごっこ/	CHƠI LÀM GẤU KOALA.
+9308	story	や、やめなよ　あぶないよ⏎そんなこと/	Đ… ĐỪNG LÀM THẾ, NGUY HIỂM LẮM!
+931E	story	おしっ　なにして　あそぶ?/	ĐƯỢC! CHƠI GÌ ĐÂY?
+932F	story	ん〜とね　ん〜とね〜⏎アクションかめん　ごっこ⏎しようよ/	ƯM~ ƯM~ CHƠI ĐÓNG VAI ACTION KAMEN ĐI!
+935D	story	し、しんちゃん　しんちゃ〜ん⏎ボクだって　アクションかめん⏎したいよ〜/	SH… SHIN, SHIN ƠI~ TỚ CŨNG MUỐN LÀM ACTION KAMEN CƠ~
+9385	story	すれば?/	THÌ CỨ LÀM ĐI?
+938D	story	え!?　いいの?/	HẢ!? ĐƯỢC HẢ?
+9398	story	こい!⏎ニセ　アクションかめん‼/	LẠI ĐÂY! ACTION KAMEN DỎM!!
+93AB	story	しんちゃ〜ん/	SHIN ƠI~
+93B4	story	じゃ　オラと　しょ〜ぶして⏎かったら　ゆずってやるゾ/	VẬY ĐẤU VỚI TỚ ĐI. THẮNG THÌ TỚ NHƯỜNG CHO!
+93D5	story	えっ　ほんと?/	HẢ, THẬT KHÔNG?
+93DF	story	ま、まけないよ　ボク!/	T… TỚ KHÔNG THUA ĐÂU!
+93EE	story	まけちゃった‥‥/	THUA MẤT RỒI……
+93FB	story	やあ　しんのすけ⏎すべりだいで　あそばないか?/	CHÀO SHINNOSUKE! CHƠI CẦU TRƯỢT KHÔNG?
+9419	story	おお　すべりだい　すべりだい/	Ồ! CẦU TRƯỢT, CẦU TRƯỢT!
+942E	story	し、しんちゃ〜ん⏎ひどいよ〜/	SH… SHIN ƠI~ ÁC QUÁ À~
+9440	story	おお　ま、まけた/	Ồ… TH… THUA RỒI.
+944B	story	わーい　ボクが⏎アクションかめん　だよ⏎しんちゃん/	A HA! TỚ LÀ ACTION KAMEN NHÉ, SHIN!
+946A	story	ずるいな　マサオくん⏎ズルしてまで　アクションかめんが⏎したいんだな/	MASAO GIAN QUÁ! ĂN GIAN ĐỂ ĐƯỢC LÀM ACTION KAMEN À!
+9494	story	ひ、ひどいよ　しんちゃん!⏎ボク　そんなこと　しないよ〜/	QU… QUÁ ĐÁNG, SHIN! TỚ ĐÂU CÓ LÀM VẬY~
+96B7	story	な〜に〜?/	GÌ THẾ~?
+96BF	story	ネネと　おままごと　しない?/	CHƠI ĐỒ HÀNG VỚI NENE KHÔNG?
+96D1	story	い〜よ〜/	ĐƯỢC THÔI~
+96D8	story	カザマくんも　いるのよ/	CÓ CẢ KAZAMA NỮA ĐẤY.
+96E7	story	おお　じゃ　オラが⏎と〜ちゃんの　やく　だな/	Ồ! VẬY TỚ ĐÓNG VAI BỐ NHÉ!
+9703	story	おい　しんのすけ!⏎どうして　そうなるんだよ‼/	NÀY SHINNOSUKE! SAO LẠI THẾ ĐƯỢC!!
+971F	story	お　カザマくんか/	Ồ, KAZAMA ĐẤY À.
+972B	story	こんかいは　ボクが　パパって⏎きまっているのさ/	LẦN NÀY ĐÃ QUYẾT LÀ TỚ LÀM BỐ RỒI.
+9749	story	ごめんね　しんちゃん⏎カザマくん　パパじゃないと⏎いやだって　いうの/	XIN LỖI NHÉ SHIN. KAZAMA BẢO KHÔNG ĐƯỢC LÀM BỐ THÌ KHÔNG CHỊU.
+9774	story	ふ〜ん/	HỪM~
+977A	story	わがままだなあ　カザマくんは/	KAZAMA ĐÚNG LÀ ĐỒ ÍCH KỶ.
+978E	story	な、なんだよ/	C… CÁI GÌ HẢ?
+9798	story	も〜　わがままな　やつが　いると⏎ネネちゃんも　たいへんだな/	CHẬC~ CÓ ĐỨA ÍCH KỶ THẾ NÀY, NENE CŨNG KHỔ GHÊ ĐÓ.
+97BC	story	しんちゃん‥‥/	SHIN À……
+97C6	story	うう‥‥/	ƯƯ……
+97CD	story	あ〜　やだ　やだ/	ÔI~ CHÁN QUÁ, CHÁN QUÁ.
+97DA	story	もう　いいよ‼/	THÔI ĐỦ RỒI!!
+97E4	story	あ　カザマくん/	Á, KAZAMA!
+97EF	story	しんちゃん‼⏎カザマくん　よんできてよ⏎ネネと　おやくそく　してたのよ‼/	SHIN!! ĐI GỌI KAZAMA VỀ ĐÂY! CẬU ẤY ĐÃ HỨA VỚI NENE RỒI MÀ!!
+9818	story	じゃ　しょ〜ぶして⏎ネネちゃんが　かったら⏎よんできて　あげるゾ/	VẬY THÌ ĐẤU ĐI. NẾU NENE THẮNG, TỚ SẼ ĐI GỌI CHO!
+9843	story	まけちゃった‥‥⏎じゃ　しんちゃんが　パパね/	THUA MẤT RỒI…… VẬY SHIN LÀM BỐ NHÉ.
+9860	story	おかえり〜/	CHÀO MỪNG VỀ NHÀ~
+9868	story	ただいまでしょ　パパ/	PHẢI NÓI "ANH VỀ RỒI ĐÂY" CHỨ, BỐ NÓ!
+9877	story	/	
+9878	story	チリン　チリン/	LENG KENG
+9882	story	おねえさん⏎ピーマン　たべられる?/	CHỊ ƠI, CHỊ ĂN ĐƯỢC ỚT XANH KHÔNG?
+9898	story	‥‥しんちゃん/	……SHIN À.
+98A2	story	わ〜い　わ〜い　かったあ⏎しんちゃんに　かったあ/	A HA, A HA! THẮNG RỒI! THẮNG ĐƯỢC SHIN RỒI!
+98BD	story	しんのすけの　へたくそ〜/	SHINNOSUKE ĐỒ GÀ MỜ~
+98CE	story	ア〜クショ〜ン〜か〜め〜ん〜⏎せいぎの　か〜め〜ん〜/	ACTION~ KAMEN~ NGƯỜI HÙNG~ CHÍNH NGHĨA~
+98EC	story	お　カザマくん/	Ồ, KAZAMA.
+98F7	story	や、やあ‥‥しんのすけ‥‥/	CH… CHÀO…… SHINNOSUKE……
+9907	story	カザマくん‥‥⏎なに　もっているの?/	KAZAMA…… CẬU CẦM CÁI GÌ VẬY?
+991D	story	うう‥‥こ　これかあ?⏎これは　だいじな　ものさ/	Ư…… C… CÁI NÀY HẢ? ĐÂY LÀ ĐỒ QUAN TRỌNG ĐÓ.
+993A	story	みせて/	CHO XEM VỚI.
+9940	story	ダメツ‼/	KHÔNG ĐƯỢC!!
+9946	story	/	
+9949	story	カザマくん‥‥　みせてくれないと⏎よしながセンセイに⏎カザマくんの　ヒミッを　バラすゾ/	KAZAMA…… KHÔNG CHO XEM LÀ TỚ MÁCH CÔ YOSHINAGA BÍ MẬT CỦA CẬU ĐÓ!
+997C	story	ヒ、ヒミッって　なんだよ⏎しんのすけ!?⏎ボクに　ヒミッなんか　ないゾ/	B… BÍ MẬT GÌ CHỨ, SHINNOSUKE!? TỚ LÀM GÌ CÓ BÍ MẬT NÀO!
+99A5	story	なんで　あせっているの?⏎オラが　しってるわけ　ないのに/	SAO CẬU CUỐNG LÊN THẾ? TỚ CÓ BIẾT GÌ ĐÂU MÀ.
+99C6	story	‥‥‥みせてやるよ/	……CHO CẬU XEM ĐẤY.
+99D2	story	ほら/	ĐÂY NÀY.
+99D7	story	おお　アムバル/	Ồ! BUM-AN!
+99E2	story	ア　ル　バ　ム　‼/	AN - BUM !!
+99EF	story	なんだか　カザマくんに　にてるな〜/	SAO TRÔNG GIỐNG KAZAMA THẾ NHỈ~
+9A05	story	ボクだよ‼/	LÀ TỚ ĐÓ!!
+9A0F	story	うまれた　ときからの⏎ボクの　シャシンさ/	LÀ ẢNH CỦA TỚ TỪ LÚC MỚI SINH ĐÓ.
+9A27	story	ほーーーーお/	Ồ~~~~
+9A30	story	どうだい!　むかしから⏎カツコイイだろ/	THẤY CHƯA! TỪ HỒI XƯA ĐÃ ĐẸP TRAI RỒI NHỈ?
+9A49	story	おねしょの　シャシンが　ある/	CÓ CẢ ẢNH TÈ DẦM NÀY.
+9A5B	story	こ、こどもの　ころは⏎しょうがないだろ‼/	H… HỒI CÒN BÉ THÌ AI CHẲNG THẾ!!
+9A75	story	いまは　こどもじゃ　ないのか?/	THẾ BÂY GIỜ KHÔNG PHẢI CON NÍT À?
+9A89	story	そ、そりゃあ　こどもだけど‥‥/	TH… THÌ VẪN LÀ CON NÍT, NHƯNG MÀ……
+9A9E	story	うそつき/	ĐỒ NÓI DỐI.
+9AA5	story	ぐっ/	HỰ!
+9AAB	story	わ〜い　わ〜い⏎カザマくんのおねしょ〜/	A HA, A HA! KAZAMA TÈ DẦM~
+9AC2	story	ぐぐぐっ/	GRỪ……
+9ACC	story	しんのすけ〜‼　しょうぶだ‼⏎ボクが　かったら　にどと⏎ボクの　わるぐちを　いうなよな‼/	SHINNOSUKE!! ĐẤU ĐI!! NẾU TỚ THẮNG THÌ ĐỪNG BAO GIỜ NÓI XẤU TỚ NỮA!!
+9B04	story	ううっ　まけた‥‥/	ƯƯ…… THUA RỒI……
+9B10	story	あ　ボーちゃん⏎カザマくんの　ヒミッ　しりたい?/	Á, BO ƠI! MUỐN BIẾT BÍ MẬT CỦA KAZAMA KHÔNG?
+9B2D	story	しんのすけ〜‼/	SHINNOSUKE!!
+9B37	story	わ〜い　わ〜い/	A HA, A HA!
+9B41	story	おい!　しんのすけ!⏎ボクが　かったんだゾ/	NÀY! SHINNOSUKE! TỚ THẮNG RỒI MÀ!
+9B5D	story	ボ、ボクを　ムシするな‼/	Đ… ĐỪNG CÓ LỜ TỚ ĐI!!
+9B6E	story	みなさん　ごきげんよう/	TẠM BIỆT CÁC EM NHÉ.
+9B7E	story	よしながセンセイ⏎ごきげんよう/	CHÀO CÔ YOSHINAGA Ạ!
+9B93	story	さて、いそいで⏎かえる　したくを　しなくちゃ/	NÀO, PHẢI MAU CHUẨN BỊ ĐI VỀ THÔI.
+9BAD	story	よしなが　せんせ〜/	CÔ YOSHINAGA ƠI~
+9BBA	story	あら　しんちゃ‥‥‥/	Ơ KÌA, SHIN……
+9BC7	story	げ!?/	HẢ!?
+9BCE	story	オラ　どろどろに　なって⏎きもちわるいゾ/	TỚ BỊ LẤM LEM BÙN ĐẤT, KHÓ CHỊU QUÁ À.
+9BE8	story	なに　やってんのよ/	EM LÀM CÁI GÌ VẬY HẢ?
+9BF4	story	あーあ　きょうは　いそいでるって⏎いうのに‥‥‥/	TRỜI Ạ, HÔM NAY CÔ ĐANG VỘI MÀ……
+9C10	story	ど〜して　いそいでるの?/	SAO CÔ VỘI THẾ?
+9C21	story	え?/	HẢ?
+9C26	story	せんせい　きょうは　ようじがあって⏎おでかけしなきゃ　いけないの/	HÔM NAY CÔ CÓ VIỆC, PHẢI ĐI RA NGOÀI.
+9C4C	story	えっ　おでかけ?⏎どこいくの?/	HẢ, ĐI CHƠI À? ĐI ĐÂU VẬY?
+9C60	story	おしょくじに　いくのよ/	CÔ ĐI ĂN TỐI.
+9C6F	story	えへへ〜　なに　たべよ〜かなあ⏎オラ　おこさまランチに⏎しよ〜かな/	HÌ HÌ~ ĂN GÌ ĐÂY TA? TỚ GỌI SUẤT CƠM TRẺ EM NHÉ~
+9C94	story	しんちゃんは　つれていかないわよ/	CÔ KHÔNG DẪN SHIN ĐI ĐÂU NHÉ.
+9CB2	story	/	
+9CB3	story	/	
+9CB4	story	/	
+9CB5	story	/	
+9CB8	story	デートだな/	HẸN HÒ À NHA.
+9CC2	story	うぐっ⏎し、しんちゃん　そろそろ⏎かえらないと　ママが⏎しんぱい　するわよー/	HỰ! SH… SHIN, PHẢI VỀ THÔI KẺO MẸ EM LO ĐẤY~
+9CEE	story	オラ　きょうは　もうすこし⏎あそんでいこ〜かな/	HÔM NAY TỚ CHƠI THÊM CHÚT NỮA NHÉ~
+9D09	story	あとは　しんちゃん　だけなのよ〜⏎あああ　じかんが〜　じかんが〜/	CHỈ CÒN MỖI SHIN THÔI ĐÓ~ ÁÁÁ, TRỄ GIỜ RỒI~ TRỄ GIỜ~
+9D31	story	じゃ　オラと　しょ〜ぶして⏎せんせいが　かったら　オラ　かえる/	VẬY ĐẤU VỚI TỚ ĐI. CÔ THẮNG THÌ TỚ VỀ.
+9D56	story	わかったわよ　じゃ⏎いっかい　だけよ/	ĐƯỢC RỒI. NHƯNG CHỈ MỘT LẦN THÔI ĐẤY.
+9D6F	story	あああ　まけちゃった/	ÁÁÁ, THUA MẤT RỒI.
+9D7C	story	よしなが　せんせ〜/	CÔ YOSHINAGA ƠI~
+9D89	story	なによ/	GÌ NỮA?
+9D8F	story	おつやの　じかんだから⏎もう　かえってもいい?/	TỚI GIỜ ĂN VẶT RỒI, TỚ VỀ ĐƯỢC CHƯA?
+9DAB	story	だれも　ひきとめて　ないわよ‼/	CÓ AI GIỮ EM LẠI ĐÂU!!
+9DC0	story	さ　しんちゃん⏎かえりましょうね/	NÀO SHIN, VỀ THÔI NHÉ.
+9DD3	story	もう　いっかい　してくれたら⏎かえる/	ĐẤU THÊM MỘT LẦN NỮA THÌ TỚ VỀ.
+9DE8	story	はあ‥‥‥/	HẦY……
+9FF0	story	はーい　みんな/	NÀO, CÁC EM!
+9FFA	story	すきなものの　えは⏎うまく　かけたかなあ?/	CÁC EM ĐÃ VẼ ĐẸP TRANH VỀ THỨ MÌNH THÍCH CHƯA?
+A012	story	はーい/	DẠ~!
+A018	story	じゃあ　おへやに　かざりましょうね/	VẬY MÌNH TREO LÊN TƯỜNG LỚP NHÉ.
+A02E	story	よしながセンセイ/	CÔ YOSHINAGA ƠI.
+A03A	story	なあに　ネネちゃん/	GÌ VẬY NENE?
+A046	story	しんちゃんが　いません/	BẠN SHIN KHÔNG CÓ Ở ĐÂY Ạ.
+A053	story	/	
+A054	story	ガラツ/	XOẠCH
+A05B	story	あら、まつざかセンセイ/	Ơ, CÔ MATSUZAKA.
+A06A	story	よしながセンセイ⏎‥‥‥‥‥ちょっと/	CÔ YOSHINAGA…… RA ĐÂY MỘT CHÚT.
+A080	story	なによ/	GÌ CHỨ?
+A086	story	いいから　ちょっと　きなさい/	CỨ RA ĐÂY ĐÃ!
+A097	story	おいっ　やめろ!⏎オレの　つくえだぞ‼/	NÀY, DỪNG LẠI! BÀN CỦA TAO ĐẤY!!
+A0AF	story	オラに　まかせておけ/	CỨ ĐỂ ĐÓ CHO TỚ.
+A0BC	story	なにをだよ‼/	ĐỂ CÁI GÌ HẢ!!
+A0C6	story	し、しんちゃん　つくえに⏎おえかき　しちゃ　ダメでしょ‼/	SH… SHIN, KHÔNG ĐƯỢC VẼ LÊN BÀN CHỨ!!
+A0E7	story	お?/	HỬ?
+A0EC	story	まったく⏎ひまわりぐみは　ダメね!/	THẬT TÌNH, LỚP HƯỚNG DƯƠNG TỆ QUÁ!
+A102	story	なんですって‼/	CÔ NÓI GÌ!!
+A10D	story	オラ　チーターの　つくえを⏎カツコよく　してやった　だけだゾ/	TỚ CHỈ LÀM CÁI BÀN CỦA CHEETAH NGẦU HƠN THÔI MÀ!
+A131	story	へーっ　カ□ムラくんが　キミに⏎たのんだの?/	HỪ! KAWAMURA NHỜ EM LÀM À?
+A14C	story	たのむわけないゾ、ん〜⏎おバカだなあ　まつざかセンセイは⏎だから　こいびとが⏎できないんだ‥‥‥/	AI THÈM NHỜ CHỨ! ỪM~ CÔ MATSUZAKA NGỐC GHÊ. THẢO NÀO CHẲNG CÓ NGƯỜI YÊU……
+A188	story	なんですって‥‥‥/	CÁI GÌ CƠ……
+A195	story	オ、オラとの　しょ〜ぶに　かてたら⏎あやまって　やっても　いいゾ/	N… NẾU CÔ ĐẤU THẮNG TỚ THÌ TỚ XIN LỖI CŨNG ĐƯỢC.
+A1BA	story	しょうぶするわ!　そのかわり⏎まけたら　つくえも⏎そうじ　するのよ‼/	ĐẤU THÌ ĐẤU! NHƯNG NẾU THUA, EM PHẢI LAU SẠCH CÁI BÀN ĐẤY!!
+A1E3	story	すごいわ　しんちゃん!/	GIỎI QUÁ, SHIN!
+A1F2	story	く、くやしい‥‥‥/	T… TỨC QUÁ ĐI……
+A1FE	story	せんせー　ボクの　つくえが‥‥‥/	CÔ ƠI, CÁI BÀN CỦA EM……
+A213	story	じぶんで　ふきなさい‼/	TỰ ĐI MÀ LAU!!
+A224	story	ええ〜!?/	HẢ~!?
+A22E	story	ホーホホホホ　よゆうの⏎しょうり　よ‼/	HÔ HÔ HÔ HÔ! THẮNG DỄ ỢT!!
+A244	story	こどもの　あそびなのに‥‥‥/	CHỈ LÀ TRÒ CHƠI CON NÍT MÀ……
+A257	story	わ、わるかったわね⏎こどもっぽくて‥‥‥/	XIN LỖI NHÉ, VÌ CÔ TRẺ CON QUÁ……
+A270	story	わかれば　いいゾ⏎オラ　こころが　ひろいから⏎ゆるして　やるゾ/	BIẾT VẬY LÀ ĐƯỢC. TỚ RỘNG LƯỢNG LẮM, THA CHO ĐÓ.
+A296	story	おいおい‥‥‥/	THÔI NÀO……
+A29E	story	/	
+A29F	story	トン　トン　トン/	CỘP CỘP CỘP
+A2AA	story	もう　すこしで　かんせいですね/	SẮP XONG RỒI ĐÂY.
+A2BC	story	/	
+A2BD	story	トン　トン　トン　トン/	CỘP CỘP CỘP CỘP
+A2CB	story	くみちょ〜/	ÔNG TRÙM~
+A2D3	story	おう　なんでえ‥‥‥じゃなくて/	HẢ, CHUYỆN GÌ ĐÓ…… À KHÔNG!
+A2E7	story	しんのすけくん‥‥　ボクは⏎くみちょう　じゃなくて⏎えんちょう　ですよ/	SHINNOSUKE À…… THẦY KHÔNG PHẢI ÔNG TRÙM, MÀ LÀ HIỆU TRƯỞNG.
+A310	story	なにしてるの?/	THẦY ĐANG LÀM GÌ VẬY?
+A31A	story	これですか?⏎ウサギごやを　つくって⏎いるんですよ/	CÁI NÀY À? THẦY ĐANG LÀM CHUỒNG THỎ.
+A33A	story	おお　ウサギごや‥‥‥/	Ồ, CHUỒNG THỎ……
+A34A	story	オ、オラも　てつだって⏎やっても　いいゾ/	T… TỚ GIÚP THẦY MỘT TAY CŨNG ĐƯỢC ĐÓ.
+A363	story	い、いや⏎けっこう　たいへんだから⏎いいですよ/	TH… THÔI, VIỆC NÀY VẤT VẢ LẮM, KHÔNG CẦN ĐÂU.
+A37F	story	やだ　やだ　オラやる　オラやる⏎オラやる　オラやる　オラやるー‼/	KHÔNG CHỊU! TỚ LÀM, TỚ LÀM! TỚ LÀM, TỚ LÀM, TỚ LÀM!!
+A3A4	story	うーん　しょうがないですね!/	ƯM…… ĐÀNH VẬY!
+A3B7	story	じゃ　わたしに　かったら⏎てつだって　もらいましょう/	VẬY NẾU THẮNG ĐƯỢC THẦY THÌ THẦY CHO GIÚP.
+A3D6	story	オラ　つよいゾ/	TỚ MẠNH LẮM ĐÓ!
+A3E3	story	しょうがないですね!/	ĐÀNH VẬY THÔI!
+A3F2	story	あ/	Á
+A3F6	story	くみちょう　オラ　おつや⏎たべてくるね　じゃ/	ÔNG TRÙM, TỚ ĐI ĂN XẾ ĐÂY. BÁI BAI!
+A411	story	‥‥‥‥‥‥/	………
+A41C	story	‥‥‥‥　わたしが　かったのに/	……RÕ RÀNG THẦY THẮNG MÀ.
+A42F	story	うん⏎うまく　つくれたわ/	ỪM, LÀM KHÉO GHÊ.
+A43E	story	あとは　レンジに　いれて‥‥‥と/	GIỜ CHỈ CẦN CHO VÀO LÒ VI SÓNG…… LÀ XONG.
+A452	story	ネ〜ネ〜ちゃん/	NE~NE~ ƠI~
+A45C	story	アラ‥‥　あのこえは⏎しんちゃん‥‥‥/	Ơ KÌA…… GIỌNG NÀY LÀ SHIN……
+A470	story	/	
+A471	story	げっ!?/	HẢ!?
+A47B	story	しんちゃん⏎なにを　しているの?/	SHIN, CHÁU ĐANG LÀM GÌ VẬY?
+A48E	story	おおっ/	Ồ!
+A494	story	オラ　ネネちゃんの　わすれもの⏎とどけに　きたゾ/	CHÁU MANG ĐỒ NENE BỎ QUÊN ĐẾN TRẢ ĐÂY Ạ.
+A4B1	story	アラ　ほんと　ネネのハンカチね/	Ồ, ĐÚNG LÀ KHĂN TAY CỦA NENE RỒI.
+A4C3	story	ありがとう　しんちゃん/	CẢM ƠN CHÁU NHÉ, SHIN.
+A4D2	story	へええ!!⏎のどが　かわいて　うごけない〜/	TRỜI ƠI!! KHÁT NƯỚC QUÁ, KHÔNG ĐI NỔI NỮA~
+A4ED	story	い、いま　ミルクを　いれるわね/	Đ… ĐỂ CÔ RÓT SỮA CHO NHÉ.
+A4FF	story	かじゅう　ひゃくパーの⏎ジュースが　いい/	CHÁU MUỐN NƯỚC ÉP 100% CƠ.
+A51A	story	はい　はい/	RỒI, RỒI.
+A520	story	/	
+A521	story	ごく　ごく　ごく/	ỰC ỰC ỰC
+A52F	story	ネネ　おそいわね〜/	NENE VỀ MUỘN GHÊ~
+A53B	story	おばちゃん⏎オラと　あそぼ〜/	CÔ ƠI, CHƠI VỚI CHÁU ĐI~
+A54E	story	え?/	HẢ?
+A553	story	そうね!　ネネも　おそいし‥‥/	CŨNG ĐƯỢC! NENE CÒN LÂU MỚI VỀ……
+A565	story	すこしなら　いいわよ/	MỘT CHÚT THÔI NHÉ.
+A574	story	し、しんちゃん　つよいのね/	SH… SHIN GIỎI GHÊ NHỈ.
+A584	story	おとなのくせに　へたくそだなあ/	NGƯỜI LỚN GÌ MÀ CHƠI DỞ ẸC.
+A597	story	なんだって〜!　このガキ‼/	MÀY NÓI GÌ~! THẰNG NHÓC NÀY!!
+A5A9	story	マ、ママ!?/	M… MẸ!?
+A5B2	story	え?/	HẢ?
+A5B7	story	い、いつもの　ママじゃない‥‥/	Đ… ĐÂY KHÔNG PHẢI MẸ MỌI KHI……
+A5CA	story	ネ、ネネちゃん/	N… NENE……
+A5D4	story	オラ　かえる/	TỚ VỀ ĐÂY.
+A5DD	story	いつもの　ママじゃな〜い/	KHÔNG PHẢI MẸ MỌI KHI~
+A5EF	story	か、か、かったわ⏎ホホホホホホホ/	TH… THẮNG… THẮNG RỒI! HÔ HÔ HÔ HÔ HÔ!
+A6EC	story	たすけて〜!/	CỨU TÔI VỚI~!
+A6F5	story	おお　あれは⏎ミミコ　おねえさん!?/	Ồ, ĐÓ CHẲNG PHẢI CHỊ MIMIKO SAO!?
+A70A	story	あ!?　キミ‼⏎あぶないわ　にげて‼/	Á!? EM ƠI!! NGUY HIỂM LẮM, CHẠY ĐI!!
+A721	story	/	
+A722	story	ビビビビビビ/	XẸT XẸT XẸT
+A731	story	ビ〜〜〜‼/	XẸT~~~!!
+A73A	story	おお〜!　オ、オラ⏎アクションビームを　うったゾ!?/	Ồ~! T… TỚ BẮN ĐƯỢC ACTION BEAM RỒI!?
+A759	story	□ーハツハツハツハツ/	HA HA HA HA!
+A766	story	お?/	HỬ?
+A76B	story	しんのすけくん‼⏎ミミコくんを　たすけてくれて⏎ありがとう‼⏎こころから　れいを　いうよ!/	SHINNOSUKE!! CẢM ƠN CẬU ĐÃ CỨU MIMIKO!! TA XIN CẢM TẠ TỪ ĐÁY LÒNG!
+A79C	story	アクション　かめん‼/	ACTION KAMEN!!
+A7A9	story	しんのすけくん　キミは⏎アクションかめんに　なることが⏎できるかも　しれない/	SHINNOSUKE, CÓ LẼ CẬU SẼ TRỞ THÀNH ACTION KAMEN ĐẤY.
+A7D4	story	ちからを　たかめる　ため⏎わたしと　しょうぶを⏎してくれないか?/	ĐỂ TĂNG SỨC MẠNH, CẬU ĐẤU VỚI TA MỘT TRẬN CHỨ?
+A7F8	story	おお!/	Ồ!
+A7FE	story	アクショ〜ン　かめ〜ん‼/	ACTION~ KAMEN~!!
+A80D	story	わたしの　めに　くるいは⏎なかった‼/	QUẢ NHIÊN TA KHÔNG NHÌN NHẦM NGƯỜI!!
+A822	story	すてきよ!⏎アクションかめん　にごう‼/	TUYỆT QUÁ! ACTION KAMEN SỐ 2!!
+A839	story	わっはっはっはっはっ/	HA HA HA HA HA!
+A846	story	はっはっは　‥‥はっ/	HA HA HA…… HẢ!
+A853	story	しんのすけ〜?/	SHINNOSUKE~?
+A85D	story	おきなさ〜い⏎もう　あさよ!/	DẬY ĐI~ SÁNG RỒI ĐÓ!
+A86E	story	むにゃ　むにゃ　こい〜⏎かいじん　けつでか　おばば〜/	ƯM…… ƯM…… LẠI ĐÂY~ QUÁI NHÂN BÀ GIÀ MÔNG BỰ~
+A88F	story	なんですって〜‼/	CON NÓI CÁI GÌ~!!
+A89B	story	まけた‥‥‥/	THUA RỒI……
+A8A4	story	も、もう　いっかい⏎しょうぶしてみるかい?/	M… MUỐN ĐẤU LẠI LẦN NỮA KHÔNG?
+B0DC	story	お/	Ồ
+B0DE	story	おお/	Ồ Ồ
+B0E1	story	じゃ/	VẬY NHÉ
+B0E5	bubble	でも　ちゅう　だゾ!/	DEMO ĐÓ NHA!
+B0F3	bubble	スタートを　おせば?/	BẤM START ĐI?

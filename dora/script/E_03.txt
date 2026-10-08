@@ -1,0 +1,360 @@
+#L9482 E83
+………
+ 
+Nobita đã bị
+hóa đá…
+{end}
+#L9499 E84
+Ta là cửa đấy!
+Có ý kiến gì!
+{end}
+#L94ac E85
+{flag 0c L94fe L94b0}
+#L94b0
+Đồn rằng hang
+phía đông có
+kho báu…
+{p}Nhưng có ác quỷ
+1 sao canh giữ…
+Hãy hạ nó trước
+{end}
+#L94fe
+{flag 0d L9551 L9502}
+#L9502
+Thật ra phía
+bắc cũng có
+một cái hang…
+{p}Nếu tới đó,
+ta tặng quả
+cầu bạc này…
+{f9 14}{fb 0d}{p}Hãy dùng nó khi
+đánh với ác
+quỷ…
+{p}
+#L9551
+Ác quỷ sẽ tấn
+công bất ngờ,
+{p}nên nhớ lấy
+quả cầu bạc
+ra khỏi túi…
+{end}
+#L9586 E86
+{flag 0c L959c L958a}
+#L958a
+Lát nữa quay
+lại đây nhé…
+{end}
+#L959c
+Thị trấn Sao ở
+phía bắc… Nhưng
+có biển chắn
+{p}{fa}nên không tới
+được…
+{p}Thế mà lũ ác
+quỷ lại tới đó
+trong nháy mắt…
+{p}{fa}Lạ thật…
+{end}
+#L95ef E87
+Chào mừng! Đây
+là thủ đô liên
+bang Mu dưới
+{p}{fa}đáy biển…
+{end}
+#L9612 E88
+Này, Poseidon
+hồi sinh là
+thật sao?
+{p}{fa}Đùa thôi nhỉ…
+{end}
+#L9637 E89
+Thành phố này
+đã bị lính sắt
+Atlantis
+{p}{fa}bao vây rồi…
+{end}
+#L965f E90
+Nghe nói
+Poseidon hồi
+sinh và xây
+{p}{fa}Lâu đài Quỷ
+Đá mới…
+{end}
+#L9687 E91
+Đã tới mộ của
+Bagi dũng cảm,
+người cứu đáy
+{p}{fa}biển chưa?
+{yesno L96b4 L96c4}
+#L96b4
+{fa}Vậy tốt quá…
+{end}
+#L96c4
+Nó ở thành phố
+Otter, đi lên
+bắc qua thành
+{p}{fa}phố Wu…
+{p}{fa}Hãy ghé thăm
+nhé…
+{end}
+#L9701 E92
+Nghe nói xa về
+phía bắc có
+Lâu đài Quỷ Đá
+{p}{fa}của Poseidon…
+{end}
+#L972d E93
+Cảm ơn đã tới
+tận đáy Thái
+Bình Dương…
+{end}
+#L974f E94
+Đội điều tra
+tới Lâu đài Quỷ
+Đá chẳng ai về…
+{p}Trong đội điều
+tra có cả El…
+{end}
+#L9791 E95
+Thủ tướng đang
+họp trong
+đền thờ…
+{end}
+#L97b5 E96
+Lính sắt ở
+ngoài mạnh
+lắm đấy…
+{p}Nên tới đền
+thờ trước
+thì hơn…
+{end}
+#L97eb E97
+Đây là thành
+phố Wu…
+{end}
+#L97fa E98
+Đi tiếp lên
+phía bắc là
+tới thành
+{p}{fa}phố Otter…
+{end}
+#L9822 E99
+Cách đây ít lâu
+có một cậu bé
+mặt như cáo
+{p}{fa}được cứu…
+{end}
+#L984e E100
+Kho báu trong
+tàu đắm đã bị
+lính sắt lấy
+{p}{fa}sạch rồi…
+{end}
+#L987d E101
+Hôm trước tôi
+gặp El… Cậu ấy
+đuổi theo một
+{p}cậu bé trên
+mặt đất tới
+thành Otter…
+{end}
+#L98b0 E102
+Thành này nhỏ
+nên có vẻ lính
+sắt bỏ qua…
+{end}
+#L98df E103
+Bạn tôi nhặt
+được đồ hay
+lắm… Cô ấy
+{p}{fa}chơi dây giỏi
+cực kỳ…
+{end}
+#L990e E104
+Đây là Otter…
+Thành phố có
+mộ của Bagi…
+{end}
+#L992f E105
+{flag 1a L9933 L994a}
+#L9933
+Chà, tìm được
+bạn rồi nhỉ…
+{end}
+#L994a
+El cũng hỏi
+rồi, nhưng cậu
+bé mặt cáo
+{p}không tới đây…
+{p}Có khi bị lính
+sắt bắt dọc
+đường rồi?
+{end}
+#L9997 E106
+{flag 3d L99fc L999b}
+#L999b
+Tôi nhặt được
+thứ này!
+{p}Nghe nói đây là
+cái ô, dùng
+trên mặt đất…
+{p}Tặng các bạn…
+{f9 14}{fb 3d}{p}Vì dưới biển
+đâu có mưa…
+{end}
+#L99fc
+Mưa ơi mưa,
+rơi đi nào…
+{end}
+#L9a0b E107
+Tôi trẻ lại
+rồi nên chơi
+suốt cũng được
+{flag 17 L9a31 L9a32}
+#L9a31
+{end}
+#L9a32
+{p}Ồ! Khăn này
+của các bạn à?
+Vậy xin trả…
+{f9 14}{p}Thử dùng khăn
+này cho Bagi
+xem? Biết đâu
+{p}{fa}sẽ sống lại…
+{p}Hả! Không phải
+khăn quàng, mà
+là khăn trùm?
+{p}{fa}Tôi đúng là…
+{fb 17}{end}
+#L9aa9 E108
+{flag 18 L9aad L9acc}
+#L9aad
+Gì!
+Bagi hồi sinh?
+Mừng quá!
+{end}
+#L9acc
+Linh kiện của
+Bagi được tìm
+thấy trong
+{p}đống đổ nát
+của đền
+Poseidon…
+{p}Chúng được thờ
+trong miếu, là
+thắng cảnh đây
+{p}Giờ đang chôn
+dưới bức tượng
+đá đấy…
+{end}
+#L9b3b E109
+Đội điều tra
+của El qua đây
+rồi chẳng về…
+{end}
+#L9b64 E110
+Đi tiếp là tới
+vùng dung nham
+đỏ rực…
+{p}Nhưng đi bộ
+thì không qua
+được đâu…
+{p}Nếu có xe thì
+không sao…
+{end}
+#L9bc2 E111
+Các bạn sẽ đánh
+với Poseidon
+sao?
+{yesno L9bdb L9bf0}
+#L9bdb
+{fa}Vui quá!
+Cố lên nhé…
+{end}
+#L9bf0
+{fa}Vậy à…
+Buồn quá…
+{end}
+#L9c02 E112
+Cậu bé mặt cáo
+hình như tới mộ
+Bagi ở Otter…
+{end}
+#L9c2d E113
+Lạ thật…
+Poseidon sống
+lại bằng cách
+{p}{fa}nào nhỉ…
+{end}
+#L9c4e E114
+Mẹ tôi nhặt
+được khăn, trùm
+thử lên người
+{p}thì hóa trẻ
+con lại…
+{p}Giờ bà cầm nó
+đi chơi… Dù đã
+88 tuổi rồi…
+{end}
+#L9ca6 E115
+{flag 3c L9caa L9cce}
+#L9caa
+Ta đã bảo chỉ
+nói một lần!
+Thôi, nghe đây…
+{jmp L9cef}
+#L9cce
+Nghe đây, ta
+chỉ nói một
+lần thôi! E hèm{n}
+#L9cef
+{p}Phải hạ
+Poseidon trước
+khi thành phố
+{p}bị tấn công…
+{p}Như vậy lính
+sắt sẽ không
+cử động được…
+{p}Từ phòng phía
+đối diện có thể
+xuống đường
+{p}ngầm, sang
+được bên kia…
+{fb 3c}{end}
+#L9d64 E116
+Chào mừng quý
+khách trên cạn.
+Thủ tướng đang
+{p}{fa}đợi ở phòng
+trong…
+{end}
+#L9d94 E117
+El mất tích
+rồi! Ôi, lo
+quá!
+{p}{fa}Mong cậu ấy
+bình an…
+{end}
+#L9dc1 E118
+Nghe nói đền
+này có giấu
+kiếm và giáp
+{p}{fa}tuyệt hảo…
+{end}
+#L9de9 E119
+Giờ chúng tôi
+chỉ có thể cầu
+thần Nabara…
+{end}
+#L9e0e E120
+Đây là đền
+Nabara…
+{end}
+#L9e20 E121
+………
+{end}
+#L9e27 E122
+Cẩn thận đấy…
+Poseidon
+mạnh lắm!
+{end}

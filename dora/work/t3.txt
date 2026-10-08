@@ -1,0 +1,50 @@
+load work/g8v.st
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press RIGHT 6 14
+press A 6 60
+run 60
+press A 6 60
+run 120
+press A 6 50
+press A 6 50
+press A 6 50
+press A 6 50
+press A 6 50
+press A 6 50
+run 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+run 90
+shot work/d.png 1
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+press A 6 60
+run 90
+shot work/e.png 1
+save work/t_d.st
+quit

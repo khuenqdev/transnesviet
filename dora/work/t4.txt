@@ -1,0 +1,38 @@
+load work/t_d.st
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+press A 6 40
+run 120
+shot work/f1.png 1
+save work/t_play.st
+press A 6 60
+run 30
+shot work/f2.png 1
+quit

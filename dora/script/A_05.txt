@@ -1,0 +1,350 @@
+#Lb3f1
+{f5 61}{w0}Các bạn mang
+cỏ thuốc đỏ
+tới rồi… Cảm ơn
+{flag 46 Lb444 Lb416}
+#Lb416
+{p}{w0}Giờ có thể cứu
+mẹ Kukuru rồi…
+Hãy mang tới
+{p}{w0}cho Kukuru…
+{end}
+#Lb444
+{f6 02}{w1}Mà nghe nói
+{flag 39 Lb458 Lb464}
+#Lb458
+quạt lá chuối
+{jmp Lb470}
+#Lb464
+quạt lá chuối{n}
+#Lb470
+chị đang giữ…
+{p}{f5 65}{w0}Các bạn nhất
+quyết đi hạ
+Giga Zombie?
+{p}{f6 16}{w1}
+{fa}{w1}Ừ… Biết là
+nguy hiểm
+nhưng…
+{p}{f6 1a}{w1}
+{fa}{w1}Bọn tớ vẫn
+sẽ đi!
+{p}{w0}Tôi hiểu…
+Quạt lá chuối
+này cho bạn
+{p}{w0}mượn…
+{f9 14}{p}{fa}{w0}Nhưng chỉ các
+bạn thì nguy
+hiểm lắm…
+{p}{fa}{w0}Tôi cũng sẽ
+đi cùng…
+{p}{f6 19}{w1}Thật à?
+May quá!
+ 
+{f9 12}{fb 2d}{end}
+#Lb523 C19
+{f5 68}{f6 02}{w0}Lũ trẻ không
+biết sợ chết!
+{p}{f6 60}{w1}………
+{fb 2f}{end}
+#Lb544 C20
+{end}
+#Lb545 D0
+{f5 15}{f6 02}{w1}Doraemon…
+Làm sao đây?
+{p}{flag 02 Lb583 Lb559}
+#Lb559
+{f5 16}{w0}Dù sao cũng
+phải tìm cách
+tới Ma Giới…
+{p}{f6 00}{w1}
+{fa}{w1}Ừ!
+{end}
+#Lb583
+{flag 03 Lb5c8 Lb587}
+#Lb587
+{f5 16}{w0}Nếu thứ mà
+Dekisugi kể
+là Bốt Giá Như
+{p}{w0}bị mất, thì
+có thể tới
+Ma Giới…
+{end}
+#Lb5c8
+{flag 05 Lb5eb Lb5cc}
+#Lb5cc
+{f5 17}{w0}Làm sao để
+ra khỏi thị
+trấn nhỉ?
+{end}
+#Lb5eb
+{flag 08 Lb638 Lb5ef}
+#Lb5ef
+{f5 17}{w0}Muốn hạ
+Demaon phải
+có mũi tên bạc
+{p}{f6 30}{w1}
+{fa}{w1}Nghe nói có
+bạc chôn ở
+một ngôi làng…
+{end}
+#Lb638
+{flag 09 Lb660 Lb63c}
+#Lb63c
+{w0}Có bạc rồi,
+giờ phải làm
+thành mũi tên…
+{end}
+#Lb660
+{flag 11 Lb68c Lb664}
+#Lb664
+{f5 16}{w0}Chắc chắn có
+chỗ dẫn tới
+lâu đài Ma
+{p}{w0}Vương!
+{end}
+#Lb68c
+{flag 14 Lb6c6 Lb690}
+#Lb690
+{f5 16}{w0}Sắp quyết
+chiến với
+Demaon rồi!
+{p}{w0}Phải lấy mũi
+tên bạc ra
+khỏi túi…
+{end}
+#Lb6c6
+{flag 16 Lb72d Lb6ca}
+#Lb6ca
+{f5 10}{w0}Hình như túi
+có đồ để lặn
+xuống biển…
+{p}{f5 17}{w0}Để xem… Không
+phải cái này
+cái này… Ơ?
+{p}{w0}Cất đâu rồi
+nhỉ…
+{p}{f5 14}{f6 1b}{w1}
+{fa}{w1}Tỉnh táo lên
+Doraemon!
+{end}
+#Lb72d
+{flag 17 Lb754 Lb731}
+#Lb731
+{f5 17}{w0}Ai bị đưa
+tới đây nhỉ?
+Tìm El trước!
+{end}
+#Lb754
+{flag 18 Lb785 Lb758}
+#Lb758
+{w0}Có xe gì thì
+tới được Lâu
+đài Quỷ Đá…
+{p}{f6 03}{w1}
+{fa}{w1}Ưmm…
+{end}
+#Lb785
+{flag 1a Lb7bf Lb789}
+#Lb789
+{f5 16}{w0}Suneo và El
+chắc chắn ở
+Lâu đài Quỷ Đá
+{p}{f6 1a}{w1}
+{fa}{w1}Mau đi cứu
+họ thôi…
+Doraemon!
+{end}
+#Lb7bf
+{flag 1b Lb7f1 Lb7c3}
+#Lb7c3
+{f5 16}{w0}Poseidon rất
+mạnh! Mọi
+người cẩn thận
+{p}{w1}
+{fa}{w1}Ừ…
+{end}
+#Lb7f1
+{flag 1d Lb839 Lb7f5}
+#Lb7f5
+{f5 10}{w0}Đồ để xuống
+lòng đất vừa
+được tặng rồi
+{p}{f5 17}{w0}Nhưng không
+dùng ở đâu
+cũng được…
+{p}{f6 19}{w1}
+{jmp Lb83b}
+#Lb839
+{jmp Lb873}
+#Lb83b
+{fa}{w1}Biết rồi!
+Phòng tắm nhà
+Shizuka…
+{p}{f6 1d}{w1}Chắc không
+phải… Hì hì…
+{p}{f5 14}{w0}
+{fa}{w0}Cái cậu này…
+{end}
+#Lb873
+{flag 1e Lb8c0 Lb877}
+#Lb877
+{f5 17}{w0}Bạn ở thế
+giới này là
+Jaian? Hay
+{p}{w0}Shizuka nhỉ…
+{p}{f6 00}{w1}
+{fa}{w1}Dù sao cũng
+{flag 39 Lb8ae Lb8b7}
+#Lb8ae
+{w1}tìm thử đã…
+{jmp Lb8bf}
+#Lb8b7
+{w1}tìm thử nhé…{n}
+#Lb8bf
+{end}
+#Lb8c0
+{flag 21 Lb919 Lb8c4}
+#Lb8c4
+{w0}Để xem nào…
+{f5 13}{w0}Được!
+{f6 01}{w1}
+{fa}{w1}Ừ!
+{p}{f5 16}{w0}Vậy thì…
+{f6 00}{w1}Vậy thì?
+{p}{w0}
+{fa}{f5 10}{w0}Ăn bánh rán
+rồi tính!
+ 
+{f6 03}{w1}
+{fa}{w1}Bó tay!!
+{end}
+#Lb919
+{flag 23 Lb96f Lb91d}
+#Lb91d
+{f5 10}{w0}Đi gặp tù
+trưởng tộc
+Nanja nào…
+{p}{f6 18}{w1}
+{fa}{w1}Nhưng họ có
+chịu gặp
+không nhỉ…
+{p}{w0}
+{fa}{w0}Kh… không
+sao đâu…
+{p}{f5 15}Chắc vậy…
+{end}
+#Lb96f
+{flag 25 Lb9af Lb973}
+#Lb973
+{flag 42 Lb9af Lb977}
+#Lb977
+{f5 10}{w0}Trao thư cho
+Pháp Vương là
+hết chiến
+{p}{w0}tranh nhỉ…
+{p}{f6 01}{w1}
+{fa}{w1}Mong là vậy…
+{end}
+#Lb9af
+{flag 26 Lb9cb Lb9b3}
+#Lb9b3
+{f5 16}{w0}Pháp Vương
+có vẻ lạ
+lắm…
+{end}
+#Lb9cb
+{flag 28 Lb9fb Lb9cf}
+#Lb9cf
+{f5 16}{w0}Phải mau hạ
+kẻ điều khiển
+lũ khủng long!
+{p}{jmp Lb9fd}
+#Lb9fb
+{jmp Lba20}
+#Lb9fd
+{f6 26}{w1}
+{fa}{w1}Được, mọi
+người! Cố
+lên nào!
+{p}{f5 1a}{w0}
+{fa}{w0}Ô!
+{end}
+#Lba20
+{flag 29 Lba54 Lba24}
+#Lba24
+{f5 16}{w0}Chỉ còn
+Shizuka… Cố
+thêm chút nữa!
+{p}{f6 00}{w1}
+{fa}{w1}Ừ!
+{end}
+#Lba54
+{flag 2a Lba80 Lba58}
+#Lba58
+{f5 16}{w0}Giga Zombie
+ở thế giới
+này đấy!
+{p}{f6 01}{w1}
+{fa}{w1}Hả! Thật à?
+{end}
+#Lba80
+{flag 2b Lbaac Lba84}
+#Lba84
+{f5 16}{w0}Hỏi trùm tộc
+Bóng Tối có
+khi biết về
+{p}{w0}quạt lá chuối
+{end}
+#Lbaac
+{flag 2d Lbb15 Lbab0}
+#Lbab0
+{f5 11}{w0}Oa… Lạnh
+quá, đầu óc
+đơ hết rồi…
+{p}{f6 1b}{w1}
+{fa}{w1}Tớ cũng vậy…
+{p}{f5 16}{w0}
+{fa}{w0}Cậu thì lúc
+nào chẳng thế
+{p}{f6 1a}{w1}
+{fa}{w1}Doraemon!
+Quá đáng!
+{p}{f5 13}{w0}
+{fa}{w0}Xin lỗi…
+xin lỗi…
+{end}
+#Lbb15
+{flag 2f Lbb3e Lbb19}
+#Lbb19
+{f5 16}{w0}Nào… Đi hạ
+Giga Zombie
+thôi!
+{p}{f6 64}{w1}
+{fa}{w1}………
+{end}
+#Lbb3e
+{flag 30 Lbb7e Lbb42}
+#Lbb42
+{f5 10}{w0}Giờ Shizuka
+về an toàn là
+xong hết nhỉ…
+{p}{f6 00}{w1}
+{fa}{w1}Tốt quá rồi!
+{end}
+#Lbb7e
+{flag 35 Lbbbe Lbb82}
+#Lbb82
+{f5 16}{w0}Dù sao cũng
+tới Yêu Ma
+Thành xem…
+{p}{f6 21}{w1}
+{fa}{w1}Phải rồi…
+Có khi sẽ
+biết gì đó…
+{end}
+#Lbbbe
+{f5 16}{w0}Ngưu Ma
+Vương… Không
+tha thứ được!
+{end}

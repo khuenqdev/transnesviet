@@ -1,0 +1,26 @@
+These cursors were added to NEXXT to help indicate contextual tools, 
+often when holding one or other modifier key down while hovering a canvas.
+
+If you find that one or the other custom cursor is undesireable, 
+simply rename or remove it from this folder 
+and NEXXT will default to the standard cursor instead for that context.
+
+
+-----------------
+Precision cursors
+-----------------
+
+The OLD folder contains the first iteration of the cursors. 
+These offer just a bit more precision, taking advantage
+of an "inverse of background colour" in their designs. 
+
+It has come to my attention this .cur feature isn't correctly implemented 
+on most linux distros, leading to to either wrong-looking or missing solids in the cursor,
+so i've legacied them for now for broader compatibility.
+
+If you prefer the old style, you may replace the contents of the cursor folder
+with the contents of the old folder. They're always safe to use on windows.
+For any other system: pay attention to what may look wrong.
+
+In day to day use, the difference isn't all that important, given the level of 
+zoom pixel/tile artwork usually is at.

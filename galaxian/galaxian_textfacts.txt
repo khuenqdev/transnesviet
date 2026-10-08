@@ -1,0 +1,37 @@
+Text fact sheet - galaxian.nes
+Platform: NES / Famicom
+
+== Text ==
+Table file                                : custom encoding (no ASCII / Shift-JIS text found): run again with --known WORD or --tbl FILE
+Text confirmed on screen                  : 14 ROM run(s) confirmed on screen by the emulator - see Emulator evidence
+Control codes                             : (fill in)
+Dictionary / DTE / compression            : (fill in)
+Pointer tables                            : (fill in)
+Hard-coded pointers                       : (fill in)
+Window size / line width / lines per page : measured on screen: line ~16 chars typical, up to 32; 2 line(s) at once; row pitch 183
+Fixed width or VWF                        : fixed width - the emulator drew this text as tile indices, one tile per character
+Non-script text                           : (fill in)
+
+== Encoding ==
+ASCII: 1 region(s), 33 bytes of text-like data
+Shift-JIS: 1 region(s), 33 bytes of text-like data
+
+== Emulator evidence ==
+  core mesen, 12 capture(s); 14 run(s) of ROM text found on screen
+  stored code -> drawn tile: +$00 (8 run(s) agree); row pitch 183; up to 2 line(s) at once
+  These ROM offsets are text for certain - the emulator drew them.
+  rom offset      address        len  delta  capture           on-screen at
+  0001B4-0001D4  00:81B4         32  $00   game1.state       0x000f9
+  0001B4-0001D4  00:81B4         32  $00   game2.state       0x000f9
+  0001B4-0001D4  00:81B4         32  $00   game3.state       0x000f9
+  0001B4-0001D4  00:81B4         32  $00   menu.state        0x000f9
+  0001B4-0001D4  00:81B4         32  $00   title.state       0x000f9
+  0001BA-0001D4  00:81BA         26  $00   boot.state        0x000ff
+  000010-000020  00:8010         16  $00   boot.ram          0x00105
+  000010-000020  00:8010         16  $00   boot.state        0x0038e
+  000779-000785  00:8779         12  $F6   boot.ram          0x001be
+  000785-000791  00:8785         12  $F6   boot.ram          0x001be
+  000779-000785  00:8779         12  $F6   boot.state        0x00447
+  000785-000791  00:8785         12  $F6   boot.state        0x00447
+  00191B-001924  00:991B          9  $FD   boot.ram          0x001bc
+  00191B-001924  00:991B          9  $FD   boot.state        0x00445

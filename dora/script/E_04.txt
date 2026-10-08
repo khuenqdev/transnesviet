@@ -1,0 +1,378 @@
+#L9e3f E123
+Giờ chúng tôi
+đang đánh nhau
+với tộc Nanja…
+{p}Tự dưng bọn
+chúng tấn công
+chúng tôi…
+{end}
+#L9e77 E124
+{flag 23 L9e7b L9eb4}
+#L9e7b
+{flag 24 L9ea2 L9e7f}
+#L9e7f
+Ồ! Đây là thư
+tộc Nanja gửi
+Pháp Vương!
+{p}{fa}
+#L9ea2
+Xin mời qua…
+{fb 24}{end}
+#L9eb4
+Pháp Vương giờ
+đang bận…
+{end}
+#L9ecc E125
+Khò… khò…
+{p}Ch… chết thật
+lỡ ngủ gật
+mất rồi…
+{end}
+#L9ef2 E126
+Đại vận hà ở
+phía tây nam
+Enlil…
+{end}
+#L9f13 E127
+Này bạn xanh
+kia… Bạn tiến
+hóa từ chồn à?
+{end}
+#L9f35 E128
+Em ấy à… Chưa
+từng ăn bánh
+rán bao giờ…
+{end}
+#L9f4d E129
+Không có việc
+thì không được
+vào cung Pháp
+{p}{fa}Vương đâu…
+{end}
+#L9f73 E130
+Đây là thế giới
+lòng đất… Enlil
+của nước người
+{p}{fa}khủng long…
+{end}
+#L9f97 E131
+Dạo này ít thấy
+Pháp Vương xuất
+hiện…
+{p}Chắc ngài đau
+lòng vì cuộc
+chiến này?
+{end}
+#L9fdd E132
+Có cậu bé trông
+như khỉ đột tới
+nhà Banhoo ở
+{p}{fa}làng Nodon…
+{end}
+#La009 E133
+Muốn sang lục
+địa bên phải
+đi thuyền
+{p}{fa}chuyển chiều…
+{end}
+#La034 E134
+Tộc Nanja cố
+thủ trong pháo
+đài quanh tù
+{p}{fa}trưởng…
+{end}
+#La05a E135
+Đây là làng
+Nodon…
+{end}
+#La06a E136
+Làng Urus ở
+bên kia hồ
+phía nam…
+{end}
+#La090 E137
+Đó là nhà
+Banhoo… Nhưng
+dạo này vắng
+{p}{fa}nhà suốt…
+{end}
+#La0b8 E138
+Cậu bé trên mặt
+đất và Rô, em
+gái Banhoo à?
+{p}Cả hai đi
+thuyền chuyển
+chiều tới
+{p}trại căn cứ ở
+lục địa bên…
+{end}
+#La10d E139
+Dạo này cha tôi
+cứ kể chuyện
+chiến công hồi
+{p}trẻ là không
+dừng lại được…
+{p}Nghề của cha?
+Đội trưởng đội
+Hiệp sĩ Rồng!
+{p}{fa}Ông ở làng
+Urus bên cạnh…
+{end}
+#La176 E140
+{flag 1e La17a La1ac}
+#La17a
+Ồ? Có giấy
+phép lên
+thuyền à…
+{p}{fa}Vậy thì cho
+qua…
+{fb 1f}{end}
+#La1ac
+Thuyền chở hiệp
+sĩ tới trại…
+Người thường
+{p}không được lên
+{p}Nếu muốn thì
+hãy nói với
+đội trưởng
+{p}{fa}Hiệp sĩ Rồng…
+{end}
+#La207 E141
+
+{end}
+#La209 E142
+Đây là làng
+Urus, phía
+nam hồ…
+{end}
+#La224 E143
+Nghe nói dạo
+này không thấy
+Banhoo đâu?
+{p}{fa}Lo quá…
+{end}
+#La24e E144
+Đang yên ổn với
+tộc Nanja, sao
+lại đánh nhau?
+{end}
+#La277 E145
+{flag 3f La2ac La27b}
+#La27b
+Các cháu đi tìm
+Banhoo à? Vậy
+ta tặng thứ
+{p}{fa}giống khẩu
+pháo này…
+{f9 14}{fb 3f}{end}
+#La2ac
+Tìm được Banhoo
+chưa?
+{end}
+#La2bd E146
+Ông tôi là đội
+trưởng, oai
+lắm đấy…
+{end}
+#La2e5 E147
+{flag 40 La362 La2e9}
+#La2e9
+A! Chẳng phải
+Doraemon đây
+sao… May quá…
+{p}Tôi nhặt được
+ở thánh địa,
+chắc là đồ
+{p}{fa}của các bạn…
+{p}Gắn lên đầu
+để bay đấy
+thôi…
+{p}{fa}Đừng đánh rơi
+nữa nhé…
+{f9 14}{fb 40}{end}
+#La362
+Cố lên nhé…
+{end}
+#La36f E148
+Đây là giáo
+xuyên thủng mọi
+khiên… Còn đây
+{p}là khiên chẳng
+kiếm nào xuyên
+thủng…
+{p}Tổ tiên ta mua
+ở nước ngoài,
+giáo và khiên
+{p}{fa}mâu thuẫn đấy…
+{p}Cả hai, đổi
+100 bánh rán
+thì ta bán…
+{yesno La3fb La41c}
+#La3fb
+Ha ha ha!
+Làm gì có giáo
+với khiên thế!
+{end}
+#La41c
+{fa}Tiếc quá…
+{end}
+#La42b E149
+Đây là trại căn
+cứ số 1 ở sa
+mạc Pis…
+{end}
+#La449 E150
+Gào! Gào!
+{end}
+#La455 E151
+Đi thẳng về
+đông sẽ gặp
+bức tường…
+{p}Men theo tường
+sang đông là
+tới rừng Tops…
+{end}
+#La49b E152
+Rô đã tới trại
+căn cứ ở rừng
+Tops vài hôm
+{p}{fa}trước…
+{end}
+#La4c3 E153
+Làng Nanja ở
+phía nam, nhưng
+giờ đừng tới
+{p}{fa}thì hơn…
+{end}
+#La4f3 E154
+Chiến tranh này
+là do tộc Nanja
+gây ra nhỉ?
+{end}
+#La513 E155
+Biết không,
+thánh địa là do
+con mèo giống
+{p}chồn tạo ra…
+{p}Giống bạn ghê…
+{end}
+#La541 E156
+Nghe nói Banhoo
+đi làm nhiệm vụ
+đặc biệt của
+{p}{fa}Pháp Vương rồi
+chẳng thấy về…
+{end}
+#La56f E157
+
+{end}
+#La571 E158
+Đây là trại căn
+cứ số 2 ở
+rừng Tops…
+{end}
+#La58d E159
+Đuổi theo kẻ
+địch, đôi khi
+chúng biến mất…
+{p}Chỉ còn lại
+một con búp
+bê đất…
+{p}{fa}Chúng biến
+đi đâu nhỉ?
+{end}
+#La5e1 E160
+Những người
+khác đi trinh
+sát… Sắp về
+{p}{fa}rồi đấy…
+{end}
+#La606 E161
+Lũ khủng long
+lạ lắm… Chúng
+dễ nổi nóng
+{p}{fa}nên cẩn thận…
+{end}
+#La634 E162
+Tộc Nanja đi
+xuôi sông ở
+phía nam tới…
+{end}
+#La655 E163
+{flag 21 La659 La676}
+#La659
+CÓ CỜ TRẮNG…
+ĐƯỢC, CHO QUA…
+{fb 22}{end}
+#La676
+ĐÂY LÀ PHÁO ĐÀI
+TỘC NANJA… CÁC
+NGƯƠI KHẢ NGHI…
+{end}
+#La697 E164
+CÓ BÁNH RÁN
+KHÔNG? CHO ĐI!
+{end}
+#La6ac E165
+NANJA KHÔNG NÓI
+DỐI! NANJA KHỎE
+HƠN CÁ SẤU!
+{p}NANJA NHANH
+HƠN THỎ! NANJA
+ỒN HƠN CHIM!
+{p}NANJA ĂN HƠN
+HÀ MÃ! NÊN RẤT
+OAI!!
+{end}
+#La70c E166
+HIỆP SĨ RỒNG
+CHƯA ĐẦU HÀNG?
+{end}
+#La723 E167
+ĐÂY LÀ NHÀ
+TÙ TRƯỞNG!
+{end}
+#La736 E168
+THÁP CRO-MAGNON
+Ở PHÍA TÂY…
+{end}
+#La750 E169
+HIỆP SĨ RỒNG
+GÂY CHIẾN
+TRƯỚC…
+{p}CÒN XÚI CẢ
+KHỦNG LONG…
+RẤT HÈN…
+{end}
+#La78b E170
+NGAY TRƯỚC THÁP
+CRO-MAGNON CÓ
+NHÀ BẠN TA…
+{p}{fa}NẾU TỚI THÁP
+THÌ GHÉ THĂM…
+{end}
+#La7c7 E171
+{flag 43 La7cb La7e7}
+#La7cb
+Ồn ào quá…
+Chỗ tường
+mỏng ấy!
+{end}
+#La7e7
+Ta nghiên cứu
+gián ở đây 20
+năm rồi…
+{p}Có đúng một
+chỗ tường đi
+xuyên qua được…
+{fb 43}{end}
+#La830 E172
+Gián đáng sợ
+lắm!
+{end}
+#La83e E173
+Nghe nói ở đảo
+nhỏ giữa đại
+vận hà có giấu
+{p}{fa}thứ gì đó…
+{end}

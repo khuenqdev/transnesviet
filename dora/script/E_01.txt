@@ -1,0 +1,385 @@
+#L81cd E0
+Nam là dưới
+bản đồ… Bắc là
+trên… Đông phải
+{p}{fa}Tây là trái…
+Hiểu chưa nào?
+{end}
+#L8200 E1
+Hãy nghe kỹ
+lời người trong
+thị trấn nhé…
+{end}
+#L8219 E2
+Trong thị trấn
+có người tặng
+đồ hay đấy…
+{end}
+#L8243 E3
+Hãy gom thật
+nhiều bánh rán…
+{end}
+#L8255 E4
+Gặp Dekisugi
+chưa? Cậu ấy
+giỏi lắm, biết
+{p}{fa}biết gì đó…
+{end}
+#L8282 E5
+Đồ cất trong
+túi thì không
+dùng khi đánh!
+{end}
+#L82a5 E6
+Mệt thì gọi
+Dorami để lưu
+lại nhé…
+{end}
+#L82c3 E7
+Nghe nói trừng
+trị kẻ xấu sẽ
+được Dorami
+{p}{fa}thưởng đấy…
+{end}
+#L82eb E8
+Tớ đã thấy sứa
+ở cái ao này…
+Thật đấy!
+{end}
+#L830a E9
+Bạn bè bàn bạc
+với nhau là
+rất quan trọng…
+{end}
+#L832d E10
+{d3}!
+Đừng có mải
+chơi thế chứ!
+{end}
+#L8342 E11
+{flag 14 L8346 L835e}
+#L8346
+Nobita!
+Học bài xong
+chưa đấy!
+{end}
+#L835e
+{flag 3a L839d L8362}
+#L8362
+Nobita đi chơi
+ở đâu không
+biết…
+{p}{fa}Doraemon, cô
+cho bánh rán,
+đi tìm nó nhé…
+{f9 14}{fb 3a}{end}
+#L839d
+Vẫn chưa thấy
+à? Thằng bé
+này thật là…
+{end}
+#L83b8 E12
+{flag 1b L83e2 L83bc}
+#L83bc
+Ôi, Suneo cưng
+của mẹ đi đâu
+mất rồi…
+{end}
+#L83e2
+Suneo cưng về
+là nhốt mình
+trong phòng
+{end}
+#L8409 E13
+{flag 28 L844f L840d}
+#L840d
+Cái thằng
+Takeshi! Không
+phụ trông tiệm
+{p}{fa}mà đi lang
+thang… Về đây
+thì biết tay!
+{end}
+#L844f
+Takeshi nói gì
+mà nguy cơ của
+nhân loại…
+{p}Bị cô quát cho
+nên nó đành đi
+giao hàng ở
+{p}thị trấn bên
+cạnh rồi…
+{end}
+#L849d E14
+{flag 2f L84ca L84a1}
+#L84a1
+{d3}…
+{p}Cháu có thấy
+Shizuka không?
+Nó đi học piano
+{p}mà chưa về…
+{end}
+#L84ca
+{flag 30 L84ce L84e6}
+#L84ce
+Shizuka…
+Nước tắm nóng
+rồi, vào tắm đi
+{end}
+#L84e6
+Shizuka ở
+trên tầng 2…
+{end}
+#L84f7 E15
+Nhà Suneo có
+vườn, thích
+nhỉ…
+{end}
+#L8512 E16
+Nhà Dekisugi ở
+phía đông đây…
+{end}
+#L852c E17
+Ma Vương Demaon
+đã hồi sinh…
+{p}{fa}Ngoài thị trấn
+đầy quái vật…
+Sợ quá!
+{end}
+#L855f E18
+Có cậu bé lạ
+mặt vào nhà
+tiến sĩ
+{p}{fa}Mangetsu…
+{end}
+#L8585 E19
+Nghe nói có
+người bị Medusa
+của Demaon
+{p}biến thành đá!
+Không hạ Ma
+Vương thì chắc
+{p}chẳng trở lại
+được đâu…
+{end}
+#L85cf E20
+Nghe nói tiến
+sĩ Mangetsu,
+người biết bí
+{p}{fa}mật Demaon, đã
+bị bắt cóc…
+{end}
+#L85f6 E21
+Cả Miyoko, con
+gái tiến sĩ
+Mangetsu, cũng
+{p}{fa}mất tích rồi!
+{end}
+#L861b E22
+Thị trấn Sao
+này có bức
+tường phép…
+{p}Phải đi cùng
+người biết phép
+mới ra ngoài
+{p}được…
+{end}
+#L865c E23
+Vườn nhà tiến
+sĩ Mangetsu có
+hình ngôi sao…
+{p}{fa}Gọi là vòng
+phép thuật đấy!
+{end}
+#L868c E24
+Người thế giới
+này ai cũng
+biết dùng phép…
+{end}
+#L86ab E25
+{flag 05 L86f9 L86af}
+#L86af
+Thấy con mèo
+hoang lảng vảng
+trong dinh
+{p}{fa}Mangetsu chưa?
+{yesno L86d3 L86f0}
+#L86d3
+Tớ đã thấy
+con mèo đó
+dùng phép đấy…
+{end}
+#L86f0
+{fa}Vậy à!
+{end}
+#L86f9
+Nghe nói Ma
+Vương sợ bạc…
+{end}
+#L870f E26
+Đây là Thị
+trấn Sao…
+{end}
+#L871d E27
+Đây là Làng
+Cảng đấy…
+{end}
+#L872d E28
+Bạc à? Không có
+bạc, nhưng có
+dây chuyền vàng
+{p}{fa}Mà không cho
+đâu! Hi hi…
+{end}
+#L875d E29
+Có con chó đeo
+vòng cổ, mà
+chẳng ai nhận
+{p}{fa}là chó nhà
+mình cả…
+{end}
+#L878c E30
+Các cháu không
+định chống lại
+Ma Vương chứ…
+{p}{fa}Thôi đi…
+Ôi, đáng sợ
+lắm!
+{end}
+#L87bd E31
+Ôi, bé mèo
+dễ thương quá…
+{end}
+#L87d0 E32
+Này, bí mật
+nhé… Tớ thấy
+người lớn giấu
+{p}một cục bạc…
+{p}Chỗ đó là…
+Ơ kìa?
+Quên mất rồi!
+{end}
+#L8816 E33
+Bạc bị thuộc
+hạ Ma Vương
+lấy hết rồi…
+{end}
+#L8835 E34
+Thật là! Có con
+chó ở đâu tới
+ở lì trong làng
+{p}{fa}Tôi…
+Sợ chó lắm!
+{end}
+#L8868 E35
+Gâu gâu gâu!
+{end}
+#L8874 E36
+Đây là Làng
+Thợ… Ai cũng
+là dân chuyên!
+{end}
+#L8894 E37
+Đi hạ Demaon à?
+Lũ trẻ giỏi
+thật… Chuyên
+{p}{fa}diệt quỷ à?
+{end}
+#L88c4 E38
+Làm đồ bạc thì
+phải là thợ
+rèn Masa…
+{p}{fa}Tay nghề số
+một thiên hạ!
+{end}
+#L88ee E39
+Hôm trước, già
+làng Thung Lũng
+vào tiệm khóa…
+{end}
+#L8916 E40
+Tôi thấy con
+chó ngậm thứ gì
+đó sáng lấp
+{p}{fa}lánh… Là gì
+nhỉ…
+{end}
+#L8945 E41
+Ngoài làng nguy
+hiểm, chẳng đi
+nổi đâu…
+{end}
+#L895f E42
+Tôi là thợ mộc…
+Nhà trong làng
+đều do tôi
+{p}{fa}dựng bằng phép
+đấy… E hèm!
+{end}
+#L8989 E43
+Chào!
+Mừng tới Làng
+Thung Lũng!
+{end}
+#L899d E44
+Trưởng làng ở
+đây mê đồ
+ngọt lắm…
+{end}
+#L89ba E45
+Nghe nói kẻ
+hồi sinh Demaon
+tên là Gikkuri
+{p}{fa}Zombie gì đó…
+{p}{fa}Hả? Giga
+Zombie? Vậy à!
+{end}
+#L89f3 E46
+Phép thuật bé
+này biết là
+vén váy đấy…
+{p}{fa}Nhưng hầu như
+chẳng vén được…
+{end}
+#L8a21 E47
+Phép sở trường
+của tôi đây!
+Chinkara hoi!
+{p}{fa}Hì, hiểu
+không nào…
+{end}
+#L8a4a E48
+Ma Vương từng
+bị hạ rồi, sao
+lại hồi sinh?
+{end}
+#L8a6d E49
+Tới lâu đài Ma
+Vương không đi
+cách thường
+{p}{fa}được đâu…
+{p}Pháp sư có khi
+biết cách đấy…
+{end}
+#L8aab E50
+Nghe nói có
+món đồ làm
+bóng tối sáng
+{p}bừng lên ngay…
+{p}Có người bảo
+nó ở Làng Thợ,
+có thật không…
+{end}
+#L8af8 E51
+Phải về trước
+khi trời tối!
+{end}
+#L8b10 E52
+Đây gần lâu
+đài Ma Vương…
+Tôi sợ lắm!
+{end}
+#L8b30 E53
+Đây là Làng
+Chinkara…
+{end}

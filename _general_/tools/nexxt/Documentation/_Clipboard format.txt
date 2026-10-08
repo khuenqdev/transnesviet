@@ -1,0 +1,81 @@
+NESST_CF_NAM
+	Header: 8 bytes
+		byte 0x00 	= width in tiles
+		byte 0x04	= height in tiles
+	Body start at: 0x08
+	Body length: size of (char tilenames to copy)
+
+NESST_CF_CHR
+	Header: 12 bytes
+		byte 0x00	= width in tiles
+		byte 0x04	= height in tiles
+		byte 0x08	= Rect selection (true/false)
+
+	"Tiles" Body start at: 0x0C
+	"Tiles" Body length: size of (char * tiles to copy * 16)
+	"Properties" body start at 0x0C+size of(char * tiles to copy * 16)
+	"Properties" length: size ofchar * properties to copy)
+
+Note that the properties is an add-on exclusive to NEXXT - NESST doesn't read this. 
+
+
+NESST_CF_PAL
+	Header: none
+	Body length: 12 bytes
+
+
+NESST_CF_META (defunct as of 3.7.1 - nexxt can retrieve but not send)
+	Header: none
+	Body length: 	unsigned char 	OAM objects 		64 x 4 bytes in struct 
+
+			char 		metasprite label* 	256
+			unsigned int 	duration data*		4 bytes x 2 categories: ntsc and pal
+			bool		playback tags*		start, loop, call, call2, revert, seconds, halfseconds		 	
+			
+	Data format: (OAM object - array of structs: char y**, char tile, char attr, char x)
+	*Note: NESST only looks for the first 256 bytes - no labels or other metadata
+	**Note: NESST and NEXXT up to 3.6.4 used an Ypos value of 255 to signify "not in use".
+	The new clipboard/file format has a separate table of bools for that.
+
+
+NEXXT_CF_METASPR
+	Header: none
+	Body length: 	unsigned char 	OAM objects 		64 x 4 bytes in struct 
+			bool 		sprite "in use" data: 	64 
+			char 		metasprite label: 	256
+			unsigned int 	duration data		4 bytes x 2 categories: ntsc and pal
+			bool		playback tags		start, loop, call, call2, revert, seconds, halfseconds		 	
+		
+	Data format: (OAM object - array of structs: char y, char tile, char attr, char x)
+
+	tag descriptions:
+	tags in work memory are separate tables of bools,
+	but when animation data is exported it can either be parsed as a separate byte or as using the NV
+	bits of the duration byte.
+
+	start - optional marker for the start of an animation. 
+	if not in use by the playback engine it looks for the frame after the previous loop tag
+
+	loop - loops back to first frame (denoted either by start tag or the previous loop tag + 1)
+
+	call & call2 - behaviourless in nexxt, intended as free slots for animation-driven game logic behaviour
+	or animation features not supported by nexxt's playback engine
+
+	revert - reverses the playback direction until encountering either 'start' or 'loop'+1.
+
+	seconds - turns duration to signify seconds rather than frames - equivalent 60 for ntsc, 50 for pal.
+	can be used as a method to get more meaningful ranges housed in a single byte
+
+	half seconds - like seconds but with twice the fidelity at half the upper range.
+
+
+NEXXT_CF_METATILE
+
+	int width in metatiles
+	int height in metatiles
+	int dimensions of metatile (d*d)
+	char tile id[] (w*h*d*d)
+	char palette id[] (w*h*d*d)
+	char collision properties id[] (w*h*d*d)
+
+	might be expanded with optional bank ID and not-likesided metatile dimensions in the future

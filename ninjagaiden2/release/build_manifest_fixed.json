@@ -1,0 +1,346 @@
+{
+  "base_sha1": "269478947a5bc518551ab5d7b4687653006e243c",
+  "base_crc32": "0C39B026",
+  "text_sha1": "52d614525dfe5295cbe8b4f6ac9a61a005eb79c9",
+  "text_crc32": "2A41DC8F",
+  "playlist_sha1": "fda25d5c0220b951bb871fa023348c3bd1868497",
+  "playlist_crc32": "C9D7E093",
+  "rom_size": 262160,
+  "story_blocks": 152,
+  "custom_glyph_count": 63,
+  "dropped_to_base_letter": {
+    "Í": "I",
+    "Ý": "Y",
+    "Ơ": "O",
+    "Ư": "U",
+    "ỹ": "y",
+    "ẹ": "e",
+    "ễ": "e",
+    "ụ": "u",
+    "õ": "o"
+  },
+  "custom_glyphs": {
+    "đ": {
+      "code": "00",
+      "chr_tile": "40",
+      "glyph": "fffcfcc0c09c9cc0ffffffffffffffff"
+    },
+    "à": {
+      "code": "1B",
+      "chr_tile": "5B",
+      "glyph": "bfdfefc1fcc09cc0ffffffffffffffff"
+    },
+    "ư": {
+      "code": "1C",
+      "chr_tile": "5C",
+      "glyph": "fffdfd989c9c9cc0ffffffffffffffff"
+    },
+    "ế": {
+      "code": "1D",
+      "chr_tile": "5D",
+      "glyph": "e5dbb5c19c819fc1ffffffffffffffff"
+    },
+    "á": {
+      "code": "1E",
+      "chr_tile": "5E",
+      "glyph": "fdfbf7c1fcc09cc0ffffffffffffffff"
+    },
+    "ô": {
+      "code": "1F",
+      "chr_tile": "5F",
+      "glyph": "e7dbbdc19c9c9cc1ffffffffffffffff"
+    },
+    "ố": {
+      "code": "20",
+      "chr_tile": "60",
+      "glyph": "e5dbb5c19c9c9cc1ffffffffffffffff"
+    },
+    "ậ": {
+      "code": "26",
+      "chr_tile": "66",
+      "glyph": "e7dbbdc1fcc09cc0ffffffffffffffff"
+    },
+    "ó": {
+      "code": "37",
+      "chr_tile": "77",
+      "glyph": "fdfbf7c19c9c9cc1ffffffffffffffff"
+    },
+    "ơ": {
+      "code": "3A",
+      "chr_tile": "7A",
+      "glyph": "fffdfdc19c9c9cc1ffffffffffffffff"
+    },
+    "Đ": {
+      "code": "3B",
+      "chr_tile": "7B",
+      "glyph": "ff839980809c9983ffffffffffffffff"
+    },
+    "â": {
+      "code": "3C",
+      "chr_tile": "7C",
+      "glyph": "e7dbbdc1fcc09cc0ffffffffffffffff"
+    },
+    "ì": {
+      "code": "3D",
+      "chr_tile": "7D",
+      "glyph": "bfc3efe3f3f3f3c0ffffffffffffffff"
+    },
+    "ấ": {
+      "code": "3E",
+      "chr_tile": "7E",
+      "glyph": "e5dbb5c1fcc09cc0ffffffffffffffff"
+    },
+    "ẽ": {
+      "code": "40",
+      "chr_tile": "80",
+      "glyph": "99e7dbc19c819fc1ffffffffffffffff"
+    },
+    "ạ": {
+      "code": "43",
+      "chr_tile": "83",
+      "glyph": "ffffffc1fcc09cc0ffffffffffffffff"
+    },
+    "ớ": {
+      "code": "44",
+      "chr_tile": "84",
+      "glyph": "fdf9f5c19c9c9cc1ffffffffffffffff"
+    },
+    "ồ": {
+      "code": "46",
+      "chr_tile": "86",
+      "glyph": "a7dbadc19c9c9cc1ffffffffffffffff"
+    },
+    "ộ": {
+      "code": "47",
+      "chr_tile": "87",
+      "glyph": "e7dbbdc19c9c9cc1ffffffffffffffff"
+    },
+    "ứ": {
+      "code": "48",
+      "chr_tile": "88",
+      "glyph": "fdf9f5989c9c9cc0ffffffffffffffff"
+    },
+    "ú": {
+      "code": "4A",
+      "chr_tile": "8A",
+      "glyph": "fdfbf79c9c9c9cc0ffffffffffffffff"
+    },
+    "ờ": {
+      "code": "4B",
+      "chr_tile": "8B",
+      "glyph": "bfddedc19c9c9cc1ffffffffffffffff"
+    },
+    "ợ": {
+      "code": "4F",
+      "chr_tile": "8F",
+      "glyph": "fffdfdc19c9c9cc1ffffffffffffffff"
+    },
+    "é": {
+      "code": "50",
+      "chr_tile": "90",
+      "glyph": "fdfbf7c19c819fc1ffffffffffffffff"
+    },
+    "ủ": {
+      "code": "51",
+      "chr_tile": "91",
+      "glyph": "9fbfdf9c9c9c9cc0ffffffffffffffff"
+    },
+    "ê": {
+      "code": "53",
+      "chr_tile": "93",
+      "glyph": "e7dbbdc19c819fc1ffffffffffffffff"
+    },
+    "ẩ": {
+      "code": "54",
+      "chr_tile": "94",
+      "glyph": "879b9dc1fcc09cc0ffffffffffffffff"
+    },
+    "ắ": {
+      "code": "55",
+      "chr_tile": "95",
+      "glyph": "e5dbb5c1fcc09cc0ffffffffffffffff"
+    },
+    "ẫ": {
+      "code": "56",
+      "chr_tile": "96",
+      "glyph": "81c399c1fcc09cc0ffffffffffffffff"
+    },
+    "ã": {
+      "code": "57",
+      "chr_tile": "97",
+      "glyph": "99e7dbc1fcc09cc0ffffffffffffffff"
+    },
+    "ẳ": {
+      "code": "58",
+      "chr_tile": "98",
+      "glyph": "879b9dc1fcc09cc0ffffffffffffffff"
+    },
+    "ỳ": {
+      "code": "59",
+      "chr_tile": "99",
+      "glyph": "bfdfef9c9cc0fc81ffffffffffffffff"
+    },
+    "è": {
+      "code": "5A",
+      "chr_tile": "9A",
+      "glyph": "bfdfefc19c819fc1ffffffffffffffff"
+    },
+    "ệ": {
+      "code": "5B",
+      "chr_tile": "9B",
+      "glyph": "e7dbbdc19c819fc1ffffffffffffffff"
+    },
+    "ả": {
+      "code": "5C",
+      "chr_tile": "9C",
+      "glyph": "9fbfdfc1fcc09cc0ffffffffffffffff"
+    },
+    "ổ": {
+      "code": "5D",
+      "chr_tile": "9D",
+      "glyph": "879b9dc19c9c9cc1ffffffffffffffff"
+    },
+    "ự": {
+      "code": "5E",
+      "chr_tile": "9E",
+      "glyph": "fffdfd989c9c9cc0ffffffffffffffff"
+    },
+    "ầ": {
+      "code": "66",
+      "chr_tile": "A6",
+      "glyph": "a7dbadc1fcc09cc0ffffffffffffffff"
+    },
+    "ỉ": {
+      "code": "67",
+      "chr_tile": "A7",
+      "glyph": "9fa3dfe3f3f3f3c0ffffffffffffffff"
+    },
+    "ừ": {
+      "code": "68",
+      "chr_tile": "A8",
+      "glyph": "bfdded989c9c9cc0ffffffffffffffff"
+    },
+    "ể": {
+      "code": "69",
+      "chr_tile": "A9",
+      "glyph": "879b9dc19c819fc1ffffffffffffffff"
+    },
+    "ị": {
+      "code": "6A",
+      "chr_tile": "AA",
+      "glyph": "ffe3ffe3f3f3f3c0ffffffffffffffff"
+    },
+    "ọ": {
+      "code": "6B",
+      "chr_tile": "AB",
+      "glyph": "ffffffc19c9c9cc1ffffffffffffffff"
+    },
+    "ỷ": {
+      "code": "6C",
+      "chr_tile": "AC",
+      "glyph": "9fbfdf9c9cc0fc81ffffffffffffffff"
+    },
+    "ở": {
+      "code": "6D",
+      "chr_tile": "AD",
+      "glyph": "9fbdddc19c9c9cc1ffffffffffffffff"
+    },
+    "ò": {
+      "code": "6E",
+      "chr_tile": "AE",
+      "glyph": "bfdfefc19c9c9cc1ffffffffffffffff"
+    },
+    "ỗ": {
+      "code": "6F",
+      "chr_tile": "AF",
+      "glyph": "81c399c19c9c9cc1ffffffffffffffff"
+    },
+    "ý": {
+      "code": "70",
+      "chr_tile": "B0",
+      "glyph": "fdfbf79c9cc0fc81ffffffffffffffff"
+    },
+    "ù": {
+      "code": "71",
+      "chr_tile": "B1",
+      "glyph": "bfdfef9c9c9c9cc0ffffffffffffffff"
+    },
+    "ă": {
+      "code": "72",
+      "chr_tile": "B2",
+      "glyph": "e7dbbdc1fcc09cc0ffffffffffffffff"
+    },
+    "ề": {
+      "code": "73",
+      "chr_tile": "B3",
+      "glyph": "a7dbadc19c819fc1ffffffffffffffff"
+    },
+    "ữ": {
+      "code": "74",
+      "chr_tile": "B4",
+      "glyph": "99e5d9989c9c9cc0ffffffffffffffff"
+    },
+    "í": {
+      "code": "75",
+      "chr_tile": "B5",
+      "glyph": "fde3f7e3f3f3f3c0ffffffffffffffff"
+    },
+    "ằ": {
+      "code": "76",
+      "chr_tile": "B6",
+      "glyph": "a7dbadc1fcc09cc0ffffffffffffffff"
+    },
+    "Á": {
+      "code": "77",
+      "chr_tile": "B7",
+      "glyph": "fde3c19c9c809c9cffffffffffffffff"
+    },
+    "ĩ": {
+      "code": "78",
+      "chr_tile": "B8",
+      "glyph": "99e3dbe3f3f3f3c0ffffffffffffffff"
+    },
+    "ặ": {
+      "code": "79",
+      "chr_tile": "B9",
+      "glyph": "e7dbbdc1fcc09cc0ffffffffffffffff"
+    },
+    "ẻ": {
+      "code": "7A",
+      "chr_tile": "BA",
+      "glyph": "9fbfdfc19c819fc1ffffffffffffffff"
+    },
+    "ỏ": {
+      "code": "7B",
+      "chr_tile": "BB",
+      "glyph": "9fbfdfc19c9c9cc1ffffffffffffffff"
+    },
+    "Ô": {
+      "code": "7C",
+      "chr_tile": "BC",
+      "glyph": "e7c19c9c9c9c9cc1ffffffffffffffff"
+    },
+    "ũ": {
+      "code": "7D",
+      "chr_tile": "BD",
+      "glyph": "99e7db9c9c9c9cc0ffffffffffffffff"
+    },
+    "ỡ": {
+      "code": "7E",
+      "chr_tile": "BE",
+      "glyph": "99e5d9c19c9c9cc1ffffffffffffffff"
+    },
+    "ử": {
+      "code": "7F",
+      "chr_tile": "BF",
+      "glyph": "9fbddd989c9c9cc0ffffffffffffffff"
+    }
+  },
+  "playlist": {
+    "title_loop": "$D73B AND #$10 -> #$30",
+    "title_exit": "$D751 -> JSR $FFE3",
+    "hook_a": "$FFE3 (21 bytes, fixed bank free area)",
+    "driver": "$BBAE in PRG bank 5 (62 bytes)",
+    "seeds": "01..0F"
+  }
+}

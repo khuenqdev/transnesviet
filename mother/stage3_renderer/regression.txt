@@ -1,0 +1,4 @@
+file_select_naming   identical
+intro_text           identical
+field_menu           identical
+dialogue             identical

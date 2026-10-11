@@ -1,0 +1,16 @@
+STEP 7 REFINED GLYPH + ACCENT STRIP BUILD
+Source SHA-256: 5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26
+Patched diagnostic SHA-256: 00e2afb637bbd5d5bbe400b0c53c6a54452c19befe3fc3fd85b7c4766515054f
+Body CRC32: 3F78037C
+Glyphs built: 67; CHR payload: 1072 bytes
+Probe sequence: ÀÁÂÃÈÊÌÍÒÓÔÕÙ
+IPS size: 1433 bytes; records: 68
+Changed file bytes: 462
+PASS: all 67 target tiles blank in clean source
+PASS: test line replacement retains 13-byte length
+PASS: IPS application reproduces expected diagnostic image exactly
+PASS: iNES header unchanged
+PASS: PRG unchanged except the 13-byte opening-line probe
+PASS: changed offsets limited to the 67 candidate CHR tiles and 13-byte test probe
+NOT TESTED: Step 7 IPS in Mesen/FCEUX
+STATUS: experimental multi-glyph diagnostic; not a playable Vietnamese translation

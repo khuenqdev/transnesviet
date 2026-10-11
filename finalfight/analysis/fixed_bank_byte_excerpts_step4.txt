@@ -1,0 +1,15 @@
+# Step 4 fixed-bank byte excerpts (from verified source ROM)
+
+ROM body CRC32: 3F78037C
+
+## CPU $C1FD-$C221 (PRG offset 0x1C1FD): VRAM command consumer
+A2 00 86 19 BD 80 07 30 1B 8D 06 20 BD 81 07 8D 06 20 BC 82 07 BD 83 07 8D 07 20 E8 88 10 F6 E8 E8 E8 D0 E0 60
+
+## CPU $C1BC-$C1CF (PRG offset 0x1C1BC): CHR bank writes during NMI
+A9 00 8D 00 80 A9 78 8D 01 80 A9 01 8D 00 80 A9 7A 8D 01 80
+
+## CPU $FEB6 (PRG offset 0x1FEB6): PPUCTRL shadow init
+A9 88 85 FF
+
+## CPU $F406-$F425 (PRG offset 0x1F406): per-frame/sprite-state wrapper, not a tile conversion table
+A5 F2 48 A5 F3 48 E6 9A A9 04 85 97 20 1D C3 20 BC E9 A9 00 85 9A 20 31 FF 68 85 F5 68 85 F4 4C 4D FF

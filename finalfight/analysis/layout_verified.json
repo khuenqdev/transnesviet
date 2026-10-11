@@ -50,7 +50,8 @@
     },
     "render_command_area": "$0780-$0784",
     "glyph_pipeline_call": "JSR $F406",
-    "font_tile_lookup": "not yet isolated; character byte is queued in $0783 before JSR $F406"
+    "font_tile_lookup": "Static direct-write path identified: routine $C1FD-$C221 loads the queued text byte from $0783,X at $C212 and stores it directly to $2007 at $C215; no tile-byte arithmetic in this routine.",
+    "chr_mapping_static": "NMI code writes MMC3 CHR registers 0/1 = 0x78/0x7A; PPUCTRL shadow initialized at $FEB6 to 0x88 (background pattern-table bit 4 clear), mapping PPU $0000-$0FFF to global CHR tiles 0x1E00-0x1EFF in the evidenced state."
   },
   "text_regions": {
     "opening": {
@@ -69,5 +70,5 @@
       "notes": "5 indexed records."
     }
   },
-  "status": "pointer_tables_and_message_readers_verified; exact glyph-tile lookup and safe relocation still pending"
+  "status": "static_text_to_ppu_and_chr_mapping_identified; emulator_validation_of_screen_usage_and_dialogue_header_semantics_pending"
 }

@@ -1,0 +1,4 @@
+PASS: verified ROM identity (body CRC32 3F78037C)
+PASS: generated 67 8x8 glyph tiles (1072 bytes)
+PASS: wrote preview, CSV, binary, audit, JSON, and report under /mnt/data/Mighty_Final_Fight_Vietnamese_Project/analysis
+ROM modified: no

@@ -1,0 +1,44 @@
+{
+ "warnings": [],
+ "untranslated": [
+  "S1203"
+ ],
+ "errors": [],
+ "script": {
+  "segments_translated": 1263,
+  "bytes": 75814,
+  "banks_used": "20-29"
+ },
+ "names": {
+  "count": 253,
+  "bytes": 2598,
+  "pool_bytes": 2807
+ },
+ "stage5": {
+  "intro": {
+   "block1": "$64D0 (408 bytes, 13 lines)",
+   "block2": "$6668 (35 bytes)",
+   "error_message": "$668B (107 bytes)",
+   "free_bytes_left": 266,
+   "patched": true
+  },
+  "naming_layout": {
+   "back_end_previous": "$6C66",
+   "names_favfood": "$6C8A",
+   "is_ok_box": "$6CBF",
+   "bytes": 153,
+   "free": 1
+  },
+  "keyboard": [
+   "ABCDEFG HIJKLMN",
+   "OPQRSTUĐVWXYZƠƯ",
+   "abcdefg hijklmn",
+   "opqrstuđvwxyzơư"
+  ]
+ },
+ "rom": {
+  "crc32": "EFEC2D6B",
+  "size": 786448,
+  "ips_bytes": 383333
+ }
+}

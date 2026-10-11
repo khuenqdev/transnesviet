@@ -1,0 +1,88 @@
+{
+  "step": 4,
+  "created_utc": "2026-10-09T09:59:45.716583+00:00",
+  "rom": {
+    "path_used": "/mnt/data/Mighty Final Fight (USA).nes",
+    "size_bytes": 262160,
+    "sha256_full_rom": "5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26",
+    "prg_chr_body_crc32": "3F78037C",
+    "prg_crc32": "2EE3EF15",
+    "chr_crc32": "BCFEB409"
+  },
+  "code_signature_checks": {
+    "ppu_command_writer": {
+      "prg_offset": "0x1C1FD",
+      "expected_hex": "a2 00 86 19 bd 80 07 30 1b 8d 06 20 bd 81 07 8d 06 20 bc 82 07 bd 83 07 8d 07 20 e8 88 10 f6 e8 e8 e8 d0 e0 60",
+      "actual_hex": "a2 00 86 19 bd 80 07 30 1b 8d 06 20 bd 81 07 8d 06 20 bc 82 07 bd 83 07 8d 07 20 e8 88 10 f6 e8 e8 e8 d0 e0 60",
+      "match": true
+    },
+    "nmi_chr_0_1_banks": {
+      "prg_offset": "0x1C1BC",
+      "expected_hex": "a9 00 8d 00 80 a9 78 8d 01 80 a9 01 8d 00 80 a9 7a 8d 01 80",
+      "actual_hex": "a9 00 8d 00 80 a9 78 8d 01 80 a9 01 8d 00 80 a9 7a 8d 01 80",
+      "match": true
+    },
+    "ppuctrl_shadow_init": {
+      "prg_offset": "0x1FEB6",
+      "expected_hex": "a9 88 85 ff",
+      "actual_hex": "a9 88 85 ff",
+      "match": true
+    },
+    "text_command_setup_opening": {
+      "prg_offset": "0x01A25",
+      "expected_hex": "bd 92 9a 8d 80 07 bd 95 9a 18 65 11 8d 81 07 a9 00 8d 82 07 a4 0e e6 0e b1 0c c9 ff",
+      "actual_hex": "bd 92 9a 8d 80 07 bd 95 9a 18 65 11 8d 81 07 a9 00 8d 82 07 a4 0e e6 0e b1 0c c9 ff",
+      "match": true
+    }
+  },
+  "ppu_queue_writer": {
+    "cpu_start": "$C1FD",
+    "cpu_end_inclusive": "$C221",
+    "prg_offset": "0x1C1FD",
+    "fields": {
+      "+0": "PPU address high; high bit set means end of command list",
+      "+1": "PPU address low",
+      "+2": "count-minus-one/control",
+      "+3": "tile/data byte(s)",
+      "+4": "next record begins after data payload (sentinel is commonly 0xFF)"
+    },
+    "write_path": "LDA $0783,X -> STA $2007",
+    "translation": "raw text byte is used as PPU tile index; no lookup table/arithmetic in this function"
+  },
+  "chr_mapping": {
+    "nmi_cpu_sequence": "$C1BC-$C1CF",
+    "mmc3_register_0_value": "0x78",
+    "mmc3_register_1_value": "0x7A",
+    "mmc3_prg_chr_mode_detail": "MMC3 CHR registers 0 and 1 are paired 2 KiB banks (low bit ignored/aligned)",
+    "mapped_1kb_chr_banks": [
+      "0x78",
+      "0x79",
+      "0x7A",
+      "0x7B"
+    ],
+    "ppu_pattern_table_range": "$0000-$0FFF",
+    "global_chr_tile_range": "0x1E00-0x1EFF",
+    "ppuctrl_shadow_init_at_cpu": "$FEB6",
+    "ppuctrl_shadow_initial_value": "0x88",
+    "background_pattern_table_select_bit_4": 0,
+    "result": "For this statically evidenced state, PPU tile byte N selects global CHR tile 0x1E00+N."
+  },
+  "candidate_extension": {
+    "existing_text_bytes_for_A_Z": "0x10-0x29",
+    "candidate_blank_tile_ranges": [
+      "0x1E30-0x1E5F",
+      "0x1E7C-0x1E8E"
+    ],
+    "supplemental_glyph_count": 67,
+    "candidate_codes_count": 67,
+    "spare_candidate_code": "0x8F",
+    "all_candidate_tiles_blank_in_source_rom": true,
+    "not_runtime_safe": true
+  },
+  "limitations": [
+    "This is static reverse engineering, not an emulator trace.",
+    "Do not patch glyphs yet: the game may reference candidate tile IDs on other screens even if the original CHR pixels are blank.",
+    "Boss message header bytes and control bytes must be preserved contextually.",
+    "No ROM bytes were modified and no translated ROM/IPS patch was created."
+  ]
+}

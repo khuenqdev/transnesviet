@@ -1,0 +1,11 @@
+﻿id,type,test,status,notes
+S4-01,STATIC,Verified fixed-bank code at $C1FD-$C221 consumes queued VRAM records.,PASS,ROM bytes match the instruction sequence in runtime report.
+S4-02,STATIC,Character byte at record offset +3 is written directly to PPU $2007.,PASS,No glyph-byte arithmetic occurs in this queue writer.
+S4-03,STATIC,NMI code selects MMC3 CHR register 0=0x78 and register 1=0x7A.,PASS,2 KiB pairs map CHR 1 KiB banks 0x78-0x7B at PPU $0000-$0FFF.
+S4-04,STATIC,PPUCTRL shadow initializes to 0x88 with background pattern-table bit 4 cleared.,PASS,Code later preserves bit 4 while changing nametable/NMI bits.
+S4-05,STATIC,Candidate tile ranges 0x1E30-0x1E5F and 0x1E7C-0x1E8E have zero source pixels.,PASS,Measured directly from the supplied ROM CHR bytes.
+S4-06,EMU,Open Mesen debugger during an opening text character; confirm $0783 and PPU $2007.,PENDING,Record one A and one punctuation mark.
+S4-07,EMU,Open boss dialogue and inspect record-header handling before applying extended bytes.,PENDING,Header prefix bytes such as 0x35 must remain untouched.
+S4-08,EMU,Open credits text and confirm same CHR mapping and PPUCTRL bit 4.,PENDING,Do not assume opening/boss/credits share identical state.
+S4-09,EMU,Check gameplay/title/background screens for references to candidate tile IDs.,PENDING,Source tile blankness alone is not enough to approve overwriting.
+S4-10,BUILD,Draw glyphs and build a test ROM only after pending runtime checks pass.,BLOCKED,This step creates allocation planning only; no ROM bytes are changed.

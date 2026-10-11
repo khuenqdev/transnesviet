@@ -1,0 +1,10 @@
+PASS source ROM identity: size 262160, body CRC32 3F78037C
+PASS 67 glyphs and 67 unique byte codes
+PASS reserved command byte 0x35 not allocated; É uses 0x8F
+PASS every allocated source CHR tile is blank; generated tile binary matches CSV
+PASS static raw-record audit has zero allocated-code matches in body streams
+PASS original ROM not modified; this validation does not replace emulator testing
+ROM SHA256: 5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26
+ROM body CRC32: 3F78037C
+Translated ROM created: no
+IPS/BPS patch created: no

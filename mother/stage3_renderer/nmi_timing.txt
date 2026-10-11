@@ -1,0 +1,10 @@
+MOTHER (NES) Vietnamese - stage 3 NMI timing (emulator, CPU cycles from NMI entry to last $2006/$2007 write)
+NTSC vblank = 20 scanlines x 113.67 = ~2273 cycles. Buffer work starts ~574 cycles after NMI (OAM DMA etc.).
+Scenario: bedroom, Talk -> message 901, 6 x (A + 100 frames)
+
+original ROM, msg 901 -> long English dialogue (ID 14 text) ............ worst 1937
+stage-3 ROM,  same English dialogue ..................................... worst 1944
+stage-3 test ROM, 7-line Vietnamese message, frames with new types ...... worst 2036 (10-mark line, frame B)
+stage-3 test ROM, all frames (incl. game's own map redraw on close) ..... worst 2082 (original code path)
+
+Before the two-frame split the 10-mark line cost 3709 cycles (over vblank) - see report section 3.

@@ -1,0 +1,661 @@
+{
+ "strategy": "mark-row (prefix mark byte + base glyph)",
+ "mark_range": [
+  "80",
+  "8D"
+ ],
+ "glyphs": {
+  "80": "MARK_ACUTE",
+  "81": "MARK_GRAVE",
+  "82": "MARK_HOOK",
+  "83": "MARK_TILDE",
+  "84": "MARK_BREVE",
+  "85": "MARK_CIRC",
+  "86": "MARK_BREVE_ACUTE",
+  "87": "MARK_BREVE_GRAVE",
+  "88": "MARK_BREVE_HOOK",
+  "89": "MARK_BREVE_TILDE",
+  "8A": "MARK_CIRC_ACUTE",
+  "8B": "MARK_CIRC_GRAVE",
+  "8C": "MARK_CIRC_HOOK",
+  "8D": "MARK_CIRC_TILDE",
+  "8E": "ơ",
+  "8F": "ư",
+  "90": "đ",
+  "91": "Ơ",
+  "92": "Ư",
+  "93": "Đ",
+  "97": "ı",
+  "98": "ạ",
+  "99": "ẹ",
+  "9A": "ị",
+  "9B": "ọ",
+  "9C": "ụ",
+  "9D": "ỵ",
+  "9E": "ợ",
+  "9F": "ự",
+  "A3": "Ạ",
+  "A5": "Ọ",
+  "AB": "Ụ"
+ },
+ "replaced_tiles": {
+  "80": "unused ligature tile",
+  "81": "unused ligature tile",
+  "82": "unused ligature tile",
+  "83": "unused ligature tile",
+  "84": "unused ligature tile",
+  "85": "unused ligature tile",
+  "86": "unused ligature tile",
+  "87": "unused ligature tile",
+  "88": "unused ligature tile",
+  "89": "unused ligature tile",
+  "8A": "unused ligature tile",
+  "8B": "unused ligature tile",
+  "8C": "unused ligature tile",
+  "8D": "unused ligature tile",
+  "8E": "unused ligature tile",
+  "8F": "unused ligature tile",
+  "90": "blank tile",
+  "91": "blank tile",
+  "92": "blank tile",
+  "93": "blank tile",
+  "97": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "98": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "99": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "9A": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "9B": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "9C": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "9D": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "9E": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "9F": "\"SMAAAASH!!\" logo piece (only used by msg 1511, to be re-translated as text)",
+  "A3": "'‥' (unused)",
+  "A5": "'•' (unused)",
+  "AB": "';' (unused)"
+ },
+ "letters": {
+  "a": {
+   "bytes": "E1",
+   "fallback": ""
+  },
+  "á": {
+   "bytes": "80E1",
+   "fallback": ""
+  },
+  "à": {
+   "bytes": "81E1",
+   "fallback": ""
+  },
+  "ả": {
+   "bytes": "82E1",
+   "fallback": ""
+  },
+  "ã": {
+   "bytes": "83E1",
+   "fallback": ""
+  },
+  "ạ": {
+   "bytes": "98",
+   "fallback": ""
+  },
+  "ă": {
+   "bytes": "84E1",
+   "fallback": ""
+  },
+  "ắ": {
+   "bytes": "86E1",
+   "fallback": ""
+  },
+  "ằ": {
+   "bytes": "87E1",
+   "fallback": ""
+  },
+  "ẳ": {
+   "bytes": "88E1",
+   "fallback": ""
+  },
+  "ẵ": {
+   "bytes": "89E1",
+   "fallback": ""
+  },
+  "ặ": {
+   "bytes": "8498",
+   "fallback": ""
+  },
+  "â": {
+   "bytes": "85E1",
+   "fallback": ""
+  },
+  "ấ": {
+   "bytes": "8AE1",
+   "fallback": ""
+  },
+  "ầ": {
+   "bytes": "8BE1",
+   "fallback": ""
+  },
+  "ẩ": {
+   "bytes": "8CE1",
+   "fallback": ""
+  },
+  "ẫ": {
+   "bytes": "8DE1",
+   "fallback": ""
+  },
+  "ậ": {
+   "bytes": "8598",
+   "fallback": ""
+  },
+  "e": {
+   "bytes": "E5",
+   "fallback": ""
+  },
+  "é": {
+   "bytes": "80E5",
+   "fallback": ""
+  },
+  "è": {
+   "bytes": "81E5",
+   "fallback": ""
+  },
+  "ẻ": {
+   "bytes": "82E5",
+   "fallback": ""
+  },
+  "ẽ": {
+   "bytes": "83E5",
+   "fallback": ""
+  },
+  "ẹ": {
+   "bytes": "99",
+   "fallback": ""
+  },
+  "ê": {
+   "bytes": "85E5",
+   "fallback": ""
+  },
+  "ế": {
+   "bytes": "8AE5",
+   "fallback": ""
+  },
+  "ề": {
+   "bytes": "8BE5",
+   "fallback": ""
+  },
+  "ể": {
+   "bytes": "8CE5",
+   "fallback": ""
+  },
+  "ễ": {
+   "bytes": "8DE5",
+   "fallback": ""
+  },
+  "ệ": {
+   "bytes": "8599",
+   "fallback": ""
+  },
+  "i": {
+   "bytes": "E9",
+   "fallback": ""
+  },
+  "í": {
+   "bytes": "8097",
+   "fallback": ""
+  },
+  "ì": {
+   "bytes": "8197",
+   "fallback": ""
+  },
+  "ỉ": {
+   "bytes": "8297",
+   "fallback": ""
+  },
+  "ĩ": {
+   "bytes": "8397",
+   "fallback": ""
+  },
+  "ị": {
+   "bytes": "9A",
+   "fallback": ""
+  },
+  "o": {
+   "bytes": "EF",
+   "fallback": ""
+  },
+  "ó": {
+   "bytes": "80EF",
+   "fallback": ""
+  },
+  "ò": {
+   "bytes": "81EF",
+   "fallback": ""
+  },
+  "ỏ": {
+   "bytes": "82EF",
+   "fallback": ""
+  },
+  "õ": {
+   "bytes": "83EF",
+   "fallback": ""
+  },
+  "ọ": {
+   "bytes": "9B",
+   "fallback": ""
+  },
+  "ô": {
+   "bytes": "85EF",
+   "fallback": ""
+  },
+  "ố": {
+   "bytes": "8AEF",
+   "fallback": ""
+  },
+  "ồ": {
+   "bytes": "8BEF",
+   "fallback": ""
+  },
+  "ổ": {
+   "bytes": "8CEF",
+   "fallback": ""
+  },
+  "ỗ": {
+   "bytes": "8DEF",
+   "fallback": ""
+  },
+  "ộ": {
+   "bytes": "859B",
+   "fallback": ""
+  },
+  "ơ": {
+   "bytes": "8E",
+   "fallback": ""
+  },
+  "ớ": {
+   "bytes": "808E",
+   "fallback": ""
+  },
+  "ờ": {
+   "bytes": "818E",
+   "fallback": ""
+  },
+  "ở": {
+   "bytes": "828E",
+   "fallback": ""
+  },
+  "ỡ": {
+   "bytes": "838E",
+   "fallback": ""
+  },
+  "ợ": {
+   "bytes": "9E",
+   "fallback": ""
+  },
+  "u": {
+   "bytes": "F5",
+   "fallback": ""
+  },
+  "ú": {
+   "bytes": "80F5",
+   "fallback": ""
+  },
+  "ù": {
+   "bytes": "81F5",
+   "fallback": ""
+  },
+  "ủ": {
+   "bytes": "82F5",
+   "fallback": ""
+  },
+  "ũ": {
+   "bytes": "83F5",
+   "fallback": ""
+  },
+  "ụ": {
+   "bytes": "9C",
+   "fallback": ""
+  },
+  "ư": {
+   "bytes": "8F",
+   "fallback": ""
+  },
+  "ứ": {
+   "bytes": "808F",
+   "fallback": ""
+  },
+  "ừ": {
+   "bytes": "818F",
+   "fallback": ""
+  },
+  "ử": {
+   "bytes": "828F",
+   "fallback": ""
+  },
+  "ữ": {
+   "bytes": "838F",
+   "fallback": ""
+  },
+  "ự": {
+   "bytes": "9F",
+   "fallback": ""
+  },
+  "y": {
+   "bytes": "F9",
+   "fallback": ""
+  },
+  "ý": {
+   "bytes": "80F9",
+   "fallback": ""
+  },
+  "ỳ": {
+   "bytes": "81F9",
+   "fallback": ""
+  },
+  "ỷ": {
+   "bytes": "82F9",
+   "fallback": ""
+  },
+  "ỹ": {
+   "bytes": "83F9",
+   "fallback": ""
+  },
+  "ỵ": {
+   "bytes": "9D",
+   "fallback": ""
+  },
+  "A": {
+   "bytes": "C1",
+   "fallback": ""
+  },
+  "Á": {
+   "bytes": "80C1",
+   "fallback": ""
+  },
+  "À": {
+   "bytes": "81C1",
+   "fallback": ""
+  },
+  "Ả": {
+   "bytes": "82C1",
+   "fallback": ""
+  },
+  "Ã": {
+   "bytes": "83C1",
+   "fallback": ""
+  },
+  "Ạ": {
+   "bytes": "A3",
+   "fallback": ""
+  },
+  "Ă": {
+   "bytes": "84C1",
+   "fallback": ""
+  },
+  "Ắ": {
+   "bytes": "86C1",
+   "fallback": ""
+  },
+  "Ằ": {
+   "bytes": "87C1",
+   "fallback": ""
+  },
+  "Ẳ": {
+   "bytes": "88C1",
+   "fallback": ""
+  },
+  "Ẵ": {
+   "bytes": "89C1",
+   "fallback": ""
+  },
+  "Ặ": {
+   "bytes": "84A3",
+   "fallback": ""
+  },
+  "Â": {
+   "bytes": "85C1",
+   "fallback": ""
+  },
+  "Ấ": {
+   "bytes": "8AC1",
+   "fallback": ""
+  },
+  "Ầ": {
+   "bytes": "8BC1",
+   "fallback": ""
+  },
+  "Ẩ": {
+   "bytes": "8CC1",
+   "fallback": ""
+  },
+  "Ẫ": {
+   "bytes": "8DC1",
+   "fallback": ""
+  },
+  "Ậ": {
+   "bytes": "85A3",
+   "fallback": ""
+  },
+  "E": {
+   "bytes": "C5",
+   "fallback": ""
+  },
+  "É": {
+   "bytes": "80C5",
+   "fallback": ""
+  },
+  "È": {
+   "bytes": "81C5",
+   "fallback": ""
+  },
+  "Ẻ": {
+   "bytes": "82C5",
+   "fallback": ""
+  },
+  "Ẽ": {
+   "bytes": "83C5",
+   "fallback": ""
+  },
+  "Ẹ": {
+   "bytes": "99",
+   "fallback": "capital Ẹ has no glyph; rendered as ẹ"
+  },
+  "Ê": {
+   "bytes": "85C5",
+   "fallback": ""
+  },
+  "Ế": {
+   "bytes": "8AC5",
+   "fallback": ""
+  },
+  "Ề": {
+   "bytes": "8BC5",
+   "fallback": ""
+  },
+  "Ể": {
+   "bytes": "8CC5",
+   "fallback": ""
+  },
+  "Ễ": {
+   "bytes": "8DC5",
+   "fallback": ""
+  },
+  "Ệ": {
+   "bytes": "8599",
+   "fallback": "capital Ẹ has no glyph; rendered as ẹ"
+  },
+  "I": {
+   "bytes": "C9",
+   "fallback": ""
+  },
+  "Í": {
+   "bytes": "80C9",
+   "fallback": ""
+  },
+  "Ì": {
+   "bytes": "81C9",
+   "fallback": ""
+  },
+  "Ỉ": {
+   "bytes": "82C9",
+   "fallback": ""
+  },
+  "Ĩ": {
+   "bytes": "83C9",
+   "fallback": ""
+  },
+  "Ị": {
+   "bytes": "9A",
+   "fallback": "capital Ị has no glyph; rendered as ị"
+  },
+  "O": {
+   "bytes": "CF",
+   "fallback": ""
+  },
+  "Ó": {
+   "bytes": "80CF",
+   "fallback": ""
+  },
+  "Ò": {
+   "bytes": "81CF",
+   "fallback": ""
+  },
+  "Ỏ": {
+   "bytes": "82CF",
+   "fallback": ""
+  },
+  "Õ": {
+   "bytes": "83CF",
+   "fallback": ""
+  },
+  "Ọ": {
+   "bytes": "A5",
+   "fallback": ""
+  },
+  "Ô": {
+   "bytes": "85CF",
+   "fallback": ""
+  },
+  "Ố": {
+   "bytes": "8ACF",
+   "fallback": ""
+  },
+  "Ồ": {
+   "bytes": "8BCF",
+   "fallback": ""
+  },
+  "Ổ": {
+   "bytes": "8CCF",
+   "fallback": ""
+  },
+  "Ỗ": {
+   "bytes": "8DCF",
+   "fallback": ""
+  },
+  "Ộ": {
+   "bytes": "85A5",
+   "fallback": ""
+  },
+  "Ơ": {
+   "bytes": "91",
+   "fallback": ""
+  },
+  "Ớ": {
+   "bytes": "8091",
+   "fallback": ""
+  },
+  "Ờ": {
+   "bytes": "8191",
+   "fallback": ""
+  },
+  "Ở": {
+   "bytes": "8291",
+   "fallback": ""
+  },
+  "Ỡ": {
+   "bytes": "8391",
+   "fallback": ""
+  },
+  "Ợ": {
+   "bytes": "9E",
+   "fallback": "capital Ợ has no glyph; rendered as ợ"
+  },
+  "U": {
+   "bytes": "D5",
+   "fallback": ""
+  },
+  "Ú": {
+   "bytes": "80D5",
+   "fallback": ""
+  },
+  "Ù": {
+   "bytes": "81D5",
+   "fallback": ""
+  },
+  "Ủ": {
+   "bytes": "82D5",
+   "fallback": ""
+  },
+  "Ũ": {
+   "bytes": "83D5",
+   "fallback": ""
+  },
+  "Ụ": {
+   "bytes": "AB",
+   "fallback": ""
+  },
+  "Ư": {
+   "bytes": "92",
+   "fallback": ""
+  },
+  "Ứ": {
+   "bytes": "8092",
+   "fallback": ""
+  },
+  "Ừ": {
+   "bytes": "8192",
+   "fallback": ""
+  },
+  "Ử": {
+   "bytes": "8292",
+   "fallback": ""
+  },
+  "Ữ": {
+   "bytes": "8392",
+   "fallback": ""
+  },
+  "Ự": {
+   "bytes": "9F",
+   "fallback": "capital Ự has no glyph; rendered as ự"
+  },
+  "Y": {
+   "bytes": "D9",
+   "fallback": ""
+  },
+  "Ý": {
+   "bytes": "80D9",
+   "fallback": ""
+  },
+  "Ỳ": {
+   "bytes": "81D9",
+   "fallback": ""
+  },
+  "Ỷ": {
+   "bytes": "82D9",
+   "fallback": ""
+  },
+  "Ỹ": {
+   "bytes": "83D9",
+   "fallback": ""
+  },
+  "Ỵ": {
+   "bytes": "9D",
+   "fallback": "capital Ỵ has no glyph; rendered as ỵ"
+  },
+  "đ": {
+   "bytes": "90",
+   "fallback": ""
+  },
+  "Đ": {
+   "bytes": "93",
+   "fallback": ""
+  }
+ }
+}

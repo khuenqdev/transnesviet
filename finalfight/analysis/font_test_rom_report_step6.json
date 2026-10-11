@@ -1,0 +1,449 @@
+{
+  "project_step": 6,
+  "artifact_type": "font-render smoke-test IPS patch; not a translated ROM",
+  "source_rom": "Mighty Final Fight (USA).nes",
+  "source_size_bytes": 262160,
+  "source_sha256": "5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26",
+  "source_prg_crc32": "2EE3EF15",
+  "source_chr_crc32": "BCFEB409",
+  "in_memory_patched_rom_size_bytes": 262160,
+  "in_memory_patched_rom_sha256": "32bd2083b7ccca9e9b7760cc90876253f211d24d55c3c0554dc6c9f38ff0eabc",
+  "full_rom_file_distributed": false,
+  "output_prg_crc32": "FB876C0C",
+  "output_chr_crc32": "CB024E90",
+  "ips_patch": "Mighty_Final_Fight_Vietnamese_FONT_TEST_ONLY_step6.ips",
+  "ips_size_bytes": 1421,
+  "ips_record_count": 68,
+  "text_render_probe": {
+    "file_offset": "0x001C9C",
+    "original_byte": "0x10",
+    "test_byte": "0x30",
+    "intended_change": "A -> À in OPEN_02 string “A COUPLE DAYS LATER...”",
+    "same_byte_length": true
+  },
+  "glyph_count": 67,
+  "glyph_bytes_injected": 1072,
+  "changed_file_bytes": 426,
+  "modified_offsets_span": [
+    7324,
+    256271
+  ],
+  "changed_offsets_all_in_candidate_tiles": true,
+  "ines_header_unchanged": true,
+  "prg_unchanged_except_probe_byte": true,
+  "target_slots_blank_in_source": true,
+  "ips_roundtrip_exact_match": true,
+  "emulator_tested": false,
+  "production_ready": false,
+  "warnings": [
+    "Do not use as a production/playable translation patch.",
+    "Only CHR glyph tiles and one diagnostic byte in OPEN_02 were changed; no translation was applied.",
+    "The OPEN_02 probe intentionally displays À instead of A; revert to the clean ROM for normal play.",
+    "In-game tile reuse must be checked in Mesen/FCEUX; otherwise unrelated graphics may change.",
+    "The extended text-byte encoding and all dialogue formats remain runtime-unverified."
+  ],
+  "modified_tiles": [
+    {
+      "glyph": "À",
+      "text_byte": "0x30",
+      "global_chr_tile": "0x1E30",
+      "rom_offset": "0x03E310"
+    },
+    {
+      "glyph": "Á",
+      "text_byte": "0x31",
+      "global_chr_tile": "0x1E31",
+      "rom_offset": "0x03E320"
+    },
+    {
+      "glyph": "Â",
+      "text_byte": "0x32",
+      "global_chr_tile": "0x1E32",
+      "rom_offset": "0x03E330"
+    },
+    {
+      "glyph": "Ã",
+      "text_byte": "0x33",
+      "global_chr_tile": "0x1E33",
+      "rom_offset": "0x03E340"
+    },
+    {
+      "glyph": "È",
+      "text_byte": "0x34",
+      "global_chr_tile": "0x1E34",
+      "rom_offset": "0x03E350"
+    },
+    {
+      "glyph": "Ê",
+      "text_byte": "0x36",
+      "global_chr_tile": "0x1E36",
+      "rom_offset": "0x03E370"
+    },
+    {
+      "glyph": "Ì",
+      "text_byte": "0x37",
+      "global_chr_tile": "0x1E37",
+      "rom_offset": "0x03E380"
+    },
+    {
+      "glyph": "Í",
+      "text_byte": "0x38",
+      "global_chr_tile": "0x1E38",
+      "rom_offset": "0x03E390"
+    },
+    {
+      "glyph": "Ò",
+      "text_byte": "0x39",
+      "global_chr_tile": "0x1E39",
+      "rom_offset": "0x03E3A0"
+    },
+    {
+      "glyph": "Ó",
+      "text_byte": "0x3A",
+      "global_chr_tile": "0x1E3A",
+      "rom_offset": "0x03E3B0"
+    },
+    {
+      "glyph": "Ô",
+      "text_byte": "0x3B",
+      "global_chr_tile": "0x1E3B",
+      "rom_offset": "0x03E3C0"
+    },
+    {
+      "glyph": "Õ",
+      "text_byte": "0x3C",
+      "global_chr_tile": "0x1E3C",
+      "rom_offset": "0x03E3D0"
+    },
+    {
+      "glyph": "Ù",
+      "text_byte": "0x3D",
+      "global_chr_tile": "0x1E3D",
+      "rom_offset": "0x03E3E0"
+    },
+    {
+      "glyph": "Ú",
+      "text_byte": "0x3E",
+      "global_chr_tile": "0x1E3E",
+      "rom_offset": "0x03E3F0"
+    },
+    {
+      "glyph": "Ý",
+      "text_byte": "0x3F",
+      "global_chr_tile": "0x1E3F",
+      "rom_offset": "0x03E400"
+    },
+    {
+      "glyph": "Ă",
+      "text_byte": "0x40",
+      "global_chr_tile": "0x1E40",
+      "rom_offset": "0x03E410"
+    },
+    {
+      "glyph": "Đ",
+      "text_byte": "0x41",
+      "global_chr_tile": "0x1E41",
+      "rom_offset": "0x03E420"
+    },
+    {
+      "glyph": "Ĩ",
+      "text_byte": "0x42",
+      "global_chr_tile": "0x1E42",
+      "rom_offset": "0x03E430"
+    },
+    {
+      "glyph": "Ũ",
+      "text_byte": "0x43",
+      "global_chr_tile": "0x1E43",
+      "rom_offset": "0x03E440"
+    },
+    {
+      "glyph": "Ơ",
+      "text_byte": "0x44",
+      "global_chr_tile": "0x1E44",
+      "rom_offset": "0x03E450"
+    },
+    {
+      "glyph": "Ư",
+      "text_byte": "0x45",
+      "global_chr_tile": "0x1E45",
+      "rom_offset": "0x03E460"
+    },
+    {
+      "glyph": "Ạ",
+      "text_byte": "0x46",
+      "global_chr_tile": "0x1E46",
+      "rom_offset": "0x03E470"
+    },
+    {
+      "glyph": "Ả",
+      "text_byte": "0x47",
+      "global_chr_tile": "0x1E47",
+      "rom_offset": "0x03E480"
+    },
+    {
+      "glyph": "Ấ",
+      "text_byte": "0x48",
+      "global_chr_tile": "0x1E48",
+      "rom_offset": "0x03E490"
+    },
+    {
+      "glyph": "Ầ",
+      "text_byte": "0x49",
+      "global_chr_tile": "0x1E49",
+      "rom_offset": "0x03E4A0"
+    },
+    {
+      "glyph": "Ẩ",
+      "text_byte": "0x4A",
+      "global_chr_tile": "0x1E4A",
+      "rom_offset": "0x03E4B0"
+    },
+    {
+      "glyph": "Ẫ",
+      "text_byte": "0x4B",
+      "global_chr_tile": "0x1E4B",
+      "rom_offset": "0x03E4C0"
+    },
+    {
+      "glyph": "Ậ",
+      "text_byte": "0x4C",
+      "global_chr_tile": "0x1E4C",
+      "rom_offset": "0x03E4D0"
+    },
+    {
+      "glyph": "Ắ",
+      "text_byte": "0x4D",
+      "global_chr_tile": "0x1E4D",
+      "rom_offset": "0x03E4E0"
+    },
+    {
+      "glyph": "Ằ",
+      "text_byte": "0x4E",
+      "global_chr_tile": "0x1E4E",
+      "rom_offset": "0x03E4F0"
+    },
+    {
+      "glyph": "Ẳ",
+      "text_byte": "0x4F",
+      "global_chr_tile": "0x1E4F",
+      "rom_offset": "0x03E500"
+    },
+    {
+      "glyph": "Ẵ",
+      "text_byte": "0x50",
+      "global_chr_tile": "0x1E50",
+      "rom_offset": "0x03E510"
+    },
+    {
+      "glyph": "Ặ",
+      "text_byte": "0x51",
+      "global_chr_tile": "0x1E51",
+      "rom_offset": "0x03E520"
+    },
+    {
+      "glyph": "Ẹ",
+      "text_byte": "0x52",
+      "global_chr_tile": "0x1E52",
+      "rom_offset": "0x03E530"
+    },
+    {
+      "glyph": "Ẻ",
+      "text_byte": "0x53",
+      "global_chr_tile": "0x1E53",
+      "rom_offset": "0x03E540"
+    },
+    {
+      "glyph": "Ẽ",
+      "text_byte": "0x54",
+      "global_chr_tile": "0x1E54",
+      "rom_offset": "0x03E550"
+    },
+    {
+      "glyph": "Ế",
+      "text_byte": "0x55",
+      "global_chr_tile": "0x1E55",
+      "rom_offset": "0x03E560"
+    },
+    {
+      "glyph": "Ề",
+      "text_byte": "0x56",
+      "global_chr_tile": "0x1E56",
+      "rom_offset": "0x03E570"
+    },
+    {
+      "glyph": "Ể",
+      "text_byte": "0x57",
+      "global_chr_tile": "0x1E57",
+      "rom_offset": "0x03E580"
+    },
+    {
+      "glyph": "Ễ",
+      "text_byte": "0x58",
+      "global_chr_tile": "0x1E58",
+      "rom_offset": "0x03E590"
+    },
+    {
+      "glyph": "Ệ",
+      "text_byte": "0x59",
+      "global_chr_tile": "0x1E59",
+      "rom_offset": "0x03E5A0"
+    },
+    {
+      "glyph": "Ỉ",
+      "text_byte": "0x5A",
+      "global_chr_tile": "0x1E5A",
+      "rom_offset": "0x03E5B0"
+    },
+    {
+      "glyph": "Ị",
+      "text_byte": "0x5B",
+      "global_chr_tile": "0x1E5B",
+      "rom_offset": "0x03E5C0"
+    },
+    {
+      "glyph": "Ọ",
+      "text_byte": "0x5C",
+      "global_chr_tile": "0x1E5C",
+      "rom_offset": "0x03E5D0"
+    },
+    {
+      "glyph": "Ỏ",
+      "text_byte": "0x5D",
+      "global_chr_tile": "0x1E5D",
+      "rom_offset": "0x03E5E0"
+    },
+    {
+      "glyph": "Ố",
+      "text_byte": "0x5E",
+      "global_chr_tile": "0x1E5E",
+      "rom_offset": "0x03E5F0"
+    },
+    {
+      "glyph": "Ồ",
+      "text_byte": "0x5F",
+      "global_chr_tile": "0x1E5F",
+      "rom_offset": "0x03E600"
+    },
+    {
+      "glyph": "Ổ",
+      "text_byte": "0x7C",
+      "global_chr_tile": "0x1E7C",
+      "rom_offset": "0x03E7D0"
+    },
+    {
+      "glyph": "Ỗ",
+      "text_byte": "0x7D",
+      "global_chr_tile": "0x1E7D",
+      "rom_offset": "0x03E7E0"
+    },
+    {
+      "glyph": "Ộ",
+      "text_byte": "0x7E",
+      "global_chr_tile": "0x1E7E",
+      "rom_offset": "0x03E7F0"
+    },
+    {
+      "glyph": "Ớ",
+      "text_byte": "0x7F",
+      "global_chr_tile": "0x1E7F",
+      "rom_offset": "0x03E800"
+    },
+    {
+      "glyph": "Ờ",
+      "text_byte": "0x80",
+      "global_chr_tile": "0x1E80",
+      "rom_offset": "0x03E810"
+    },
+    {
+      "glyph": "Ở",
+      "text_byte": "0x81",
+      "global_chr_tile": "0x1E81",
+      "rom_offset": "0x03E820"
+    },
+    {
+      "glyph": "Ỡ",
+      "text_byte": "0x82",
+      "global_chr_tile": "0x1E82",
+      "rom_offset": "0x03E830"
+    },
+    {
+      "glyph": "Ợ",
+      "text_byte": "0x83",
+      "global_chr_tile": "0x1E83",
+      "rom_offset": "0x03E840"
+    },
+    {
+      "glyph": "Ụ",
+      "text_byte": "0x84",
+      "global_chr_tile": "0x1E84",
+      "rom_offset": "0x03E850"
+    },
+    {
+      "glyph": "Ủ",
+      "text_byte": "0x85",
+      "global_chr_tile": "0x1E85",
+      "rom_offset": "0x03E860"
+    },
+    {
+      "glyph": "Ứ",
+      "text_byte": "0x86",
+      "global_chr_tile": "0x1E86",
+      "rom_offset": "0x03E870"
+    },
+    {
+      "glyph": "Ừ",
+      "text_byte": "0x87",
+      "global_chr_tile": "0x1E87",
+      "rom_offset": "0x03E880"
+    },
+    {
+      "glyph": "Ử",
+      "text_byte": "0x88",
+      "global_chr_tile": "0x1E88",
+      "rom_offset": "0x03E890"
+    },
+    {
+      "glyph": "Ữ",
+      "text_byte": "0x89",
+      "global_chr_tile": "0x1E89",
+      "rom_offset": "0x03E8A0"
+    },
+    {
+      "glyph": "Ự",
+      "text_byte": "0x8A",
+      "global_chr_tile": "0x1E8A",
+      "rom_offset": "0x03E8B0"
+    },
+    {
+      "glyph": "Ỳ",
+      "text_byte": "0x8B",
+      "global_chr_tile": "0x1E8B",
+      "rom_offset": "0x03E8C0"
+    },
+    {
+      "glyph": "Ỵ",
+      "text_byte": "0x8C",
+      "global_chr_tile": "0x1E8C",
+      "rom_offset": "0x03E8D0"
+    },
+    {
+      "glyph": "Ỷ",
+      "text_byte": "0x8D",
+      "global_chr_tile": "0x1E8D",
+      "rom_offset": "0x03E8E0"
+    },
+    {
+      "glyph": "Ỹ",
+      "text_byte": "0x8E",
+      "global_chr_tile": "0x1E8E",
+      "rom_offset": "0x03E8F0"
+    },
+    {
+      "glyph": "É",
+      "text_byte": "0x8F",
+      "global_chr_tile": "0x1E8F",
+      "rom_offset": "0x03E900"
+    }
+  ]
+}

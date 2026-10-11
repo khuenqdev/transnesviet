@@ -89,8 +89,8 @@ A future builder can relocate:
 
 while keeping the original record/control bytes that are not text.
 
-## 6. Still pending
+## 6. Step 4 static renderer result and remaining checks
 
-The exact glyph-tile lookup inside the `JSR $F406` rendering path has not yet been isolated.
-That is the next font-specific reverse-engineering task. Once isolated, the Vietnamese glyph bank can
-be added without changing the dialogue pointer system.
+Step 4 isolates the fixed-bank VRAM command writer at CPU `$C1FD-$C221`. It loads the character/data byte from `$0783,X` and writes it directly to `$2007`; no character lookup or arithmetic is performed in that writer. The NMI path writes MMC3 CHR registers 0/1 as `0x78/0x7A`, and the PPUCTRL shadow starts at `0x88`, supporting `global CHR tile = 0x1E00 + text byte` for the evidenced background-font state.
+
+This is static ROM analysis, not an emulator trace. Still pending are live PPU/bank confirmation during all three renderer paths, proof that candidate blank tile IDs are not referenced by other screens, and confirmation that proposed extended byte values are handled as literal body glyphs without corrupting boss dialogue headers/control tokens. See `runtime_text_renderer_step4.md` and `runtime_validation_checklist_step4.csv`.

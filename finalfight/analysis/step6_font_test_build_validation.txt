@@ -1,0 +1,14 @@
+STEP 6 FONT-ONLY DIAGNOSTIC BUILD
+Source SHA-256: 5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26
+In-memory patched image SHA-256: 32bd2083b7ccca9e9b7760cc90876253f211d24d55c3c0554dc6c9f38ff0eabc
+In-memory patched image bytes: 262160 (not saved/distributed)
+Glyphs injected: 67
+CHR bytes changed: 426
+IPS size: 1421 bytes; records: 68
+PASS: same-length text probe changes OPEN_02 first glyph byte 0x10 (A) -> 0x30 (À)
+PASS: all 67 target tiles were blank in source ROM
+PASS: iNES header unchanged; PRG unchanged except the single text probe byte
+PASS: all file-byte changes are restricted to candidate CHR tiles plus the one-byte OPEN_02 probe
+PASS: IPS application reproduces output ROM byte-for-byte
+NOT TESTED: Mesen/FCEUX execution; in-game tile reuse; translation text injection
+STATUS: experimental font-render smoke-test IPS only; not a playable Vietnamese translation

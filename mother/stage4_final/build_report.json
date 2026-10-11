@@ -1,0 +1,23 @@
+{
+ "warnings": [],
+ "untranslated": [
+  "S1203"
+ ],
+ "errors": [],
+ "script": {
+  "segments_translated": 1263,
+  "bytes": 75814,
+  "banks_used": "20-29"
+ },
+ "names": {
+  "count": 253,
+  "bytes": 2598,
+  "pool_bytes": 2807
+ },
+ "intro": "PRG $33CD0 + CHR $1ECD0",
+ "rom": {
+  "crc32": "814F319F",
+  "size": 786448,
+  "ips_bytes": 383201
+ }
+}

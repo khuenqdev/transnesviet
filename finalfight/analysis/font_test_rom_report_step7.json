@@ -1,0 +1,44 @@
+{
+  "project_step": 7,
+  "artifact_type": "experimental Vietnamese accented-glyph diagnostic IPS, not translation release",
+  "source_rom": "Mighty Final Fight (USA).nes",
+  "source_size_bytes": 262160,
+  "source_sha256": "5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26",
+  "source_body_crc32": "3F78037C",
+  "patched_diagnostic_sha256": "00e2afb637bbd5d5bbe400b0c53c6a54452c19befe3fc3fd85b7c4766515054f",
+  "ips_file": "Mighty_Final_Fight_Vietnamese_FONT_TEST_STEP7.ips",
+  "ips_size_bytes": 1433,
+  "ips_records": 68,
+  "glyph_tiles": 67,
+  "glyph_tile_bytes": 1072,
+  "probe": {
+    "offset": "0x001C9C",
+    "original_bytes_hex": "10 00 12 1e 24 1f 1b 14 00 13 10 28 22",
+    "new_bytes_hex": "30 31 32 33 34 36 37 38 39 3a 3b 3c 3d",
+    "glyph_sequence": "ÀÁÂÃÈÊÌÍÒÓÔÕÙ",
+    "same_length": true,
+    "effect": "replaces line “A COUPLE DAYS” with 13 accented glyphs; line 2 stays “LATER...”"
+  },
+  "checks": {
+    "base_rom_identity_verified": true,
+    "all_67_slots_blank_in_source": true,
+    "roundtrip_ips_exact": true,
+    "header_unchanged": true,
+    "prg_unchanged_except_13_byte_probe": true,
+    "only_candidate_chr_tiles_plus_13_byte_probe_changed": true,
+    "modified_offsets_count": 462
+  },
+  "step6_user_screenshot_review": {
+    "screenshot_received": true,
+    "assessment": "The A->À probe appears at the intended first character; the grave tone appears as a small flat dash and needs a more diagonal mark. This supports the basic tile selection/render path for À, but does not validate all extended bytes or unrelated tile reuse."
+  },
+  "emulator_tested_by_assistant": false,
+  "user_reported_step6_screenshot": true,
+  "release_ready": false,
+  "warnings": [
+    "Experimental diagnostic only; not a translated ROM.",
+    "Step 7 accent sequence is not yet tested in an emulator.",
+    "All extended-byte codes still need dialogue-path compatibility testing.",
+    "All candidate blank tiles still need a full playthrough/other-screen reuse check."
+  ]
+}

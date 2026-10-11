@@ -1,0 +1,9 @@
+ROM body CRC32: 3F78037C
+ROM SHA256: 5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26
+ppu_queue_writer: PASS (0x1C1FD)
+nmi_chr_0_1_banks: PASS (0x1C1BC)
+ppuctrl_shadow_init: PASS (0x1FEB6)
+Candidate blank slots: 67/67
+STATIC FINDING: the queue writer stores $0783,X directly to $2007.
+STATIC FINDING: NMI writes MMC3 CHR registers 0/1 = 0x78/0x7A; $FEB6 initializes PPUCTRL shadow to 0x88.
+LIMITATION: static check only; it does not prove no screen references these tile IDs and does not produce a patched ROM.

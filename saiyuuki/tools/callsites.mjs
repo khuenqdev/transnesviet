@@ -1,0 +1,10 @@
+import {NES} from '/home/claude/vendor/jsnes/src/index.js';
+import fs from 'fs';
+const [,, romPath, f1, ...targets]=process.argv;
+const T=new Set(targets.map(t=>parseInt(t,16)));
+const nes=new NES({onFrame:()=>{},onAudioSample:()=>{},emulateSound:false});
+nes.loadROM(fs.readFileSync(romPath).toString('binary'));
+const cpu=nes.cpu; const oe=cpu.emulate.bind(cpu); let fr=0; const seen=new Map();
+cpu.emulate=function(){ const pc=cpu.REG_PC+1; if(T.has(pc)){ const sp=cpu.REG_SP; const lo=cpu.mem[0x100+sp+1], hi=cpu.mem[0x100+sp+2]; const ret=((hi<<8)|lo)+1; const k=ret.toString(16)+'/b'+cpu.mem[0x10]+'/f'+(fr<200?fr:'200+'); if(!seen.has(k)) seen.set(k,[fr,0]); seen.get(k)[1]++; } return oe(); };
+for(fr=0;fr<+f1;fr++) nes.frame();
+console.log([...seen.entries()].map(([k,v])=>k+' first@'+v[0]+' x'+v[1]).join('\n'));

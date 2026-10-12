@@ -1,0 +1,1 @@
+Skill folder. scripts/: viet_font.py (12-row Vietnamese bitmap font composer), viet_font8.py (8-px caps), asm6502.py / dis6502.py (tiny 6502 tools), make_ips.py. Reference implementation: ../../tools/build_rom.py, ../../src/*.asm.

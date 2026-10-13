@@ -1,0 +1,31 @@
+{
+  "path": "Mighty_Final_Fight_Vietnamese_FULL_TRANSLATION_STEP20.nes",
+  "filename": "Mighty_Final_Fight_Vietnamese_FULL_TRANSLATION_STEP20.nes",
+  "file_size": 278544,
+  "sha256": "03d2d05e2303e2b41a5213b248bdd3d20cfa478a8e473dd00734d42882e6bcbc",
+  "md5": "9bd65d3c44f0d6899d6cf0b4f6feac06",
+  "crc32_file": "F84AD1D3",
+  "valid_header": true,
+  "header_hex": "4E 45 53 1A 08 12 40 08 00 00 00 00 00 00 00 01",
+  "header_format": "NES 2.0",
+  "mapper": 4,
+  "submapper": 0,
+  "prg_bytes": 131072,
+  "chr_bytes": 147456,
+  "prg_16k_banks": 8,
+  "chr_8k_banks": 18,
+  "trainer_present": false,
+  "trainer_bytes": 0,
+  "mirroring": "horizontal",
+  "battery_backed": false,
+  "console_type_bits": 0,
+  "prg_start_file_offset": 16,
+  "chr_start_file_offset": 131088,
+  "expected_file_size_from_header": 278544,
+  "size_matches_header": true,
+  "trailing_or_missing_bytes": 0,
+  "chr_ram_likely": false,
+  "notes": [
+    "This is a header-level preflight, not proof that the ROM's mapper implementation or game code is understood."
+  ]
+}

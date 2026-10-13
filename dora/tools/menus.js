@@ -56,7 +56,11 @@ function patchMenus(rom) {
   // Doraemon art: first tile in the layout prefix byte (needs a code < $E0), rest in the slot
   const dora = vn.encodeB('<dora>');
   if (dora[0] >= 0xE0) throw new Error('dora0 code must be < E0');
-  rom.wr(B, 0x802A, [dora[0]]); rom.wr(B, rd16(0x8CB7 + 4), dora.slice(1));
+  // Layout row: [20 20] E0 02 [20]. Words start after the two prefix spaces, so the 6-tile logo is split
+  // 5 tiles in the slot + 1 tile in the trailing layout byte (raw code < $E0) to start at the same column.
+  if (dora[5] >= 0xE0) throw new Error('dora5 code must be < E0');
+  rom.expect(B, 0x8029, '20 5C E0 02 20'); rom.wr(B, 0x802A, [vn.SPACE]);
+  rom.wr(B, 0x802D, [dora[5]]); rom.wr(B, rd16(0x8CB7 + 4), dora.slice(0, 5));
   fill(0x8DB9, TITLES, 'title');
   fill(0x8E2E, STATUS, 'status');
   fill(0x8E5F, PLACES, 'place');

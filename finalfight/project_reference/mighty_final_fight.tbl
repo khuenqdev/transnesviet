@@ -1,0 +1,44 @@
+; Mighty Final Fight (USA) — verified text encoding, step 2
+; ROM body CRC32: 3F78037C
+; PRG CRC32: 2EE3EF15
+; CHR CRC32: BCFEB409
+00=<SP>
+10=A
+11=B
+12=C
+13=D
+14=E
+15=F
+16=G
+17=H
+18=I
+19=J
+1A=K
+1B=L
+1C=M
+1D=N
+1E=O
+1F=P
+20=Q
+21=R
+22=S
+23=T
+24=U
+25=V
+26=W
+27=X
+28=Y
+29=Z
+2A='
+2B=.
+2C=,
+; 2D-2F occur as presentation/header data in the dialogue stream; not assigned as ordinary text.
+75=<CTRL75>
+76=<CTRL76>
+78=<CTRL78>
+F9=<CTRLF9>
+FA=<CTRLFA>
+FB=<CTRLFB>
+FC=<CTRLFC>
+FE=<LINE>
+FF=<END>

@@ -1,0 +1,27 @@
+{
+  "project": "Mighty Final Fight (USA) Vietnamese translation",
+  "release_step": 20,
+  "release_kind": "full currently indexed story-dialogue and credits build",
+  "source_rom": "Mighty Final Fight (USA).nes",
+  "source_sha256": "5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26",
+  "rom_file": "release/Mighty_Final_Fight_Vietnamese_FULL_TRANSLATION_STEP20.nes",
+  "rom_sha256": "03d2d05e2303e2b41a5213b248bdd3d20cfa478a8e473dd00734d42882e6bcbc",
+  "ips_file": "release/Mighty_Final_Fight_Vietnamese_FULL_TRANSLATION_STEP20.ips",
+  "ips_sha256": "2778df5a7eabad3ca66d32b2a9fc6e41f1b0b7a825daa8c174e43dbdc6b135b5",
+  "rom_bytes": 278544,
+  "ips_bytes": 20208,
+  "ips_records": 137,
+  "catalog_rows": 90,
+  "groups": {
+    "opening": 7,
+    "boss": 78,
+    "credits": 5
+  },
+  "unique_physical_slots": 86,
+  "step20_boss_slots_changed": 67,
+  "step20_credit_slots_changed": 5,
+  "static_validation": "PASS",
+  "ips_round_trip": "PASS",
+  "full_fceux_playthrough": "PENDING",
+  "scope_limit": "Menu/HUD graphics-text outside the current verified pointer inventory is not claimed translated."
+}

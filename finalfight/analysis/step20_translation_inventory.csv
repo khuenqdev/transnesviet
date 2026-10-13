@@ -1,0 +1,157 @@
+group,id,index,file_offset,english,vietnamese,status,shared_pointer_indexes
+opening,OPEN_00,0,0x001B4A,"THIS IS METRO CITY. WITHIN THE WALLS OF THE CITY LIVES THE DAUGHTER OF THE MAYOR, JESSICA. HER BEAUTY RADIATES THROUGHOUT THE CITY AND GIVES THE CITIZENS THE POWER TO SURVIVE. BUT NOW A VILLAIN ATTEMPTS TO HAVE THIS BEACON OF LIGHT ALL TO HIMSELF.","ĐÂY LÀ METRO CITY.
+TRONG LÒNG THÀNH
+PHỐ LÀ JESSICA,
+CON GÁI CỦA
+THỊ TRƯỞNG. VẺ
+ĐẸP CỦA CÔ
+LAN TỎA KHẮP
+THÀNH PHỐ,
+TIẾP SỨC CHO NGƯỜI
+DÂN SINH TỒN.
+NHƯNG GIỜ ĐÂY,
+MỘT KẺ XẤU MUỐN
+CHIẾM ÁNH SÁNG
+ẤY CHO RIÊNG
+MÌNH.",retained from user-tested Step 17/18 opening builds,
+opening,OPEN_01,1,0x001C44,I CAN'T BELIEVE THAT I'VE ACTUALLY FALLEN IN LOVE WITH THE GIRL. SHE WILL BE MINE.....,"TA KHÔNG NGỜ MÌNH
+ĐÃ YÊU CÔ ẤY.
+CÔ ẤY SẼ THUỘC
+VỀ TA.....",retained from user-tested Step 17/18 opening builds,
+opening,OPEN_02,2,0x001C9C,A COUPLE DAYS LATER...,VÀI NGÀY SAU...,retained from user-tested Step 17/18 opening builds,
+opening,OPEN_03,3,0x001CB3,"WHAT?! JESSICA... KIDNAPPED...?! WHAT HAVE YOU DONE TO HER, CODY? ME?! THIS IS THE WORK OF THE MAD GEAR GANG. WHAT DO YOU THINK, GUY?","CÁI GÌ?! JESSICA...
+BỊ BẮT CÓC SAO?!
+CẬU ĐÃ LÀM GÌ
+VỚI CÔ ẤY, CODY?
+TÔI Á?!
+CHUYỆN NÀY DO
+BĂNG MAD GEAR
+GÂY RA. CẬU NGHĨ
+SAO, GUY?",retained from user-tested Step 17/18 opening builds,
+opening,OPEN_04,4,0x001D3E,YES. THERE'S NOT A MOMENT TO SPARE. LET'S GO!,"ĐÚNG. KHÔNG CÒN
+THỜI GIAN ĐÂU.
+ĐI THÔI!",retained from user-tested Step 17/18 opening builds,
+opening,OPEN_05,5,0x001D6C,"DAD, IT'S ABOUT TIME YOU GOT HERE. SORRY PRINCESS, BUT I NEEDED TO TAKE OUT THE TRASH. DAD, WHERE'S CODY? CODY? I LOST SIGHT OF HIM ON THE WAY HERE. OH, WAY TO GO DAD!","BỐ, CUỐI CÙNG
+BỐ CŨNG ĐẾN RỒI.
+XIN LỖI CÔNG CHÚA,
+NHƯNG BỐ PHẢI
+DỌN ĐÁM RÁC.
+BỐ, CODY ĐÂU RỒI?
+CODY SAO? BỐ MẤT
+DẤU CẬU ẤY TRÊN
+ĐƯỜNG ĐẾN ĐÂY.
+Ồ, HAY LẮM, BỐ!",retained from user-tested Step 17/18 opening builds,
+opening,OPEN_06,6,0x001E17,"LET GO OF ME, GUY! WITHOUT MY HELP, SHE WOULD BE... CONTROL YOURSELF. LET THE MAYOR AND JESSICA TALK. FOR ONCE IN YOUR LIFE, THINK OF SOMEONE ELSE BESIDES YOURSELF. LET GO OF ME!","BUÔNG TÔI RA, GUY!
+KHÔNG CÓ TÔI GIÚP,
+CÔ ẤY SẼ...
+BÌNH TĨNH LẠI!
+ĐỂ THỊ TRƯỞNG VÀ
+JESSICA NÓI CHUYỆN.
+ÍT NHẤT MỘT LẦN
+TRONG ĐỜI, HÃY NGHĨ
+CHO NGƯỜI KHÁC,
+ĐỪNG CHỈ LO MÌNH.
+BUÔNG TÔI RA!",retained from user-tested Step 17/18 opening builds,
+boss,BOSS_00,0,0x009D81,"HEH HEH. I AM THRASHER,","HA HA! TA LÀ THRASHER,",translated and user-confirmed in Step 19 pilot,"[0, 1]"
+boss,BOSS_01,1,0x009D81,"HEH HEH. I AM THRASHER,","HA HA! TA LÀ THRASHER,",translated and user-confirmed in Step 19 pilot,"[0, 1]"
+boss,BOSS_02,2,0x009D9E,RULER OF THIS CITY.,CHÚA TỂ THÀNH PHỐ.,translated and user-confirmed in Step 19 pilot,[2]
+boss,BOSS_03,3,0x009DB7,BOW DOWN BEFORE ME,CÚI ĐẦU MAU LÊN!,translated and user-confirmed in Step 19 pilot,[3]
+boss,BOSS_04,4,0x009DD0,DON'T YOU KNOW I RULE THE,BIẾT CHƯA? TA CAI TRỊ,translated and user-confirmed in Step 19 pilot,"[4, 5]"
+boss,BOSS_05,5,0x009DD0,DON'T YOU KNOW I RULE THE,BIẾT CHƯA? TA CAI TRỊ,translated and user-confirmed in Step 19 pilot,"[4, 5]"
+boss,BOSS_06,6,0x009DEF,STREETS,PHỐ NÀY!,translated and user-confirmed in Step 19 pilot,[6]
+boss,BOSS_07,7,0x009DFE,THOSE WHO OFFEND ME,KẺ NÀO XÚC PHẠM TA,translated and user-confirmed in Step 19 pilot,[7]
+boss,BOSS_08,8,0x009E17,MUST DIE,ĐỀU CHẾT!,translated and user-confirmed in Step 19 pilot,[8]
+boss,BOSS_09,9,0x009E26,WAHHHHH,ÁÁÁÁÁÁÁ!,grunt localized; punctuation and FB/FA/F9 animation commands preserved,[9]
+boss,BOSS_10,10,0x009E49,ARGHHHH,ÁÁÁÁÁÁÁ!,grunt localized; punctuation and FB/FA/F9 animation commands preserved,[10]
+boss,BOSS_11,11,0x009E6C,I AM SUPERIOR.,TA CAO TAY!,translated in Step 20,[11]
+boss,BOSS_12,12,0x009E80,MAYBE YOU'RE STRONGER THAN,NGƯƠI MẠNH HƠN,translated in Step 20,[12]
+boss,BOSS_13,13,0x009EA0,YOU LOOK.,TA NGHĨ.,translated in Step 20,[13]
+boss,BOSS_14,14,0x009EAF,WHY DON'T YOU JOIN US,SAO KHÔNG VÀO BĂNG TA?,translated in Step 20,[14]
+boss,BOSS_15,15,0x009ECB,YOU DARE REFUSE THE MAD GEAR,NGƯƠI DÁM BÁC BỎ MAD GEAR,translated in Step 20,[15]
+boss,BOSS_16,16,0x009EED,GANG,BĂNG!,translated in Step 20,[16]
+boss,BOSS_17,17,0x009EF8,HEH HEH. I DON'T BELIEVE,HA HA! TA KHÔNG TIN,translated in Step 20,[17]
+boss,BOSS_18,18,0x009F16,YOU. YOU'RE TOO MUCH OF A,NGƯƠI. ĐÚNG LÀ THẰNG,translated in Step 20,[18]
+boss,BOSS_19,19,0x009F35,MAMA'S BOY.,CẬU ẤM!,translated in Step 20,[19]
+boss,BOSS_20,20,0x009F46,YOU'RE TOO FAT AND LAZY TO,"NGƯƠI QUÁ MẬP, CHẬM CHẠP",translated in Step 20,[20]
+boss,BOSS_21,21,0x009F66,OPPOSE ME,KHÓ ĐẤU TA,translated in Step 20,[21]
+boss,BOSS_22,22,0x009F76,"GIVE IT UP, PAL. YOU'RE NO","NHÓC, NGƯƠI ĐÂU PHẢI",translated in Step 20,[22]
+boss,BOSS_23,23,0x009F96,SAMURAI.,SAMURAI!,translated in Step 20,[23]
+boss,BOSS_24,24,0x009FA4,WHERE'S JESSICA,JESSICA ĐÂU RỒI,translated in Step 20,[24]
+boss,BOSS_25,25,0x009FBA,"BIG MOUTH, LITTLE SWORD.","MỒM TO, KIẾM NGẮN.",translated in Step 20,[25]
+boss,BOSS_26,26,0x009FD8,TELL ME WHAT YOU KNOW,"KHAI MAU, BIẾT GÌ?",translated in Step 20,[26]
+boss,BOSS_27,27,0x009FF3,OR I'LL CLOBBER YOU,TA SẼ ĐẬP NGƯƠI!,translated in Step 20,[27]
+boss,BOSS_28,28,0x00A00D,YOU'RE NO MATCH FOR ME.,NGƯƠI CHẲNG ĐỊCH NỔI TA,translated in Step 20,"[28, 29]"
+boss,BOSS_29,29,0x00A00D,YOU'RE NO MATCH FOR ME.,NGƯƠI CHẲNG ĐỊCH NỔI TA,shared pointer alias of BOSS_28,"[28, 29]"
+boss,BOSS_30,30,0x00A02A,I AM THE SLAM MASTER.,TA LÀ VUA ĐẤU VẬT.,translated in Step 20,[30]
+boss,BOSS_31,31,0x00A045,GET OUT OF MY WAY BEFORE I,TRÁNH LỐI TA TRƯỚC KHI TA,translated in Step 20,[31]
+boss,BOSS_32,32,0x00A065,STOMP YOU FLAT.,DẬP BẸP NGƯƠI!,translated in Step 20,[32]
+boss,BOSS_33,33,0x00A07A,ARE YOU DONE FLAPPIN' THOSE,CÒN LẢM NHẢM À?,translated in Step 20,[33]
+boss,BOSS_34,34,0x00A09B,LIPS OF YOURS,CÁI MỒM KIA!,translated in Step 20,[34]
+boss,BOSS_35,35,0x00A0AF,"GOOD, BECAUSE I'M GONNA CHOP","TỐT, TA SẼ XẺ",translated in Step 20,[35]
+boss,BOSS_36,36,0x00A0D1,YOU DOWN TO SIZE,RA THÀNH MẢNH!,translated in Step 20,[36]
+boss,BOSS_37,37,0x00A0E8,"I'M ABIGAIL, THE TOUGHEST","TA LÀ ABIGAIL, MẠNH NHẤT",translated in Step 20,"[37, 38]"
+boss,BOSS_38,38,0x00A0E8,"I'M ABIGAIL, THE TOUGHEST","TA LÀ ABIGAIL, MẠNH NHẤT",shared pointer alias of BOSS_37,"[37, 38]"
+boss,BOSS_39,39,0x00A107,FIGHTER IN THE MAD GEAR.,ĐẤU SĨ BĂNG MAD GEAR.,translated in Step 20,[39]
+boss,BOSS_40,40,0x00A125,YOU'VE BEEN LUCKY SO FAR....,NGƯƠI MAY MẮN LẮM...,translated in Step 20,[40]
+boss,BOSS_41,41,0x00A147,BUT YOUR LUCK HAS JUST RUN,VẬN MAY NGƯƠI SẮP HẾT,translated in Step 20,[41]
+boss,BOSS_42,42,0x00A167,OUT,RỒI!,translated in Step 20,[42]
+boss,BOSS_43,43,0x00A171,THE OTHERS LOOKED TOUGHER,BỌN KIA MẠNH HƠN,translated in Step 20,[43]
+boss,BOSS_44,44,0x00A190,"THAN YOU, JERK","NGƯƠI, ĐỒ NGỐC!",translated in Step 20,[44]
+boss,BOSS_45,45,0x00A1A5,I'M GONNA SHOVE THOSE WORDS,TA SẼ NHỒI MẤY CÂU NÓI,translated in Step 20,[45]
+boss,BOSS_46,46,0x00A1C6,DOWN YOUR THROAT,XUỐNG HỌNG NGƯƠI!,translated in Step 20,[46]
+boss,BOSS_47,47,0x00A1DD,JESSICA HAS ALREADY BEEN,JESSICA ĐÃ BỊ ĐƯA,translated in Step 20,[47]
+boss,BOSS_48,48,0x00A1FB,TAKEN TO OUR SECRET HIDEOUT.,TỚI SÀO HUYỆT BÍ MẬT BỌN TA,translated in Step 20,[48]
+boss,BOSS_49,49,0x00A21D,MY BROTHER'S DEFEAT WILL BE,TA SẼ TRẢ MỐI HẬN CHO,translated in Step 20,[49]
+boss,BOSS_50,50,0x00A23E,AVENGED,ANH TA!,translated in Step 20,[50]
+boss,BOSS_51,51,0x00A24C,YOU LOOK A LITTLE RUN DOWN.,TRÔNG NGƯƠI CÓ VẺ MỆT.,translated in Step 20,[51]
+boss,BOSS_52,52,0x00A26D,"HERE, HAVE SOME WATER.","NÀY, UỐNG NƯỚC ĐI.",translated in Step 20,[52]
+boss,BOSS_53,53,0x00A289,I FEEL REFRESHED AND,TA THẤY KHỎE RA,translated in Step 20,[53]
+boss,BOSS_54,54,0x00A2A3,STRENGTHENED.,VÀ RẤT MẠNH.,translated in Step 20,[54]
+boss,BOSS_55,55,0x00A2B7,YOU DARE TO REFUSE MY GIFT,NGƯƠI DÁM CHÊ QUÀ TA!,translated in Step 20,[55]
+boss,BOSS_56,56,0x00A2D8,YOU HAVE INSULTED ME AND,NGƯƠI ĐÃ XÚC PHẠM TA,translated in Step 20,[56]
+boss,BOSS_57,57,0x00A2F6,FOR THAT YOU MUST BE,VÌ THẾ NGƯƠI PHẢI,translated in Step 20,[57]
+boss,BOSS_58,58,0x00A310,DESTROYED.,TIÊU DIỆT!,translated in Step 20,[58]
+boss,BOSS_59,59,0x00A320,READY,SẴN RỒI,translated in Step 20,[59]
+boss,BOSS_60,60,0x00A32D,FINAL VICTORY WILL BE MINE,TRẬN CUỐI TA SẼ THẮNG!,translated in Step 20,[60]
+boss,BOSS_61,61,0x00A34E,I LOVE JESSICA. GIVE HER TO,TA YÊU JESSICA. GIAO NÀNG,translated in Step 20,[61]
+boss,BOSS_62,62,0x00A36F,ME,TA!,translated in Step 20,[62]
+boss,BOSS_63,63,0x00A378,YOU'RE THE BOSS,NGƯƠI LÀ TRÙM À?,translated in Step 20,[63]
+boss,BOSS_64,64,0x00A38E,HA! I'VE FINALLY FOUND YOU.,HA! TA TÌM THẤY NGƯƠI RỒI!,translated in Step 20,[64]
+boss,BOSS_65,65,0x00A3AF,"RELEASE MY DAUGHTER, YOU",THẢ CON GÁI TA RA,translated in Step 20,[65]
+boss,BOSS_66,66,0x00A3CD,WORTHLESS BALL OF POND SCUM,ĐỒ HẠ TIỆN!,translated in Step 20,[66]
+boss,BOSS_67,67,0x00A3EF,RELAX. JESSICA IS MY SPECIAL,BÌNH TĨNH. JESSICA LÀ KHÁCH,translated in Step 20,[67]
+boss,BOSS_68,68,0x00A411,GUEST.,QUÝ.,translated in Step 20,[68]
+boss,BOSS_69,69,0x00A41D,SHE IS IN THE NEXT ROOM.,NÀNG TRONG PHÒNG KẾ BÊN.,translated in Step 20,[69]
+boss,BOSS_70,70,0x00A43B,JESSICA AND I ARE SCHEDULED,TA VÀ JESSICA SẼ,translated in Step 20,[70]
+boss,BOSS_71,71,0x00A45C,TO BE MARRIED TOMORROW,CƯỚI NHAU NGÀY MAI,translated in Step 20,[71]
+boss,BOSS_72,72,0x00A479,HA HA HA,HA HA HA!,translated in Step 20,[72]
+boss,BOSS_73,73,0x00A488,LET US BEGIN OUR,HÃY BẮT ĐẦU,translated in Step 20,[73]
+boss,BOSS_74,74,0x00A49E,FINAL FIGHT,TRẬN CUỐI!,translated in Step 20,[74]
+boss,BOSS_75,75,0x00A4B0,YOU'RE NO MATCH FOR ME,NGƯƠI CHẲNG ĐỊCH NỔI TA,translated in Step 20,[75]
+boss,BOSS_76,76,0x00A4CD,READY,SẴN RỒI,translated in Step 20,[76]
+boss,BOSS_77,77,0x00A4DA,YOUR JOURNEY ENDS HERE,"TỚI ĐÂY LÀ HẾT, NGƯƠI!",translated in Step 20,[77]
+credits,CREDIT_00,0,0x0127F0,STAFF,    NHÂN VIÊN,translated in Step 20,
+credits,CREDIT_01,1,0x012801,PLANNER K.O PROGRAMMER CHIPS EACUM NIWANO OBJECT DESIGNER ARASHI.KAI TSUBO PI ZENDEN,"LẬP KẾ HOẠCH
+K.O
+LẬP TRÌNH
+CHIPS, EACUM, NIWANO
+THIẾT KẾ VẬT THỂ
+ARASHI.KAI
+TSUBO PI
+ZENDEN",translated in Step 20,
+credits,CREDIT_02,2,0x01288D,SCROLL DESIGNER YUKI LINDA RYUGO ARNIE MAMIMU,"THIẾT KẾ CUỘN
+YUKI, LINDA
+RYUGO, ARNIE
+MAMIMU",translated in Step 20,
+credits,CREDIT_03,3,0x0128DB,SOUND COMPOSE SETSUO YUKO SPECIAL THANKS MANASHI USHI BLACK.I PROFESSOR.K AND CAPCOM ALL STAFF,"NHẠC
+SETSUO, YUKO
+CẢM ƠN ĐẶC BIỆT
+MANASHI, USHI
+BLACK.I
+PROFESSOR.K
+VÀ TOÀN THỂ NHÂN VIÊN
+CAPCOM",translated in Step 20,
+credits,CREDIT_04,4,0x01296C,THANK YOU FOR YOUR PLAYING PRESENTED BY CAPCOM,"CẢM ƠN
+BẠN ĐÃ CHƠI
+TRÌNH BÀY
+CAPCOM",translated in Step 20,

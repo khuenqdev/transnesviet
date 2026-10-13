@@ -1,0 +1,8 @@
+id,file_offset,slot_capacity,scope,emulator_status
+OPEN_00,0x001B4A,250,Translated in Step 17 and retained,User confirmed correct glyphs and no transition issue
+OPEN_01,0x001C44,88,Vietnamese translation added in Step 18,Pending user test
+OPEN_02,0x001C9C,23,Vietnamese translation added in Step 18,Pending user test
+OPEN_03,0x001CB3,139,Vietnamese translation added in Step 18,Pending user test
+OPEN_04,0x001D3E,46,Vietnamese translation added in Step 18,Pending user test
+OPEN_05,0x001D6C,171,Vietnamese translation added in Step 18,Pending user test
+OPEN_06,0x001E17,198,Vietnamese translation added in Step 18,Pending user test

@@ -1,0 +1,15 @@
+{
+  "source": "Mighty Final Fight (USA).nes",
+  "patch": "Mighty_Final_Fight_Vietnamese_FULL_TRANSLATION_STEP20.ips",
+  "expected": "Mighty_Final_Fight_Vietnamese_FULL_TRANSLATION_STEP20.nes",
+  "source_sha256": "5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26",
+  "patch_sha256": "2778df5a7eabad3ca66d32b2a9fc6e41f1b0b7a825daa8c174e43dbdc6b135b5",
+  "expected_sha256": "03d2d05e2303e2b41a5213b248bdd3d20cfa478a8e473dd00734d42882e6bcbc",
+  "rebuilt_sha256": "03d2d05e2303e2b41a5213b248bdd3d20cfa478a8e473dd00734d42882e6bcbc",
+  "record_count": 137,
+  "truncate_size": null,
+  "source_size": 262160,
+  "expected_size": 278544,
+  "rebuilt_size": 278544,
+  "round_trip_exact": true
+}

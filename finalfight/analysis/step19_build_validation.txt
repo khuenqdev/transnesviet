@@ -1,0 +1,23 @@
+STEP 19 STATIC VALIDATION
+Clean source SHA-256: 5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26
+Step 18 base SHA-256: ec348dbc1d3e96d618c5e2f510340d31eab8c92483c890b4148d3abe949bf1e8
+Output SHA-256: 0b332d25e7444430dd48a09e45f6a8b9679ff1318d5375195d498aed53f021e6
+Output size: 278544 bytes
+Combined IPS: 18399 bytes; records=21
+Exact clean-source IPS round trip: True
+Records translated: 7
+Metadata prefixes preserved: YES
+Terminator positions preserved: YES
+Text pointers changed: NO
+Unexpected byte changes outside target payloads vs Step 18: NONE
+Codes >= 0x80 in this batch: NONE
+FCEUX boss-context R0 bank: NOT YET OBSERVED
+FCEUX test: NOT RUN by builder; user test required.
+
+BOSS_00/01: 22/23 content bytes; indexes=0,1; PASS
+BOSS_02: 18/19 content bytes; indexes=2; PASS
+BOSS_03: 16/19 content bytes; indexes=3; PASS
+BOSS_04/05: 21/25 content bytes; indexes=4,5; PASS
+BOSS_06: 8/9 content bytes; indexes=6; PASS
+BOSS_07: 18/19 content bytes; indexes=7; PASS
+BOSS_08: 9/9 content bytes; indexes=8; PASS

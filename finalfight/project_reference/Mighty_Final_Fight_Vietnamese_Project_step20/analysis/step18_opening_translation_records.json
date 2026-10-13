@@ -1,0 +1,152 @@
+[
+  {
+    "id": "OPEN_01",
+    "file_offset": "0x001C44",
+    "slot_capacity": 88,
+    "source_english": "I CAN'T BELIEVE THAT I'VE ACTUALLY FALLEN IN LOVE WITH THE GIRL. SHE WILL BE MINE.....",
+    "vietnamese_lines": [
+      "TA KHÔNG NGỜ MÌNH",
+      "ĐÃ YÊU CÔ ẤY.",
+      "CÔ ẤY SẼ THUỘC",
+      "VỀ TA....."
+    ],
+    "vietnamese_text": "TA KHÔNG NGỜ MÌNH ĐÃ YÊU CÔ ẤY. CÔ ẤY SẼ THUỘC VỀ TA.....",
+    "note": "Villain internal monologue; condensed to fit the original fixed-size record.",
+    "encoded_bytes": 58,
+    "capacity": 88,
+    "remaining_bytes": 30,
+    "line_count": 4,
+    "max_line_cells": 17,
+    "used_high_codes": [
+      "0x80"
+    ],
+    "uses_extended_chars": true
+  },
+  {
+    "id": "OPEN_02",
+    "file_offset": "0x001C9C",
+    "slot_capacity": 23,
+    "source_english": "A COUPLE DAYS LATER...",
+    "vietnamese_lines": [
+      "VÀI NGÀY SAU..."
+    ],
+    "vietnamese_text": "VÀI NGÀY SAU...",
+    "note": "Short transition caption.",
+    "encoded_bytes": 16,
+    "capacity": 23,
+    "remaining_bytes": 7,
+    "line_count": 1,
+    "max_line_cells": 15,
+    "used_high_codes": [],
+    "uses_extended_chars": false
+  },
+  {
+    "id": "OPEN_03",
+    "file_offset": "0x001CB3",
+    "slot_capacity": 139,
+    "source_english": "WHAT?! JESSICA... KIDNAPPED...?! WHAT HAVE YOU DONE TO HER, CODY? ME?! THIS IS THE WORK OF THE MAD GEAR GANG. WHAT DO YOU THINK, GUY?",
+    "vietnamese_lines": [
+      "CÁI GÌ?! JESSICA...",
+      "BỊ BẮT CÓC SAO?!",
+      "CẬU ĐÃ LÀM GÌ",
+      "VỚI CÔ ẤY, CODY?",
+      "TÔI Á?!",
+      "CHUYỆN NÀY DO",
+      "BĂNG MAD GEAR",
+      "GÂY RA. CẬU NGHĨ",
+      "SAO, GUY?"
+    ],
+    "vietnamese_text": "CÁI GÌ?! JESSICA... BỊ BẮT CÓC SAO?! CẬU ĐÃ LÀM GÌ VỚI CÔ ẤY, CODY? TÔI Á?! CHUYỆN NÀY DO BĂNG MAD GEAR GÂY RA. CẬU NGHĨ SAO, GUY?",
+    "note": "Dialogue shortened while preserving the main accusations and question.",
+    "encoded_bytes": 131,
+    "capacity": 139,
+    "remaining_bytes": 8,
+    "line_count": 9,
+    "max_line_cells": 19,
+    "used_high_codes": [],
+    "uses_extended_chars": false
+  },
+  {
+    "id": "OPEN_04",
+    "file_offset": "0x001D3E",
+    "slot_capacity": 46,
+    "source_english": "YES. THERE'S NOT A MOMENT TO SPARE. LET'S GO!",
+    "vietnamese_lines": [
+      "ĐÚNG. KHÔNG CÒN",
+      "THỜI GIAN ĐÂU.",
+      "ĐI THÔI!"
+    ],
+    "vietnamese_text": "ĐÚNG. KHÔNG CÒN THỜI GIAN ĐÂU. ĐI THÔI!",
+    "note": "Short urgent response.",
+    "encoded_bytes": 40,
+    "capacity": 46,
+    "remaining_bytes": 6,
+    "line_count": 3,
+    "max_line_cells": 15,
+    "used_high_codes": [
+      "0x80"
+    ],
+    "uses_extended_chars": true
+  },
+  {
+    "id": "OPEN_05",
+    "file_offset": "0x001D6C",
+    "slot_capacity": 171,
+    "source_english": "DAD, IT'S ABOUT TIME YOU GOT HERE. SORRY PRINCESS, BUT I NEEDED TO TAKE OUT THE TRASH. DAD, WHERE'S CODY? CODY? I LOST SIGHT OF HIM ON THE WAY HERE. OH, WAY TO GO DAD!",
+    "vietnamese_lines": [
+      "BỐ, CUỐI CÙNG",
+      "BỐ CŨNG ĐẾN RỒI.",
+      "XIN LỖI CÔNG CHÚA,",
+      "NHƯNG BỐ PHẢI",
+      "DỌN ĐÁM RÁC.",
+      "BỐ, CODY ĐÂU RỒI?",
+      "CODY SAO? BỐ MẤT",
+      "DẤU CẬU ẤY TRÊN",
+      "ĐƯỜNG ĐẾN ĐÂY.",
+      "Ồ, HAY LẮM, BỐ!"
+    ],
+    "vietnamese_text": "BỐ, CUỐI CÙNG BỐ CŨNG ĐẾN RỒI. XIN LỖI CÔNG CHÚA, NHƯNG BỐ PHẢI DỌN ĐÁM RÁC. BỐ, CODY ĐÂU RỒI? CODY SAO? BỐ MẤT DẤU CẬU ẤY TRÊN ĐƯỜNG ĐẾN ĐÂY. Ồ, HAY LẮM, BỐ!",
+    "note": "Keeps the father/daughter exchange and the joke about taking out the trash.",
+    "encoded_bytes": 159,
+    "capacity": 171,
+    "remaining_bytes": 12,
+    "line_count": 10,
+    "max_line_cells": 18,
+    "used_high_codes": [
+      "0x80"
+    ],
+    "uses_extended_chars": true
+  },
+  {
+    "id": "OPEN_06",
+    "file_offset": "0x001E17",
+    "slot_capacity": 198,
+    "source_english": "LET GO OF ME, GUY! WITHOUT MY HELP, SHE WOULD BE... CONTROL YOURSELF. LET THE MAYOR AND JESSICA TALK. FOR ONCE IN YOUR LIFE, THINK OF SOMEONE ELSE BESIDES YOURSELF. LET GO OF ME!",
+    "vietnamese_lines": [
+      "BUÔNG TÔI RA, GUY!",
+      "KHÔNG CÓ TÔI GIÚP,",
+      "CÔ ẤY SẼ...",
+      "BÌNH TĨNH LẠI!",
+      "ĐỂ THỊ TRƯỞNG VÀ",
+      "JESSICA NÓI CHUYỆN.",
+      "ÍT NHẤT MỘT LẦN",
+      "TRONG ĐỜI, HÃY NGHĨ",
+      "CHO NGƯỜI KHÁC,",
+      "ĐỪNG CHỈ LO MÌNH.",
+      "BUÔNG TÔI RA!"
+    ],
+    "vietnamese_text": "BUÔNG TÔI RA, GUY! KHÔNG CÓ TÔI GIÚP, CÔ ẤY SẼ... BÌNH TĨNH LẠI! ĐỂ THỊ TRƯỞNG VÀ JESSICA NÓI CHUYỆN. ÍT NHẤT MỘT LẦN TRONG ĐỜI, HÃY NGHĨ CHO NGƯỜI KHÁC, ĐỪNG CHỈ LO MÌNH. BUÔNG TÔI RA!",
+    "note": "Condenses the admonition while preserving its meaning and urgency.",
+    "encoded_bytes": 186,
+    "capacity": 198,
+    "remaining_bytes": 12,
+    "line_count": 11,
+    "max_line_cells": 19,
+    "used_high_codes": [
+      "0x80",
+      "0x81",
+      "0x87"
+    ],
+    "uses_extended_chars": true
+  }
+]

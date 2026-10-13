@@ -192,7 +192,8 @@ function buildCodes(usedText = '') {
   // precomposed single-cell glyphs and EN tiles used raw in bank B strings keep code == tile
   for (const [name, t] of Object.entries(T)) if (/^.1$/u.test(name) && !used.has(t)) { pair[t] = [t, SPACE]; used.add(t); }
   // first Doraemon art tile is used raw in a layout script (must be < $E0)
-  if (X.dora) { const t = X.dora[0]; pair[t] = [t, SPACE]; used.add(t); }
+  // (the 6th tile is the trailing layout byte of the Doraemon menu row, also raw)
+  if (X.dora) for (const i of [0, 5]) { const t = X.dora[i]; pair[t] = [t, SPACE]; used.add(t); }
   for (let t = 0x16; t <= 0x1F; t++) { pair[t] = [t, SPACE]; used.add(t); }
   for (let t = 0x90; t <= 0x9F; t++) if (t < 0x96 || t > 0x99) { pair[t] = [t, SPACE]; used.add(t); }
   const free = []; for (let c = 0; c < 0xDF; c++) if (!used.has(c)) free.push(c);
@@ -211,7 +212,7 @@ function buildCodes(usedText = '') {
   // codes >= $E0: identity by default; extra tiles for bank-B strings only
   for (let k = 0xDF; k < 0x100; k++) pair[k] = [k, SPACE];
   let xc = 0xE0; const xcode = {};
-  for (const [name, tiles] of Object.entries(X)) xcode[name] = tiles.map((t, i) => { if (name === 'dora' && i === 0) return t; if (xc > 0xFE) throw new Error('out of extra codes'); pair[xc] = [t, SPACE]; return xc++; });
+  for (const [name, tiles] of Object.entries(X)) xcode[name] = tiles.map((t, i) => { if (name === 'dora' && (i === 0 || i === 5)) return t; if (xc > 0xFE) throw new Error('out of extra codes'); pair[xc] = [t, SPACE]; return xc++; });
   return { code, pair, dropped, freeLeft: free.length, xcode };
 }
 

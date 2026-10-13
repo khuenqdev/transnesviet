@@ -1,0 +1,7 @@
+AI ROM TRANSLATION SKILL TOOL SMOKE TESTS
+All scripts passed Python bytecode compilation.
+NES preflight on the case-study clean ROM: valid_header=True; format=NES 2.0; mapper=4; size_matches_header=True.
+Catalog validator on Step 20 catalog: status=PASS; rows=90; errors=0; warnings=0.
+IPS round trip: exact=True; records=137; source_size=262160; rebuilt_size=278544.
+Step 20 output preflight: valid_header=True; format=NES 2.0; mapper=4; size_matches_header=True.
+These are static file/tool tests, not proof of a full emulator playthrough.

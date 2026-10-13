@@ -1,0 +1,31 @@
+{
+  "project_name": "REPLACE_WITH_PROJECT_NAME",
+  "source_rom_filename": "REPLACE_WITH_CLEAN_SOURCE_FILENAME.nes",
+  "source_sha256": "REPLACE_WITH_SHA256",
+  "source_size_bytes": null,
+  "header_format": "NES 2.0 OR iNES 1.0 - VERIFY",
+  "mapper": null,
+  "submapper": null,
+  "prg_size_bytes": null,
+  "chr_size_bytes": null,
+  "trainer_present": null,
+  "mirroring": "VERIFY",
+  "output_rom_filename": "REPLACE_WITH_OUTPUT.nes",
+  "output_sha256": null,
+  "patch_filename": "REPLACE_WITH_PATCH.ips",
+  "patch_sha256": null,
+  "indexed_text_coverage": {
+    "opening_records": null,
+    "dialogue_index_rows": null,
+    "credits_records": null,
+    "unique_physical_slots": null
+  },
+  "status": {
+    "static_validation": "NOT_TESTED",
+    "ips_round_trip": "NOT_TESTED",
+    "emulator_smoke_test": "NOT_TESTED",
+    "full_playthrough": "NOT_TESTED"
+  },
+  "coverage_limitations": [],
+  "notes": []
+}

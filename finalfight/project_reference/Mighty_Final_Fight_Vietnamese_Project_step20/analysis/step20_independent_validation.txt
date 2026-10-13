@@ -1,0 +1,23 @@
+STEP 20 INDEPENDENT VALIDATION
+Status: PASS
+clean_source_sha256: "5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26"
+clean_source_hash_matches: true
+final_rom_sha256: "03d2d05e2303e2b41a5213b248bdd3d20cfa478a8e473dd00734d42882e6bcbc"
+final_rom_hash_matches: true
+ips_sha256: "2778df5a7eabad3ca66d32b2a9fc6e41f1b0b7a825daa8c174e43dbdc6b135b5"
+ips_hash_matches: true
+clean_source_size: 262160
+final_rom_size: 278544
+rom_size_matches_expected: true
+ips_round_trip_matches_rom: true
+ips_record_count: 137
+ips_records_nonempty: true
+catalog_rows: 90
+catalog_group_counts: {"opening": 7, "boss": 78, "credits": 5}
+catalog_90_index_rows: true
+catalog_has_no_empty_vietnamese_text: true
+step19_base_sha256: "0b332d25e7444430dd48a09e45f6a8b9679ff1318d5375195d498aed53f021e6"
+step19_base_hash_matches: true
+grunt_animation_preservation: {"9": {"prefix_preserved": true, "localized_bytes": true, "punctuation_and_animation_preserved": true}, "10": {"prefix_preserved": true, "localized_bytes": true, "punctuation_and_animation_preserved": true}}
+both_grunt_tails_preserved: true
+all_checks_passed: true

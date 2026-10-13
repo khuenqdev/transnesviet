@@ -1,0 +1,18 @@
+{
+  "catalog": "step20_full_translation_catalog.tsv",
+  "delimiter": "tab",
+  "rows": 90,
+  "columns": [
+    "group",
+    "id",
+    "index",
+    "file_offset",
+    "english",
+    "vietnamese",
+    "status",
+    "shared_pointer_indexes"
+  ],
+  "errors": [],
+  "warnings": [],
+  "status": "PASS"
+}

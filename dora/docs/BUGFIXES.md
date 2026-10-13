@@ -27,3 +27,9 @@ Reported: (1) choices flip between English YES/NO and Có/Không; (2) the cat in
 
 ## Re-running the checks
 `node tools/test/lookup3.mjs "<rom>"`, `lookup2.mjs "<rom>" vn`, `lookup4.mjs "<rom>" vn` (needs jsnes cloned next to the repo: `git clone https://github.com/bfirsh/jsnes ../vendor/jsnes`; SUROM support is added inside `tools/test/lib.mjs`).
+
+## Fix 4 – "Doraemon" menu item left alignment
+* Every menu row is laid out as `[20 20] E0 <word> [20]`: two prefix spaces, a 5-cell word slot and one trailing space. The Doraemon logo is 6 tiles wide; the old build put tile 1 into the second prefix byte (`$802A`), so the logo started one cell left of the other items.
+* Now both prefix bytes are spaces, tiles 1-5 are in the word slot and tile 6 is in the trailing layout byte (`$802D`, a raw code < `$E0`; `vn.js` keeps tiles 0 and 5 of the logo as identity codes). The logo starts in the same column as *Nói / Tìm / Đồ / Tr.bị*; it now ends right at the window border (6 cells is the whole interior width).
+* Only that menu row changes (pixel diff vs. v2: area x 32-88, y 80-87).
+* Known cosmetic leftover (unchanged): when the Doraemon sub-menu opens on top of the main menu, the accent row of the main menu's *Nói* can show above the sub-menu title.

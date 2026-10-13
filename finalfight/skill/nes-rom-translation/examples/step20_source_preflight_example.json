@@ -1,0 +1,31 @@
+{
+  "path": "Mighty Final Fight (USA).nes",
+  "filename": "Mighty Final Fight (USA).nes",
+  "file_size": 262160,
+  "sha256": "5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26",
+  "md5": "a8ad5d885a3e4e70ac083f4589374df8",
+  "crc32_file": "84C1E146",
+  "valid_header": true,
+  "header_hex": "4E 45 53 1A 08 10 40 08 00 00 00 00 00 00 00 01",
+  "header_format": "NES 2.0",
+  "mapper": 4,
+  "submapper": 0,
+  "prg_bytes": 131072,
+  "chr_bytes": 131072,
+  "prg_16k_banks": 8,
+  "chr_8k_banks": 16,
+  "trainer_present": false,
+  "trainer_bytes": 0,
+  "mirroring": "horizontal",
+  "battery_backed": false,
+  "console_type_bits": 0,
+  "prg_start_file_offset": 16,
+  "chr_start_file_offset": 131088,
+  "expected_file_size_from_header": 262160,
+  "size_matches_header": true,
+  "trailing_or_missing_bytes": 0,
+  "chr_ram_likely": false,
+  "notes": [
+    "This is a header-level preflight, not proof that the ROM's mapper implementation or game code is understood."
+  ]
+}

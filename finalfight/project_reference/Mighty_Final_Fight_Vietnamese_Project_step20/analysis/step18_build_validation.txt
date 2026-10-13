@@ -1,0 +1,17 @@
+STEP 18 STATIC VALIDATION
+Clean source SHA-256: 5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26
+Step 17 base SHA-256: 81697646dc6084fd7277431ebc757aee657d123d5e55ee92fece98e96849ed6b
+Output SHA-256: ec348dbc1d3e96d618c5e2f510340d31eab8c92483c890b4148d3abe949bf1e8
+Input/output bytes: 262160 -> 278544
+Combined IPS: 18234 bytes, 14 records
+Exact IPS round-trip: True
+Opening records added: 6
+OPEN_01: encoded 58 / 88 bytes; max line 17/19 cells; PASS
+OPEN_02: encoded 16 / 23 bytes; max line 15/19 cells; PASS
+OPEN_03: encoded 131 / 139 bytes; max line 19/19 cells; PASS
+OPEN_04: encoded 40 / 46 bytes; max line 15/19 cells; PASS
+OPEN_05: encoded 159 / 171 bytes; max line 18/19 cells; PASS
+OPEN_06: encoded 186 / 198 bytes; max line 19/19 cells; PASS
+Text pointers changed: NO
+Diff outside the six added text slots relative to Step 17: NONE
+FCEUX test: NOT RUN by builder; user test required.

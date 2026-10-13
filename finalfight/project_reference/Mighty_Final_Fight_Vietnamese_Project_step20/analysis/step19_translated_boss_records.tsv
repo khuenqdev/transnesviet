@@ -1,0 +1,8 @@
+id	indexes	file_offset	text_offset	record_length	metadata_hex	body_capacity_including_ff	content_limit	encoded_text_bytes	remaining_content_bytes	english	vietnamese	encoded_hex	note
+BOSS_00/01	0,1	0x009D81	0x009D86	29	3500020202	24	23	22	1	HEH HEH. I AM THRASHER,	HA HA! TA LÀ THRASHER,	17 10 00 17 10 76 00 23 10 00 1B 30 00 23 17 21 10 22 17 14 21 2C	Shared pointer used by both BOSS_00 and BOSS_01.
+BOSS_02	2	0x009D9E	0x009DA3	25	3500030303	20	19	18	1	RULER OF THIS CITY.	CHÚA TỂ THÀNH PHỐ.	12 17 3E 10 00 23 57 00 23 17 30 1D 17 00 1F 17 5E 2B	Shortened to fit the fixed record slot.
+BOSS_03	3	0x009DB7	0x009DBC	25	35020B0980	20	19	16	3	BOW DOWN BEFORE ME	CÚI ĐẦU MAU LÊN!	12 3E 18 00 41 49 24 00 1C 10 24 00 1B 36 1D 76	Imperative preserved; wording adapted to fit without the unverified Ớ byte.
+BOSS_04/05	4,5	0x009DD0	0x009DD5	31	3500060606	26	25	21	4	DON'T YOU KNOW I RULE THE	BIẾT CHƯA? TA CAI TRỊ	11 18 55 23 00 12 17 45 10 75 00 23 10 00 12 10 18 00 23 21 5B	Shared pointer used by both BOSS_04 and BOSS_05; completed by BOSS_06.
+BOSS_06	6	0x009DEF	0x009DF4	15	35020B0A80	10	9	8	1	STREETS	PHỐ NÀY!	1F 17 5E 00 1D 30 28 76	Completes the preceding statement: “Biết chưa? Ta cai trị phố này!”
+BOSS_07	7	0x009DFE	0x009E03	25	3500080808	20	19	18	1	THOSE WHO OFFEND ME	KẺ NÀO XÚC PHẠM TA	1A 53 00 1D 30 1E 00 27 3E 12 00 1F 17 46 1C 00 23 10	Threat phrasing kept concise for the original slot.
+BOSS_08	8	0x009E17	0x009E1C	15	3500000000	10	9	9	0	MUST DIE	ĐỀU CHẾT!	41 56 24 00 12 17 55 23 76	Continues the preceding threat: “Kẻ nào xúc phạm ta đều chết!”

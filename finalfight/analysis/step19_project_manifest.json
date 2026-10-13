@@ -1,0 +1,20 @@
+{
+  "step": 19,
+  "project": "Mighty Final Fight Vietnamese Translation",
+  "scope": "First Thrasher boss-dialogue pilot",
+  "clean_source_rom_included": false,
+  "diagnostic_rom_delivered_separately": true,
+  "combined_ips_included": true,
+  "base_patch": "analysis/step18_base_combined.ips",
+  "builder": "tools/build_boss_dialogue_pilot_step19.py",
+  "fceux_trace_tool": "tools/trace_boss_dialogue_chr_step19.lua",
+  "records_translated": ["BOSS_00/01", "BOSS_02", "BOSS_03", "BOSS_04/05", "BOSS_06", "BOSS_07", "BOSS_08"],
+  "count_unique_payloads": 7,
+  "count_pointer_indexes_covered": 9,
+  "metadata_prefixes_preserved": true,
+  "terminator_positions_preserved": true,
+  "pointers_modified": false,
+  "extended_text_bytes_used": false,
+  "static_validation": "pass",
+  "fceux_runtime_test": "pending user verification"
+}

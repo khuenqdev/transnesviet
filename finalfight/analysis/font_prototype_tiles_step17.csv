@@ -1,0 +1,68 @@
+glyph,unicode,text_byte,runtime_ppu_tile,active_mmc3_register,physical_chr_tile_if_r1_62,file_offset_if_r1_62,physical_chr_tile_if_r1_56,file_offset_if_r1_56,runtime_bank_route,tile_bytes_hex,mapping_note
+À,U+00C0,0x30,0x30,R0,0x1E30,0x03E310,,,,20107CC6C6FEC6C60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Á,U+00C1,0x31,0x31,R0,0x1E31,0x03E320,,,,04087CC6C6FEC6C60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Â,U+00C2,0x32,0x32,R0,0x1E32,0x03E330,,,,10287CC6C6FEC6C60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ã,U+00C3,0x33,0x33,R0,0x1E33,0x03E340,,,,28107CC6C6FEC6C60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+È,U+00C8,0x34,0x34,R0,0x1E34,0x03E350,,,,2010FEC0FCC0C0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ê,U+00CA,0x36,0x36,R0,0x1E36,0x03E370,,,,1028FEC0FCC0C0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ì,U+00CC,0x37,0x37,R0,0x1E37,0x03E380,,,,20103030303030300000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Í,U+00CD,0x38,0x38,R0,0x1E38,0x03E390,,,,04083030303030300000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ò,U+00D2,0x39,0x39,R0,0x1E39,0x03E3A0,,,,20107CC6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ó,U+00D3,0x3A,0x3A,R0,0x1E3A,0x03E3B0,,,,04087CC6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ô,U+00D4,0x3B,0x3B,R0,0x1E3B,0x03E3C0,,,,10287CC6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Õ,U+00D5,0x3C,0x3C,R0,0x1E3C,0x03E3D0,,,,28107CC6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ù,U+00D9,0x3D,0x3D,R0,0x1E3D,0x03E3E0,,,,2010C6C6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ú,U+00DA,0x3E,0x3E,R0,0x1E3E,0x03E3F0,,,,0408C6C6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ý,U+00DD,0x3F,0x3F,R0,0x1E3F,0x03E400,,,,0408CCCC783030300000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ă,U+0102,0x40,0x40,R0,0x1E40,0x03E410,,,,00387CC6C6FEC6C60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Đ,U+0110,0x41,0x41,R0,0x1E41,0x03E420,,,,00FCC6C6FFC6C6FC0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ĩ,U+0128,0x42,0x42,R0,0x1E42,0x03E430,,,,28103030303030300000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ũ,U+0168,0x43,0x43,R0,0x1E43,0x03E440,,,,2810C6C6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ơ,U+01A0,0x44,0x44,R0,0x1E44,0x03E450,,,,00007EC7C7C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ư,U+01AF,0x45,0x45,R0,0x1E45,0x03E460,,,,0000C6C7C7C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ạ,U+1EA0,0x46,0x46,R0,0x1E46,0x03E470,,,,007CC6C6FEC6C6180000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ả,U+1EA2,0x47,0x47,R0,0x1E47,0x03E480,,,,080C7CC6C6FEC6C60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ấ,U+1EA4,0x48,0x48,R0,0x1E48,0x03E490,,,,0214287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ầ,U+1EA6,0x49,0x49,R0,0x1E49,0x03E4A0,,,,4090287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ẩ,U+1EA8,0x4A,0x4A,R0,0x1E4A,0x03E4B0,,,,0213287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ẫ,U+1EAA,0x4B,0x4B,R0,0x1E4B,0x03E4C0,,,,5090287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ậ,U+1EAC,0x4C,0x4C,R0,0x1E4C,0x03E4D0,,,,10287CC6C6FEC6180000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ắ,U+1EAE,0x4D,0x4D,R0,0x1E4D,0x03E4E0,,,,0214287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ằ,U+1EB0,0x4E,0x4E,R0,0x1E4E,0x03E4F0,,,,4090287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ẳ,U+1EB2,0x4F,0x4F,R0,0x1E4F,0x03E500,,,,0213287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ẵ,U+1EB4,0x50,0x50,R0,0x1E50,0x03E510,,,,5090287CC6C6FEC60000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ặ,U+1EB6,0x51,0x51,R0,0x1E51,0x03E520,,,,00387CC6C6FEC6180000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ẹ,U+1EB8,0x52,0x52,R0,0x1E52,0x03E530,,,,00FEC0FCC0C0FE180000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ẻ,U+1EBA,0x53,0x53,R0,0x1E53,0x03E540,,,,1030FEC0FCC0C0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ẽ,U+1EBC,0x54,0x54,R0,0x1E54,0x03E550,,,,2810FEC0FCC0C0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ế,U+1EBE,0x55,0x55,R0,0x1E55,0x03E560,,,,021428FEC0FCC0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ề,U+1EC0,0x56,0x56,R0,0x1E56,0x03E570,,,,409028FEC0FCC0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ể,U+1EC2,0x57,0x57,R0,0x1E57,0x03E580,,,,021328FEC0FCC0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ễ,U+1EC4,0x58,0x58,R0,0x1E58,0x03E590,,,,509028FEC0FCC0FE0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ệ,U+1EC6,0x59,0x59,R0,0x1E59,0x03E5A0,,,,1028FEC0FCC0FE180000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ỉ,U+1EC8,0x5A,0x5A,R0,0x1E5A,0x03E5B0,,,,10303030303030300000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ị,U+1ECA,0x5B,0x5B,R0,0x1E5B,0x03E5C0,,,,00303030303030300000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ọ,U+1ECC,0x5C,0x5C,R0,0x1E5C,0x03E5D0,,,,007CC6C6C6C67C180000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ỏ,U+1ECE,0x5D,0x5D,R0,0x1E5D,0x03E5E0,,,,10307CC6C6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ố,U+1ED0,0x5E,0x5E,R0,0x1E5E,0x03E5F0,,,,0214287CC6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ồ,U+1ED2,0x5F,0x5F,R0,0x1E5F,0x03E600,,,,48343C424242423C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ổ,U+1ED4,0x7C,0x7C,R0,0x1E7C,0x03E7D0,,,,0213287CC6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ỗ,U+1ED6,0x7D,0x7D,R0,0x1E7D,0x03E7E0,,,,5090287CC6C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ộ,U+1ED8,0x7E,0x7E,R0,0x1E7E,0x03E7F0,,,,10287CC6C6C67C180000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ớ,U+1EDA,0x7F,0x7F,R0,0x1E7F,0x03E800,,,,0204027DC7C6C67C0000000000000000,Source blank glyph slot; lives in original font bank $78/$79.
+Ờ,U+1EDC,0x80,0x80,R1,0x2000,0x040010,0x2200,0x042010,R1=$62->$80; R1=$56->$88,110B7C666666663C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ở,U+1EDE,0x81,0x81,R1,0x2001,0x040020,0x2201,0x042020,R1=$62->$80; R1=$56->$88,091B7C666666663C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ỡ,U+1EE0,0x82,0x82,R1,0x2002,0x040030,0x2202,0x042030,R1=$62->$80; R1=$56->$88,5080027DC7C6C67C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ợ,U+1EE2,0x83,0x83,R1,0x2003,0x040040,0x2203,0x042040,R1=$62->$80; R1=$56->$88,00007EC7C7C67C180000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ụ,U+1EE4,0x84,0x84,R1,0x2004,0x040050,0x2204,0x042050,R1=$62->$80; R1=$56->$88,00C6C6C6C6C67C180000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ủ,U+1EE6,0x85,0x85,R1,0x2005,0x040060,0x2205,0x042060,R1=$62->$80; R1=$56->$88,0818C6C6C6C6C67C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ứ,U+1EE8,0x86,0x86,R1,0x2006,0x040070,0x2206,0x042070,R1=$62->$80; R1=$56->$88,081167666666663C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ừ,U+1EEA,0x87,0x87,R1,0x2007,0x040080,0x2207,0x042080,R1=$62->$80; R1=$56->$88,408002C7C7C6C67C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ử,U+1EEC,0x88,0x88,R1,0x2008,0x040090,0x2208,0x042090,R1=$62->$80; R1=$56->$88,103002C7C7C6C67C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ữ,U+1EEE,0x89,0x89,R1,0x2009,0x0400A0,0x2209,0x0420A0,R1=$62->$80; R1=$56->$88,508002C7C7C6C67C0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ự,U+1EF0,0x8A,0x8A,R1,0x200A,0x0400B0,0x220A,0x0420B0,R1=$62->$80; R1=$56->$88,0000C6C7C7C67C180000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ỳ,U+1EF2,0x8B,0x8B,R1,0x200B,0x0400C0,0x220B,0x0420C0,R1=$62->$80; R1=$56->$88,2010CCCC783030300000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ỵ,U+1EF4,0x8C,0x8C,R1,0x200C,0x0400D0,0x220C,0x0420D0,R1=$62->$80; R1=$56->$88,00CCCC78303030180000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ỷ,U+1EF6,0x8D,0x8D,R1,0x200D,0x0400E0,0x220D,0x0420E0,R1=$62->$80; R1=$56->$88,080CCCCC783030300000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+Ỹ,U+1EF8,0x8E,0x8E,R1,0x200E,0x0400F0,0x220E,0x0420F0,R1=$62->$80; R1=$56->$88,2810CCCC783030300000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.
+É,U+00C9,0x8F,0x8F,R1,0x200F,0x040100,0x220F,0x042100,R1=$62->$80; R1=$56->$88,0408FEC0FCC0C0FE0000000000000000,High-code bitmap copied into both active-context clones; helper preserves all original tile graphics except these 16 character slots.

@@ -1,0 +1,89 @@
+STEP 20 STATIC VALIDATION
+Clean source SHA-256: 5e70be9de1c0d272c456873216a568eb2377f5c211456c8f8330c601f3920b26
+Step 19 base SHA-256: 0b332d25e7444430dd48a09e45f6a8b9679ff1318d5375195d498aed53f021e6
+Final output SHA-256: 03d2d05e2303e2b41a5213b248bdd3d20cfa478a8e473dd00734d42882e6bcbc
+Output size: 278544 bytes
+Cumulative IPS size: 20208 bytes
+Cumulative IPS records: 137
+IPS exact round trip from clean source: True
+Boss/credits target slots changed: 72
+Pointer table unchanged: YES
+Metadata prefixes preserved: YES
+Fixed slot lengths preserved: YES
+High-byte 0x80-0x8F used in new boss/credit text: NO
+BOSS_09/BOSS_10 visible grunt letters localized; 0x76 punctuation and FB/FA/F9 animation bytes preserved: YES
+BOSS_54 trailing FC control preserved: YES
+FCEUX full-game pass: PENDING USER TEST
+
+BOSS_09: 8/8 bytes; PASS
+BOSS_10: 8/8 bytes; PASS
+BOSS_11: 11/14 bytes; PASS
+BOSS_12: 14/26 bytes; PASS
+BOSS_13: 8/9 bytes; PASS
+BOSS_14: 22/22 bytes; PASS
+BOSS_15: 25/28 bytes; PASS
+BOSS_16: 5/5 bytes; PASS
+BOSS_17: 19/24 bytes; PASS
+BOSS_18: 20/25 bytes; PASS
+BOSS_19: 7/11 bytes; PASS
+BOSS_20: 24/26 bytes; PASS
+BOSS_21: 10/10 bytes; PASS
+BOSS_22: 20/26 bytes; PASS
+BOSS_23: 8/8 bytes; PASS
+BOSS_24: 15/16 bytes; PASS
+BOSS_25: 18/24 bytes; PASS
+BOSS_26: 18/21 bytes; PASS
+BOSS_27: 16/20 bytes; PASS
+BOSS_28: 23/23 bytes; PASS
+BOSS_30: 18/21 bytes; PASS
+BOSS_31: 25/26 bytes; PASS
+BOSS_32: 14/15 bytes; PASS
+BOSS_33: 15/27 bytes; PASS
+BOSS_34: 12/14 bytes; PASS
+BOSS_35: 13/28 bytes; PASS
+BOSS_36: 14/17 bytes; PASS
+BOSS_37: 24/25 bytes; PASS
+BOSS_39: 21/24 bytes; PASS
+BOSS_40: 20/28 bytes; PASS
+BOSS_41: 21/26 bytes; PASS
+BOSS_42: 4/4 bytes; PASS
+BOSS_43: 16/25 bytes; PASS
+BOSS_44: 15/15 bytes; PASS
+BOSS_45: 22/27 bytes; PASS
+BOSS_46: 17/17 bytes; PASS
+BOSS_47: 17/24 bytes; PASS
+BOSS_48: 27/28 bytes; PASS
+BOSS_49: 21/27 bytes; PASS
+BOSS_50: 7/8 bytes; PASS
+BOSS_51: 22/27 bytes; PASS
+BOSS_52: 18/22 bytes; PASS
+BOSS_53: 15/20 bytes; PASS
+BOSS_54: 12/13 bytes; PASS
+BOSS_55: 21/27 bytes; PASS
+BOSS_56: 20/24 bytes; PASS
+BOSS_57: 17/20 bytes; PASS
+BOSS_58: 10/10 bytes; PASS
+BOSS_59: 7/7 bytes; PASS
+BOSS_60: 22/27 bytes; PASS
+BOSS_61: 25/27 bytes; PASS
+BOSS_62: 3/3 bytes; PASS
+BOSS_63: 16/16 bytes; PASS
+BOSS_64: 26/27 bytes; PASS
+BOSS_65: 17/24 bytes; PASS
+BOSS_66: 11/28 bytes; PASS
+BOSS_67: 27/28 bytes; PASS
+BOSS_68: 4/6 bytes; PASS
+BOSS_69: 24/24 bytes; PASS
+BOSS_70: 16/27 bytes; PASS
+BOSS_71: 18/23 bytes; PASS
+BOSS_72: 9/9 bytes; PASS
+BOSS_73: 11/16 bytes; PASS
+BOSS_74: 10/12 bytes; PASS
+BOSS_75: 23/23 bytes; PASS
+BOSS_76: 7/7 bytes; PASS
+BOSS_77: 22/23 bytes; PASS
+CREDIT_00: 13/16 bytes; PASS
+CREDIT_01: 91/139 bytes; PASS
+CREDIT_02: 45/77 bytes; PASS
+CREDIT_03: 96/144 bytes; PASS
+CREDIT_04: 35/63 bytes; PASS

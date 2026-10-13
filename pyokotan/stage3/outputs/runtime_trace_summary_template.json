@@ -1,0 +1,14 @@
+{
+  "schema_version": "1.0",
+  "source_file": "runtime_trace_capture_template.csv",
+  "events_total": 0,
+  "event_counts": {},
+  "text_region_reads": 0,
+  "text_region_addresses_most_read": [],
+  "text_region_values_read": [],
+  "mapper_writes": 0,
+  "mapper_write_samples": [],
+  "ppu_register_writes": 0,
+  "ppu_write_samples": [],
+  "interpretation_note": "This tool summarizes observed emulator activity only. A zero text-region read count does not prove the data is unused; the bank/address assumption may be wrong or the scene was not exercised."
+}

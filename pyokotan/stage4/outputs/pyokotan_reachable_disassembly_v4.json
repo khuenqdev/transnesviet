@@ -1,0 +1,5621 @@
+{
+  "schema_version": "1.0",
+  "rom": "pyokotan.nes",
+  "rom_sha1": "67fba2e82d78d512466d98bcc9fe11f8e229cb11",
+  "assumed_mapping": "bank 14 at $C000-$DFFF; bank 15 fixed at $E000-$FFFF",
+  "entry_seeds": [
+    {
+      "label": "reset_vector",
+      "cpu_address": "0xFFD0"
+    },
+    {
+      "label": "nmi_vector",
+      "cpu_address": "0xD88D"
+    },
+    {
+      "label": "irq_brk_vector",
+      "cpu_address": "0xD92A"
+    },
+    {
+      "label": "reset_jump_target",
+      "cpu_address": "0xD800"
+    }
+  ],
+  "instruction_count": 522,
+  "instructions": [
+    {
+      "cpu_address": "0xD800",
+      "prg_offset": "0x1D800",
+      "opcode": "78",
+      "bytes": "78",
+      "mnemonic": "SEI",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD801",
+      "prg_offset": "0x1D801",
+      "opcode": "D8",
+      "bytes": "D8",
+      "mnemonic": "CLD",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD802",
+      "prg_offset": "0x1D802",
+      "opcode": "A2",
+      "bytes": "A2 00",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD804",
+      "prg_offset": "0x1D804",
+      "opcode": "8E",
+      "bytes": "8E 00 20",
+      "mnemonic": "STX",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xD807",
+      "prg_offset": "0x1D807",
+      "opcode": "8E",
+      "bytes": "8E 01 20",
+      "mnemonic": "STX",
+      "mode": "abs",
+      "operand": "$2001",
+      "target": "0x2001"
+    },
+    {
+      "cpu_address": "0xD80A",
+      "prg_offset": "0x1D80A",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD80B",
+      "prg_offset": "0x1D80B",
+      "opcode": "9A",
+      "bytes": "9A",
+      "mnemonic": "TXS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD80C",
+      "prg_offset": "0x1D80C",
+      "opcode": "A2",
+      "bytes": "A2 02",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$02",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD80E",
+      "prg_offset": "0x1D80E",
+      "opcode": "2C",
+      "bytes": "2C 02 20",
+      "mnemonic": "BIT",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xD811",
+      "prg_offset": "0x1D811",
+      "opcode": "10",
+      "bytes": "10 FB",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$D80E",
+      "target": "0xD80E"
+    },
+    {
+      "cpu_address": "0xD813",
+      "prg_offset": "0x1D813",
+      "opcode": "2C",
+      "bytes": "2C 02 20",
+      "mnemonic": "BIT",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xD816",
+      "prg_offset": "0x1D816",
+      "opcode": "10",
+      "bytes": "10 FB",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$D813",
+      "target": "0xD813"
+    },
+    {
+      "cpu_address": "0xD818",
+      "prg_offset": "0x1D818",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD819",
+      "prg_offset": "0x1D819",
+      "opcode": "D0",
+      "bytes": "D0 F3",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$D80E",
+      "target": "0xD80E"
+    },
+    {
+      "cpu_address": "0xD81B",
+      "prg_offset": "0x1D81B",
+      "opcode": "AD",
+      "bytes": "AD 02 20",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xD81E",
+      "prg_offset": "0x1D81E",
+      "opcode": "10",
+      "bytes": "10 FB",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$D81B",
+      "target": "0xD81B"
+    },
+    {
+      "cpu_address": "0xD820",
+      "prg_offset": "0x1D820",
+      "opcode": "AD",
+      "bytes": "AD 02 20",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xD823",
+      "prg_offset": "0x1D823",
+      "opcode": "10",
+      "bytes": "10 FB",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$D820",
+      "target": "0xD820"
+    },
+    {
+      "cpu_address": "0xD825",
+      "prg_offset": "0x1D825",
+      "opcode": "A9",
+      "bytes": "A9 08",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$08",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD827",
+      "prg_offset": "0x1D827",
+      "opcode": "8D",
+      "bytes": "8D 00 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xD82A",
+      "prg_offset": "0x1D82A",
+      "opcode": "A9",
+      "bytes": "A9 1E",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$1E",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD82C",
+      "prg_offset": "0x1D82C",
+      "opcode": "8D",
+      "bytes": "8D 01 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2001",
+      "target": "0x2001"
+    },
+    {
+      "cpu_address": "0xD82F",
+      "prg_offset": "0x1D82F",
+      "opcode": "A2",
+      "bytes": "A2 15",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$15",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD831",
+      "prg_offset": "0x1D831",
+      "opcode": "9D",
+      "bytes": "9D 00 40",
+      "mnemonic": "STA",
+      "mode": "absx",
+      "operand": "$4000,X",
+      "target": "0x4000"
+    },
+    {
+      "cpu_address": "0xD834",
+      "prg_offset": "0x1D834",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD835",
+      "prg_offset": "0x1D835",
+      "opcode": "10",
+      "bytes": "10 FA",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$D831",
+      "target": "0xD831"
+    },
+    {
+      "cpu_address": "0xD837",
+      "prg_offset": "0x1D837",
+      "opcode": "A9",
+      "bytes": "A9 08",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$08",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD839",
+      "prg_offset": "0x1D839",
+      "opcode": "8D",
+      "bytes": "8D 01 40",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$4001",
+      "target": "0x4001"
+    },
+    {
+      "cpu_address": "0xD83C",
+      "prg_offset": "0x1D83C",
+      "opcode": "8D",
+      "bytes": "8D 05 40",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$4005",
+      "target": "0x4005"
+    },
+    {
+      "cpu_address": "0xD83F",
+      "prg_offset": "0x1D83F",
+      "opcode": "A9",
+      "bytes": "A9 8F",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$8F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD841",
+      "prg_offset": "0x1D841",
+      "opcode": "8D",
+      "bytes": "8D 15 40",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$4015",
+      "target": "0x4015"
+    },
+    {
+      "cpu_address": "0xD844",
+      "prg_offset": "0x1D844",
+      "opcode": "A9",
+      "bytes": "A9 C0",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$C0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD846",
+      "prg_offset": "0x1D846",
+      "opcode": "8D",
+      "bytes": "8D 17 40",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$4017",
+      "target": "0x4017"
+    },
+    {
+      "cpu_address": "0xD849",
+      "prg_offset": "0x1D849",
+      "opcode": "A2",
+      "bytes": "A2 0C",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$0C",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD84B",
+      "prg_offset": "0x1D84B",
+      "opcode": "20",
+      "bytes": "20 A7 FD",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FDA7",
+      "target": "0xFDA7"
+    },
+    {
+      "cpu_address": "0xD84E",
+      "prg_offset": "0x1D84E",
+      "opcode": "20",
+      "bytes": "20 00 80",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xD851",
+      "prg_offset": "0x1D851",
+      "opcode": "20",
+      "bytes": "20 E7 D9",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$D9E7",
+      "target": "0xD9E7"
+    },
+    {
+      "cpu_address": "0xD854",
+      "prg_offset": "0x1D854",
+      "opcode": "A9",
+      "bytes": "A9 10",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$10",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD856",
+      "prg_offset": "0x1D856",
+      "opcode": "AA",
+      "bytes": "AA",
+      "mnemonic": "TAX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD857",
+      "prg_offset": "0x1D857",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xD85A",
+      "prg_offset": "0x1D85A",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xD85D",
+      "prg_offset": "0x1D85D",
+      "opcode": "49",
+      "bytes": "49 10",
+      "mnemonic": "EOR",
+      "mode": "imm",
+      "operand": "#$10",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD85F",
+      "prg_offset": "0x1D85F",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD860",
+      "prg_offset": "0x1D860",
+      "opcode": "D0",
+      "bytes": "D0 F5",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$D857",
+      "target": "0xD857"
+    },
+    {
+      "cpu_address": "0xD862",
+      "prg_offset": "0x1D862",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD864",
+      "prg_offset": "0x1D864",
+      "opcode": "8D",
+      "bytes": "8D 01 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2001",
+      "target": "0x2001"
+    },
+    {
+      "cpu_address": "0xD867",
+      "prg_offset": "0x1D867",
+      "opcode": "20",
+      "bytes": "20 1E DA",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$DA1E",
+      "target": "0xDA1E"
+    },
+    {
+      "cpu_address": "0xD86A",
+      "prg_offset": "0x1D86A",
+      "opcode": "A9",
+      "bytes": "A9 7F",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$7F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD86C",
+      "prg_offset": "0x1D86C",
+      "opcode": "85",
+      "bytes": "85 20",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$20",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD86E",
+      "prg_offset": "0x1D86E",
+      "opcode": "A9",
+      "bytes": "A9 18",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$18",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD870",
+      "prg_offset": "0x1D870",
+      "opcode": "8D",
+      "bytes": "8D F6 04",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$04F6",
+      "target": "0x04F6"
+    },
+    {
+      "cpu_address": "0xD873",
+      "prg_offset": "0x1D873",
+      "opcode": "A9",
+      "bytes": "A9 08",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$08",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD875",
+      "prg_offset": "0x1D875",
+      "opcode": "85",
+      "bytes": "85 FF",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD877",
+      "prg_offset": "0x1D877",
+      "opcode": "A9",
+      "bytes": "A9 2B",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$2B",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD879",
+      "prg_offset": "0x1D879",
+      "opcode": "85",
+      "bytes": "85 86",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$86",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD87B",
+      "prg_offset": "0x1D87B",
+      "opcode": "A9",
+      "bytes": "A9 23",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$23",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD87D",
+      "prg_offset": "0x1D87D",
+      "opcode": "85",
+      "bytes": "85 87",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$87",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD87F",
+      "prg_offset": "0x1D87F",
+      "opcode": "A9",
+      "bytes": "A9 10",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$10",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD881",
+      "prg_offset": "0x1D881",
+      "opcode": "85",
+      "bytes": "85 83",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$83",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD883",
+      "prg_offset": "0x1D883",
+      "opcode": "85",
+      "bytes": "85 84",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$84",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD885",
+      "prg_offset": "0x1D885",
+      "opcode": "A9",
+      "bytes": "A9 01",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD887",
+      "prg_offset": "0x1D887",
+      "opcode": "85",
+      "bytes": "85 AA",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$AA",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD889",
+      "prg_offset": "0x1D889",
+      "opcode": "58",
+      "bytes": "58",
+      "mnemonic": "CLI",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD88A",
+      "prg_offset": "0x1D88A",
+      "opcode": "4C",
+      "bytes": "4C 79 DA",
+      "mnemonic": "JMP",
+      "mode": "abs",
+      "operand": "$DA79",
+      "target": "0xDA79"
+    },
+    {
+      "cpu_address": "0xD88D",
+      "prg_offset": "0x1D88D",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD88E",
+      "prg_offset": "0x1D88E",
+      "opcode": "98",
+      "bytes": "98",
+      "mnemonic": "TYA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD88F",
+      "prg_offset": "0x1D88F",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD890",
+      "prg_offset": "0x1D890",
+      "opcode": "8A",
+      "bytes": "8A",
+      "mnemonic": "TXA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD891",
+      "prg_offset": "0x1D891",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD892",
+      "prg_offset": "0x1D892",
+      "opcode": "20",
+      "bytes": "20 E7 D9",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$D9E7",
+      "target": "0xD9E7"
+    },
+    {
+      "cpu_address": "0xD895",
+      "prg_offset": "0x1D895",
+      "opcode": "A2",
+      "bytes": "A2 0F",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$0F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD897",
+      "prg_offset": "0x1D897",
+      "opcode": "B5",
+      "bytes": "B5 00",
+      "mnemonic": "LDA",
+      "mode": "zpx",
+      "operand": "$00,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD899",
+      "prg_offset": "0x1D899",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD89A",
+      "prg_offset": "0x1D89A",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD89B",
+      "prg_offset": "0x1D89B",
+      "opcode": "10",
+      "bytes": "10 FA",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$D897",
+      "target": "0xD897"
+    },
+    {
+      "cpu_address": "0xD89D",
+      "prg_offset": "0x1D89D",
+      "opcode": "A5",
+      "bytes": "A5 FF",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD89F",
+      "prg_offset": "0x1D89F",
+      "opcode": "8D",
+      "bytes": "8D 00 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xD8A2",
+      "prg_offset": "0x1D8A2",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8A4",
+      "prg_offset": "0x1D8A4",
+      "opcode": "8D",
+      "bytes": "8D 01 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2001",
+      "target": "0x2001"
+    },
+    {
+      "cpu_address": "0xD8A7",
+      "prg_offset": "0x1D8A7",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8A9",
+      "prg_offset": "0x1D8A9",
+      "opcode": "8D",
+      "bytes": "8D 03 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2003",
+      "target": "0x2003"
+    },
+    {
+      "cpu_address": "0xD8AC",
+      "prg_offset": "0x1D8AC",
+      "opcode": "A9",
+      "bytes": "A9 02",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$02",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8AE",
+      "prg_offset": "0x1D8AE",
+      "opcode": "8D",
+      "bytes": "8D 14 40",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$4014",
+      "target": "0x4014"
+    },
+    {
+      "cpu_address": "0xD8B1",
+      "prg_offset": "0x1D8B1",
+      "opcode": "AD",
+      "bytes": "AD 02 03",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$0302",
+      "target": "0x0302"
+    },
+    {
+      "cpu_address": "0xD8B4",
+      "prg_offset": "0x1D8B4",
+      "opcode": "C9",
+      "bytes": "C9 10",
+      "mnemonic": "CMP",
+      "mode": "imm",
+      "operand": "#$10",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8B6",
+      "prg_offset": "0x1D8B6",
+      "opcode": "B0",
+      "bytes": "B0 03",
+      "mnemonic": "BCS",
+      "mode": "rel",
+      "operand": "$D8BB",
+      "target": "0xD8BB"
+    },
+    {
+      "cpu_address": "0xD8B8",
+      "prg_offset": "0x1D8B8",
+      "opcode": "20",
+      "bytes": "20 C5 F5",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$F5C5",
+      "target": "0xF5C5"
+    },
+    {
+      "cpu_address": "0xD8BB",
+      "prg_offset": "0x1D8BB",
+      "opcode": "A5",
+      "bytes": "A5 A7",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$A7",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8BD",
+      "prg_offset": "0x1D8BD",
+      "opcode": "D0",
+      "bytes": "D0 03",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$D8C2",
+      "target": "0xD8C2"
+    },
+    {
+      "cpu_address": "0xD8BF",
+      "prg_offset": "0x1D8BF",
+      "opcode": "20",
+      "bytes": "20 79 F5",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$F579",
+      "target": "0xF579"
+    },
+    {
+      "cpu_address": "0xD8C2",
+      "prg_offset": "0x1D8C2",
+      "opcode": "A5",
+      "bytes": "A5 FE",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$FE",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8C4",
+      "prg_offset": "0x1D8C4",
+      "opcode": "29",
+      "bytes": "29 1E",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$1E",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8C6",
+      "prg_offset": "0x1D8C6",
+      "opcode": "F0",
+      "bytes": "F0 2B",
+      "mnemonic": "BEQ",
+      "mode": "rel",
+      "operand": "$D8F3",
+      "target": "0xD8F3"
+    },
+    {
+      "cpu_address": "0xD8C8",
+      "prg_offset": "0x1D8C8",
+      "opcode": "8D",
+      "bytes": "8D 01 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2001",
+      "target": "0x2001"
+    },
+    {
+      "cpu_address": "0xD8CB",
+      "prg_offset": "0x1D8CB",
+      "opcode": "AD",
+      "bytes": "AD 02 20",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xD8CE",
+      "prg_offset": "0x1D8CE",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8D0",
+      "prg_offset": "0x1D8D0",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xD8D3",
+      "prg_offset": "0x1D8D3",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xD8D6",
+      "prg_offset": "0x1D8D6",
+      "opcode": "A2",
+      "bytes": "A2 00",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8D8",
+      "prg_offset": "0x1D8D8",
+      "opcode": "20",
+      "bytes": "20 C3 D9",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$D9C3",
+      "target": "0xD9C3"
+    },
+    {
+      "cpu_address": "0xD8DB",
+      "prg_offset": "0x1D8DB",
+      "opcode": "A5",
+      "bytes": "A5 9F",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$9F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8DD",
+      "prg_offset": "0x1D8DD",
+      "opcode": "F0",
+      "bytes": "F0 14",
+      "mnemonic": "BEQ",
+      "mode": "rel",
+      "operand": "$D8F3",
+      "target": "0xD8F3"
+    },
+    {
+      "cpu_address": "0xD8DF",
+      "prg_offset": "0x1D8DF",
+      "opcode": "A9",
+      "bytes": "A9 0F",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8E1",
+      "prg_offset": "0x1D8E1",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xD8E4",
+      "prg_offset": "0x1D8E4",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8E6",
+      "prg_offset": "0x1D8E6",
+      "opcode": "85",
+      "bytes": "85 A0",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$A0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8E8",
+      "prg_offset": "0x1D8E8",
+      "opcode": "20",
+      "bytes": "20 B2 D9",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$D9B2",
+      "target": "0xD9B2"
+    },
+    {
+      "cpu_address": "0xD8EB",
+      "prg_offset": "0x1D8EB",
+      "opcode": "A5",
+      "bytes": "A5 A4",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$A4",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8ED",
+      "prg_offset": "0x1D8ED",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xD8F0",
+      "prg_offset": "0x1D8F0",
+      "opcode": "20",
+      "bytes": "20 F8 D9",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$D9F8",
+      "target": "0xD9F8"
+    },
+    {
+      "cpu_address": "0xD8F3",
+      "prg_offset": "0x1D8F3",
+      "opcode": "A2",
+      "bytes": "A2 07",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$07",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8F5",
+      "prg_offset": "0x1D8F5",
+      "opcode": "8A",
+      "bytes": "8A",
+      "mnemonic": "TXA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8F6",
+      "prg_offset": "0x1D8F6",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xD8F9",
+      "prg_offset": "0x1D8F9",
+      "opcode": "B5",
+      "bytes": "B5 89",
+      "mnemonic": "LDA",
+      "mode": "zpx",
+      "operand": "$89,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8FB",
+      "prg_offset": "0x1D8FB",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xD8FE",
+      "prg_offset": "0x1D8FE",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD8FF",
+      "prg_offset": "0x1D8FF",
+      "opcode": "10",
+      "bytes": "10 F4",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$D8F5",
+      "target": "0xD8F5"
+    },
+    {
+      "cpu_address": "0xD901",
+      "prg_offset": "0x1D901",
+      "opcode": "20",
+      "bytes": "20 A1 FB",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FBA1",
+      "target": "0xFBA1"
+    },
+    {
+      "cpu_address": "0xD904",
+      "prg_offset": "0x1D904",
+      "opcode": "20",
+      "bytes": "20 44 DA",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$DA44",
+      "target": "0xDA44"
+    },
+    {
+      "cpu_address": "0xD907",
+      "prg_offset": "0x1D907",
+      "opcode": "20",
+      "bytes": "20 57 FE",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FE57",
+      "target": "0xFE57"
+    },
+    {
+      "cpu_address": "0xD90A",
+      "prg_offset": "0x1D90A",
+      "opcode": "A5",
+      "bytes": "A5 74",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$74",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD90C",
+      "prg_offset": "0x1D90C",
+      "opcode": "F0",
+      "bytes": "F0 02",
+      "mnemonic": "BEQ",
+      "mode": "rel",
+      "operand": "$D910",
+      "target": "0xD910"
+    },
+    {
+      "cpu_address": "0xD90E",
+      "prg_offset": "0x1D90E",
+      "opcode": "C6",
+      "bytes": "C6 74",
+      "mnemonic": "DEC",
+      "mode": "zp",
+      "operand": "$74",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD910",
+      "prg_offset": "0x1D910",
+      "opcode": "E6",
+      "bytes": "E6 72",
+      "mnemonic": "INC",
+      "mode": "zp",
+      "operand": "$72",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD912",
+      "prg_offset": "0x1D912",
+      "opcode": "D0",
+      "bytes": "D0 06",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$D91A",
+      "target": "0xD91A"
+    },
+    {
+      "cpu_address": "0xD914",
+      "prg_offset": "0x1D914",
+      "opcode": "E6",
+      "bytes": "E6 73",
+      "mnemonic": "INC",
+      "mode": "zp",
+      "operand": "$73",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD916",
+      "prg_offset": "0x1D916",
+      "opcode": "A5",
+      "bytes": "A5 A2",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$A2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD918",
+      "prg_offset": "0x1D918",
+      "opcode": "85",
+      "bytes": "85 A1",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$A1",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD91A",
+      "prg_offset": "0x1D91A",
+      "opcode": "A2",
+      "bytes": "A2 00",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD91C",
+      "prg_offset": "0x1D91C",
+      "opcode": "68",
+      "bytes": "68",
+      "mnemonic": "PLA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD91D",
+      "prg_offset": "0x1D91D",
+      "opcode": "95",
+      "bytes": "95 00",
+      "mnemonic": "STA",
+      "mode": "zpx",
+      "operand": "$00,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD91F",
+      "prg_offset": "0x1D91F",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD920",
+      "prg_offset": "0x1D920",
+      "opcode": "E0",
+      "bytes": "E0 10",
+      "mnemonic": "CPX",
+      "mode": "imm",
+      "operand": "#$10",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD922",
+      "prg_offset": "0x1D922",
+      "opcode": "90",
+      "bytes": "90 F8",
+      "mnemonic": "BCC",
+      "mode": "rel",
+      "operand": "$D91C",
+      "target": "0xD91C"
+    },
+    {
+      "cpu_address": "0xD924",
+      "prg_offset": "0x1D924",
+      "opcode": "68",
+      "bytes": "68",
+      "mnemonic": "PLA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD925",
+      "prg_offset": "0x1D925",
+      "opcode": "AA",
+      "bytes": "AA",
+      "mnemonic": "TAX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD926",
+      "prg_offset": "0x1D926",
+      "opcode": "68",
+      "bytes": "68",
+      "mnemonic": "PLA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD927",
+      "prg_offset": "0x1D927",
+      "opcode": "A8",
+      "bytes": "A8",
+      "mnemonic": "TAY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD928",
+      "prg_offset": "0x1D928",
+      "opcode": "68",
+      "bytes": "68",
+      "mnemonic": "PLA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD929",
+      "prg_offset": "0x1D929",
+      "opcode": "40",
+      "bytes": "40",
+      "mnemonic": "RTI",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD92A",
+      "prg_offset": "0x1D92A",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD92B",
+      "prg_offset": "0x1D92B",
+      "opcode": "98",
+      "bytes": "98",
+      "mnemonic": "TYA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD92C",
+      "prg_offset": "0x1D92C",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD92D",
+      "prg_offset": "0x1D92D",
+      "opcode": "8A",
+      "bytes": "8A",
+      "mnemonic": "TXA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD92E",
+      "prg_offset": "0x1D92E",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD92F",
+      "prg_offset": "0x1D92F",
+      "opcode": "20",
+      "bytes": "20 E7 D9",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$D9E7",
+      "target": "0xD9E7"
+    },
+    {
+      "cpu_address": "0xD932",
+      "prg_offset": "0x1D932",
+      "opcode": "6C",
+      "bytes": "6C 9D 00",
+      "mnemonic": "JMP",
+      "mode": "ind",
+      "operand": "($009D)",
+      "target": "0x009D"
+    },
+    {
+      "cpu_address": "0xD9B2",
+      "prg_offset": "0x1D9B2",
+      "opcode": "A5",
+      "bytes": "A5 A0",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$A0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9B4",
+      "prg_offset": "0x1D9B4",
+      "opcode": "E6",
+      "bytes": "E6 A0",
+      "mnemonic": "INC",
+      "mode": "zp",
+      "operand": "$A0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9B6",
+      "prg_offset": "0x1D9B6",
+      "opcode": "0A",
+      "bytes": "0A",
+      "mnemonic": "ASL",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9B7",
+      "prg_offset": "0x1D9B7",
+      "opcode": "A8",
+      "bytes": "A8",
+      "mnemonic": "TAY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9B8",
+      "prg_offset": "0x1D9B8",
+      "opcode": "B9",
+      "bytes": "B9 AC D9",
+      "mnemonic": "LDA",
+      "mode": "absy",
+      "operand": "$D9AC,Y",
+      "target": "0xD9AC"
+    },
+    {
+      "cpu_address": "0xD9BB",
+      "prg_offset": "0x1D9BB",
+      "opcode": "85",
+      "bytes": "85 9D",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$9D",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9BD",
+      "prg_offset": "0x1D9BD",
+      "opcode": "B9",
+      "bytes": "B9 AD D9",
+      "mnemonic": "LDA",
+      "mode": "absy",
+      "operand": "$D9AD,Y",
+      "target": "0xD9AD"
+    },
+    {
+      "cpu_address": "0xD9C0",
+      "prg_offset": "0x1D9C0",
+      "opcode": "85",
+      "bytes": "85 9E",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$9E",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9C2",
+      "prg_offset": "0x1D9C2",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9C3",
+      "prg_offset": "0x1D9C3",
+      "opcode": "AD",
+      "bytes": "AD 02 20",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xD9C6",
+      "prg_offset": "0x1D9C6",
+      "opcode": "B5",
+      "bytes": "B5 F4",
+      "mnemonic": "LDA",
+      "mode": "zpx",
+      "operand": "$F4,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9C8",
+      "prg_offset": "0x1D9C8",
+      "opcode": "8D",
+      "bytes": "8D 05 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2005",
+      "target": "0x2005"
+    },
+    {
+      "cpu_address": "0xD9CB",
+      "prg_offset": "0x1D9CB",
+      "opcode": "B5",
+      "bytes": "B5 F8",
+      "mnemonic": "LDA",
+      "mode": "zpx",
+      "operand": "$F8,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9CD",
+      "prg_offset": "0x1D9CD",
+      "opcode": "8D",
+      "bytes": "8D 05 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2005",
+      "target": "0x2005"
+    },
+    {
+      "cpu_address": "0xD9D0",
+      "prg_offset": "0x1D9D0",
+      "opcode": "B5",
+      "bytes": "B5 7D",
+      "mnemonic": "LDA",
+      "mode": "zpx",
+      "operand": "$7D,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9D2",
+      "prg_offset": "0x1D9D2",
+      "opcode": "29",
+      "bytes": "29 01",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9D4",
+      "prg_offset": "0x1D9D4",
+      "opcode": "85",
+      "bytes": "85 7A",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$7A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9D6",
+      "prg_offset": "0x1D9D6",
+      "opcode": "B5",
+      "bytes": "B5 80",
+      "mnemonic": "LDA",
+      "mode": "zpx",
+      "operand": "$80,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9D8",
+      "prg_offset": "0x1D9D8",
+      "opcode": "4A",
+      "bytes": "4A",
+      "mnemonic": "LSR",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9D9",
+      "prg_offset": "0x1D9D9",
+      "opcode": "26",
+      "bytes": "26 7A",
+      "mnemonic": "ROL",
+      "mode": "zp",
+      "operand": "$7A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9DB",
+      "prg_offset": "0x1D9DB",
+      "opcode": "A5",
+      "bytes": "A5 FF",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9DD",
+      "prg_offset": "0x1D9DD",
+      "opcode": "29",
+      "bytes": "29 FC",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$FC",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9DF",
+      "prg_offset": "0x1D9DF",
+      "opcode": "05",
+      "bytes": "05 7A",
+      "mnemonic": "ORA",
+      "mode": "zp",
+      "operand": "$7A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9E1",
+      "prg_offset": "0x1D9E1",
+      "opcode": "85",
+      "bytes": "85 FF",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9E3",
+      "prg_offset": "0x1D9E3",
+      "opcode": "8D",
+      "bytes": "8D 00 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xD9E6",
+      "prg_offset": "0x1D9E6",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9E7",
+      "prg_offset": "0x1D9E7",
+      "opcode": "A9",
+      "bytes": "A9 0D",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0D",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9E9",
+      "prg_offset": "0x1D9E9",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xD9EC",
+      "prg_offset": "0x1D9EC",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9EE",
+      "prg_offset": "0x1D9EE",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xD9F1",
+      "prg_offset": "0x1D9F1",
+      "opcode": "AD",
+      "bytes": "AD E4 04",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$04E4",
+      "target": "0x04E4"
+    },
+    {
+      "cpu_address": "0xD9F4",
+      "prg_offset": "0x1D9F4",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xD9F7",
+      "prg_offset": "0x1D9F7",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9F8",
+      "prg_offset": "0x1D9F8",
+      "opcode": "A9",
+      "bytes": "A9 0D",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0D",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9FA",
+      "prg_offset": "0x1D9FA",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xD9FD",
+      "prg_offset": "0x1D9FD",
+      "opcode": "A9",
+      "bytes": "A9 81",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$81",
+      "target": null
+    },
+    {
+      "cpu_address": "0xD9FF",
+      "prg_offset": "0x1D9FF",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xDA02",
+      "prg_offset": "0x1DA02",
+      "opcode": "AD",
+      "bytes": "AD E4 04",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$04E4",
+      "target": "0x04E4"
+    },
+    {
+      "cpu_address": "0xDA05",
+      "prg_offset": "0x1DA05",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xDA08",
+      "prg_offset": "0x1DA08",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA1E",
+      "prg_offset": "0x1DA1E",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA20",
+      "prg_offset": "0x1DA20",
+      "opcode": "AA",
+      "bytes": "AA",
+      "mnemonic": "TAX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA21",
+      "prg_offset": "0x1DA21",
+      "opcode": "95",
+      "bytes": "95 00",
+      "mnemonic": "STA",
+      "mode": "zpx",
+      "operand": "$00,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA23",
+      "prg_offset": "0x1DA23",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA24",
+      "prg_offset": "0x1DA24",
+      "opcode": "D0",
+      "bytes": "D0 FB",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$DA21",
+      "target": "0xDA21"
+    },
+    {
+      "cpu_address": "0xDA26",
+      "prg_offset": "0x1DA26",
+      "opcode": "9D",
+      "bytes": "9D 00 01",
+      "mnemonic": "STA",
+      "mode": "absx",
+      "operand": "$0100,X",
+      "target": "0x0100"
+    },
+    {
+      "cpu_address": "0xDA29",
+      "prg_offset": "0x1DA29",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA2A",
+      "prg_offset": "0x1DA2A",
+      "opcode": "10",
+      "bytes": "10 FA",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$DA26",
+      "target": "0xDA26"
+    },
+    {
+      "cpu_address": "0xDA2C",
+      "prg_offset": "0x1DA2C",
+      "opcode": "A2",
+      "bytes": "A2 02",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$02",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA2E",
+      "prg_offset": "0x1DA2E",
+      "opcode": "A0",
+      "bytes": "A0 07",
+      "mnemonic": "LDY",
+      "mode": "imm",
+      "operand": "#$07",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA30",
+      "prg_offset": "0x1DA30",
+      "opcode": "20",
+      "bytes": "20 92 FD",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FD92",
+      "target": "0xFD92"
+    },
+    {
+      "cpu_address": "0xDA33",
+      "prg_offset": "0x1DA33",
+      "opcode": "A9",
+      "bytes": "A9 40",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$40",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA35",
+      "prg_offset": "0x1DA35",
+      "opcode": "8D",
+      "bytes": "8D 00 03",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$0300",
+      "target": "0x0300"
+    },
+    {
+      "cpu_address": "0xDA38",
+      "prg_offset": "0x1DA38",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA3A",
+      "prg_offset": "0x1DA3A",
+      "opcode": "8D",
+      "bytes": "8D 02 03",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$0302",
+      "target": "0x0302"
+    },
+    {
+      "cpu_address": "0xDA3D",
+      "prg_offset": "0x1DA3D",
+      "opcode": "A9",
+      "bytes": "A9 FF",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA3F",
+      "prg_offset": "0x1DA3F",
+      "opcode": "8D",
+      "bytes": "8D 03 03",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$0303",
+      "target": "0x0303"
+    },
+    {
+      "cpu_address": "0xDA42",
+      "prg_offset": "0x1DA42",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA44",
+      "prg_offset": "0x1DA44",
+      "opcode": "AD",
+      "bytes": "AD 03 05",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$0503",
+      "target": "0x0503"
+    },
+    {
+      "cpu_address": "0xDA47",
+      "prg_offset": "0x1DA47",
+      "opcode": "C9",
+      "bytes": "C9 02",
+      "mnemonic": "CMP",
+      "mode": "imm",
+      "operand": "#$02",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA49",
+      "prg_offset": "0x1DA49",
+      "opcode": "D0",
+      "bytes": "D0 1C",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$DA67",
+      "target": "0xDA67"
+    },
+    {
+      "cpu_address": "0xDA4B",
+      "prg_offset": "0x1DA4B",
+      "opcode": "A5",
+      "bytes": "A5 F1",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F1",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA4D",
+      "prg_offset": "0x1DA4D",
+      "opcode": "29",
+      "bytes": "29 F3",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA4F",
+      "prg_offset": "0x1DA4F",
+      "opcode": "85",
+      "bytes": "85 F1",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$F1",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA51",
+      "prg_offset": "0x1DA51",
+      "opcode": "A5",
+      "bytes": "A5 F0",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA53",
+      "prg_offset": "0x1DA53",
+      "opcode": "29",
+      "bytes": "29 0C",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$0C",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA55",
+      "prg_offset": "0x1DA55",
+      "opcode": "05",
+      "bytes": "05 F1",
+      "mnemonic": "ORA",
+      "mode": "zp",
+      "operand": "$F1",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA57",
+      "prg_offset": "0x1DA57",
+      "opcode": "85",
+      "bytes": "85 F0",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$F0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA59",
+      "prg_offset": "0x1DA59",
+      "opcode": "A5",
+      "bytes": "A5 F3",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA5B",
+      "prg_offset": "0x1DA5B",
+      "opcode": "29",
+      "bytes": "29 F3",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA5D",
+      "prg_offset": "0x1DA5D",
+      "opcode": "85",
+      "bytes": "85 F3",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA5F",
+      "prg_offset": "0x1DA5F",
+      "opcode": "A5",
+      "bytes": "A5 F2",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA61",
+      "prg_offset": "0x1DA61",
+      "opcode": "29",
+      "bytes": "29 0C",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$0C",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA63",
+      "prg_offset": "0x1DA63",
+      "opcode": "05",
+      "bytes": "05 F3",
+      "mnemonic": "ORA",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA65",
+      "prg_offset": "0x1DA65",
+      "opcode": "85",
+      "bytes": "85 F2",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$F2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA67",
+      "prg_offset": "0x1DA67",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA79",
+      "prg_offset": "0x1DA79",
+      "opcode": "A9",
+      "bytes": "A9 08",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$08",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA7B",
+      "prg_offset": "0x1DA7B",
+      "opcode": "85",
+      "bytes": "85 FF",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA7D",
+      "prg_offset": "0x1DA7D",
+      "opcode": "20",
+      "bytes": "20 C9 FD",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FDC9",
+      "target": "0xFDC9"
+    },
+    {
+      "cpu_address": "0xDA80",
+      "prg_offset": "0x1DA80",
+      "opcode": "20",
+      "bytes": "20 3B DB",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$DB3B",
+      "target": "0xDB3B"
+    },
+    {
+      "cpu_address": "0xDA83",
+      "prg_offset": "0x1DA83",
+      "opcode": "20",
+      "bytes": "20 88 DB",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$DB88",
+      "target": "0xDB88"
+    },
+    {
+      "cpu_address": "0xDA86",
+      "prg_offset": "0x1DA86",
+      "opcode": "20",
+      "bytes": "20 27 FE",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FE27",
+      "target": "0xFE27"
+    },
+    {
+      "cpu_address": "0xDA89",
+      "prg_offset": "0x1DA89",
+      "opcode": "20",
+      "bytes": "20 4D FE",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FE4D",
+      "target": "0xFE4D"
+    },
+    {
+      "cpu_address": "0xDA8C",
+      "prg_offset": "0x1DA8C",
+      "opcode": "A5",
+      "bytes": "A5 9F",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$9F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA8E",
+      "prg_offset": "0x1DA8E",
+      "opcode": "F0",
+      "bytes": "F0 02",
+      "mnemonic": "BEQ",
+      "mode": "rel",
+      "operand": "$DA92",
+      "target": "0xDA92"
+    },
+    {
+      "cpu_address": "0xDA90",
+      "prg_offset": "0x1DA90",
+      "opcode": "E6",
+      "bytes": "E6 9C",
+      "mnemonic": "INC",
+      "mode": "zp",
+      "operand": "$9C",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA92",
+      "prg_offset": "0x1DA92",
+      "opcode": "A9",
+      "bytes": "A9 DA",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$DA",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA94",
+      "prg_offset": "0x1DA94",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA95",
+      "prg_offset": "0x1DA95",
+      "opcode": "A9",
+      "bytes": "A9 67",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$67",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA97",
+      "prg_offset": "0x1DA97",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA98",
+      "prg_offset": "0x1DA98",
+      "opcode": "A5",
+      "bytes": "A5 AA",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$AA",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA9A",
+      "prg_offset": "0x1DA9A",
+      "opcode": "0A",
+      "bytes": "0A",
+      "mnemonic": "ASL",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA9B",
+      "prg_offset": "0x1DA9B",
+      "opcode": "AA",
+      "bytes": "AA",
+      "mnemonic": "TAX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDA9C",
+      "prg_offset": "0x1DA9C",
+      "opcode": "BD",
+      "bytes": "BD 6E E7",
+      "mnemonic": "LDA",
+      "mode": "absx",
+      "operand": "$E76E,X",
+      "target": "0xE76E"
+    },
+    {
+      "cpu_address": "0xDA9F",
+      "prg_offset": "0x1DA9F",
+      "opcode": "85",
+      "bytes": "85 00",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDAA1",
+      "prg_offset": "0x1DAA1",
+      "opcode": "BD",
+      "bytes": "BD 6F E7",
+      "mnemonic": "LDA",
+      "mode": "absx",
+      "operand": "$E76F,X",
+      "target": "0xE76F"
+    },
+    {
+      "cpu_address": "0xDAA4",
+      "prg_offset": "0x1DAA4",
+      "opcode": "85",
+      "bytes": "85 01",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDAA6",
+      "prg_offset": "0x1DAA6",
+      "opcode": "6C",
+      "bytes": "6C 00 00",
+      "mnemonic": "JMP",
+      "mode": "ind",
+      "operand": "($0000)",
+      "target": "0x0000"
+    },
+    {
+      "cpu_address": "0xDB3B",
+      "prg_offset": "0x1DB3B",
+      "opcode": "A5",
+      "bytes": "A5 AA",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$AA",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB3D",
+      "prg_offset": "0x1DB3D",
+      "opcode": "0A",
+      "bytes": "0A",
+      "mnemonic": "ASL",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB3E",
+      "prg_offset": "0x1DB3E",
+      "opcode": "AA",
+      "bytes": "AA",
+      "mnemonic": "TAX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB3F",
+      "prg_offset": "0x1DB3F",
+      "opcode": "BD",
+      "bytes": "BD A9 DA",
+      "mnemonic": "LDA",
+      "mode": "absx",
+      "operand": "$DAA9,X",
+      "target": "0xDAA9"
+    },
+    {
+      "cpu_address": "0xDB42",
+      "prg_offset": "0x1DB42",
+      "opcode": "85",
+      "bytes": "85 AC",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$AC",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB44",
+      "prg_offset": "0x1DB44",
+      "opcode": "BD",
+      "bytes": "BD AA DA",
+      "mnemonic": "LDA",
+      "mode": "absx",
+      "operand": "$DAAA,X",
+      "target": "0xDAAA"
+    },
+    {
+      "cpu_address": "0xDB47",
+      "prg_offset": "0x1DB47",
+      "opcode": "85",
+      "bytes": "85 AD",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$AD",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB49",
+      "prg_offset": "0x1DB49",
+      "opcode": "A0",
+      "bytes": "A0 00",
+      "mnemonic": "LDY",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB4B",
+      "prg_offset": "0x1DB4B",
+      "opcode": "A9",
+      "bytes": "A9 0C",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0C",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB4D",
+      "prg_offset": "0x1DB4D",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xDB50",
+      "prg_offset": "0x1DB50",
+      "opcode": "B1",
+      "bytes": "B1 AC",
+      "mnemonic": "LDA",
+      "mode": "indy",
+      "operand": "($AC),Y",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB52",
+      "prg_offset": "0x1DB52",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xDB55",
+      "prg_offset": "0x1DB55",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB56",
+      "prg_offset": "0x1DB56",
+      "opcode": "B1",
+      "bytes": "B1 AC",
+      "mnemonic": "LDA",
+      "mode": "indy",
+      "operand": "($AC),Y",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB58",
+      "prg_offset": "0x1DB58",
+      "opcode": "85",
+      "bytes": "85 9F",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$9F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB5A",
+      "prg_offset": "0x1DB5A",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB5B",
+      "prg_offset": "0x1DB5B",
+      "opcode": "B1",
+      "bytes": "B1 AC",
+      "mnemonic": "LDA",
+      "mode": "indy",
+      "operand": "($AC),Y",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB5D",
+      "prg_offset": "0x1DB5D",
+      "opcode": "85",
+      "bytes": "85 A4",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$A4",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB5F",
+      "prg_offset": "0x1DB5F",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB60",
+      "prg_offset": "0x1DB60",
+      "opcode": "B1",
+      "bytes": "B1 AC",
+      "mnemonic": "LDA",
+      "mode": "indy",
+      "operand": "($AC),Y",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB62",
+      "prg_offset": "0x1DB62",
+      "opcode": "85",
+      "bytes": "85 A5",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$A5",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB64",
+      "prg_offset": "0x1DB64",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB65",
+      "prg_offset": "0x1DB65",
+      "opcode": "B1",
+      "bytes": "B1 AC",
+      "mnemonic": "LDA",
+      "mode": "indy",
+      "operand": "($AC),Y",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB67",
+      "prg_offset": "0x1DB67",
+      "opcode": "C9",
+      "bytes": "C9 77",
+      "mnemonic": "CMP",
+      "mode": "imm",
+      "operand": "#$77",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB69",
+      "prg_offset": "0x1DB69",
+      "opcode": "D0",
+      "bytes": "D0 01",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$DB6C",
+      "target": "0xDB6C"
+    },
+    {
+      "cpu_address": "0xDB6B",
+      "prg_offset": "0x1DB6B",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB6C",
+      "prg_offset": "0x1DB6C",
+      "opcode": "85",
+      "bytes": "85 B2",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$B2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB6E",
+      "prg_offset": "0x1DB6E",
+      "opcode": "AA",
+      "bytes": "AA",
+      "mnemonic": "TAX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB6F",
+      "prg_offset": "0x1DB6F",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB70",
+      "prg_offset": "0x1DB70",
+      "opcode": "98",
+      "bytes": "98",
+      "mnemonic": "TYA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB71",
+      "prg_offset": "0x1DB71",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB72",
+      "prg_offset": "0x1DB72",
+      "opcode": "B1",
+      "bytes": "B1 AC",
+      "mnemonic": "LDA",
+      "mode": "indy",
+      "operand": "($AC),Y",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB74",
+      "prg_offset": "0x1DB74",
+      "opcode": "A8",
+      "bytes": "A8",
+      "mnemonic": "TAY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB75",
+      "prg_offset": "0x1DB75",
+      "opcode": "A9",
+      "bytes": "A9 20",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$20",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB77",
+      "prg_offset": "0x1DB77",
+      "opcode": "20",
+      "bytes": "20 10 FC",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FC10",
+      "target": "0xFC10"
+    },
+    {
+      "cpu_address": "0xDB7A",
+      "prg_offset": "0x1DB7A",
+      "opcode": "A9",
+      "bytes": "A9 24",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$24",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB7C",
+      "prg_offset": "0x1DB7C",
+      "opcode": "20",
+      "bytes": "20 10 FC",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FC10",
+      "target": "0xFC10"
+    },
+    {
+      "cpu_address": "0xDB7F",
+      "prg_offset": "0x1DB7F",
+      "opcode": "A9",
+      "bytes": "A9 28",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$28",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB81",
+      "prg_offset": "0x1DB81",
+      "opcode": "20",
+      "bytes": "20 10 FC",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FC10",
+      "target": "0xFC10"
+    },
+    {
+      "cpu_address": "0xDB84",
+      "prg_offset": "0x1DB84",
+      "opcode": "98",
+      "bytes": "98",
+      "mnemonic": "TYA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB85",
+      "prg_offset": "0x1DB85",
+      "opcode": "68",
+      "bytes": "68",
+      "mnemonic": "PLA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB86",
+      "prg_offset": "0x1DB86",
+      "opcode": "A8",
+      "bytes": "A8",
+      "mnemonic": "TAY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB87",
+      "prg_offset": "0x1DB87",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB88",
+      "prg_offset": "0x1DB88",
+      "opcode": "A9",
+      "bytes": "A9 DB",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$DB",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB8A",
+      "prg_offset": "0x1DB8A",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB8B",
+      "prg_offset": "0x1DB8B",
+      "opcode": "A9",
+      "bytes": "A9 9E",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$9E",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB8D",
+      "prg_offset": "0x1DB8D",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB8E",
+      "prg_offset": "0x1DB8E",
+      "opcode": "A5",
+      "bytes": "A5 AA",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$AA",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB90",
+      "prg_offset": "0x1DB90",
+      "opcode": "0A",
+      "bytes": "0A",
+      "mnemonic": "ASL",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB91",
+      "prg_offset": "0x1DB91",
+      "opcode": "AA",
+      "bytes": "AA",
+      "mnemonic": "TAX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB92",
+      "prg_offset": "0x1DB92",
+      "opcode": "BD",
+      "bytes": "BD 10 DD",
+      "mnemonic": "LDA",
+      "mode": "absx",
+      "operand": "$DD10,X",
+      "target": "0xDD10"
+    },
+    {
+      "cpu_address": "0xDB95",
+      "prg_offset": "0x1DB95",
+      "opcode": "85",
+      "bytes": "85 00",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB97",
+      "prg_offset": "0x1DB97",
+      "opcode": "BD",
+      "bytes": "BD 11 DD",
+      "mnemonic": "LDA",
+      "mode": "absx",
+      "operand": "$DD11,X",
+      "target": "0xDD11"
+    },
+    {
+      "cpu_address": "0xDB9A",
+      "prg_offset": "0x1DB9A",
+      "opcode": "85",
+      "bytes": "85 01",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xDB9C",
+      "prg_offset": "0x1DB9C",
+      "opcode": "6C",
+      "bytes": "6C 00 00",
+      "mnemonic": "JMP",
+      "mode": "ind",
+      "operand": "($0000)",
+      "target": "0x0000"
+    },
+    {
+      "cpu_address": "0xF579",
+      "prg_offset": "0x1F579",
+      "opcode": "A5",
+      "bytes": "A5 FF",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF57B",
+      "prg_offset": "0x1F57B",
+      "opcode": "29",
+      "bytes": "29 FB",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$FB",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF57D",
+      "prg_offset": "0x1F57D",
+      "opcode": "0D",
+      "bytes": "0D 01 03",
+      "mnemonic": "ORA",
+      "mode": "abs",
+      "operand": "$0301",
+      "target": "0x0301"
+    },
+    {
+      "cpu_address": "0xF580",
+      "prg_offset": "0x1F580",
+      "opcode": "85",
+      "bytes": "85 FF",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF582",
+      "prg_offset": "0x1F582",
+      "opcode": "8D",
+      "bytes": "8D 00 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xF585",
+      "prg_offset": "0x1F585",
+      "opcode": "AE",
+      "bytes": "AE 02 20",
+      "mnemonic": "LDX",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xF588",
+      "prg_offset": "0x1F588",
+      "opcode": "A0",
+      "bytes": "A0 00",
+      "mnemonic": "LDY",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF58A",
+      "prg_offset": "0x1F58A",
+      "opcode": "F0",
+      "bytes": "F0 2B",
+      "mnemonic": "BEQ",
+      "mode": "rel",
+      "operand": "$F5B7",
+      "target": "0xF5B7"
+    },
+    {
+      "cpu_address": "0xF58C",
+      "prg_offset": "0x1F58C",
+      "opcode": "48",
+      "bytes": "48",
+      "mnemonic": "PHA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF58D",
+      "prg_offset": "0x1F58D",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF590",
+      "prg_offset": "0x1F590",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF591",
+      "prg_offset": "0x1F591",
+      "opcode": "B9",
+      "bytes": "B9 03 03",
+      "mnemonic": "LDA",
+      "mode": "absy",
+      "operand": "$0303,Y",
+      "target": "0x0303"
+    },
+    {
+      "cpu_address": "0xF594",
+      "prg_offset": "0x1F594",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF597",
+      "prg_offset": "0x1F597",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF598",
+      "prg_offset": "0x1F598",
+      "opcode": "BE",
+      "bytes": "BE 03 03",
+      "mnemonic": "LDX",
+      "mode": "absy",
+      "operand": "$0303,Y",
+      "target": "0x0303"
+    },
+    {
+      "cpu_address": "0xF59B",
+      "prg_offset": "0x1F59B",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF59C",
+      "prg_offset": "0x1F59C",
+      "opcode": "B9",
+      "bytes": "B9 03 03",
+      "mnemonic": "LDA",
+      "mode": "absy",
+      "operand": "$0303,Y",
+      "target": "0x0303"
+    },
+    {
+      "cpu_address": "0xF59F",
+      "prg_offset": "0x1F59F",
+      "opcode": "8D",
+      "bytes": "8D 07 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2007",
+      "target": "0x2007"
+    },
+    {
+      "cpu_address": "0xF5A2",
+      "prg_offset": "0x1F5A2",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5A3",
+      "prg_offset": "0x1F5A3",
+      "opcode": "D0",
+      "bytes": "D0 F6",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$F59B",
+      "target": "0xF59B"
+    },
+    {
+      "cpu_address": "0xF5A5",
+      "prg_offset": "0x1F5A5",
+      "opcode": "68",
+      "bytes": "68",
+      "mnemonic": "PLA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5A6",
+      "prg_offset": "0x1F5A6",
+      "opcode": "C9",
+      "bytes": "C9 3F",
+      "mnemonic": "CMP",
+      "mode": "imm",
+      "operand": "#$3F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5A8",
+      "prg_offset": "0x1F5A8",
+      "opcode": "D0",
+      "bytes": "D0 0C",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$F5B6",
+      "target": "0xF5B6"
+    },
+    {
+      "cpu_address": "0xF5AA",
+      "prg_offset": "0x1F5AA",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5AD",
+      "prg_offset": "0x1F5AD",
+      "opcode": "8E",
+      "bytes": "8E 06 20",
+      "mnemonic": "STX",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5B0",
+      "prg_offset": "0x1F5B0",
+      "opcode": "8E",
+      "bytes": "8E 06 20",
+      "mnemonic": "STX",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5B3",
+      "prg_offset": "0x1F5B3",
+      "opcode": "8E",
+      "bytes": "8E 06 20",
+      "mnemonic": "STX",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5B6",
+      "prg_offset": "0x1F5B6",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5B7",
+      "prg_offset": "0x1F5B7",
+      "opcode": "B9",
+      "bytes": "B9 03 03",
+      "mnemonic": "LDA",
+      "mode": "absy",
+      "operand": "$0303,Y",
+      "target": "0x0303"
+    },
+    {
+      "cpu_address": "0xF5BA",
+      "prg_offset": "0x1F5BA",
+      "opcode": "10",
+      "bytes": "10 D0",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$F58C",
+      "target": "0xF58C"
+    },
+    {
+      "cpu_address": "0xF5BC",
+      "prg_offset": "0x1F5BC",
+      "opcode": "8D",
+      "bytes": "8D 03 03",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$0303",
+      "target": "0x0303"
+    },
+    {
+      "cpu_address": "0xF5BF",
+      "prg_offset": "0x1F5BF",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5C1",
+      "prg_offset": "0x1F5C1",
+      "opcode": "8D",
+      "bytes": "8D 02 03",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$0302",
+      "target": "0x0302"
+    },
+    {
+      "cpu_address": "0xF5C4",
+      "prg_offset": "0x1F5C4",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5C5",
+      "prg_offset": "0x1F5C5",
+      "opcode": "A5",
+      "bytes": "A5 FF",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5C7",
+      "prg_offset": "0x1F5C7",
+      "opcode": "29",
+      "bytes": "29 FB",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$FB",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5C9",
+      "prg_offset": "0x1F5C9",
+      "opcode": "8D",
+      "bytes": "8D 00 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xF5CC",
+      "prg_offset": "0x1F5CC",
+      "opcode": "AD",
+      "bytes": "AD 02 20",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xF5CF",
+      "prg_offset": "0x1F5CF",
+      "opcode": "A9",
+      "bytes": "A9 3F",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$3F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5D1",
+      "prg_offset": "0x1F5D1",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5D4",
+      "prg_offset": "0x1F5D4",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5D6",
+      "prg_offset": "0x1F5D6",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5D9",
+      "prg_offset": "0x1F5D9",
+      "opcode": "A0",
+      "bytes": "A0 00",
+      "mnemonic": "LDY",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5DB",
+      "prg_offset": "0x1F5DB",
+      "opcode": "B9",
+      "bytes": "B9 50 03",
+      "mnemonic": "LDA",
+      "mode": "absy",
+      "operand": "$0350,Y",
+      "target": "0x0350"
+    },
+    {
+      "cpu_address": "0xF5DE",
+      "prg_offset": "0x1F5DE",
+      "opcode": "8D",
+      "bytes": "8D 07 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2007",
+      "target": "0x2007"
+    },
+    {
+      "cpu_address": "0xF5E1",
+      "prg_offset": "0x1F5E1",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5E2",
+      "prg_offset": "0x1F5E2",
+      "opcode": "C0",
+      "bytes": "C0 20",
+      "mnemonic": "CPY",
+      "mode": "imm",
+      "operand": "#$20",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5E4",
+      "prg_offset": "0x1F5E4",
+      "opcode": "90",
+      "bytes": "90 F5",
+      "mnemonic": "BCC",
+      "mode": "rel",
+      "operand": "$F5DB",
+      "target": "0xF5DB"
+    },
+    {
+      "cpu_address": "0xF5E6",
+      "prg_offset": "0x1F5E6",
+      "opcode": "A9",
+      "bytes": "A9 3F",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$3F",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5E8",
+      "prg_offset": "0x1F5E8",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5EB",
+      "prg_offset": "0x1F5EB",
+      "opcode": "A9",
+      "bytes": "A9 00",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xF5ED",
+      "prg_offset": "0x1F5ED",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5F0",
+      "prg_offset": "0x1F5F0",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5F3",
+      "prg_offset": "0x1F5F3",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xF5F6",
+      "prg_offset": "0x1F5F6",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB73",
+      "prg_offset": "0x1FB73",
+      "opcode": "A2",
+      "bytes": "A2 01",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB75",
+      "prg_offset": "0x1FB75",
+      "opcode": "8E",
+      "bytes": "8E 16 40",
+      "mnemonic": "STX",
+      "mode": "abs",
+      "operand": "$4016",
+      "target": "0x4016"
+    },
+    {
+      "cpu_address": "0xFB78",
+      "prg_offset": "0x1FB78",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB79",
+      "prg_offset": "0x1FB79",
+      "opcode": "8E",
+      "bytes": "8E 16 40",
+      "mnemonic": "STX",
+      "mode": "abs",
+      "operand": "$4016",
+      "target": "0x4016"
+    },
+    {
+      "cpu_address": "0xFB7C",
+      "prg_offset": "0x1FB7C",
+      "opcode": "A2",
+      "bytes": "A2 08",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$08",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB7E",
+      "prg_offset": "0x1FB7E",
+      "opcode": "AD",
+      "bytes": "AD 16 40",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$4016",
+      "target": "0x4016"
+    },
+    {
+      "cpu_address": "0xFB81",
+      "prg_offset": "0x1FB81",
+      "opcode": "4A",
+      "bytes": "4A",
+      "mnemonic": "LSR",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB82",
+      "prg_offset": "0x1FB82",
+      "opcode": "66",
+      "bytes": "66 F2",
+      "mnemonic": "ROR",
+      "mode": "zp",
+      "operand": "$F2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB84",
+      "prg_offset": "0x1FB84",
+      "opcode": "4A",
+      "bytes": "4A",
+      "mnemonic": "LSR",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB85",
+      "prg_offset": "0x1FB85",
+      "opcode": "66",
+      "bytes": "66 00",
+      "mnemonic": "ROR",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB87",
+      "prg_offset": "0x1FB87",
+      "opcode": "AD",
+      "bytes": "AD 17 40",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$4017",
+      "target": "0x4017"
+    },
+    {
+      "cpu_address": "0xFB8A",
+      "prg_offset": "0x1FB8A",
+      "opcode": "4A",
+      "bytes": "4A",
+      "mnemonic": "LSR",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB8B",
+      "prg_offset": "0x1FB8B",
+      "opcode": "66",
+      "bytes": "66 F3",
+      "mnemonic": "ROR",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB8D",
+      "prg_offset": "0x1FB8D",
+      "opcode": "4A",
+      "bytes": "4A",
+      "mnemonic": "LSR",
+      "mode": "acc",
+      "operand": "A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB8E",
+      "prg_offset": "0x1FB8E",
+      "opcode": "66",
+      "bytes": "66 01",
+      "mnemonic": "ROR",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB90",
+      "prg_offset": "0x1FB90",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB91",
+      "prg_offset": "0x1FB91",
+      "opcode": "D0",
+      "bytes": "D0 EB",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FB7E",
+      "target": "0xFB7E"
+    },
+    {
+      "cpu_address": "0xFB93",
+      "prg_offset": "0x1FB93",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB94",
+      "prg_offset": "0x1FB94",
+      "opcode": "A5",
+      "bytes": "A5 00",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB96",
+      "prg_offset": "0x1FB96",
+      "opcode": "05",
+      "bytes": "05 F2",
+      "mnemonic": "ORA",
+      "mode": "zp",
+      "operand": "$F2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB98",
+      "prg_offset": "0x1FB98",
+      "opcode": "85",
+      "bytes": "85 F2",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$F2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB9A",
+      "prg_offset": "0x1FB9A",
+      "opcode": "A5",
+      "bytes": "A5 01",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB9C",
+      "prg_offset": "0x1FB9C",
+      "opcode": "05",
+      "bytes": "05 F3",
+      "mnemonic": "ORA",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFB9E",
+      "prg_offset": "0x1FB9E",
+      "opcode": "85",
+      "bytes": "85 F3",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBA0",
+      "prg_offset": "0x1FBA0",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBA1",
+      "prg_offset": "0x1FBA1",
+      "opcode": "20",
+      "bytes": "20 73 FB",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FB73",
+      "target": "0xFB73"
+    },
+    {
+      "cpu_address": "0xFBA4",
+      "prg_offset": "0x1FBA4",
+      "opcode": "20",
+      "bytes": "20 94 FB",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FB94",
+      "target": "0xFB94"
+    },
+    {
+      "cpu_address": "0xFBA7",
+      "prg_offset": "0x1FBA7",
+      "opcode": "A5",
+      "bytes": "A5 F2",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBA9",
+      "prg_offset": "0x1FBA9",
+      "opcode": "8D",
+      "bytes": "8D E5 04",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$04E5",
+      "target": "0x04E5"
+    },
+    {
+      "cpu_address": "0xFBAC",
+      "prg_offset": "0x1FBAC",
+      "opcode": "A5",
+      "bytes": "A5 F3",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBAE",
+      "prg_offset": "0x1FBAE",
+      "opcode": "8D",
+      "bytes": "8D E6 04",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$04E6",
+      "target": "0x04E6"
+    },
+    {
+      "cpu_address": "0xFBB1",
+      "prg_offset": "0x1FBB1",
+      "opcode": "20",
+      "bytes": "20 73 FB",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FB73",
+      "target": "0xFB73"
+    },
+    {
+      "cpu_address": "0xFBB4",
+      "prg_offset": "0x1FBB4",
+      "opcode": "20",
+      "bytes": "20 94 FB",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FB94",
+      "target": "0xFB94"
+    },
+    {
+      "cpu_address": "0xFBB7",
+      "prg_offset": "0x1FBB7",
+      "opcode": "A5",
+      "bytes": "A5 F2",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F2",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBB9",
+      "prg_offset": "0x1FBB9",
+      "opcode": "CD",
+      "bytes": "CD E5 04",
+      "mnemonic": "CMP",
+      "mode": "abs",
+      "operand": "$04E5",
+      "target": "0x04E5"
+    },
+    {
+      "cpu_address": "0xFBBC",
+      "prg_offset": "0x1FBBC",
+      "opcode": "D0",
+      "bytes": "D0 E3",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FBA1",
+      "target": "0xFBA1"
+    },
+    {
+      "cpu_address": "0xFBBE",
+      "prg_offset": "0x1FBBE",
+      "opcode": "A5",
+      "bytes": "A5 F3",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$F3",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBC0",
+      "prg_offset": "0x1FBC0",
+      "opcode": "CD",
+      "bytes": "CD E6 04",
+      "mnemonic": "CMP",
+      "mode": "abs",
+      "operand": "$04E6",
+      "target": "0x04E6"
+    },
+    {
+      "cpu_address": "0xFBC3",
+      "prg_offset": "0x1FBC3",
+      "opcode": "D0",
+      "bytes": "D0 DC",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FBA1",
+      "target": "0xFBA1"
+    },
+    {
+      "cpu_address": "0xFBC5",
+      "prg_offset": "0x1FBC5",
+      "opcode": "A2",
+      "bytes": "A2 01",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBC7",
+      "prg_offset": "0x1FBC7",
+      "opcode": "B5",
+      "bytes": "B5 F2",
+      "mnemonic": "LDA",
+      "mode": "zpx",
+      "operand": "$F2,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBC9",
+      "prg_offset": "0x1FBC9",
+      "opcode": "A8",
+      "bytes": "A8",
+      "mnemonic": "TAY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBCA",
+      "prg_offset": "0x1FBCA",
+      "opcode": "55",
+      "bytes": "55 F0",
+      "mnemonic": "EOR",
+      "mode": "zpx",
+      "operand": "$F0,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBCC",
+      "prg_offset": "0x1FBCC",
+      "opcode": "35",
+      "bytes": "35 F2",
+      "mnemonic": "AND",
+      "mode": "zpx",
+      "operand": "$F2,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBCE",
+      "prg_offset": "0x1FBCE",
+      "opcode": "95",
+      "bytes": "95 F2",
+      "mnemonic": "STA",
+      "mode": "zpx",
+      "operand": "$F2,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBD0",
+      "prg_offset": "0x1FBD0",
+      "opcode": "94",
+      "bytes": "94 F0",
+      "mnemonic": "STY",
+      "mode": "zpx",
+      "operand": "$F0,X",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBD2",
+      "prg_offset": "0x1FBD2",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFBD3",
+      "prg_offset": "0x1FBD3",
+      "opcode": "10",
+      "bytes": "10 F2",
+      "mnemonic": "BPL",
+      "mode": "rel",
+      "operand": "$FBC7",
+      "target": "0xFBC7"
+    },
+    {
+      "cpu_address": "0xFBD5",
+      "prg_offset": "0x1FBD5",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC10",
+      "prg_offset": "0x1FC10",
+      "opcode": "85",
+      "bytes": "85 00",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC12",
+      "prg_offset": "0x1FC12",
+      "opcode": "86",
+      "bytes": "86 01",
+      "mnemonic": "STX",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC14",
+      "prg_offset": "0x1FC14",
+      "opcode": "84",
+      "bytes": "84 02",
+      "mnemonic": "STY",
+      "mode": "zp",
+      "operand": "$02",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC16",
+      "prg_offset": "0x1FC16",
+      "opcode": "AD",
+      "bytes": "AD 02 20",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$2002",
+      "target": "0x2002"
+    },
+    {
+      "cpu_address": "0xFC19",
+      "prg_offset": "0x1FC19",
+      "opcode": "A5",
+      "bytes": "A5 FF",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC1B",
+      "prg_offset": "0x1FC1B",
+      "opcode": "29",
+      "bytes": "29 7B",
+      "mnemonic": "AND",
+      "mode": "imm",
+      "operand": "#$7B",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC1D",
+      "prg_offset": "0x1FC1D",
+      "opcode": "8D",
+      "bytes": "8D 00 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xFC20",
+      "prg_offset": "0x1FC20",
+      "opcode": "A5",
+      "bytes": "A5 00",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC22",
+      "prg_offset": "0x1FC22",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xFC25",
+      "prg_offset": "0x1FC25",
+      "opcode": "A0",
+      "bytes": "A0 00",
+      "mnemonic": "LDY",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC27",
+      "prg_offset": "0x1FC27",
+      "opcode": "8C",
+      "bytes": "8C 06 20",
+      "mnemonic": "STY",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xFC2A",
+      "prg_offset": "0x1FC2A",
+      "opcode": "A2",
+      "bytes": "A2 04",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$04",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC2C",
+      "prg_offset": "0x1FC2C",
+      "opcode": "C9",
+      "bytes": "C9 20",
+      "mnemonic": "CMP",
+      "mode": "imm",
+      "operand": "#$20",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC2E",
+      "prg_offset": "0x1FC2E",
+      "opcode": "B0",
+      "bytes": "B0 02",
+      "mnemonic": "BCS",
+      "mode": "rel",
+      "operand": "$FC32",
+      "target": "0xFC32"
+    },
+    {
+      "cpu_address": "0xFC30",
+      "prg_offset": "0x1FC30",
+      "opcode": "A2",
+      "bytes": "A2 02",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$02",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC32",
+      "prg_offset": "0x1FC32",
+      "opcode": "A5",
+      "bytes": "A5 01",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC34",
+      "prg_offset": "0x1FC34",
+      "opcode": "8D",
+      "bytes": "8D 07 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2007",
+      "target": "0x2007"
+    },
+    {
+      "cpu_address": "0xFC37",
+      "prg_offset": "0x1FC37",
+      "opcode": "88",
+      "bytes": "88",
+      "mnemonic": "DEY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC38",
+      "prg_offset": "0x1FC38",
+      "opcode": "D0",
+      "bytes": "D0 FA",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FC34",
+      "target": "0xFC34"
+    },
+    {
+      "cpu_address": "0xFC3A",
+      "prg_offset": "0x1FC3A",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC3B",
+      "prg_offset": "0x1FC3B",
+      "opcode": "D0",
+      "bytes": "D0 F7",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FC34",
+      "target": "0xFC34"
+    },
+    {
+      "cpu_address": "0xFC3D",
+      "prg_offset": "0x1FC3D",
+      "opcode": "A4",
+      "bytes": "A4 02",
+      "mnemonic": "LDY",
+      "mode": "zp",
+      "operand": "$02",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC3F",
+      "prg_offset": "0x1FC3F",
+      "opcode": "A5",
+      "bytes": "A5 00",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC41",
+      "prg_offset": "0x1FC41",
+      "opcode": "C9",
+      "bytes": "C9 20",
+      "mnemonic": "CMP",
+      "mode": "imm",
+      "operand": "#$20",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC43",
+      "prg_offset": "0x1FC43",
+      "opcode": "90",
+      "bytes": "90 12",
+      "mnemonic": "BCC",
+      "mode": "rel",
+      "operand": "$FC57",
+      "target": "0xFC57"
+    },
+    {
+      "cpu_address": "0xFC45",
+      "prg_offset": "0x1FC45",
+      "opcode": "09",
+      "bytes": "09 03",
+      "mnemonic": "ORA",
+      "mode": "imm",
+      "operand": "#$03",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC47",
+      "prg_offset": "0x1FC47",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xFC4A",
+      "prg_offset": "0x1FC4A",
+      "opcode": "A9",
+      "bytes": "A9 C0",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$C0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC4C",
+      "prg_offset": "0x1FC4C",
+      "opcode": "8D",
+      "bytes": "8D 06 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2006",
+      "target": "0x2006"
+    },
+    {
+      "cpu_address": "0xFC4F",
+      "prg_offset": "0x1FC4F",
+      "opcode": "A2",
+      "bytes": "A2 40",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$40",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC51",
+      "prg_offset": "0x1FC51",
+      "opcode": "8C",
+      "bytes": "8C 07 20",
+      "mnemonic": "STY",
+      "mode": "abs",
+      "operand": "$2007",
+      "target": "0x2007"
+    },
+    {
+      "cpu_address": "0xFC54",
+      "prg_offset": "0x1FC54",
+      "opcode": "CA",
+      "bytes": "CA",
+      "mnemonic": "DEX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC55",
+      "prg_offset": "0x1FC55",
+      "opcode": "D0",
+      "bytes": "D0 FA",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FC51",
+      "target": "0xFC51"
+    },
+    {
+      "cpu_address": "0xFC57",
+      "prg_offset": "0x1FC57",
+      "opcode": "A6",
+      "bytes": "A6 01",
+      "mnemonic": "LDX",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFC59",
+      "prg_offset": "0x1FC59",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFD92",
+      "prg_offset": "0x1FD92",
+      "opcode": "84",
+      "bytes": "84 01",
+      "mnemonic": "STY",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFD94",
+      "prg_offset": "0x1FD94",
+      "opcode": "A0",
+      "bytes": "A0 00",
+      "mnemonic": "LDY",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFD96",
+      "prg_offset": "0x1FD96",
+      "opcode": "84",
+      "bytes": "84 00",
+      "mnemonic": "STY",
+      "mode": "zp",
+      "operand": "$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFD98",
+      "prg_offset": "0x1FD98",
+      "opcode": "91",
+      "bytes": "91 00",
+      "mnemonic": "STA",
+      "mode": "indy",
+      "operand": "($00),Y",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFD9A",
+      "prg_offset": "0x1FD9A",
+      "opcode": "C8",
+      "bytes": "C8",
+      "mnemonic": "INY",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFD9B",
+      "prg_offset": "0x1FD9B",
+      "opcode": "D0",
+      "bytes": "D0 FB",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FD98",
+      "target": "0xFD98"
+    },
+    {
+      "cpu_address": "0xFD9D",
+      "prg_offset": "0x1FD9D",
+      "opcode": "C6",
+      "bytes": "C6 01",
+      "mnemonic": "DEC",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFD9F",
+      "prg_offset": "0x1FD9F",
+      "opcode": "E4",
+      "bytes": "E4 01",
+      "mnemonic": "CPX",
+      "mode": "zp",
+      "operand": "$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDA1",
+      "prg_offset": "0x1FDA1",
+      "opcode": "F0",
+      "bytes": "F0 F5",
+      "mnemonic": "BEQ",
+      "mode": "rel",
+      "operand": "$FD98",
+      "target": "0xFD98"
+    },
+    {
+      "cpu_address": "0xFDA3",
+      "prg_offset": "0x1FDA3",
+      "opcode": "90",
+      "bytes": "90 F3",
+      "mnemonic": "BCC",
+      "mode": "rel",
+      "operand": "$FD98",
+      "target": "0xFD98"
+    },
+    {
+      "cpu_address": "0xFDA5",
+      "prg_offset": "0x1FDA5",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDA7",
+      "prg_offset": "0x1FDA7",
+      "opcode": "A9",
+      "bytes": "A9 09",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$09",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDA9",
+      "prg_offset": "0x1FDA9",
+      "opcode": "8D",
+      "bytes": "8D E4 04",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$04E4",
+      "target": "0x04E4"
+    },
+    {
+      "cpu_address": "0xFDAC",
+      "prg_offset": "0x1FDAC",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xFDAF",
+      "prg_offset": "0x1FDAF",
+      "opcode": "8A",
+      "bytes": "8A",
+      "mnemonic": "TXA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDB0",
+      "prg_offset": "0x1FDB0",
+      "opcode": "09",
+      "bytes": "09 30",
+      "mnemonic": "ORA",
+      "mode": "imm",
+      "operand": "#$30",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDB2",
+      "prg_offset": "0x1FDB2",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xFDB5",
+      "prg_offset": "0x1FDB5",
+      "opcode": "85",
+      "bytes": "85 99",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$99",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDB7",
+      "prg_offset": "0x1FDB7",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDB8",
+      "prg_offset": "0x1FDB8",
+      "opcode": "A9",
+      "bytes": "A9 0A",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDBA",
+      "prg_offset": "0x1FDBA",
+      "opcode": "8D",
+      "bytes": "8D E4 04",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$04E4",
+      "target": "0x04E4"
+    },
+    {
+      "cpu_address": "0xFDBD",
+      "prg_offset": "0x1FDBD",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xFDC0",
+      "prg_offset": "0x1FDC0",
+      "opcode": "8A",
+      "bytes": "8A",
+      "mnemonic": "TXA",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDC1",
+      "prg_offset": "0x1FDC1",
+      "opcode": "09",
+      "bytes": "09 30",
+      "mnemonic": "ORA",
+      "mode": "imm",
+      "operand": "#$30",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDC3",
+      "prg_offset": "0x1FDC3",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xFDC6",
+      "prg_offset": "0x1FDC6",
+      "opcode": "85",
+      "bytes": "85 9A",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$9A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDC8",
+      "prg_offset": "0x1FDC8",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDC9",
+      "prg_offset": "0x1FDC9",
+      "opcode": "A2",
+      "bytes": "A2 00",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$00",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDCB",
+      "prg_offset": "0x1FDCB",
+      "opcode": "A9",
+      "bytes": "A9 F0",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$F0",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDCD",
+      "prg_offset": "0x1FDCD",
+      "opcode": "9D",
+      "bytes": "9D 00 02",
+      "mnemonic": "STA",
+      "mode": "absx",
+      "operand": "$0200,X",
+      "target": "0x0200"
+    },
+    {
+      "cpu_address": "0xFDD0",
+      "prg_offset": "0x1FDD0",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDD1",
+      "prg_offset": "0x1FDD1",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDD2",
+      "prg_offset": "0x1FDD2",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDD3",
+      "prg_offset": "0x1FDD3",
+      "opcode": "E8",
+      "bytes": "E8",
+      "mnemonic": "INX",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFDD4",
+      "prg_offset": "0x1FDD4",
+      "opcode": "D0",
+      "bytes": "D0 F7",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FDCD",
+      "target": "0xFDCD"
+    },
+    {
+      "cpu_address": "0xFDD6",
+      "prg_offset": "0x1FDD6",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE27",
+      "prg_offset": "0x1FE27",
+      "opcode": "A5",
+      "bytes": "A5 FF",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE29",
+      "prg_offset": "0x1FE29",
+      "opcode": "09",
+      "bytes": "09 80",
+      "mnemonic": "ORA",
+      "mode": "imm",
+      "operand": "#$80",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE2B",
+      "prg_offset": "0x1FE2B",
+      "opcode": "85",
+      "bytes": "85 FF",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$FF",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE2D",
+      "prg_offset": "0x1FE2D",
+      "opcode": "8D",
+      "bytes": "8D 00 20",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$2000",
+      "target": "0x2000"
+    },
+    {
+      "cpu_address": "0xFE30",
+      "prg_offset": "0x1FE30",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE3B",
+      "prg_offset": "0x1FE3B",
+      "opcode": "85",
+      "bytes": "85 74",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$74",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE3D",
+      "prg_offset": "0x1FE3D",
+      "opcode": "E6",
+      "bytes": "E6 75",
+      "mnemonic": "INC",
+      "mode": "zp",
+      "operand": "$75",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE3F",
+      "prg_offset": "0x1FE3F",
+      "opcode": "A5",
+      "bytes": "A5 74",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$74",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE41",
+      "prg_offset": "0x1FE41",
+      "opcode": "D0",
+      "bytes": "D0 FA",
+      "mnemonic": "BNE",
+      "mode": "rel",
+      "operand": "$FE3D",
+      "target": "0xFE3D"
+    },
+    {
+      "cpu_address": "0xFE43",
+      "prg_offset": "0x1FE43",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE4D",
+      "prg_offset": "0x1FE4D",
+      "opcode": "A9",
+      "bytes": "A9 1E",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$1E",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE4F",
+      "prg_offset": "0x1FE4F",
+      "opcode": "85",
+      "bytes": "85 FE",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$FE",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE51",
+      "prg_offset": "0x1FE51",
+      "opcode": "A9",
+      "bytes": "A9 01",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$01",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE53",
+      "prg_offset": "0x1FE53",
+      "opcode": "20",
+      "bytes": "20 3B FE",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FE3B",
+      "target": "0xFE3B"
+    },
+    {
+      "cpu_address": "0xFE56",
+      "prg_offset": "0x1FE56",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE57",
+      "prg_offset": "0x1FE57",
+      "opcode": "A5",
+      "bytes": "A5 99",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$99",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE59",
+      "prg_offset": "0x1FE59",
+      "opcode": "8D",
+      "bytes": "8D E2 04",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$04E2",
+      "target": "0x04E2"
+    },
+    {
+      "cpu_address": "0xFE5C",
+      "prg_offset": "0x1FE5C",
+      "opcode": "A5",
+      "bytes": "A5 9A",
+      "mnemonic": "LDA",
+      "mode": "zp",
+      "operand": "$9A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE5E",
+      "prg_offset": "0x1FE5E",
+      "opcode": "8D",
+      "bytes": "8D E3 04",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$04E3",
+      "target": "0x04E3"
+    },
+    {
+      "cpu_address": "0xFE61",
+      "prg_offset": "0x1FE61",
+      "opcode": "A2",
+      "bytes": "A2 0C",
+      "mnemonic": "LDX",
+      "mode": "imm",
+      "operand": "#$0C",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE63",
+      "prg_offset": "0x1FE63",
+      "opcode": "20",
+      "bytes": "20 A7 FD",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$FDA7",
+      "target": "0xFDA7"
+    },
+    {
+      "cpu_address": "0xFE66",
+      "prg_offset": "0x1FE66",
+      "opcode": "20",
+      "bytes": "20 09 80",
+      "mnemonic": "JSR",
+      "mode": "abs",
+      "operand": "$8009",
+      "target": "0x8009"
+    },
+    {
+      "cpu_address": "0xFE69",
+      "prg_offset": "0x1FE69",
+      "opcode": "A9",
+      "bytes": "A9 09",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$09",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE6B",
+      "prg_offset": "0x1FE6B",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xFE6E",
+      "prg_offset": "0x1FE6E",
+      "opcode": "AD",
+      "bytes": "AD E2 04",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$04E2",
+      "target": "0x04E2"
+    },
+    {
+      "cpu_address": "0xFE71",
+      "prg_offset": "0x1FE71",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xFE74",
+      "prg_offset": "0x1FE74",
+      "opcode": "85",
+      "bytes": "85 99",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$99",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE76",
+      "prg_offset": "0x1FE76",
+      "opcode": "A9",
+      "bytes": "A9 0A",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE78",
+      "prg_offset": "0x1FE78",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xFE7B",
+      "prg_offset": "0x1FE7B",
+      "opcode": "AD",
+      "bytes": "AD E3 04",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$04E3",
+      "target": "0x04E3"
+    },
+    {
+      "cpu_address": "0xFE7E",
+      "prg_offset": "0x1FE7E",
+      "opcode": "09",
+      "bytes": "09 30",
+      "mnemonic": "ORA",
+      "mode": "imm",
+      "operand": "#$30",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE80",
+      "prg_offset": "0x1FE80",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xFE83",
+      "prg_offset": "0x1FE83",
+      "opcode": "85",
+      "bytes": "85 9A",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$9A",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE85",
+      "prg_offset": "0x1FE85",
+      "opcode": "A9",
+      "bytes": "A9 0B",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0B",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE87",
+      "prg_offset": "0x1FE87",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xFE8A",
+      "prg_offset": "0x1FE8A",
+      "opcode": "A9",
+      "bytes": "A9 0E",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0E",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE8C",
+      "prg_offset": "0x1FE8C",
+      "opcode": "09",
+      "bytes": "09 30",
+      "mnemonic": "ORA",
+      "mode": "imm",
+      "operand": "#$30",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE8E",
+      "prg_offset": "0x1FE8E",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xFE91",
+      "prg_offset": "0x1FE91",
+      "opcode": "85",
+      "bytes": "85 9B",
+      "mnemonic": "STA",
+      "mode": "zp",
+      "operand": "$9B",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFE93",
+      "prg_offset": "0x1FE93",
+      "opcode": "AD",
+      "bytes": "AD E4 04",
+      "mnemonic": "LDA",
+      "mode": "abs",
+      "operand": "$04E4",
+      "target": "0x04E4"
+    },
+    {
+      "cpu_address": "0xFE96",
+      "prg_offset": "0x1FE96",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xFE99",
+      "prg_offset": "0x1FE99",
+      "opcode": "60",
+      "bytes": "60",
+      "mnemonic": "RTS",
+      "mode": "imp",
+      "operand": "",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFFD0",
+      "prg_offset": "0x1FFD0",
+      "opcode": "A9",
+      "bytes": "A9 0B",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$0B",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFFD2",
+      "prg_offset": "0x1FFD2",
+      "opcode": "8D",
+      "bytes": "8D 00 80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$8000",
+      "target": "0x8000"
+    },
+    {
+      "cpu_address": "0xFFD5",
+      "prg_offset": "0x1FFD5",
+      "opcode": "A9",
+      "bytes": "A9 1E",
+      "mnemonic": "LDA",
+      "mode": "imm",
+      "operand": "#$1E",
+      "target": null
+    },
+    {
+      "cpu_address": "0xFFD7",
+      "prg_offset": "0x1FFD7",
+      "opcode": "8D",
+      "bytes": "8D 00 A0",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "operand": "$A000",
+      "target": "0xA000"
+    },
+    {
+      "cpu_address": "0xFFDA",
+      "prg_offset": "0x1FFDA",
+      "opcode": "4C",
+      "bytes": "4C 00 D8",
+      "mnemonic": "JMP",
+      "mode": "abs",
+      "operand": "$D800",
+      "target": "0xD800"
+    }
+  ],
+  "edges": [
+    {
+      "from": "0xD811",
+      "kind": "branch",
+      "to": "0xD80E"
+    },
+    {
+      "from": "0xD816",
+      "kind": "branch",
+      "to": "0xD813"
+    },
+    {
+      "from": "0xD819",
+      "kind": "branch",
+      "to": "0xD80E"
+    },
+    {
+      "from": "0xD81E",
+      "kind": "branch",
+      "to": "0xD81B"
+    },
+    {
+      "from": "0xD823",
+      "kind": "branch",
+      "to": "0xD820"
+    },
+    {
+      "from": "0xD835",
+      "kind": "branch",
+      "to": "0xD831"
+    },
+    {
+      "from": "0xD84B",
+      "kind": "jsr",
+      "to": "0xFDA7"
+    },
+    {
+      "from": "0xD84E",
+      "kind": "jsr",
+      "to": "0x8000"
+    },
+    {
+      "from": "0xD851",
+      "kind": "jsr",
+      "to": "0xD9E7"
+    },
+    {
+      "from": "0xD860",
+      "kind": "branch",
+      "to": "0xD857"
+    },
+    {
+      "from": "0xD867",
+      "kind": "jsr",
+      "to": "0xDA1E"
+    },
+    {
+      "from": "0xD88A",
+      "kind": "jmp",
+      "to": "0xDA79"
+    },
+    {
+      "from": "0xDA7D",
+      "kind": "jsr",
+      "to": "0xFDC9"
+    },
+    {
+      "from": "0xDA80",
+      "kind": "jsr",
+      "to": "0xDB3B"
+    },
+    {
+      "from": "0xDA83",
+      "kind": "jsr",
+      "to": "0xDB88"
+    },
+    {
+      "from": "0xDA86",
+      "kind": "jsr",
+      "to": "0xFE27"
+    },
+    {
+      "from": "0xDA89",
+      "kind": "jsr",
+      "to": "0xFE4D"
+    },
+    {
+      "from": "0xDA8E",
+      "kind": "branch",
+      "to": "0xDA92"
+    },
+    {
+      "from": "0xFE53",
+      "kind": "jsr",
+      "to": "0xFE3B"
+    },
+    {
+      "from": "0xFE41",
+      "kind": "branch",
+      "to": "0xFE3D"
+    },
+    {
+      "from": "0xDB69",
+      "kind": "branch",
+      "to": "0xDB6C"
+    },
+    {
+      "from": "0xDB77",
+      "kind": "jsr",
+      "to": "0xFC10"
+    },
+    {
+      "from": "0xDB7C",
+      "kind": "jsr",
+      "to": "0xFC10"
+    },
+    {
+      "from": "0xDB81",
+      "kind": "jsr",
+      "to": "0xFC10"
+    },
+    {
+      "from": "0xFC2E",
+      "kind": "branch",
+      "to": "0xFC32"
+    },
+    {
+      "from": "0xFC38",
+      "kind": "branch",
+      "to": "0xFC34"
+    },
+    {
+      "from": "0xFC3B",
+      "kind": "branch",
+      "to": "0xFC34"
+    },
+    {
+      "from": "0xFC43",
+      "kind": "branch",
+      "to": "0xFC57"
+    },
+    {
+      "from": "0xFC55",
+      "kind": "branch",
+      "to": "0xFC51"
+    },
+    {
+      "from": "0xFDD4",
+      "kind": "branch",
+      "to": "0xFDCD"
+    },
+    {
+      "from": "0xDA24",
+      "kind": "branch",
+      "to": "0xDA21"
+    },
+    {
+      "from": "0xDA2A",
+      "kind": "branch",
+      "to": "0xDA26"
+    },
+    {
+      "from": "0xDA30",
+      "kind": "jsr",
+      "to": "0xFD92"
+    },
+    {
+      "from": "0xFD9B",
+      "kind": "branch",
+      "to": "0xFD98"
+    },
+    {
+      "from": "0xFDA1",
+      "kind": "branch",
+      "to": "0xFD98"
+    },
+    {
+      "from": "0xFDA3",
+      "kind": "branch",
+      "to": "0xFD98"
+    },
+    {
+      "from": "0xD92F",
+      "kind": "jsr",
+      "to": "0xD9E7"
+    },
+    {
+      "from": "0xD892",
+      "kind": "jsr",
+      "to": "0xD9E7"
+    },
+    {
+      "from": "0xD89B",
+      "kind": "branch",
+      "to": "0xD897"
+    },
+    {
+      "from": "0xD8B6",
+      "kind": "branch",
+      "to": "0xD8BB"
+    },
+    {
+      "from": "0xD8B8",
+      "kind": "jsr",
+      "to": "0xF5C5"
+    },
+    {
+      "from": "0xD8BD",
+      "kind": "branch",
+      "to": "0xD8C2"
+    },
+    {
+      "from": "0xD8BF",
+      "kind": "jsr",
+      "to": "0xF579"
+    },
+    {
+      "from": "0xD8C6",
+      "kind": "branch",
+      "to": "0xD8F3"
+    },
+    {
+      "from": "0xD8D8",
+      "kind": "jsr",
+      "to": "0xD9C3"
+    },
+    {
+      "from": "0xD8DD",
+      "kind": "branch",
+      "to": "0xD8F3"
+    },
+    {
+      "from": "0xD8E8",
+      "kind": "jsr",
+      "to": "0xD9B2"
+    },
+    {
+      "from": "0xD8F0",
+      "kind": "jsr",
+      "to": "0xD9F8"
+    },
+    {
+      "from": "0xD8FF",
+      "kind": "branch",
+      "to": "0xD8F5"
+    },
+    {
+      "from": "0xD901",
+      "kind": "jsr",
+      "to": "0xFBA1"
+    },
+    {
+      "from": "0xD904",
+      "kind": "jsr",
+      "to": "0xDA44"
+    },
+    {
+      "from": "0xD907",
+      "kind": "jsr",
+      "to": "0xFE57"
+    },
+    {
+      "from": "0xD90C",
+      "kind": "branch",
+      "to": "0xD910"
+    },
+    {
+      "from": "0xD912",
+      "kind": "branch",
+      "to": "0xD91A"
+    },
+    {
+      "from": "0xD922",
+      "kind": "branch",
+      "to": "0xD91C"
+    },
+    {
+      "from": "0xFE63",
+      "kind": "jsr",
+      "to": "0xFDA7"
+    },
+    {
+      "from": "0xFE66",
+      "kind": "jsr",
+      "to": "0x8009"
+    },
+    {
+      "from": "0xDA49",
+      "kind": "branch",
+      "to": "0xDA67"
+    },
+    {
+      "from": "0xFBA1",
+      "kind": "jsr",
+      "to": "0xFB73"
+    },
+    {
+      "from": "0xFBA4",
+      "kind": "jsr",
+      "to": "0xFB94"
+    },
+    {
+      "from": "0xFBB1",
+      "kind": "jsr",
+      "to": "0xFB73"
+    },
+    {
+      "from": "0xFBB4",
+      "kind": "jsr",
+      "to": "0xFB94"
+    },
+    {
+      "from": "0xFBBC",
+      "kind": "branch",
+      "to": "0xFBA1"
+    },
+    {
+      "from": "0xFBC3",
+      "kind": "branch",
+      "to": "0xFBA1"
+    },
+    {
+      "from": "0xFBD3",
+      "kind": "branch",
+      "to": "0xFBC7"
+    },
+    {
+      "from": "0xFB91",
+      "kind": "branch",
+      "to": "0xFB7E"
+    },
+    {
+      "from": "0xF58A",
+      "kind": "branch",
+      "to": "0xF5B7"
+    },
+    {
+      "from": "0xF5A3",
+      "kind": "branch",
+      "to": "0xF59B"
+    },
+    {
+      "from": "0xF5A8",
+      "kind": "branch",
+      "to": "0xF5B6"
+    },
+    {
+      "from": "0xF5BA",
+      "kind": "branch",
+      "to": "0xF58C"
+    },
+    {
+      "from": "0xF5E4",
+      "kind": "branch",
+      "to": "0xF5DB"
+    },
+    {
+      "from": "0xFFDA",
+      "kind": "jmp",
+      "to": "0xD800"
+    }
+  ],
+  "stop_reasons": {
+    "D84E": "jsr_target_outside_static_windows",
+    "DAA6": "indirect_or_unmapped_jmp",
+    "DB9C": "indirect_or_unmapped_jmp",
+    "D932": "indirect_or_unmapped_jmp",
+    "FE66": "jsr_target_outside_static_windows"
+  },
+  "limitations": [
+    "6502 control-flow traversal is best-effort",
+    "bank switches may invalidate static CPU-to-PRG mapping after mapper writes",
+    "indirect jumps/calls and data-driven dispatch are unresolved"
+  ]
+}

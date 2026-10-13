@@ -1,0 +1,152 @@
+{
+  "schema_version": "1.0",
+  "rom": "pyokotan.nes",
+  "rom_crc32": "8A929318",
+  "mapper": 69,
+  "prg_8k_bank_count": 16,
+  "facts": {
+    "nmi_vector": "0xD88D",
+    "reset_vector": "0xFFD0",
+    "irq_brk_vector": "0xD92A",
+    "fixed_table_start_prg_offset": "0x1DE86",
+    "table_bank_index": 14,
+    "table_bank_relative_offset": "0x1E86",
+    "table_straddles_bank14_to_bank15": true
+  },
+  "static_inference": {
+    "candidate_mapping": "PRG bank 14 at CPU $C000-$DFFF; final PRG bank 15 at CPU $E000-$FFFF",
+    "why": "NMI/IRQ targets $D88D/$D92A fall inside the $C000-$DFFF window and resolve into physical PRG bank 14 under this mapping; reset target $FFD0 resolves into the last/fixed bank. The fixed-width table starts at $DE86 and its last row extends into $E000, making the byte layout contiguous under this mapping.",
+    "confidence": "strong static inference, not runtime-confirmed; mapper register state could change during execution and vectors can be handled by code that switches banks."
+  },
+  "vector_resolutions": [
+    {
+      "vector": "nmi",
+      "cpu_target": "0xD88D",
+      "physical_offset_if_bank14_at_C000": "0x1D88D",
+      "is_in_bank14": true
+    },
+    {
+      "vector": "reset",
+      "cpu_target": "0xFFD0",
+      "physical_offset_if_bank15_fixed_at_E000": "0x1FFD0",
+      "is_in_fixed_last_bank": true
+    },
+    {
+      "vector": "irq_brk",
+      "cpu_target": "0xD92A",
+      "physical_offset_if_bank14_at_C000": "0x1D92A",
+      "is_in_bank14": true
+    }
+  ],
+  "fixed_table_rows": [
+    {
+      "index": 0,
+      "prg_offset": "0x1DE86",
+      "bank14_relative_offset": "0x1E86",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDE86",
+      "file_offset": "0x1DE96",
+      "raw_ascii": "P Y O K O T A N",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 1,
+      "prg_offset": "0x1DEA8",
+      "bank14_relative_offset": "0x1EA8",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDEA8",
+      "file_offset": "0x1DEB8",
+      "raw_ascii": "1992 SUN-SOFT / JSS !",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 2,
+      "prg_offset": "0x1DECA",
+      "bank14_relative_offset": "0x1ECA",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDECA",
+      "file_offset": "0x1DEDA",
+      "raw_ascii": "STAGE  1 2 3 4   PYOKO-WATARI !",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 3,
+      "prg_offset": "0x1DEEC",
+      "bank14_relative_offset": "0x1EEC",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDEEC",
+      "file_offset": "0x1DEFC",
+      "raw_ascii": "CANDY-YASAN  !",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 4,
+      "prg_offset": "0x1DF0E",
+      "bank14_relative_offset": "0x1F0E",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDF0E",
+      "file_offset": "0x1DF1E",
+      "raw_ascii": "APPLE-TREE   !",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 5,
+      "prg_offset": "0x1DF30",
+      "bank14_relative_offset": "0x1F30",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDF30",
+      "file_offset": "0x1DF40",
+      "raw_ascii": "PYOKO_MEKURI \"",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 6,
+      "prg_offset": "0x1DF52",
+      "bank14_relative_offset": "0x1F52",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDF52",
+      "file_offset": "0x1DF62",
+      "raw_ascii": "PYOKO_MELODY \"",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 7,
+      "prg_offset": "0x1DF74",
+      "bank14_relative_offset": "0x1F74",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDF74",
+      "file_offset": "0x1DF84",
+      "raw_ascii": "BONUS BOSS   \"",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 8,
+      "prg_offset": "0x1DF96",
+      "bank14_relative_offset": "0x1F96",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDF96",
+      "file_offset": "0x1DFA6",
+      "raw_ascii": "NOTICE. --- SAMPLE V1.62 ---  \"",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 9,
+      "prg_offset": "0x1DFB8",
+      "bank14_relative_offset": "0x1FB8",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDFB8",
+      "file_offset": "0x1DFC8",
+      "raw_ascii": "START ------- STANDARD PLAY.  \"",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 10,
+      "prg_offset": "0x1DFDA",
+      "bank14_relative_offset": "0x1FDA",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDFDA",
+      "file_offset": "0x1DFEA",
+      "raw_ascii": "A-KEY -------   SELECT PLAY.  #",
+      "payload_crosses_into_next_bank": false
+    },
+    {
+      "index": 11,
+      "prg_offset": "0x1DFFC",
+      "bank14_relative_offset": "0x1FFC",
+      "cpu_address_if_bank14_mapped_at_C000": "0xDFFC",
+      "file_offset": "0x1E00C",
+      "raw_ascii": "SELECT ------    CROM CHECK.  #",
+      "payload_crosses_into_next_bank": true
+    }
+  ],
+  "warning": "This is a hypothesized bank map. Confirm by logging mapper 69 writes and reads while the title/menu appears; do not use this alone to patch ROM bytes."
+}

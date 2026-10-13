@@ -1,0 +1,128 @@
+PYOKOTAN NO DAI MEIRO (NES) — STAGE 3 ANALYSIS
+==============================================
+
+Scope of this pass
+------------------
+This stage improves address-layout confidence, adds a full printable-run census,
+adds an emulator trace logger/analyzer workflow, and fixes a .tbl parsing bug that
+silently removed mapped spaces from the prior text JSON. This remains a static
+analysis package: the actual game was not executed in an emulator in this workspace.
+No ROM patch is included.
+
+ROM identity / fingerprint
+--------------------------
+Filename: pyokotan.nes
+Header: NES 2.0
+File size: 262,160 bytes
+Mapper: 69 (Sunsoft FME-7), submapper 0
+PRG ROM: 131,072 bytes (16 x 8 KiB banks)
+CHR ROM: 131,072 bytes (16 x 8 KiB banks)
+Full-file CRC32: 8A929318
+PRG+CHR CRC32: 4339865C
+PRG CRC32: BD7B1CD2
+CHR CRC32: 0033D1CF
+SHA-1: 67fba2e82d78d512466d98bcc9fe11f8e229cb11
+Vectors stored in the final PRG bytes: NMI $D88D, RESET $FFD0, IRQ/BRK $D92A.
+
+Bank mapping inference (new in stage 3)
+---------------------------------------
+The 12-row 32-byte table begins at PRG offset 0x1DE86, which is bank 14 at relative
+offset 0x1E86. Under a bank-14-at-$C000 mapping, this table starts at CPU address
+$DE86. The NMI and IRQ/BRK target addresses ($D88D/$D92A) also resolve to physical
+PRG bank 14 in the $C000-$DFFF window. The reset target $FFD0 resolves into the
+final bank (bank 15) under its fixed $E000-$FFFF mapping. The last row begins at
+PRG 0x1DFFC and extends across the $DFFF/$E000 boundary into bank 15. This makes
+all 12 rows contiguous in CPU address space under the hypothesis.
+
+Status: strong static inference, not a runtime-confirmed mapper state. The game may
+change mapper registers during execution; vector destinations and byte layout alone
+do not prove the active mapping at the moment text is rendered. See
+outputs/bank_mapping_audit.json.
+
+Observed text-like fields
+------------------------
+A 12-row fixed-stride structure starts at PRG offset 0x1DE86 and repeats every
+0x22 bytes. Each row has a 32-byte ASCII payload plus 2 trailing bytes of unknown
+purpose. The 32-byte payload capacity is established for these records only; it is
+not a general limit for game dialogue.
+
+The rows include:
+- title letters spaced as "P Y O K O T A N"
+- "1992 SUN-SOFT / JSS !"
+- "STAGE  1 2 3 4   PYOKO-WATARI !"
+- "CANDY-YASAN", "APPLE-TREE", "PYOKO_MEKURI", "PYOKO_MELODY", "BONUS BOSS"
+- menu/help-like labels including "NOTICE. --- SAMPLE V1.62 ---",
+  "START ------- STANDARD PLAY.", "A-KEY ------- SELECT PLAY.", and
+  "SELECT ------ CROM CHECK."
+
+A second literal ASCII template at PRG 0x0943F reads "SCORE 000000 ... LIFE 0 ... #".
+Developer/diagnostic ASCII spans include "DATE. 1992-12/20" and "01:10.20".
+A second alphabet-like region at PRG offsets 0x1E12F-0x1E19C includes ordered
+punctuation, digits, uppercase letters, and lowercase letters. It is retained as a
+possible charset/diagnostic sequence, not classified as player dialogue.
+
+Critical extraction fix
+-----------------------
+The previous extraction utility called strip() on each entire .tbl line. Since the
+space mapping is written as "20= " (one significant space after the equals sign),
+that erased the mapping value. Consequently the previous JSON dump omitted spaces
+from its original_text fields. Stage 3 fixes the loader to preserve mapping values
+exactly, and the new pyokotan_text_dump_v3.json asserts that decoded length equals
+raw byte length for the extracted records. Use v3 outputs for translation; treat the
+previous v2 text dump as historical only.
+
+Charset conclusions
+-------------------
+- ASCII byte codes 0x20-0x7E are supported by literal strings and correspond to
+  visible ASCII glyph tiles in CHR bank 0.
+- CHR tile indices 0x91-0x9F visually resemble ア through ソ in sequence; 0x90 and
+  0xB0 resemble a long-vowel dash. These non-ASCII readings remain provisional
+  because the renderer's tile-ID route has not been traced.
+- The rest of the extended codes remain <XX> placeholders in pyokotan_v3.tbl.
+- No blanket JIS X 0201 assignment is made for 0xA1-0xDF.
+- The table is a conservative working map, not a verified complete Japanese script.
+
+String and pointer census
+-------------------------
+The new printable-run scanner finds 1,635 contiguous PRG runs of bytes 0x20-0x7E
+with a minimum length of five. Most are false positives from graphics, lookup tables,
+or structured data. Ten runs pass a deliberately loose readability heuristic; the
+shortlist still contains false positives, so they are not automatically promoted to
+text records. Existing directly observed text/template records remain the more
+reliable extraction.
+
+The heuristic pointer scan finds 87 monotonically increasing little-endian word
+sequences with addresses in $8000-$FFFF and gaps no greater than 0x100. These are
+address-shaped candidates only, not validated pointer tables. The leading sequence
+has targets that look binary under the illustrative same-bank mapping. No general
+text pointer table or dialogue-string termination scheme has been confirmed.
+
+New runtime tracing tool
+------------------------
+`tools/pyokotan_fceux_text_trace.lua` watches:
+- reads in CPU $DE86-$E01D under the bank-14-at-$C000 hypothesis,
+- writes to $8000-$BFFF (candidate mapper 69 command/data writes), and
+- writes to CPU PPU registers $2000-$2007.
+
+The CSV analyzer is `tools/trace_log_analyzer.py`; capture steps are documented in
+`outputs/runtime_trace_instructions.md`. The script uses the FCEUX Lua API shape for
+memory.registerread/registerwrite, memory.getregister, and emu.framecount, documented
+at https://fceux.com/web/help/LuaFunctionsList.html. The script was not run here,
+so check the emulator's Lua console for version-specific issues. A zero read count
+is inconclusive and does not prove a region is unused.
+
+What is not yet done
+--------------------
+- No complete game dialogue dump.
+- No runtime-verified pointer table, text terminator, or control-code map.
+- No verified glyph map for every Japanese character.
+- No Vietnamese diacritic glyph insertion or patched ROM.
+- No emulator screenshot/behavioral validation.
+
+Recommended next action
+-----------------------
+Run the included FCEUX Lua logger from power-on while displaying the title/menu and
+then a screen with Japanese text. Analyze the resulting CSV. Use the observed mapper
+writes, text-region reads, and PPU $2006/$2007 writes to confirm the actual bank map,
+then trace the byte-to-tile routine and terminator before expanding extraction or
+writing a translation patch.

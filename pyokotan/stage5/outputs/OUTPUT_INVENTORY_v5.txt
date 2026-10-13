@@ -1,0 +1,30 @@
+PYOKOTAN STAGE 5 — OUTPUT INVENTORY
+
+Analysis and summary:
+- pyokotan_rom_analysis_v5.txt
+- pyokotan_stage5_summary.json
+- pyokotan_chr_inventory_summary_v5.json
+
+CHR datasets:
+- pyokotan_chr_tile_inventory_v5.csv (8,192 tile records)
+- pyokotan_chr_tile_inventory_v5.json (8,192 tile records)
+- pyokotan_chr_page_summary_v5.csv (16 physical 8 KiB pages)
+- pyokotan_chr_exact_duplicates_v5.json (exact raw-pattern duplicates)
+- pyokotan_font_candidate_catalog_v5.csv (256 candidate indices)
+- pyokotan_font_candidate_catalog_v5.json (256 candidate indices)
+
+Current localization source files:
+- pyokotan.tbl (same conservative v3 table, included for convenience)
+- pyokotan_text_dump_v3.json (same partial v3 text dump, included for continuity)
+
+Runtime tracing:
+- ../tools/pyokotan_fceux_text_trace_v2.lua
+- ../tools/trace_log_analyzer_v2.py
+- runtime_trace_instructions_v2.md
+- ../templates/runtime_trace_v2_header.csv
+
+Visual references:
+- chr_tiles_0000_00ff_upscaled.png
+- chr_tiles_0100_01ff_upscaled.png
+- chr_physical_page_00_full.png
+- chr_physical_page_00.png through chr_physical_page_15.png

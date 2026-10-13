@@ -1,0 +1,1616 @@
+{
+  "schema_version": "2.0",
+  "rom": "pyokotan.nes",
+  "rom_crc32": "8A929318",
+  "method": "Little-endian 16-bit words in $8000-$FFFF with monotonically increasing targets and gaps <= 0x100.",
+  "important_caveat": "These are address-shaped sequences, not proven pointer tables. Mapper 69 bank register state is required to resolve target addresses.",
+  "candidate_count": 87,
+  "candidates": [
+    {
+      "table_prg_offset": "0x113D2",
+      "table_file_offset": "0x113E2",
+      "count": 30,
+      "target_cpu_addresses": [
+        "0x95CA",
+        "0x9631",
+        "0x9652",
+        "0x9673",
+        "0x9694",
+        "0x96B5",
+        "0x96D6",
+        "0x96F7",
+        "0x9718",
+        "0x9739",
+        "0x975A",
+        "0x977B",
+        "0x979C",
+        "0x97BD",
+        "0x97DE",
+        "0x97FF",
+        "0x9820",
+        "0x9841",
+        "0x9862",
+        "0x9883",
+        "0x98A4",
+        "0x98C5",
+        "0x98CA",
+        "0x98CF",
+        "0x98D8",
+        "0x98E1",
+        "0x98EE",
+        "0x98FB",
+        "0x9908",
+        "0x9915"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only",
+      "same_bank8_target_audit": [
+        {
+          "cpu_target": "0x95CA",
+          "assumed_prg_offset_if_bank8": "0x115CA",
+          "bytes_hex": "0A 60 02 61 02 62 02 70 02 71 02 72 02 0A 63 03 64 03 65 03 73 03 74 03",
+          "ascii_printable_ratio_24": 0.458
+        },
+        {
+          "cpu_target": "0x9631",
+          "assumed_prg_offset_if_bank8": "0x11631",
+          "bytes_hex": "1B C0 03 C1 03 C2 03 C3 03 D0 03 D1 03 D2 03 D3 03 E0 03 E1 03 E2 03 E3",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9652",
+          "assumed_prg_offset_if_bank8": "0x11652",
+          "bytes_hex": "1B C4 03 C5 03 C6 03 C7 03 D4 03 D5 03 D6 03 D7 03 E4 03 E5 03 E6 03 E7",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9673",
+          "assumed_prg_offset_if_bank8": "0x11673",
+          "bytes_hex": "1B C8 03 C9 03 CA 03 CB 03 D8 03 D9 03 DA 03 DB 03 E8 03 E9 03 EA 03 EB",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9694",
+          "assumed_prg_offset_if_bank8": "0x11694",
+          "bytes_hex": "1B CC 03 CD 03 CE 03 CF 03 DC 03 DD 03 DE 03 DF 03 EC 03 ED 03 EE 03 EF",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x96B5",
+          "assumed_prg_offset_if_bank8": "0x116B5",
+          "bytes_hex": "1B C0 03 C1 03 C2 03 C3 03 D0 03 D1 03 D2 03 D3 03 E0 03 E1 03 E2 03 E3",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x96D6",
+          "assumed_prg_offset_if_bank8": "0x116D6",
+          "bytes_hex": "1B C4 03 C5 03 C6 03 C7 03 D4 03 D5 03 D6 03 D7 03 E4 03 E5 03 E6 03 E7",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x96F7",
+          "assumed_prg_offset_if_bank8": "0x116F7",
+          "bytes_hex": "1B C8 03 C9 03 CA 03 CB 03 D8 03 D9 03 DA 03 DB 03 E8 03 E9 03 EA 03 EB",
+          "ascii_printable_ratio_24": 0.0
+        }
+      ]
+    },
+    {
+      "table_prg_offset": "0x1139A",
+      "table_file_offset": "0x113AA",
+      "count": 26,
+      "target_cpu_addresses": [
+        "0x94F9",
+        "0x9520",
+        "0x952D",
+        "0x953A",
+        "0x9543",
+        "0x954C",
+        "0x9555",
+        "0x955E",
+        "0x9567",
+        "0x9570",
+        "0x9579",
+        "0x9582",
+        "0x958B",
+        "0x9594",
+        "0x959D",
+        "0x95A6",
+        "0x95AF",
+        "0x95B8",
+        "0x95C1",
+        "0x95CA",
+        "0x95D7",
+        "0x95E4",
+        "0x95F1",
+        "0x95FE",
+        "0x960F",
+        "0x9620"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only",
+      "same_bank8_target_audit": [
+        {
+          "cpu_target": "0x94F9",
+          "assumed_prg_offset_if_bank8": "0x114F9",
+          "bytes_hex": "11 0B 40 0A 40 1B 40 1A 40 2B 41 2A 41 11 0D 40 0C 40 1D 40 1C 40 2D 41",
+          "ascii_printable_ratio_24": 0.583
+        },
+        {
+          "cpu_target": "0x9520",
+          "assumed_prg_offset_if_bank8": "0x11520",
+          "bytes_hex": "11 3B 40 3A 40 4B 40 4A 40 5B 41 5A 41 11 3D 40 3C 40 4D 40 4C 40 5D 41",
+          "ascii_printable_ratio_24": 0.917
+        },
+        {
+          "cpu_target": "0x952D",
+          "assumed_prg_offset_if_bank8": "0x1152D",
+          "bytes_hex": "11 3D 40 3C 40 4D 40 4C 40 5D 41 5C 41 09 80 02 81 02 90 02 91 02 09 82",
+          "ascii_printable_ratio_24": 0.5
+        },
+        {
+          "cpu_target": "0x953A",
+          "assumed_prg_offset_if_bank8": "0x1153A",
+          "bytes_hex": "09 80 02 81 02 90 02 91 02 09 82 02 83 02 92 02 93 02 09 84 02 85 02 94",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9543",
+          "assumed_prg_offset_if_bank8": "0x11543",
+          "bytes_hex": "09 82 02 83 02 92 02 93 02 09 84 02 85 02 94 02 95 02 09 86 02 87 02 96",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x954C",
+          "assumed_prg_offset_if_bank8": "0x1154C",
+          "bytes_hex": "09 84 02 85 02 94 02 95 02 09 86 02 87 02 96 02 97 02 09 88 03 89 03 98",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9555",
+          "assumed_prg_offset_if_bank8": "0x11555",
+          "bytes_hex": "09 86 02 87 02 96 02 97 02 09 88 03 89 03 98 03 99 03 09 8A 03 8B 03 9A",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x955E",
+          "assumed_prg_offset_if_bank8": "0x1155E",
+          "bytes_hex": "09 88 03 89 03 98 03 99 03 09 8A 03 8B 03 9A 03 9B 03 09 8C 03 8D 03 9C",
+          "ascii_printable_ratio_24": 0.0
+        }
+      ]
+    },
+    {
+      "table_prg_offset": "0x02618",
+      "table_file_offset": "0x02628",
+      "count": 20,
+      "target_cpu_addresses": [
+        "0xA640",
+        "0xA643",
+        "0xA646",
+        "0xA649",
+        "0xA64C",
+        "0xA64F",
+        "0xA652",
+        "0xA655",
+        "0xA658",
+        "0xA65B",
+        "0xA65E",
+        "0xA661",
+        "0xA664",
+        "0xA667",
+        "0xA66A",
+        "0xA66D",
+        "0xA670",
+        "0xA673",
+        "0xA676",
+        "0xA679"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x0267E",
+      "table_file_offset": "0x0268E",
+      "count": 20,
+      "target_cpu_addresses": [
+        "0xA6A6",
+        "0xA6AA",
+        "0xA6AE",
+        "0xA6B2",
+        "0xA6B6",
+        "0xA6BA",
+        "0xA6BE",
+        "0xA6C2",
+        "0xA6C6",
+        "0xA6CA",
+        "0xA6CE",
+        "0xA6D2",
+        "0xA6D6",
+        "0xA6DA",
+        "0xA6DE",
+        "0xA6E2",
+        "0xA6E6",
+        "0xA6EA",
+        "0xA6EE",
+        "0xA6F2"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x026F8",
+      "table_file_offset": "0x02708",
+      "count": 20,
+      "target_cpu_addresses": [
+        "0xA720",
+        "0xA725",
+        "0xA72A",
+        "0xA72F",
+        "0xA734",
+        "0xA739",
+        "0xA73E",
+        "0xA743",
+        "0xA748",
+        "0xA74D",
+        "0xA752",
+        "0xA757",
+        "0xA75C",
+        "0xA761",
+        "0xA766",
+        "0xA76B",
+        "0xA770",
+        "0xA775",
+        "0xA77A",
+        "0xA77F"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x02786",
+      "table_file_offset": "0x02796",
+      "count": 20,
+      "target_cpu_addresses": [
+        "0xA7AE",
+        "0xA7B4",
+        "0xA7BA",
+        "0xA7C0",
+        "0xA7C6",
+        "0xA7CC",
+        "0xA7D2",
+        "0xA7D8",
+        "0xA7DE",
+        "0xA7E4",
+        "0xA7EA",
+        "0xA7F0",
+        "0xA7F6",
+        "0xA7FC",
+        "0xA802",
+        "0xA808",
+        "0xA80E",
+        "0xA814",
+        "0xA81A",
+        "0xA820"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11410",
+      "table_file_offset": "0x11420",
+      "count": 19,
+      "target_cpu_addresses": [
+        "0x991A",
+        "0x9927",
+        "0x9930",
+        "0x9939",
+        "0x993C",
+        "0x9949",
+        "0x9952",
+        "0x995B",
+        "0x9960",
+        "0x9969",
+        "0x9972",
+        "0x997B",
+        "0x9984",
+        "0x998D",
+        "0x99A0",
+        "0x99B3",
+        "0x99C6",
+        "0x99D9",
+        "0x99FA"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only",
+      "same_bank8_target_audit": [
+        {
+          "cpu_target": "0x991A",
+          "assumed_prg_offset_if_bank8": "0x1191A",
+          "bytes_hex": "05 C7 01 E8 00 F8 00 CC 00 DC 00 DB 01 03 E9 01 F9 01 CD 01 DD 01 03 EA",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9927",
+          "assumed_prg_offset_if_bank8": "0x11927",
+          "bytes_hex": "03 E9 01 F9 01 CD 01 DD 01 03 EA 01 FA 01 CE 01 DE 01 00 C0 01 05 C7 01",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9930",
+          "assumed_prg_offset_if_bank8": "0x11930",
+          "bytes_hex": "03 EA 01 FA 01 CE 01 DE 01 00 C0 01 05 C7 01 EB 00 FB 00 CF 00 DF 00 DB",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9939",
+          "assumed_prg_offset_if_bank8": "0x11939",
+          "bytes_hex": "00 C0 01 05 C7 01 EB 00 FB 00 CF 00 DF 00 DB 01 03 EC 01 FC 01 ED 01 FF",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x993C",
+          "assumed_prg_offset_if_bank8": "0x1193C",
+          "bytes_hex": "05 C7 01 EB 00 FB 00 CF 00 DF 00 DB 01 03 EC 01 FC 01 ED 01 FF 01 03 C0",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9949",
+          "assumed_prg_offset_if_bank8": "0x11949",
+          "bytes_hex": "03 EC 01 FC 01 ED 01 FF 01 03 C0 01 FD 01 EE 01 F0 01 01 FE 01 EF 01 09",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x9952",
+          "assumed_prg_offset_if_bank8": "0x11952",
+          "bytes_hex": "03 C0 01 FD 01 EE 01 F0 01 01 FE 01 EF 01 09 C0 01 D0 01 C1 01 D1 01 09",
+          "ascii_printable_ratio_24": 0.0
+        },
+        {
+          "cpu_target": "0x995B",
+          "assumed_prg_offset_if_bank8": "0x1195B",
+          "bytes_hex": "01 FE 01 EF 01 09 C0 01 D0 01 C1 01 D1 01 09 C2 01 D2 01 C3 01 D3 01 09",
+          "ascii_printable_ratio_24": 0.0
+        }
+      ],
+      "assessment": "targets look like binary/layout data under same-bank assumption, not ordinary ASCII strings; text-pointer role unconfirmed"
+    },
+    {
+      "table_prg_offset": "0x1209C",
+      "table_file_offset": "0x120AC",
+      "count": 16,
+      "target_cpu_addresses": [
+        "0xA0BC",
+        "0xA0CF",
+        "0xA0EE",
+        "0xA10D",
+        "0xA12C",
+        "0xA14B",
+        "0xA16A",
+        "0xA173",
+        "0xA17C",
+        "0xA185",
+        "0xA18E",
+        "0xA197",
+        "0xA1A0",
+        "0xA1A9",
+        "0xA1BA",
+        "0xA1CB"
+      ],
+      "table_prg_8k_bank": 9,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x028E4",
+      "table_file_offset": "0x028F4",
+      "count": 10,
+      "target_cpu_addresses": [
+        "0xA8F8",
+        "0xA90C",
+        "0xA919",
+        "0xA920",
+        "0xA92E",
+        "0xA93B",
+        "0xA94B",
+        "0xA958",
+        "0xA967",
+        "0xA975"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x02828",
+      "table_file_offset": "0x02838",
+      "count": 8,
+      "target_cpu_addresses": [
+        "0xA838",
+        "0xA840",
+        "0xA848",
+        "0xA850",
+        "0xA858",
+        "0xA860",
+        "0xA868",
+        "0xA870"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1DC34",
+      "table_file_offset": "0x1DC44",
+      "count": 8,
+      "target_cpu_addresses": [
+        "0xDC44",
+        "0xDC4C",
+        "0xDC54",
+        "0xDC5C",
+        "0xDC64",
+        "0xDC6C",
+        "0xDC74",
+        "0xDC7C"
+      ],
+      "table_prg_8k_bank": 14,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1ED04",
+      "table_file_offset": "0x1ED14",
+      "count": 8,
+      "target_cpu_addresses": [
+        "0xF00D",
+        "0xF026",
+        "0xF02F",
+        "0xF03D",
+        "0xF050",
+        "0xF137",
+        "0xF13D",
+        "0xF14B"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1E046",
+      "table_file_offset": "0x1E056",
+      "count": 8,
+      "target_cpu_addresses": [
+        "0x8985",
+        "0x8A85",
+        "0x8B85",
+        "0x8C85",
+        "0x8D85",
+        "0x8E85",
+        "0x8F85",
+        "0x9085"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11376",
+      "table_file_offset": "0x11386",
+      "count": 6,
+      "target_cpu_addresses": [
+        "0x9436",
+        "0x945D",
+        "0x946A",
+        "0x9477",
+        "0x9484",
+        "0x9491"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only",
+      "same_bank8_target_audit": [
+        {
+          "cpu_target": "0x9436",
+          "assumed_prg_offset_if_bank8": "0x11436",
+          "bytes_hex": "11 00 00 01 00 10 00 11 00 20 01 21 01 11 02 00 03 00 12 00 13 00 22 01",
+          "ascii_printable_ratio_24": 0.125
+        },
+        {
+          "cpu_target": "0x945D",
+          "assumed_prg_offset_if_bank8": "0x1145D",
+          "bytes_hex": "11 06 00 07 00 16 00 17 00 26 01 27 01 11 08 00 09 00 18 00 19 00 28 01",
+          "ascii_printable_ratio_24": 0.125
+        },
+        {
+          "cpu_target": "0x946A",
+          "assumed_prg_offset_if_bank8": "0x1146A",
+          "bytes_hex": "11 08 00 09 00 18 00 19 00 28 01 29 01 11 30 00 31 00 40 00 41 00 50 01",
+          "ascii_printable_ratio_24": 0.292
+        },
+        {
+          "cpu_target": "0x9477",
+          "assumed_prg_offset_if_bank8": "0x11477",
+          "bytes_hex": "11 30 00 31 00 40 00 41 00 50 01 51 01 11 32 00 33 00 42 00 43 00 52 01",
+          "ascii_printable_ratio_24": 0.458
+        },
+        {
+          "cpu_target": "0x9484",
+          "assumed_prg_offset_if_bank8": "0x11484",
+          "bytes_hex": "11 32 00 33 00 42 00 43 00 52 01 53 01 11 34 00 35 00 44 00 45 00 54 01",
+          "ascii_printable_ratio_24": 0.458
+        },
+        {
+          "cpu_target": "0x9491",
+          "assumed_prg_offset_if_bank8": "0x11491",
+          "bytes_hex": "11 34 00 35 00 44 00 45 00 54 01 55 01 11 36 00 37 00 46 00 47 00 56 01",
+          "ascii_printable_ratio_24": 0.458
+        }
+      ]
+    },
+    {
+      "table_prg_offset": "0x11382",
+      "table_file_offset": "0x11392",
+      "count": 6,
+      "target_cpu_addresses": [
+        "0x9477",
+        "0x949E",
+        "0x94AB",
+        "0x94B8",
+        "0x94C5",
+        "0x94D2"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only",
+      "same_bank8_target_audit": [
+        {
+          "cpu_target": "0x9477",
+          "assumed_prg_offset_if_bank8": "0x11477",
+          "bytes_hex": "11 30 00 31 00 40 00 41 00 50 01 51 01 11 32 00 33 00 42 00 43 00 52 01",
+          "ascii_printable_ratio_24": 0.458
+        },
+        {
+          "cpu_target": "0x949E",
+          "assumed_prg_offset_if_bank8": "0x1149E",
+          "bytes_hex": "11 36 00 37 00 46 00 47 00 56 01 57 01 11 38 00 39 00 48 00 49 00 58 01",
+          "ascii_printable_ratio_24": 0.458
+        },
+        {
+          "cpu_target": "0x94AB",
+          "assumed_prg_offset_if_bank8": "0x114AB",
+          "bytes_hex": "11 38 00 39 00 48 00 49 00 58 01 59 01 11 0A 00 0B 00 1A 00 1B 00 2A 01",
+          "ascii_printable_ratio_24": 0.292
+        },
+        {
+          "cpu_target": "0x94B8",
+          "assumed_prg_offset_if_bank8": "0x114B8",
+          "bytes_hex": "11 0A 00 0B 00 1A 00 1B 00 2A 01 2B 01 11 0C 00 0D 00 1C 00 1D 00 2C 01",
+          "ascii_printable_ratio_24": 0.125
+        },
+        {
+          "cpu_target": "0x94C5",
+          "assumed_prg_offset_if_bank8": "0x114C5",
+          "bytes_hex": "11 0C 00 0D 00 1C 00 1D 00 2C 01 2D 01 11 0E 00 0F 00 1E 00 1F 00 2E 01",
+          "ascii_printable_ratio_24": 0.125
+        },
+        {
+          "cpu_target": "0x94D2",
+          "assumed_prg_offset_if_bank8": "0x114D2",
+          "bytes_hex": "11 0E 00 0F 00 1E 00 1F 00 2E 01 2F 01 11 3A 00 3B 00 4A 00 4B 00 5A 01",
+          "ascii_printable_ratio_24": 0.292
+        }
+      ]
+    },
+    {
+      "table_prg_offset": "0x1138E",
+      "table_file_offset": "0x1139E",
+      "count": 6,
+      "target_cpu_addresses": [
+        "0x94B8",
+        "0x94DF",
+        "0x94EC",
+        "0x94F9",
+        "0x9506",
+        "0x9513"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only",
+      "same_bank8_target_audit": [
+        {
+          "cpu_target": "0x94B8",
+          "assumed_prg_offset_if_bank8": "0x114B8",
+          "bytes_hex": "11 0A 00 0B 00 1A 00 1B 00 2A 01 2B 01 11 0C 00 0D 00 1C 00 1D 00 2C 01",
+          "ascii_printable_ratio_24": 0.125
+        },
+        {
+          "cpu_target": "0x94DF",
+          "assumed_prg_offset_if_bank8": "0x114DF",
+          "bytes_hex": "11 3A 00 3B 00 4A 00 4B 00 5A 01 5B 01 11 3C 00 3D 00 4C 00 4D 00 5C 01",
+          "ascii_printable_ratio_24": 0.458
+        },
+        {
+          "cpu_target": "0x94EC",
+          "assumed_prg_offset_if_bank8": "0x114EC",
+          "bytes_hex": "11 3C 00 3D 00 4C 00 4D 00 5C 01 5D 01 11 0B 40 0A 40 1B 40 1A 40 2B 41",
+          "ascii_printable_ratio_24": 0.5
+        },
+        {
+          "cpu_target": "0x94F9",
+          "assumed_prg_offset_if_bank8": "0x114F9",
+          "bytes_hex": "11 0B 40 0A 40 1B 40 1A 40 2B 41 2A 41 11 0D 40 0C 40 1D 40 1C 40 2D 41",
+          "ascii_printable_ratio_24": 0.583
+        },
+        {
+          "cpu_target": "0x9506",
+          "assumed_prg_offset_if_bank8": "0x11506",
+          "bytes_hex": "11 0D 40 0C 40 1D 40 1C 40 2D 41 2C 41 11 0F 40 0E 40 1F 40 1E 40 2F 41",
+          "ascii_printable_ratio_24": 0.583
+        },
+        {
+          "cpu_target": "0x9513",
+          "assumed_prg_offset_if_bank8": "0x11513",
+          "bytes_hex": "11 0F 40 0E 40 1F 40 1E 40 2F 41 2E 41 11 3B 40 3A 40 4B 40 4A 40 5B 41",
+          "ascii_printable_ratio_24": 0.75
+        }
+      ]
+    },
+    {
+      "table_prg_offset": "0x1E78E",
+      "table_file_offset": "0x1E79E",
+      "count": 6,
+      "target_cpu_addresses": [
+        "0xE7B2",
+        "0xE7BB",
+        "0xE7D6",
+        "0xE7DF",
+        "0xE86E",
+        "0xE877"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x106C2",
+      "table_file_offset": "0x106D2",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0x86CC",
+        "0x86D0",
+        "0x86D4",
+        "0x86D8",
+        "0x86DC"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only",
+      "same_bank8_target_audit": [
+        {
+          "cpu_target": "0x86CC",
+          "assumed_prg_offset_if_bank8": "0x106CC",
+          "bytes_hex": "0B 0E 0F 0B 10 11 12 13 17 14 15 16 1D 1A 1B 1C 21 21 21 21 A5 3A 8D F9",
+          "ascii_printable_ratio_24": 0.208
+        },
+        {
+          "cpu_target": "0x86D0",
+          "assumed_prg_offset_if_bank8": "0x106D0",
+          "bytes_hex": "10 11 12 13 17 14 15 16 1D 1A 1B 1C 21 21 21 21 A5 3A 8D F9 04 CE F9 04",
+          "ascii_printable_ratio_24": 0.208
+        },
+        {
+          "cpu_target": "0x86D4",
+          "assumed_prg_offset_if_bank8": "0x106D4",
+          "bytes_hex": "17 14 15 16 1D 1A 1B 1C 21 21 21 21 A5 3A 8D F9 04 CE F9 04 A5 3B 8D FA",
+          "ascii_printable_ratio_24": 0.25
+        },
+        {
+          "cpu_target": "0x86D8",
+          "assumed_prg_offset_if_bank8": "0x106D8",
+          "bytes_hex": "1D 1A 1B 1C 21 21 21 21 A5 3A 8D F9 04 CE F9 04 A5 3B 8D FA 04 CE FA 04",
+          "ascii_printable_ratio_24": 0.25
+        },
+        {
+          "cpu_target": "0x86DC",
+          "assumed_prg_offset_if_bank8": "0x106DC",
+          "bytes_hex": "21 21 21 21 A5 3A 8D F9 04 CE F9 04 A5 3B 8D FA 04 CE FA 04 A5 55 8D FB",
+          "ascii_printable_ratio_24": 0.292
+        }
+      ],
+      "assessment": "targets look like binary/layout data under same-bank assumption, not ordinary ASCII strings; text-pointer role unconfirmed"
+    },
+    {
+      "table_prg_offset": "0x0167E",
+      "table_file_offset": "0x0168E",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0x9686",
+        "0x968B",
+        "0x9691",
+        "0x9698",
+        "0x969F"
+      ],
+      "table_prg_8k_bank": 0,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1EC4C",
+      "table_file_offset": "0x1EC5C",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0xC660",
+        "0xC689",
+        "0xC68A",
+        "0xC68B",
+        "0xC68C"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1DD22",
+      "table_file_offset": "0x1DD32",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0xDDC2",
+        "0xDDCE",
+        "0xDDDA",
+        "0xDDE6",
+        "0xDDF2"
+      ],
+      "table_prg_8k_bank": 14,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x00E4C",
+      "table_file_offset": "0x00E5C",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0x8500",
+        "0x8538",
+        "0x8539",
+        "0x853A",
+        "0x853B"
+      ],
+      "table_prg_8k_bank": 0,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x121E6",
+      "table_file_offset": "0x121F6",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0xA204",
+        "0xA228",
+        "0xA231",
+        "0xA23E",
+        "0xA24B"
+      ],
+      "table_prg_8k_bank": 9,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x094A4",
+      "table_file_offset": "0x094B4",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0x8500",
+        "0x8533",
+        "0x8535",
+        "0x8551",
+        "0x8552"
+      ],
+      "table_prg_8k_bank": 4,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x121F0",
+      "table_file_offset": "0x12200",
+      "count": 5,
+      "target_cpu_addresses": [
+        "0xA231",
+        "0xA258",
+        "0xA265",
+        "0xA272",
+        "0xA2C4"
+      ],
+      "table_prg_8k_bank": 9,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1EC56",
+      "table_file_offset": "0x1EC66",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xC689",
+        "0xC68A",
+        "0xC68B",
+        "0xC68C"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1EC5E",
+      "table_file_offset": "0x1EC6E",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xC689",
+        "0xC68A",
+        "0xC68B",
+        "0xC68C"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x18212",
+      "table_file_offset": "0x18222",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x8500",
+        "0x8510",
+        "0x8511",
+        "0x8512"
+      ],
+      "table_prg_8k_bank": 12,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1ED24",
+      "table_file_offset": "0x1ED34",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xEEB4",
+        "0xEEBA",
+        "0xEEC0",
+        "0xEEC6"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x025EA",
+      "table_file_offset": "0x025FA",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xA5F2",
+        "0xA5F9",
+        "0xA602",
+        "0xA60B"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x0287A",
+      "table_file_offset": "0x0288A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xA882",
+        "0xA88C",
+        "0xA896",
+        "0xA8A0"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x028AC",
+      "table_file_offset": "0x028BC",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xA8B4",
+        "0xA8C0",
+        "0xA8CC",
+        "0xA8D8"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x023C4",
+      "table_file_offset": "0x023D4",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x85A9",
+        "0x85D3",
+        "0x85D4",
+        "0x85D5"
+      ],
+      "table_prg_8k_bank": 1,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1E79E",
+      "table_file_offset": "0x1E7AE",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xE7E8",
+        "0xE7FE",
+        "0xE80B",
+        "0xE814"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x0A66C",
+      "table_file_offset": "0x0A67C",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x8500",
+        "0x8536",
+        "0x8537",
+        "0x8538"
+      ],
+      "table_prg_8k_bank": 5,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x00926",
+      "table_file_offset": "0x00936",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x8930",
+        "0x893D",
+        "0x8952",
+        "0x896F"
+      ],
+      "table_prg_8k_bank": 0,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1E780",
+      "table_file_offset": "0x1E790",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xE84A",
+        "0xE853",
+        "0xE85C",
+        "0xE892"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x007E8",
+      "table_file_offset": "0x007F8",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x8500",
+        "0x8540",
+        "0x8541",
+        "0x854E"
+      ],
+      "table_prg_8k_bank": 0,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x121FA",
+      "table_file_offset": "0x1220A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xA29B",
+        "0xA2ED",
+        "0xA30C",
+        "0xA326"
+      ],
+      "table_prg_8k_bank": 9,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x0874E",
+      "table_file_offset": "0x0875E",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x8756",
+        "0x878B",
+        "0x87C2",
+        "0x87F9"
+      ],
+      "table_prg_8k_bank": 4,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1DD40",
+      "table_file_offset": "0x1DD50",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xDD6C",
+        "0xDD78",
+        "0xDD86",
+        "0xDE52"
+      ],
+      "table_prg_8k_bank": 14,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1DD30",
+      "table_file_offset": "0x1DD40",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xDD54",
+        "0xDD60",
+        "0xDE3A",
+        "0xDE46"
+      ],
+      "table_prg_8k_bank": 14,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x0009C",
+      "table_file_offset": "0x000AC",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x8500",
+        "0x8525",
+        "0x85F4",
+        "0x85F5"
+      ],
+      "table_prg_8k_bank": 0,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x09966",
+      "table_file_offset": "0x09976",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x98E7",
+        "0x9970",
+        "0x99C7",
+        "0x9A06"
+      ],
+      "table_prg_8k_bank": 4,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11652",
+      "table_file_offset": "0x11662",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11694",
+      "table_file_offset": "0x116A4",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x116D6",
+      "table_file_offset": "0x116E6",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11718",
+      "table_file_offset": "0x11728",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1175A",
+      "table_file_offset": "0x1176A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1179C",
+      "table_file_offset": "0x117AC",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x117DE",
+      "table_file_offset": "0x117EE",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11820",
+      "table_file_offset": "0x11830",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11862",
+      "table_file_offset": "0x11872",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x118A4",
+      "table_file_offset": "0x118B4",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1165A",
+      "table_file_offset": "0x1166A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11662",
+      "table_file_offset": "0x11672",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1166A",
+      "table_file_offset": "0x1167A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1169C",
+      "table_file_offset": "0x116AC",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x116A4",
+      "table_file_offset": "0x116B4",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x116AC",
+      "table_file_offset": "0x116BC",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x116DE",
+      "table_file_offset": "0x116EE",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x116E6",
+      "table_file_offset": "0x116F6",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x116EE",
+      "table_file_offset": "0x116FE",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11720",
+      "table_file_offset": "0x11730",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11728",
+      "table_file_offset": "0x11738",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11730",
+      "table_file_offset": "0x11740",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11762",
+      "table_file_offset": "0x11772",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1176A",
+      "table_file_offset": "0x1177A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11772",
+      "table_file_offset": "0x11782",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x117A4",
+      "table_file_offset": "0x117B4",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x117AC",
+      "table_file_offset": "0x117BC",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x117B4",
+      "table_file_offset": "0x117C4",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x117E6",
+      "table_file_offset": "0x117F6",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x117EE",
+      "table_file_offset": "0x117FE",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x117F6",
+      "table_file_offset": "0x11806",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11828",
+      "table_file_offset": "0x11838",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11830",
+      "table_file_offset": "0x11840",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11838",
+      "table_file_offset": "0x11848",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1186A",
+      "table_file_offset": "0x1187A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x11872",
+      "table_file_offset": "0x11882",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1187A",
+      "table_file_offset": "0x1188A",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x118AC",
+      "table_file_offset": "0x118BC",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x118B4",
+      "table_file_offset": "0x118C4",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "table_prg_8k_bank": 8,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1EC2C",
+      "table_file_offset": "0x1EC3C",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1EC34",
+      "table_file_offset": "0x1EC44",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1EC3C",
+      "table_file_offset": "0x1EC4C",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    },
+    {
+      "table_prg_offset": "0x1EC44",
+      "table_file_offset": "0x1EC54",
+      "count": 4,
+      "target_cpu_addresses": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "table_prg_8k_bank": 15,
+      "confidence": "low; monotonic address-shaped words only"
+    }
+  ]
+}

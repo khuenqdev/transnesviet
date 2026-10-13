@@ -1,0 +1,128 @@
+{
+  "schema_version": "1.0",
+  "rom": "pyokotan.nes",
+  "rom_sha1": "67fba2e82d78d512466d98bcc9fe11f8e229cb11",
+  "method": "Search the 128 KiB PRG region for little-endian CPU start addresses of the 12 fixed-width ASCII rows.",
+  "total_raw_matches": 3,
+  "rows": [
+    {
+      "row": 0,
+      "prg_target": "0x1DE86",
+      "cpu_row_address_under_reset_map": "0xDE86",
+      "target_word_le_hex": "86 DE",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 1,
+      "prg_target": "0x1DEA8",
+      "cpu_row_address_under_reset_map": "0xDEA8",
+      "target_word_le_hex": "A8 DE",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 2,
+      "prg_target": "0x1DECA",
+      "cpu_row_address_under_reset_map": "0xDECA",
+      "target_word_le_hex": "CA DE",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 3,
+      "prg_target": "0x1DEEC",
+      "cpu_row_address_under_reset_map": "0xDEEC",
+      "target_word_le_hex": "EC DE",
+      "raw_prg_match_count": 3,
+      "matches": [
+        {
+          "prg_offset": "0x1EEB9",
+          "bank_8k": 15,
+          "cpu_address_if_fixed_map": "0xEEB9",
+          "context_hex": "E0 03 4C AB EC DE E0 03 4C AB",
+          "note": "Raw byte occurrence only; code/data/pointer meaning is unconfirmed"
+        },
+        {
+          "prg_offset": "0x1EEC5",
+          "bank_8k": 15,
+          "cpu_address_if_fixed_map": "0xEEC5",
+          "context_hex": "F0 03 4C AB EC DE F0 03 4C AB",
+          "note": "Raw byte occurrence only; code/data/pointer meaning is unconfirmed"
+        },
+        {
+          "prg_offset": "0x1F02E",
+          "bank_8k": 15,
+          "cpu_address_if_fixed_map": "0xF02E",
+          "context_hex": "60 04 4C AB EC DE 60 04 D0 D9",
+          "note": "Raw byte occurrence only; code/data/pointer meaning is unconfirmed"
+        }
+      ]
+    },
+    {
+      "row": 4,
+      "prg_target": "0x1DF0E",
+      "cpu_row_address_under_reset_map": "0xDF0E",
+      "target_word_le_hex": "0E DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 5,
+      "prg_target": "0x1DF30",
+      "cpu_row_address_under_reset_map": "0xDF30",
+      "target_word_le_hex": "30 DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 6,
+      "prg_target": "0x1DF52",
+      "cpu_row_address_under_reset_map": "0xDF52",
+      "target_word_le_hex": "52 DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 7,
+      "prg_target": "0x1DF74",
+      "cpu_row_address_under_reset_map": "0xDF74",
+      "target_word_le_hex": "74 DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 8,
+      "prg_target": "0x1DF96",
+      "cpu_row_address_under_reset_map": "0xDF96",
+      "target_word_le_hex": "96 DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 9,
+      "prg_target": "0x1DFB8",
+      "cpu_row_address_under_reset_map": "0xDFB8",
+      "target_word_le_hex": "B8 DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 10,
+      "prg_target": "0x1DFDA",
+      "cpu_row_address_under_reset_map": "0xDFDA",
+      "target_word_le_hex": "DA DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    },
+    {
+      "row": 11,
+      "prg_target": "0x1DFFC",
+      "cpu_row_address_under_reset_map": "0xDFFC",
+      "target_word_le_hex": "FC DF",
+      "raw_prg_match_count": 0,
+      "matches": []
+    }
+  ],
+  "interpretation": "No raw matches strongly reduces the chance of a simple table of direct row-start pointers. Matches that exist are unconfirmed and may be false positives. The game could compute row addresses from a base plus a stride, keep pointers outside PRG, or access them through a banked/data-driven routine."
+}

@@ -1,0 +1,94 @@
+{
+  "schema_version": "1.0",
+  "rom_chr_crc32": "0033D1CF",
+  "basis": "Visual inspection of CHR bank-0 atlas; not a runtime trace.",
+  "confirmed_logical_encoding": "ASCII 0x20-0x7E in literal data strings.",
+  "provisional_glyph_readings": {
+    "0x90": {
+      "character": "ー",
+      "confidence": "medium",
+      "notes": "Long-vowel dash visible in atlas; text-code path not confirmed."
+    },
+    "0x91": {
+      "character": "ア",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x92": {
+      "character": "イ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x93": {
+      "character": "ウ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x94": {
+      "character": "エ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x95": {
+      "character": "オ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x96": {
+      "character": "カ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x97": {
+      "character": "キ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x98": {
+      "character": "ク",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x99": {
+      "character": "ケ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x9A": {
+      "character": "コ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x9B": {
+      "character": "サ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x9C": {
+      "character": "シ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x9D": {
+      "character": "ス",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x9E": {
+      "character": "セ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0x9F": {
+      "character": "ソ",
+      "confidence": "medium",
+      "notes": "Visual glyph reading; code-to-tile path not confirmed."
+    },
+    "0xB0": {
+      "character": "ー",
+      "confidence": "medium",
+      "notes": "Tile looks like the long-vowel dash, visually duplicated at 0x90."
+    }
+  },
+  "not_claimed": "The character codes used by every text-drawing routine have not been confirmed. Extended bytes outside this small manually reviewed set are deliberately unmapped."
+}

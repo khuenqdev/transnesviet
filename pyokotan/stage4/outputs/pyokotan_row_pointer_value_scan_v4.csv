@@ -1,0 +1,13 @@
+row,prg_target,cpu_row_address_under_reset_map,target_word_le_hex,raw_prg_match_count,match_prg_offsets,match_contexts
+0,0x1DE86,0xDE86,86 DE,0,,
+1,0x1DEA8,0xDEA8,A8 DE,0,,
+2,0x1DECA,0xDECA,CA DE,0,,
+3,0x1DEEC,0xDEEC,EC DE,3,0x1EEB9;0x1EEC5;0x1F02E,E0 03 4C AB EC DE E0 03 4C AB;F0 03 4C AB EC DE F0 03 4C AB;60 04 4C AB EC DE 60 04 D0 D9
+4,0x1DF0E,0xDF0E,0E DF,0,,
+5,0x1DF30,0xDF30,30 DF,0,,
+6,0x1DF52,0xDF52,52 DF,0,,
+7,0x1DF74,0xDF74,74 DF,0,,
+8,0x1DF96,0xDF96,96 DF,0,,
+9,0x1DFB8,0xDFB8,B8 DF,0,,
+10,0x1DFDA,0xDFDA,DA DF,0,,
+11,0x1DFFC,0xDFFC,FC DF,0,,

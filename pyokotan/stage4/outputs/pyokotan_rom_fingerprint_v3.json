@@ -1,0 +1,23 @@
+{
+  "filename": "pyokotan.nes",
+  "file_size": 262160,
+  "header_hex": "4E 45 53 1A 08 10 50 48 00 00 00 00 00 00 00 01",
+  "format": "NES 2.0",
+  "mapper": 69,
+  "submapper": 0,
+  "prg_bytes": 131072,
+  "prg_8k_banks": 16,
+  "chr_bytes": 131072,
+  "chr_8k_banks": 16,
+  "crc32_file": "8A929318",
+  "crc32_prg_chr": "4339865C",
+  "crc32_prg": "BD7B1CD2",
+  "crc32_chr": "0033D1CF",
+  "sha1": "67fba2e82d78d512466d98bcc9fe11f8e229cb11",
+  "vectors": {
+    "nmi": "0xD88D",
+    "reset": "0xFFD0",
+    "irq_brk": "0xD92A",
+    "bytes_hex": "8D D8 D0 FF 2A D9"
+  }
+}

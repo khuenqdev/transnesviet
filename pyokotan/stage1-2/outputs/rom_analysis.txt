@@ -1,0 +1,145 @@
+PYOKOTAN NO DAI MEIRO (NES) — ROM LOCALIZATION ANALYSIS
+=====================================================
+
+STATUS
+------
+This is a conservative static-analysis pass. It identifies the ROM, confirms a
+visible ASCII label block and HUD template, creates a starter .tbl, and emits
+reproducible scripts plus pointer-like candidates. It does NOT claim a complete
+Japanese dialogue dump: the extended Japanese mapping and all runtime text
+references have not yet been verified.
+
+1. ROM ID AND LAYOUT
+--------------------
+Input: pyokotan.nes
+Detected title: Pyokotan no Dai Meiro (Japanese title: ぴょこたんの大迷路)
+Platform/region: Famicom / NES, Japan
+Publisher/developer: Sunsoft / Japan System Supply
+Catalog release: 19 March 1993
+Header: NES 2.0
+Header bytes: 4E 45 53 1A 08 10 50 48 00 00 00 00 00 00 00 01
+Mapper: 69 (Sunsoft FME-7)
+Mirroring flag: horizontal (actual mirroring may be controlled by mapper)
+PRG ROM: 131,072 bytes = 16 x 8 KiB banks (8 x 16 KiB)
+CHR ROM: 131,072 bytes = 16 x 8 KiB banks
+ROM size including 16-byte header: 262,160 bytes
+CRC32, full file: 8A929318
+CRC32, PRG + CHR (excluding header): 4339865C
+CRC32, PRG only: BD7B1CD2
+CRC32, CHR only: 0033D1CF
+SHA-1, full file: 67fba2e82d78d512466d98bcc9fe11f8e229cb11
+
+The PRG+CHR checksum matches the catalog fingerprint for Pyokotan no Dai Meiro.
+Reference metadata:
+- https://nescartdb.com/profile/view/3856/pyokotan-no-dai-meiro
+- https://www.nesdev.org/wiki/JxROM (mapper-family / FME-7 background)
+
+Offset convention used below:
+- PRG offset = offset from the first PRG byte, not including the 16-byte header.
+- File offset = absolute offset into the .nes file; file offset = PRG offset + 0x10.
+- Mapper 69 switches 8 KiB PRG banks, so a CPU address like $9436 does not map
+to a unique file offset without knowing which PRG bank is active in that slot.
+
+2. CHARSET / .TBL FINDINGS
+--------------------------
+Strongly supported:
+- Bytes 0x20–0x7E behave as printable ASCII in the readable embedded rows.
+- The CHR bank-0 tile atlas shows a matching ASCII-style tile range.
+- The 32-byte label rows include literal ASCII such as "PYOKOTAN",
+  "PYOKO-WATARI", "CANDY-YASAN", "APPLE-TREE", "START", and "SELECT".
+
+Provisional:
+- CHR bank 0 shows Japanese glyphs in extended ranges. The provided pyokotan.tbl
+  includes the standard JIS X 0201 half-width katakana mapping for 0xA1–0xDF,
+  consistent with a common Japanese 8-bit charset. Confirm this mapping in an
+  emulator before using it for injection.
+- Byte 0x90 visually duplicates the long-vowel dash tile at 0xB0.
+- Bytes 0x80–0x9F (except 0x90) and 0xE0–0xFF are labelled with visible <XX>
+  placeholders in the starter table. Those placeholders are for reverse-
+  engineering display only; they are not Japanese text and must be replaced
+  before translating/injecting content from those codes.
+- The tile atlas alone does not prove which CHR bank is active when a text string
+  is drawn, nor whether the text routine remaps the input code before drawing.
+
+The .tbl is therefore a useful starter for ASCII and likely katakana, not a
+complete verified table for every text glyph in the ROM.
+
+3. CONFIRMED / HIGH-CONFIDENCE TEXT DATA
+---------------------------------------
+A repeated fixed-stride data structure begins at PRG offset 0x1DE86 (file offset
+0x1DE96). It has 12 records with a 0x22-byte stride. The first 0x20 bytes of
+each record decode as an ASCII label; the following two bytes are retained as
+opaque metadata because they have not been proven to be pointers. This supports
+a 32-byte payload limit for those 12 fields.
+
+Record start PRG offset | Byte limit | Recognizable content
+------------------------|------------|---------------------
+0x1DE86                | 32         | P Y O K O T A N
+0x1DEA8                | 32         | 1992 SUN-SOFT / JSS !
+0x1DECA                | 32         | STAGE  1 2 3 4   PYOKO-WATARI !
+0x1DEEC                | 32         | CANDY-YASAN  !
+0x1DF0E                | 32         | APPLE-TREE   !
+0x1DF30                | 32         | PYOKO_MEKURI "
+0x1DF52                | 32         | PYOKO_MELODY "
+0x1DF74                | 32         | BONUS BOSS   "
+0x1DF96                | 32         | NOTICE. --- SAMPLE V1.62 ---  "
+0x1DFB8                | 32         | START ------- STANDARD PLAY.  "
+0x1DFDA                | 32         | A-KEY -------   SELECT PLAY.  #
+0x1DFFC                | 32         | SELECT ------    CROM CHECK.  #
+
+The JSON keeps all 32 raw bytes, the decoded text, the absolute file offset,
+and the two trailing bytes for later analysis. Spaces within the field are
+preserved in `original_text`; `display_text_trimmed` is only a convenience.
+
+A separate screen/HUD-like template begins at PRG offset 0x0943F (file offset
+0x0944F), spans 31 bytes through a '#' marker, and reads:
+"SCORE 000000         LIFE 0   #"
+Its content is highly likely text/template data, but the exact role of the '#'
+marker and the freely editable capacity should be confirmed at runtime.
+
+Two embedded diagnostic strings were also found:
+- PRG 0x1E01F: "DATE. 1992-12/20"
+- PRG 0x1E030: "01:10.20"
+They may be build/debug metadata rather than normal player-facing text.
+
+4. POINTER-TABLE / BANKING FINDINGS
+-----------------------------------
+The final six PRG bytes decode as these 6502 vectors:
+- NMI:   $D88D
+- RESET: $FFD0
+- IRQ:   $D92A
+The reset entry is at PRG offset 0x1FFD0, in the fixed top bank. It performs
+mapper-register writes and jumps into $D800, a banked CPU window. This confirms
+that a runtime-aware bank mapping is needed to follow code/data references.
+
+The heuristic scanner found address-like groups including:
+- PRG offset 0x11376: references beginning $9436, $945D, $946A, $9477, $9484...
+- PRG offset 0x1139A: references beginning $94F9, $9520, $952D, $953A...
+- PRG offset 0x113D2: references beginning $95CA, $9631, $9652, $9673...
+These are useful candidates for inspection, but a CPU-address-shaped sequence
+alone does not prove that it is a text pointer table. Some may point to code,
+level/layout data, or other tables. All 87 heuristic results are saved in
+pointer_candidates.json and are explicitly marked low-confidence.
+
+No general text pointer table is marked as confirmed in this pass. To confirm
+one, trace the text draw routine and the FME-7 PRG bank register state (e.g. with
+Mesen/FCEUX debugger) while displaying a known menu/label. Record both the CPU
+address and active 8 KiB PRG bank.
+
+5. OUTPUTS AND RECOMMENDED NEXT STEP
+------------------------------------
+- pyokotan.tbl: starter text table; exact ASCII mapping plus provisional katakana
+  mapping and explicit markers for not-yet-mapped extended bytes.
+- pyokotan_text_dump.json: 13 likely text/template records plus 2 diagnostic
+  metadata records, with offsets and byte limits where evidence supports one.
+- pointer_candidates.json: low-confidence address-like sequences from static scan.
+- analysis/chr_bank0_ascii_extended_atlas.png: CHR bank-0 tile atlas to help map
+  the game's visible glyphs.
+- tools/analyze_rom.py: prints header/checksum/vector information and builds a tile atlas.
+- tools/extract_text.py: reproduces the structured static extraction.
+- tools/scan_pointer_candidates.py: reruns the heuristic pointer scan.
+
+This pass does not modify the ROM. Do not treat this JSON as the complete Japanese
+script yet. The next reliable step is to find and trace the routine that consumes
+these character codes, then capture the Japanese messages and their pointer/
+terminator rules at runtime. Only then should the full Vietnamese text be injected.

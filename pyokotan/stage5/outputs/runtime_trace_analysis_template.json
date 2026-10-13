@@ -1,0 +1,9 @@
+{
+  "note": "Template only; no emulator trace has been captured in this workspace.",
+  "expected_outputs_after_capture": [
+    "pyokotan_runtime_trace_summary_v2.json",
+    "pyokotan_text_read_bank_context_v2.json",
+    "pyokotan_ppu_tile_writes_v2.csv"
+  ],
+  "minimum_capture_screens": ["title screen", "main menu", "each available Japanese text-bearing screen"]
+}

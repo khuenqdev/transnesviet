@@ -1,0 +1,369 @@
+{
+  "schema_version": "1.0",
+  "rom": "pyokotan.nes",
+  "rom_sha1": "67fba2e82d78d512466d98bcc9fe11f8e229cb11",
+  "mapper": 69,
+  "chr_rom_bytes": 131072,
+  "physical_chr_tiles": 8192,
+  "physical_chr_8k_pages": 16,
+  "mapper_1k_chr_bank_count": 128,
+  "blank_tiles": 832,
+  "nonblank_tiles": 7360,
+  "unique_exact_patterns": 4672,
+  "duplicate_pattern_groups": 917,
+  "physical_page_summary": [
+    {
+      "physical_chr_8k_page": 0,
+      "chr_offset_start": "0x00000",
+      "tile_start": 0,
+      "tile_count": 512,
+      "nonblank_tiles": 436,
+      "unique_patterns": 225,
+      "mean_nonzero_pixel_ratio": 0.5721,
+      "mapper_1k_chr_bank_range": "000-007"
+    },
+    {
+      "physical_chr_8k_page": 1,
+      "chr_offset_start": "0x02000",
+      "tile_start": 512,
+      "tile_count": 512,
+      "nonblank_tiles": 406,
+      "unique_patterns": 337,
+      "mean_nonzero_pixel_ratio": 0.4487,
+      "mapper_1k_chr_bank_range": "008-015"
+    },
+    {
+      "physical_chr_8k_page": 2,
+      "chr_offset_start": "0x04000",
+      "tile_start": 1024,
+      "tile_count": 512,
+      "nonblank_tiles": 375,
+      "unique_patterns": 344,
+      "mean_nonzero_pixel_ratio": 0.4623,
+      "mapper_1k_chr_bank_range": "016-023"
+    },
+    {
+      "physical_chr_8k_page": 3,
+      "chr_offset_start": "0x06000",
+      "tile_start": 1536,
+      "tile_count": 512,
+      "nonblank_tiles": 490,
+      "unique_patterns": 213,
+      "mean_nonzero_pixel_ratio": 0.4567,
+      "mapper_1k_chr_bank_range": "024-031"
+    },
+    {
+      "physical_chr_8k_page": 4,
+      "chr_offset_start": "0x08000",
+      "tile_start": 2048,
+      "tile_count": 512,
+      "nonblank_tiles": 491,
+      "unique_patterns": 407,
+      "mean_nonzero_pixel_ratio": 0.7209,
+      "mapper_1k_chr_bank_range": "032-039"
+    },
+    {
+      "physical_chr_8k_page": 5,
+      "chr_offset_start": "0x0A000",
+      "tile_start": 2560,
+      "tile_count": 512,
+      "nonblank_tiles": 511,
+      "unique_patterns": 335,
+      "mean_nonzero_pixel_ratio": 0.7732,
+      "mapper_1k_chr_bank_range": "040-047"
+    },
+    {
+      "physical_chr_8k_page": 6,
+      "chr_offset_start": "0x0C000",
+      "tile_start": 3072,
+      "tile_count": 512,
+      "nonblank_tiles": 481,
+      "unique_patterns": 333,
+      "mean_nonzero_pixel_ratio": 0.5591,
+      "mapper_1k_chr_bank_range": "048-055"
+    },
+    {
+      "physical_chr_8k_page": 7,
+      "chr_offset_start": "0x0E000",
+      "tile_start": 3584,
+      "tile_count": 512,
+      "nonblank_tiles": 480,
+      "unique_patterns": 244,
+      "mean_nonzero_pixel_ratio": 0.5123,
+      "mapper_1k_chr_bank_range": "056-063"
+    },
+    {
+      "physical_chr_8k_page": 8,
+      "chr_offset_start": "0x10000",
+      "tile_start": 4096,
+      "tile_count": 512,
+      "nonblank_tiles": 399,
+      "unique_patterns": 318,
+      "mean_nonzero_pixel_ratio": 0.4977,
+      "mapper_1k_chr_bank_range": "064-071"
+    },
+    {
+      "physical_chr_8k_page": 9,
+      "chr_offset_start": "0x12000",
+      "tile_start": 4608,
+      "tile_count": 512,
+      "nonblank_tiles": 373,
+      "unique_patterns": 347,
+      "mean_nonzero_pixel_ratio": 0.4975,
+      "mapper_1k_chr_bank_range": "072-079"
+    },
+    {
+      "physical_chr_8k_page": 10,
+      "chr_offset_start": "0x14000",
+      "tile_start": 5120,
+      "tile_count": 512,
+      "nonblank_tiles": 377,
+      "unique_patterns": 329,
+      "mean_nonzero_pixel_ratio": 0.439,
+      "mapper_1k_chr_bank_range": "080-087"
+    },
+    {
+      "physical_chr_8k_page": 11,
+      "chr_offset_start": "0x16000",
+      "tile_start": 5632,
+      "tile_count": 512,
+      "nonblank_tiles": 509,
+      "unique_patterns": 418,
+      "mean_nonzero_pixel_ratio": 0.7387,
+      "mapper_1k_chr_bank_range": "088-095"
+    },
+    {
+      "physical_chr_8k_page": 12,
+      "chr_offset_start": "0x18000",
+      "tile_start": 6144,
+      "tile_count": 512,
+      "nonblank_tiles": 503,
+      "unique_patterns": 367,
+      "mean_nonzero_pixel_ratio": 0.5865,
+      "mapper_1k_chr_bank_range": "096-103"
+    },
+    {
+      "physical_chr_8k_page": 13,
+      "chr_offset_start": "0x1A000",
+      "tile_start": 6656,
+      "tile_count": 512,
+      "nonblank_tiles": 511,
+      "unique_patterns": 452,
+      "mean_nonzero_pixel_ratio": 0.7555,
+      "mapper_1k_chr_bank_range": "104-111"
+    },
+    {
+      "physical_chr_8k_page": 14,
+      "chr_offset_start": "0x1C000",
+      "tile_start": 7168,
+      "tile_count": 512,
+      "nonblank_tiles": 510,
+      "unique_patterns": 314,
+      "mean_nonzero_pixel_ratio": 0.5375,
+      "mapper_1k_chr_bank_range": "112-119"
+    },
+    {
+      "physical_chr_8k_page": 15,
+      "chr_offset_start": "0x1E000",
+      "tile_start": 7680,
+      "tile_count": 512,
+      "nonblank_tiles": 508,
+      "unique_patterns": 343,
+      "mean_nonzero_pixel_ratio": 0.6181,
+      "mapper_1k_chr_bank_range": "120-127"
+    }
+  ],
+  "atlas_outputs": [
+    {
+      "file": "chr_tiles_0000_00ff_upscaled.png",
+      "tile_first": 0,
+      "tile_count": 256,
+      "scale": 6,
+      "cols": 16,
+      "rows": 16,
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "chr_tiles_0100_01ff_upscaled.png",
+      "tile_first": 256,
+      "tile_count": 256,
+      "scale": 6,
+      "cols": 16,
+      "rows": 16,
+      "width": 768,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_00_full.png",
+      "tile_first": 0,
+      "tile_count": 512,
+      "scale": 3,
+      "cols": 16,
+      "rows": 32,
+      "width": 384,
+      "height": 1280
+    },
+    {
+      "file": "chr_physical_page_00.png",
+      "tile_first": 0,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_01.png",
+      "tile_first": 512,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_02.png",
+      "tile_first": 1024,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_03.png",
+      "tile_first": 1536,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_04.png",
+      "tile_first": 2048,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_05.png",
+      "tile_first": 2560,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_06.png",
+      "tile_first": 3072,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_07.png",
+      "tile_first": 3584,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_08.png",
+      "tile_first": 4096,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_09.png",
+      "tile_first": 4608,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_10.png",
+      "tile_first": 5120,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_11.png",
+      "tile_first": 5632,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_12.png",
+      "tile_first": 6144,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_13.png",
+      "tile_first": 6656,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_14.png",
+      "tile_first": 7168,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    },
+    {
+      "file": "chr_physical_page_15.png",
+      "tile_first": 7680,
+      "tile_count": 512,
+      "scale": 2,
+      "cols": 16,
+      "rows": 32,
+      "width": 256,
+      "height": 1024
+    }
+  ],
+  "interpretation": "CHR tile inventory and atlases provide visual evidence for physical glyph patterns. They do not by themselves prove that any dialogue byte directly equals a physical tile index; mapper 69 CHR bank state must be captured at runtime."
+}

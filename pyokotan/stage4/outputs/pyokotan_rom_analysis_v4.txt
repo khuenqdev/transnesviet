@@ -1,0 +1,109 @@
+PYOKOTAN NO DAI MEIRO (NES) — STAGE 4 STATIC CODE REFERENCE ANALYSIS
+==================================================================
+
+Scope
+-----
+This stage adds a best-effort reachable-code disassembly from reset and interrupt
+entry points, a cross-reference report, a raw scan for the 12 ASCII row-start
+addresses, and a row/trailer audit. The ROM was not run in an emulator in this
+workspace; there is no runtime trace attached and no ROM has been patched.
+
+ROM identity
+------------
+File: pyokotan.nes
+Format: NES 2.0
+File size: 262,160 bytes
+Mapper: 69 (Sunsoft FME-7)
+PRG ROM: 131,072 bytes / 16 x 8 KiB banks
+CHR ROM: 131,072 bytes
+Full-file CRC32: 8A929318
+PRG+CHR CRC32: 4339865C
+PRG CRC32: BD7B1CD2
+CHR CRC32: 0033D1CF
+SHA-1: 67fba2e82d78d512466d98bcc9fe11f8e229cb11
+
+New stronger mapping evidence: reset code
+-----------------------------------------
+The reset vector is $FFD0. The bytes disassemble as:
+  $FFD0  A9 0B       LDA #$0B
+  $FFD2  8D 00 80    STA $8000
+  $FFD5  A9 1E       LDA #$1E
+  $FFD7  8D 00 A0    STA $A000
+  $FFDA  4C 00 D8    JMP $D800
+
+For Mapper 69/FME-7, $8000 selects a command register and $A000 writes its
+parameter. Command $0B selects the PRG bank register for CPU window $C000-$DFFF.
+The parameter is $1E; this ROM has only sixteen 8 KiB PRG banks, so the connected
+bank-address lines resolve this to physical PRG bank 14. The $E000-$FFFF window is
+fixed to the last bank, bank 15. This is stronger evidence for the initial mapping
+than the earlier inference based only on interrupt-vector targets.
+
+Authoritative mapper reference:
+  https://www.nesdev.org/wiki/INES_Mapper_069
+  https://github.com/RigleGit/nes-specs/blob/main/cartridgesandmappers.md
+
+Reachable-code analysis
+-----------------------
+The script decoded 522 distinct CPU addresses as candidate instructions while
+traversing from the reset vector, the reset JMP target $D800, and NMI/IRQ vectors
+under the above initial map. It recorded 72 candidate control-flow edges and 25
+STA operands aimed at $8000-$BFFF that may be mapper command/data writes.
+These counts are not an assurance that all reachable paths are decoded: this is
+best-effort recursive traversal, not a complete disassembly. Indirect jumps,
+data-driven dispatch, and execution in $8000-$BFFF are not resolved. Mapper writes
+can also change the mapping assumption for later execution.
+
+Candidate fixed-width ASCII table
+---------------------------------
+Start PRG offset: 0x1DE86; file absolute offset including 16-byte header: 0x1DE96
+Start CPU address under reset map: $DE86
+Rows: 12; stride: 0x22 (34) bytes; payload: 32 bytes; last two bytes are opaque.
+
+The twelve row starts are at CPU addresses $DE86, $DEA8, $DECA, $DEEC, $DF0E,
+$DF30, $DF52, $DF74, $DF96, $DFB8, $DFDA, and $DFFC. The last row's 32-byte
+payload crosses from $DFFF to $E000; that is physically contiguous in this ROM
+because bank 14 is at $C000-$DFFF and the last bank is fixed at $E000-$FFFF.
+
+Cross-reference findings
+------------------------
+- No decoded reachable instruction had a direct absolute operand inside the
+  table payload/trailer range. This does not mean that the strings are unused.
+  They may be addressed through a zero-page pointer, computed from a base/stride,
+  rendered through a table-driven routine, or consumed by code not reached by this
+  static traversal.
+- Raw PRG search for the twelve CPU row-start addresses produced only three matches,
+  all for $DEEC, at PRG offsets 0x1EEB9, 0x1EEC5, and 0x1F02E. Their byte context
+  overlaps instruction opcodes/operands in fixed-bank code and is not sufficient
+  evidence of a pointer. No confirmed row-start pointer table was found.
+- The row trailers form values such as bytes C0 1F, 20 1F, 60 1F, A0 1F and E0 1F.
+  Their purpose is unresolved. Do not assume they are text pointers or safely edit
+  them as part of translation.
+
+Character table and extraction status
+-------------------------------------
+The ASCII mapping is supported by literal embedded strings. Extended Japanese
+codes remain provisional/unmapped except where marked in the starter .tbl. This
+analysis does not establish a complete Japanese glyph map or the game's text
+terminators/control codes. The JSON dump is a collection of observed literal
+records, not a full dialogue extraction; it must not be presented as complete.
+
+Files added in stage 4
+----------------------
+- pyokotan_reachable_disassembly_v4.json / .csv
+- pyokotan_code_xrefs_v4.json
+- pyokotan_row_pointer_value_scan_v4.json / .csv
+- pyokotan_fixed_table_row_audit_v4.json
+- pyokotan_stage4_summary.json
+- pyokotan_reset_path_disassembly_v4.txt
+- tools/static_code_xref.py
+- tools/scan_row_pointer_values.py
+
+Recommended next step
+---------------------
+Capture a real FCEUX trace from power-on through the title/menu and any Japanese
+text-bearing screen. Use the included Lua trace logger and analyze the CSV. The
+most useful data will be (1) actual reads around CPU $DE86-$E01D, (2) mapper 69
+register writes around those reads, and (3) writes to PPU $2006/$2007. That runtime
+trace is needed to identify the renderer, pointer-base logic, glyph lookup and
+terminators. Static analysis alone is not enough to safely inject Vietnamese text
+with diacritics.

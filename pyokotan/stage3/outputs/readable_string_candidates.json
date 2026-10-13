@@ -1,0 +1,216 @@
+{
+  "schema_version": "1.0",
+  "rom": "pyokotan.nes",
+  "rom_crc32": "8A929318",
+  "method": "Contiguous PRG bytes 0x20-0x7E; then conservative readability heuristic.",
+  "warning": "Not a text extractor. Printable runs frequently occur inside compressed, tiled, or structured binary data.",
+  "heuristic_candidate_count": 10,
+  "readable_candidates": [
+    {
+      "prg_offset": "0x0B5DF",
+      "file_offset": "0x0B5EF",
+      "prg_8k_bank": 5,
+      "bank_offset": "0x15DF",
+      "length": 26,
+      "text_ascii": "PVQVRVSWTXUYVZW[X]Y_Za[c\\f",
+      "alpha_ratio": 0.808,
+      "digit_ratio": 0.0,
+      "space_ratio": 0.0,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "PVQVRVSWTXUYVZW",
+        "Za"
+      ],
+      "nontrivial_word_count": 2,
+      "readability_score": 1.538,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x05B52",
+      "file_offset": "0x05B62",
+      "prg_8k_bank": 2,
+      "bank_offset": "0x1B52",
+      "length": 8,
+      "text_ascii": "Rb5E?ORb",
+      "alpha_ratio": 0.75,
+      "digit_ratio": 0.125,
+      "space_ratio": 0.0,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "Rb",
+        "ORb"
+      ],
+      "nontrivial_word_count": 2,
+      "readability_score": 1.311,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x04F34",
+      "file_offset": "0x04F44",
+      "prg_8k_bank": 2,
+      "bank_offset": "0x0F34",
+      "length": 10,
+      "text_ascii": " PA0 PA0CS",
+      "alpha_ratio": 0.6,
+      "digit_ratio": 0.2,
+      "space_ratio": 0.2,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "PA",
+        "PA",
+        "CS"
+      ],
+      "nontrivial_word_count": 3,
+      "readability_score": 1.29,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x04B1F",
+      "file_offset": "0x04B2F",
+      "prg_8k_bank": 2,
+      "bank_offset": "0x0B1F",
+      "length": 17,
+      "text_ascii": "CS#3 PA0 PA0 PA0 ",
+      "alpha_ratio": 0.471,
+      "digit_ratio": 0.235,
+      "space_ratio": 0.235,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "CS",
+        "PA",
+        "PA",
+        "PA"
+      ],
+      "nontrivial_word_count": 4,
+      "readability_score": 1.242,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x1DECA",
+      "file_offset": "0x1DEDA",
+      "prg_8k_bank": 14,
+      "bank_offset": "0x1ECA",
+      "length": 33,
+      "text_ascii": " STAGE  1 2 3 4   PYOKO-WATARI !`",
+      "alpha_ratio": 0.485,
+      "digit_ratio": 0.121,
+      "space_ratio": 0.303,
+      "repeated_run_max": 3,
+      "word_tokens": [
+        "STAGE",
+        "PYOKO",
+        "WATARI"
+      ],
+      "nontrivial_word_count": 3,
+      "readability_score": 1.194,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x04AD3",
+      "file_offset": "0x04AE3",
+      "prg_8k_bank": 2,
+      "bank_offset": "0x0AD3",
+      "length": 17,
+      "text_ascii": "A0 PA0 PA0 PA0 P ",
+      "alpha_ratio": 0.471,
+      "digit_ratio": 0.235,
+      "space_ratio": 0.294,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "PA",
+        "PA",
+        "PA"
+      ],
+      "nontrivial_word_count": 3,
+      "readability_score": 1.194,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x0425C",
+      "file_offset": "0x0426C",
+      "prg_8k_bank": 2,
+      "bank_offset": "0x025C",
+      "length": 9,
+      "text_ascii": "eu97eue/y",
+      "alpha_ratio": 0.667,
+      "digit_ratio": 0.222,
+      "space_ratio": 0.0,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "eu",
+        "eue"
+      ],
+      "nontrivial_word_count": 2,
+      "readability_score": 1.186,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x04A28",
+      "file_offset": "0x04A38",
+      "prg_8k_bank": 2,
+      "bank_offset": "0x0A28",
+      "length": 17,
+      "text_ascii": "CS!1A0 PA0 PA0 P ",
+      "alpha_ratio": 0.471,
+      "digit_ratio": 0.235,
+      "space_ratio": 0.235,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "CS",
+        "PA",
+        "PA"
+      ],
+      "nontrivial_word_count": 3,
+      "readability_score": 1.167,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x1F4E3",
+      "file_offset": "0x1F4F3",
+      "prg_8k_bank": 15,
+      "bank_offset": "0x14E3",
+      "length": 47,
+      "text_ascii": "!#%')+-/13579;=?ACEGIKMOQSUWY[]_acegikmoqsuwy{}",
+      "alpha_ratio": 0.553,
+      "digit_ratio": 0.106,
+      "space_ratio": 0.0,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "ACEGIKMOQSUWY",
+        "acegikmoqsuwy"
+      ],
+      "nontrivial_word_count": 2,
+      "readability_score": 1.144,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    },
+    {
+      "prg_offset": "0x0438C",
+      "file_offset": "0x0439C",
+      "prg_8k_bank": 2,
+      "bank_offset": "0x038C",
+      "length": 17,
+      "text_ascii": "979sJZ')N^aqaqaq\"",
+      "alpha_ratio": 0.588,
+      "digit_ratio": 0.176,
+      "space_ratio": 0.0,
+      "repeated_run_max": 1,
+      "word_tokens": [
+        "sJZ",
+        "aqaqaq"
+      ],
+      "nontrivial_word_count": 2,
+      "readability_score": 1.127,
+      "heuristic_candidate": true,
+      "warning": "Printable-byte run only; may be graphics, lookup data, or non-text payload."
+    }
+  ]
+}

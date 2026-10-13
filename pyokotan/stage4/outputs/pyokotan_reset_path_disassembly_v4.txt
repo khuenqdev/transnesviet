@@ -1,0 +1,77 @@
+Pyokotan — reset and interrupt entry disassembly excerpt
+==========================================================
+
+This is a best-effort static decode under bank 14 at $C000 and bank 15 fixed at $E000.
+Not all paths or indirect dispatches are resolved.
+
+Reset path
+----------
+0xFFD0  A9 0B    LDA #$0B
+0xFFD2  8D 00 80 STA $8000
+0xFFD5  A9 1E    LDA #$1E
+0xFFD7  8D 00 A0 STA $A000
+0xFFDA  4C 00 D8 JMP $D800
+
+Reset target bootstrap
+----------------------
+0xD800  78       SEI 
+0xD801  D8       CLD 
+0xD802  A2 00    LDX #$00
+0xD804  8E 00 20 STX $2000
+0xD807  8E 01 20 STX $2001
+0xD80A  CA       DEX 
+0xD80B  9A       TXS 
+0xD80C  A2 02    LDX #$02
+0xD80E  2C 02 20 BIT $2002
+0xD811  10 FB    BPL $D80E
+0xD813  2C 02 20 BIT $2002
+0xD816  10 FB    BPL $D813
+0xD818  CA       DEX 
+0xD819  D0 F3    BNE $D80E
+0xD81B  AD 02 20 LDA $2002
+0xD81E  10 FB    BPL $D81B
+0xD820  AD 02 20 LDA $2002
+0xD823  10 FB    BPL $D820
+0xD825  A9 08    LDA #$08
+0xD827  8D 00 20 STA $2000
+0xD82A  A9 1E    LDA #$1E
+0xD82C  8D 01 20 STA $2001
+0xD82F  A2 15    LDX #$15
+0xD831  9D 00 40 STA $4000,X
+0xD834  CA       DEX 
+0xD835  10 FA    BPL $D831
+0xD837  A9 08    LDA #$08
+0xD839  8D 01 40 STA $4001
+0xD83C  8D 05 40 STA $4005
+0xD83F  A9 8F    LDA #$8F
+0xD841  8D 15 40 STA $4015
+0xD844  A9 C0    LDA #$C0
+0xD846  8D 17 40 STA $4017
+0xD849  A2 0C    LDX #$0C
+
+NMI entry
+---------
+0xD88D  48       PHA 
+0xD88E  98       TYA 
+0xD88F  48       PHA 
+0xD890  8A       TXA 
+0xD891  48       PHA 
+0xD892  20 E7 D9 JSR $D9E7
+0xD895  A2 0F    LDX #$0F
+0xD897  B5 00    LDA $00,X
+0xD899  48       PHA 
+0xD89A  CA       DEX 
+0xD89B  10 FA    BPL $D897
+0xD89D  A5 FF    LDA $FF
+0xD89F  8D 00 20 STA $2000
+
+IRQ/BRK entry
+-------------
+0xD92A  48       PHA 
+0xD92B  98       TYA 
+0xD92C  48       PHA 
+0xD92D  8A       TXA 
+0xD92E  48       PHA 
+0xD92F  20 E7 D9 JSR $D9E7
+0xD932  6C 9D 00 JMP ($009D)
+

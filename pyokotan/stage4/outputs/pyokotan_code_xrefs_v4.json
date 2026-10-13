@@ -1,0 +1,266 @@
+{
+  "schema_version": "1.0",
+  "rom_sha1": "67fba2e82d78d512466d98bcc9fe11f8e229cb11",
+  "reference_count": 25,
+  "references": [
+    {
+      "source_cpu": "0xDB4D",
+      "source_prg": "0x1DB4D",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xDB52",
+      "source_prg": "0x1DB52",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD9E9",
+      "source_prg": "0x1D9E9",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD9EE",
+      "source_prg": "0x1D9EE",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD9F4",
+      "source_prg": "0x1D9F4",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFDAC",
+      "source_prg": "0x1FDAC",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFDB2",
+      "source_prg": "0x1FDB2",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFDBD",
+      "source_prg": "0x1FDBD",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFDC3",
+      "source_prg": "0x1FDC3",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD8E1",
+      "source_prg": "0x1D8E1",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD8ED",
+      "source_prg": "0x1D8ED",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD8F6",
+      "source_prg": "0x1D8F6",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD8FB",
+      "source_prg": "0x1D8FB",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFE6B",
+      "source_prg": "0x1FE6B",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFE71",
+      "source_prg": "0x1FE71",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFE78",
+      "source_prg": "0x1FE78",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFE80",
+      "source_prg": "0x1FE80",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFE87",
+      "source_prg": "0x1FE87",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFE8E",
+      "source_prg": "0x1FE8E",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFE96",
+      "source_prg": "0x1FE96",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD9FA",
+      "source_prg": "0x1D9FA",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xD9FF",
+      "source_prg": "0x1D9FF",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xDA05",
+      "source_prg": "0x1DA05",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFFD2",
+      "source_prg": "0x1FFD2",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0x8000",
+      "operand": "$8000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    },
+    {
+      "source_cpu": "0xFFD7",
+      "source_prg": "0x1FFD7",
+      "mnemonic": "STA",
+      "mode": "abs",
+      "target_cpu": "0xA000",
+      "operand": "$A000",
+      "target_kind": "potential_mapper_command_or_data_write",
+      "confidence": "address decode is broad; value may come from a register"
+    }
+  ],
+  "summary": {
+    "direct_references_to_candidate_ascii_table_or_trailers": 0,
+    "potential_mapper_writes": 25
+  },
+  "limitations": [
+    "Only code reachable from seed vectors and reset JMP is traversed.",
+    "Data references made through zero-page pointers are not fully recovered.",
+    "Unmapped windows $8000-$BFFF and indirect dispatch are not traced."
+  ]
+}

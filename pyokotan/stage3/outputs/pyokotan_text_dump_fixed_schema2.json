@@ -1,0 +1,323 @@
+{
+  "schema_version": "2.0",
+  "game": {
+    "title_english_catalog": "Pyokotan no Dai Meiro",
+    "title_japanese": "ぴょこたんの大迷路",
+    "platform": "Famicom / NES",
+    "region": "Japan",
+    "release_year": 1993,
+    "publisher": "Sunsoft",
+    "developer": "Japan System Supply"
+  },
+  "rom_fingerprint": {
+    "source_filename": "pyokotan.nes",
+    "rom_size_bytes": 262160,
+    "header_hex": "4E 45 53 1A 08 10 50 48 00 00 00 00 00 00 00 01",
+    "format": "NES 2.0",
+    "mapper": 69,
+    "submapper": 0,
+    "prg_rom_bytes": 131072,
+    "prg_8k_bank_count": 16,
+    "chr_rom_bytes": 131072,
+    "chr_8k_bank_count": 16,
+    "crc32_full_file": "8A929318",
+    "crc32_prg_plus_chr": "4339865C",
+    "crc32_prg": "BD7B1CD2",
+    "crc32_chr": "0033D1CF",
+    "sha1_full_file": "67fba2e82d78d512466d98bcc9fe11f8e229cb11"
+  },
+  "encoding_status": {
+    "ascii_0x20_0x7e": "confirmed in embedded literal strings; tile glyph rendering may duplicate upper/lowercase shapes",
+    "tile_indices_0x91_0x9f": "provisional visual readings ア–ソ from CHR atlas; verify code-to-tile route at runtime before injection",
+    "tile_indices_0x90_and_0xb0": "both visually resemble a long-vowel dash ー; runtime mapping unverified",
+    "other_extended_codes": "left as <XX> placeholders; no JIS X 0201 mapping is asserted",
+    "important_correction": "Earlier starter table mapped 0xA1–0xDF as JIS X 0201 half-width katakana. The atlas does not justify that assumption; this v2 table removes that unsupported mapping."
+  },
+  "banking_and_vectors": {
+    "mapper_note": "Mapper 69/FME-7 bank-switches 8 KiB PRG windows; CPU address to file offset requires active bank-register state.",
+    "interrupt_vectors": {
+      "nmi": "0xD88D",
+      "reset": "0xFFD0",
+      "irq_brk": "0xD92A",
+      "prg_relative_vector_offset": "0x1FFFA",
+      "raw_hex": "8D D8 D0 FF 2A D9"
+    }
+  },
+  "coverage": {
+    "validated_literal_records": 13,
+    "developer_metadata_records": 2,
+    "complete_dialogue_dump": false,
+    "note": "This ROM has not yet been run with a debugger or instrumented emulator in this workflow. No general dialogue pointer table is confirmed."
+  },
+  "text_records": [
+    {
+      "id": "fixed_label_00",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DE86",
+        "file_absolute": "0x1DE96"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": "  P Y O K O T A N               ",
+      "display_text_trimmed": "P Y O K O T A N",
+      "raw_hex": "20 20 50 20 59 20 4F 20 4B 20 4F 20 54 20 41 20 4E 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20",
+      "trailing_metadata_hex": "C0 1F",
+      "trailing_metadata_word_le": "0x1FC0",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_01",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DEA8",
+        "file_absolute": "0x1DEB8"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": "           1992 SUN-SOFT / JSS !",
+      "display_text_trimmed": "1992 SUN-SOFT / JSS !",
+      "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 31 39 39 32 20 53 55 4E 2D 53 4F 46 54 20 2F 20 4A 53 53 20 21",
+      "trailing_metadata_hex": "20 1F",
+      "trailing_metadata_word_le": "0x1F20",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_02",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DECA",
+        "file_absolute": "0x1DEDA"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": " STAGE  1 2 3 4   PYOKO-WATARI !",
+      "display_text_trimmed": "STAGE  1 2 3 4   PYOKO-WATARI !",
+      "raw_hex": "20 53 54 41 47 45 20 20 31 20 32 20 33 20 34 20 20 20 50 59 4F 4B 4F 2D 57 41 54 41 52 49 20 21",
+      "trailing_metadata_hex": "60 1F",
+      "trailing_metadata_word_le": "0x1F60",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_03",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DEEC",
+        "file_absolute": "0x1DEFC"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": "                  CANDY-YASAN  !",
+      "display_text_trimmed": "CANDY-YASAN  !",
+      "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 43 41 4E 44 59 2D 59 41 53 41 4E 20 20 21",
+      "trailing_metadata_hex": "A0 1F",
+      "trailing_metadata_word_le": "0x1FA0",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_04",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DF0E",
+        "file_absolute": "0x1DF1E"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": "                  APPLE-TREE   !",
+      "display_text_trimmed": "APPLE-TREE   !",
+      "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 41 50 50 4C 45 2D 54 52 45 45 20 20 20 21",
+      "trailing_metadata_hex": "E0 1F",
+      "trailing_metadata_word_le": "0x1FE0",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_05",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DF30",
+        "file_absolute": "0x1DF40"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": "                  PYOKO_MEKURI \"",
+      "display_text_trimmed": "PYOKO_MEKURI \"",
+      "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 50 59 4F 4B 4F 5F 4D 45 4B 55 52 49 20 22",
+      "trailing_metadata_hex": "20 1F",
+      "trailing_metadata_word_le": "0x1F20",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_06",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DF52",
+        "file_absolute": "0x1DF62"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": "                  PYOKO_MELODY \"",
+      "display_text_trimmed": "PYOKO_MELODY \"",
+      "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 50 59 4F 4B 4F 5F 4D 45 4C 4F 44 59 20 22",
+      "trailing_metadata_hex": "60 1F",
+      "trailing_metadata_word_le": "0x1F60",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_07",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DF74",
+        "file_absolute": "0x1DF84"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": "                  BONUS BOSS   \"",
+      "display_text_trimmed": "BONUS BOSS   \"",
+      "raw_hex": "20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 20 42 4F 4E 55 53 20 42 4F 53 53 20 20 20 22",
+      "trailing_metadata_hex": "A0 1F",
+      "trailing_metadata_word_le": "0x1FA0",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_08",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DF96",
+        "file_absolute": "0x1DFA6"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": " NOTICE. --- SAMPLE V1.62 ---  \"",
+      "display_text_trimmed": "NOTICE. --- SAMPLE V1.62 ---  \"",
+      "raw_hex": "20 4E 4F 54 49 43 45 2E 20 2D 2D 2D 20 53 41 4D 50 4C 45 20 56 31 2E 36 32 20 2D 2D 2D 20 20 22",
+      "trailing_metadata_hex": "C0 1F",
+      "trailing_metadata_word_le": "0x1FC0",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_09",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DFB8",
+        "file_absolute": "0x1DFC8"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": " START ------- STANDARD PLAY.  \"",
+      "display_text_trimmed": "START ------- STANDARD PLAY.  \"",
+      "raw_hex": "20 53 54 41 52 54 20 2D 2D 2D 2D 2D 2D 2D 20 53 54 41 4E 44 41 52 44 20 50 4C 41 59 2E 20 20 22",
+      "trailing_metadata_hex": "E0 1F",
+      "trailing_metadata_word_le": "0x1FE0",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_10",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DFDA",
+        "file_absolute": "0x1DFEA"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": " A-KEY -------   SELECT PLAY.  #",
+      "display_text_trimmed": "A-KEY -------   SELECT PLAY.  #",
+      "raw_hex": "20 41 2D 4B 45 59 20 2D 2D 2D 2D 2D 2D 2D 20 20 20 53 45 4C 45 43 54 20 50 4C 41 59 2E 20 20 23",
+      "trailing_metadata_hex": "00 1F",
+      "trailing_metadata_word_le": "0x1F00",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "fixed_label_11",
+      "category": "fixed_width_ascii_row",
+      "confidence": "high for literal text bytes; runtime display context not confirmed",
+      "offset": {
+        "prg_relative": "0x1DFFC",
+        "file_absolute": "0x1E00C"
+      },
+      "byte_length": 32,
+      "byte_length_limit": 32,
+      "length_limit_basis": "32-byte payload repeated at a 34-byte stride; the final 2 bytes are kept separate as opaque metadata.",
+      "original_text": " SELECT ------    CROM CHECK.  #",
+      "display_text_trimmed": "SELECT ------    CROM CHECK.  #",
+      "raw_hex": "20 53 45 4C 45 43 54 20 2D 2D 2D 2D 2D 2D 20 20 20 20 43 52 4F 4D 20 43 48 45 43 4B 2E 20 20 23",
+      "trailing_metadata_hex": "60 1B",
+      "trailing_metadata_word_le": "0x1B60",
+      "trailing_metadata_interpretation": "unresolved; not established as a pointer, PPU address, or text terminator"
+    },
+    {
+      "id": "hud_template_score_life",
+      "category": "hud_or_nametable_template",
+      "confidence": "high for literal ASCII; editable boundary and use not runtime-confirmed",
+      "offset": {
+        "prg_relative": "0x0943F",
+        "file_absolute": "0x0944F"
+      },
+      "byte_length": 31,
+      "byte_length_limit": 31,
+      "length_limit_basis": "31-byte span ending with a '#' separator in the supplied ROM; editing capacity should be checked in an emulator.",
+      "original_text": "SCORE 000000         LIFE 0   #",
+      "display_text_trimmed": "SCORE 000000         LIFE 0   #",
+      "raw_hex": "53 43 4F 52 45 20 30 30 30 30 30 30 20 20 20 20 20 20 20 20 20 4C 49 46 45 20 30 20 20 20 23"
+    }
+  ],
+  "metadata_records": [
+    {
+      "id": "developer_build_date",
+      "category": "embedded_developer_metadata",
+      "confidence": "high for literal bytes; player-visible use unconfirmed",
+      "offset": {
+        "prg_relative": "0x1E01F",
+        "file_absolute": "0x1E02F"
+      },
+      "byte_length": 16,
+      "byte_length_limit": 16,
+      "length_limit_basis": "Literal ASCII span only; not an editable field capacity.",
+      "original_text": "DATE. 1992-12/20",
+      "display_text_trimmed": "DATE. 1992-12/20",
+      "raw_hex": "44 41 54 45 2E 20 31 39 39 32 2D 31 32 2F 32 30"
+    },
+    {
+      "id": "developer_build_time",
+      "category": "embedded_developer_metadata",
+      "confidence": "high for literal bytes; player-visible use unconfirmed",
+      "offset": {
+        "prg_relative": "0x1E030",
+        "file_absolute": "0x1E040"
+      },
+      "byte_length": 8,
+      "byte_length_limit": 8,
+      "length_limit_basis": "Literal ASCII span only; not an editable field capacity.",
+      "original_text": "01:10.20",
+      "display_text_trimmed": "01:10.20",
+      "raw_hex": "30 31 3A 31 30 2E 32 30"
+    }
+  ],
+  "next_runtime_steps": [
+    "Trace a screen that shows Japanese kana while recording FME-7 PRG bank registers.",
+    "Find the routine that converts text bytes to CHR tile IDs; compare it with the visible CHR atlas.",
+    "Inspect the 12-row 0x1DE86 region and its 2-byte trailers in a CPU/PPU write trace before patching.",
+    "Confirm control codes, string terminators, and display limits; only then extend the dump beyond literal ASCII rows."
+  ]
+}

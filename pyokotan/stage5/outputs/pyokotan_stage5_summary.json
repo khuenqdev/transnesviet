@@ -1,0 +1,50 @@
+{
+  "stage": 5,
+  "title": "Pyokotan no Dai Meiro localization reverse-engineering",
+  "scope": [
+    "Complete physical CHR-ROM tile inventory",
+    "High-resolution CHR atlases for all 16 physical 8 KiB pages",
+    "Exact tile-pattern duplicate analysis",
+    "Conservative 256-byte candidate font catalog",
+    "Improved FCEUX runtime trace instrumentation for Mapper 69 PRG/CHR state and PPU writes",
+    "Runtime CSV analyzer that estimates physical PRG/CHR offsets where required state was captured"
+  ],
+  "rom_identity": {
+    "file": "pyokotan.nes",
+    "size_bytes": 262160,
+    "format": "NES 2.0",
+    "mapper": 69,
+    "prg_bytes": 131072,
+    "chr_bytes": 131072,
+    "sha1": "67fba2e82d78d512466d98bcc9fe11f8e229cb11",
+    "crc32_full": "8A929318",
+    "crc32_prg_chr": "4339865C",
+    "crc32_prg": "BD7B1CD2",
+    "crc32_chr": "0033D1CF"
+  },
+  "chr_inventory": {
+    "physical_tiles": 8192,
+    "tile_format": "8x8 pixels, 2bpp, 16 bytes/tile",
+    "physical_chr_pages_8k": 16,
+    "mapper_chr_banks_1k": 128,
+    "blank_tiles": 832,
+    "nonblank_tiles": 7360,
+    "unique_exact_patterns": 4672,
+    "exact_duplicate_groups": 917,
+    "atlas_page_images": 16,
+    "enlarged_reference_images": 3
+  },
+  "runtime_trace": {
+    "script": "tools/pyokotan_fceux_text_trace_v2.lua",
+    "analyzer": "tools/trace_log_analyzer_v2.py",
+    "actual_trace_captured_in_this_environment": false,
+    "user_action_needed": "Run the script in FCEUX from power-on, capture title/menu/text screens, then run trace_log_analyzer_v2.py on its CSV."
+  },
+  "known_limitations": [
+    "The currently known text dump is partial and consists of known literal text/template records and metadata.",
+    "No complete Japanese dialogue encoding or pointer table has been established.",
+    "The .tbl's kana mappings are visual candidates and are not runtime confirmed.",
+    "No Vietnamese-patched ROM has been generated.",
+    "A physical CHR tile index is not automatically a text byte; bank and renderer behavior must be observed."
+  ]
+}

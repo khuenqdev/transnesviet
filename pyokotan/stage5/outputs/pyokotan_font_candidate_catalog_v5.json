@@ -1,0 +1,2312 @@
+{
+  "schema_version": "1.0",
+  "rom_sha1": "67fba2e82d78d512466d98bcc9fe11f8e229cb11",
+  "count": 256,
+  "records": [
+    {
+      "tile_index_hex": "00",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00000",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "01",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00010",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "d3e431b2bf34e35c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "02",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00020",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "03",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00030",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "d3e431b2bf34e35c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "04",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00040",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "05",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00050",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "d3e431b2bf34e35c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "06",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00060",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "07",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00070",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "d3e431b2bf34e35c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "08",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00080",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "09",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00090",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "d3e431b2bf34e35c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "0A",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x000A0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "0B",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x000B0",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "d3e431b2bf34e35c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "0C",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x000C0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "0D",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x000D0",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "d3e431b2bf34e35c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "0E",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x000E0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "0F",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x000F0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "10",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00100",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "11",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00110",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "12",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00120",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "13",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00130",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "14",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00140",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "15",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00150",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "16",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00160",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "17",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00170",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "18",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00180",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "19",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00190",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "1A",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x001A0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "1B",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x001B0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "1C",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x001C0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "1D",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x001D0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "1E",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x001E0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "1F",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x001F0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "20",
+      "candidate_character": " ",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00200",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "21",
+      "candidate_character": "!",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00210",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "e18f9c227576f4ad",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "22",
+      "candidate_character": "\"",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00220",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "23",
+      "candidate_character": "#",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00230",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "24",
+      "candidate_character": "$",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00240",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "25",
+      "candidate_character": "%",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00250",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "26",
+      "candidate_character": "&",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00260",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "27",
+      "candidate_character": "'",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00270",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "28",
+      "candidate_character": "(",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00280",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "29",
+      "candidate_character": ")",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00290",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "2A",
+      "candidate_character": "*",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x002A0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "2B",
+      "candidate_character": "+",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x002B0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "2C",
+      "candidate_character": ",",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x002C0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "2D",
+      "candidate_character": "-",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x002D0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "2E",
+      "candidate_character": ".",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x002E0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "2F",
+      "candidate_character": "/",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x002F0",
+      "nonzero_pixels": 8,
+      "sha1_16byte_prefix": "a5fdc0fe08c20919",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "30",
+      "candidate_character": "0",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00300",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "40dff7a9bf0d804e",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "31",
+      "candidate_character": "1",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00310",
+      "nonzero_pixels": 19,
+      "sha1_16byte_prefix": "c541735f5e122310",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "32",
+      "candidate_character": "2",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00320",
+      "nonzero_pixels": 27,
+      "sha1_16byte_prefix": "d95e291dc44589a6",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "33",
+      "candidate_character": "3",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00330",
+      "nonzero_pixels": 26,
+      "sha1_16byte_prefix": "00d7b3ab638d2b7a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "34",
+      "candidate_character": "4",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00340",
+      "nonzero_pixels": 27,
+      "sha1_16byte_prefix": "b1d9eebe45794a11",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "35",
+      "candidate_character": "5",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00350",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "20fe92cab08c24df",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "36",
+      "candidate_character": "6",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00360",
+      "nonzero_pixels": 27,
+      "sha1_16byte_prefix": "c724799993d752f1",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "37",
+      "candidate_character": "7",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00370",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "5621b578f4d51bfb",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "38",
+      "candidate_character": "8",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00380",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "16999bd3ecd239a5",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "39",
+      "candidate_character": "9",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00390",
+      "nonzero_pixels": 27,
+      "sha1_16byte_prefix": "5802eaee67781bfc",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "3A",
+      "candidate_character": ":",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x003A0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "3B",
+      "candidate_character": ";",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x003B0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "3C",
+      "candidate_character": "<",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x003C0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "3D",
+      "candidate_character": "=",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x003D0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "3E",
+      "candidate_character": ">",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x003E0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "3F",
+      "candidate_character": "?",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x003F0",
+      "nonzero_pixels": 11,
+      "sha1_16byte_prefix": "2becacc8030b901b",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "40",
+      "candidate_character": "@",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00400",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "41",
+      "candidate_character": "A",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00410",
+      "nonzero_pixels": 23,
+      "sha1_16byte_prefix": "a0ed5d8e4b9d89c6",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "42",
+      "candidate_character": "B",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00420",
+      "nonzero_pixels": 31,
+      "sha1_16byte_prefix": "b3ccc41eb79eb7cf",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "43",
+      "candidate_character": "C",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00430",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "eeed3b08f2b5df44",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "44",
+      "candidate_character": "D",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00440",
+      "nonzero_pixels": 23,
+      "sha1_16byte_prefix": "3c188636fb10a10c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "45",
+      "candidate_character": "E",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00450",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "ccae7f7042b26075",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "46",
+      "candidate_character": "F",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00460",
+      "nonzero_pixels": 21,
+      "sha1_16byte_prefix": "3fe28670b126f45c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "47",
+      "candidate_character": "G",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00470",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "191385ba3961170a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "48",
+      "candidate_character": "H",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00480",
+      "nonzero_pixels": 30,
+      "sha1_16byte_prefix": "51123a3df9987d78",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "49",
+      "candidate_character": "I",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00490",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "f0856d97784481bf",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "4A",
+      "candidate_character": "J",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x004A0",
+      "nonzero_pixels": 19,
+      "sha1_16byte_prefix": "23e353a81b69d34c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "4B",
+      "candidate_character": "K",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x004B0",
+      "nonzero_pixels": 21,
+      "sha1_16byte_prefix": "dcc65b9908225e8f",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "4C",
+      "candidate_character": "L",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x004C0",
+      "nonzero_pixels": 24,
+      "sha1_16byte_prefix": "a83ced66090d4602",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "4D",
+      "candidate_character": "M",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x004D0",
+      "nonzero_pixels": 30,
+      "sha1_16byte_prefix": "ac654c2ccc7e91ae",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "4E",
+      "candidate_character": "N",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x004E0",
+      "nonzero_pixels": 26,
+      "sha1_16byte_prefix": "914fcedf92f6fff4",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "4F",
+      "candidate_character": "O",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x004F0",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "115483bbe814717b",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "50",
+      "candidate_character": "P",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00500",
+      "nonzero_pixels": 27,
+      "sha1_16byte_prefix": "5737c28603781cd0",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "51",
+      "candidate_character": "Q",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00510",
+      "nonzero_pixels": 30,
+      "sha1_16byte_prefix": "24b5869f8e74d46d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "52",
+      "candidate_character": "R",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00520",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "897f23182fcd9cef",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "53",
+      "candidate_character": "S",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00530",
+      "nonzero_pixels": 22,
+      "sha1_16byte_prefix": "e5414591ae9a233d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "54",
+      "candidate_character": "T",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00540",
+      "nonzero_pixels": 22,
+      "sha1_16byte_prefix": "9d39aebffe9d5311",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "55",
+      "candidate_character": "U",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00550",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "4fca82b5a6ac2061",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "56",
+      "candidate_character": "V",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00560",
+      "nonzero_pixels": 24,
+      "sha1_16byte_prefix": "ef0304883e2efc16",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "57",
+      "candidate_character": "W",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00570",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "302d55b8e4c87591",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "58",
+      "candidate_character": "X",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00580",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "4fa58ef407c5dc0a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "59",
+      "candidate_character": "Y",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00590",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "1fa1adb0e622eb52",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "5A",
+      "candidate_character": "Z",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x005A0",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "0237a8c2f34853ef",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "5B",
+      "candidate_character": "[",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x005B0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "5C",
+      "candidate_character": "\\",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x005C0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "5D",
+      "candidate_character": "]",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x005D0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "5E",
+      "candidate_character": "^",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x005E0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "5F",
+      "candidate_character": "_",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x005F0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "60",
+      "candidate_character": "`",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00600",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "61",
+      "candidate_character": "a",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00610",
+      "nonzero_pixels": 23,
+      "sha1_16byte_prefix": "a0ed5d8e4b9d89c6",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "62",
+      "candidate_character": "b",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00620",
+      "nonzero_pixels": 31,
+      "sha1_16byte_prefix": "b3ccc41eb79eb7cf",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "63",
+      "candidate_character": "c",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00630",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "eeed3b08f2b5df44",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "64",
+      "candidate_character": "d",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00640",
+      "nonzero_pixels": 23,
+      "sha1_16byte_prefix": "3c188636fb10a10c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "65",
+      "candidate_character": "e",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00650",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "ccae7f7042b26075",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "66",
+      "candidate_character": "f",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00660",
+      "nonzero_pixels": 21,
+      "sha1_16byte_prefix": "3fe28670b126f45c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "67",
+      "candidate_character": "g",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00670",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "191385ba3961170a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "68",
+      "candidate_character": "h",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00680",
+      "nonzero_pixels": 30,
+      "sha1_16byte_prefix": "51123a3df9987d78",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "69",
+      "candidate_character": "i",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00690",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "f0856d97784481bf",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "6A",
+      "candidate_character": "j",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x006A0",
+      "nonzero_pixels": 19,
+      "sha1_16byte_prefix": "23e353a81b69d34c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "6B",
+      "candidate_character": "k",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x006B0",
+      "nonzero_pixels": 21,
+      "sha1_16byte_prefix": "dcc65b9908225e8f",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "6C",
+      "candidate_character": "l",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x006C0",
+      "nonzero_pixels": 24,
+      "sha1_16byte_prefix": "a83ced66090d4602",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "6D",
+      "candidate_character": "m",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x006D0",
+      "nonzero_pixels": 30,
+      "sha1_16byte_prefix": "ac654c2ccc7e91ae",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "6E",
+      "candidate_character": "n",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x006E0",
+      "nonzero_pixels": 26,
+      "sha1_16byte_prefix": "914fcedf92f6fff4",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "6F",
+      "candidate_character": "o",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x006F0",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "115483bbe814717b",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "70",
+      "candidate_character": "p",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00700",
+      "nonzero_pixels": 27,
+      "sha1_16byte_prefix": "5737c28603781cd0",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "71",
+      "candidate_character": "q",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00710",
+      "nonzero_pixels": 30,
+      "sha1_16byte_prefix": "24b5869f8e74d46d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "72",
+      "candidate_character": "r",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00720",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "897f23182fcd9cef",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "73",
+      "candidate_character": "s",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00730",
+      "nonzero_pixels": 22,
+      "sha1_16byte_prefix": "e5414591ae9a233d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "74",
+      "candidate_character": "t",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00740",
+      "nonzero_pixels": 22,
+      "sha1_16byte_prefix": "9d39aebffe9d5311",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "75",
+      "candidate_character": "u",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00750",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "4fca82b5a6ac2061",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "76",
+      "candidate_character": "v",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00760",
+      "nonzero_pixels": 24,
+      "sha1_16byte_prefix": "ef0304883e2efc16",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "77",
+      "candidate_character": "w",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00770",
+      "nonzero_pixels": 28,
+      "sha1_16byte_prefix": "302d55b8e4c87591",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "78",
+      "candidate_character": "x",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00780",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "4fa58ef407c5dc0a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "79",
+      "candidate_character": "y",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x00790",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "1fa1adb0e622eb52",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "7A",
+      "candidate_character": "z",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x007A0",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "0237a8c2f34853ef",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "7B",
+      "candidate_character": "{",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x007B0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "7C",
+      "candidate_character": "|",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x007C0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "7D",
+      "candidate_character": "}",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x007D0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "7E",
+      "candidate_character": "~",
+      "mapping_status": "ascii_confirmed_in_literal_data",
+      "physical_chr_offset": "0x007E0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "7F",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x007F0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "80",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00800",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "81",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00810",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "82",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00820",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "83",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00830",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "84",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00840",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "85",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00850",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "86",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00860",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "7a150db8c4ba23ec",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "87",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00870",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "88",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00880",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "89",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00890",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "8A",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x008A0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "8B",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x008B0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "8C",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x008C0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "8D",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x008D0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "8E",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x008E0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "8F",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x008F0",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "70fa931cba2a86bd",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "90",
+      "candidate_character": "ー",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00900",
+      "nonzero_pixels": 5,
+      "sha1_16byte_prefix": "d6ece842990ae341",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "91",
+      "candidate_character": "ア",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00910",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "ef19517d06f22922",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "92",
+      "candidate_character": "イ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00920",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "681a518f604d8850",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "93",
+      "candidate_character": "ウ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00930",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "605f66ae253a5cf4",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "94",
+      "candidate_character": "エ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00940",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "576229eed710433b",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "95",
+      "candidate_character": "オ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00950",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "f0ebdb01df3022d9",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "96",
+      "candidate_character": "カ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00960",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "d95e6105e231fd64",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "97",
+      "candidate_character": "キ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00970",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "bbed76133b58f26c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "98",
+      "candidate_character": "ク",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00980",
+      "nonzero_pixels": 11,
+      "sha1_16byte_prefix": "100110b63dd0517d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "99",
+      "candidate_character": "ケ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00990",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "fabd0443f285454a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "9A",
+      "candidate_character": "コ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x009A0",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "df5c514cd6777235",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "9B",
+      "candidate_character": "サ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x009B0",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "0b227379bfa5112c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "9C",
+      "candidate_character": "シ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x009C0",
+      "nonzero_pixels": 11,
+      "sha1_16byte_prefix": "d4bfe43dc21f347c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "9D",
+      "candidate_character": "ス",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x009D0",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "8e552e2e2d2bf7f1",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "9E",
+      "candidate_character": "セ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x009E0",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "bdbe0f676398cbcc",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "9F",
+      "candidate_character": "ソ",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x009F0",
+      "nonzero_pixels": 10,
+      "sha1_16byte_prefix": "789d25fea1928530",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A0",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00A00",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A1",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00A10",
+      "nonzero_pixels": 6,
+      "sha1_16byte_prefix": "479a5f58856eb4ba",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A2",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00A20",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "66f721484f2ac506",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A3",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00A30",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "0c2a9acab9be532e",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A4",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00A40",
+      "nonzero_pixels": 2,
+      "sha1_16byte_prefix": "46e766bb4ef39edf",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A5",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00A50",
+      "nonzero_pixels": 3,
+      "sha1_16byte_prefix": "c9b3007060a1bcdc",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A6",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00A60",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "5c062a9f0265d606",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A7",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00A70",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A8",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00A80",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "A9",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00A90",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "AA",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00AA0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "AB",
+      "candidate_character": "",
+      "mapping_status": "blank_tile",
+      "physical_chr_offset": "0x00AB0",
+      "nonzero_pixels": 0,
+      "sha1_16byte_prefix": "e129f27c5103bc5c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "AC",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00AC0",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "2a294b775bd4b928",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "AD",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00AD0",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "1599ab7de9c7bf5d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "AE",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00AE0",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "4d45be819988c902",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "AF",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00AF0",
+      "nonzero_pixels": 5,
+      "sha1_16byte_prefix": "c42c3034f97cee38",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B0",
+      "candidate_character": "ー",
+      "mapping_status": "provisional_visual_candidate_not_runtime_verified",
+      "physical_chr_offset": "0x00B00",
+      "nonzero_pixels": 5,
+      "sha1_16byte_prefix": "d6ece842990ae341",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B1",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B10",
+      "nonzero_pixels": 23,
+      "sha1_16byte_prefix": "bcfe1dc5e0a4652d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B2",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B20",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "295656c09226a85e",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B3",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B30",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "629fd9a2f787bfd4",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B4",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B40",
+      "nonzero_pixels": 17,
+      "sha1_16byte_prefix": "6cf3b0bfe0894ce0",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B5",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B50",
+      "nonzero_pixels": 21,
+      "sha1_16byte_prefix": "3b220ece60e32d19",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B6",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B60",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "3ea1178063f7b673",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B7",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B70",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "9163646aed6d951c",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B8",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B80",
+      "nonzero_pixels": 7,
+      "sha1_16byte_prefix": "ae552d86258a0f65",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "B9",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00B90",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "c757a6cb20d3f063",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "BA",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00BA0",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "a1a3eb87d6c4c48b",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "BB",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00BB0",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "5f1c6ca277466f06",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "BC",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00BC0",
+      "nonzero_pixels": 11,
+      "sha1_16byte_prefix": "9c62c3e26aaeab1f",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "BD",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00BD0",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "7ff71ea7084da19d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "BE",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00BE0",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "9376b5857b37e1a9",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "BF",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00BF0",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "5d263cf87aa4fca8",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C0",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C00",
+      "nonzero_pixels": 19,
+      "sha1_16byte_prefix": "658d6198bb07511a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C1",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C10",
+      "nonzero_pixels": 17,
+      "sha1_16byte_prefix": "33f9ff980a4163b7",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C2",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C20",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "e6f4ae0a2063ba13",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C3",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C30",
+      "nonzero_pixels": 11,
+      "sha1_16byte_prefix": "9152a4db9ee9b6c9",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C4",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C40",
+      "nonzero_pixels": 11,
+      "sha1_16byte_prefix": "9d10e23fe31f452f",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C5",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C50",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "75a1ab2faee24988",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C6",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C60",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "e59119788a1b8e80",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C7",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C70",
+      "nonzero_pixels": 23,
+      "sha1_16byte_prefix": "76e473b453e4e163",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C8",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C80",
+      "nonzero_pixels": 21,
+      "sha1_16byte_prefix": "92821afe161e7eb2",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "C9",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00C90",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "b8d2fb901c99f460",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "CA",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00CA0",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "74b2d83610393277",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "CB",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00CB0",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "7f23a911e0ae5204",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "CC",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00CC0",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "cee669d4b09db158",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "CD",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00CD0",
+      "nonzero_pixels": 7,
+      "sha1_16byte_prefix": "74e63035658a7ebe",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "CE",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00CE0",
+      "nonzero_pixels": 25,
+      "sha1_16byte_prefix": "3ad419caebf095ec",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "CF",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00CF0",
+      "nonzero_pixels": 22,
+      "sha1_16byte_prefix": "cf0295bee2617ebc",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D0",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D00",
+      "nonzero_pixels": 21,
+      "sha1_16byte_prefix": "7287bb560167409f",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D1",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D10",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "f9ee65d32ce69d53",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D2",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D20",
+      "nonzero_pixels": 23,
+      "sha1_16byte_prefix": "a78dd53e895c0ac3",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D3",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D30",
+      "nonzero_pixels": 19,
+      "sha1_16byte_prefix": "ea181cf87f74eef9",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D4",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D40",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "9d32166c7b52435d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D5",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D50",
+      "nonzero_pixels": 19,
+      "sha1_16byte_prefix": "f1ba5c8fe2750111",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D6",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D60",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "e97da09260216c33",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D7",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D70",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "2216ed28ce48e8f6",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D8",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D80",
+      "nonzero_pixels": 10,
+      "sha1_16byte_prefix": "0035251fc87fe908",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "D9",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00D90",
+      "nonzero_pixels": 20,
+      "sha1_16byte_prefix": "7d033aaacaf7bb3d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "DA",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00DA0",
+      "nonzero_pixels": 17,
+      "sha1_16byte_prefix": "0b0691d557940f8e",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "DB",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00DB0",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "ed74240842c6b897",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "DC",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00DC0",
+      "nonzero_pixels": 17,
+      "sha1_16byte_prefix": "27b55a47af7d1c01",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "DD",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00DD0",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "d31ab302f51e70bd",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "DE",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00DE0",
+      "nonzero_pixels": 2,
+      "sha1_16byte_prefix": "46e766bb4ef39edf",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "DF",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00DF0",
+      "nonzero_pixels": 6,
+      "sha1_16byte_prefix": "479a5f58856eb4ba",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E0",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E00",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "da4d6a7eff8cddd4",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E1",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E10",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "2441489edb11b3f2",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E2",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E20",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "fcf488f54a56dbbf",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E3",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E30",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "b6bc58b85a04cbb6",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E4",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E40",
+      "nonzero_pixels": 8,
+      "sha1_16byte_prefix": "5d2fa4d9cad315c6",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E5",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E50",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "5956f9186cfa08e5",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E6",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E60",
+      "nonzero_pixels": 10,
+      "sha1_16byte_prefix": "e85a0c45a26b15a0",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E7",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E70",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "faac0b620859702a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E8",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E80",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "ba4a8341276ceebc",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "E9",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00E90",
+      "nonzero_pixels": 7,
+      "sha1_16byte_prefix": "5f2bc9ab5992370d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "EA",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00EA0",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "d077113fbc77fddc",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "EB",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00EB0",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "5f97100b095282ea",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "EC",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00EC0",
+      "nonzero_pixels": 10,
+      "sha1_16byte_prefix": "b3c28db7b2a2e8fd",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "ED",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00ED0",
+      "nonzero_pixels": 8,
+      "sha1_16byte_prefix": "2ce8118a6cbca570",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "EE",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00EE0",
+      "nonzero_pixels": 17,
+      "sha1_16byte_prefix": "213abc7d62b204ca",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "EF",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00EF0",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "af80cafbc12e49f6",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F0",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F00",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "ad4e59e668eb69a0",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F1",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F10",
+      "nonzero_pixels": 12,
+      "sha1_16byte_prefix": "1073c75ef3530cba",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F2",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F20",
+      "nonzero_pixels": 8,
+      "sha1_16byte_prefix": "1c79913655ae2526",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F3",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F30",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "fff4f5c8befb2852",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F4",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F40",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "24dbb900d30ff20d",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F5",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F50",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "cbb876eb06f08f3b",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F6",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F60",
+      "nonzero_pixels": 18,
+      "sha1_16byte_prefix": "74e9c15c67888fb4",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F7",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F70",
+      "nonzero_pixels": 15,
+      "sha1_16byte_prefix": "86172bbee8e61c23",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F8",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F80",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "b7c1befa86eb2153",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "F9",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00F90",
+      "nonzero_pixels": 13,
+      "sha1_16byte_prefix": "e269480e253371a3",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "FA",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00FA0",
+      "nonzero_pixels": 9,
+      "sha1_16byte_prefix": "8e2fcf011da51e98",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "FB",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00FB0",
+      "nonzero_pixels": 16,
+      "sha1_16byte_prefix": "85d4348f9385f55a",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "FC",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00FC0",
+      "nonzero_pixels": 14,
+      "sha1_16byte_prefix": "5824e34b1c282105",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "FD",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00FD0",
+      "nonzero_pixels": 11,
+      "sha1_16byte_prefix": "81f52c12657685e9",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "FE",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00FE0",
+      "nonzero_pixels": 4,
+      "sha1_16byte_prefix": "a58f7549b940f196",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    },
+    {
+      "tile_index_hex": "FF",
+      "candidate_character": "",
+      "mapping_status": "unmapped_visual_candidate",
+      "physical_chr_offset": "0x00FF0",
+      "nonzero_pixels": 4,
+      "sha1_16byte_prefix": "315e74d923ca96bc",
+      "comments": "Visual tile identity and runtime code-to-tile mapping are separate questions."
+    }
+  ],
+  "note": "ASCII mappings are backed by literal embedded strings. The kana assignments are visual candidates from the atlas and are not a validated script encoding."
+}

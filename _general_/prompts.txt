@@ -1,3 +1,13 @@
-[Phase 0: Planning and ROM analysis]
-1. Analyze this NES game ROM and create a step-by-step plan to translate this NES ROM to Vietnamese with full tones and diacritics. Necessary ROM modification can be done to fit the translated texts and prevent crashing. Give me all file outputs of this task.
-2. Base on the plan you just provided, execute the next step and provide the file outputs.
+[Phase 1: ROM analysis - Claude/ChatGPT]
+I am localizing this retro game ROM into Vietnamese with full tones and diacritics. I do not have a .tbl file.
+
+Please act as an expert ROM hacker and use your Python environment to do the following:
+
+1. Analyze this ROM information and perform a relative search if necessary to find the standard text encoding and pointer tables in this ROM. Give me a text file containing this ROM necessary information for a translation after your analysis is done.
+2. Generate and let me download the .tbl file. You can generate more than one .tbl files in case its contents belong to different part of the ROM's physical data.
+3. Use the .tbl file to extract all the dialogue/text into structured JSON files (with offset, original text, and byte length limit), and give me the output files. The JSON files should be organized to reflect the part of the game they belong to such as Title Screen, Dialogue, Menu Items, etc.
+4. Write a Python script called injector.py. This script should take a translated JSON file, convert the text back to hex using the .tbl, recalculate the pointers, and inject it into a copy of the ROM. This script must create a `pointer_log.txt` file that shows exactly which original pointers were changed to which new offsets. This will help us debug if the game crashes.
+5. Give me a ZIP file containing all the tools and scripts and outputs you created.
+
+[Phase 2: Initial translation]
+Here are the first-pass ROM analysis outputs for Vietnamese localization project of the game <game_name>. Use these information and tools and continue the project. Remember, the complete Vietnamese translation must have the full tones and diacritics for Vietnamese characters. Perform ROM expansion or modification where necessary to ensure there are sufficient room in the ROM data to draw Vietnamese characters.

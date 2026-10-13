@@ -1,0 +1,97 @@
+PYOKOTAN NO DAI MEIRO — STAGE 5 CHR INVENTORY + TRACE INSTRUMENTATION
+===================================================================
+
+Scope
+-----
+Stage 5 adds a full physical CHR-ROM tile inventory, high-resolution tile
+atlases, exact-pattern duplicate groups, a candidate font catalog, and an
+improved FCEUX tracer/analyzer that records active Mapper 69 CHR/PRG bank
+register values next to text-region reads and PPU $2007 writes.
+
+No emulator run took place in this workspace. This package includes tools to
+capture and analyze a trace, but no runtime trace results are fabricated.
+
+ROM identity (verified from the attached pyokotan.nes)
+------------------------------------------------------
+File size:               262,160 bytes
+Format:                  NES 2.0
+Mapper:                  69 (Sunsoft FME-7 family)
+PRG ROM:                 131,072 bytes = 16 x 8 KiB pages
+CHR ROM:                 131,072 bytes = 128 x 1 KiB CHR banks = 8,192 tiles
+Full-file CRC32:         8A929318
+PRG+CHR CRC32:            4339865C
+PRG CRC32:               BD7B1CD2
+CHR CRC32:               0033D1CF
+SHA-1:                   67fba2e82d78d512466d98bcc9fe11f8e229cb11
+
+CHR ROM inventory findings
+--------------------------
+Physical 8 KiB pages inventoried: 16
+Total raw 8x8 2bpp tiles:         8,192
+Blank tiles (all 64 pixels zero): 832
+Nonblank tiles:                   7,360
+Distinct exact 16-byte patterns:  4,672
+Exact duplicate-pattern groups:  917
+
+The inventory reports physical CHR offsets, the corresponding file offsets,
+8 KiB page numbers, Mapper 69 1 KiB bank numbers, tile index within each bank,
+raw pattern bytes, a SHA-1 prefix, pixel coverage, colors, bounding boxes, and
+exact duplicate tile indices. Atlases are generated for each 8 KiB physical
+page plus larger views of physical tile indices 0x0000-0x01FF.
+
+How to interpret the tile inventory
+-----------------------------------
+This is a graphic inventory, not a recovered in-game encoding. A physical CHR
+tile index does not necessarily equal a dialogue byte. Mapper 69 switches CHR
+ROM in eight independent 1 KiB windows, so the correct physical tile for a
+PPU pattern-table slot depends on the CHR bank commands active at the time.
+
+The candidate font catalog labels printable ASCII based on literal ASCII data,
+and retains a small set of visually inferred kana as provisional. Those kana
+labels are explicitly not runtime-confirmed and must not be treated as a final
+Japanese .tbl encoding without matching PPU writes and bank state.
+
+Runtime tracer v2
+-----------------
+`tools/pyokotan_fceux_text_trace_v2.lua` writes a CSV with:
+- reads from CPU $DE86-$E01D (the candidate fixed-width table/trailer region),
+- Mapper 69 command-register writes and parameter-register writes,
+- current values observed for PRG bank commands $09-$0B,
+- current values observed for CHR bank commands $00-$07,
+- PPU register writes, estimated $2006 address-latch state, and the estimated
+  PPU address targeted by each $2007 write.
+
+`tools/trace_log_analyzer_v2.py` can then infer likely physical PRG offsets for
+observed text-region reads and likely physical CHR tile offsets for nametable
+writes, where the needed bank state was captured. These derivations remain
+heuristic and can be incomplete if the PPU address latch is desynchronized or
+if the selected scene does not exercise the candidate data.
+
+Recommended capture
+-------------------
+1. Open the original ROM in FCEUX and load the new v2 Lua trace script.
+2. Start from power-on. Exercise the title/menu and all available text-bearing
+   screens for a few seconds each.
+3. Stop the script and keep `pyokotan_runtime_trace_v2.csv`.
+4. Run:
+   python tools/trace_log_analyzer_v2.py pyokotan_runtime_trace_v2.csv --outdir outputs/runtime_analysis
+5. Share the CSV, or at least `pyokotan_runtime_trace_summary_v2.json` and
+   `pyokotan_ppu_tile_writes_v2.csv`, so the observed bank/tile accesses can be
+   correlated with physical CHR graphics.
+
+Current status and limitations
+------------------------------
+- The 12 x 32-byte ASCII/template rows at PRG offset 0x1DE86 remain the main
+  known text-like table. Their two-byte trailers are unresolved metadata.
+- The current extraction is still partial. It is not a complete dialogue dump.
+- The game was not run in FCEUX here; no runtime behavior is claimed.
+- The v2 tracer is read-only and does not edit RAM/ROM.
+- Before inserting Vietnamese glyphs, confirm the actual text byte -> tile path,
+  string terminators, pointer logic, and screen capacity in a real trace.
+
+Technical references
+--------------------
+FCEUX Lua API (memory.registerread/registerwrite and register size semantics):
+https://fceux.com/web/help/LuaFunctionsList.html
+NESdev Mapper 69 / Sunsoft FME-7 banking reference:
+https://www.nesdev.org/wiki/INES_Mapper_069

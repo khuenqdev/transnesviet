@@ -1,0 +1,95 @@
+PYOKOTAN NO DAI MEIRO (NES) — NEXT-STAGE STATIC AUDIT
+=====================================================
+
+What changed in this pass
+-------------------------
+1. Rechecked the candidate address sequences against actual target bytes in the ROM.
+2. Corrected an unsupported assumption in the first .tbl: the earlier A1–DF = JIS X 0201 half-width kana mapping is removed. CHR bank 0 uses a game-specific glyph layout; visual tiles do not justify claiming a JIS X 0201 byte encoding.
+3. Added a conservative v2 .tbl, a 256-code character audit CSV/JSON, refreshed text JSON, reproducible audit/extraction scripts, and an updated package.
+
+ROM fingerprint
+---------------
+File: pyokotan.nes
+Header: NES 2.0
+Mapper: 69 (Sunsoft FME-7)
+PRG: 131,072 bytes (16 × 8 KiB banks)
+CHR: 131,072 bytes (16 × 8 KiB banks)
+Full-file CRC32: 8A929318
+PRG+CHR CRC32: 4339865C
+PRG CRC32: BD7B1CD2
+CHR CRC32: 0033D1CF
+SHA-1: 67fba2e82d78d512466d98bcc9fe11f8e229cb11
+Vectors: NMI $D88D, RESET $FFD0, IRQ/BRK $D92A
+
+Validated static text-like records
+----------------------------------
+A 12-row fixed-stride structure begins at PRG offset 0x1DE86 (file offset 0x1DE96).
+Each row has a 32-byte readable ASCII payload followed by 2 opaque bytes, repeated
+at stride 0x22. This yields a 32-byte raw payload capacity for these specific rows;
+it does not prove that all fields accept arbitrary translated strings at runtime.
+
+The 12 readable fields are:
+- "  P Y O K O T A N               "
+- "           1992 SUN-SOFT / JSS !"
+- " STAGE  1 2 3 4   PYOKO-WATARI !"
+- "                  CANDY-YASAN  !"
+- "                  APPLE-TREE   !"
+- "                  PYOKO_MEKURI ""
+- "                  PYOKO_MELODY ""
+- "                  BONUS BOSS   ""
+- " NOTICE. --- SAMPLE V1.62 ---  ""
+- " START ------- STANDARD PLAY.  ""
+- " A-KEY -------   SELECT PLAY.  #"
+- " SELECT ------    CROM CHECK.  #"
+
+A HUD-like ASCII template at PRG offset 0x0943F (file 0x0944F) reads
+"SCORE 000000         LIFE 0   #" and is stored as a 31-byte span for analysis.
+Two other literal diagnostic spans are "DATE. 1992-12/20" at PRG 0x1E01F and
+"01:10.20" at PRG 0x1E030. These may be internal/developer diagnostics.
+
+Updated character-table conclusions
+-----------------------------------
+- ASCII 0x20–0x7E is strongly supported by literal strings in the ROM.
+- CHR atlas tiles 0x91–0x9F visually resemble the katakana sequence ア, イ, ウ, エ,
+  オ, カ, キ, ク, ケ, コ, サ, シ, ス, セ, ソ. This reading is provisional: the
+  runtime text byte-to-tile lookup has not been traced.
+- CHR tiles 0x90 and 0xB0 both look like a long-vowel dash ー.
+- All other extended bytes are left as <XX> placeholders. A placeholder is not a
+  real character; do not use the unmapped codes in a translation patch.
+
+Pointer-table status
+--------------------
+No general dialogue pointer table is confirmed. The heuristic scanner detects 87
+address-shaped sequences. Important candidates include PRG 0x11376/0x1139A/0x113D2,
+whose little-endian words contain values like $9436, $94F9, and $95CA.
+Under an illustrative same-bank-8 mapping, their targets land in structured binary
+records (pairs and low-valued fields) rather than ordinary ASCII strings. This makes
+them poor candidates for plain-text pointer tables, but is not a proof of purpose:
+bank register state and cross-references must be traced at runtime.
+
+What this step does NOT do
+-------------------------
+- It does not extract the complete game script or prove that all player-visible
+  Japanese strings are stored as ordinary ROM text.
+- It does not patch the ROM or insert Vietnamese diacritics.
+- It does not confirm string terminators, control codes, text-width rules, or bank
+  selections used by actual rendering code.
+- Static analysis alone cannot verify in-emulator rendering or game stability.
+
+Recommended next debugging step
+-------------------------------
+In Mesen or FCEUX, break when a menu/cutscene with Japanese kana appears. Capture
+CPU reads from the string region and writes to PPU $2000–$3FFF, including the FME-7
+register values that select PRG banks. Identify the code that maps a byte to a CHR
+pattern/tile; then verify the candidate 0x91–0x9F readings and test one controlled
+string. Record the terminator and max length before expanding the JSON extraction.
+
+Reproducibility
+---------------
+Use Python 3:
+  python tools/rom_audit.py pyokotan.nes --out outputs/rom_fingerprint.json
+  python tools/extract_text.py pyokotan.nes --tbl pyokotan_v2.tbl --out outputs/pyokotan_text_dump_v2.json
+  python tools/scan_pointer_candidates.py pyokotan.nes --out outputs/pointer_candidate_audit_v2.json
+
+The extractor validates the PRG+CHR CRC32 before reading the known offsets. The
+results intentionally separate observed bytes from unverified semantic interpretation.

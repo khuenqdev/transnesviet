@@ -1,0 +1,257 @@
+byte_hex,visual_reading,status,notes
+00,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+01,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+02,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+03,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+04,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+05,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+06,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+07,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+08,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+09,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+0A,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+0B,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+0C,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+0D,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+0E,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+0F,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+10,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+11,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+12,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+13,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+14,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+15,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+16,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+17,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+18,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+19,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+1A,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+1B,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+1C,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+1D,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+1E,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+1F,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+20, ,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+21,!,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+22,"""",strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+23,#,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+24,$,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+25,%,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+26,&,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+27,',strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+28,(,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+29,),strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+2A,*,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+2B,+,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+2C,",",strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+2D,-,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+2E,.,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+2F,/,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+30,0,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+31,1,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+32,2,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+33,3,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+34,4,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+35,5,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+36,6,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+37,7,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+38,8,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+39,9,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+3A,:,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+3B,;,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+3C,<,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+3D,=,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+3E,>,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+3F,?,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+40,@,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+41,A,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+42,B,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+43,C,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+44,D,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+45,E,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+46,F,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+47,G,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+48,H,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+49,I,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+4A,J,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+4B,K,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+4C,L,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+4D,M,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+4E,N,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+4F,O,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+50,P,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+51,Q,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+52,R,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+53,S,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+54,T,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+55,U,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+56,V,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+57,W,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+58,X,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+59,Y,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+5A,Z,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+5B,[,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+5C,\,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+5D,],strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+5E,^,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+5F,_,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+60,`,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+61,a,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+62,b,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+63,c,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+64,d,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+65,e,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+66,f,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+67,g,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+68,h,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+69,i,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+6A,j,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+6B,k,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+6C,l,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+6D,m,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+6E,n,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+6F,o,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+70,p,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+71,q,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+72,r,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+73,s,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+74,t,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+75,u,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+76,v,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+77,w,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+78,x,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+79,y,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+7A,z,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+7B,{,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+7C,|,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+7D,},strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+7E,~,strongly supported,ASCII appears in literal ROM strings; actual runtime lookup is not fully traced.
+7F,,control/unknown,"Not mapped; could be control, terminator, tile, or data depending on text routine."
+80,<80>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+81,<81>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+82,<82>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+83,<83>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+84,<84>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+85,<85>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+86,<86>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+87,<87>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+88,<88>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+89,<89>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+8A,<8A>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+8B,<8B>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+8C,<8C>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+8D,<8D>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+8E,<8E>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+8F,<8F>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+90,ー,provisional,Long-vowel dash visible in atlas; text-code path not confirmed.
+91,ア,provisional,Visual glyph reading; code-to-tile path not confirmed.
+92,イ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+93,ウ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+94,エ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+95,オ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+96,カ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+97,キ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+98,ク,provisional,Visual glyph reading; code-to-tile path not confirmed.
+99,ケ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+9A,コ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+9B,サ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+9C,シ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+9D,ス,provisional,Visual glyph reading; code-to-tile path not confirmed.
+9E,セ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+9F,ソ,provisional,Visual glyph reading; code-to-tile path not confirmed.
+A0,<A0>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A1,<A1>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A2,<A2>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A3,<A3>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A4,<A4>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A5,<A5>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A6,<A6>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A7,<A7>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A8,<A8>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+A9,<A9>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+AA,<AA>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+AB,<AB>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+AC,<AC>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+AD,<AD>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+AE,<AE>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+AF,<AF>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B0,ー,provisional,"Tile looks like the long-vowel dash, visually duplicated at 0x90."
+B1,<B1>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B2,<B2>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B3,<B3>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B4,<B4>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B5,<B5>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B6,<B6>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B7,<B7>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B8,<B8>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+B9,<B9>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+BA,<BA>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+BB,<BB>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+BC,<BC>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+BD,<BD>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+BE,<BE>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+BF,<BF>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C0,<C0>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C1,<C1>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C2,<C2>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C3,<C3>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C4,<C4>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C5,<C5>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C6,<C6>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C7,<C7>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C8,<C8>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+C9,<C9>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+CA,<CA>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+CB,<CB>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+CC,<CC>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+CD,<CD>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+CE,<CE>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+CF,<CF>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D0,<D0>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D1,<D1>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D2,<D2>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D3,<D3>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D4,<D4>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D5,<D5>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D6,<D6>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D7,<D7>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D8,<D8>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+D9,<D9>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+DA,<DA>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+DB,<DB>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+DC,<DC>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+DD,<DD>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+DE,<DE>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+DF,<DF>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E0,<E0>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E1,<E1>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E2,<E2>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E3,<E3>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E4,<E4>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E5,<E5>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E6,<E6>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E7,<E7>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E8,<E8>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+E9,<E9>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+EA,<EA>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+EB,<EB>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+EC,<EC>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+ED,<ED>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+EE,<EE>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+EF,<EF>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F0,<F0>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F1,<F1>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F2,<F2>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F3,<F3>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F4,<F4>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F5,<F5>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F6,<F6>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F7,<F7>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F8,<F8>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+F9,<F9>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+FA,<FA>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+FB,<FB>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+FC,<FC>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+FD,<FD>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+FE,<FE>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."
+FF,<FF>,unmapped placeholder,"Visual glyph exists for some values, but character identity/code mapping is not yet verified."

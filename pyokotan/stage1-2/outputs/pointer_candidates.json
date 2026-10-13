@@ -1,0 +1,1841 @@
+{
+  "rom": "pyokotan.nes",
+  "method": "scan for consecutive little-endian 16-bit values in $8000-$FFFF with strictly increasing targets and modest gaps",
+  "candidate_count": 87,
+  "warning": "All hits are heuristic candidates. In mapper 69 ROMs, CPU address resolution depends on the active 8KB PRG bank. These results are not proof of text pointer tables.",
+  "candidates": [
+    {
+      "prg_offset": "0x113D2",
+      "file_offset": "0x113E2",
+      "count": 30,
+      "target_values": [
+        "0x95CA",
+        "0x9631",
+        "0x9652",
+        "0x9673",
+        "0x9694",
+        "0x96B5",
+        "0x96D6",
+        "0x96F7",
+        "0x9718",
+        "0x9739",
+        "0x975A",
+        "0x977B",
+        "0x979C",
+        "0x97BD",
+        "0x97DE",
+        "0x97FF",
+        "0x9820",
+        "0x9841",
+        "0x9862",
+        "0x9883",
+        "0x98A4",
+        "0x98C5",
+        "0x98CA",
+        "0x98CF",
+        "0x98D8",
+        "0x98E1",
+        "0x98EE",
+        "0x98FB",
+        "0x9908",
+        "0x9915"
+      ],
+      "deltas": [
+        103,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        33,
+        5,
+        5,
+        9,
+        9,
+        13,
+        13,
+        13,
+        13
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1139A",
+      "file_offset": "0x113AA",
+      "count": 26,
+      "target_values": [
+        "0x94F9",
+        "0x9520",
+        "0x952D",
+        "0x953A",
+        "0x9543",
+        "0x954C",
+        "0x9555",
+        "0x955E",
+        "0x9567",
+        "0x9570",
+        "0x9579",
+        "0x9582",
+        "0x958B",
+        "0x9594",
+        "0x959D",
+        "0x95A6",
+        "0x95AF",
+        "0x95B8",
+        "0x95C1",
+        "0x95CA",
+        "0x95D7",
+        "0x95E4",
+        "0x95F1",
+        "0x95FE",
+        "0x960F",
+        "0x9620"
+      ],
+      "deltas": [
+        39,
+        13,
+        13,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        13,
+        13,
+        13,
+        13,
+        17,
+        17
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x02618",
+      "file_offset": "0x02628",
+      "count": 20,
+      "target_values": [
+        "0xA640",
+        "0xA643",
+        "0xA646",
+        "0xA649",
+        "0xA64C",
+        "0xA64F",
+        "0xA652",
+        "0xA655",
+        "0xA658",
+        "0xA65B",
+        "0xA65E",
+        "0xA661",
+        "0xA664",
+        "0xA667",
+        "0xA66A",
+        "0xA66D",
+        "0xA670",
+        "0xA673",
+        "0xA676",
+        "0xA679"
+      ],
+      "deltas": [
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3,
+        3
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x0267E",
+      "file_offset": "0x0268E",
+      "count": 20,
+      "target_values": [
+        "0xA6A6",
+        "0xA6AA",
+        "0xA6AE",
+        "0xA6B2",
+        "0xA6B6",
+        "0xA6BA",
+        "0xA6BE",
+        "0xA6C2",
+        "0xA6C6",
+        "0xA6CA",
+        "0xA6CE",
+        "0xA6D2",
+        "0xA6D6",
+        "0xA6DA",
+        "0xA6DE",
+        "0xA6E2",
+        "0xA6E6",
+        "0xA6EA",
+        "0xA6EE",
+        "0xA6F2"
+      ],
+      "deltas": [
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x026F8",
+      "file_offset": "0x02708",
+      "count": 20,
+      "target_values": [
+        "0xA720",
+        "0xA725",
+        "0xA72A",
+        "0xA72F",
+        "0xA734",
+        "0xA739",
+        "0xA73E",
+        "0xA743",
+        "0xA748",
+        "0xA74D",
+        "0xA752",
+        "0xA757",
+        "0xA75C",
+        "0xA761",
+        "0xA766",
+        "0xA76B",
+        "0xA770",
+        "0xA775",
+        "0xA77A",
+        "0xA77F"
+      ],
+      "deltas": [
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5,
+        5
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x02786",
+      "file_offset": "0x02796",
+      "count": 20,
+      "target_values": [
+        "0xA7AE",
+        "0xA7B4",
+        "0xA7BA",
+        "0xA7C0",
+        "0xA7C6",
+        "0xA7CC",
+        "0xA7D2",
+        "0xA7D8",
+        "0xA7DE",
+        "0xA7E4",
+        "0xA7EA",
+        "0xA7F0",
+        "0xA7F6",
+        "0xA7FC",
+        "0xA802",
+        "0xA808",
+        "0xA80E",
+        "0xA814",
+        "0xA81A",
+        "0xA820"
+      ],
+      "deltas": [
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6,
+        6
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11410",
+      "file_offset": "0x11420",
+      "count": 19,
+      "target_values": [
+        "0x991A",
+        "0x9927",
+        "0x9930",
+        "0x9939",
+        "0x993C",
+        "0x9949",
+        "0x9952",
+        "0x995B",
+        "0x9960",
+        "0x9969",
+        "0x9972",
+        "0x997B",
+        "0x9984",
+        "0x998D",
+        "0x99A0",
+        "0x99B3",
+        "0x99C6",
+        "0x99D9",
+        "0x99FA"
+      ],
+      "deltas": [
+        13,
+        9,
+        9,
+        3,
+        13,
+        9,
+        9,
+        5,
+        9,
+        9,
+        9,
+        9,
+        9,
+        19,
+        19,
+        19,
+        19,
+        33
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1209C",
+      "file_offset": "0x120AC",
+      "count": 16,
+      "target_values": [
+        "0xA0BC",
+        "0xA0CF",
+        "0xA0EE",
+        "0xA10D",
+        "0xA12C",
+        "0xA14B",
+        "0xA16A",
+        "0xA173",
+        "0xA17C",
+        "0xA185",
+        "0xA18E",
+        "0xA197",
+        "0xA1A0",
+        "0xA1A9",
+        "0xA1BA",
+        "0xA1CB"
+      ],
+      "deltas": [
+        19,
+        31,
+        31,
+        31,
+        31,
+        31,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        9,
+        17,
+        17
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x028E4",
+      "file_offset": "0x028F4",
+      "count": 10,
+      "target_values": [
+        "0xA8F8",
+        "0xA90C",
+        "0xA919",
+        "0xA920",
+        "0xA92E",
+        "0xA93B",
+        "0xA94B",
+        "0xA958",
+        "0xA967",
+        "0xA975"
+      ],
+      "deltas": [
+        20,
+        13,
+        7,
+        14,
+        13,
+        16,
+        13,
+        15,
+        14
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x02828",
+      "file_offset": "0x02838",
+      "count": 8,
+      "target_values": [
+        "0xA838",
+        "0xA840",
+        "0xA848",
+        "0xA850",
+        "0xA858",
+        "0xA860",
+        "0xA868",
+        "0xA870"
+      ],
+      "deltas": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1DC34",
+      "file_offset": "0x1DC44",
+      "count": 8,
+      "target_values": [
+        "0xDC44",
+        "0xDC4C",
+        "0xDC54",
+        "0xDC5C",
+        "0xDC64",
+        "0xDC6C",
+        "0xDC74",
+        "0xDC7C"
+      ],
+      "deltas": [
+        8,
+        8,
+        8,
+        8,
+        8,
+        8,
+        8
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1ED04",
+      "file_offset": "0x1ED14",
+      "count": 8,
+      "target_values": [
+        "0xF00D",
+        "0xF026",
+        "0xF02F",
+        "0xF03D",
+        "0xF050",
+        "0xF137",
+        "0xF13D",
+        "0xF14B"
+      ],
+      "deltas": [
+        25,
+        9,
+        14,
+        19,
+        231,
+        6,
+        14
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1E046",
+      "file_offset": "0x1E056",
+      "count": 8,
+      "target_values": [
+        "0x8985",
+        "0x8A85",
+        "0x8B85",
+        "0x8C85",
+        "0x8D85",
+        "0x8E85",
+        "0x8F85",
+        "0x9085"
+      ],
+      "deltas": [
+        256,
+        256,
+        256,
+        256,
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11376",
+      "file_offset": "0x11386",
+      "count": 6,
+      "target_values": [
+        "0x9436",
+        "0x945D",
+        "0x946A",
+        "0x9477",
+        "0x9484",
+        "0x9491"
+      ],
+      "deltas": [
+        39,
+        13,
+        13,
+        13,
+        13
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11382",
+      "file_offset": "0x11392",
+      "count": 6,
+      "target_values": [
+        "0x9477",
+        "0x949E",
+        "0x94AB",
+        "0x94B8",
+        "0x94C5",
+        "0x94D2"
+      ],
+      "deltas": [
+        39,
+        13,
+        13,
+        13,
+        13
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1138E",
+      "file_offset": "0x1139E",
+      "count": 6,
+      "target_values": [
+        "0x94B8",
+        "0x94DF",
+        "0x94EC",
+        "0x94F9",
+        "0x9506",
+        "0x9513"
+      ],
+      "deltas": [
+        39,
+        13,
+        13,
+        13,
+        13
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1E78E",
+      "file_offset": "0x1E79E",
+      "count": 6,
+      "target_values": [
+        "0xE7B2",
+        "0xE7BB",
+        "0xE7D6",
+        "0xE7DF",
+        "0xE86E",
+        "0xE877"
+      ],
+      "deltas": [
+        9,
+        27,
+        9,
+        143,
+        9
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x106C2",
+      "file_offset": "0x106D2",
+      "count": 5,
+      "target_values": [
+        "0x86CC",
+        "0x86D0",
+        "0x86D4",
+        "0x86D8",
+        "0x86DC"
+      ],
+      "deltas": [
+        4,
+        4,
+        4,
+        4
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x0167E",
+      "file_offset": "0x0168E",
+      "count": 5,
+      "target_values": [
+        "0x9686",
+        "0x968B",
+        "0x9691",
+        "0x9698",
+        "0x969F"
+      ],
+      "deltas": [
+        5,
+        6,
+        7,
+        7
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1EC4C",
+      "file_offset": "0x1EC5C",
+      "count": 5,
+      "target_values": [
+        "0xC660",
+        "0xC689",
+        "0xC68A",
+        "0xC68B",
+        "0xC68C"
+      ],
+      "deltas": [
+        41,
+        1,
+        1,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1DD22",
+      "file_offset": "0x1DD32",
+      "count": 5,
+      "target_values": [
+        "0xDDC2",
+        "0xDDCE",
+        "0xDDDA",
+        "0xDDE6",
+        "0xDDF2"
+      ],
+      "deltas": [
+        12,
+        12,
+        12,
+        12
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x00E4C",
+      "file_offset": "0x00E5C",
+      "count": 5,
+      "target_values": [
+        "0x8500",
+        "0x8538",
+        "0x8539",
+        "0x853A",
+        "0x853B"
+      ],
+      "deltas": [
+        56,
+        1,
+        1,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x121E6",
+      "file_offset": "0x121F6",
+      "count": 5,
+      "target_values": [
+        "0xA204",
+        "0xA228",
+        "0xA231",
+        "0xA23E",
+        "0xA24B"
+      ],
+      "deltas": [
+        36,
+        9,
+        13,
+        13
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x094A4",
+      "file_offset": "0x094B4",
+      "count": 5,
+      "target_values": [
+        "0x8500",
+        "0x8533",
+        "0x8535",
+        "0x8551",
+        "0x8552"
+      ],
+      "deltas": [
+        51,
+        2,
+        28,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x121F0",
+      "file_offset": "0x12200",
+      "count": 5,
+      "target_values": [
+        "0xA231",
+        "0xA258",
+        "0xA265",
+        "0xA272",
+        "0xA2C4"
+      ],
+      "deltas": [
+        39,
+        13,
+        13,
+        82
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1EC56",
+      "file_offset": "0x1EC66",
+      "count": 4,
+      "target_values": [
+        "0xC689",
+        "0xC68A",
+        "0xC68B",
+        "0xC68C"
+      ],
+      "deltas": [
+        1,
+        1,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1EC5E",
+      "file_offset": "0x1EC6E",
+      "count": 4,
+      "target_values": [
+        "0xC689",
+        "0xC68A",
+        "0xC68B",
+        "0xC68C"
+      ],
+      "deltas": [
+        1,
+        1,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x18212",
+      "file_offset": "0x18222",
+      "count": 4,
+      "target_values": [
+        "0x8500",
+        "0x8510",
+        "0x8511",
+        "0x8512"
+      ],
+      "deltas": [
+        16,
+        1,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1ED24",
+      "file_offset": "0x1ED34",
+      "count": 4,
+      "target_values": [
+        "0xEEB4",
+        "0xEEBA",
+        "0xEEC0",
+        "0xEEC6"
+      ],
+      "deltas": [
+        6,
+        6,
+        6
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x025EA",
+      "file_offset": "0x025FA",
+      "count": 4,
+      "target_values": [
+        "0xA5F2",
+        "0xA5F9",
+        "0xA602",
+        "0xA60B"
+      ],
+      "deltas": [
+        7,
+        9,
+        9
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x0287A",
+      "file_offset": "0x0288A",
+      "count": 4,
+      "target_values": [
+        "0xA882",
+        "0xA88C",
+        "0xA896",
+        "0xA8A0"
+      ],
+      "deltas": [
+        10,
+        10,
+        10
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x028AC",
+      "file_offset": "0x028BC",
+      "count": 4,
+      "target_values": [
+        "0xA8B4",
+        "0xA8C0",
+        "0xA8CC",
+        "0xA8D8"
+      ],
+      "deltas": [
+        12,
+        12,
+        12
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x023C4",
+      "file_offset": "0x023D4",
+      "count": 4,
+      "target_values": [
+        "0x85A9",
+        "0x85D3",
+        "0x85D4",
+        "0x85D5"
+      ],
+      "deltas": [
+        42,
+        1,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1E79E",
+      "file_offset": "0x1E7AE",
+      "count": 4,
+      "target_values": [
+        "0xE7E8",
+        "0xE7FE",
+        "0xE80B",
+        "0xE814"
+      ],
+      "deltas": [
+        22,
+        13,
+        9
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x0A66C",
+      "file_offset": "0x0A67C",
+      "count": 4,
+      "target_values": [
+        "0x8500",
+        "0x8536",
+        "0x8537",
+        "0x8538"
+      ],
+      "deltas": [
+        54,
+        1,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x00926",
+      "file_offset": "0x00936",
+      "count": 4,
+      "target_values": [
+        "0x8930",
+        "0x893D",
+        "0x8952",
+        "0x896F"
+      ],
+      "deltas": [
+        13,
+        21,
+        29
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1E780",
+      "file_offset": "0x1E790",
+      "count": 4,
+      "target_values": [
+        "0xE84A",
+        "0xE853",
+        "0xE85C",
+        "0xE892"
+      ],
+      "deltas": [
+        9,
+        9,
+        54
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x007E8",
+      "file_offset": "0x007F8",
+      "count": 4,
+      "target_values": [
+        "0x8500",
+        "0x8540",
+        "0x8541",
+        "0x854E"
+      ],
+      "deltas": [
+        64,
+        1,
+        13
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x121FA",
+      "file_offset": "0x1220A",
+      "count": 4,
+      "target_values": [
+        "0xA29B",
+        "0xA2ED",
+        "0xA30C",
+        "0xA326"
+      ],
+      "deltas": [
+        82,
+        31,
+        26
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x0874E",
+      "file_offset": "0x0875E",
+      "count": 4,
+      "target_values": [
+        "0x8756",
+        "0x878B",
+        "0x87C2",
+        "0x87F9"
+      ],
+      "deltas": [
+        53,
+        55,
+        55
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1DD40",
+      "file_offset": "0x1DD50",
+      "count": 4,
+      "target_values": [
+        "0xDD6C",
+        "0xDD78",
+        "0xDD86",
+        "0xDE52"
+      ],
+      "deltas": [
+        12,
+        14,
+        204
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1DD30",
+      "file_offset": "0x1DD40",
+      "count": 4,
+      "target_values": [
+        "0xDD54",
+        "0xDD60",
+        "0xDE3A",
+        "0xDE46"
+      ],
+      "deltas": [
+        12,
+        218,
+        12
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x0009C",
+      "file_offset": "0x000AC",
+      "count": 4,
+      "target_values": [
+        "0x8500",
+        "0x8525",
+        "0x85F4",
+        "0x85F5"
+      ],
+      "deltas": [
+        37,
+        207,
+        1
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x09966",
+      "file_offset": "0x09976",
+      "count": 4,
+      "target_values": [
+        "0x98E7",
+        "0x9970",
+        "0x99C7",
+        "0x9A06"
+      ],
+      "deltas": [
+        137,
+        87,
+        63
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11652",
+      "file_offset": "0x11662",
+      "count": 4,
+      "target_values": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11694",
+      "file_offset": "0x116A4",
+      "count": 4,
+      "target_values": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x116D6",
+      "file_offset": "0x116E6",
+      "count": 4,
+      "target_values": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11718",
+      "file_offset": "0x11728",
+      "count": 4,
+      "target_values": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1175A",
+      "file_offset": "0x1176A",
+      "count": 4,
+      "target_values": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1179C",
+      "file_offset": "0x117AC",
+      "count": 4,
+      "target_values": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x117DE",
+      "file_offset": "0x117EE",
+      "count": 4,
+      "target_values": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11820",
+      "file_offset": "0x11830",
+      "count": 4,
+      "target_values": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11862",
+      "file_offset": "0x11872",
+      "count": 4,
+      "target_values": [
+        "0xC41B",
+        "0xC503",
+        "0xC603",
+        "0xC703"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x118A4",
+      "file_offset": "0x118B4",
+      "count": 4,
+      "target_values": [
+        "0xCC1B",
+        "0xCD03",
+        "0xCE03",
+        "0xCF03"
+      ],
+      "deltas": [
+        232,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1165A",
+      "file_offset": "0x1166A",
+      "count": 4,
+      "target_values": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11662",
+      "file_offset": "0x11672",
+      "count": 4,
+      "target_values": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1166A",
+      "file_offset": "0x1167A",
+      "count": 4,
+      "target_values": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1169C",
+      "file_offset": "0x116AC",
+      "count": 4,
+      "target_values": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x116A4",
+      "file_offset": "0x116B4",
+      "count": 4,
+      "target_values": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x116AC",
+      "file_offset": "0x116BC",
+      "count": 4,
+      "target_values": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x116DE",
+      "file_offset": "0x116EE",
+      "count": 4,
+      "target_values": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x116E6",
+      "file_offset": "0x116F6",
+      "count": 4,
+      "target_values": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x116EE",
+      "file_offset": "0x116FE",
+      "count": 4,
+      "target_values": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11720",
+      "file_offset": "0x11730",
+      "count": 4,
+      "target_values": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11728",
+      "file_offset": "0x11738",
+      "count": 4,
+      "target_values": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11730",
+      "file_offset": "0x11740",
+      "count": 4,
+      "target_values": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11762",
+      "file_offset": "0x11772",
+      "count": 4,
+      "target_values": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1176A",
+      "file_offset": "0x1177A",
+      "count": 4,
+      "target_values": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11772",
+      "file_offset": "0x11782",
+      "count": 4,
+      "target_values": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x117A4",
+      "file_offset": "0x117B4",
+      "count": 4,
+      "target_values": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x117AC",
+      "file_offset": "0x117BC",
+      "count": 4,
+      "target_values": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x117B4",
+      "file_offset": "0x117C4",
+      "count": 4,
+      "target_values": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x117E6",
+      "file_offset": "0x117F6",
+      "count": 4,
+      "target_values": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x117EE",
+      "file_offset": "0x117FE",
+      "count": 4,
+      "target_values": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x117F6",
+      "file_offset": "0x11806",
+      "count": 4,
+      "target_values": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11828",
+      "file_offset": "0x11838",
+      "count": 4,
+      "target_values": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11830",
+      "file_offset": "0x11840",
+      "count": 4,
+      "target_values": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11838",
+      "file_offset": "0x11848",
+      "count": 4,
+      "target_values": [
+        "0xFC03",
+        "0xFD03",
+        "0xFE03",
+        "0xFF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1186A",
+      "file_offset": "0x1187A",
+      "count": 4,
+      "target_values": [
+        "0xD403",
+        "0xD503",
+        "0xD603",
+        "0xD703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x11872",
+      "file_offset": "0x11882",
+      "count": 4,
+      "target_values": [
+        "0xE403",
+        "0xE503",
+        "0xE603",
+        "0xE703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1187A",
+      "file_offset": "0x1188A",
+      "count": 4,
+      "target_values": [
+        "0xF403",
+        "0xF503",
+        "0xF603",
+        "0xF703"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x118AC",
+      "file_offset": "0x118BC",
+      "count": 4,
+      "target_values": [
+        "0xDC03",
+        "0xDD03",
+        "0xDE03",
+        "0xDF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x118B4",
+      "file_offset": "0x118C4",
+      "count": 4,
+      "target_values": [
+        "0xEC03",
+        "0xED03",
+        "0xEE03",
+        "0xEF03"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1EC2C",
+      "file_offset": "0x1EC3C",
+      "count": 4,
+      "target_values": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1EC34",
+      "file_offset": "0x1EC44",
+      "count": 4,
+      "target_values": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1EC3C",
+      "file_offset": "0x1EC4C",
+      "count": 4,
+      "target_values": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    },
+    {
+      "prg_offset": "0x1EC44",
+      "file_offset": "0x1EC54",
+      "count": 4,
+      "target_values": [
+        "0x89E6",
+        "0x8AE6",
+        "0x8BE6",
+        "0x8CE6"
+      ],
+      "deltas": [
+        256,
+        256,
+        256
+      ],
+      "confidence": "low; values fit an address-like pattern but have no confirmed text-code cross-reference"
+    }
+  ]
+}

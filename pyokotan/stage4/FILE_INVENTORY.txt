@@ -1,0 +1,32 @@
+Pyokotan stage 4 file inventory
+================================
+
+README.txt	1800 bytes
+outputs/pyokotan_ascii_run_census.csv	258027 bytes
+outputs/pyokotan_ascii_run_census.json	883406 bytes
+outputs/pyokotan_charset_audit.csv	28894 bytes
+outputs/pyokotan_charset_audit.json	2984 bytes
+outputs/pyokotan_charset_sequence_candidates.json	5607 bytes
+outputs/pyokotan_code_xrefs_v4.json	8429 bytes
+outputs/pyokotan_fixed_table_row_audit_v4.csv	3352 bytes
+outputs/pyokotan_fixed_table_row_audit_v4.json	8088 bytes
+outputs/pyokotan_memory_map_v3.json	5103 bytes
+outputs/pyokotan_pointer_candidates_v3.json	42921 bytes
+outputs/pyokotan_reachable_disassembly_v4.csv	21497 bytes
+outputs/pyokotan_reachable_disassembly_v4.json	118651 bytes
+outputs/pyokotan_reset_path_disassembly_v4.txt	1871 bytes
+outputs/pyokotan_rom_analysis_v4.txt	5220 bytes
+outputs/pyokotan_rom_fingerprint_v3.json	563 bytes
+outputs/pyokotan_row_pointer_value_scan_v4.csv	570 bytes
+outputs/pyokotan_row_pointer_value_scan_v4.json	3823 bytes
+outputs/pyokotan_stage4_summary.json	8811 bytes
+outputs/pyokotan_text_dump_v3.json	22140 bytes
+outputs/pyokotan_v3.tbl	2132 bytes
+outputs/runtime_trace_instructions.md	2761 bytes
+reference/pyokotan_chr_atlas.png	42673 bytes
+tools/bank_mapping_audit.py	4057 bytes
+tools/extract_text.py	9596 bytes
+tools/pyokotan_fceux_text_trace.lua	2562 bytes
+tools/scan_row_pointer_values.py	3306 bytes
+tools/static_code_xref.py	13138 bytes
+tools/trace_log_analyzer.py	3545 bytes

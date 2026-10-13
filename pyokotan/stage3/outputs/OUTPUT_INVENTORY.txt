@@ -1,0 +1,56 @@
+CURRENT STAGE 3 OUTPUT INVENTORY
+================================
+
+Core files
+----------
+pyokotan_v3.tbl
+outputs/pyokotan_text_dump_v3.json
+outputs/pyokotan_rom_analysis_v3.txt
+outputs/rom_fingerprint_v3.json
+outputs/bank_mapping_audit.json
+outputs/pointer_candidate_audit_v3.json
+outputs/selected_pointer_target_audit.json
+outputs/charset_audit.csv
+outputs/charset_audit.json
+outputs/charset_sequence_candidates.json
+outputs/ascii_run_census.csv
+outputs/ascii_run_census.json
+outputs/readable_string_candidates.json (low-confidence heuristic shortlist; contains false positives)
+
+Runtime-debug tools
+-------------------
+tools/pyokotan_fceux_text_trace.lua
+tools/trace_log_analyzer.py
+tools/bank_mapping_audit.py
+tools/scan_ascii_candidates.py
+tools/build_text_dump_v3.py
+tools/verify_outputs.py
+outputs/runtime_trace_instructions.md
+outputs/runtime_trace_capture_template.csv
+outputs/runtime_trace_summary_template.json
+outputs/runtime_trace_interesting_template.csv
+
+Retained previous tools
+-----------------------
+tools/rom_audit.py
+tools/extract_text.py (space-preserving fix applied)
+tools/scan_pointer_candidates.py
+tools/build_chr_atlas.py
+
+Visual references
+-----------------
+reference/*.png — CHR tile atlases from prior pass plus pyokotan_chr_atlas.png
+
+Historical-only artifact
+------------------------
+outputs/legacy_v2_text_dump_pre_space_fix.json is included for audit history only.
+Its v2 decoder stripped mapped spaces due a .tbl loader bug and MUST NOT be used
+for translation. Use outputs/pyokotan_text_dump_v3.json instead.
+
+Important limitations
+---------------------
+- No complete dialogue dump or patched ROM is included.
+- Pointer candidates are unconfirmed.
+- Character codes above ASCII are still mostly provisional or placeholders.
+- Runtime tracing requires FCEUX and has not been executed in this environment.
+- The original ROM is not included; it remains a separate user-provided input.

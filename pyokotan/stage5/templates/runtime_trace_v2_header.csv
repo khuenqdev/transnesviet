@@ -1,0 +1,1 @@
+frame,event,address,value,pc,size,mapper_command,mapper_register,prg_8000_raw,prg_a000_raw,prg_c000_raw,chr0_raw,chr1_raw,chr2_raw,chr3_raw,chr4_raw,chr5_raw,chr6_raw,chr7_raw,ppu_ctrl,ppu_addr_current,ppu_addr_write_target,ppu_latch_high_next

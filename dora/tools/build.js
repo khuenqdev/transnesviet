@@ -241,10 +241,19 @@ function patchYesNo(rom) {
   const co = [T.C, T['ó1']], khong = [T.K, T.h, T['ô1'], T.n, T.g];
   rom.wr(15, 0xE1FE, [0x16, ...co, S, S, ...khong]);
   rom.wr(15, 0xE208, [S, ...co, S, 0x16, ...khong]);
+  // third variant (cursor hidden during blink) was still the English "YES  NO" -> translate it too
+  rom.expect(15, 0xE212, '20 39 3F 4D 20 20 20 2E 49 20');
+  rom.wr(15, 0xE212, [S, ...co, S, S, ...khong]);
 }
 
 function patchScript(rom, srcA, srcE) {
   const a = compileGroup(srcA, GROUP_A, 'A');
+  // Header bytes $813E-$8142 of the original script bank = number of entries in each of the 5 sub-tables of
+  // table C. Code at $D915 sums them to index table C ($8143). compile.js leaves them as $FF, which made
+  // every C-type message (e.g. the Miyoko cat in the Startown mansion) resolve to the wrong entry.
+  const cnt = [0, 1, 2, 3, 4].map(i => rom.rd(2, 0x813E + i));
+  if (cnt.join() !== '3,2,4,8,4') throw new Error('unexpected C-table counts ' + cnt);
+  a.mem[0].set(cnt, 0x13E);
   a.mem.forEach((m, i) => rom.wr(GROUP_A[i], 0x8000, m));
   const e = compileGroup(srcE, GROUP_E, 'E');
   // counts header from original bank 3
@@ -268,6 +277,8 @@ function build(opts = {}) {
   names.patchNames(rom);
   nameEntry.patchNameEntry(rom);
   fileScreen.patchTitle(rom);
+  // title copyright signs: tile $56 was the left half of (C) in the English font but is now a Vietnamese glyph
+  for (const a of [0xA2F6, 0xA31B]) { rom.expect(9, a, '56 EF'); rom.wr(9, a, [vn.T['©1']]); }
   fileScreen.patchFileScreen(rom);
   patchScript(rom, srcA, srcE);
   copyBank(rom, 14, 30); copyBank(rom, 15, 31);

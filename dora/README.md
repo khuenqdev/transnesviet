@@ -13,6 +13,9 @@ This repository turns the Japanese Famicom ROM *Doraemon - Giga Zombie no Gyakus
 | `work/` | build inputs: `jp.nes`, `en.nes`, and the test savestate/scripts |
 | `emu.exe`, `fceumm_libretro.dll` | headless emulator used for automated screenshots |
 
+## Changelog
+* **v2** – fixed: untranslated third Yes/No blink variant, story-event (C-table) lookups resolving to wrong messages (cat/Miyoko/Shizuka bug), broken © on the title. Details: `docs/BUGFIXES.md`.
+
 ## Quick start
 
 Requirements: Node.js (v18+). Windows is needed only for the emulator.

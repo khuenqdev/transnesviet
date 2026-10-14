@@ -1,0 +1,711 @@
+﻿#VAR(Table,TABLE)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LINEAR", $12010, 16)
+#ADDTBL("vn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($10)
+
+
+#JMP($1C810)
+#WRITE(Ptr, $FA0E)
+// <txt_spd><$04><kuchi>ゲームのまえに ちょっと おしらせです<stopkuchi><page> <kuchi>ゲームちゅうに STARTボタンを おすと<line>
+//お助けメンバーを よぶことができます<stopkuchi><line>
+//<page> りキノシン<line>
+//   とくていの いわを こわせます<line>
+//<page> ゴットン<line>
+//   つちのあるところを ほりすすみます<line>
+//<page> ミエトル<line>
+//   いっていじかん そらを とべます<line>
+//<page> ネッキ－<line>
+//   みずのなかの うごきは メンバー1です<line>
+//<page> <kuchi>4にんのお助けメンバーと きょうりょくして<line>
+// エンディングまで がんばってくださいね!<stopkuchi><end>
+<txt_spd><$01><kuchi>
+Bổn cô nương xin giới thiệu<line>
+qua trước khi đại hiệp bắt<line>
+đầu cuộc du hý nha.<stopkuchi><page><kuchi>
+Khi đang du hý mà nhấn nút<line>
+START thì có thể gọi bằng<line>
+hữu tới trợ lực.<stopkuchi><page>
+Đây là Rikinoshin,Lực miêu<line>
+đại hiệp có khả năng phá<line>
+vỡ đá tảng.<page>
+Còn đây là Thổ độn miêu<line>
+thiếu hiệp Gotton,có thể đào<line>
+xuyên đất cát.<page>
+Lại nữa,đây là Phi không<line>
+miêu hiệp Mietoru có thể bay<line>
+lượn trên thinh không một<line>
+lúc.<page><txt_spd><$00>
+Và cuối cùng là Thủy hành<line>
+miêu đại hiệp Nekky bơi<line>
+trong nước nhanh như ngựa<line>
+chạy trên bờ vậy.<page><kuchi><txt_spd><$02>
+Các hạ hãy nhận sự trợ lực<line>
+từ nhóm Tứ hiệp ngũ miêu<line>
+này để giành lại thái bình<line>
+cho thiên hạ bá tánh!<stopkuchi><end>
+
+#WRITE(Ptr, $F9C8)
+//<txt_spd><$01>  ラウンド1<line>
+//宇宙人<line>
+//    エドポりに あらわる<wait><$08><page><end>
+<txt_spd><$01>Màn 1<line>
+Người ngoài Địa cầu xuất<line>
+hiện tại Edopolis<wait><$08><page><end>
+
+#WRITE(Ptr, $F9C6)
+//<N> ここは てんかの エドロポリス<wait><$02><line>
+//  かずおおくの アニマロイドが<line>
+//  しあわせにくらす パラダイスであった<wait><$06><page><N> だが あるひ""<wait><$08><page><end>
+<txt_spd><$02>
+(N)Đây là thủ phủ Edopolis<line>
+của cả thiên hạ,chốn thiên<line>
+đường của vô số Animadroid.<page>
+Chúng là các Robot động vật<line>
+đang vui hưởng thái bình tại<line>
+nơi đây.<page>
+Nhưng rồi một ngày nọ...<wait><$04><page><end>
+
+//<N> とつじょ あらわれた宇宙人に<line>
+//  エドロポリスは おそわれたのだった!<line>
+//<page> <kuchi>てやんでえ!!<stopkuchi><page><kuchi>宇宙人だか なんだか しらねえが<line>
+// ひみつ忍者たい ニャンキーが<line>
+// おっぱらってみせるぜ!!<stopkuchi><end>
+
+<txt_spd><$01>
+(N)Đột nhiên người ngoài Địa<line>
+cầu xuất hiện rồi tấn công<line>
+Edopolis!<wait><$14><page><kuchi>
+<txt_spd><$00>
+Sàm xí đú!<stopkuchi><page><kuchi>
+Đếch cần biết người ngoài<line>
+Địa cầu là lũ nào!<stopkuchi><page><kuchi>
+Chiến đội Nhẫn giả bí mật...<line>
+Ai da nhầm rồi,phải gọi là<line>
+Nhẫn miêu chiến đội bí mật<line>
+mới đúng.<stopkuchi><page><kuchi>
+Chiến đội Ninja mèo bí mật<line>
+Nyanky sẽ quét sạch chúng<line>
+ra khỏi bờ cõi!<stopkuchi><end>
+
+
+
+//POINTER #2 @ $F9CA - STRING #2 @ $C261
+
+#WRITE(Ptr, $F9CA)
+//<kuchi>宇宙人 そうどうは<line>
+// おめえらの しわざか!<stopkuchi><page><txt_spd><$03> <kuchi>きたな!<line>
+// ばくふの いぬどもめ!<stopkuchi><page><end>
+<txt_spd><$01><kuchi>
+Hóa ra người ngoài Địa cầu<line>
+đang rộn ràng bấy lâu là do<line>
+trò mèo của chúng bây à!<stopkuchi><page><txt_spd><$00><kuchi>
+Bây tới rồi sao,bớ lũ chó<line>
+săn của Chú Phỉnh Mạc phủ!<stopkuchi><page><end>
+
+//<txt_spd><$04> <kuchi>てやんでえや!<stopkuchi><line>
+// おいらたちは ねこだい!!<page> <kuchi>ええ－い!<line>
+// おまえらなんぞ われら<line>
+// カラカラ一族の てきではない!<stopkuchi><page> <kuchi>やれ－い! パッパイラ－1ごう!<stopkuchi><end>
+
+<txt_spd><$01>
+Sàm xí đú!<line><stopkuchi>
+Bọn ta là mèo mà!<page><wait><$04><kuchi>
+Đồ chó chết... à nhầm,đồ mèo<line>
+chết!Chúng bây không phải<line>
+đối thủ của tộc Quà Quạ<line>
+Karakara bọn ta đâu!<stopkuchi><page><kuchi>
+Xử chúng nó đi,<line>
+Pappaira số 1!<stopkuchi><end>
+
+// <kuchi>おのれ! おぼえていろ!<stopkuchi><wait><$02><page><end>
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page> <kuchi><txt_spd><$04>キ－ッ!<line>
+// <txt_spd><$06>しっぱいしたのね!<stopkuchi><page> <kuchi>つぎこそは われら<line>
+// カラカラ一族の てで<line>
+// コーンのかみさまを 将軍に<txt_spd><$01>""<stopkuchi><page> え!<stopkuchi><line>
+//<page> <kuchi><txt_spd><$0E>ぐ~や~じ~~~!!<stopkuchi><page><end>
+// <kuchi><txt_spd><$05>ぷは~っ"""<stopkuchi><page><end>
+//<N> ニャンキーに よって エドロポリスの<line>
+//  へいわは まもられた<wait><$02><page><N> だが カラカラ一族の こうげきは<line>
+//  まだまだ つづく<wait><$02><page>(N)がんばれ 秘密忍者隊ニャンキー<line>闘え!<line>
+//僕等のやったろう<end>
+
+//POINTER #3 @ $F9CC - STRING #3 @ $C2E0
+
+#WRITE(Ptr, $F9CC)
+// <kuchi>おのれ! おぼえていろ!<stopkuchi><wait><$02><page><end>
+<txt_spd><$01>
+<kuchi>Khốn kiếp!<line>
+Chúng bây hãy nhớ đấy!<stopkuchi><wait><$02><page><end>
+<txt_spd><$02>
+<kuchi>
+Thiên hạ vô địch đại thắng<line>
+đại lợi!<stopkuchi><wait><$08><page><kuchi><txt_spd><$03>
+Hừm!Thất bại rồi phỏng!?<stopkuchi><page><txt_spd><$02>
+Nhất định lần tới đây,tộc<line>
+Quà Quạ Karakara bọn tôi sẽ<line>
+đưa ngài Konnokami lên chức<line>
+Tướng quân...<stopkuchi><page><kuchi>
+Hả!?<stopkuchi><page><wait><$04><kuchi><txt_spd><$03>
+Xì~xì~xì!<stopkuchi><wait><$1A><page><kuchi><txt_spd><$02>
+Phù phù~<stopkuchi><page><end><page>
+<txt_spd><$00>
+(N)Nhẫn miêu chiến đội Nyanky<line>
+đã bảo vệ thành<line>
+công nền hòa bình<line>
+của Edopolis.<page>
+(N)
+Nhưng tộc Quà Quạ Karakara<line>
+hẳn sẽ còn tiếp<line>
+tục tấn công.<page>
+(N)Cố lên nào,Nhẫn miêu chiến<line>
+đội bí mật Nyanky!<line>
+Chiến đấu nào!<line>
+Yattarō của ta~<note><end>
+
+
+
+
+//POINTER #4 @ $F9CE - STRING #4 @ $C39A
+
+#WRITE(Ptr, $F9CE)
+//<txt_spd><$01>  ラウンド2<line>
+// おミツちゃん<line>
+//    ききいっぱつ!!<wait><$08><page><end>
+<txt_spd><$01>
+Màn 2<line>
+Omitchan gặp nguy!<wait><$08><page><end>
+//<N> きょうは エドポりこうで<line>
+//  将軍さまの ふねの しんすいしきが<line>
+//  おこなわれる ひであった<page><N> やったろうも おミツちゃんと<line>
+//  しんすいしきを みにきていたが""<page> <kuchi>まいったな<line>
+// おミツちゃんと はぐれちまったい""<stopkuchi><page> おミッちゃ~ん! どこだ－い!!<line>
+//<page><end>
+<txt_spd><$02>
+(N)Hôm nay là ngày tổ chức lễ<line>
+hạ thủy cho con tàu của<line>
+Tướng quân tại cảng Edopolis.<wait><$08><page>
+(N)
+Yattarō và bé Omitchan đều<line>
+đến xem lễ hạ thủy...<wait><$10><page><kuchi>
+
+Trời ơi là trời!<line>
+Mình lại lạc mất Omitchan<line>
+rồi...<stopkuchi><page>
+Omitchan~<line>
+Bé đang ở đâu?<page><end>
+
+// きゃ~~っ!<page> <kuchi>なにするのよ!!<stopkuchi><page> <kuchi>おまえには 将軍のふねを<line>
+// しずめる けいかくを<line>
+// きかれてしまったからな""<stopkuchi><page> <kuchi>しばらく おとなしく してもらうぞ<stopkuchi><page> <kuchi>いや~っ!<line>
+// たすけて~~~!<stopkuchi><page><end>
+
+Ai da!?<page><kuchi>
+Các người làm gì vậy!?<stopkuchi><page><kuchi><txt_spd><$02>
+Con nhãi này đã nghe hết kế<line>
+hoạch đánh chìm tàu<line>
+Tướng quân rồi...<stopkuchi><page><kuchi>
+Mi phải im miệng cho bọn<line>
+ta nhờ.<stopkuchi><wait><$04><page><kuchi>
+Hổng chịu đâu~!<line>
+Cứu iemmm~!<stopkuchi><page><end>
+
+//うぎゃ~~~っ!!<line>
+//<page><end>
+<txt_spd><$02>
+Ôi thôi ối giời ơi làng nước<line>
+ơi~<page><end>
+
+// <kuchi>あれは おミツちゃんの ミサイルだ!<stopkuchi><page> <kuchi>いま たすけにいくぜ!<line>
+// おミツちゃん!<stopkuchi><end>
+<kuchi>
+Đó là tên lửa của Omitchan!<stopkuchi><page><kuchi>
+Ta tới cứu em ngay đây!<line>
+Omitchan!<stopkuchi><end>
+
+
+//POINTER #4 @ $F9D0 - STRING #4 @ $C4CC
+
+#WRITE(Ptr, $F9D0)
+// <kuchi>おミツちゃん!<line>
+// たすけに きたぜ!<stopkuchi><page> <kuchi>たすかった""<line>
+// はやく このミサイルむすめを<line>
+// つれてってくれ""<stopkuchi><page><N> カラまるは ニャンキーが つくまでに<line>
+//  8かいも おミツの ミサイルを<line>
+//  くらっていたのだった<line>
+//<page> <kuchi>わ~ん おミツ<line>
+// とっても こわいめに あわされたの~<stopkuchi><page> <kuchi>カラまる! てめ－!<stopkuchi><page> <kuchi>こわいめに あったのは<line>
+// おれのほうだ!!<stopkuchi><page> <kuchi>ええ－い! もう どうでもいい!<line>
+// キンギョひめ6ごう!<line>
+// まとめて やってしまえ!!<stopkuchi><end>
+<kuchi>
+Omitchan!Ta tới cứu em đây!<stopkuchi><page><txt_spd><$03><kuchi>
+May quá...Ngươi mau dẫn con bé<line>
+tên lửa này đi đi...<stopkuchi><page>
+(N)Tên Karamaru này đã ăn 8<line>
+phát tên lửa của Omitchan<line>
+cho tới khi nhóm Nyanky tới.<wait><$0C><page><kuchi>
+Wa~Omitsu bị chúng bắt nạt<line>
+nhiều lắm đó~<stopkuchi><wait><$04><page><kuchi>
+Karamaru!<line>
+Sao ngươi dám!<stopkuchi><wait><$04><page><kuchi>
+Tao mới là đứa bị bắt nạt nè!<stopkuchi><page><kuchi>
+Mà thôi kệ bà tụi bây!<line>
+Sao cũng được!<stopkuchi><page><kuchi>
+Cá vàng số 6,mau dập hết bọn<line>
+chúng cho ta!<stopkuchi><end>
+
+
+
+//POINTER #5 @ $F9D2 - STRING #5 @ $C5AB
+
+#WRITE(Ptr, $F9D2)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait>ぬ<page> <kuchi>ふう"<line>
+// ひどいめに あった""<stopkuchi><page> <kuchi><txt_spd><$09>また やられたのね!<line>
+// キ－ッ <txt_spd><$0C>ぐ~や~じ~~~!!<stopkuchi><page> <txt_spd><$06><kuchi>ま"まさか!<stopkuchi><page> そりゃ ね~よ!<page><N> ニャンキーの かつやくによって<line>
+//  おミツと ふねは まもられた<page><N> だが アクのたねが<line>
+//  つきることは ない<page>(N)がんばれ 秘密忍者隊ニャンキー<line>闘え!<line>
+//僕等のやったろう<page> <kuchi>きょうも おエドは<line>
+// にほんばれだぜ!!<stopkuchi><end>
+<txt_spd><$03>
+<kuchi>
+Thiên hạ vô địch đại thắng<line>
+đại lợi!<stopkuchi><wait><$02><page><kuchi>
+Phù~<line>
+Thật là thảm hại...<stopkuchi><wait><$06><page><kuchi><txt_spd><$04>
+Mi lại thất bại rồi phỏng!<line><txt_spd><$05><wait><$06>
+Xì~xì~xì!<stopkuchi><page><txt_spd><$06><kuchi><wait><$06>
+Chết cha!<stopkuchi><page>
+Tiêu đời~<page>
+<txt_spd><$01>
+(N)Nhờ công của đội Nyanky mà<line>
+cả Omitsu và tàu<line>
+của Tướng quân<line>
+đều được bảo vệ<page>thành công.<page>
+(N)Nhưng mầm mống của cái ác<line>
+vẫn chưa bị tận<line>
+diệt.<page>
+(N)Cố lên nào,Nhẫn miêu chiến<line>
+đội bí mật Nyanky!<line>
+Chiến đấu nào!<line>
+Yattarō của ta~<note><page><kuchi><txt_spd><$03>
+Hôm nay trời đẹp nhỉ.Ta lại<line>
+nổi hứng đi dạo thành Edo.<stopkuchi><end>
+
+
+//POINTER #6 @ $F9D4 - STRING #6 @ $C655
+
+#WRITE(Ptr, $F9D4)
+//<txt_spd><$01>  ラウンド3<line>
+// とびます! とびます!<line>
+//    だいさくせん!!<wait>ね<page><end>
+<txt_spd><$03>
+Màn 3<line>
+Không trung tác chiến!<page><wait><$0C><end>
+//<kuchi> ゲンナりさい<line>
+// さくせんどおり カラまるは<line>
+// ハイシャンタワーに むかったの?<stopkuchi><page><txt_spd><$04><N> とつぜんだが せつめいしよう<page><N> ハイシャンタワーとは<line>
+//  エドロポリスの すべての でんぱを<line>
+//  ちゅうけいしている テレビきょく である<page> <txt_spd><$06><kuchi>ハイシャンタワーを のっとり<line>
+// コーンのかみさまの ばんぐみ だけを<line>
+// ほうそうすれば""<stopkuchi><page> <wait><$04><kuchi>かっチョいい コーンのかみさまに<line>
+// 将軍に なってもらっちゃお~っ<stopkuchi><page> <kuchi>と みんなに いわせる さくせん"<line>
+// う~ん ゲンナりさい<line>
+// あんたも ワルよね~<stopkuchi><page> <kuchi>なんの<line>
+// コーンのかみさまには かないませぬ<stopkuchi><page> <kuchi>ほ～っほっほっほっ!<stopkuchi><page><end>
+//<kuchi>たいへんだ! だいしきゅう<line>
+// ニャンキー しゅつどうだ!!<stopkuchi><end>
+<txt_spd><$03><kuchi>
+Này Gennarisai,tên Karamaru<line>
+đã tiến về tháp Hải Thượng<line>
+theo đúng kế hoạch chưa?<stopkuchi><page><txt_spd><$02>
+(N)Xin phép được giải thích.<page>
+(N)Tháp Hải Thượng là tên cục<line>
+truyền hình phát mọi<line>
+loại sóng vô tuyến ở<line>
+Edopolis.<page><txt_spd><$02><kuchi>
+Nếu ta chiếm được tháp Hải<line>
+Thượng để phát mỗi chương<line>
+trình của ngài Konnokami<line>
+đây thì...<wait><$04><stopkuchi><txt_spd><$02><page><kuchi>
+Chu choa dễ xương quá~<line>
+Konnokami ta sẽ trở thành<line>
+Tướng quân~<stopkuchi><page><kuchi>
+Ta sẽ bố cáo với toàn thiên<line>
+hạ như vậy.<stopkuchi><page><kuchi>
+Gennarisai,nhà ngươi cũng ít<line>
+có ác ôn lắm đó nghe~<stopkuchi><wait><$04><page><kuchi>
+Ngài quá lời.Làm sao mà tôi<line>
+sánh bằng ngài Konnokami<line>
+được chứ.<stopkuchi><page><kuchi>
+Hố~ hố hố hố!<stopkuchi><page><end>
+<kuchi>
+Nguy rồi!Đại khẩn cấp!<line>
+Đội Nyanky mau xuất kích!<stopkuchi><end>
+
+
+//POINTER #7 @ $F9D6 - STRING #7 @ $C796
+
+#WRITE(Ptr, $F9D6)
+//<kuchi> こらいより アクのさかえた ためしなし!<line>
+// おしえてやろう せいぎの こころで!<stopkuchi><page><kuchi> このよに はびこる アクのカゲ<line>
+// うってくれよう このカオで!<stopkuchi><page><kuchi> たとえ いかなる ヤミだとて<line>
+// はらってみせましょ このアイで!<stopkuchi><page> われら せいぎと しょうりの しと<line>
+// ひみつ 忍者たい ニャンキー!!<end>
+<kuchi><txt_spd><$01>
+Xưa nay chưa từng có chuyện<line>
+cái ác trường tồn!Trái tim<line>
+chính nghĩa này sẽ dạy cho<line>
+các ngươi biết điều đó!<wait><$04><stopkuchi><page><kuchi>
+Khuôn mặt xinh đẹp này sẽ <line>
+đập tan bóng tối tà ác đang<line>
+bao trùm khắp nơi!<stopkuchi><wait><$05><page><kuchi>
+Tình yêu này sẽ soi rọi đủ<line>
+loại bóng tối dù nó có dày<line>
+đặc đến đâu!<stopkuchi><wait><$04><page>
+Bọn ta là sứ đồ của chính <line>
+nghĩa và thắng lợi,Nhẫn miêu <line>
+chiến đội bí mật Nyanky!<end>
+
+
+//POINTER #8 @ $F9D8 - STRING #8 @ $C82B
+
+#WRITE(Ptr, $F9D8)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait>ぬ<page><txt_spd><$04><kuchi> キ－ッ!<line>
+// また ニャンキーに やられたのね－!<line>
+//  <txt_spd><$06>くやし－ ぐやじ~~!!<stopkuchi><line>
+//<page><kuchi> コーンのかみさま"" !!<line>
+//  お"おちついて!<stopkuchi><page><end><txt_spd><$0C><kuchi> トホホ""<line>
+// げんなり""<wait><$05>  さい<stopkuchi><end>
+<txt_spd><$03>
+<kuchi>
+Thiên hạ vô địch đại thắng<line>
+đại lợi!<stopkuchi><wait><$03><page><kuchi>
+Tặc!Lại thua lũ Nyanky nữa<line>
+hả?Xì~xì~xì!Bực quá!<stopkuchi><wait><$04><page><kuchi>
+Ngài Konnokami!<line>
+Xin hãy bình tĩnh!<stopkuchi><page><end><txt_spd><$0C><kuchi>
+Genna...ri...sai...<stopkuchi><end>
+
+
+//POINTER #9 @ $F9DA - STRING #9 @ $C892
+
+#WRITE(Ptr, $F9DA)
+//<txt_spd><$01>  ラウンド4<line>
+// ウサ姫<line>
+//    おおそうどう!!<wait>ぬ<page><end>
+//<kuchi> ひめは たいくつじゃ－!<stopkuchi><page> <kuchi>そうじゃ こんなときには<line>
+// おしろを ぬけだして<line>
+// どこかに でかけてしまおう!<stopkuchi><page> <kuchi>きっと おもしろいことが<line>
+// あるに ちがいないぞよ!<stopkuchi><page><end>
+// ふっふっふっ""<wait><$10><page><end>
+// <kuchi>え－っ!<line>
+// ウサ姫さまが ゆくえふめい!?<stopkuchi><page> <kuchi>そうだ おしろを ぬけだし<line>
+// てんぐやまに でかけたらしいのだ""<stopkuchi><page> <kuchi>てんぐやまは カラカラ一族の<line>
+// しのびやまと いわれてるところ"<line>
+// なにかが あったと かんがえられるのだ<stopkuchi><page> <kuchi>こいつは たいへんだ!<line>
+// いくぞ! てんぐやまに!!<stopkuchi><end>
+<txt_spd><$02>
+Màn 4<line>
+Công chúa thỏ Usahime<line>
+gây náo loạn!<page><wait><$01><end><kuchi>
+Công chúa ta chán quá rồi!<stopkuchi><txt_spd><$02><page><kuchi>
+Đúng rồi,khi chán quá thì<line>
+trốn khỏi thành,chạy đi tìm<line>
+chỗ nào chơi!<stopkuchi><page><kuchi>
+Chắc chắn ngoài kia sẽ có<line>
+nhiều thú vui!<stopkuchi><page><end><kuchi>
+Khà khà khà...<wait><$10><page><end><kuchi><txt_spd><$02>
+Sao!Công chúa thỏ Usahime<line>
+mất tích rồi hả?<stopkuchi><wait><$04><page><kuchi>
+Đúng rồi,có vẻ như công chúa<line>
+trốn khỏi thành mà chạy tới<line>
+núi Thiên cẩu rồi...<stopkuchi><page><kuchi>
+Núi Thiên cẩu là sào huyệt<line>
+của lũ Ninja Quà Quạ<line>
+Karakara mà.Chắc chắn là <line>
+có chuyện gì rồi.<stopkuchi><wait><$08><page><kuchi><txt_spd><$03>
+Nguy to!Phải mau tới núi<line>
+Thiên cẩu thôi!!<stopkuchi><end>
+
+
+
+//POINTER #10 @ $F9DC - STRING #10 @ $C9A4
+
+#WRITE(Ptr, $F9DC)
+// ニャハハハ""<line>
+//    ニャハハハハ""<page><kuchi> そのこえは ニャンキー!<stopkuchi><page><kuchi> かずかずの あくじを はたらき<line>
+// あまつさえ ウサ姫さまを<line>
+// ゆうかいした つみ!<stopkuchi><page> <kuchi>ゆるせん!!<stopkuchi><end>
+Nyahaha...<line>
+   Nyahaha...<page><kuchi><txt_spd><$01>
+Cái giọng đó là của bọn mèo<line>
+Nyanky!<stopkuchi><wait><$01><page><kuchi><txt_spd><$03>
+Các ngươi đã làm đủ chuyện<line>
+ác rồi còn dám bắt cóc cả<line>
+Usahime!<stopkuchi><wait><$04><page><kuchi>
+Tội này là không thể tha!<stopkuchi><end>
+
+
+//POINTER #11 @ $F9DE - STRING #11 @ $C9FD
+
+#WRITE(Ptr, $F9DE)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait>ぬ<page><kuchi> おお まぬけ忍者 ではないか!<stopkuchi><page><kuchi> ひめは あそびつかれたぞ<line>
+// おしろまで せおってってくれ!<stopkuchi><page> <kuchi>ええ－っ!<stopkuchi><page> わ－い!<page> <kuchi>ともかく ウサ姫さまが<line>
+// ぶじで よかった<stopkuchi><page> <kuchi>さあ<line>
+// はやく おしろへ もどりましょう<stopkuchi><page><N> ウサ姫さまも ぶじ たすけだされて<line>
+//  ほんとに よかったね<page>(N)がんばれ 秘密忍者隊ニャンキー<line>闘え!<line>
+//  ぼくらの ヤッたろ""" <wait>えあれ?<page> ひ~ん おいてかないでくで－<end>
+<txt_spd><$03><kuchi>
+Thiên hạ vô địch đại thắng<line>
+đại lợi!<stopkuchi><wait><$03><page><txt_spd><$02><kuchi>
+Một lũ Nhẫn giả,ý lộn,<line>
+Nhẫn miêu ngớ ngẩn!<stopkuchi><page><kuchi>
+Công chúa chơi mệt rồi,mau<line>
+cõng ta trở về thành!<stopkuchi><wait><$03><page><kuchi>
+Hả hả hả~!<stopkuchi><page>
+Nào đi~<page><wait><$03><txt_spd><$01><kuchi>
+Cũng may là Usahime không <line>
+việc gì cả.Chúng ta mau về<line>
+thành thôi.<stopkuchi><page><kuchi><txt_spd><$04>
+Nào,ta về thôi.<stopkuchi><wait><$0C><page><txt_spd><$03>
+(N)Vậy là Công chúa Usahime<line>
+đã được giải thoát bình an<line>
+vô sự.<page>
+(N)Cố lên nào,Nhẫn miêu chiến<line>
+đội bí mật Nyanky!<line>
+Chiến đấu nào!<line>
+Yattarō của ta......ủa?<page>
+Tên kia~<line>
+Chớ bỏ ta lại~<end>
+
+
+
+//POINTER #12 @ $F9E0 - STRING #12 @ $CAC0
+
+#WRITE(Ptr, $F9E0)
+//<txt_spd><$01>  ラウンド5<line>
+// コテメンどうの<line>
+//    ゴ－ルドラッシュ<wait>ぬ<page><end>
+//<kuchi>おミツちゃんの ところで さぼってたら<line>3
+// よるに なっちまったぜ<stopkuchi><page> <kuchi>3あれ!?<stopkuchi><page> <kuchi>あれは コーンのかみ?<stopkuchi><page> <kuchi>なにか たくらんでるな<line>
+// よ~し あとを つけてやる!<stopkuchi><page><end>
+//♪<txt_spd><$03><kuchi>あたしは もうすぐ 将軍だい!<kuchi><line>
+//<page>♪<txt_spd><$03><kuchi>ひみつの へいきが かんせい したら!<kuchi><line>
+//<page>♪<txt_spd><$05>どんな やつでも<line>
+// ちょちょいと やっつけ<line>
+// せかいは われらの ものになる!<line>
+// <wait><$12>ホイ ! <line>
+//<page> <txt_spd><$06><kuchi>いいこと<line>
+// あの 究極兵器が かんせいすれば<line>
+// エドロポリスは あたしのものに なるのよ<stopkuchi><page> <kuchi>そのためには<line>
+// コテメンどうに ねむっているといわれる<line>
+// 埋蔵金が ひつようなの!<stopkuchi><page> <kuchi>かならず みつけだし<line>
+// 究極兵器の<line>
+// せいさくしきんに するのよ!<stopkuchi><page> <txt_spd><$03><kuchi>究極兵器!?<stopkuchi><page> <txt_spd><$06><kuchi>なに たくらんでるのか わからないが<line>
+// やつらの おもいどおりには させないぞ!<stopkuchi><page> <kuchi>ニャンキー! しゅつどうだ!!<stopkuchi><page><N> だが じつは やったろうも<line>
+//  埋蔵金 めあての しゅつどうで あった<end>
+
+<txt_spd><$02>
+Màn 5<line>
+Cơn sốt vàng ở quán hủ tiếu<line>
+Namvang<wait><$04><page><end><txt_spd><$03>
+<kuchi>
+Ta cứ rong chơi mãi ở chỗ<line>
+Omitchan thì trời tối mất.<stopkuchi><wait><$02><page><kuchi>
+Ai chà,gì kia?<stopkuchi><wait><$08><page><kuchi>
+Kia chẳng phải là Konnokami<line>
+sao?Ông lại cái đang âm miêu<line>
+gì vậy cà?Ta bám theo vậy!<stopkuchi><page><end>
+<txt_spd><$00><kuchi>
+Iem sắp thành Tướng quân~<note><line>
+Iem có mong ước mặc quần<line>
+màu hồng~Iem xinh em đứng<line>
+một mình cũng sinh~<note><page><txt_spd><$01>
+Khi xong vũ khí bí mật thì<line>
+tất cả đi toong~<note><page><txt_spd><$02>
+Thế giới này là của chúng<line>
+mình~<note><line>
+Đếch phải ngán thằng lình<line>
+nào cả~<note><page>
+Hay hay!Khi xong vũ khí bí<line>
+mật thì cả Edopolis sẽ là <line>
+của iem~<note><page>
+Đầu tiên phải hỏi tiền đâu~<note><line>
+Nên em phải đào hết vàng<line>
+ở quán hủ tiếu Namvang~<note><page>
+Tiền vàng iem mang đi làm<line>
+từ thiện...lộn,<txt_spd><$01>đem đi mở mang,<line>
+chế ra vũ khí thiệt sang~<note><page>
+Có tiền iem được quyền hở<line>
+hang~<note><line>
+Đếch cần phải che cái hang <line>
+qua một tấm màn~<note><stopkuchi><page><txt_spd><$03><kuchi>
+Vũ khí bí mật á?<page><txt_spd><$02>
+Dù chẳng biết chúng đang âm<line>
+miêu gì nhưng ta quyết không<line>
+để chúng lộng hành được!<stopkuchi><page><kuchi>
+Nhóm Nyanky!Xuất trận!<stopkuchi><page>
+(N)Nhưng thiệt ra là tên <line>
+Yattarō này xuất trận cũng <line>
+là vì để mắt tới chỗ vàng <line>
+chôn giấu bí mật kia.<end>
+
+
+
+//POINTER #13 @ $F9E2 - STRING #13 @ $CC7C
+
+#WRITE(Ptr, $F9E2)
+// <kuchi>な..なんだ!!<stopkuchi><page> あの でっけ~ きんぎょは!?<page> <txt_spd><$04><kuchi>ばかにしてるわ!<line>
+// くろうして ほりあてたのに<stopkuchi><page> <kuchi>埋蔵金 じゃなくって<line>
+// 埋蔵金ぎょ だなんて!!<stopkuchi><page> <kuchi>ニャハハハ..<line>
+// まぬけなやつ!!<stopkuchi><page> <kuchi>おだまり! けだまり!<line>
+// こうなったら ス－パ－コ－ン8ごうで<line>
+// やっつけちゃうから!!<stopkuchi><end>
+<kuchi>
+Cái gì...!?<stopkuchi><page><txt_spd><$01>
+Con cá vàng thiệt bự như cái<line>
+biệt thự kia là sao!?<page><kuchi>
+Ta bị chúng lừa rồi!Mất công <line>
+đào lên mà chả thấy vàng,chỉ<line>
+có cá vàng!<stopkuchi><page><kuchi><txt_spd><$02>
+Đầu 2 thứ tóc còn bị trẻ con<line>
+nó lừa!<stopkuchi><page><kuchi>
+Nyahahaha...<line>
+Đồ ngẩn ngờ!<stopkuchi><wait><$04><page><kuchi>
+Câm mồm!Đã thế này thì tao<line>
+cho mày chết với con Super<line>
+Kon số 8 của tao luôn!<stopkuchi><end>
+
+
+//POINTER #14 @ $F9E4 - STRING #14 @ $CD13
+
+#WRITE(Ptr, $F9E4)
+// <txt_spd><$03><kuchi>キ~ッ!<line>
+// くやし~~!!<stopkuchi><line>
+//<page> コーンのかみは 2ど ばくはつした<page><end>
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$09><page><N> コーンのかみの<line>
+//  埋蔵金 そうどうは<line>
+//  かんちがいで おさまった<page><N> だが これくらいで こりる<line>
+//  コーンのかみではない<page>(N)がんばれ 秘密忍者隊ニャンキー<line>闘え!<line>
+//僕等のやったろう<page> <kuchi>きんは なかったのか......<stopkuchi><end>
+<txt_spd><$01><kuchi>
+Tặc!Thiệt là tức quá đi~<line>
+Xì~xì~xì!<stopkuchi><wait><$03><page>
+Vậy là Konnokami đã phát <line>
+nổ 2 lần.<page>
+<txt_spd><$03><kuchi>
+Thiên hạ vô địch đại thắng<line>
+đại lợi!<stopkuchi><wait><$04><page>
+(N)Vụ ồn ào vàng chôn giấu của <line>
+Konnokami đã kết<line>
+thúc trong sự<line>
+lầm lẫn của hắn.<page>
+(N)Nhưng còn lâu hắn mới<line>
+chừa thói ác ôn.<page><txt_spd><$02>
+(N)Cố lên nào,Nhẫn miêu chiến<line>
+đội bí mật Nyanky!<line>
+Chiến đấu nào!<line>
+Yattarō của ta~<note><page><kuchi>
+Ôi vàng của anh...<line>
+Vàng ảnh vàng anh...<line>
+Em ở đâu...<stopkuchi><end>
+
+
+//####################################
+//   BANK $0F
+//###################################
+
+#JMP($1E810)
+
+
+
+//POINTER #15 @ $F9E6 - STRING #15 @ $CD8F
+
+#WRITE(Ptr, $F9E6)
+//<txt_spd><$01>  ラウンド6<line>
+// スーパーエネルギーを うばえ!<wait>ね<page><end>
+//<txt_spd><$04> まいど おさわがせしております<line>
+//<page> ただいまより おいしい ピザのみせ<line>
+// ピザキャット めいぶつ<line>
+// とっきゅうびんが はっしゃされます!<page> あぶないですから どちらさまも<line>
+// はくせんまで おさがりくださぁい!<page> <kuchi>おっかぁ ピザやさんが とんでくよ<stopkuchi><page> <kuchi>そうねえ<line>
+// このゲームにも わたしたちの<line>
+// でばんがあって よかったわね<stopkuchi><page> ちゅうもんを されれば<line>
+// はいたつは するけど<line>
+// なんか へんな きぶんだな....<page><N> やったろうは なんと<line>
+//  コーンのかみのところへ<line>
+//  ピザの はいたつに きたのだった<page><end>
+// <kuchi>それじゃ ついに<line>
+// ス－パ－ エネルギ－が てにはいるのね<stopkuchi><page> <kuchi>はい きょう オレンダより<line>
+//クイーン　エーザンスごうで とどきます<stopkuchi><page> <kuchi>これで また<line>
+// エドロポリスを わが てに するひが<line>
+// ちかづいたのね! ルン!<stopkuchi><page> <kuchi>はっ! だあれ!?<stopkuchi><page> <kuchi>ど－も ピザキャットです<stopkuchi><page> <kuchi>あら はやかったわね<stopkuchi><page><N> コーンのかみたちは<line>
+//  なぜか やったろうの しょうたいに<line>
+//  きがつかなかった<page> <kuchi>この さしいれで<line>
+// カラス忍者の さぎょうも<line>
+// はかどるでしょう<stopkuchi><page> <kuchi>ちゅうもんは<line>
+// あたしが してあげたんだから<line>
+// おかねは ゲンちゃんが はらっといてよね!<stopkuchi><page> ゲ~ン! ナ~りさ~い!!<line>
+//<page><kuchi>クイーン　エーザンスごうで<line>
+// なにかが あるんだな....<stopkuchi><page> <kuchi>よ~し!<line>
+// だいしきゅう しゅつどうだ!!<stopkuchi><end>
+<txt_spd><$03>
+Màn 6<line>
+Cướp nguồn siêu năng lượng!<wait><$04><page><end><txt_spd><$03>
+Xin lỗi đã làm rộn quý<line>
+khách!Chuyến hàng chuyển đặc<line>
+sản của tiệm Pizza Cat đang <line>
+xuất phát.<page>
+Đề nghị quý khách đứng dưới<line>
+vạch trắng để tránh nguy<line>
+hiểm!<page><txt_spd><$01>
+Mạ ơi,anh shipper Pizza<line>
+đang bay kìa.<page>
+Uh đúng rồi.Mà chúng ta có<line>
+cơ hội xuất hiện trong cái<line>
+game này cũng may nhỉ.<page>
+Có người đặt hàng thì ta cứ<line>
+giao hàng là được.Mà sao <line>
+lần này ta có cảm giác sai<line>
+sai thế quái nào nhỉ.<page>
+(N)Thật ra lần này là Yattarō<line>
+giao pizza tới chỗ Konnokami<line>
+mà không hề hay biết.<page><end>
+<kuchi><txt_spd><$01>
+Vậy là cuối cùng ta cũng có<line>
+được nguồn siêu năng lượng <line>
+phỏng?<stopkuchi><wait><$04><page><kuchi><txt_spd><$02>
+Bẩm,đúng vậy.Hôm nay tàu<line>
+Nữ vương Ezansu từ Hồ Lan<line>
+sẽ giao đến chỗ chúng ta.<stopkuchi><page><kuchi><txt_spd><$03>
+Vậy là cái ngày Edopolis rơi<line>
+vào tay ta lại đến gần rùi!<stopkuchi><wait><$04><page><kuchi>
+Hả!?<line>
+Có khách!Ai vậy!?<stopkuchi><wait><$08><page><kuchi>
+Xin lỗi,tui là thằng mèo<line>
+giao bánh pizza đây mà.<stopkuchi><page><kuchi>
+Ai dà,nhanh quá đi mà.Mới<line>
+đặt 10 phút đã giao,ai đâu<line>
+như bọn Là Già Đà.<stopkuchi><page>
+(N)Chả hiểu sao mà Konnokami<line>
+và đồng bọn lại không nhận<line>
+ra thân thế của Yattarō.<page><kuchi>
+Chỉ cần giao bánh tới là lũ<line>
+Ninja quạ có thể làm việc<line>
+tiếp được rồi.<stopkuchi><page><kuchi>
+Bánh là do iem đặt,còn tiền<line>
+thì pé Gen trả giúp nhé!<stopkuchi><page>
+Gen!Na~risai!<page><kuchi>
+Trên tàu Ezansu chúng nhắc<line>
+tới chắc chắn là có gì đó<line>
+không ổn!<stopkuchi><page><kuchi>
+Được!Phải mau xuất kích!<line>
+Cấp cấp như luật lệnh~<stopkuchi><end>
+
+
+
+
+
+

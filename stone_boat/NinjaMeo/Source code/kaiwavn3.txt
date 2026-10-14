@@ -1,0 +1,239 @@
+﻿#VAR(Table,TABLE)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LINEAR", $16010, 16)
+#ADDTBL("vn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($10)
+
+
+//####################################
+//   BANK $10
+//###################################
+
+#JMP($20810)
+#WRITE(Ptr, $FA00)
+//<txt_spd><$01>  ラウンド10<line>
+// けっせん!<line>
+//    ニャンキー VS Dr.パープル<line>
+//<end>
+<txt_spd><$03>
+Màn 10<line>
+Nyanky quyết chiến<line>
+    tiến sĩ Tía!<line><end>
+
+
+#WRITE(Ptr, $FA02)
+//<kuchi>うしゃしゃの しゃ~っ<line>
+// ひさしぶりだね<line>
+// ニャンキーの しょくん<stopkuchi><page> <kuchi>Dr.パープル!!<stopkuchi><page> <kuchi>てめえなんかに エドロポリスを<line>
+// こわされて たまるか!<stopkuchi><page><kuchi>うしゃしゃ これで さいごじゃ!<stopkuchi><line>
+//<page> <kuchi>いでよ! カラクリにんぐん<line>
+// さいきょうの せんし レッド ドララン!!<stopkuchi><end>
+<kuchi><txt_spd><$03>
+Ui chu choa~<line>
+Lâu lắm không gặp đó,các<line>
+cậu mèo Nyanky.<stopkuchi><page><kuchi>
+Tiến sĩ Tía!<stopkuchi><page><kuchi>
+Bọn này không để ông phá<line>
+hoại Edopolis đâu!<stopkuchi><wait><$07><page><kuchi>
+Ui chu choa~<line>
+Đây là lần cuối cùng đó!<stopkuchi><line><page><kuchi>
+Mau ra đi!Hỡi chiến sĩ Robot<line>
+Ninja mạnh nhất của ta!<line>
+Rồng đỏ xuất trận!<stopkuchi><end>
+
+#WRITE(Ptr, $FA04)
+// <kuchi>おの~れ おのれ!<line>
+// こうなったら このわし<line>
+// みずからの てで....<stopkuchi><page><kuchi>うしゃしゃの しゃ~っ!<stopkuchi><page> <kuchi>みよ!<line>
+// わしの パワ－ドス－ツ<line>
+// チキチキチキンZの おそろしさを!!    <stopkuchi><page> <kuchi>かくご!! ニャンキー!!<stopkuchi><end>
+<kuchi><txt_spd><$03>
+Đồ mèo chết khốn kiếp!<line>
+Đã thế này thì tự tay tao<line>
+phải chôn sống chúng mày<line>
+luôn...<stopkuchi><page><kuchi>
+Ui chu choa~!<stopkuchi><page><kuchi>
+Nhìn cho kỹ!<line>
+Nếm mùi khủng khiếp của bộ<line>
+giáp sức mạnh ChikechikenZ<line>
+của tao đi!<stopkuchi><page><kuchi>
+Đám Nyanky tụi bây tới số<line>
+rồi!<stopkuchi><end>
+
+#WRITE(Ptr, $FA06)
+// <kuchi>あいたたた....<line>
+// コーンのかみと くんでいると<line>
+// ろくなことがない<page> もう わしは かえる!!<stopkuchi><page> しゃらば~~い!<wait><$10><page><end>
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$09><page> <kuchi>さあ いよいよ おおづめだぜ!!<stopkuchi><end>
+<kuchi><txt_spd><$02>
+Ai da đau quá...<line>
+Ta bắt tay với Konnokami chả<line>
+được lợi lộc gì cả.<page><wait><$04>
+Thôi ta về nước đây!<stopkuchi><page>
+Tạm piệt các ngươi~<wait><$10><page><end>
+<txt_spd><$02>
+<kuchi>
+Thiên hạ vô địch đại thắng<line>
+đại lợi!<stopkuchi><wait><$09><page><kuchi>
+Nào,chuẩn bị làm thịt con<line>
+trùm cuối!<stopkuchi><end>
+
+#WRITE(Ptr, $FA08)
+//<txt_spd><$01>  ラウンド11<line>
+// へいわの しと ニャンキー!<line>
+//<end>
+<txt_spd><$01>
+Màn 11<line>
+Nyanky,sứ đồ của hòa bình!<line><end>
+
+#WRITE(Ptr, $FA0A)
+// <kuchi>キ~~ッ!<line>
+// よくも よくも<line>
+// やってくれちゃったわね!!<stopkuchi><page> <txt_spd><$04><kuchi>おまえら なんぞに<line>
+// この しろを こわさせはせんぞ!<stopkuchi><page> <kuchi>さいごの しょうぶ!<line>
+// けっちゃくを つけてやる!!<stopkuchi><end>
+<kuchi>
+Tặc!<line>
+Các ngươi khá lắm!<stopkuchi><wait><$06><page><txt_spd><$03><kuchi>
+Lũ các ngươi đừng hòng phá<line>
+được thành trì này!<stopkuchi><page><kuchi>
+Đã tới lúc cho trận quyết<line>
+đấu cuối cùng rồi!<line>
+Quyết một phen sống mái nào!<stopkuchi><end>
+
+#WRITE(Ptr, $FA0C)
+// <kuchi>おおっ..<line>
+// カラクリじょうが....<stopkuchi><page> <kuchi>これで エドロポリスの<line>
+// へいわも もどるだろう<stopkuchi><page> <kuchi>でも やったろうさんたちは<line>
+// いったい どこに....<stopkuchi><page> <kuchi>うむ....<stopkuchi><page> <kuchi>まぬけ忍者は しんでしまったのか?<stopkuchi><page> <kuchi>あの ばくはつでは<line>
+// おそらく....<stopkuchi><page> <kuchi>ニャンキーさん....<stopkuchi><page> <kuchi>おっかぁ <line>
+// ニャンキーさんたち しんじゃったんだって<stopkuchi><page> <kuchi>じゃ ここから ファミコン ゲーム<line>
+// テキト－にんでん いつものおやこ が<line>
+// はじまるのね!<stopkuchi><page> ........<page><end>
+<kuchi><txt_spd><$02>
+Nhìn kìa...<line>
+Thành trì Robot đã sụp đổ...<line>
+Vậy là hòa bình đã quay lại<line>
+với Edopolis rồi.<stopkuchi><wait><$0A><page><kuchi>
+Nhưng còn anh Yattarō và <line>
+những người bạn thì sao?<line>
+Họ đang ở đâu...<stopkuchi><page><kuchi>
+Hừm...<stopkuchi><page><kuchi>
+Đám Ninja ngẩn ngờ chết hết<line>
+rồi à?<stopkuchi><wait><$04><page><kuchi>
+Với vụ nổ như vậy thì có lẽ...<stopkuchi><wait><$07><page><kuchi>
+Các anh Nyanky...<stopkuchi><wait><$04><page><kuchi>
+Mạ ơi,các anh Nyanky chết<line>
+rồi à?<stopkuchi><wait><$0A><page><kuchi>
+Mạ cũng không biết nữa.<line>
+Đến cả anh Tecmo còn chết<line>
+nữa là thằng con của ảnh.<stopkuchi><wait><$0A><page><txt_spd><$01><kuchi>
+...<page><end>
+
+//<txt_spd><$04> <kuchi>あっ! あれは!!<stopkuchi><line>
+//<page><txt_spd><$01>      ファミコン<line>
+//    キャット忍伝てやんでえ<line>
+//      スタッフ<wait><$17><line>
+
+<kuchi>
+<txt_spd><$01>
+Trò chơi điện tử trên máy<line>
+Nintendō Famicom<line>
+Chiến đội Ninja mèo<line>
+Sàm xí đú tới đây là hết.<wait><$17><line>
+<page><txt_spd><$02><line>
+Thiết kế game<line>
+Niwaka Maru<wait><$08><line><page><wait><$10>
+Lập trình<line>
+Yosshi Takezō<wait><$04><line><page>
+Âm thanh<line>
+Kajiya Shitamachi<wait><$03><line><page><wait><$08><line>
+Đồ họa<line>
+Murasaki<wait><$09><line><page><line>
+Đồ họa<line>
+Nakajima Ryō<wait><$08><line><page><line>
+Đồ họa<line>
+BON<wait><$09><line><page> <wait><$08><line>
+Chân thành cảm ơn<line>
+NOSUKE<wait><$08><line><page><line>
+Chân thành cảm ơn<line>
+Kaipara Yūzan<wait><$02><line><page><line>
+Chân thành cảm ơn<line>
+Shigedon<wait><$06><line><page><line>
+Thiết kế mỹ thuật<line>
+Tange Gampei<wait><$05><line><page><line>
+Cố vấn<line>
+Yocchan<wait><$07><line><page><line>
+Cố vấn<line>
+Sakurazaki Shūichi<wait><$05><page><line>
+Bản dịch Việt ngữ do<line>
+STONE BOAT STUDIO thực hiện<line><wait><$05><page>
+SPC700<line>
+Retroman<line>
+NGASMIW65816<line>
+Đạm Như Thủy<wait><$15><line><page>
+Bản dịch này can thiệp nhiều<line>
+vào mã Assembly để hỗ trợ<line>
+toàn bộ dấu tiếng Việt.<wait><$15><page>
+Bản Việt ngữ hoàn thành<line>
+vào tháng 7 năm 2022<page><line><page><line>
+Sản phẩm của Sōtsū Agency<line>
+Tatsunoko Pro<line><page><line>
+TECMO sản xuất năm 1991<page><end>
+<txt_spd><$02>
+Bản dịch này được thực hiện<line>
+với tinh thần bảo tồn văn<line>
+hóa game Retro,không nhằm<line>
+mục đích thương mại.<wait><$10><page>
+Mọi hành vi kiếm lợi kinh<line>
+tế từ bản dịch này dưới mọi<line>
+hình thức đều là vi phạm<line>
+luật tác quyền.<wait><$10><page>
+Chiến đội Ninja mèo<line>
+Sàm xí đú bản Việt ngữ<wait><$0A><line>
+           Hết<end>
+
+//<page><txt_spd><$04> <line>
+// ゲーム デザイナ－   にわかまる<wait><$08><line>
+//<page> <wait><$10><line>
+// <$B7>ログラマ－   よっし~ たけぞう<wait><$04><line>
+//<page> <wait><$10><line>
+// ミュ－ジック   かじや したまち<wait><$03><line>
+//<page> <wait><$10><line>
+//グラフィック　むらさき<wait><$09><line>
+//<page> <line>
+//グラフィック　なかじま りょう<wait><$08><line>
+//<page> <line>
+//グラフィック　BON<wait><$09><line>
+//<page>  <wait><$16><line>
+//スペシャル　サンクスNOSUKE<wait><$08><line>
+//<page> <line>
+//スペシャル　サンクスかいぱら ゆ~ざん  <wait><$02><line>
+//<page> <line>
+//スペシャル　サンクスNAGA<wait><$06><line>
+//<page> <line>
+//スペシャル　サンクスしげどん<wait><$06>な<line>
+//<page> <line>
+//アートデザインたんげ ガンぺ－<wait><$05><line>
+//<page> <line>
+//アートデザインタべルノスキ－ <wait><$05><line>
+//<page> <line>
+//アドバイザーよっちん<wait><$07><line>
+//<page> <line>
+//アドバイザーさくらざき しゅういち<wait><$05><line>
+//<page> <line>
+//<txt_spd><$03> オりジナル   そうつうエ－ジェンシ－<line>
+//       タツノコ<$B7>ロ<line>
+//<page> <line>
+// せいさく   TECMO<wait><$07><line>
+//<page><end>
+
+
+// <line>
+//キャット忍伝てやんでえ<line>
+// <line>
+//         <wait><$15>おしまい<line>
+//<end>
+
+Yattarō

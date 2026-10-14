@@ -1,0 +1,132 @@
+﻿#VAR(Table,TABLE)
+#VAR(Ptr1, CUSTOMPOINTER)
+#CREATEPTR(Ptr1, "LINEAR", $14010, 16)
+#ADDTBL("vnmte.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($10)
+
+
+
+#JMP($1E570)
+#WRITE(Ptr1, $1E510)
+Yattarō<end_MTE>
+
+#WRITE(Ptr1, $1E512)
+Edopolis<end_MTE>
+
+#WRITE(Ptr1, $1E514)
+Nyanky<end_MTE>
+
+#WRITE(Ptr1, $1E516)
+Karakara<end_MTE>
+
+#WRITE(Ptr1, $1E518)
+Quà Quạ<end_MTE>
+
+#WRITE(Ptr1, $1E51A)
+Nhẫn giả<end_MTE>
+
+#WRITE(Ptr1, $1E51C)
+Nhẫn miêu <end_MTE>
+
+#WRITE(Ptr1, $1E51E)
+Ninja <end_MTE>
+
+#WRITE(Ptr1, $1E520)
+Sàm xí đú!<end_MTE>
+
+#WRITE(Ptr1, $1E522)
+Tướng quân<end_MTE>
+
+#WRITE(Ptr1, $1E524)
+Mạc phủ<end_MTE>
+
+#WRITE(Ptr1, $1E526)
+(N)Cố lên nào,Nhẫn miêu chiến<$F8>đội bí mật Nyanky!<$F8>Chiến đấu nào!<$F8>Yattarō của ta<end_MTE>
+
+#WRITE(Ptr1, $1E528)
+ng <end_MTE>
+
+#WRITE(Ptr1, $1E52A)
+ên <end_MTE>
+
+#WRITE(Ptr1, $1E52C)
+Thiên hạ vô địch đại thắng<$F8>đại lợi!<$FE><end_MTE>
+
+#WRITE(Ptr1, $1E52E)
+chi<end_MTE>
+
+#WRITE(Ptr1, $1E530)
+nh <end_MTE>
+
+#WRITE(Ptr1, $1E532)
+Xì~xì~xì!<end_MTE>
+
+#WRITE(Ptr1, $1E534)
+được<end_MTE>
+
+#WRITE(Ptr1, $1E536)
+bảo vệ<end_MTE>
+
+#WRITE(Ptr1, $1E538)
+của <end_MTE>
+
+#WRITE(Ptr1, $1E53A)
+ ch<end_MTE>
+ 
+#WRITE(Ptr1, $1E53C)
+ th<end_MTE>
+ 
+#WRITE(Ptr1, $1E53E)
+ tr<end_MTE>
+ 
+#WRITE(Ptr1, $1E540)
+ ph<end_MTE>
+ 
+#WRITE(Ptr1, $1E542)
+ ng<end_MTE>
+ 
+#WRITE(Ptr1, $1E544)
+ch <end_MTE>
+
+#WRITE(Ptr1, $1E546)
+Màn <end_MTE>
+
+#WRITE(Ptr1, $1E548)
+Gennarisai<end_MTE>
+
+#WRITE(Ptr1, $1E54A)
+sẽ <end_MTE>
+
+#WRITE(Ptr1, $1E54C)
+bí mật<end_MTE>
+
+#WRITE(Ptr1, $1E54E)
+ là <end_MTE>
+ 
+#WRITE(Ptr1, $1E550)
+được <end_MTE>
+
+#WRITE(Ptr1, $1E552)
+không <end_MTE>
+
+#WRITE(Ptr1, $1E554)
+nhưng <end_MTE>
+
+#WRITE(Ptr1, $1E556)
+những <end_MTE>
+
+#WRITE(Ptr1, $1E558)
+<$FE><$F9><$FD><end_MTE>
+
+#WRITE(Ptr1, $1E55A)
+át <end_MTE>
+
+#WRITE(Ptr1, $1E55C)
+uyệ<end_MTE>
+
+#WRITE(Ptr1, $1E55E)
+ao <end_MTE>
+
+#WRITE(Ptr1, $1E560)
+ biết<end_MTE>

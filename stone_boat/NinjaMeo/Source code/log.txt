@@ -1,0 +1,19 @@
+     3 CREATEPTR CustomPointer 'Ptr' Addressing 'LINEAR' Offsetting 90128 Size 16d HeaderSize $0
+     4 ADDTBL    Added table 'vn.tbl' as 'Table'
+     5 ACTIVETBL Active table is now 'Table'
+     6 HDR       Header size is now $10
+    13 JMP       ROM Position is now $20810
+    14 WRITE     CustomPointer 'Ptr' ScriptPos $20810 PointerPos $FA00 PointerValue $0000A800
+<txt_spd><$03>Màn 10<line>Nyanky quyết chiến<line>    tiến sĩ Tía!<line><end>
+    25 WRITE     CustomPointer 'Ptr' ScriptPos $20837 PointerPos $FA02 PointerValue $0000A827
+<txt_spd><$03>Màn 10<line>Nyanky quyết chiến<line>    tiến sĩ Tía!<line><end>
+    45 WRITE     CustomPointer 'Ptr' ScriptPos $208FD PointerPos $FA04 PointerValue $0000A8ED
+<txt_spd><$03>Màn 10<line>Nyanky quyết chiến<line>    tiến sĩ Tía!<line><end>
+    64 WRITE     CustomPointer 'Ptr' ScriptPos $209BB PointerPos $FA06 PointerValue $0000A9AB
+<txt_spd><$03>Màn 10<line>Nyanky quyết chiến<line>    tiến sĩ Tía!<line><end>
+    82 WRITE     CustomPointer 'Ptr' ScriptPos $20A75 PointerPos $FA08 PointerValue $0000AA65
+<txt_spd><$03>Màn 10<line>Nyanky quyết chiến<line>    tiến sĩ Tía!<line><end>
+    90 WRITE     CustomPointer 'Ptr' ScriptPos $20A92 PointerPos $FA0A PointerValue $0000AA82
+<txt_spd><$03>Màn 10<line>Nyanky quyết chiến<line>    tiến sĩ Tía!<line><end>
+   105 WRITE     CustomPointer 'Ptr' ScriptPos $20B1F PointerPos $FA0C PointerValue $0000AB0F
+<txt_spd><$03>Màn 10<line>Nyanky quyết chiến<line>    tiến sĩ Tía!<line><end>

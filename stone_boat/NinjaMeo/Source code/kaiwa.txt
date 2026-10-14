@@ -1,0 +1,530 @@
+//GAME NAME:		TEYANDEE
+
+//BLOCK #000 NAME:		POINTER
+
+//POINTER #0 @ $F9C6 - STRING #0 @ $C1C4
+
+#WRITE(Ptr, $F9C6)
+//<N> ここは てんかの エドロポリス<wait><$02><line>
+//  かずおおくの アニマロイドが<line>
+//  しあわせにくらす パラダイスであった<wait><$06><page><N> だが あるひ....<wait><$08><page><end>
+
+
+
+//POINTER #1 @ $F9C8 - STRING #1 @ $C1A9
+
+#WRITE(Ptr, $F9C8)
+//<txt_spd><$01>  ラウンド1<line>
+//宇宙人<line>
+//    エドポりに あらわる<wait><$08><page><end>
+
+
+
+//POINTER #2 @ $F9CA - STRING #2 @ $C261
+
+#WRITE(Ptr, $F9CA)
+//<kuchi>宇宙人 そうどうは<line>
+// おめえらの しわざか!<stopkuchi><page><txt_spd><$03> <kuchi>きたな!<line>
+// ばくふの いぬどもめ!<stopkuchi><page><end>
+
+
+
+//POINTER #3 @ $F9CC - STRING #3 @ $C2E0
+
+#WRITE(Ptr, $F9CC)
+// <kuchi>おのれ! おぼえていろ!<stopkuchi><wait><$02><page><end>
+
+
+
+//POINTER #4 @ $F9CE - STRING #4 @ $C39A
+
+#WRITE(Ptr, $F9CE)
+//<txt_spd><$01>  ラウンド2<line>
+// おミツちゃん<line>
+//    ききいっぱつ!!<wait><$08><page><end>
+
+
+
+//POINTER #5 @ $F9D0 - STRING #5 @ $C4CC
+
+#WRITE(Ptr, $F9D0)
+// <kuchi>おミツちゃん!<line>
+// たすけに きたぜ!<stopkuchi><page> <kuchi>たすかった....<line>
+// はやく このミサイルむすめを<line>
+// つれてってくれ....<stopkuchi><page><N> カラまるは ニャンキーが つくまでに<line>
+//  8かいも おミツの ミサイルを<line>
+//  くらっていたのだった<line>
+//<page> <kuchi>わ~ん おミツ<line>
+// とっても こわいめに あわされたの~<stopkuchi><page> <kuchi>カラまる! てめ－!<stopkuchi><page> <kuchi>こわいめに あったのは<line>
+// おれのほうだ!!<stopkuchi><page> <kuchi>ええ－い! もう どうでもいい!<line>
+// キンギョひめ6ごう!<line>
+// まとめて やってしまえ!!<stopkuchi><end>
+
+
+
+//POINTER #6 @ $F9D2 - STRING #6 @ $C5AB
+
+#WRITE(Ptr, $F9D2)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page> <kuchi>ふう..<line>
+// ひどいめに あった....<stopkuchi><page> <kuchi><txt_spd><$09>また やられたのね!<line>
+// キ－ッ <txt_spd><$0C>ぐ~や~じ~~~!!<stopkuchi><page> <txt_spd><$06><kuchi>ま..まさか!<stopkuchi><page> そりゃ ね~よ!<page><N> ニャンキーの かつやくによって<line>
+//  おミツと ふねは まもられた<page><N> だが アクのたねが<line>
+//  つきることは ない<page>(N)がんばれ 秘密忍者隊ニャンキー<line>闘え!<line>
+//僕等のやったろう<page> <kuchi>きょうも おエドは<line>
+// にほんばれだぜ!!<stopkuchi><end>
+
+
+
+//POINTER #7 @ $F9D4 - STRING #7 @ $C655
+
+#WRITE(Ptr, $F9D4)
+//<txt_spd><$01>  ラウンド3<line>
+// とびます! とびます!<line>
+//    だいさくせん!!<wait><$09><page><end>
+
+
+
+//POINTER #8 @ $F9D6 - STRING #8 @ $C796
+
+#WRITE(Ptr, $F9D6)
+//<kuchi> こらいより アクのさかえた ためしなし!<line>
+// おしえてやろう せいぎの こころで!<stopkuchi><page><kuchi> このよに はびこる アクのカゲ<line>
+// うってくれよう このカオで!<stopkuchi><page><kuchi> たとえ いかなる ヤミだとて<line>
+// はらってみせましょ このアイで!<stopkuchi><page> われら せいぎと しょうりの しと<line>
+// ひみつ 忍者たい ニャンキー!!<end>
+
+
+
+//POINTER #9 @ $F9D8 - STRING #9 @ $C82B
+
+#WRITE(Ptr, $F9D8)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page><txt_spd><$04><kuchi> キ－ッ!<line>
+// また ニャンキーに やられたのね－!<line>
+//  <txt_spd><$06>くやし－ ぐやじ~~!!<stopkuchi><line>
+//<page><kuchi> コーンのかみさま.... !!<line>
+//  お..おちついて!<stopkuchi><page><end>
+
+
+
+//POINTER #10 @ $F9DA - STRING #10 @ $C892
+
+#WRITE(Ptr, $F9DA)
+//<txt_spd><$01>  ラウンド4<line>
+// ウサ姫<line>
+//    おおそうどう!!<wait><$08><page><end>
+
+
+
+//POINTER #11 @ $F9DC - STRING #11 @ $C9A4
+
+#WRITE(Ptr, $F9DC)
+// ニャハハハ....<line>
+//    ニャハハハハ....<page><kuchi> そのこえは ニャンキー!<stopkuchi><page><kuchi> かずかずの あくじを はたらき<line>
+// あまつさえ ウサ姫さまを<line>
+// ゆうかいした つみ!<stopkuchi><page> <kuchi>ゆるせん!!<stopkuchi><end>
+
+
+
+//POINTER #12 @ $F9DE - STRING #12 @ $C9FD
+
+#WRITE(Ptr, $F9DE)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page><kuchi> おお まぬけ忍者 ではないか!<stopkuchi><page><kuchi> ひめは あそびつかれたぞ<line>
+// おしろまで せおってってくれ!<stopkuchi><page> <kuchi>ええ－っ!<stopkuchi><page> わ－い!<page> <kuchi>ともかく ウサ姫さまが<line>
+// ぶじで よかった<stopkuchi><page> <kuchi>さあ<line>
+// はやく おしろへ もどりましょう<stopkuchi><page><N> ウサ姫さまも ぶじ たすけだされて<line>
+//  ほんとに よかったね<page>(N)がんばれ 秘密忍者隊ニャンキー<line>闘え!<line>
+//  ぼくらの ヤッたろ...... <wait><$04>あれ?<page> ひ~ん おいてかないでくで－<end>
+
+
+
+//POINTER #13 @ $F9E0 - STRING #13 @ $CAC0
+
+#WRITE(Ptr, $F9E0)
+//<txt_spd><$01>  ラウンド5<line>
+// コテメンどうの<line>
+//    ゴ－ルドラッシュ<wait><$08><page><end>
+
+
+
+//POINTER #14 @ $F9E2 - STRING #14 @ $CC7C
+
+#WRITE(Ptr, $F9E2)
+// <kuchi>な..なんだ!!<stopkuchi><page> あの でっけ~ きんぎょは!?<page> <txt_spd><$04><kuchi>ばかにしてるわ!<line>
+// くろうして ほりあてたのに<stopkuchi><page> <kuchi>埋蔵金 じゃなくって<line>
+// 埋蔵金ぎょ だなんて!!<stopkuchi><page> <kuchi>ニャハハハ..<line>
+// まぬけなやつ!!<stopkuchi><page> <kuchi>おだまり! けだまり!<line>
+// こうなったら ス－パ－コ－ン8ごうで<line>
+// やっつけちゃうから!!<stopkuchi><end>
+
+
+
+//POINTER #15 @ $F9E4 - STRING #15 @ $CD13
+
+#WRITE(Ptr, $F9E4)
+// <txt_spd><$03><kuchi>キ~ッ!<line>
+// くやし~~!!<stopkuchi><line>
+//<page> コーンのかみは 2ど ばくはつした<page><end>
+
+
+
+//POINTER #16 @ $F9E6 - STRING #16 @ $CD8F
+
+#WRITE(Ptr, $F9E6)
+//<txt_spd><$01>  ラウンド6<line>
+// スーパーエネルギーを うばえ!<wait><$09><page><end>
+
+
+
+//POINTER #17 @ $F9E8 - STRING #17 @ $CFDF
+
+#WRITE(Ptr, $F9E8)
+// <kuchi>やいやいやい!<line>
+// いったい なにを たくらんでるんだ!! <stopkuchi><page> <kuchi>おまえらに<line>
+// この けいかくは じゃまさせん!<stopkuchi><page> いけ－っ!<line>
+// カイゾク11ごう!<end>
+
+
+
+//POINTER #18 @ $F9EA - STRING #18 @ $D02D
+
+#WRITE(Ptr, $F9EA)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page> <txt_spd><$04><kuchi>しょうぶには やぶれたが<line>
+// スーパーエネルギーは まもりぬいたぞ!<stopkuchi><page> <txt_spd><$03><kuchi>このカりは きっと かえす!<stopkuchi><page><end>
+
+
+
+//POINTER #19 @ $F9EC - STRING #19 @ $D0A1
+
+#WRITE(Ptr, $F9EC)
+//<txt_spd><$01>  ラウンド7<line>
+// はなの おエドの<line>
+//    だいめいろ!?<wait><$09><page><end>
+
+
+
+//POINTER #20 @ $F9EE - STRING #20 @ $D243
+
+#WRITE(Ptr, $F9EE)
+// ようこそ ニャンキーの しょくん!<page> <txt_spd><$04><kuchi>あんた だれよ!<stopkuchi><page> <txt_spd><$06><kuchi>わしの ナは Dr.パープル<stopkuchi><page><kuchi> オレンダこく から<line>
+// 究極兵器 づくりのため<line>
+// コーンのかみに まねかれたのじゃ<stopkuchi><page> <kuchi>へいきづくりの ひとでを あつめるための<line>
+// わしの めいろを よく クりアしたな..<stopkuchi><page> <kuchi>だが ここで しんでもらうぞ..<stopkuchi><line>
+//<page><txt_spd><$04> Dr.パープル カラクリにんぐん<line>
+// ブル－バットンよ!<line>
+// こいつらを や~っておしまい!!<end>
+
+
+
+//POINTER #21 @ $F9F0 - STRING #21 @ $D301
+
+#WRITE(Ptr, $F9F0)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page>うしゃしゃの しゃ~っ!<page> <kuchi>あ~っ! にげるぞ!<stopkuchi><page> <kuchi>こんかいは わしの まけじゃ<page> じゃが 究極兵器の<line>
+// かんせいは もうすぐじゃ!<stopkuchi> <page> そのときまで くびを あらって<line>
+// まっているんじゃな!<line>
+//うしゃしゃの しゃ~!<page><N> コーンのかみの 究極兵器とは<line>
+//  いったい なんなのだろうか?<page><N> また Dr.パープルと カラクリにんぐんとは?<page><N> はたして ニャンキーは<line>
+//  コーンのかみの いんぼうを<line>
+//  うちくずすことが できるのだろうか?<page>(N)がんばれ 秘密忍者隊ニャンキー<line>闘え!<line>
+//僕等のやったろう<end>
+
+
+
+//POINTER #22 @ $F9F2 - STRING #22 @ $D3D3
+
+#WRITE(Ptr, $F9F2)
+//<txt_spd><$01>  ラウンド8<line>
+// はっけん!<line>
+//   究極兵器!!<wait><$08><page><end>
+
+
+
+//POINTER #23 @ $F9F4 - STRING #23 @ $D444
+
+#WRITE(Ptr, $F9F4)
+//<kuchi> よく ここまで きたな!<stopkuchi><page> <kuchi>おまえたちは!<stopkuchi><page> <kuchi>われら カラカラ一族<line>
+// やみの よにんしゅう!!<stopkuchi><page> <kuchi>がったい にんぽう マックロ－で<line>
+// きさまらを じごくに おくってやる!<stopkuchi><page> カァ－－ッ!!<wait><$11><page><end>
+
+
+
+//POINTER #24 @ $F9F6 - STRING #24 @ $D4B1
+
+#WRITE(Ptr, $F9F6)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page> お～っほっほっほっほ!<line>
+// ざ~んねんだったわね ニャンキー!<page> <kuchi>その こえは コーンのかみ!<stopkuchi><page> <kuchi>たった いま<line>
+// 究極兵器<line>
+// カラクリ どコ－ンじょうは<line>
+// かんせいしちゃったのよ~ん!!<stopkuchi><page> <kuchi>おいわいに あなたたちを<line>
+// こうげきして あ げ る♪<stopkuchi><page><end>
+
+
+
+//POINTER #25 @ $F9F8 - STRING #25 @ $D558
+
+#WRITE(Ptr, $F9F8)
+// <kuchi>ほ～っほっほっ!<stopkuchi><page><end>
+
+
+
+//POINTER #26 @ $F9FA - STRING #26 @ $D640
+
+#WRITE(Ptr, $F9FA)
+//<txt_spd><$01>  ラウンド9<line>
+// ふっかつ!<line>
+//    ニャンキー そらを とぶ!!<wait><$07><page><end>
+
+
+
+//POINTER #27 @ $F9FC - STRING #27 @ $D775
+
+#WRITE(Ptr, $F9FC)
+// ふっふっふっ....<wait><$05><page> <kuchi>なんだ おまえは!?<stopkuchi><page><kuchi> あれは! ニャンキーだわ!<line>
+// いきていたのね!<stopkuchi><page><kuchi>うしゃしゃ すでに<line>
+// わが カラクリにんぐんの せんしが<line>
+// やつらの しまつに いっておるのじゃ<stopkuchi><page> Dr.パープル カラクリにんぐん<line>
+// だい2の 忍者<wait><$08><page> イエロ－パンチョ!<line>
+// あんたたちには ここで<line>
+// しんでもらいまっせ~!!<page> !!<page> <kuchi>か..かっちょ わるい....<stopkuchi><page><end>
+
+
+
+//POINTER #28 @ $F9FE - STRING #28 @ $D8A8
+
+#WRITE(Ptr, $F9FE)
+// <kuchi>天下無敵の大勝利!<stopkuchi><wait><$08><page> <kuchi>ふっ.. カラクリにんぐんも<line>
+// しょせん このていどの ものか....<stopkuchi><page> <kuchi>うるさい!! つぎこそ<line>
+// ニャンキーの いきのねを とめてみせる!!<stopkuchi><page> <kuchi>それまでの いのち<line>
+// たいせつにすることだな!<line>
+//うしゃしゃのしゃ~っ!<stopkuchi><end>
+
+
+
+//POINTER #29 @ $FA00 - STRING #29 @ $D919
+
+#WRITE(Ptr, $FA00)
+//<txt_spd><$01>  ラウンド10<line>
+// けっせん!<line>
+//    ニャンキー VS Dr.パープル<line>
+//<end>
+
+
+
+//POINTER #30 @ $FA02 - STRING #30 @ $D935
+
+#WRITE(Ptr, $FA02)
+//<kuchi>うしゃしゃの しゃ~っ<line>
+// ひさしぶりだね<line>
+// ニャンキーの しょくん<stopkuchi><page> <kuchi>Dr.パープル!!<stopkuchi><page> <kuchi>てめえなんかに エドロポリスを<line>
+// こわされて たまるか!<stopkuchi><page><kuchi>うしゃしゃ これで さいごじゃ!<stopkuchi><line>
+//<page> <kuchi>いでよ! カラクリにんぐん<line>
+// さいきょうの せんし レッド ドララン!!<stopkuchi><end>
+
+
+
+//POINTER #31 @ $FA04 - STRING #31 @ $D9AE
+
+#WRITE(Ptr, $FA04)
+// <kuchi>おの~れ おのれ!<line>
+// こうなったら このわし<line>
+// みずからの てで....<stopkuchi><page><kuchi>うしゃしゃの しゃ~っ!<stopkuchi><page> <kuchi>みよ!<line>
+// わしの パワ－ドス－ツ<line>
+// チキチキチキンZの おそろしさを!!    <stopkuchi><page> <kuchi>かくご!! ニャンキー!!<stopkuchi><end>
+
+
+
+//POINTER #32 @ $FA06 - STRING #32 @ $DA1A
+
+#WRITE(Ptr, $FA06)
+// <kuchi>あいたたた....<line>
+// コーンのかみと くんでいると<line>
+// ろくなことがない<page> もう わしは かえる!!<stopkuchi><page> しゃらば~~い!<wait><$10><page><end>
+
+
+
+//POINTER #33 @ $FA08 - STRING #33 @ $DA72
+
+#WRITE(Ptr, $FA08)
+//<txt_spd><$01>  ラウンド11<line>
+// へいわの しと ニャンキー!<line>
+//<end>
+
+
+
+//POINTER #34 @ $FA0A - STRING #34 @ $DA87
+
+#WRITE(Ptr, $FA0A)
+// <kuchi>キ~~ッ!<line>
+// よくも よくも<line>
+// やってくれちゃったわね!!<stopkuchi><page> <txt_spd><$04><kuchi>おまえら なんぞに<line>
+// この しろを こわさせはせんぞ!<stopkuchi><page> <kuchi>さいごの しょうぶ!<line>
+// けっちゃくを つけてやる!!<stopkuchi><end>
+
+
+
+//POINTER #35 @ $FA0C - STRING #35 @ $DAE7
+
+#WRITE(Ptr, $FA0C)
+// <kuchi>おおっ..<line>
+// カラクリじょうが....<stopkuchi><page> <kuchi>これで エドロポリスの<line>
+// へいわも もどるだろう<stopkuchi><page> <kuchi>でも やったろうさんたちは<line>
+// いったい どこに....<stopkuchi><page> <kuchi>うむ....<stopkuchi><page> <kuchi>まぬけ忍者は しんでしまったのか?<stopkuchi><page> <kuchi>あの ばくはつでは<line>
+// おそらく....<stopkuchi><page> <kuchi>ニャンキーさん....<stopkuchi><page> <kuchi>おっかぁ <line>
+// ニャンキーさんたち しんじゃったんだって<stopkuchi><page> <kuchi>じゃ ここから ファミコン ゲーム<line>
+// テキト－にんでん いつものおやこ が<line>
+// はじまるのね!<stopkuchi><page> ........<page><end>
+
+
+
+//POINTER #36 @ $FA0E - STRING #36 @ $DD2A
+
+#WRITE(Ptr, $FA0E)
+// <txt_spd><$04><kuchi>ゲームのまえに ちょっと おしらせです<stopkuchi><page> <kuchi>ゲームちゅうに STARTボタンを おすと<line>
+//お助けメンバーを よぶことができます<stopkuchi><line>
+//<page> りキノシン<line>
+//   とくていの いわを こわせます<line>
+//<page> ゴットン<line>
+//   つちのあるところを ほりすすみます<line>
+//<page> ミエトル<line>
+//   いっていじかん そらを とべます<line>
+//<page> ネッキ－<line>
+//   みずのなかの うごきは メンバー1です<line>
+//<page> <kuchi>4にんのお助けメンバーと きょうりょくして<line>
+// エンディングまで がんばってくださいね!<stopkuchi><end>
+
+
+
+//POINTER #37 @ $FA10 - STRING #37 @ $BA32
+
+#WRITE(Ptr, $FA10)
+//かW<blank>ち<upleft_heart>ゾメ<$BA>そ<$BA>づポ<upright_heart><$E0>Yう レゾ<upright_heart>ょY<blank>W<blank> きゾ<upright_heart> Y<blank>W<blank> きゾちィゾ<upright_heart>い 6ゾ<upright_heart>せ <gfx4>ゾちZ<$BF>゜<$BA>そ<$BA>づポ<upright_heart><blank>Y<stopkuchi> ゅゾ<upright_heart><0>Yお レゾちィゾホ<$BA>そ<$BA>づポ<upright_heart><0>Y<kuchi> ゅゾ<upright_heart><0>Yう レゾちィゾ<9><$BA>1<$BA><upright_heart>Y 6ゾ<upright_heart>ゾYえ レゾYよ<upright_heart><blank> Gゾ<upright_heart>あYこWいち<upleft_heart>ゾYミ エゾYお ニゾち<1>ゾ<$B8><$BA><$DA><$BA>ボ<$BA><upright_heart>0 6ゾ<upright_heart><blank>Yえ レゾ<upright_heart><blank>Y<stopkuchi> ゅゾYの<upright_heart><blank> Gゾ<upright_heart>け <gfx4>ゾちZ<$BF>Y  エゾYェ ニゾ チゾWよぴはそGうち<1>ゾちィゾY<blank>W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #38 @ $FA12 - STRING #38 @ $BA73
+
+#WRITE(Ptr, $FA12)
+//ゾ<upright_heart><0>Yお レゾちィゾホ<$BA>そ<$BA>づポ<upright_heart><0>Y<kuchi> ゅゾ<upright_heart><0>Yう レゾちィゾ<9><$BA>1<$BA><upright_heart>Y 6ゾ<upright_heart>ゾYえ レゾYよ<upright_heart><blank> Gゾ<upright_heart>あYこWいち<upleft_heart>ゾYミ エゾYお ニゾち<1>ゾ<$B8><$BA><$DA><$BA>ボ<$BA><upright_heart>0 6ゾ<upright_heart><blank>Yえ レゾ<upright_heart><blank>Y<stopkuchi> ゅゾYの<upright_heart><blank> Gゾ<upright_heart>け <gfx4>ゾちZ<$BF>Y  エゾYェ ニゾ チゾWよぴはそGうち<1>ゾちィゾY<blank>W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #39 @ $FA14 - STRING #39 @ $BA81
+
+#WRITE(Ptr, $FA14)
+//<$BA>づポ<upright_heart><0>Y<kuchi> ゅゾ<upright_heart><0>Yう レゾちィゾ<9><$BA>1<$BA><upright_heart>Y 6ゾ<upright_heart>ゾYえ レゾYよ<upright_heart><blank> Gゾ<upright_heart>あYこWいち<upleft_heart>ゾYミ エゾYお ニゾち<1>ゾ<$B8><$BA><$DA><$BA>ボ<$BA><upright_heart>0 6ゾ<upright_heart><blank>Yえ レゾ<upright_heart><blank>Y<stopkuchi> ゅゾYの<upright_heart><blank> Gゾ<upright_heart>け <gfx4>ゾちZ<$BF>Y  エゾYェ ニゾ チゾWよぴはそGうち<1>ゾちィゾY<blank>W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #40 @ $FA16 - STRING #40 @ $BA99
+
+#WRITE(Ptr, $FA16)
+//<upright_heart>Y 6ゾ<upright_heart>ゾYえ レゾYよ<upright_heart><blank> Gゾ<upright_heart>あYこWいち<upleft_heart>ゾYミ エゾYお ニゾち<1>ゾ<$B8><$BA><$DA><$BA>ボ<$BA><upright_heart>0 6ゾ<upright_heart><blank>Yえ レゾ<upright_heart><blank>Y<stopkuchi> ゅゾYの<upright_heart><blank> Gゾ<upright_heart>け <gfx4>ゾちZ<$BF>Y  エゾYェ ニゾ チゾWよぴはそGうち<1>ゾちィゾY<blank>W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #41 @ $FA18 - STRING #41 @ $BAB0
+
+#WRITE(Ptr, $FA18)
+//Wいち<upleft_heart>ゾYミ エゾYお ニゾち<1>ゾ<$B8><$BA><$DA><$BA>ボ<$BA><upright_heart>0 6ゾ<upright_heart><blank>Yえ レゾ<upright_heart><blank>Y<stopkuchi> ゅゾYの<upright_heart><blank> Gゾ<upright_heart>け <gfx4>ゾちZ<$BF>Y  エゾYェ ニゾ チゾWよぴはそGうち<1>ゾちィゾY<blank>W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #42 @ $FA1A - STRING #42 @ $BACA
+
+#WRITE(Ptr, $FA1A)
+// 6ゾ<upright_heart><blank>Yえ レゾ<upright_heart><blank>Y<stopkuchi> ゅゾYの<upright_heart><blank> Gゾ<upright_heart>け <gfx4>ゾちZ<$BF>Y  エゾYェ ニゾ チゾWよぴはそGうち<1>ゾちィゾY<blank>W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #43 @ $FA1C - STRING #43 @ $BAE7
+
+#WRITE(Ptr, $FA1C)
+//ちZ<$BF>Y  エゾYェ ニゾ チゾWよぴはそGうち<1>ゾちィゾY<blank>W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #44 @ $FA1E - STRING #44 @ $BB06
+
+#WRITE(Ptr, $FA1E)
+//W<blank><upright_heart>う <downright_heart>ゾちよゾぬ<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう レゾ<upright_heart>ウY<blank>W<blank> きゾ<upright_heart>エY<blank>W<blank> きゾちィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #45 @ $FA20 - STRING #45 @ $BB32
+
+#WRITE(Ptr, $FA20)
+//ィゾ1ァそGね<upright_heart>い 6ゾ<upright_heart>せばに<upright_heart><2> 6ゾ<upright_heart>と <gfx4>ゾちZ<$BF>し<$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #46 @ $FA22 - STRING #46 @ $BB55
+
+#WRITE(Ptr, $FA22)
+//づポ<upright_heart><blank>Y<kuchi> ゅゾちッ<$BB><gfx3><$BB>エ<$BB><$E9>ポづポ<upright_heart><blank>Yう ゅゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #47 @ $FA24 - STRING #47 @ $BB6F
+
+#WRITE(Ptr, $FA24)
+//ゾ<upright_heart><blank>Yう レゾちィゾテ<$BB>ぞポ<upright_heart><2> 6ゾ<upright_heart><0>Yえ レゾ<upright_heart>あYたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #48 @ $FA26 - STRING #48 @ $BB8C
+
+#WRITE(Ptr, $FA26)
+//YたWえち<upleft_heart>ゾL<$BB><$F5>ポザポ<wait><$B9>ぴ<$BB><$F5>ポザポ<wait><$B9>げ<$BB><upright_heart><2> 6ゾ<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #49 @ $FA28 - STRING #49 @ $BBAA
+
+#WRITE(Ptr, $FA28)
+//<upright_heart>ヤYあ レゾ<upright_heart><blank>Y<kuchi> ゅゾ<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #50 @ $FA2A - STRING #50 @ $BBB8
+
+#WRITE(Ptr, $FA2A)
+//<upright_heart>あYてWあち<upleft_heart>ゾ ラゾWよぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #51 @ $FA2C - STRING #51 @ $BBC6
+
+#WRITE(Ptr, $FA2C)
+//ぴはネソばうちよゾ<upright_heart>おち<4>ゾ ラゾWよぴはネソバうちよゾ<upright_heart>あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #52 @ $FA2E - STRING #52 @ $BBE3
+
+#WRITE(Ptr, $FA2E)
+//あち<4>ゾ<$DB><$BB>ぞポ<upright_heart>ソ <gfx4>ゾちヂ<$BB>ジ<$BB>ぞポ<upright_heart>く <gfx4>ゾ<upright_heart>え<5>べ<upright_heart><4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+
+
+//POINTER #53 @ $FA30 - STRING #53 @ $BC01
+
+#WRITE(Ptr, $FA30)
+//<4> 6ゾ<upright_heart>ソYお レゾちZ<$BF>お<$BC>ミ<$BC>づポ<upright_heart><blank>Yえ レゾ<upright_heart>イY<blank>W<blank> きゾ<upright_heart>え<5>べちィゾイ<$BC>ミ<$BC>づポ<upright_heart><blank>Y<switch> レゾちィゾ てゾ<upright_heart><4> 6ゾ<upright_heart>さ <gfx4>ゾ<upright_heart>あ ゜ゾ<upright_heart><blank>Y<switch> ゅゾ<upright_heart>いち<4>ゾほ<$BC>ハ<$BC>H<$BC>ザポM<$BC><upright_heart><2> 6ゾY<line>
+//<upright_heart><end>
+
+

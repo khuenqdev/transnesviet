@@ -1,0 +1,109 @@
+﻿#VAR(Table,TABLE)
+#VAR(Ptr, CUSTOMPOINTER)
+#CREATEPTR(Ptr, "LINEAR", $8010, 16)
+#ADDTBL("Kontoravn.tbl",Table)
+#ACTIVETBL(Table)
+#HDR($10)
+
+
+#JMP($13010)
+
+#WRITE(Ptr, $11858)
+NĂM 2631,TÂY LỊCH...<line>
+MỘT THIÊN THẠCH BÍ ẨN ĐÃ<line>
+RƠI XUỐNG QUẦN ĐẢO GALUGA<line>
+NGOÀI KHƠI TÂN TÂY LAN.<end>
+
+#WRITE(Ptr, $1185A)
+2 NĂM SAU ĐÓ,NGƯỜI TA BIẾT<line>
+RẰNG CÓ TỔ CHỨC BÍ ẨN CỦA<line>
+NHỮNG KẺ XÂM LƯỢC TỰ XƯNG<line>
+LÀ "RED FALCON" ĐANG BIẾN<line>
+QUẦN ĐẢO GALUGA THÀNH<line>
+CĂN CỨ ĐỊA TIỀN TUYẾN<line>
+CỦA CHÚNG HÒNG TIÊU DIỆT<line>
+NHÂN LOẠI.<end>
+
+
+#WRITE(Ptr, $1185C)
+BỘ TƯ LỆNH THỦY QUÂN LỤC<line>
+CHIẾN ĐỊA CẦU ĐÃ HẠ LỆNH<line>
+CHO 2 VIÊN "CONTRA" LÀ BILL<line>
+VÀ LANCE ĐI PHÁ HỦY CĂN CỨ<line>
+ĐỊA CỦA CHÚNG.<end>
+
+
+#JMP($13640)
+
+#WRITE(Ptr, $121EC)
+TÔI ĐÃ TIÊU DIỆT<line2> 
+GODOMUGA.<line2> 
+MỤC TIÊU TIẾP<line2> 
+THEO LÀ CĂN CỨ<line2> 
+ĐỊA CỦA ĐỊCH Ở<line2> 
+ĐIỂM C.<end>
+
+#WRITE(Ptr, $121EE)
+ĐÃ ĐẾN ĐƯỢC ĐIỂM<line2> 
+C.TỪ ĐÂY SẼ KHÔNG<line2> 
+CÒN LIÊN LẠC ĐƯỢC<line2> 
+NỮA.TÔI SẼ DỐC<line2> 
+HẾT SỨC ĐỂ PHÁ<line2> 
+HỦY CĂN CỨ ĐỊA<line2> 
+CỦA ĐỊCH.<end>
+
+#WRITE(Ptr, $121F0)
+HỆ THỐNG PHÒNG<line2> 
+NGỰ BÊN TRONG<line2> 
+CĂN CỨ ĐÃ KÍCH<line2> 
+HOẠT.<line2> 
+TA PHẢI KHẨN<line2> 
+TRƯƠNG MỚI ĐƯỢC.<end>
+
+#WRITE(Ptr, $121F2)
+CÓ VẺ NHƯ ĐÂY LÀ<line2> 
+CĂN CỨ CỦA CHÚNG<line2> 
+RỒI.<line2> 
+QUÂN ĐỊCH THẬT SỰ<line2> 
+LÀ CÁI QUÁI GÌ<line2> 
+VẬY NHỈ...<end>
+
+#WRITE(Ptr, $121E6)
+TÔI ĐÃ ĐẾN ĐIỂM<line2> 
+A.TỪ GIỜ SẼ BẮT<line2> 
+ĐẦU XÂM NHẬP VÀO<line2> 
+ĐÂY.<end>
+
+#WRITE(Ptr, $121E8)
+TÔI ĐÃ TIÊU DIỆT<line2> 
+GALMA KILMA.<line2> 
+MỤC TIÊU TIẾP<line2> 
+THEO LÀ ĐIỂM B.<end>
+
+#WRITE(Ptr, $121EA)
+TÔI ĐÃ ĐẾN ĐIỂM<line2> 
+B.TỪ GIỜ SẼ BẮT<line2> 
+ĐẦU XÂM NHẬP VÀO<line2> 
+ĐÂY.<end>
+
+
+#JMP($13B10)
+#WRITE(Ptr, $1056D)
+BỚ LŨ NGƯỜI TRÁI ĐẤT NGU<line>
+XUẨN,CÁC NGƯƠI NGHĨ NHƯ<line>
+VẬY LÀ ĐÃ TIÊU DIỆT ĐƯỢC<line>
+"RED FALCON" RỒI SAO...<line>
+DÙ CĂN CỨ ĐÃ BỊ LŨ CÁC<line>
+NGƯƠI PHÁ HỦY NHƯNG BỌN<line>
+TA ĐÃ CÓ KẾ.<line><line>
+"RED FALCON" BỌN TA LÀ<line>
+VĨNH VIỄN BẤT DIỆT...<end>
+
+#JMP($13C40)
+#WRITE(Ptr, $13A5F)
+"CONTRA" LÀ DANH HIỆU<line>
+DÀNH CHO CÁC CHIẾN BINH<line>
+MẠNH NHẤT VỚI TINH THẦN<line>
+CHIẾN ĐẤU CHÁY BỎNG VÀ<line>
+TỐ CHẤT CHIẾN THUẬT<line>
+DU KÍCH NHẠY BÉN...<end>

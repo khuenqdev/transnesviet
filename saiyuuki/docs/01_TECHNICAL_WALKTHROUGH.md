@@ -409,6 +409,10 @@ Verification checklist actually run: every row passes the width check; dialog (2
 | Status labels unreadable (MỆNH/TIỀN/ĐIỂM) | 8-px font cannot show circumflex+tone clearly | rewrote labels (MẠNG/BẠC/CÔNG) |
 | Replay hit the wrong scene | timing changed by new text | savestate method |
 | `state_test` crashed at `$B2AA` | `cpu.mem` restored the old ROM image | reload banks after `fromJSON` |
+| *(Doraemon, see Part 18)* Yes/No flipped English/Vietnamese | a third copy of the string at `$E212` was not patched | patch every copy, same length |
+| *(Doraemon)* wrong NPC gives Shizuka's scene, joins repeatedly | event table count header `03 02 04 08 04` (bank 2 `$813E`) not carried into the rewritten table | copy the 5 count bytes, assert them in the build |
+| *(Doraemon)* walking-speed patch v1: NPCs move with the hero | extra scroll call while NPC code compensates `$34` px | v2: change `$34` for the whole frame |
+| *(Doraemon)* walking-speed patch v2: NPCs stop between tiles | private NPC step clock `$0450` counts 1 per frame | v3: `$0450 -= $34` |
 
 ---
 
@@ -433,3 +437,63 @@ Verification checklist actually run: every row passes the width check; dialog (2
 * Status-screen item names use the cramped 8-px caps; a dynamic tile allocator could allow 12-px names when few items are held.
 * Not tested on real hardware; recommended emulators: Mesen, FCEUX (mapper 2, 256 KB).
 * Fonts could gain kerning pairs and a bolder variant; translation could be reviewed by a native speaker for tone and idiom.
+
+
+---
+
+## 18. Second project: what changed for *Doraemon: Giga Zombie no Gyakushuu* (MMC1/SUROM)
+
+The method of parts 1-14 carried over; these are the differences and the extra problems that appeared after testers played the game. (Scripts: `dora/tools/*.js`, speed patch: `dora/speed/`.)
+
+### 18.1 ROM layout
+| Item | Original | Translated |
+|---|---|---|
+| Size | 256 KB, 16 PRG banks, CHR-RAM | 512 KB (header byte 4 = `0x20`) = SUROM |
+| Fixed bank | bank 15 at `$C000-$FFFF` | bank 15 **and an identical copy in bank 31** (banks 14/15 copied to 30/31) |
+| Bank switch | routine `$CD5C` (A = bank) | `$C0B2` redirected to a SUROM stub at `$FF73` that also sets the 256 KB half |
+| Free space in fixed bank | `$FF72-$FFDF` | `$FFA0-$FFDE` (the stub uses `$FF73-$FF9F`) |
+
+### 18.2 Script engine facts used by the fixes
+* Message ids `$2E/$2F`, dispatcher `$D8A5`; text tables E/C/A/B/D, E table in bank 3 (VN: bank `$15`), header counts `11 46 24 41 28`.
+* Event (C) table: counts `03 02 04 08 04` at `$813E` in bank 2 - **the bug-2 mechanism** (Part 15 table).
+* Yes/No strings: three copies; the third at `$E212` is `[S, Có, S, S, Không]` (exactly 10 bytes).
+* Menu/title: menu logo alignment (`Doraemon` left-aligned: `$8029/$802A/$802D` in the menu bank, glyph codes `dora[0..5]`), title `©` glyph at `$A2F6/$A31B` of bank 9.
+
+### 18.3 Field (walking) engine - needed for the speed patch
+| Address | Meaning |
+|---|---|
+| `$32` | pixels left in the current 16-px step (16 → 0) |
+| `$34` | pixels per frame (1 normal; 2 in some modes) |
+| `$35` | sprite / animation id; `$20` direction + step bits; `$45` busy flag |
+| `$02/$03/$00` | scroll X, scroll Y, nametable bits |
+| `$C5D4-$C633` | field handler in the fixed bank: per frame: `JSR $CF4C, $81A0, $87E2, $8B6F, $CF55`, bank `$0C`, then `LDX $32; JSR $AE22` |
+| `$AE22` (bank C) | movement dispatcher; `$AE92` decrements `$32` by `$34` |
+| `$81A0 / $81E9` (bank D) | NPC sprite update: moves OAM entries by `$34` (doubled if `$34 ≠ 1`), `$0470 -= $34` |
+| `$0450` | **NPC step clock** (16 ticks), `DEC $0450` at bank D `$8BB3` - one tick per call |
+| `$0500-$05FF` | OAM buffer (`LDA #$05 / STA $4014`) |
+| `$420…` | NPC table: `x tile, y tile, flags, id` (4 bytes each) |
+
+### 18.4 Walking-speed patch v3 (all addresses)
+```
+C613  JSR $FFA0 ; NOP NOP         (was LDA #$0D / JSR $CD5C)
+FFA0  LDA #$0D ; JSR $CD5C
+      LDA #0 ; STA $07EA
+      LDA $34 ; CMP #1 ; BNE end
+      LDA $32 ; AND #2 ; BEQ end
+      LDA $0450 ; CMP #1 ; BEQ end
+      LDA #2 ; STA $34 ; STA $07EA
+end:  RTS
+C62E  JMP $FFC5 ; NOP NOP         (was LDX $32 / JSR $AE22)
+FFC5  LDX $32 ; JSR $AE22
+      PHA ; LDA $07EA ; BEQ + ; DEC $34 ; + PLA ; RTS
+D:8BB3  JSR $9E3E                 (was DEC $0450; BNE follows)
+D:9E3E  LDA $0450 ; SEC ; SBC $34 ; BCS +2 ; LDA #0 ; STA $0450 ; RTS
+```
+Result: 16 px in 12 frames (16→15→13→12→11→9→8→7→5→4→3→1→0). The ×2 variant changes the four `LDA #$01 / STA $34` defaults (`$C064`, `$D19B`, bank D `$93FB`, `$941D`) to `#$02` and uses the same NPC-clock fix. Full story and tests: tutorial chapters 23-24, `dora/speed/README.md`.
+
+### 18.5 Test methods added
+* Force-message sweep (set `$2E/$2F` to each id and screenshot).
+* NPC alignment test: sprite left edge - NPC tile × 16 must be 0 at rest (histogram).
+* World-coordinate drift of sprites (`sprite + scroll`) and random-walk screenshots.
+* Byte-identical check between apply script output and IPS output; IPS must not extend the 256 KB ROM.
+* jsnes savestates garble tiles → replay from boot; consume the pending RESET interrupt (`cpu.emulate()`) before the first measurement.

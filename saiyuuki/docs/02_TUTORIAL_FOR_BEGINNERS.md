@@ -27,6 +27,12 @@
 17. [Where to go next / roadmap through the real project](#17-roadmap)
 18. [Glossary](#18-glossary)
 19. [Cheat sheet](#19-cheat-sheet)
+20. [Part II – hunting engine bugs when the translation "works" but the game is broken](#20-hunting-engine-bugs)
+21. [Lab 6 – Tables with counts, Yes/No, and the "wrong cat" bug](#21-lab-6--tables-with-counts-yesno-and-the-wrong-cat-bug)
+22. [Bigger ROMs: MMC1/SUROM and two copies of the fixed bank](#22-bigger-roms-mmc1surom-and-two-copies-of-the-fixed-bank)
+23. [Gameplay patches (walk speed) and why they glitch NPCs](#23-gameplay-patches-walk-speed-and-why-they-glitch-npcs)
+24. [Lab 7 – Writing a test that measures the glitch](#24-lab-7---writing-a-test-that-measures-the-glitch)
+25. [Delivering patches for more than one ROM](#25-delivering-patches-for-more-than-one-rom)
 
 All commands assume the project folder `saiyuuki/` and that the original ROM is saved as `rom/original.nes` (md5 `01e8594637accca56e7d1a2e63906db5`). Check yours with `md5sum rom/original.nes`.
 
@@ -343,6 +349,10 @@ Mini-project 2 (pixel art): in the VRAM dump, find the kana あ. Convert the 16 
 | Text clipped / misaligned | Sentence wider than 136 px | `build_rom.py` prints "row N too wide" → shorten |
 | Crash only in emulator X | Bus-conflict ignored in some emulators | use the bus-conflict-safe bank switch |
 | Palette wrong | Attribute table not updated | check nametable attribute bytes |
+| A menu shows English words mixed with yours | A second copy of the string exists (several tables, e.g. Yes/No drawn from different places) | search the *original* ROM for every copy (Lab 6) |
+| The wrong character speaks / the wrong event runs after you moved a text bank | A lookup table has a **count/header** that was not moved with the text | compare header counts of the original and the new ROM (Lab 6) |
+| A patch works on the original ROM but crashes on the translated ROM | The translated ROM has a second copy of the fixed bank, or bytes you assumed free are used | check free space in **both** ROMs, patch every copy (chapter 22) |
+| Sprites (NPCs) drift, overlap walls, or look "broken" after a gameplay patch | You changed one per-frame variable that other routines (or private timers) also depend on | chapter 23 |
 
 Habits that save days:
 * **Always keep the original** and build from it by script (never hand-edit the only copy).
@@ -395,5 +405,124 @@ Suggested exercises of rising difficulty: (a) change a price in the shop; (b) sw
 * PPU registers: `$2006` (address ×2), `$2007` (data), `$2000/2001` control.
 * To find text: relative search → pointer table → engine.
 * Keep a build script. Always.
+* Tables often start with **counts**; carry them along and assert them in the build.
+* Before changing a per-frame variable, find **every** reader/writer in **all** banks, and any private timers.
+* Test with **invariants** (drawn sprite position = logical tile position), not by eye only.
+* Fixed bank changes go into **every copy** of the fixed bank; one IPS per ROM; translation first, gameplay patch second.
 
 You are ready for the real thing: open `01_TECHNICAL_WALKTHROUGH.md`.
+
+---
+
+# Part II – Beyond the text
+
+Chapters 1-19 got the text on screen. Real projects do not end there: testers will find broken menus, wrong events and glitches. The next chapters come from the second project (*Doraemon: Giga Zombie no Gyakushuu*, 256 KB → 512 KB ROM) and from a **walking-speed patch** that went wrong three times before it went right. They are written as lessons: what we saw, what we guessed, what was actually true.
+
+## 20. Hunting engine bugs
+
+**Rule 1 – "the text is in" is not "the game works".** The text engine is only one of many tables the game reads. When you move, resize or re-encode text you may break something that does not look like text at all.
+
+**Rule 2 – a bug report is a clue; find the *mechanism*.** Two reports from the Doraemon project:
+
+| Report | Obvious guess | Real mechanism |
+|---|---|---|
+| Choices flip between `YES/NO` and `Có/Không` | "I forgot one string" | The game draws Yes/No from **several** copies and one of them (third string at `$E212`) was never patched. |
+| Talking to the cat adds *Shizuka* again and again | "The dialog is wrong" | The event is selected by a **table with a count header**. After the translation tool rewrote the table, the 5 count bytes (`03 02 04 08 04`) pointed at the wrong group, so entry *n* of one group was read as entry *n* of another. |
+
+How to approach a new bug in 5 steps:
+
+1. **Reproduce it in the emulator and write down the exact input path** (a replay script, see chapter 24). A bug you cannot reproduce cannot be fixed.
+2. **Compare with the original ROM** along the same path. If the original behaves correctly, the cause is in *your* diff - `cmp -l original.nes yours.nes` lists every changed byte; group them by bank.
+3. **Find the code that decides**: watch the RAM variable that changes (`which character joined?`) and find who writes it (emulator breakpoint or a RAM-watch script).
+4. **Fix at the lowest level** (a byte in a table), not by special-casing in your own code.
+5. **Re-test the original symptom and the neighbours** (other characters, other towns). Then **audit**: look for the same *class* of bug elsewhere (all tables with counts, all strings drawn twice).
+
+## 21. Lab 6 – Tables with counts, Yes/No, and the "wrong cat" bug
+
+**Goal:** learn to spot tables that depend on a *count* and strings that exist in several copies.
+
+1. **Find all copies of a string.** Convert the English/Japanese `Yes`/`No` to tile codes with your table and search *every bank* of the original ROM:
+   ```
+   node tools/find.js original.nes "<hex bytes of Yes/No>"
+   ```
+   Expect more than one hit (one per menu type). Patch **all** of them; keep the *length* identical (pad with the blank tile) because other code reads fixed offsets.
+2. **Look for headers before tables.** Disassemble the routine that reads the table and see what it does with the first bytes. In Doraemon the event lookup (`$D915`) uses a header of five counts at `$813E` in bank 2. Rule of thumb: **if a table is preceded by small numbers that add up to the table size, they are counts.**
+3. **Make your build tool carry the counts along** and add an **assertion**:
+   ```js
+   rom.expect(2, 0x813E, '03 02 04 08 04');   // original header
+   ... rewrite the table ...
+   assert(counts equal original counts)        // fail the build, never ship silently
+   ```
+4. **Force-test every message**: a small script that sets the "message id" RAM variable to each value (0…N) and screenshots the box. That finds untranslated or wrongly linked entries in minutes. We call this the *force-message sweep*.
+5. **Look at menus with fresh eyes** (alignment, `©` mark in the title, left-aligned labels): many "bugs" reported by testers are cosmetic. Collect them in `docs/BUGFIXES.md` with: symptom, cause, fix, how it was verified.
+
+## 22. Bigger ROMs: MMC1/SUROM and two copies of the fixed bank
+
+Section 11 showed UNROM (switchable bank at `$8000`, last bank fixed at `$C000`). Many games use **MMC1** (mapper 1). With **SUROM** (512 KB) two things change:
+
+* A bank-select value only selects **within a 256 KB half**; the *other half* is chosen by a bit of a different register (the CHR bank register). Your bank switch routine must write both.
+* The CPU always sees the **fixed bank at `$C000`** of the *currently selected half*. So when you want code to run from both halves you need **two identical copies of the fixed bank** (banks 15 and 31 in our ROM).
+
+Consequences you must remember forever:
+
+1. Any change to the fixed bank (a hook, a new routine) must be applied to **both copies**. We always write a helper `forEachFixed(bank => patch(bank))`.
+2. The original ROM (256 KB) has only one copy. A patch that is meant for both ROMs has to know which one it is looking at: the iNES header byte 4 tells you (16 = original, 32 = expanded).
+3. Free space can differ. Always check `0xFF` runs in *both* ROMs and use only the intersection (in Doraemon: `$FFA0-$FFDE`; the translation uses `$FF73-$FF9F`).
+4. Test in an emulator that supports the mapper you chose; the headless test harness (jsnes) needed custom SUROM handling.
+
+## 23. Gameplay patches (walk speed) and why they glitch NPCs
+
+A "small" gameplay patch is a great way to learn how a game is *really* built - and how fragile it is. Goal: **make the hero walk about 1.33× faster**, as a separate patch that works on the original and translated ROM.
+
+**What we knew:** the hero walks in 16-pixel steps. Each frame a routine scrolls `$34` pixels (normally 1) and subtracts it from a counter `$32` (16 → 0). So a tile takes 16 frames.
+
+**Attempt 1 (v1) - "give some frames an extra pixel".** Call the movement routine twice on every frame whose counter has bit 1 set. The hero, scroll and Doraemon looked perfect (16 px in 12 frames). In-game testers reported: NPCs follow the hero, stand over houses and trees, sprites look broken.
+
+> **Why:** the *NPC routines run before the extra call* and assume the world moves `$34` pixels per frame. On bonus frames the screen scrolled 2 px, the NPC code compensated 1 px: every bonus frame moved NPCs 1 px relative to the map. Errors accumulated.
+
+**Attempt 2 (v2) - "change the step size, not the number of calls".** Set `$34 = 2` for the whole frame before the NPC routines run and put it back afterwards. Scroll and NPC compensation agree now. Testers: *better, but NPCs still overlap houses and start walking together.*
+
+> **Why:** NPCs have their **own step clock** (`$0450`, 16 ticks) that counts down by exactly 1 per frame (`DEC $0450`), and the NPC routines only run while the hero is walking. A 12-frame hero step gave each NPC only 12 of its 16 ticks, so NPCs stopped half-way between tiles and later started their next step all together.
+
+**Attempt 3 (v3) - fix every consumer.** Replace `DEC $0450` with `$0450 -= $34` (a tiny routine in free space) and refuse a 2-pixel frame when the NPC clock has exactly 1 tick left (it would overshoot by 1 px).
+
+**Lessons you can reuse anywhere**
+
+| Lesson | Detail |
+|---|---|
+| Find **all readers and writers** of a variable before changing it | `grep` the whole ROM (all banks) for the address in every addressing mode: zero page `85 34`, `A5 34`, absolute `8D 50 04`, … |
+| Look for **private timers** that run at their own rate | A counter that is decremented by 1 per frame regardless of speed is a warning sign. |
+| Two kinds of "speed" exist | pixels per frame (`$34`) and frames per step; keep them in the same ratio everywhere. |
+| Do not make a one-frame exception that only part of the engine sees | Everything that runs in a frame must see the same world. |
+| Keep a **flag** for "I changed it, so I must restore it" | Our patch uses a free RAM byte (`$07EA`, verified never used by the ROM) to remember the boost. |
+| Use the engine's own supported value (`$34 = 2` is used for other modes) rather than inventing new semantics | We reused the doubling the game already does when `$34 ≠ 1`. |
+| Hook where the whole frame passes | Two hooks (before NPC routines, after movement) and one data fix. |
+
+## 24. Lab 7 - Writing a test that measures the glitch
+
+"It looks fine" is not a test. Build a measurement.
+
+1. **Make the emulator reproducible.** Use a headless emulator (jsnes), start from boot, and replay a script: `Hr:150` (hold right 150 frames), `A:3`, `F30` (wait 30 frames). Avoid savestates in jsnes (they garble tiles); replay from boot.
+2. **Find the hardware-visible state.** Sprite RAM (OAM) is a 256-byte buffer copied to the PPU every frame. In Doraemon it lives at `$0500` (`LDA #$05 / STA $4014`). Each sprite: `y, tile, attribute, x`.
+3. **Convert to world coordinates**: `world_x = sprite_x + scroll_x (+256 if nametable bit)`. An NPC that stands still must have a constant world position while the hero walks.
+4. **Find the game's logical state**: Doraemon keeps NPC tile coordinates in a table at `$420` (x, y, flags, id). The *drawn position must equal the logical tile × 16* once the NPC has stopped.
+5. **Write the invariant as code** and print a histogram:
+   ```
+   offset = sprite_left_edge - tile_x*16          # must be 0 at rest
+   original ROM:   mostly 0
+   v1 patch:       0, 4, 8, -12, -4 ...   (broken)
+   v3 patch:       0 almost everywhere
+   ```
+6. **Compare against the unmodified ROM with the same measurement**, never against "perfect". The test itself has noise (neighbouring NPC picked by mistake, NPC caught mid-step) - the *original* ROM shows some too.
+7. **State what you did not test** (other towns, vehicles, hardware). Honest limits are part of the deliverable.
+
+A random-walk test (`wander`) that drives the hero in random directions and saves screenshots every few segments is cheap and catches things your scripted routes miss.
+
+## 25. Delivering patches for more than one ROM
+
+* **Order matters.** Translation patch first, gameplay patch second (the translation patch would overwrite the second fixed-bank copy otherwise).
+* **IPS limits.** An IPS record that writes beyond the end of the original file *enlarges* it; the Japanese ROM (256 KB) must not receive records for the 512 KB bank copies. Ship one IPS per ROM (`walkspeed_JP.ips`, `walkspeed_VN.ips`).
+* **Ship an apply script too** that detects the ROM type (header byte 4), verifies the expected bytes before writing, refuses already-patched ROMs, and supports variants (`--x2`). Test that its output is **byte-identical** to the IPS result.
+* **Document every address** (hooks, free space used, RAM byte used) in the README, plus the tests and the open issues.
+* **Version your patches** (v1, v2, v3) and keep a changelog of *why* each version changed: the history above is more instructive than the final code.
+

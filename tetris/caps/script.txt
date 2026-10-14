@@ -1,0 +1,38 @@
+run 420
+vram tetris/caps/boot.vram
+ram tetris/caps/boot.ram
+save tetris/caps/boot.state
+shot tetris/caps/boot.png 1
+press START 6 60
+run 150
+vram tetris/caps/title.vram
+ram tetris/caps/title.ram
+save tetris/caps/title.state
+shot tetris/caps/title.png 1
+press START 6 60
+tap A 6 30
+run 150
+vram tetris/caps/menu.vram
+ram tetris/caps/menu.ram
+save tetris/caps/menu.state
+shot tetris/caps/menu.png 1
+tap A 12 24
+run 180
+vram tetris/caps/game1.vram
+ram tetris/caps/game1.ram
+save tetris/caps/game1.state
+shot tetris/caps/game1.png 1
+tap A 12 24
+run 240
+vram tetris/caps/game2.vram
+ram tetris/caps/game2.ram
+save tetris/caps/game2.state
+shot tetris/caps/game2.png 1
+tap START 2 30
+tap A 14 20
+run 240
+vram tetris/caps/game3.vram
+ram tetris/caps/game3.ram
+save tetris/caps/game3.state
+shot tetris/caps/game3.png 1
+quit

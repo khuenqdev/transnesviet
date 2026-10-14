@@ -1,0 +1,31 @@
+# boot -> title -> new game -> intro; saves t/vi_game0.st right before the first dialogue scene
+run 900
+press START 3
+run 60
+press START 3
+run 60
+press A 3
+run 60
+press A 3
+run 300
+shot t/v01.ppm
+run 400
+shot t/v02.ppm
+run 500
+shot t/v03.ppm
+run 1300
+shot t/v04.ppm
+run 900
+shot t/v05.ppm
+run 650
+shot t/v06.ppm
+run 350
+shot t/v07.ppm
+run 300
+shot t/v08.ppm
+save t/vi_game0.st
+run 2160
+shot t/v09.ppm
+press A 3
+run 60
+shot t/v10.ppm

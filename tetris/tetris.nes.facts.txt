@@ -1,0 +1,37 @@
+ROM fact sheet - tetris.nes
+Platform: NES / Famicom
+
+== ROM ==
+Title / region / revision : tetris / region: see header / Rev 0 (no tag)
+File name / size          : tetris.nes / 49,168 bytes
+CRC32 / SHA-1 (file)      : D16EA396 / 3026d28b63d94c921fe58364f8b0659d10b5a0ac
+MD5 (file)                : 886012ac3b3fbf4a244dead999788fe8
+CRC32 / SHA-1 (no header) : 1394F57E / fd9079cb5e8479eb06d93c2ae5175bfce871746a
+Header type               : NES 2.0 (16-byte header)
+Trainer                   : no
+Base patch used (if any)  : (fill in)
+
+== Hardware ==
+Platform / CPU / endian    : NES/Famicom / Ricoh 2A03 (6502, no decimal mode) / little-endian
+Mapper                     : 1 - MMC1 (SxROM), submapper 5
+PRG-ROM                    : 32 KB (32,768 bytes) at file offset $0010
+CHR                        : CHR-ROM 16 KB (16,384 bytes) at file offset $08010
+Mirroring                  : horizontal (header; mapper may override)
+Bank size / fixed bank(s)  : 16 KB (16,384 bytes) / last 16 KB at $C000 (PRG mode 3, default)
+offset <-> address formula : file = 16 + bank*$4000 + (cpu - window base); cpu window $8000-$FFFF; vectors NMI/RESET/IRQ at $FFFA-$FFFF (last bank)
+Vectors (last PRG bytes)   : NMI $8005  RESET $FF00  IRQ $804A
+Save RAM                   : PRG-RAM 0 bytes, PRG-NVRAM (battery) 0 bytes, CHR-RAM 0 bytes, CHR-NVRAM 0 bytes
+Timing                     : NTSC
+Header / ROM checksum      : none on this platform (the game may still check its save data)
+Checked by game?           : (fill in) (patch one byte in unused space and boot to test)
+
+== Space ==
+Scan settings           : runs of $00 or $FF >= 64 bytes, split at bank borders (filler runs may still be data - verify with a debugger)
+Total free (candidate)  : 0 bytes of 32 KB (32,768 bytes) (0.0%)
+Free ROM space per bank : none found
+Largest 0 runs          : none
+Free RAM                : (fill in) (watch RAM in a debugger; look for areas never written)
+Expansion plan          : current 32 KB (32,768 bytes), platform/mapper limit about 512 KB (524,288 bytes) -> up to 480 KB (491,520 bytes) can be added; (fill in)
+
+== Notes ==
+- MMC1: 512 KB is possible with SUROM wiring (CHR register bit 4 selects the 256 KB half).

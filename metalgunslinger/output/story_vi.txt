@@ -1,0 +1,635 @@
+# Metal Gunslinger – Vietnamese script, part 1 (scenes 1-14)
+# Format: Txxxx | paragraph / paragraph ...   (intro/tutorial/credits: one part = one screen line)
+T0000 | Mặt đất khô cằn / Nắng gắt như kim đâm
+T0001 | 『Tinh cầu cát Alamo』
+T0002 | Gió nóng thổi tạt / Mồ hôi lăn trên má / Cát bám đầy người
+T0003 | Tất cả đều thân quen
+T0004 | Nhưng giờ mình thấy / một "sức nóng" lạ
+T0005 | Sức nóng hủy diệt
+T0006 | Mùi chẳng thể quen / ...mùi máu đang cháy
+T0007 | Tay vẫn cử động / Chân vẫn cử động
+T0008 | Dù chẳng chắc lắm / có lẽ mình đang chạy
+T0009 | Phải đi đâu / phải hướng về đâu / mình chẳng hề biết
+T0010 | Về tới thị trấn / là mọi thứ kết thúc
+T0011 | Gặp lại mọi người / lại sống như thường
+T0012 | Lúc ấy mình đã nghĩ như vậy
+T0013 | Thật đấy, mình đã nghĩ như vậy...
+T0014 | 「Hộc, hộc...」
+T0015 | 「Chạy đến đây chắc là an toàn... rồi nhỉ.」
+T0016 | 「Chết tiệt! Giá mà dùng được súng tia thì đâu cần phải chạy trốn!」
+T0017 | 「Nhưng họ vẫn là con người, nên mình không thể làm họ bị thương...」
+T0018 | 「Không được hạ chúng, khổ thật!」
+T0019 | 「C-chết rồi, bị phát hiện!」
+T0020 | 「!! Bên này cũng có địch!」
+T0021 | 「K-không thoát được rồi!」
+T0022 | 「Chết tiệt, hết đường rồi sao!!」
+T0023 | 「C-cái gì vậy?」
+T0024 | 「Đây là... một khẩu súng ư!? Nhưng phải làm sao đây...」
+T0025 | 「ĐỪNG DO DỰ. BÓP CÒ ĐI.」
+T0026 | 「U... oaaaaaaaa!!」
+T0027 | 「M-mình làm được rồi sao...?」
+T0028 | 「Mà khẩu súng này...」
+T0029 | 「Khẩu súng này là gì vậy?」
+T0030 | 「Súng có tác dụng với Perla Negra? Mình chưa từng nghe nói đến.」
+T0031 | 「...」
+T0032 | 「...Về thôi.」
+T0033 | 「Nếu là Doc, có khi cậu ấy biết gì đó.」
+T0034 | 「Billy!!」
+T0035 | 「Mabel, cậu không sao chứ!?」
+T0036 | 「Tớ không sao.」
+T0037 | 「Còn Billy thì sao? Có bị thương chỗ nào không?」
+T0038 | 「Có đau chỗ nào không? Nếu có thì phải băng bó ngay...」
+T0039 | 「Hai người ơi~, xin lỗi vì làm phiền nha, nhưng tình tứ để sau được không?」
+T0040 | 「Thôi đi, Doc im giùm cái!」
+T0041 | 「Ha ha ha ha~」
+T0042 | 「Doc cũng bình an vô sự nhỉ!」
+T0043 | 「À phải rồi Doc, cậu xem cái này giúp tớ.」
+T0044 | 「C-cái gì đây!? Tớ chưa từng thấy khẩu súng nào thế này.」 / 「Hình dạng ghê ghê sao ấy.」
+T0045 | 「ĐÓ LÀ KHẨU SÚNG CỦA KẺ ĐƯỢC CHỌN, 『METALGUN』.」
+T0046 | 「Metalgun!? ...M-mày là con chim lúc nãy!」
+T0047 | 「VŨ KHÍ DUY NHẤT DIỆT PERLA NEGRA.」
+T0048 | 「ĐÓ CHÍNH LÀ 『METALGUN』.」
+T0049 | 「Ui chà, có thứ như vậy thật sao?」
+T0050 | 「Nhưng khoan đã. Chuyện này có dễ ăn quá không vậy?」 / 「Con chim này nhìn đã thấy mờ ám, chắc chắn có uẩn khúc gì đây.」
+T0051 | 「...」
+T0052 | 「Nhưng dùng nó chiến đấu được với chúng là sự thật mà.」 / 「Giờ chỉ còn biết dựa vào nó...」
+T0053 | 「Hừm, vậy à. Metalgun hả...」
+T0054 | 「Mà này Billy, cậu có biết Sun Dance đâu không?」
+T0055 | 「Lúc đầu bọn tớ chạy cùng nhau, rồi chẳng biết từ lúc nào lạc mất.」
+T0056 | 「Hả!?」
+T0057 | 「Trời ạ! Doc! Sao còn nói giọng thong thả thế hả!」 / 「Sun Dance mà có mệnh hệ gì thì là tại cậu đấy, Doc!」
+T0058 | 「Sun Dance đi đâu rồi nhỉ...?」
+T0059 | 「Không lẽ là Navanho? Nghe nói bên đó bị tàn phá nặng lắm.」
+T0060 | 「Vậy thì phải đi tìm ngay thôi!」 / 「Đến Navanho!」
+T0061 | 「Chắc là đi lối này đúng rồi...」
+T0062 | 「Này này... Doc, làm ơn đấy.」
+T0063 | 「Bọn mình không thể lề mề ở chỗ này được.」
+T0064 | 「Hả!?」
+T0065 | 「Chào cậu bé. Có vẻ đang gặp khó khăn nhỉ. Để chị đây giúp một tay.」
+T0066 | 「Oa! Một chị gái xinh đẹp!」
+T0067 | 「Ai đó!?」
+T0068 | 「Đừng cảnh giác thế chứ.」
+T0069 | 「Ít ra chị không phải kẻ thù. Cứ coi như người hợp tác đi.」
+T0070 | 「Chị là Fay.」
+T0071 | 「Xét về lập trường thì chị cũng không khác các em là mấy.」 / 「Chị còn là chủ của nhóc này nữa.」
+T0072 | 「Vậy khẩu Metalgun này là...!?」
+T0073 | 「Là quà của chị đấy.」
+T0074 | 「Thấy em có vẻ thích nó, chị mừng lắm.」 / 「Nó khá quý hiếm đấy. Giữ gìn cẩn thận nhé.」
+T0075 | 「...」
+T0076 | 「Sao lại đưa súng cho em?」
+T0077 | 「Vì em có tài năng... nói vậy không được sao?」 / 「Thật ra người dùng được Metalgun là cực kỳ hiếm đấy.」
+T0078 | 「Ai mà tin được chứ!! Billy có gì đặc biệt đâu!」 / 「Cậu ấy chỉ là cậu bé bình thường!」
+T0079 | 「Đúng vậy, nhưng chỉ lúc này thôi, em tin chị được không?」 / 「Em muốn cứu bạn mình, đúng không?」
+T0080 | 「Chị biết Sun Dance đang ở đâu sao!?」
+T0081 | 「Ừ. Cậu ấy ở trung tâm khu dân cư.」
+T0082 | 「Tạm thời vẫn an toàn. Có điều, xét như một con người thì...」
+T0083 | 「Hừ! Đi thôi, mọi người!」
+T0084 | 「Ấy ấy, định đi bộ từ đây tới tận đó à?」 / 「Xuyên qua vòng vây địch? Liều quá. Liều lĩnh khác dũng cảm đấy.」
+T0085 | 「Vậy chị bảo phải làm sao đây!」
+T0086 | 「Bình tĩnh. Chị đã chuẩn bị sẵn phương tiện rồi.」
+T0087 | 「Dùng chiếc Speeder Horse chị đi tới đây ấy.」 / 「Với nó thì có thể vượt qua địch.」
+T0088 | 「Vâââng~ Em hiểu rồi ạ~」
+T0089 | 「Kế hoạch của chị Fay không chê vào đâu được!」 / 「Việc lái xe cứ giao cho Doc này!」
+T0090 | 「Lái Speeder là sở trường của em đấy!」
+T0091 | 「Doc... Sao cậu quyết dễ dàng thế hả?」
+T0092 | 「Người bảo phải cẩn thận chẳng phải là cậu sao, Doc...」
+T0093 | 「Nói gì vậy hả!!」
+T0094 | 「Lời của người đẹp phải được ưu tiên hơn tất cả mọi thứ!」
+T0095 | 「Lý lẽ tiện lợi ghê!」
+T0096 | 「Đượcc, xuất phát thôi!!」
+T0097 | 「...」
+T0098 | 「Sun Dance, cậu không sao...!?」
+T0099 | 「Cơ thể này dùng khá là được đấy.」
+T0100 | 「B-bị Perla Negra nhập mất rồi!」
+T0101 | 「Khốn kiếp!」
+T0102 | 「Perla Negra trong người Sun Dance đang bỏ chạy!?」
+T0103 | 「Sun Dance, cậu ổn chứ?」
+T0104 | 「Ơ, Billy? Tôi, rốt cuộc, bị, làm sao?」
+T0105 | 「Cơ thể cậu bị Perla Negra chiếm mất đấy.」 / 「Giờ không sao rồi, đừng lo.」
+T0106 | 「Xin lỗi, Billy. Làm phiền, cậu rồi.」
+T0107 | 「Nói gì thế, mình là bạn mà.」
+T0108 | 「Mà hướng bên kia có gì vậy?」 / 「Perla Negra đã chạy trốn về phía đó...」
+T0109 | 「Bên kia, nối với, Gold Mountain.」 / 「Gold Mountain, mỏ, Gold Crystal.」 / 「Mọi người, bị bắt, đến đó.」
+T0110 | 「Có cả người bị bắt đến đó sao.」
+T0111 | 「Vậy thì nhiều khả năng đó là căn cứ của chúng.」 / 「Thử đến đó xem sao...」
+T0112 | 「Billy, đợi. Cái này, mang, theo.」
+T0113 | 「Cái gì đây?」
+T0114 | 「Huy hiệu Cảnh sát trưởng. Cài, trên ngực, tôi.」
+T0115 | 「Chắc chắn, có ích.」
+T0116 | 「Cảm ơn cậu.」
+T0117 | Nhận được Huy hiệu Cảnh sát trưởng 『Jack』.
+T0118 | 「A!!」
+T0119 | 「Kyaa!」
+T0120 | 「Chết tiệt, đến tận đây rồi mà!」
+T0121 | 「...」
+T0122 | 「Nào, mau lên, nhân lúc này!」
+T0123 | 「Nhanh lên, Mabel!」
+T0124 | 「Được rồi, lối ra kìa!」
+T0125 | 「Ấy, không cho đi tiếp nữa đâu.」
+T0126 | 「Ai đó!」
+T0127 | 「Lúc nãy nhờ ơn mày nhiều, nhóc.」
+T0128 | 「Giọng đó...! Là con Perla Negra lúc nãy!」
+T0129 | 「Đúng vậy. Không ngờ ta lại phải dùng đến cơ thể này đấy.」 / 「Thôi được, coi như khởi động, ta chơi với ngươi một chút.」
+T0130 | 「M-Metalgun đã hấp thụ Perla Negra!?」
+T0131 | 「Nhịp đập của Metalgun đang mạnh dần lên!」
+T0132 | 「Ơ, cái gì đây? Trông như một con chip...」
+T0133 | 「ĐÓ LÀ CHIP KỸ NĂNG CỦA GUN ARTS 『BEAR』.」 / 「TRONG ĐÓ LƯU BỘ ARTS CHUYÊN VỀ SỨC MẠNH.」
+T0134 | 「Hừm, chip kỹ năng à.」
+T0135 | 「Này Billy, lát nữa cho tớ xem chút nhé?」 / 「Tớ muốn tháo ra nghiên cứu tí ghê.」
+T0136 | 「Chuyện đó sao cũng được, mau về thị trấn thôi!」 / 「Ở thị trấn vẫn an toàn hơn đây mà.」
+T0137 | 「...」
+T0138 | 「Không, tớ định đến Gold Mountain, các cậu thấy sao?」 / 「Phải xem bên đó ra sao đã. Giờ mình có vũ khí rồi...」
+T0139 | 「Cậu nói gì vậy!? Liều lĩnh quá đấy!」
+T0140 | 「Đánh được Perla Negra một chút đâu có nghĩa là sau này cũng ổn!」
+T0141 | 「Vậy tức là có khả năng ổn, dù chỉ 『một chút』, đúng không?」 / 「Vậy thì tớ nghĩ cũng đáng để đặt cược vào đó.」
+T0142 | 「Nhưng mà...」
+T0143 | 「...Ừ nhỉ, nếu là cậu thì có khi làm được thật.」
+T0144 | 「Ngay vừa rồi cậu đã hạ được Perla Negra đấy thôi.」
+T0145 | 「Tin vào cái gọi là tài năng của cậu ta đi.」
+T0146 | 「Nhưng tất nhiên bọn tớ cũng đi theo. Có bảo không cũng mặc kệ.」 / 「Mabel cũng thế, phải không?」
+T0147 | 「Đương nhiên rồi!」
+T0148 | 「Chỗ nguy hiểm như thế sao để Billy đi một mình được chứ!」
+T0149 | 「Doc..., Mabel...」
+T0150 | Nhận được chip kỹ năng 『Bear』.
+T0151 | 「Suỵt, im lặng nào...」
+T0152 | 「Đúng như mình nghĩ.」
+T0153 | 「Chỉ là mỏ thường thôi mà canh gác quy mô quá lớn...」
+T0154 | 「Thế này thì khó mà xông thẳng vào...」
+T0155 | 「Này này, đừng có vừa vào đã dùng sức chứ.」
+T0156 | 「Đường hầm mỏ bên trong đều thông nhau cả.」 / 「Đằng kia có chỗ canh gác tương đối lỏng lẻo, bọn mình lẻn vào từ đó đi.」
+T0157 | 「Ui, con sông to quá đi.」
+T0158 | 「Dưới lòng đất có chỗ thế này...」
+T0159 | 「Thế này thì không đi tiếp được. Làm sao đây?」
+T0160 | 「Ở đây cũng chẳng được gì. Quay lại tìm lối rẽ đi...」
+# part 2 (scenes 14-25)
+T0161 | 「Hửm? Có nghe thấy... gì không?」
+T0162 | 「...Nghe cậu nói thì... tiếng máy móc? Hình như tiếng đục đẽo gì đó?」 / 「Vậy thì có khi nó thông với đường hầm nào đó.」
+T0163 | 「...Này Doc.」
+T0164 | 「Xuôi theo con sông này có tới được hầm chính không nhỉ?」
+T0165 | 「Ừm~, không rõ phương hướng chính xác nên khó nói lắm.」 / 「Nhưng xét theo cấu trúc tới giờ, tớ nghĩ khả năng cao là tới được.」
+T0166 | 「Mà xuôi kiểu gì đây? Tớ bơi dở lắm đấy.」
+T0167 | 「Này, lại đây xem. Có thuyền nè.」
+T0168 | 「Ồ, giải quyết vấn đề cái rụp luôn.」
+T0169 | 「Ừm~, trông như thuyền chở vật liệu.」
+T0170 | 「Loại này thì tớ lái được. Sao đây, Billy?」
+T0171 | 「Được, có vẻ chẳng còn đường nào khác, thử đặt cược vào nó vậy.」
+T0172 | 「Dòng sông chảy chậm dần rồi nhỉ.」
+T0173 | 「Cảnh vật cũng khang khác, có khi sắp tới nơi rồi.」 / 「Còn nghe cả tiếng như đang đào bới nữa.」 / 「Sắp phải tìm chỗ lên bờ...」
+T0174 | 『RẦM!』
+T0175 | 「Oa!」
+T0176 | 「Chuyện gì vậy!?」
+T0177 | 「K-không biết nữa! Tự dưng tăng tốc...」
+T0178 | 「Cái gì vậy!? Thuyền đang chạy ngược dòng!」
+T0179 | 「Ta đã chờ sẵn.」
+T0180 | 「A-ai đó!?」
+T0181 | 「Kẻ sắp biến mất khỏi dòng thời gian thì không cần biết tên ta.」
+T0182 | 「!!!」
+T0183 | 「Đứng lại! Định chạy trốn sao!」
+T0184 | 「Ê, này! Đừng có bỏ bọn này lại chứ!」
+T0185 | 「À mà này Billy, có cái huy hiệu rơi ở đây nè~」
+T0186 | Nhận được Huy hiệu Cảnh sát trưởng 『Zett』.
+T0187 | 「Này, sao tự dưng im ắng thế nhỉ?」
+T0188 | 「...Ừ. Xem ra để tên lúc nãy chạy thoát đúng là sai lầm...」
+T0189 | 「Giờ nói chuyện đó cũng vô ích thôi.」
+T0190 | 「Vấn đề là bọn chúng đã lặn đi đâu chứ?」
+T0191 | 「Có vẻ chúng quyết định bỏ nơi này rồi.」 / 「Chúng đang lũ lượt về nhà ga.」
+T0192 | 「A, chị Fay!!」
+T0193 | 「Nhà ga?」
+T0194 | 「Mỏ này có xây một nhà ga để chở quặng khai thác ra ngoài.」 / 「Các em từng nghe rồi chứ?」
+T0195 | 「Cái tên tuyến đường sắt xuyên lục địa 『Iron Train』.」
+T0196 | 「À, cái tuyến nối tới 『Cosmopolitan』...」
+T0197 | 「Đúng. Một đầu cuối của đoàn tàu đó chính là Gold Mountain này.」 / 「Máy móc cần thiết, quặng khai thác, cả những người bị bắt, chắc đều được chở đi từ đây.」
+T0198 | 「Vậy 『Cosmopolitan』 là đại bản doanh của Perla Negra sao!?」
+T0199 | 「Khả năng đó rất cao.」
+T0200 | 「Rồi, em định làm gì đây, Billy?」
+T0201 | 「Tất nhiên là đi rồi!」 / 「Em sẽ chặn đoàn tàu lại! Nhất định không để chúng thoát!」
+T0202 | 「Ui trời! Địch gì mà đông khủng khiếp vậy!」 / 「Thế này thì bước ra một bước thôi cũng là tự sát còn gì!?」
+T0203 | 「Giờ đâu phải lúc nói chuyện đó!」 / 「Tớ sẽ xông vào gây náo loạn. Các cậu nhân lúc đó lẻn vào.」
+T0204 | 「Vậy, đi đây... 3... 2...」
+T0205 | 「Đứng lại! Cấm tiến thêm bước nào nữa.」 / 「Phía trước không phải lãnh địa của các ngươi!」 / 「Mau rời khỏi đây!」
+T0206 | 「Ai đó!」
+T0207 | 「Ta là người phụ trách nơi này. Tên ta là Sam Oldman.」
+T0208 | 「Sam Oldman á!?」
+T0209 | 「Là đội trưởng đội tinh nhuệ của Perla Negra còn gì!」 / 「Sao nhân vật cỡ đó lại ở đây!」
+T0210 | 「Nếu quay về ngay bây giờ, ta sẽ coi đây là trò nghịch dại của trẻ con mà bỏ qua lần này.」
+T0211 | 「Nhưng nếu các ngươi vẫn cố tiến lên thì hãy biết rằng ta sẽ không nương tay.」
+T0212 | 「Không, chẳng cần phải bi quan.」
+T0213 | 「Các ngươi chỉ được bảo đảm một cuộc sống như Perla Negra mà thôi.」
+T0214 | 「Tôi không sợ lời đe dọa đó đâu!」
+T0215 | 「Dù ông có nói gì đi nữa, tôi nhất định sẽ chặn các người lại!」
+T0216 | 「...」
+T0217 | 「Gầm hay lắm!」
+T0218 | 「Lời đó có thật hay không, hãy dùng chính thân mình chứng minh đi!!」
+T0219 | 「Sức mạnh đang tràn vào từ Metalgun! Cảm giác rợn cả người!」
+T0220 | 「Tay nghề khá lắm.」
+T0221 | 「Với tay nghề đó, sau này...」
+T0222 | 「Tiếp theo là ông! Xuống đây!!」
+T0223 | 「Hừ..., can đảm đấy.」
+T0224 | 「Nhưng cho phép ta tránh cuộc đối đầu này. Ta xin cáo từ.」
+T0225 | 「Chết tiệt, bỏ chạy là hèn! Chưa phân thắng bại đâu!」
+T0226 | 「Billy, nhanh lên!」
+T0227 | 「Đoàn tàu vẫn chưa đi xa đâu!」
+T0228 | 「Chị Fay!!」
+T0229 | 「Chuyện để sau!」
+T0230 | 「Doc, từ đó ra ngoài được đấy. Kiếm phương tiện đi!」
+T0231 | 「Rõ! Cứ giao cho em!」
+T0232 | 「Chờ ngoài đó nhé. Tớ đi lấy Speeder!」
+T0233 | 「Nhanh lên nhé.」
+T0234 | 「Billy, cái này dành cho em.」
+T0235 | 「Đây là?」
+T0236 | 「Chip kỹ năng 『Eagle』. Bộ Arts chuyên tấn công trên không.」 / 「Hình như gã lúc nãy đánh rơi.」 / 「Có vẻ địch phân phát vật phẩm cho cấp chỉ huy.」
+T0237 | 「Chuyện đó tính sau, mau lên nào.」
+T0238 | 「Vâng!」
+T0239 | 「...」
+T0240 | 「Babag, có đó không?」
+T0241 | 「Vâng, thuộc hạ ĐÂY.」
+T0242 | 「Cậu ta... không, nhờ ngươi lo cho bọn họ.」
+T0243 | 「Xin cứ GIAO cho tôi.」
+T0244 | 「Lúc nào cũng xin lỗi ngươi. Toàn bắt ngươi gánh vai thiệt thòi...」
+T0245 | 「Không, đó LÀ nhiệm vụ của tôi MÀ.」
+T0246 | Nhận được chip kỹ năng 『Eagle』.
+T0247 | 「Sắp đuổi kịp rồi, nhưng bám theo thêm nữa thì khó đấy.」 / 「Sao đây, Billy?」
+T0248 | 「Doc, có chỗ nào nhảy sang được không!?」
+T0249 | 「Hừm, để xem nào...」
+T0250 | 「A, Billy, đằng kia! Cánh cửa đó nhảy sang được!」
+T0251 | 「Được! Lại gần thêm chút nữa!」
+T0252 | 「Thêm chút nữa, chỉ một chút nữa thôi!」
+T0253 | 「Trời ơi, hết cỡ rồi! Thêm nữa là quá nhiệt mất!」
+T0254 | 「Chút nữa thôi...」
+T0255 | 「Được rồi!!」
+T0256 | 「Bên này chịu thua rồi~, còn lại giao cho cậu đó, Billy~」
+T0257 | 「Dừng ở đâu đó rồi đợi bọn tớ nha~」
+T0258 | 「Hộc, hộc, hộc...」
+T0259 | 「Chào nhóc. Vội vàng thế định đi đâu vậy?」
+T0260 | 「Ai đó!」
+T0261 | 「Ối chà, sợ quá sợ quá.」
+T0262 | 「Đừng có hùng hổ thế chứ, đâu phải con nít.」
+T0263 | 「Đại gia đây chỉ định chơi với mày một chút thôi mà?」
+T0264 | 「Rốt cuộc ngươi là ai!」
+T0265 | 「Tao chưa giới thiệu à?」
+T0266 | 「Tên đại gia là Myna Myna. Cứ coi như anh trai trông trẻ đi.」
+T0267 | 「Myna Myna...」
+T0268 | 「!!!」
+T0269 | 「Killer Edge!」
+T0270 | 「Tên sát nhân tồi tệ nhất lịch sử! Kẻ bị treo thưởng cao nhất!!」
+T0271 | 「Ồ, biết cả cái tên đó cơ à... Không phải nhóc tầm thường rồi.」
+T0272 | 「Đúng vậy, kẻ mang danh "Killer Edge", cái tên vang khắp thế gian, đồng nghĩa với kinh hoàng... chính là đại gia đây.」 / 「Mà nói thật, tao cũng là đồng bọn của bé Perla đấy.」
+T0273 | 「Thôi, khoe khoang thế đủ rồi, đến giờ phạt rồi nhé.」 / 「Con nít nghịch quá trớn thì phải dạy dỗ cho thật đau, nhỉ?」
+T0274 | 「Chết tiệt, không để ngươi thoát!」
+T0275 | 「Đây là... phòng riêng của Myna sao?」
+T0276 | 「Dùng phanh phụ ở đây có khi dừng được đoàn tàu.」 / 「Được!」
+T0277 | 『KÉÉÉÉÉÉÉT』
+T0278 | 「...Hình như thành công rồi.」
+T0279 |                   . /                   .
+T0280 | 「Billy!!」
+T0281 | 「Mabel! Doc!」
+T0282 | 「Thằng quỷ này, làm tốt lắm~」
+T0283 | 「Ừ, cũng tạm. Nhưng để Perla Negra chạy mất rồi...」
+T0284 | 「Lo gì~, tàu đã dừng rồi mà.」
+T0285 | 「Giữa sa mạc thế này, chúng hết đường chạy!」
+T0286 | 「Ồ? Cái này là...」
+T0287 | 「Billy, lại có chip rơi nè. Không phải loại mới à?」
+T0288 | 「Cái gì đây nhỉ...」
+T0289 | 「CHIP ĐÓ LÀ 『SERPENT』. GỒM CÁC ĐÒN TẤN CÔNG SÁT ĐẤT.」
+T0290 | 「.... Tự dưng lên tiếng, con này.」
+T0291 | 『Xình xịch... xình xịch...』
+T0292 | 「Á! G-gì vậy? Toa tàu chạy rồi kìa!」
+T0293 | 「Khốn kiếp, lũ Perla Negra chết tiệt!」 / 「Chúng tách toa có phanh ra rồi!」 / 「Thế này thì tàu sẽ lao thẳng tới Cosmopolitan mất!」
+T0294 | 「Làm sao đây!? Thế này thì bị địch bắt mất!」
+T0295 | 「Đến nước này chỉ còn cách phá bộ phận động lực!」 / 「Đi thôi!」
+T0296 | Nhận được chip kỹ năng 『Serpent』.
+T0297 | 「Ơi, đợi đã~」
+T0298 | 「Đừng bỏ tôi lại mà~」
+T0299 | 「Myna Myna!!」
+T0300 | 「Hộc, hộc, cậu đã cứu tôi phải không?」 / 「Nhưng bỏ tôi lại thì ác quá đi.」
+T0301 | 「Tỉnh dậy mà tôi ngớ cả người.」
+T0302 | 「???」
+T0303 | 「Perla Negra thoát ra, hắn trở lại thành người rồi sao?」
+T0304 | 「À, bắt tay tôi một cái được không?」
+T0305 | 「Một lần nữa tôi xin cảm ơn, cảm ơn cậu...」
+T0306 | 「Đùa đấyyy!!」
+T0307 | 「Kyaa!!」
+T0308 | 「Mabel!!」
+T0309 | 「Hya ha ha, còn non lắm nhóc ạ.」
+T0310 | 「Bị lừa dễ dàng bởi màn kịch rẻ tiền thế này cơ đấy~」
+T0311 | 「Myna Myna! Thằng khốn!!」
+T0312 | 「Ối chà, đứng yên đấy.」
+T0313 | 「Thử nhúc nhích một bước xem nào.」
+T0314 | 「Khuôn mặt xinh xắn của cô bé sẽ có vết sẹo xấu xí đấy.」
+T0315 | 「Rồi, trước tiên vứt khẩu súng phiền phức đó đi nào.」
+T0316 | 「Khẩu súng này không làm người bị thương được!」
+T0317 | 「Ai mà tin chuyện đó chứ.」
+T0318 | 「Nào, vứt mau!」
+T0319 | 「Chết tiệt!」
+T0320 | 「Rồi, giờ thì chết nhanh gọn giùm cái nhé.」 / 「Muốn oán thì oán bản thân ngu ngốc của mày ấy!」
+T0321 | 「DỪNG Ở ĐÓ.」
+T0322 | 「Cái gìiii!」
+T0323 | 「NHẬN LẤY!」
+T0324 | 「Hiiiii... ặc!」
+T0325 | 「...Hự!」
+T0326 | 「Tên đó... đã để lại món quà kỷ niệm thật rồi.」
+T0327 | 「Ngươi là Perla Negra lúc đó!」
+T0328 | 「Sao lại cứu bọn ta!?」
+T0329 | 「Đừng bận tâm, cậu bé. Đây là nhiệm vụ của ta.」
+T0330 | 「Đội trưởng, thuộc hạ không giữ trọn mệnh lệnh... xin, thứ, lỗi...」
+T0331 | 「A a a...」
+# part 3 (scenes 26-36)
+T0332 | 「Khà khà khà... Vậy mà cũng mò được tới tận đây cơ à.」 / 「Đại gia đây phải nhìn mày bằng con mắt khác đấy.」 / 「Tưởng là nhóc con chỉ được cái liều, ai ngờ cũng ra gì phết.」
+T0333 | 「Perla Negra! Ngươi ở đâu! Ra mặt đi!」
+T0334 | 「Đừng có nóng vội thế chứ.」
+T0335 | 「Cái tính nóng nảy đó đúng là con nít mà.」 / 「Nể tay nghề và lá gan của mày, tao sẽ đấu với mày đàng hoàng.」
+T0336 | 「Tới đây, nhóc!」
+T0337 | 「Lại có sức mạnh tràn vào!」
+T0338 | 「...Metalgun đang run lên. N-nó đang vui sướng sao!?」
+T0339 | 『KÉÉÉÉT... RẦM』
+T0340 | 「Tàu... dừng rồi à?」
+T0341 | 「Yahoo! Thành công mỹ mãn! Billy!」
+T0342 | 「...Ừ.」
+T0343 | 「Billy?」
+T0344 | 「Ư~, người vẫn còn lắc lư đây.」
+T0345 | 「À phải, như lệ thường, tớ nhặt chip giùm rồi nè.」 / 「Lần này là gì đây?」
+T0346 | 「Tuyệt quá! Là chip kỹ năng 『Dragon』.」 / 「Chủ yếu là đòn nặng, nên dùng phải hết sức cẩn thận nhé.」
+T0347 | 「Chị Fay!」
+T0348 | 「Chào cả nhà. Vất vả rồi.」
+T0349 | 「...Xin lỗi các em nhé. Lần này để các em gánh hết.」
+T0350 | 「Không sao không sao, OK hết ạ!」
+T0351 | 「Doc có làm được gì đâu mà nói!」
+T0352 | 「Vừa xong đã nhờ thì ngại, nhưng giúp chị chiến dịch tiếp theo nhé.」
+T0353 | 「Để đánh Cosmopolitan, chị muốn nhờ các em đánh du kích từ phía tây.」 / 「Nhân lúc hỗn loạn, bọn chị sẽ đột nhập vào trung tâm.」 / 「Thế nào? Các em giúp chị được không?」
+T0354 | 「......」
+T0355 | 「Billy?」
+T0356 | 「Chị Fay, em đến được đây có thật là nhờ sức mình không?」
+T0357 | 「Nói sao nhỉ, em có cảm giác như đang bị khẩu súng lôi đi.」 / 「Nói thật, em sợ lắm...」
+T0358 | 「Sợ phải tiếp tục chiến đấu, sợ phải tiến xa hơn.」
+T0359 | 「...Cái em lúc lao vào Sam đi đâu mất rồi?」
+T0360 | 「Đừng lo. Sức mạnh của em là thật. Chẳng thua gì Hawk đâu.」
+T0361 | 「Hawk?」
+T0362 | 「Tự tin lên. Nào, đứng thẳng lên!」 / 「Có nhiều người đặt kỳ vọng vào em. Đừng nhụt chí, cố lên!」
+T0363 | 「Đừng có nói vô trách nhiệm thế!」
+T0364 | 「Mabel...」
+T0365 | 「Lúc nào cũng toàn lời đường mật!」 / 「Rồi lại định đẩy Billy vào nguy hiểm nữa chứ gì!」 / 「Đủ rồi đấy!!」
+T0366 | 「Mabel à, nhưng mà...」
+T0367 | 「Chuyện đó các người tự làm đi. Các người mạnh lắm mà!」 / 「Đâu cần phải lôi bọn tôi vào chứ!」 / 「Chán lắm rồi! Cuộc chiến này!」
+T0368 | 「...」
+T0369 | 「Chị Fay, em sẽ làm.」
+T0370 | 「Billy!?」
+T0371 | 「Nhờ lời Mabel mà tớ hết lấn cấn.」
+T0372 | 「Thật ra tớ vẫn còn hơi sợ một chút.」 / 「Tớ cứ nghĩ mãi 『Sao lại có thứ sức mạnh ghê rợn thế này』,」 / 『Sức mạnh chỉ để diệt Perla Negra thì đâu tạo ra được gì khác』... tớ cứ nghĩ vậy đấy.」
+T0373 | 「Nhưng việc tớ đang nắm giữ sức mạnh đó, vào đúng lúc này, chắc hẳn phải có ý nghĩa.」
+T0374 | 「Dù vậy, đâu cần Billy gánh hết mọi thứ!」
+T0375 | 「Ừ, nên là chuyện to tát như cứu giúp mọi người, tớ giao cho chị Fay và mọi người.」
+T0376 | 「Tớ chỉ phụ giúp thôi.」
+T0377 | 「Tớ đã quyết định sẽ làm những gì mình làm được, bằng toàn bộ sức lực lúc đó.」
+T0378 | 「Có vẻ cậu đã quyết rồi.」
+T0379 | 「!!」
+T0380 | 「Hawk...」
+T0381 | 「Này, đến nước này rồi, chỉ bọn mình chắc cũng xoay xở được chứ?」 / 「Đâu cần cố lôi Billy và các bạn vào...」
+T0382 | 「Cậu ta tự quyết định chiến đấu.」
+T0383 | 「Không ai có quyền xen vào quyết tâm đó.」
+T0384 | 「Đi thôi... Để kết thúc tất cả!」
+T0385 | 「Vâng!」
+T0386 | Nhận được chip kỹ năng 『Dragon』.
+T0387 | 「Billy, còn lại giao cho anh Hawk, bọn mình thoát ra thôi.」 / 「Dù gì thì ở lại nữa nguy lắm đấy!」
+T0388 | 「...Doc. Dẫn Mabel đi trước đi.」
+T0389 | 「Tớ sẽ ở lại chứng kiến đến cùng.」
+T0390 | 「Cậu nói gì vậy! Đừng có nói ngớ ngẩn!」 / 「Với sức của Billy thì chỉ vướng chân người ta thôi!」
+T0391 | 「Từ giờ trở đi, có khi chỉ là tự thỏa mãn bản thân,」 / 「nhưng tớ nghĩ, với tớ bây giờ, chắc đó là việc cần làm.」
+T0392 | 「Vì đây là điều tớ tự quyết mà.」
+T0393 | 「...」
+T0394 | 「Hiểu rồi. Không cản nữa. Cứ lao đi cho đến khi thỏa mãn.」
+T0395 | 「Doc!?」
+T0396 | 「Đã tự quyết thì phải làm đến cùng, thế mới là đàn ông.」 / 「Nhưng có chuyện gì thì nhất định phải gọi đấy. Tớ sẽ chạy tới ngay!」
+T0397 | 「...」
+T0398 | 「Không trở về an toàn thì cả đời tớ không tha đâu!」
+T0399 | 「Ừ.」
+T0400 | 「Tớ đi đây.」
+T0401 | 「Hửm? Có ai ở đó sao!?」
+T0402 | 「Hừm, thấy ồn ào tới xem thử, hóa ra có chuột nhắt lạc vào...」
+T0403 | 「Ng-ngươi là...!!」
+T0404 | 「Dalton Nandoval!」
+T0405 | 「Ồ, có vẻ ngươi biết ta.」
+T0406 | 「Người anh hùng của nhân dân, dù thành Perla Negra vẫn là vị tướng mạnh nhất! Ở Alamo này ai mà không biết danh tướng quân Dalton!」
+T0407 | 「Hừm hừm, cơ thể này nổi tiếng đến vậy cơ à.」
+T0408 | 「Cosmopolitan này là trung tâm của Perla Negra chúng ta.」 / 「Lẽ ra ngươi phải đoán được là ta có mặt ở đây...」 / 「Biết rõ kẻ địch mạnh, vậy mà vẫn lao vào đất chết.」
+T0409 | 「Giống loài gọi là con người quả thật thú vị.」 / 「Ngươi cũng vậy, Oldman cũng vậy...」
+T0410 | 「Oldman? Ý ngươi là Sam Oldman!?」 / 「Hắn chẳng phải Perla Negra sao...」
+T0411 | 「...Có vẻ ngươi không biết. Hắn là con người đấy.」 / 「Dù hắn tưởng mình giấu kỹ lắm.」
+T0412 | 「Là người mà thành kẻ thù của người. Tức là kẻ phản bội loài người.」
+T0413 | 「Sao lại làm chuyện đó...」
+T0414 | 「Chuyện đó thì chẳng quan trọng gì.」 / 「Nào, bắt đầu diệt sâu bọ thôi.」
+T0415 | 「Perla Negra!」
+T0416 | 「Lần này định đi đâu nữa đây!?」
+T0417 | 「Chết tiệt, không để ngươi thoát!」
+T0418 | 「Ơ?」
+T0419 | 「Có gì rơi kìa... ...Huy hiệu Cảnh sát trưởng?」
+T0420 | 「Sĩ quan Perla Negra đứa nào cũng có món này sao...」
+T0421 | Nhận được Huy hiệu Cảnh sát trưởng 『Wyatt』.
+T0422 | 「Ta đợi ngươi lâu lắm rồi, nhóc.」
+T0423 | 「Lúc nãy ta sơ suất, giờ tái đấu nào.」 / 「Bằng cỗ "Shooter" này!」
+T0424 | 「Đống sắt vụn đó thì làm được gì!」
+T0425 | 「Hoàn toàn không ăn thua!?」
+T0426 | 「Ha ha ha! Đòn yếu ớt thế mà đòi phá được thân thể này sao!」
+T0427 | 「Chỉ nhờ ơn máy móc mà dám nói giọng to tát nhỉ.」
+T0428 | 「Sức mạnh của ngươi, ta xin lấy.」
+T0429 | 「L-lá chắn của taaa!!!」
+T0430 | 「Grừ, phải xử con chuột kia trước!」
+T0431 | 「Không cho ngươi đi đâu! Đây là nơi ngươi chết!」
+T0432 | 「Hự, sức mạnh khủng khiếp đang tràn vào!」 / 「Lượng sức mạnh khác xa những Perla Negra trước đây!」
+T0433 | 「Hấp thụ sức mạnh thế này, rồi Metalgun sẽ ra sao đây...」
+T0434 | 「Hửm, Huy hiệu Cảnh sát trưởng... Dalton có tới hai cái sao.」
+T0435 | Nhận được Huy hiệu Cảnh sát trưởng 『Double』.
+T0436 | 「Thắng rồi...」
+T0437 | 「Thế là kết thúc...」
+T0438 | 「Chưa đâu.」
+T0439 | 「!!!」
+T0440 | 「Anh Hawk! Chưa là sao...」
+T0441 | 「Bọn em đã hạ được Dalton rồi mà! Còn lại toàn lính quèn...」
+T0442 | 『THỊCH...』
+T0443 | 「M-Metalgun đang run lên...」
+T0444 | 「Có lẽ Metalgun đang cảm nhận được làn sóng của Perla Negra... một thứ còn lớn hơn rất nhiều.」
+T0445 | 「Vẫn còn một kẻ...」
+T0446 | 「Nó cảm nhận được kẻ có thể gọi là trùm của Perla Negra...」
+T0447 | 「Không thể nào...」
+T0448 | 「Billy!」
+T0449 | 「May quá..., cậu bình an rồi. Tớ lo quá trời.」 / 「Kết thúc rồi phải không? Mình về nhà được rồi chứ?」
+T0450 | 「...」
+T0451 | 「Này! Billy, nói gì đi chứ!」
+T0452 | 「Cậu sao vậy? Có chuyện gì rồi à!?」
+T0453 | 「Chuẩn bị giúp tôi hai chiếc Speeder Horse.」 / 「Và nhờ cô lái.」
+T0454 | 「Chị hiểu rồi... Doc, giúp chị lần nữa nhé.」
+T0455 | 「Vâng! Cứ giao cho em!」
+T0456 | 「Ơ, là sao? Chẳng phải kết thúc rồi sao!?」
+T0457 | 「Billy, cậu nắm rõ cách làm chứ.」
+T0458 | 「Cảm nhận làn sóng từ Metalgun. Chỉ dựa vào cảm giác của bản thân.」 / 「Rồi đi về phía có sức mạnh lớn. Kẻ địch sẽ ở đó.」
+T0459 | 「Em hiểu rồi.」
+T0460 | 「Này, chẳng phải mọi trận chiến đã kết thúc rồi sao?」
+T0461 | 「Mabel... Xin lỗi. Tớ phải đi rồi.」 / 「Nhưng chắc chắn đây là lần cuối.」
+T0462 | 「Xong việc rồi cả bọn cùng về nhé.」
+T0463 | 「...」
+T0464 | 「Đây là điều Billy tự quyết định, đúng không?」
+T0465 | 「Tớ không được cản, đúng không?」
+T0466 | 「...Tớ sẽ đợi.」
+T0467 | 「Tớ sẽ... đợi đến khi mọi chuyện xong.」
+T0468 | 「Là tớ đây đang đợi đấy nhé. Làm xong nhanh rồi về đi!」
+T0469 | 「Mabel...」
+T0470 | 「Đừng... liều mạng nhé.」
+T0471 | 「Rồi rồi, hai người kia.」
+T0472 | 「Đừng có tạo bầu không khí ngọt ngào ở chỗ này.」
+T0473 | 「Không còn thời gian đâu, đi mau nào!」
+# part 4 (scenes 37-45: finale, ending, credits, tutorial)
+T0474 | 「Gần lắm rồi...」
+T0475 | 「!!!」
+T0476 | 「Là hắn!」
+T0477 | 「...」
+T0478 | 「Có vẻ hắn vẫn chưa phát hiện ra.」
+T0479 | 「Một phát... hạ gục!」
+T0480 | 「Khoan đã! Đừng hấp tấp!」
+T0481 | 「Muộn mất rồi sao...」
+T0482 | 「Anh Hawk? Rốt cuộc chuyện gì...」
+T0483 | 「Nguy hiểm!!」
+T0484 | 「!!!」
+T0485 | 「Gư aaaaaa」
+T0486 | 「Anh Hawk!」
+T0487 | 「Đòn của Metalgun không có tác dụng với hắn!」
+T0488 | 「Nhưng chắc chắn phải có cách! Nhìn cho kỹ vào! Billy!」
+T0489 | 「S-sao lại thế... Metalgun không có tác dụng thì...」
+T0490 | 「Đừng lơ là, Billy! Đòn tiếp theo tới kìa!」
+T0491 | 「Chết tiệt, phải làm sao đây.」
+T0492 | 「Mabel, Doc..., bố, mẹ...」
+T0493 | 「Huy hiệu! Huy hiệu bố để lại đang phát sáng!」 / 「Sức mạnh huy hiệu đang tràn vào!」
+T0494 | 「Không phải sức mạnh Perla Negra. Là sức mạnh từ ước nguyện con người.」
+T0495 | 「Bố, mọi người...」
+T0496 | 「Mabel...」
+T0497 | 「Tới đây!」
+T0498 | 「!!!」
+T0499 | 「Được rồi!」
+T0500 | 「Đừng lơ là! Billy!」
+T0501 | 「Anh Hawk!! Anh không sao chứ!」
+T0502 | 「Đừng bận tâm đến tôi! Nhìn kìa, hắn sắp lộ nguyên hình!」
+T0503 | 「!!!」
+T0504 | 「Từ giờ mới là trận chiến thật sự... Billy!」
+T0505 | 「...」
+T0506 | 「...Thắng rồi, sao?」
+T0507 | 「Mình đã hạ được rồi, con Perla Negra cuối cùng.」
+T0508 | 「À, phải rồi, anh Hawk!? Anh có sao...」
+T0509 | 「Anh ổn chứ?」
+T0510 | 「Ừ.」
+T0511 | 「...Vất vả rồi.」
+T0512 | 「Có gì to tát đâu.」
+T0513 | 「Thật là.」
+T0514 | 「Những lúc thế này thành thật một chút cũng được mà.」
+T0515 | 「...Xin lỗi.」
+T0516 | 「Thôi được rồi. ...Em quen rồi.」
+T0517 | 「Billy cũng ổn chứ? Không bị thương chứ?」
+T0518 | 「Vâng. Có vẻ em vẫn ổn.」
+T0519 | 「Mà... có khi nào em đang làm kỳ đà cản mũi không ạ?」
+T0520 | 「Phì. Nói gì vậy, đừng trêu chị chứ.」
+T0521 | 「Chuyện đó để sau, thật sự vất vả cho em rồi.」 / 「Nhờ có em mà mọi người được cứu.」
+T0522 | 「Chị rất biết ơn. Cảm ơn em.」
+T0523 | 「Đâu có...」
+T0524 | 「Em mới là người được giúp đỡ suốt.」 / 「Chính nhờ có anh Hawk mà em mới kết thúc được mọi chuyện.」
+T0525 | 「Đúng là Hawk có giúp, nhưng chỉ vậy thì không đủ đâu.」 / 「Quả nhiên vẫn cần đến sức mạnh của Billy.」
+T0526 | 「Nào, cứ ưỡn ngực tự hào lên. Kiểu 『Anh hùng thế giới đây rồi』 ấy.」
+T0527 | 「Riêng cái đó thì tha cho em. Không hợp với em đâu ạ.」
+T0528 | 「Ngại kìa. Trời ạ, dễ thương ghê cơ~」
+T0529 | 「À, chị biết ơn là thật lòng đấy.」 / 「Cảm ơn em thật nhiều vì đã bảo vệ Hawk.」
+T0530 | 「Người đó bình thường lúc nào cũng tỏ ra lạnh lùng, nhưng tới lúc quan trọng là liều mạng lắm.」 / 「Luôn tự mình lao vào nguy hiểm.」
+T0531 | 「Vậy mà sau đó lại trăn trở. Rốt cuộc điều gì mới là đúng...」 / 「Giống hệt em nhỉ...」
+T0532 | 「Phải chăng là do huyết thống?」
+T0533 | 「Dạ?」
+T0534 | 「Không, không có gì đâu.」
+T0535 | 「Vậy bọn chị xin phép đi trước nhé.」
+T0536 | 「Ơ, đâu cần vội thế ạ. Giờ đâu còn lo bị tấn công nữa...」 / 「Cùng về thị trấn đi ạ! Em cũng muốn mời anh chị ghé nhà.」
+T0537 | 「Ừm, em nói vậy chị vui lắm, và lời mời cũng hấp dẫn thật đấy, nhưng mà...」
+T0538 | 「...Đi thôi.」
+T0539 | 「Vâng, vâng.」
+T0540 | 「Đấy, em thấy rồi đó.」
+T0541 | 「Vậy hẹn gặp lại nhé.」
+T0542 | 「À, vâng. Mình... sẽ gặp lại chứ ạ?」
+T0543 | 「Ừ, ở đâu đó nhé.」
+T0544 |                   . /                   .
+T0545 | 「...」
+T0546 | 「......Haizz.」
+T0547 | 「Sao tự dưng thấy hụt hẫng ghê.」
+T0548 | 「Mọi người có lo không nhỉ? Mong là họ không bị liên lụy.」 / 「Muốn gặp họ quá...」
+T0549 | 「Billyyy!」
+T0550 | 「Mabel!」
+T0551 | 「Hộc hộc hộc...」
+T0552 | 「Billy, cậu không sao chứ? Có bị thương chỗ nào không!?」
+T0553 | 「Mabel, bình tĩnh đã!」
+T0554 | 「Không sao, không sao mà! Nhé?」
+T0555 | 「Trời ạ, đã ổn thì sao không về ngay hả!」 / 「Cậu về muộn quá nên tớ chỉ hơi lo một chút thôi.」
+T0556 | 「Lúc nãy còn suýt khóc đến nơi, giờ nói hay ghê.」
+T0557 | 「Này Doc!! Không cần nói mấy chuyện thừa!」
+T0558 | 「À, ừm, thì là..., tớ chỉ lo một tí xíu thôi đấy.」
+T0559 | 「Ơ, à, ừ. ...Cảm ơn cậu.」
+T0560 | 「Mà này, chị Fay đâu rồi?」
+T0561 | 「Đi mất rồi. Tớ có giữ lại rồi mà.」
+T0562 | 「Cái gìii!?」
+T0563 | 「Khốn thật, tớ đã định nói lời cảm ơn thật ngầu, rồi bàn chuyện tương lai của hai đứa, đủ thứ kế hoạch thế màaa」
+T0564 | 「Này này...」
+T0565 | 「Dưới bầu trời xanh ngắt, chiếc Speeder chở hai người lao đi...」 / 「Ư~, đúng nó rồi! Phê quá đi!」
+T0566 | 「......」
+T0567 | 「Tớ nghĩ Doc có cố mấy cũng không thắng nổi anh Hawk đâu.」
+T0568 | 「Tớ cũng đồng ý.」
+T0569 | 「...」
+T0570 | 「......Khúc khích.」
+T0571 | 「....Khúc khích khúc khích.」
+T0572 | 「Phì, phì phì, a ha ha ha ha.」
+T0573 | 「Oa, rốt cuộc là cái gì hả.」
+T0574 | 「Xin lỗi xin lỗi, không có gì đâu.」
+T0575 | 「Này Billy?」
+T0576 | 「Thật sự, thật sự là mọi chuyện đã kết thúc rồi, đúng không?」
+T0577 | 「Sáng mai, cậu sẽ không đột nhiên nói 『Tớ phải đi rồi』 rồi biến mất, đúng không?」
+T0578 | 「Mình sẽ được về nhà, nấu cơm như bình thường, đúng không?」
+T0579 | 「...」
+T0580 | 「...Nói thật, tớ vẫn chưa biết nữa.」
+T0581 | 「Billy?」
+T0582 | 「À, nhịp đập của Metalgun đã lắng xuống rồi.」 / 「Kẻ cầm đầu đã bị hạ, mối đe dọa Perla Negra sẽ dần biến mất.」
+T0583 | 「Nhưng tớ có cảm giác đó cũng chỉ là khởi đầu của điều gì đó.」 / 「Cứ như thế, có gì đó kết thúc thì đồng thời lại bắt đầu, và cứ tiếp diễn mãi mãi.」
+T0584 | 「Billy... cậu thay đổi một chút rồi nhỉ.」
+T0585 | 「Ơ, vậy à? Tớ vẫn như mọi khi mà.」 / 「...」
+T0586 | 「...Nhưng có lẽ đúng là vậy thật.」 / 「Chắc chắn, có điều gì đó đã thay đổi.」
+T0587 | 「Không chỉ mình tớ, mà 『điều gì đó』 của tất cả mọi thứ...」
+T0588 | METALGUN SLINGER /  /    Đội ngũ sản xuất
+T0589 | Nhà sản xuất /  /   Tetsuya Akimoto
+T0590 | Minh họa nhân vật /  /    Hitoshi Ariga
+T0591 | Đạo diễn /  /   Tomohide Kamei
+T0592 | Quản lý sản phẩm /  /    Akira Takada
+T0593 | Lên kế hoạch /  /   Yasuhiro Kondo
+T0594 | Lập trình /  /   Koji Kumada /   Mineyuki Sakurai
+T0595 | Đồ họa /  /   Mayumi Otsuka /   Akihisa Watanabe /   Yuji Sato /   Madoka Iwahara
+T0596 | Sáng tác âm thanh /  /    Izuho Numata
+T0597 | Hiệu ứng âm thanh /  /    Noboru Takahashi
+T0598 | Nhà sản xuất quảng bá /  /    Masahiro Hirasawa /    Masamichi Kaneko
+T0599 | Nhân viên quảng bá /  /   Miyuki Kawakami
+T0600 |      Nhạc mở đầu /   "Metalgun Slinger" /  / Lời:      Yuki Terakado / Nhạc&phối: Mitsuru Kemmochi / Trình bày: Billy's Angel /           Tamaki Nakanishi /           Megumi Nasu /           Asuka Aizawa
+T0601 |      Nhạc kết thúc / "RADIANT ~Billy's Theme~" /  / Lời:      Yuki Terakado / Nhạc&phối: Mitsuru Kemmochi / Trình bày: Billy's Angel /           Tamaki Nakanishi /           Megumi Nasu /           Asuka Aizawa
+T0602 | Nhà sản xuất âm nhạc /   (Ca khúc chủ đề) /  /    Masamichi Kaneko /    Makoto Morimoto
+T0603 | Đạo diễn âm nhạc /   (Ca khúc chủ đề) /  /    Mitsuru Kemmochi
+T0604 | Đạo diễn sản xuất /   (Ca khúc chủ đề) /  /    Yasushi Takahashi
+T0605 | Kỹ sư âm thanh /   (Ca khúc chủ đề) /  / Yasuo Higashidate /   Toru Oka
+T0606 |   Phòng thu /   (Ca khúc chủ đề) /  / STUDIO ATOMS
+T0607 |   Sản xuất âm nhạc /   (Ca khúc chủ đề) /  /    T.F.C / ARC PRODUCTION
+T0608 |        Hợp tác /  /  Fuji Pacific Music Publishing /  Central Music /  / Kadokawa Shoten - Dragon Junior
+T0609 | SPECIAL THANKS /  /      Yukiya Shoji
+T0610 |      Phát triển /  / Open Sesame Co., Ltd.
+T0611 |   Sản xuất /  / Mediat
+T0612 |     Phát hành /  / AtMark Inc.
+T0613 | 「Ngay cả lúc này mà vẫn hút sức mạnh sao? Metalgun!!」 / 「Khốn kiếp, rốt cuộc mày là cái gì vậy hả!?」
+T0614 | Nhấn nút BẮN để bắn Metalgun! /  / Hạ địch sẽ xuất hiện Perla Negra. / Thu lấy chúng để nạp lại GF.
+T0615 | Có địch đánh rơi vật phẩm hồi phục. /  / Vật phẩm sẽ biến mất rất nhanh, / nên đừng để vuột mất nhé.
+T0616 | Nhấn nút ARTS cùng nút Hướng / để phát động Gun Arts. / Gun Arts đang trang bị hiện giờ là / 「Wildcat」! / Chuyên về các đòn né tránh! /  / Khi địch bắn, nhấn nút ARTS và ↑ / để né đạn! Thử xem nào!
+T0617 | Tiếp theo, nhấn nút ARTS và →! / Lần này hãy lao người tới để né đạn! / Nếu bắn trong lúc đang lao tới, / sẽ nằm sấp bắn ba phát liên tiếp!
+T0618 | Ngoài ra còn nhiều Gun Arts khác. / Có được rồi thì thử đủ kiểu nhé! / Gun Arts sẽ tiêu hao GF, nên / hãy chăm chỉ thu lấy Perla Negra.
+T0619 | Nhấn nút ARTS cùng nút BẮN, hoặc / nút ARTS cùng nút NHẢY sẽ phát động / Super Gun Arts! /  / Metalgun sẽ biến đổi, cho phép / tung đòn mạnh hoặc đòn đặc biệt! / Có loại được phát động bằng cách / nhấn nút ARTS khi đang nhào lộn. / Tuy nhiên, dùng sẽ tốn đạn, nên / chú ý đừng dùng quá nhiều nhé! / Có thể nạp thêm đạn từ rương báu!
+T0620 | Thang, gai, dây thừng, bục di động / Màn chơi có đủ loại cơ quan.
+T0621 | Có thể nhảy từ thang / sang dây thừng. / Cũng có thể tấn công khi đang leo.
+T0622 | Đứng trước cột totem / và nhấn nút BẮN / sẽ được hồi phục thể lực.
+T0623 | →→ hay ↑↑ cũng tung ra nhiều chiêu. /  / Nhấn nút khác giữa lúc ra chiêu / sẽ nối sang một chiêu khác. / Ví dụ, đang lộn nghiêng bằng →→ / thì nhấn nút NHẢY để nhào lộn. / Đang nhào lộn, nhấn ↓ và nút BẮN / sẽ bắn ba phát xuống từ trên không!
+T0624 | Khi vẫn còn GF, / nếu tung các chiêu liên tiếp, / Billy sẽ có hiệu ứng đặc biệt! / Hãy cố gắng nối các chiêu với nhau.
+T0625 | Nhấn nút START / để mở màn hình tùy chọn. / Có thể đổi cài đặt phím ở đây.
+T0626 | Nhảy lên bục đang nhấp nháy / là hoàn thành màn chơi. / Hãy khéo léo tận dụng mọi thứ / để vượt qua từng màn nhé.
+T0627 | Nhảy bám vào móc ròng rọc / là lao thẳng tới đích!
+T0628 | Ở các màn tiếp theo / có tội phạm truy nã ẩn nấp! / Tìm ra và hạ gục chúng / để nhận Kim cương Linh hồn! / Thu đủ 4 Kim cương Linh hồn / thì HP tối đa sẽ tăng lên!
+T0629 | Khéo léo dùng cú trượt / để lách qua kẻ địch.

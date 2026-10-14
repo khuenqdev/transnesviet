@@ -1,0 +1,1293 @@
+﻿id,block,scene,addr,ref_locations,jp_bytes,jp_text,en_ref,vi_text
+M000,menu,-,0x052E88,ptr@0x261DCC,18,どれを削除しますか,Which data do you want to DELETE?,Xóa dữ liệu nào?
+M001,menu,-,0x052E9C,ptr@0x261DC8,20,どこにコピーしますか,Where do you want to COPY to?,Chép vào ô nào?
+M002,menu,-,0x052EB4,ptr@0x261DC4,20,どれをコピーしますか,Which data do you want to COPY?,Chép dữ liệu nào?
+M003,menu,-,0x052ECC,ptr@0x261DC0,22,どのゲームを始めますか,Which game do you want to START?,Bắt đầu lượt chơi nào?
+M004,menu,-,0x052F08,ptr@0x0180C8,16,上書きしますか？,OVERWRITE this data?,Ghi đè dữ liệu?
+M005,menu,-,0x052F1C,ptr@0x018260,14,削除しますか？,DELETE this data?,Xóa thật chứ?
+M006,menu,-,0x052F2C,ptr@0x261DDC,18,マップに戻ります。,Back to the map.,Quay về bản đồ.
+M007,menu,-,0x052F40,ptr@0x261DD8,28,このステージをやり直します。,Retry this stage.,Chơi lại màn này.
+M008,menu,-,0x052F60,ptr@0x261DD4,18,キーを設定します。,Configure keys.,Cài đặt phím.
+M009,menu,-,0x052F74,ptr@0x261DD0,41,ガンアーツやシェリフバッジ<br>を設定します。,Configure Gun Arts and Sheriff Badges.,Thiết lập Gun Arts và<br>Huy hiệu Cảnh sát trưởng.
+M010,menu,-,0x052FB4,ptr@0x018884,16,よろしいですか？,Is this okay?,Đồng ý chứ?
+M011,menu,-,0x052FC8,ptr@0x261E04,41,幻獣の名を冠した<br>強力な攻撃中心のアーツ。,Powerful attack Arts bearing the name of a phantom beast.,"Mang tên thần thú,<br>Arts chuyên đòn mạnh."
+M012,menu,-,0x052FF4,ptr@0x261E00,47,素早く地を這う姿を模した<br>低空移動中心のアーツ。,Low-ground movement Arts imitating creatures crawling swiftly.,"Mô phỏng thú bò nhanh,<br>Arts lướt tầm thấp."
+M013,menu,-,0x053024,ptr@0x261DFC,43,天空を舞う姿を模した<br>空中攻撃中心のアーツ。,Aerial attack Arts imitating creatures dancing in the sky.,"Phỏng theo chim bay,<br>Arts đánh trên không."
+M014,menu,-,0x053050,ptr@0x261DF8,41,力強い動作を模した<br>体当たり中心のアーツ。,Body-blow Arts imitating powerful movements.,"Mô phỏng sức mạnh,<br>Arts chuyên húc mạnh."
+M015,menu,-,0x05307C,ptr@0x261DF4,43,俊敏な動きを模した、<br>避け動作中心のアーツ。,Dodge-focused Arts imitating agile movements.,"Mô phỏng nét lanh lẹ,<br>Arts chuyên né tránh."
+M016,menu,-,0x0530A8,ptr@0x261DF0,34,ガンフォースが減りにくくなります。,Gun Force depletes more slowly.,Gun Force giảm chậm hơn.
+M017,menu,-,0x0530CC,ptr@0x261DEC,55,メタルガンが強化され、<br>敵に与えるダメージが増加します。,"The Metalgun is enhanced, increasing damage dealt to enemies.","Metalgun được cường hóa,<br>tăng sát thương lên kẻ địch."
+M018,menu,-,0x053104,ptr@0x261DE8,67,空中射撃が３ＷＡＹになります。<br>その代わり受けるダメージが増えます。,"Aerial shots become 3-WAY, but you take more damage.","Bắn trên không thành 3 hướng,<br>nhưng bị thương nặng hơn."
+M019,menu,-,0x053148,ptr@0x261DE4,30,ダメージを受けにくくなります。,You take less damage.,Giảm sát thương phải nhận.
+M020,menu,-,0x053168,ptr@0x261DE0,24,ビリーの父親の形見です。,A memento of Billy's father.,Kỷ vật của cha Billy.
+M021,menu,-,0x053184,ptr@0x261E5C,53,手配書№，０２０５　ポーン<br>罪状　「通貨偽造」「詐欺」,Wanted No.0205 Pawn<br>Charges: Counterfeiting / Fraud,"Truy nã 0205: Pawn<br>Tội: Làm tiền giả, Lừa đảo"
+M022,menu,-,0x0531BC,ptr@0x261E58,67,手配書№，６９７２　ポイズンヘラルド<br>罪状　「不法侵入」「食料強奪」,Wanted No.6972 Poison Herald<br>Charges: Trespassing / Food robbery,"Truy nã 6972: Poison Herald<br>Tội: Đột nhập, Cướp lương thực"
+M023,menu,-,0x053200,ptr@0x261E54,55,手配書№，１５４３　ニコール<br>罪状　「ロバ泥棒」「密猟」,Wanted No.1543 Nicole<br>Charges: Donkey theft / Poaching,"Truy nã 1543: Nicole<br>Tội: Trộm lừa, Săn trộm"
+M024,menu,-,0x053238,ptr@0x261E50,52,手配書№，１９４３　トマホーク<br>罪状 　「武器の密輸」,Wanted No.1943 Tomahawk<br>Charges: Weapons smuggling,Truy nã 1943: Tomahawk<br>Tội: Buôn lậu vũ khí
+M025,menu,-,0x053270,ptr@0x261E4C,53,手配書№，０２５８　ジル・モーガン<br>罪状　「列車強盗」,Wanted No.0258 Jill Morgan<br>Charges: Train robbery,Truy nã 0258: Jill Morgan<br>Tội: Cướp tàu hỏa
+M026,menu,-,0x0532A8,ptr@0x261E48,53,手配書№，２００５　リグ・モーガン<br>罪状　「列車強盗」,Wanted No.2005 Rigg Morgan<br>Charges: Train robbery,Truy nã 2005: Rigg Morgan<br>Tội: Cướp tàu hỏa
+M027,menu,-,0x0532E0,ptr@0x261E44,63,手配書№，１５８６　アークライト<br>罪状　「家屋破壊」「器物損壊」,Wanted No.1586 Arclight<br>Charges: House destruction / Property damage,"Truy nã 1586: Arclight<br>Tội: Phá nhà, Hủy hoại tài sản"
+M028,menu,-,0x053320,ptr@0x261E40,53,手配書№，３６４７　ブッチ<br>罪状　「警官殺し」「脱獄」,Wanted No.3647 Butch<br>Charges: Cop killing / Jailbreak,"Truy nã 3647: Butch<br>Tội: Giết cớm, Vượt ngục"
+M029,menu,-,0x053358,ptr@0x261E3C,59,手配書№，１３００　アップル<br>罪状　「食い逃げ」「野菜泥棒」,Wanted No.1300 Apple<br>Charges: Dine-and-dash / Vegetable theft,"Truy nã 1300: Apple<br>Tội: Ăn quỵt, Trộm rau"
+M030,menu,-,0x053394,ptr@0x261E38,65,手配書№，５２３６　ボウボウ<br>罪状　「牛泥棒」「羊泥棒」「馬泥棒」,Wanted No.5236 Boubou<br>Charges: Cattle / Sheep / Horse theft,"Truy nã 5236: Boubou<br>Tội: Trộm bò, Trộm cừu, Trộm ngựa"
+M031,menu,-,0x0533D8,ptr@0x261E34,61,手配書№，００２１　ハンギングマン<br>罪状　「不法侵入」「殺人」,Wanted No.0021 Hanging Man<br>Charges: Trespassing / Murder,"Truy nã 0021: Hanging Man<br>Tội: Đột nhập, Giết người"
+M032,menu,-,0x053418,ptr@0x261E30,51,手配書№，４８９３　閃光のウィリアム<br>罪状　「スリ」,Wanted No.4893 Flash William<br>Charges: Pickpocketing,Truy nã 4893: William Tia Chớp<br>Tội: Móc túi
+M033,menu,-,0x05344C,ptr@0x261E2C,51,手配書№，１２３４　ライトニング<br>罪状　「連続殺人」,Wanted No.1234 Lightning<br>Charges: Serial murder,Truy nã 1234: Lightning<br>Tội: Giết người hàng loạt
+M034,menu,-,0x053480,ptr@0x261E28,55,手配書№，０２９３　ミスター・タナカ<br>罪状　「結婚詐欺」,Wanted No.0293 Mister Tanaka<br>Charges: Marriage fraud,Truy nã 0293: Mister Tanaka<br>Tội: Lừa đảo hôn nhân
+M035,menu,-,0x0534B8,ptr@0x261E24,63,手配書№，７８０３　豪腕のハーヴェイ<br>罪状　「誘拐殺人」「脅迫」,Wanted No.7803 Harvey the Strongarm<br>Charges: Kidnap-murder / Extortion,"Truy nã 7803: Harvey Tay Sắt<br>Tội: Bắt cóc giết người, Tống tiền"
+M036,menu,-,0x0534F8,ptr@0x261E20,61,手配書№，０９８１　ガルシア<br>罪状　「おきびき」「引ったくり」,Wanted No.0981 Garcia<br>Charges: Luggage theft / Purse snatching,"Truy nã 0981: Garcia<br>Tội: Trộm hành lý, Giật đồ"
+M037,menu,-,0x053538,ptr@0x261E1C,56,手配書№，００３６　ウィンストン<br>罪状 　「公務執行妨害」,Wanted No.0036 Winston<br>Charges: Obstruction of official duty,Truy nã 0036: Winston<br>Tội: Cản trở thi hành công vụ
+M038,menu,-,0x053574,ptr@0x261E18,45,手配書№，３０００　ロッキー<br>罪状　「ケンカ」,Wanted No.3000 Rocky<br>Charges: Brawling,Truy nã 3000: Rocky<br>Tội: Đánh nhau
+M039,menu,-,0x0535A4,ptr@0x261E14,61,手配書№，９６４２　鷹目のライコス<br>罪状　「連続強盗」「殺人」,Wanted No.9642 Hawkeye Lycos<br>Charges: Serial robbery / Murder,"Truy nã 9642: Lycos Mắt Ưng<br>Tội: Cướp nhiều lần, Giết người"
+M040,menu,-,0x0535E4,ptr@0x261E10,53,手配書№，３８７５　イーストウッド<br>罪状　「警官殺し」,Wanted No.3875 Eastwood<br>Charges: Cop killing,Truy nã 3875: Eastwood<br>Tội: Giết cớm
+M041,menu,-,0x05361C,ptr@0x261E0C,67,手配書№，７３４５　モティマー大佐<br>罪状　「追いはぎ」「引ったくり」,Wanted No.7345 Colonel Mortimer<br>Charges: Highway robbery / Snatching,"Truy nã 7345: Đại tá Mortimer<br>Tội: Cướp đường, Giật đồ"
+M042,menu,-,0x053660,ptr@0x261E08,45,手配書№，１９５６　ジョゼイ<br>罪状　「牛泥棒」,Wanted No.1956 Josey<br>Charges: Cattle theft,Truy nã 1956: Josey<br>Tội: Trộm bò
+M043,menu,-,0x053690,ptr@0x261EB4,26,手配書№，０２０５　ポーン,Wanted No.0205 Pawn,Truy nã 0205: Pawn
+M044,menu,-,0x0536AC,ptr@0x261EB0,36,手配書№，６９７２　ポイズンヘラルド,Wanted No.6972 Poison Herald,Truy nã 6972: Poison Herald
+M045,menu,-,0x0536D4,ptr@0x261EAC,28,手配書№，１５４３　ニコール,Wanted No.1543 Nicole,Truy nã 1543: Nicole
+M046,menu,-,0x0536F4,ptr@0x261EA8,30,手配書№，１９４３　トマホーク,Wanted No.1943 Tomahawk,Truy nã 1943: Tomahawk
+M047,menu,-,0x053714,ptr@0x261EA4,34,手配書№，０２５８　ジル・モーガン,Wanted No.0258 Jill Morgan,Truy nã 0258: Jill Morgan
+M048,menu,-,0x053738,ptr@0x261EA0,34,手配書№，２００５　リグ・モーガン,Wanted No.2005 Rigg Morgan,Truy nã 2005: Rigg Morgan
+M049,menu,-,0x05375C,ptr@0x261E9C,32,手配書№，１５８６　アークライト,Wanted No.1586 Arclight,Truy nã 1586: Arclight
+M050,menu,-,0x053780,ptr@0x261E98,26,手配書№，３６４７　ブッチ,Wanted No.3647 Butch,Truy nã 3647: Butch
+M051,menu,-,0x05379C,ptr@0x261E94,28,手配書№，１３００　アップル,Wanted No.1300 Apple,Truy nã 1300: Apple
+M052,menu,-,0x0537BC,ptr@0x261E90,28,手配書№，５２３６　ボウボウ,Wanted No.5236 Boubou,Truy nã 5236: Boubou
+M053,menu,-,0x0537DC,ptr@0x261E8C,34,手配書№，００２１　ハンギングマン,Wanted No.0021 Hanging Man,Truy nã 0021: Hanging Man
+M054,menu,-,0x053800,ptr@0x261E88,36,手配書№，４８９３　閃光のウィリアム,Wanted No.4893 Flash William,Truy nã 4893: William Tia Chớp
+M055,menu,-,0x053828,ptr@0x261E84,32,手配書№，１２３４　ライトニング,Wanted No.1234 Lightning,Truy nã 1234: Lightning
+M056,menu,-,0x05384C,ptr@0x261E80,36,手配書№，０２９３　ミスター・タナカ,Wanted No.0293 Mister Tanaka,Truy nã 0293: Mister Tanaka
+M057,menu,-,0x053874,ptr@0x261E7C,36,手配書№，７８０３　豪腕のハーヴェイ,Wanted No.7803 Harvey the Strongarm,Truy nã 7803: Harvey Tay Sắt
+M058,menu,-,0x05389C,ptr@0x261E78,28,手配書№，０９８１　ガルシア,Wanted No.0981 Garcia,Truy nã 0981: Garcia
+M059,menu,-,0x0538BC,ptr@0x261E74,32,手配書№，００３６　ウィンストン,Wanted No.0036 Winston,Truy nã 0036: Winston
+M060,menu,-,0x0538E0,ptr@0x261E70,28,手配書№，３０００　ロッキー,Wanted No.3000 Rocky,Truy nã 3000: Rocky
+M061,menu,-,0x053900,ptr@0x261E6C,34,手配書№，９６４２　鷹目のライコス,Wanted No.9642 Hawkeye Lycos,Truy nã 9642: Lycos Mắt Ưng
+M062,menu,-,0x053924,ptr@0x261E68,34,手配書№，３８７５　イーストウッド,Wanted No.3875 Eastwood,Truy nã 3875: Eastwood
+M063,menu,-,0x053948,ptr@0x261E64,34,手配書№，７３４５　モティマー大佐,Wanted No.7345 Colonel Mortimer,Truy nã 7345: Đại tá Mortimer
+M064,menu,-,0x05396C,ptr@0x261E60,28,手配書№，１９５６　ジョゼイ,Wanted No.1956 Josey,Truy nã 1956: Josey
+M065,menu,-,0x05398C,ptr@0x261EC4,20,タイトルに戻ります。,Return to the title.,Về màn hình tiêu đề.
+M066,menu,-,0x0539A4,ptr@0x261EC0,28,チュートリアルを開始します。,Start the tutorial.,Bắt đầu phần hướng dẫn.
+M067,menu,-,0x0539C4,ptr@0x261EBC,26,賞金首データが見られます。,View bounty data.,Xem dữ liệu truy nã.
+M068,menu,-,0x0539E0,ptr@0x261EB8,28,ステージデータが見られます。,View stage data.,Xem dữ liệu các màn.
+M069,menu,-,0x053A00,ptr@0x01993C,16,よろしいですか？,Is this okay?,Đồng ý chứ?
+S0000,story,1,0x780D20,op29@0x7808AC,10,乾いた大地,,Mặt đất khô cằn
+S0001,story,1,0x780D2C,op29@0x7808B4,16,突き刺さる陽射し,,Nắng gắt như kim châm
+S0002,story,1,0x780D40,op29@0x7808F0,20,『砂漠の惑星アラモ』,,『Hành tinh sa mạc Alamo』
+S0003,story,1,0x780D58,op29@0x78092C,14,吹きつける熱風,,Gió nóng thổi tạt
+S0004,story,1,0x780D68,op29@0x780934,12,ほほを伝う汗,,Mồ hôi chảy dài trên má
+S0005,story,1,0x780D78,op29@0x78093C,14,まとわりつく砂,,Cát bám đầy người
+S0006,story,1,0x780D88,op29@0x780978,18,どれもなじみのもの,,Tất cả đều quá đỗi quen thuộc
+S0007,story,1,0x780D9C,op29@0x7809DC,18,しかし今感じている,,"Nhưng thứ ""hơi nóng"" lúc này"
+S0008,story,1,0x780DB0,op29@0x7809E4,18,いつもと違う“熱”,,khác hẳn mọi ngày
+S0009,story,1,0x780DC4,op29@0x780A20,18,吹きつける破壊の熱,,Đó là sức nóng của sự hủy diệt
+S0010,story,1,0x780DD8,op29@0x780A84,20,かぎ慣れることのない,,Một mùi chẳng bao giờ quen nổi
+S0011,story,1,0x780DF0,op29@0x780A8C,20,血の燃える……におい,,...mùi máu đang cháy
+S0012,story,1,0x780E08,op29@0x780B00,14,手は動いている,,Tay vẫn đang cử động
+S0013,story,1,0x780E18,op29@0x780B08,14,足も動いている,,Chân vẫn đang cử động
+S0014,story,1,0x780E28,op29@0x780B44,16,自信はないけれど,,Dù chẳng chắc lắm
+S0015,story,1,0x780E3C,op29@0x780B4C,18,走っているんだろう,,nhưng có lẽ mình đang chạy
+S0016,story,1,0x780E50,op29@0x780B88,6,どこへ,,Phải đi đâu
+S0017,story,1,0x780E58,op29@0x780B90,16,向かえばいいのか,,phải hướng về đâu
+S0018,story,1,0x780E6C,op29@0x780B98,18,全然わからないけど,,mình hoàn toàn không biết
+S0019,story,1,0x780E80,op29@0x780BD4,12,街まで戻れば,,Chỉ cần về đến thị trấn
+S0020,story,1,0x780E90,op29@0x780BDC,12,全てが終わる,,là mọi chuyện sẽ kết thúc
+S0021,story,1,0x780EA0,op29@0x780C18,14,みんなと会って,,Gặp lại mọi người
+S0022,story,1,0x780EB0,op29@0x780C20,18,いつもの生活に戻る,,rồi trở về cuộc sống thường ngày
+S0023,story,1,0x780EC4,op29@0x780C80,20,その時はそう思ってた,,Lúc ấy mình đã nghĩ như vậy
+S0024,story,1,0x780EDC,op29@0x780CC4,32,ホントに、そう思ってたんだ・・・,,"Thật đấy, mình đã nghĩ như vậy..."
+S0025,story,2,0x781444,op29@0x781054,14,「はぁ、はぁ」,,"「Hộc, hộc...」"
+S0026,story,2,0x781454,op29@0x781078,18,「ここまで来れば、,,「Chạy đến đây chắc là
+S0027,story,2,0x781468,op29@0x781080,20,　大丈夫・・・かな」,,an toàn... rồi nhỉ.」
+S0028,story,2,0x781480,op29@0x78109C,32,「くそっ！　レイガンさえ使えれば,,「Chết tiệt! Giá mà dùng được súng
+S0029,story,2,0x7814A4,op29@0x7810A4,28,　逃げなくたってすむのに！」,,tia thì đâu cần phải chạy trốn!」
+S0030,story,2,0x7814C4,op29@0x7810C0,32,「けど、身体は人間のままだから、,,"「Nhưng cơ thể họ vẫn là con người, nên"
+S0031,story,2,0x7814E8,op29@0x7810C8,36,　キズつけるわけにはいかないし・・」,,mình không thể làm họ bị thương...」
+S0032,story,2,0x781510,op29@0x7810E4,32,「倒せないってのは、キツイよな」,,"「Không được hạ chúng, khổ thật!」"
+S0033,story,2,0x781534,op29@0x781180,26,「や、やば、見つかった！」,,"「C-chết rồi, bị phát hiện!」"
+S0034,story,2,0x781550,op29@0x7811F0,26,「！！　こっちにも敵が！」,,「!! Bên này cũng có địch!」
+S0035,story,2,0x78156C,op29@0x78124C,26,「にっ、逃げ切れないっ！」,,「K-không thoát được rồi!」
+S0036,story,2,0x781588,op29@0x781278,28,「くそっ、これまでかっ！！」,,"「Chết tiệt, hết đường rồi sao!!」"
+S0037,story,2,0x7815A8,op29@0x781320,18,「な、なんだっ？」,,「C-cái gì vậy?」
+S0038,story,2,0x7815BC,op29@0x78133C,26,「これは、『銃』なのか！？,,「Đây là... một khẩu súng ư!?
+S0039,story,2,0x7815D8,op29@0x781344,26,　でも、どうすれば・・・」,,Nhưng phải làm sao đây...」
+S0040,story,2,0x7815F4,op29@0x781370,14,「タメラウナ。,,「ĐỪNG DO DỰ. BÓP CÒ ĐI.」
+S0041,story,2,0x781604,op29@0x781378,16,　引キ金ヲ引ケ」,,
+S0042,story,2,0x781618,op29@0x7813A4,30,「う、うおぉぉぉぉぉぉぉ！！」,,「U... oaaaaaaaa!!」
+S0043,story,3,0x7817F0,op29@0x7816B4,26,「や、やったのか・・・？」,,「M-mình làm được rồi sao...?」
+S0044,story,3,0x78180C,op29@0x7816D8,30,「それにしてもこの銃は・・・」,,「Mà khẩu súng này...」
+S0045,story,3,0x78182C,op29@0x781724,22,「この銃は何なんだ？」,,「Khẩu súng này là gì vậy?」
+S0046,story,3,0x781844,op29@0x781740,28,「ペルノグラに効く銃なんて、,,「Súng có tác dụng với Perla Negra?
+S0047,story,3,0x781864,op29@0x781748,22,　きいたこともないぞ」,,Mình chưa từng nghe nói đến.」
+S0048,story,3,0x78187C,op29@0x78176C,10,「・・・」,,「...」
+S0049,story,3,0x781888,op29@0x781788,16,「・・・帰ろう」,,「...Về thôi.」
+S0050,story,3,0x78189C,op29@0x7817A4,12,「ドクなら、,,"「Nếu là Doc, có khi"
+S0051,story,3,0x7818AC,op29@0x7817AC,30,　何か知っているかも知れない」,,cậu ấy biết gì đó.」
+S0052,story,4,0x781E78,op29@0x781940,16,「ビリーっ！！」,,「Billy!!」
+S0053,story,4,0x781E8C,op29@0x781964,14,「メイベルっ、,,"「Mabel, cậu không sao chứ!?」"
+S0054,story,4,0x781E9C,op29@0x78196C,20,　大丈夫だった！？」,,
+S0055,story,4,0x781EB4,op29@0x781988,12,「私は平気」,,「Tớ không sao.」
+S0056,story,4,0x781EC4,op29@0x7819A4,18,「ビリーは大丈夫？,,「Còn Billy thì sao? Có bị
+S0057,story,4,0x781ED8,op29@0x7819AC,24,　どっか怪我してない？」,,thương chỗ nào không?」
+S0058,story,4,0x781EF4,op29@0x7819D0,20,「痛いところとかは？,,「Có đau chỗ nào không? Nếu có
+S0059,story,4,0x781F0C,op29@0x7819D8,32,　あるならすぐに手当てを・・・」,,thì phải băng bó ngay...」
+S0060,story,4,0x781F30,op29@0x781A04,18,「お二人さぁ～ん、,,"「Hai người ơi~, xin lỗi vì"
+S0061,story,4,0x781F44,op29@0x781A0C,36,　お取り込み中申し訳ないんだけどぉ、,,"làm phiền nha, nhưng tình"
+S0062,story,4,0x781F6C,op29@0x781A14,36,　イチャつくのは後にしてくんない？」,,tứ để sau được không?」
+S0063,story,4,0x781F94,op29@0x781A38,10,「もうっ、,,"「Thôi đi, Doc im giùm cái!」"
+S0064,story,4,0x781FA0,op29@0x781A40,20,　ドクは黙ってて！」,,
+S0065,story,4,0x781FB8,op29@0x781A6C,16,「はははははー」,,「Ha ha ha ha~」
+S0066,story,4,0x781FCC,op29@0x781A90,28,「ドクも無事だったんだね！」,,「Doc cũng bình an vô sự nhỉ!」
+S0067,story,4,0x781FEC,op29@0x781AC4,18,「あ、そうだドク、,,"「À phải rồi Doc, cậu"
+S0068,story,4,0x782000,op29@0x781ACC,24,　これを見て欲しいんだ」,,xem cái này giúp tớ.」
+S0069,story,4,0x78201C,op29@0x781B20,22,「な、なんだよこれ！？,,「C-cái gì đây!? Tớ chưa từng
+S0070,story,4,0x782034,op29@0x781B28,28,　こんな銃、見たこと無いぞ」,,thấy khẩu súng nào thế này.」
+S0071,story,4,0x782054,op29@0x781B30,30,「うす気味悪い形をしてるなぁ」,,「Hình dạng ghê ghê sao ấy.」
+S0072,story,4,0x782074,op29@0x781B7C,26,「ソレハ、選バレシ者ノ銃、,,「ĐÓ LÀ KHẨU SÚNG CỦA KẺ
+S0073,story,4,0x782090,op29@0x781B84,18,　『メタルガン』」,,"ĐƯỢC CHỌN, 『METALGUN』.」"
+S0074,story,4,0x7820A4,op29@0x781BB0,16,「メタルガン！？,,「Metalgun!? ...M-mày
+S0075,story,4,0x7820B8,op29@0x781BB8,30,　・・・お、お前はさっきの！」,,là con chim lúc nãy!」
+S0076,story,4,0x7820D8,op29@0x781BEC,34,「ペルノグラヲ倒セル、唯一ノ武器」,,「VŨ KHÍ DUY NHẤT HẠ ĐƯỢC PERLA NEGRA.」
+S0077,story,4,0x7820FC,op29@0x781C08,28,「ソレガ、『メタルガン』ダ」,,「ĐÓ CHÍNH LÀ 『METALGUN』.」
+S0078,story,4,0x78211C,op29@0x781C34,10,「ひゃー、,,"「Ui chà, có thứ như vậy thật sao?」"
+S0079,story,4,0x782128,op29@0x781C3C,28,　そんなモノが存在するのか」,,
+S0080,story,4,0x782148,op29@0x781C60,24,「でも、ちょっと待てよ。,,「Nhưng khoan đã. Chuyện này
+S0081,story,4,0x782164,op29@0x781C68,32,　ずいぶん話がうますぎないか？」,,có dễ ăn quá không vậy?」
+S0082,story,4,0x782188,op29@0x781C70,34,「だいたいこの鳥、うさんくさいし、,,"「Con chim này nhìn đã thấy mờ ám,"
+S0083,story,4,0x7821AC,op29@0x781C78,34,　何かウラがあるような気がするぜ」,,chắc chắn có uẩn khúc gì đây.」
+S0084,story,4,0x7821D0,op29@0x781C9C,10,「・・・」,,「...」
+S0085,story,4,0x7821DC,op29@0x781CB8,34,「でも、こいつで奴らと戦えることは,,「Nhưng dùng nó chiến đấu được
+S0086,story,4,0x782200,op29@0x781CC0,14,　事実なんだ」,,với chúng là sự thật mà.」
+S0087,story,4,0x782210,op29@0x781CC8,38,「今はこれに頼るしかないと思う・・・」,,「Giờ chỉ còn cách dựa vào nó thôi...」
+S0088,story,4,0x782238,op29@0x781CEC,20,「ふーん、そうかぁ。,,"「Hừm, vậy à. Metalgun hả...」"
+S0089,story,4,0x782250,op29@0x781CF4,24,　メタルガンねぇ・・・」,,
+S0090,story,4,0x78226C,op29@0x781D18,22,「それはそうとビリー、,,"「Mà này Billy, cậu có biết"
+S0091,story,4,0x782284,op29@0x781D20,32,　サン・ダンスを知らないかい？」,,Sun Dance đâu không?」
+S0092,story,4,0x7822A8,op29@0x781D3C,32,「最初は一緒に逃げてたんだけど、,,"「Lúc đầu bọn tớ chạy cùng nhau, nhưng"
+S0093,story,4,0x7822CC,op29@0x781D44,36,　いつの間にか、はぐれちゃってさぁ」,,chẳng biết từ lúc nào lạc mất rồi.」
+S0094,story,4,0x7822F4,op29@0x781D68,12,「えっ！？」,,「Hả!?」
+S0095,story,4,0x782304,op29@0x781D8C,24,「もうっ！　ドクったら、,,「Trời ạ! Doc! Sao còn nói
+S0096,story,4,0x782320,op29@0x781D94,32,　何のんきなこと言ってるのっ！」,,giọng thong thả thế hả!」
+S0097,story,4,0x782344,op29@0x781D9C,30,「サン・ダンスに何かあったら、,,「Sun Dance mà có mệnh hệ gì
+S0098,story,4,0x782364,op29@0x781DA4,36,　ドクっ！　あんたのせいだからね！」,,"thì là tại cậu đấy, Doc!」"
+S0099,story,4,0x78238C,op29@0x781DC8,22,「サン・ダンスのやつ、,,「Sun Dance đi đâu rồi nhỉ...?」
+S0100,story,4,0x7823A4,op29@0x781DD0,32,　どこに行ったんだろう・・・？」,,
+S0101,story,4,0x7823C8,op29@0x781DF4,34,「まさかナヴァンホーじゃないよな。,,「Không lẽ là Navanho? Nghe nói
+S0102,story,4,0x7823EC,op29@0x781DFC,34,　あっちはひどくやられたらしいし」,,bên đó bị tàn phá nặng lắm.」
+S0103,story,4,0x782410,op29@0x781E20,12,「それじゃ、,,「Vậy thì phải đi tìm ngay thôi!」
+S0104,story,4,0x782420,op29@0x781E28,28,　すぐ探しに行かなくちゃ！」,,
+S0105,story,4,0x782440,op29@0x781E30,20,「ナヴァンホーへ！」,,「Đến Navanho!」
+S0106,story,5,0x782AE4,op29@0x7824CC,10,「たぶん、,,「Chắc là đi lối này đúng rồi...」
+S0107,story,5,0x782AF0,op29@0x7824D4,36,　こっちでいいはずなんだけど・・・」,,
+S0108,story,5,0x782B18,op29@0x7824F8,18,「おいおい・・・、,,"「Này này... Doc, làm ơn đấy.」"
+S0109,story,5,0x782B2C,op29@0x782500,16,　ドク、頼むよ」,,
+S0110,story,5,0x782B40,op29@0x78251C,30,「こんな所で、もたもたしている,,「Bọn mình không thể lề
+S0111,story,5,0x782B60,op29@0x782524,24,　わけにはいかないんだ」,,mề ở chỗ này được.」
+S0112,story,5,0x782B7C,op29@0x782570,12,「あっ！？」,,「Hả!?」
+S0113,story,5,0x782B8C,op29@0x7825CC,34,「ハァイ少年。何かお困りのようね。,,「Chào cậu bé. Có vẻ đang gặp khó
+S0114,story,5,0x782BB0,op29@0x7825D4,32,　お姉さんが力になってあげよう」,,khăn nhỉ. Để chị đây giúp một tay.」
+S0115,story,5,0x782BD4,op29@0x7825F0,10,「わぁお！,,「Oa! Một chị gái xinh đẹp!」
+S0116,story,5,0x782BE0,op29@0x7825F8,22,　美人なお姉さまっ！」,,
+S0117,story,5,0x782BF8,op29@0x782614,14,「だれだ！？」,,「Ai đó!?」
+S0118,story,5,0x782C08,op29@0x782630,24,「そんなに警戒しないで」,,「Đừng cảnh giác thế chứ.」
+S0119,story,5,0x782C24,op29@0x78264C,26,「少なくとも敵じゃないわ。,,「Ít ra chị không phải kẻ thù.
+S0120,story,5,0x782C40,op29@0x782654,26,　協力者ってところかしら」,,Cứ coi như người hợp tác đi.」
+S0121,story,5,0x782C5C,op29@0x782670,14,「私はフェイ」,,「Chị là Fay.」
+S0122,story,5,0x782C6C,op29@0x78268C,14,「立場的には、,,「Xét về lập trường thì chị cũng
+S0123,story,5,0x782C7C,op29@0x782694,32,　あなたたちとそう変わらないわ」,,không khác các em là mấy.」
+S0124,story,5,0x782CA0,op29@0x78269C,30,「この子の飼い主でもあるけど」,,「Chị còn là chủ của nhóc này nữa.」
+S0125,story,5,0x782CC0,op29@0x7826B8,34,「それじゃ、このメタルガンは！？」,,「Vậy khẩu Metalgun này là...!?」
+S0126,story,5,0x782CE4,op29@0x7826D4,20,「私からの贈り物よ」,,「Là quà của chị đấy.」
+S0127,story,5,0x782CFC,op29@0x7826F0,26,「気に入ってもらえたようで,,「Thấy em có vẻ thích
+S0128,story,5,0x782D18,op29@0x7826F8,14,　何よりだわ」,,"nó, chị mừng lắm.」"
+S0129,story,5,0x782D28,op29@0x782700,24,「結構貴重なモノなのよ。,,「Nó khá quý hiếm đấy.
+S0130,story,5,0x782D44,op29@0x782708,16,　大事にしてね」,,Giữ gìn cẩn thận nhé.」
+S0131,story,5,0x782D58,op29@0x782724,10,「・・・」,,「...」
+S0132,story,5,0x782D64,op29@0x782748,20,「なぜ銃をオレに？」,,「Sao lại đưa súng cho em?」
+S0133,story,5,0x782D7C,op29@0x782764,26,「あなたに才能があったから,,「Vì em có tài năng... nói
+S0134,story,5,0x782D98,op29@0x78276C,26,　……じゃ、だめかしら？」,,vậy không được sao?」
+S0135,story,5,0x782DB4,op29@0x782774,36,「事実、メタルガンをあつかえる人は、,,「Thật ra người dùng được
+S0136,story,5,0x782DDC,op29@0x78277C,26,　かなり限られているのよ」,,Metalgun là cực kỳ hiếm đấy.」
+S0137,story,5,0x782DF8,op29@0x782798,30,「信じられるわけないでしょ！！,,「Ai mà tin được chứ!! Billy
+S0138,story,5,0x782E18,op29@0x7827A0,36,　ビリーに特別な所なんてないわよ！」,,có gì đặc biệt đâu!」
+S0139,story,5,0x782E40,op29@0x7827A8,36,「どう見ても普通の男の子じゃない！」,,「Cậu ấy chỉ là con trai bình thường!」
+S0140,story,5,0x782E68,op29@0x7827C4,30,「そうね、でも今だけでいいから,,"「Đúng vậy, nhưng chỉ lúc này"
+S0141,story,5,0x782E88,op29@0x7827CC,26,　信じてもらえないかしら」,,"thôi, em tin chị được không?」"
+S0142,story,5,0x782EA4,op29@0x7827D4,30,「お友だちを助けたいでしょ？」,,"「Em muốn cứu bạn mình mà, phải không?」"
+S0143,story,5,0x782EC4,op29@0x7827F0,22,「サン・ダンスの居所を,,「Chị biết Sun Dance đang ở đâu sao!?」
+S0144,story,5,0x782EDC,op29@0x7827F8,22,　知っているのか！？」,,
+S0145,story,5,0x782EF4,op29@0x782814,8,「ええ。,,「Ừ. Cậu ấy ở trung tâm khu dân cư.」
+S0146,story,5,0x782F00,op29@0x78281C,30,　彼は居住区の中心部にいるわ」,,
+S0147,story,5,0x782F20,op29@0x782838,14,「一応無事よ。,,"「Tạm thời vẫn an toàn. Có điều,"
+S0148,story,5,0x782F30,op29@0x782840,28,　けれど、人としては・・・」,,xét như một con người thì...」
+S0149,story,5,0x782F50,op29@0x782894,8,「くっ！,,"「Hừ! Đi thôi, mọi người!」"
+S0150,story,5,0x782F5C,op29@0x78289C,20,　行くぞ、みんな！」,,
+S0151,story,5,0x782F74,op29@0x7828C0,34,「あらあら、ここからあんな所まで、,,"「Ấy ấy, định đi bộ từ"
+S0152,story,5,0x782F98,op29@0x7828C8,18,　歩いていくの？」,,đây tới tận đó à?」
+S0153,story,5,0x782FAC,op29@0x7828D0,20,「敵のまっただ中を？,,「Xuyên qua vòng vây địch? Liều quá.
+S0154,story,5,0x782FC4,op29@0x7828D8,32,　無謀ね。無謀と勇気は違うわよ」,,Liều lĩnh khác dũng cảm đấy.」
+S0155,story,5,0x782FE8,op29@0x7828F4,36,「それじゃ、どうしろって言うんだ！」,,「Vậy chị bảo phải làm sao đây!」
+S0156,story,5,0x783010,op29@0x782910,14,「落ち着いて。,,「Bình tĩnh. Chị đã chuẩn
+S0157,story,5,0x783020,op29@0x782918,36,　ちゃんと移動手段は用意してあるわ」,,bị sẵn phương tiện rồi.」
+S0158,story,5,0x783048,op29@0x78293C,16,「私が乗ってきた,,「Dùng chiếc Speeder Horse
+S0159,story,5,0x78305C,op29@0x782944,28,　スピーダーホースを使って」,,chị đi tới đây ấy.」
+S0160,story,5,0x78307C,op29@0x78294C,30,「あれなら敵を抜けていけるわ」,,「Với nó thì có thể vượt qua địch.」
+S0161,story,5,0x78309C,op29@0x782970,32,「はいはーい。わっかりましたー」,,「Vâââng~ Em hiểu rồi ạ~」
+S0162,story,5,0x7830C0,op29@0x78298C,24,「フェイさんの作戦には、,,「Kế hoạch của chị Fay
+S0163,story,5,0x7830DC,op29@0x782994,28,　一分のスキもありません！」,,không chê vào đâu được!」
+S0164,story,5,0x7830FC,op29@0x78299C,34,「運転はこのドクにお任せ下さい！」,,「Việc lái xe cứ giao cho Doc này!」
+S0165,story,5,0x783120,op29@0x7829C0,24,「スピーダーの操縦なら、,,「Lái Speeder là sở trường của em đấy!」
+S0166,story,5,0x78313C,op29@0x7829C8,22,　得意中の得意っす！」,,
+S0167,story,5,0x783154,op29@0x7829EC,12,「ドク・・・,,「Doc... Sao cậu quyết dễ dàng thế hả?」
+S0168,story,5,0x783164,op29@0x7829F4,34,　何でそー簡単に決められるんだ？」,,
+S0169,story,5,0x783188,op29@0x782A10,26,「気をつけろって言ったのは,,「Người bảo phải cẩn thận chẳng
+S0170,story,5,0x7831A4,op29@0x782A18,24,　ドクじゃないか・・・」,,"phải là cậu sao, Doc...」"
+S0171,story,5,0x7831C0,op29@0x782A34,18,「何を言うか！！」,,「Nói gì vậy hả!!」
+S0172,story,5,0x7831D4,op29@0x782A50,28,「美人の言葉は、何ごとよりも,,「Lời của người đẹp phải được
+S0173,story,5,0x7831F4,op29@0x782A58,30,　優先されるべきものなのだ！」,,ưu tiên hơn tất cả mọi thứ!」
+S0174,story,5,0x783214,op29@0x782A7C,22,「都合のいい考え方！」,,「Lý lẽ tiện lợi ghê!」
+S0175,story,5,0x78322C,op29@0x782A98,26,「よーしっ、では出発！！」,,"「Đượcc, xuất phát thôi!!」"
+S0176,story,6,0x783438,op29@0x7832BC,10,「・・・」,,「...」
+S0177,story,6,0x783444,op29@0x7832E8,36,「サン・ダンス、無事だっ・・・！？」,,"「Sun Dance, cậu không sao...!?」"
+S0178,story,6,0x78346C,op29@0x7833AC,36,「この身体は、なかなか具合がいいぞ」,,「Cơ thể này dùng khá là được đấy.」
+S0179,story,6,0x783494,op29@0x7833D0,32,「ペ、ペルノグラになってるー！」,,「B-bị Perla Negra nhập mất rồi!」
+S0180,story,6,0x7834B8,op29@0x7833F4,16,「ちくしょー！」,,「Khốn kiếp!」
+S0181,story,7,0x783600,op29@0x7835B0,28,「サン・ダンスに入っていた、,,「Perla Negra trong người
+S0182,story,7,0x783620,op29@0x7835B8,32,　ペルノグラが、逃げて行く！？」,,Sun Dance đang bỏ chạy!?」
+S0183,story,8,0x7839AC,op29@0x7836B8,28,「サン・ダンス、大丈夫か？」,,"「Sun Dance, cậu ổn chứ?」"
+S0184,story,8,0x7839CC,op29@0x7836DC,20,「あ、あれ、ビリー？,,"「Ơ, Billy? Tôi, rốt"
+S0185,story,8,0x7839E4,op29@0x7836E4,28,　ボク、一体、どう、した？」,,"cuộc, bị, làm sao?」"
+S0186,story,8,0x783A04,op29@0x783708,16,「ペルノグラに、,,「Cơ thể cậu bị Perla
+S0187,story,8,0x783A18,op29@0x783710,26,　身体を奪われていたんだ」,,Negra chiếm mất đấy.」
+S0188,story,8,0x783A34,op29@0x783718,32,「もう大丈夫だから、心配ないよ」,,"「Giờ không sao rồi, đừng lo.」"
+S0189,story,8,0x783A58,op29@0x78373C,20,「すまない、ビリー。,,"「Xin lỗi, Billy. Làm phiền, cậu rồi.」"
+S0190,story,8,0x783A70,op29@0x783744,16,　迷惑、かけた」,,
+S0191,story,8,0x783A84,op29@0x783768,34,「なに言ってるんだよ、友だちだろ」,,"「Nói gì thế, mình là bạn mà.」"
+S0192,story,8,0x783AA8,op29@0x783794,28,「それより、向こうの方角には,,「Mà hướng bên kia có gì vậy?」
+S0193,story,8,0x783AC8,op29@0x78379C,18,　何があるんだ？」,,
+S0194,story,8,0x783ADC,op29@0x7837A4,26,「あっちに、ペルノグラが、,,「Perla Negra đã chạy
+S0195,story,8,0x783AF8,op29@0x7837AC,30,　逃げて行ったんだけど・・・」,,trốn về phía đó...」
+S0196,story,8,0x783B18,op29@0x7837D0,10,「向こう、,,"「Bên kia, nối với, Gold Mountain.」"
+S0197,story,8,0x783B24,op29@0x7837D8,32,　ゴールドマウンテン、続いてる」,,
+S0198,story,8,0x783B48,op29@0x7837E0,22,「ゴールドマウンテン、,,"「Gold Mountain, mỏ, Gold Crystal.」"
+S0199,story,8,0x783B60,op29@0x7837E8,32,　ゴールドクリスタル、の、鉱山」,,
+S0200,story,8,0x783B84,op29@0x7837F0,26,「みんな、連れて、行った」,,"「Mọi người, bị bắt, đến đó.」"
+S0201,story,8,0x783BA0,op29@0x783814,32,「連れて行かれてる人もいるのか」,,「Có cả người bị bắt đến đó sao.」
+S0202,story,8,0x783BC4,op29@0x783830,34,「ってことは、奴らの拠点になってる,,「Vậy thì nhiều khả năng
+S0203,story,8,0x783BE8,op29@0x783838,18,　可能性が高いな」,,đó là căn cứ của chúng.」
+S0204,story,8,0x783BFC,op29@0x783840,22,「行ってみるか・・・」,,「Thử đến đó xem sao...」
+S0205,story,8,0x783C14,op29@0x783864,16,「ビリー、待つ。,,"「Billy, đợi. Cái này, mang, theo.」"
+S0206,story,8,0x783C28,op29@0x78386C,20,　これ、持つ、行く」,,
+S0207,story,8,0x783C40,op29@0x783890,12,「これは？」,,「Cái gì đây?」
+S0208,story,8,0x783C50,op29@0x7838B4,18,「シェリフバッジ。,,「Huy hiệu Cảnh sát trưởng.
+S0209,story,8,0x783C64,op29@0x7838BC,24,　ボクの、胸、付いてた」,,"Cài, trên ngực, tôi.」"
+S0210,story,8,0x783C80,op29@0x7838E0,20,「きっと、役、立つ」,,"「Chắc chắn, có ích.」"
+S0211,story,8,0x783C98,op29@0x783904,14,「ありがとう」,,「Cảm ơn cậu.」
+S0212,story,8,0x783CA8,op29@0x783964,14,『ジャック』の,,Nhận được Huy hiệu Cảnh
+S0213,story,8,0x783CB8,op29@0x78396C,30,　シェリフバッジを手に入れた。,,sát trưởng 『Jack』.
+S0214,story,9,0x7842C8,op29@0x783E68,12,「あっ！！」,,「A!!」
+S0215,story,9,0x7842D8,op29@0x783FAC,12,「キャー！」,,「Kyaa!」
+S0216,story,9,0x7842E8,op29@0x783FD0,28,「くそっ、ここまで来てっ！」,,"「Chết tiệt, đến tận đây rồi mà!」"
+S0217,story,9,0x784308,op29@0x784154,10,「・・・」,,「...」
+S0218,story,9,0x784314,op29@0x784200,24,「さ、今のうちに早く！」,,"「Nào, mau lên, nhân lúc này!」"
+S0219,story,9,0x784330,op29@0x784234,22,「急ごう、メイベル！」,,"「Nhanh lên, Mabel!」"
+S0220,story,10,0x7844BC,op29@0x7843BC,18,「よし、出口だ！」,,"「Được rồi, lối ra kìa!」"
+S0221,story,10,0x7844D0,op29@0x7843D8,34,「おっと、それ以上は進ませないぜ」,,"「Ấy, không cho đi tiếp nữa đâu.」"
+S0222,story,10,0x7844F4,op29@0x7843FC,12,「だれだ！」,,「Ai đó!」
+S0223,story,10,0x784504,op29@0x784418,30,「さっきは世話になったな坊主」,,"「Lúc nãy nhờ ơn mày nhiều lắm, nhóc.」"
+S0224,story,10,0x784524,op29@0x78443C,14,「その声はっ！,,「Giọng đó...! Là con
+S0225,story,10,0x784534,op29@0x784444,26,　さっきのペルノグラか！」,,Perla Negra lúc nãy!」
+S0226,story,10,0x784550,op29@0x784460,30,「そのとおり。まさかこの身体を,,「Đúng vậy. Không ngờ ta lại
+S0227,story,10,0x784570,op29@0x784468,36,　使うことになるとは思わなかったぞ」,,phải dùng đến cơ thể này đấy.」
+S0228,story,10,0x784598,op29@0x784470,12,「まあいい、,,"「Thôi được, coi như khởi động,"
+S0229,story,10,0x7845A8,op29@0x784478,32,　準備運動代わりに遊んでやろう」,,ta chơi với ngươi một chút.」
+S0230,story,11,0x784788,op29@0x7846FC,20,「メ、メタルガンが、,,「M-Metalgun đã hấp thụ Perla Negra!?」
+S0231,story,11,0x7847A0,op29@0x784704,28,　ペルノグラを吸収した！？」,,
+S0232,story,11,0x7847C0,op29@0x784728,22,「メタルガンの脈動が、,,「Nhịp đập của Metalgun
+S0233,story,11,0x7847D8,op29@0x784730,22,　激しくなってくる！」,,đang mạnh dần lên!」
+S0234,story,12,0x784C00,op29@0x784864,20,「あれ、コレなんだ？,,"「Ơ, cái gì đây? Trông"
+S0235,story,12,0x784C18,op29@0x78486C,34,　何かのチップみたいだけど・・・」,,như một con chip...」
+S0236,story,12,0x784C3C,op29@0x784890,30,「ソレハ、ガンアーツ『ベア』の,,「ĐÓ LÀ CHIP KỸ NĂNG
+S0237,story,12,0x784C5C,op29@0x784898,18,　スキルチップダ」,,CỦA GUN ARTS 『BEAR』.」
+S0238,story,12,0x784C70,op29@0x7848A0,30,「パワー中心ノ、アーツ構成ガ、,,「TRONG ĐÓ LƯU BỘ ARTS
+S0239,story,12,0x784C90,op29@0x7848A8,18,　記録サレテイル」,,CHUYÊN VỀ SỨC MẠNH.」
+S0240,story,12,0x784CA4,op29@0x7848CC,28,「ふーん、スキルチップねぇ」,,"「Hừm, chip kỹ năng à.」"
+S0241,story,12,0x784CC4,op29@0x7848E8,14,「なぁビリー、,,"「Này Billy, lát nữa"
+S0242,story,12,0x784CD4,op29@0x7848F0,30,　後ですこし見せてくんない？」,,cho tớ xem chút nhé?」
+S0243,story,12,0x784CF4,op29@0x7848F8,32,「ちょこっと分解してみたいなぁ」,,「Tớ muốn tháo ra nghiên cứu tí ghê.」
+S0244,story,12,0x784D18,op29@0x784924,32,「そんなこと、どうでもいいから、,,"「Chuyện đó sao cũng được,"
+S0245,story,12,0x784D3C,op29@0x78492C,22,　早く街に戻ろうよ！」,,mau về thị trấn thôi!」
+S0246,story,12,0x784D54,op29@0x784934,36,「ここよりも、街の方がまだ安全だわ」,,「Ở thị trấn vẫn an toàn hơn đây mà.」
+S0247,story,12,0x784D7C,op29@0x784960,10,「・・・」,,「...」
+S0248,story,12,0x784D88,op29@0x78497C,36,「いや、ゴールドマウンテンに行こうと,,"「Không, tớ định đến Gold"
+S0249,story,12,0x784DB0,op29@0x784984,32,　思ってるんだけど、どうかな？」,,"Mountain, các cậu thấy sao?」"
+S0250,story,12,0x784DD4,op29@0x78498C,36,「どうなってるか、確かめなくっちゃ。,,「Phải xem bên đó ra sao đã.
+S0251,story,12,0x784DFC,op29@0x784994,28,　武器もあることだし・・・」,,Giờ mình có vũ khí rồi...」
+S0252,story,12,0x784E1C,op29@0x7849B0,20,「なに言ってるの！？,,「Cậu nói gì vậy!? Liều lĩnh quá đấy!」
+S0253,story,12,0x784E34,op29@0x7849B8,20,　無茶よそんな事！」,,
+S0254,story,12,0x784E4C,op29@0x7849DC,36,「ちょっとペルノグラと戦えたからって,,「Đánh được Perla Negra một chút
+S0255,story,12,0x784E74,op29@0x7849E4,36,　この先もうまくいく保証はないわ！」,,đâu có nghĩa là sau này cũng ổn!」
+S0256,story,12,0x784E9C,op29@0x784A08,34,「それは『ちょっと』でもうまくいく,,"「Vậy tức là có khả năng ổn, dù"
+S0257,story,12,0x784EC0,op29@0x784A10,30,　可能性があるってことだろ？」,,"chỉ 『một chút』, đúng không?」"
+S0258,story,12,0x784EE0,op29@0x784A18,8,「なら、,,「Vậy thì tớ nghĩ cũng đáng
+S0259,story,12,0x784EEC,op29@0x784A20,36,　それに賭けてみてもいいと思うんだ」,,để đặt cược vào đó.」
+S0260,story,12,0x784F14,op29@0x784A44,14,「でも・・・」,,「Nhưng mà...」
+S0261,story,12,0x784F24,op29@0x784A68,18,「・・・そうだな、,,"「...Ừ nhỉ, nếu là cậu thì"
+S0262,story,12,0x784F38,op29@0x784A70,36,　お前だったらやれるかも知れないな」,,có khi làm được thật.」
+S0263,story,12,0x784F60,op29@0x784A8C,12,「今だって、,,「Ngay vừa rồi cậu đã hạ được
+S0264,story,12,0x784F70,op29@0x784A94,34,　ちゃんとペルノグラを倒せたんだ」,,Perla Negra đấy thôi.」
+S0265,story,12,0x784F94,op29@0x784AB0,20,「信用してやろうぜ、,,「Tin vào cái gọi là tài
+S0266,story,12,0x784FAC,op29@0x784AB8,26,　こいつの才能とやらをさ」,,năng của cậu ta đi.」
+S0267,story,12,0x784FC8,op29@0x784ADC,34,「でも、当然俺たちも付いていくぜ。,,「Nhưng tất nhiên bọn tớ cũng đi
+S0268,story,12,0x784FEC,op29@0x784AE4,26,　イヤだって言われてもね」,,theo. Có bảo không cũng mặc kệ.」
+S0269,story,12,0x785008,op29@0x784AEC,28,「な、メイベルもそうだろ？」,,"「Mabel cũng thế, phải không?」"
+S0270,story,12,0x785028,op29@0x784B10,20,「当たり前でしょ！」,,「Đương nhiên rồi!」
+S0271,story,12,0x785040,op29@0x784B2C,36,「そんな危ないところ、ビリーひとりに,,「Chỗ nguy hiểm như thế sao để
+S0272,story,12,0x785068,op29@0x784B34,36,　行かせられるわけが無いじゃない！」,,Billy đi một mình được chứ!」
+S0273,story,12,0x785090,op29@0x784B58,14,「ドク・・・、,,"「Doc..., Mabel...」"
+S0274,story,12,0x7850A0,op29@0x784B60,18,　メイベル・・・」,,
+S0275,story,12,0x7850B4,op29@0x784BC0,10,『ベア』の,,Nhận được chip kỹ năng 『Bear』.
+S0276,story,12,0x7850C0,op29@0x784BC8,28,　スキルチップを手に入れた。,,
+S0277,story,13,0x785284,op29@0x785154,24,「しぃー、静かに・・・」,,"「Suỵt, im lặng nào...」"
+S0278,story,13,0x7852A0,op29@0x785178,16,「思った通りだ」,,「Đúng như mình nghĩ.」
+S0279,story,13,0x7852B4,op29@0x785194,22,「単なる鉱山にしては、,,「Chỉ là mỏ thường thôi mà
+S0280,story,13,0x7852CC,op29@0x78519C,32,　警備の規模が大きすぎる・・・」,,canh gác quy mô quá lớn...」
+S0281,story,13,0x7852F0,op29@0x7851C0,16,「でもこれじゃ、,,「Thế này thì khó mà xông thẳng vào...」
+S0282,story,13,0x785304,op29@0x7851C8,28,　正面突破は難しいか・・・」,,
+S0283,story,13,0x785324,op29@0x7851EC,12,「おいおい、,,"「Này này, đừng có vừa"
+S0284,story,13,0x785334,op29@0x7851F4,32,　いきなり力押しは止めようって」,,vào đã dùng sức chứ.」
+S0285,story,13,0x785358,op29@0x785218,14,「坑道なんて、,,「Đường hầm mỏ bên trong
+S0286,story,13,0x785368,op29@0x785220,30,　中で全部つながってるもんさ」,,đều thông nhau cả.」
+S0287,story,13,0x785388,op29@0x785228,24,「あっちに、比較的警備の,,「Đằng kia có chỗ canh gác tương đối
+S0288,story,13,0x7853A4,op29@0x785230,26,　ゆるい場所があったから、,,"lỏng lẻo, bọn mình lẻn vào từ đó đi.」"
+S0289,story,13,0x7853C0,op29@0x785238,34,　そこから潜入することにしようぜ」,,
+S0290,story,14,0x785744,op29@0x785458,28,「ひゃー、でっかい川だなぁ」,,"「Ui, con sông to quá đi.」"
+S0291,story,14,0x785764,op29@0x78547C,36,「地下にこんな所があるなんて・・・」,,「Dưới lòng đất lại có nơi thế này...」
+S0292,story,14,0x78578C,op29@0x785498,28,「これじゃ先に進めないわね。,,「Thế này thì không đi
+S0293,story,14,0x7857AC,op29@0x7854A0,16,　どうするの？」,,tiếp được. Làm sao đây?」
+S0294,story,14,0x7857C0,op29@0x7854C4,28,「ここにいてもしょうがない。,,「Ở đây cũng chẳng được gì.
+S0295,story,14,0x7857E0,op29@0x7854CC,34,　少し戻ってわき道を探そう・・・」,,Quay lại tìm lối rẽ đi...」
+S0296,story,14,0x785804,op29@0x785508,8,「んっ？,,「Hửm? Có nghe thấy... gì không?」
+S0297,story,14,0x785810,op29@0x785510,28,　何か・・・きこえないか？」,,
+S0298,story,14,0x785830,op29@0x785574,32,「・・・そういえば・・・機械音？,,「...Nghe cậu nói thì... tiếng máy
+S0299,story,14,0x785854,op29@0x78557C,24,　なにかを削る音かな？」,,móc? Hình như tiếng đục đẽo gì đó?」
+S0300,story,14,0x785870,op29@0x785584,14,「ってことは、,,「Vậy thì có khi nó thông
+S0301,story,14,0x785880,op29@0x78558C,36,　どっかの坑道につながってるのかも」,,với đường hầm nào đó.」
+S0302,story,14,0x7858A8,op29@0x7855B8,18,「・・・なあドク」,,「...Này Doc.」
+S0303,story,14,0x7858BC,op29@0x7855D4,18,「この川を下って、,,「Xuôi theo con sông này có tới
+S0304,story,14,0x7858D0,op29@0x7855DC,28,　本坑道まで行けないかな？」,,được hầm chính không nhỉ?」
+S0305,story,14,0x7858F0,op29@0x785600,34,「ん～、正確な方位が分からないから,,"「Ừm~, không rõ phương hướng"
+S0306,story,14,0x785914,op29@0x785608,24,　なんとも言えないなぁ」,,chính xác nên khó nói lắm.」
+S0307,story,14,0x785930,op29@0x785610,30,「ま、今までの構造から考えて、,,"「Nhưng xét theo cấu trúc tới giờ,"
+S0308,story,14,0x785950,op29@0x785618,30,　行ける可能性は高いと思うぜ」,,tớ nghĩ khả năng cao là tới được.」
+S0309,story,14,0x785970,op29@0x78563C,32,「それよりどうやって下るんだよ。,,「Mà xuôi kiểu gì đây?
+S0310,story,14,0x785994,op29@0x785644,26,　おいら、水泳は苦手だぜ」,,Tớ bơi dở lắm đấy.」
+S0311,story,14,0x7859B0,op29@0x785668,20,「ねえ、こっち来て。,,"「Này, lại đây xem. Có thuyền nè.」"
+S0312,story,14,0x7859C8,op29@0x785670,20,　ボートがあるわよ」,,
+S0313,story,14,0x7859E0,op29@0x78568C,32,「おっ、いきなり問題解決じゃん」,,"「Ồ, giải quyết vấn đề cái rụp luôn.」"
+S0314,story,14,0x785A04,op29@0x7856B0,10,「う～ん、,,"「Ừm~, trông như thuyền chở vật liệu.」"
+S0315,story,14,0x785A10,op29@0x7856B8,34,　どうやら資材運搬用って感じだな」,,
+S0316,story,14,0x785A34,op29@0x7856CC,30,「このタイプなら操縦できるぜ。,,「Loại này thì tớ lái
+S0317,story,14,0x785A54,op29@0x7856D4,22,　どうする、ビリー？」,,"được. Sao đây, Billy?」"
+S0318,story,14,0x785A6C,op29@0x7856F0,34,「そうだな、他に道もないようだし、,,"「Được, có vẻ chẳng còn đường nào"
+S0319,story,14,0x785A90,op29@0x7856F8,24,　コイツに賭けてみよう」,,"khác, thử đặt cược vào nó vậy.」"
+S0320,story,15,0x785D18,op29@0x785B30,18,「段々と川の流れが,,「Dòng sông chảy chậm dần rồi nhỉ.」
+S0321,story,15,0x785D2C,op29@0x785B38,26,　ゆるやかになってきたな」,,
+S0322,story,15,0x785D48,op29@0x785B5C,34,「なんとなく風景も変わってきたし、,,"「Cảnh vật cũng khang khác,"
+S0323,story,15,0x785D6C,op29@0x785B64,30,　そろそろなのかも知れないぜ」,,có khi sắp tới nơi rồi.」
+S0324,story,15,0x785D8C,op29@0x785B6C,28,「なんか掘ってるよーな音も、,,「Còn nghe cả tiếng như
+S0325,story,15,0x785DAC,op29@0x785B74,16,　きこえるしな」,,đang đào bới nữa.」
+S0326,story,15,0x785DC0,op29@0x785B7C,28,「そろそろ上陸地点を・・・」,,「Sắp phải tìm chỗ lên bờ...」
+S0327,story,15,0x785DE0,op29@0x785BA8,14,『ガタンッ！』,,『RẦM!』
+S0328,story,15,0x785DF0,op29@0x785BDC,12,「うわぁ！」,,「Oa!」
+S0329,story,15,0x785E00,op29@0x785C00,30,「いったい、どうしたんだ！？」,,「Chuyện gì vậy!?」
+S0330,story,15,0x785E20,op29@0x785C24,18,「わ、わからない！,,「K-không biết nữa! Tự
+S0331,story,15,0x785E34,op29@0x785C2C,36,　いきなりスピードが上がって・・・」,,dưng tăng tốc...」
+S0332,story,15,0x785E5C,op29@0x785C50,14,「なんだぁ！？,,「Cái gì vậy!? Thuyền
+S0333,story,15,0x785E6C,op29@0x785C58,34,　船が、流れに逆らって動いてる！」,,đang chạy ngược dòng!」
+S0334,story,15,0x785E90,op29@0x785C7C,14,「待ってイタ」,,「Ta đã chờ sẵn.」
+S0335,story,15,0x785EA0,op29@0x785CA0,20,「だ、だれだっ！？」,,「A-ai đó!?」
+S0336,story,15,0x785EB8,op29@0x785CC4,30,「時の流レカら姿を消すモノに、,,「Kẻ sắp biến mất khỏi dòng thời
+S0337,story,15,0x785ED8,op29@0x785CCC,18,　教えル名はナイ」,,gian thì không cần biết tên ta.」
+S0338,story,16,0x786208,op29@0x785FF0,10,「！！！」,,「!!!」
+S0339,story,16,0x786214,op29@0x786068,10,「待てっ！,,「Đứng lại! Định chạy trốn sao!」
+S0340,story,16,0x786220,op29@0x786070,16,　逃げるのか！」,,
+S0341,story,16,0x786234,op29@0x7860D8,14,「あ、こらっ！,,"「Ê, này! Đừng có bỏ bọn này lại chứ!」"
+S0342,story,16,0x786244,op29@0x7860E0,36,　おいらたちをおいて行くなっての！」,,
+S0343,story,16,0x78626C,op29@0x7860FC,20,「っと、おいビリー、,,"「À mà này Billy, có cái"
+S0344,story,16,0x786284,op29@0x786104,30,　なんかバッチが落ちてたぜー」,,huy hiệu rơi ở đây nè~」
+S0345,story,16,0x7862A4,op29@0x7861C0,12,『ゼット』の,,Nhận được Huy hiệu Cảnh
+S0346,story,16,0x7862B4,op29@0x7861C8,30,　シェリフバッジを手に入れた。,,sát trưởng 『Zett』.
+S0347,story,17,0x786630,op29@0x786348,22,「なぁ、なんかいきなり,,"「Này, sao tự dưng im ắng thế nhỉ?」"
+S0348,story,17,0x786648,op29@0x786350,24,　静かになってないか？」,,
+S0349,story,17,0x786664,op29@0x786374,18,「・・・そうだな。,,「...Ừ. Xem ra để tên lúc nãy
+S0350,story,17,0x786678,op29@0x78637C,36,　やっぱりさっきの奴を逃がしたのは、,,chạy thoát đúng là sai lầm...」
+S0351,story,17,0x7866A0,op29@0x786384,32,　失敗だったかもしれない・・・」,,
+S0352,story,17,0x7866C4,op29@0x7863A8,28,「今さらそんなこと言っても、,,「Giờ nói chuyện đó cũng vô ích thôi.」
+S0353,story,17,0x7866E4,op29@0x7863B0,18,　しょうがないさ」,,
+S0354,story,17,0x7866F8,op29@0x7863CC,22,「問題は、奴らがどこへ,,「Vấn đề là bọn chúng
+S0355,story,17,0x786710,op29@0x7863D4,32,　雲がくれしたかってことだろ？」,,đã lặn đi đâu chứ?」
+S0356,story,17,0x786734,op29@0x786410,10,「奴らは、,,「Có vẻ chúng quyết
+S0357,story,17,0x786740,op29@0x786418,36,　ここを放棄することにしたみたいね」,,định bỏ nơi này rồi.」
+S0358,story,17,0x786768,op29@0x786420,36,「続々とステーションに集合してるわ」,,「Chúng đang lũ lượt về nhà ga.」
+S0359,story,17,0x786790,op29@0x78644C,22,「あ、フェイさん！！」,,"「A, chị Fay!!」"
+S0360,story,17,0x7867A8,op29@0x786470,18,「ステーション？」,,「Nhà ga?」
+S0361,story,17,0x7867BC,op29@0x786494,32,「この鉱山にはね、採掘した鉱石を,,「Mỏ này có xây một nhà ga để
+S0362,story,17,0x7867E0,op29@0x78649C,30,　運び出す駅が作られているの」,,chở quặng khai thác ra ngoài.」
+S0363,story,17,0x786800,op29@0x7864A4,28,「聞いたことがあるでしょ？」,,「Các em từng nghe rồi chứ?」
+S0364,story,17,0x786820,op29@0x7864C0,14,「大陸横断鉄道,,「Cái tên tuyến đường sắt
+S0365,story,17,0x786830,op29@0x7864C8,30,　『アイアントレイン』の名を」,,xuyên lục địa 『Iron Train』.」
+S0366,story,17,0x786850,op29@0x7864EC,30,「あ、あの『コスモポリタン』へ,,"「À, cái tuyến nối tới"
+S0367,story,17,0x786870,op29@0x7864F4,30,　つながっているという・・・」,,『Cosmopolitan』...」
+S0368,story,17,0x786890,op29@0x786518,34,「そう。その列車の片方の終着点が、,,「Đúng. Một đầu cuối của đoàn tàu
+S0369,story,17,0x7868B4,op29@0x786520,34,　ここゴールドマウンテンってわけ」,,đó chính là Gold Mountain này.」
+S0370,story,17,0x7868D8,op29@0x786528,28,「必要な機材や発掘した鉱石、,,"「Máy móc cần thiết, quặng khai"
+S0371,story,17,0x7868F8,op29@0x786530,18,　捕らえた人々を、,,"thác, cả những người bị bắt,"
+S0372,story,17,0x78690C,op29@0x786538,36,　ここから輸送していたのでしょうね」,,chắc đều được chở đi từ đây.」
+S0373,story,17,0x786934,op29@0x78655C,36,「それじゃ、その『コスモポリタン』が,,「Vậy 『Cosmopolitan』 là đại bản
+S0374,story,17,0x78695C,op29@0x786564,32,　ペルノグラの本拠地なのか！？」,,doanh của Perla Negra sao!?」
+S0375,story,17,0x786980,op29@0x786588,22,「その可能性が高いわ」,,「Khả năng đó rất cao.」
+S0376,story,17,0x786998,op29@0x7865AC,32,「さて、どうするのビリーくん？」,,"「Rồi, em định làm gì đây, Billy?」"
+S0377,story,17,0x7869BC,op29@0x7865D0,8,「当然、,,「Tất nhiên là đi rồi!」
+S0378,story,17,0x7869C8,op29@0x7865D8,24,　行くに決まってます！」,,
+S0379,story,17,0x7869E4,op29@0x7865E0,22,「列車は止めてみせる！,,「Em sẽ chặn đoàn tàu lại! Nhất
+S0380,story,17,0x7869FC,op29@0x7865E8,24,　絶対に逃がすもんか！」,,định không để chúng thoát!」
+S0381,story,18,0x786D78,op29@0x786A8C,14,「うっひゃー！,,「Ui trời! Địch gì mà
+S0382,story,18,0x786D88,op29@0x786A94,28,　なんなんだこの敵の数は！」,,đông khủng khiếp vậy!」
+S0383,story,18,0x786DA8,op29@0x786A9C,34,「これじゃー、一歩足を踏み出すのも,,「Thế này thì bước ra một bước
+S0384,story,18,0x786DCC,op29@0x786AA4,26,　自殺行為じゃないか！？」,,thôi cũng là tự sát còn gì!?」
+S0385,story,18,0x786DE8,op29@0x786AC8,14,「そんなこと、,,「Giờ đâu phải lúc nói chuyện đó!」
+S0386,story,18,0x786DF8,op29@0x786AD0,32,　言ってる場合じゃないだろっ！」,,
+S0387,story,18,0x786E1C,op29@0x786AD8,28,「俺が突入して騒ぎを起こす。,,「Tớ sẽ xông vào gây náo loạn.
+S0388,story,18,0x786E3C,op29@0x786AE0,26,　そのスキに潜入してくれ」,,Các cậu nhân lúc đó lẻn vào.」
+S0389,story,18,0x786E58,op29@0x786B04,24,「それじゃ、行くぞ・・・,,"「Vậy, đi đây... 3... 2...」"
+S0390,story,18,0x786E74,op29@0x786B0C,18,　３・・２・・・」,,
+S0391,story,18,0x786E88,op29@0x786B58,8,「待て！,,「Đứng lại! Cấm tiến
+S0392,story,18,0x786E94,op29@0x786B60,34,　それ以上進むこと、まかりならぬ」,,thêm bước nào nữa.」
+S0393,story,18,0x786EB8,op29@0x786B68,14,「ここから先は,,「Phía trước không phải
+S0394,story,18,0x786EC8,op29@0x786B70,30,　おまえたちの領域ではない！」,,lãnh địa của các ngươi!」
+S0395,story,18,0x786EE8,op29@0x786B78,20,「早々に立ち去れ！」,,「Mau rời khỏi đây!」
+S0396,story,18,0x786F00,op29@0x786B94,10,「誰だ！」,,「Ai đó!」
+S0397,story,18,0x786F0C,op29@0x786BB0,28,「ここの責任者をやっている。,,「Ta là người phụ trách nơi
+S0398,story,18,0x786F2C,op29@0x786BB8,26,　名はサム・オールドマン」,,này. Tên ta là Sam Oldman.」
+S0399,story,18,0x786F48,op29@0x786BD4,32,「サム・オールドマンだって！？」,,「Sam Oldman á!?」
+S0400,story,18,0x786F6C,op29@0x786BF0,22,「ペルノグラ精鋭部隊の,,「Là đội trưởng đội tinh nhuệ
+S0401,story,18,0x786F84,op29@0x786BF8,24,　隊長じゃないかよぉ！」,,của Perla Negra còn gì!」
+S0402,story,18,0x786FA0,op29@0x786C00,36,「何でそんな大物がこんなところに！」,,「Sao nhân vật cỡ đó lại ở đây!」
+S0403,story,18,0x786FC8,op29@0x786C1C,28,「この場で引き返すのならば、,,"「Nếu quay về ngay bây giờ, ta sẽ"
+S0404,story,18,0x786FE8,op29@0x786C24,22,　子供のイタズラとして,,coi đây là trò nghịch dại của
+S0405,story,18,0x787000,op29@0x786C2C,24,　今回は見逃してやろう」,,trẻ con mà bỏ qua lần này.」
+S0406,story,18,0x78701C,op29@0x786C48,10,「しかし、,,「Nhưng nếu các ngươi vẫn cố
+S0407,story,18,0x787028,op29@0x786C50,36,　あくまでも前へ進むというのであれば,,tiến lên thì hãy biết rằng
+S0408,story,18,0x787050,op29@0x786C58,24,　ようしゃしないと知れ」,,ta sẽ không nương tay.」
+S0409,story,18,0x78706C,op29@0x786C74,28,「いや、悲観する必要はない」,,"「Không, chẳng cần phải bi quan.」"
+S0410,story,18,0x78708C,op29@0x786C90,34,「お前たちにも、ペルノグラとしての,,「Các ngươi chỉ được bảo đảm một cuộc
+S0411,story,18,0x7870B0,op29@0x786C98,26,　生活が約束されるだけだ」,,sống như Perla Negra mà thôi.」
+S0412,story,18,0x7870CC,op29@0x786CB4,34,「そんな脅しにのるつもりはない！」,,「Tôi không sợ lời đe dọa đó đâu!」
+S0413,story,18,0x7870F0,op29@0x786CD0,34,「俺はたとえなんと言われようとも、,,"「Dù ông có nói gì đi nữa, tôi nhất"
+S0414,story,18,0x787114,op29@0x786CD8,30,　おまえたちを止めてみせる！」,,định sẽ chặn các người lại!」
+S0415,story,18,0x787134,op29@0x786CF4,10,「・・・」,,「...」
+S0416,story,18,0x787140,op29@0x786D10,18,「良くぞほえた！」,,「Gầm hay lắm!」
+S0417,story,18,0x787154,op29@0x786D2C,26,「その言葉にウソがないか、,,"「Lời đó có thật hay không, hãy dùng"
+S0418,story,18,0x787170,op29@0x786D34,36,　その身をもって証明して見せい！！」,,chính thân mình chứng minh đi!!」
+S0419,story,19,0x78732C,op29@0x7872C8,36,「メタルガンから力が流れ込んでくる！,,「Sức mạnh đang tràn vào từ
+S0420,story,19,0x787354,op29@0x7872D0,26,　ぞくぞくする感覚だっ！」,,Metalgun! Cảm giác rợn cả người!」
+S0421,story,20,0x787890,op29@0x7873E4,20,「なかなかの腕前だ」,,「Tay nghề khá lắm.」
+S0422,story,20,0x7878A8,op29@0x787400,32,「その腕ならば、この後も・・・」,,"「Với tay nghề đó, sau này...」"
+S0423,story,20,0x7878CC,op29@0x787424,34,「次はおまえだ！　降りて来い！！」,,「Tiếp theo là ông! Xuống đây!!」
+S0424,story,20,0x7878F0,op29@0x787448,26,「フッ・・・、勇ましいな」,,"「Hừ..., can đảm đấy.」"
+S0425,story,20,0x78790C,op29@0x787464,36,「しかし、対決は避けさせてもらおう。,,「Nhưng cho phép ta tránh cuộc
+S0426,story,20,0x787934,op29@0x78746C,22,　私はここで失礼する」,,đối đầu này. Ta xin cáo từ.」
+S0427,story,20,0x78794C,op29@0x787498,34,「くそっ、逃げるなんてひきょうだ！,,"「Chết tiệt, bỏ chạy là hèn!"
+S0428,story,20,0x787970,op29@0x7874A0,28,　まだ勝負はついてないぞ！」,,Chưa phân thắng bại đâu!」
+S0429,story,20,0x787990,op29@0x7874C4,24,「ビリーくん、急いで！」,,"「Billy, nhanh lên!」"
+S0430,story,20,0x7879AC,op29@0x7874E0,14,「列車はまだ、,,「Đoàn tàu vẫn chưa đi xa đâu!」
+S0431,story,20,0x7879BC,op29@0x7874E8,30,　そう遠くへ行っていないわ！」,,
+S0432,story,20,0x7879DC,op29@0x78750C,18,「フェイさん！！」,,「Chị Fay!!」
+S0433,story,20,0x7879F0,op29@0x787530,18,「つもる話は後っ」,,「Chuyện để sau!」
+S0434,story,20,0x787A04,op29@0x78754C,36,「ドクくん、そこから外へ出られるわ。,,"「Doc, từ đó ra ngoài được"
+S0435,story,20,0x787A2C,op29@0x787554,26,　乗り物を確保してきて！」,,đấy. Kiếm phương tiện đi!」
+S0436,story,20,0x787A48,op29@0x787578,8,「了解！,,「Rõ! Cứ giao cho em!」
+S0437,story,20,0x787A54,op29@0x787580,20,　おいらにお任せ！」,,
+S0438,story,20,0x787A6C,op29@0x78759C,16,「外で待ってて。,,「Chờ ngoài đó nhé. Tớ đi lấy Speeder!」
+S0439,story,20,0x787A80,op29@0x7875A4,28,　スピーダーを持ってくる！」,,
+S0440,story,20,0x787AA0,op29@0x7875C8,12,「急いでね」,,「Nhanh lên nhé.」
+S0441,story,20,0x787AB0,op29@0x7875EC,32,「ビリーくん、あなたにはこれを」,,"「Billy, cái này dành cho em.」"
+S0442,story,20,0x787AD4,op29@0x787610,12,「これは？」,,「Đây là?」
+S0443,story,20,0x787AE4,op29@0x787634,32,「『イーグル』のスキルチップよ。,,「Chip kỹ năng 『Eagle』. Bộ Arts
+S0444,story,20,0x787B08,op29@0x78763C,36,　空中攻撃を中心に考えられたアーツ」,,chuyên tấn công trên không.」
+S0445,story,20,0x787B30,op29@0x787644,14,「さっきの男が,,「Hình như gã lúc nãy đánh rơi.」
+S0446,story,20,0x787B40,op29@0x78764C,24,　落としていったみたい」,,
+S0447,story,20,0x787B5C,op29@0x787654,30,「どうやら、敵は指揮官クラスに,,「Có vẻ địch phân phát vật
+S0448,story,20,0x787B7C,op29@0x78765C,32,　アイテムを分配しているようね」,,phẩm cho cấp chỉ huy.」
+S0449,story,20,0x787BA0,op29@0x787680,34,「それはともかく、さ、急ぎましょ」,,"「Chuyện đó tính sau, mau lên nào.」"
+S0450,story,20,0x787BC4,op29@0x7876A4,10,「はいっ」,,「Vâng!」
+S0451,story,20,0x787BD0,op29@0x787708,10,「・・・」,,「...」
+S0452,story,20,0x787BDC,op29@0x78772C,20,「ババグ、いるか？」,,"「Babag, có đó không?」"
+S0453,story,20,0x787BF4,op29@0x787750,16,「はっ、ココに」,,"「Vâng, thuộc hạ ĐÂY.」"
+S0454,story,20,0x787C08,op29@0x787774,12,「彼を・・・,,"「Cậu ta... không, nhờ"
+S0455,story,20,0x787C18,op29@0x78777C,22,　いや、彼らをたのむ」,,ngươi lo cho bọn họ.」
+S0456,story,20,0x787C30,op29@0x7877A0,12,「お任せヲ」,,「Xin cứ GIAO cho tôi.」
+S0457,story,20,0x787C40,op29@0x7877C4,18,「いつもすまない。,,「Lúc nào cũng xin lỗi ngươi. Toàn
+S0458,story,20,0x787C54,op29@0x7877CC,28,　損な役回りばかりを・・・」,,bắt ngươi gánh vai thiệt thòi...」
+S0459,story,20,0x787C74,op29@0x7877F0,32,「いえ、ソレが私の役目デスから」,,"「Không, đó LÀ nhiệm vụ của tôi MÀ.」"
+S0460,story,20,0x787C98,op29@0x787850,14,『イーグル』の,,Nhận được chip kỹ năng 『Eagle』.
+S0461,story,20,0x787CA8,op29@0x787858,28,　スキルチップを手に入れた。,,
+S0462,story,21,0x787FD4,op29@0x787D3C,28,「何とか追いつきそうだけど、,,"「Sắp đuổi kịp rồi, nhưng bám"
+S0463,story,21,0x787FF4,op29@0x787D44,34,　これ以上ついていくのは難しいぜ」,,theo thêm nữa thì khó đấy.」
+S0464,story,21,0x788018,op29@0x787D4C,22,「どうする、ビリー？」,,"「Sao đây, Billy?」"
+S0465,story,21,0x788030,op29@0x787D70,10,「ドクっ、,,"「Doc, có chỗ nào nhảy"
+S0466,story,21,0x78803C,op29@0x787D78,34,　飛び移れそうなところはない！？」,,sang được không!?」
+S0467,story,21,0x788060,op29@0x787D9C,24,「くっ、そうだな・・・」,,"「Hừm, để xem nào...」"
+S0468,story,21,0x78807C,op29@0x787DC0,24,「あっ、ビリーあそこっ！,,"「A, Billy, đằng kia! Cánh"
+S0469,story,21,0x788098,op29@0x787DC8,28,　あの扉なら飛びうつれる！」,,cửa đó nhảy sang được!」
+S0470,story,21,0x7880B8,op29@0x787DEC,10,「よしっ、,,「Được! Lại gần thêm chút nữa!」
+S0471,story,21,0x7880C4,op29@0x787DF4,26,　もうちょっと近づいて！」,,
+S0472,story,21,0x7880E0,op29@0x787E10,16,「もうちょっと、,,"「Thêm chút nữa, chỉ"
+S0473,story,21,0x7880F4,op29@0x787E18,30,　あと、もう少しでいいんだ！」,,một chút nữa thôi!」
+S0474,story,21,0x788114,op29@0x787E3C,26,「もー、これがめいっぱい！,,"「Trời ơi, hết cỡ rồi! Thêm"
+S0475,story,21,0x788130,op29@0x787E44,36,　これ以上はオーバーヒートするっ！」,,nữa là quá nhiệt mất!」
+S0476,story,21,0x788158,op29@0x787E68,20,「あと少しっ・・・」,,「Chút nữa thôi...」
+S0477,story,21,0x788170,op29@0x787E84,14,「よしっ！！」,,「Được rồi!!」
+S0478,story,21,0x788180,op29@0x787EB0,24,「こっちはもうダメぇ～、,,"「Bên này chịu thua rồi~, còn"
+S0479,story,21,0x78819C,op29@0x787EB8,28,　後は任せるぜ、ビリーぃ～」,,"lại giao cho cậu đó, Billy~」"
+S0480,story,21,0x7881BC,op29@0x787ED4,20,「どっかで止まって、,,「Dừng ở đâu đó rồi đợi bọn tớ nha~」
+S0481,story,21,0x7881D4,op29@0x787EDC,24,　待っててくれよなぁ～」,,
+S0482,story,22,0x78851C,op29@0x788264,26,「はぁ、はぁ、はぁ・・・」,,"「Hộc, hộc, hộc...」"
+S0483,story,22,0x788538,op29@0x788288,12,「よぅ坊主。,,「Chào nhóc. Vội vàng
+S0484,story,22,0x788548,op29@0x788290,36,　そんなに急いで、どこ行くんだい？」,,thế định đi đâu vậy?」
+S0485,story,22,0x788570,op29@0x7882B4,14,「だれだっ！」,,「Ai đó!」
+S0486,story,22,0x788580,op29@0x7882D8,22,「おぉっと、怖い怖い」,,"「Ối chà, sợ quá sợ quá.」"
+S0487,story,22,0x788598,op29@0x7882F4,36,「そんなにいきり立つんじゃねぇーよ、,,「Đừng có hùng hổ thế
+S0488,story,22,0x7885C0,op29@0x7882FC,24,　赤ん坊じゃあるまいし」,,"chứ, đâu phải con nít.」"
+S0489,story,22,0x7885DC,op29@0x788320,36,「俺様がちょーっと遊んであげようって,,「Đại gia đây chỉ định chơi
+S0490,story,22,0x788604,op29@0x788328,20,　だけじゃねえか？」,,với mày một chút thôi mà?」
+S0491,story,22,0x78861C,op29@0x78834C,26,「おまえは、一体何者だ！」,,「Rốt cuộc ngươi là ai!」
+S0492,story,22,0x788638,op29@0x788370,30,「自己紹介がまだだったかな？」,,「Tao chưa giới thiệu à?」
+S0493,story,22,0x788658,op29@0x78838C,32,「俺様の名はマイナー・マイナー。,,「Tên đại gia là Myna Myna. Cứ
+S0494,story,22,0x78867C,op29@0x788394,34,　子守り役のお兄さんってとこだな」,,coi như anh trai trông trẻ đi.」
+S0495,story,22,0x7886A0,op29@0x7883B8,28,「マイナー・マイナー・・・」,,「Myna Myna...」
+S0496,story,22,0x7886C0,op29@0x7883E4,10,「！！！」,,「!!!」
+S0497,story,22,0x7886CC,op29@0x788408,20,「キラーエッジか！」,,「Killer Edge!」
+S0498,story,22,0x7886E4,op29@0x788424,20,「史上最悪の殺人鬼！,,「Tên sát nhân tồi tệ nhất lịch sử!
+S0499,story,22,0x7886FC,op29@0x78842C,22,　最高額の賞金首！！」,,Kẻ bị treo thưởng cao nhất!!」
+S0500,story,22,0x788714,op29@0x788450,36,「ほう、その名をご存知だとは・・・。,,"「Ồ, biết cả cái tên đó cơ à..."
+S0501,story,22,0x78873C,op29@0x788458,28,　ただの坊やじゃないわけだ」,,Không phải nhóc tầm thường rồi.」
+S0502,story,22,0x78875C,op29@0x78847C,12,「そうとも、,,"「Đúng vậy, kẻ mang danh ""Killer Edge"","
+S0503,story,22,0x78876C,op29@0x788484,36,　世に恐怖の代名詞としてとどろき渡る,,cái tên vang khắp thế gian như đồng
+S0504,story,22,0x788794,op29@0x78848C,36,　“キラーエッジ”の名を冠するのは、,,"nghĩa với nỗi kinh hoàng, không ai"
+S0505,story,22,0x7887BC,op29@0x788494,34,　なにをかくそう・・・この俺様よ」,,khác... chính là đại gia đây.」
+S0506,story,22,0x7887E0,op29@0x78849C,32,「ま、実はペルちゃんのお仲間って,,「Mà thật ra kết thúc là tao cũng
+S0507,story,22,0x788804,op29@0x7884A4,22,　オチがつくんだがな」,,là đồng bọn của Perla đấy.」
+S0508,story,22,0x78881C,op29@0x7884C0,34,「さて、能書きはこれくらいにして、,,"「Thôi, khoe khoang thế đủ"
+S0509,story,22,0x788840,op29@0x7884C8,30,　お仕置きタイムといこうかね」,,"rồi, đến giờ phạt rồi nhé.」"
+S0510,story,22,0x788860,op29@0x7884D0,28,「おイタが過ぎるお子様には、,,「Con nít nghịch quá trớn thì
+S0511,story,22,0x788880,op29@0x7884D8,34,　キッツーイしつけが必要だろう？」,,"phải dạy dỗ cho thật đau, nhỉ?」"
+S0512,story,23,0x788A04,op29@0x788988,30,「くそっ、逃がしてたまるか！」,,"「Chết tiệt, không để ngươi thoát đâu!」"
+S0513,story,24,0x788F08,op29@0x788A98,14,「ここは・・・,,「Đây là... phòng riêng của Myna sao?」
+S0514,story,24,0x788F18,op29@0x788AA0,22,　マイナーの私室か？」,,
+S0515,story,24,0x788F30,op29@0x788ABC,30,「ここの補助ブレーキを使えば、,,「Dùng phanh phụ ở đây có
+S0516,story,24,0x788F50,op29@0x788AC4,30,　列車も止まるかもしれないな」,,khi dừng được đoàn tàu.」
+S0517,story,24,0x788F70,op29@0x788ACC,12,「よしっ！」,,「Được!」
+S0518,story,24,0x788F80,op29@0x788AF0,24,『キキキキキィィィィィ』,,『KÉÉÉÉÉÉÉT』
+S0519,story,24,0x788F9C,op29@0x788B1C,30,「・・・うまくいったみたいだ」,,「...Hình như thành công rồi.」
+S0520,story,24,0x788FBC,op29@0x788B40 op29@0x788B48,18,　　　　　　　　・,,.
+S0521,story,24,0x788FD0,op29@0x788B74,16,「ビリーっ！！」,,「Billy!!」
+S0522,story,24,0x788FE4,op29@0x788BA0,14,「メイベルっ！,,「Mabel! Doc!」
+S0523,story,24,0x788FF4,op29@0x788BA8,12,　ドクっ！」,,
+S0524,story,24,0x789004,op29@0x788BCC,16,「こんにゃろー、,,"「Thằng quỷ này, làm tốt lắm~」"
+S0525,story,24,0x789018,op29@0x788BD4,24,　うまくやりやがってー」,,
+S0526,story,24,0x789034,op29@0x788BF8,20,「ああ、なんとかね。,,"「Ừ, cũng tạm. Nhưng để Perla"
+S0527,story,24,0x78904C,op29@0x788C00,36,　でもペルノグラには逃げられた・・」,,Negra chạy mất rồi...」
+S0528,story,24,0x789074,op29@0x788C24,32,「な～に、列車は止まってるんだ」,,"「Lo gì~, tàu đã dừng rồi mà.」"
+S0529,story,24,0x789098,op29@0x788C40,26,「こんな砂漠の真ん中じゃ、,,"「Giữa sa mạc thế này,"
+S0530,story,24,0x7890B4,op29@0x788C48,20,　逃げ場はないぜ！」,,chúng hết đường chạy!」
+S0531,story,24,0x7890CC,op29@0x788C74,10,「おやっ？,,「Ồ? Cái này là...」
+S0532,story,24,0x7890D8,op29@0x788C7C,18,　コイツは・・・」,,
+S0533,story,24,0x7890EC,op29@0x788CA0,34,「ビリー、またチップが落ちてるぜ。,,"「Billy, lại có chip rơi nè."
+S0534,story,24,0x789110,op29@0x788CA8,28,　新しいやつじゃねーのか？」,,Không phải loại mới à?」
+S0535,story,24,0x789130,op29@0x788CCC,20,「なんだろう・・・」,,「Cái gì đây nhỉ...」
+S0536,story,24,0x789148,op29@0x788D00,30,「ソノチップハ『サーペント』。,,「CHIP ĐÓ LÀ 『SERPENT』. GỒM
+S0537,story,24,0x789168,op29@0x788D08,32,　地ヲハウ攻撃デ構成サレテイル」,,CÁC ĐÒN TẤN CÔNG SÁT ĐẤT.」
+S0538,story,24,0x78918C,op29@0x788D2C,10,「・・・。,,"「.... Tự dưng lên tiếng, con này.」"
+S0539,story,24,0x789198,op29@0x788D34,28,　急にしゃべるわね、このコ」,,
+S0540,story,24,0x7891B8,op29@0x788D80,16,『ガッタン・・・,,『Xình xịch... xình xịch...』
+S0541,story,24,0x7891CC,op29@0x788D88,18,　ガッタン・・・』,,
+S0542,story,24,0x7891E0,op29@0x788DB4,22,「きゃっ！　な、なに？,,「Á! G-gì vậy? Toa tàu chạy rồi kìa!」
+S0543,story,24,0x7891F8,op29@0x788DBC,30,　動き出したわよ、この車両！」,,
+S0544,story,24,0x789218,op29@0x788DE0,14,「ちきしょー、,,"「Khốn kiếp, lũ Perla Negra chết tiệt!」"
+S0545,story,24,0x789228,op29@0x788DE8,22,　ペルノグラのヤロー」,,
+S0546,story,24,0x789240,op29@0x788DF0,22,「ブレーキのある車両を,,「Chúng tách toa có phanh ra rồi!」
+S0547,story,24,0x789258,op29@0x788DF8,22,　切り離しやがった！」,,
+S0548,story,24,0x789270,op29@0x788E00,30,「これじゃ、コスモポリタンまで,,「Thế này thì tàu sẽ lao thẳng
+S0549,story,24,0x789290,op29@0x788E08,22,　突っ走られちまう！」,,tới Cosmopolitan mất!」
+S0550,story,24,0x7892A8,op29@0x788E2C,16,「どうするの！？,,「Làm sao đây!? Thế này
+S0551,story,24,0x7892BC,op29@0x788E34,34,　このままじゃ敵に捕まっちゃう！」,,thì bị địch bắt mất!」
+S0552,story,24,0x7892E0,op29@0x788E58,14,「こうなったら,,「Đến nước này chỉ còn cách
+S0553,story,24,0x7892F0,op29@0x788E60,30,　動力部を破壊するしかない！」,,phá bộ phận động lực!」
+S0554,story,24,0x789310,op29@0x788E68,14,「行くぞっ！」,,「Đi thôi!」
+S0555,story,24,0x789320,op29@0x788EC8,16,『サーペント』の,,Nhận được chip kỹ năng 『Serpent』.
+S0556,story,24,0x789334,op29@0x788ED0,28,　スキルチップを手に入れた。,,
+S0557,story,25,0x789A8C,op29@0x7893C8,26,「おーい、待ってくれぇ～」,,"「Ơi, đợi đã~」"
+S0558,story,25,0x789AA8,op29@0x7893E4,28,「置いて行かないでくれよぉ」,,「Đừng bỏ tôi lại mà~」
+S0559,story,25,0x789AC8,op29@0x789408,26,「マイナー・マイナー！！」,,「Myna Myna!!」
+S0560,story,25,0x789AE4,op29@0x789424,14,「はぁ、はぁ、,,"「Hộc, hộc, cậu đã cứu tôi phải không?」"
+S0561,story,25,0x789AF4,op29@0x78942C,30,　キミが助けてくれたんだろ？」,,
+S0562,story,25,0x789B14,op29@0x789434,34,「でも、置いてけぼりはひどいなぁ」,,「Nhưng bỏ tôi lại thì ác quá đi.」
+S0563,story,25,0x789B38,op29@0x789450,36,「目が覚めて、あぜんとしちゃったよ」,,「Tỉnh dậy mà tôi ngớ cả người.」
+S0564,story,25,0x789B60,op29@0x789474,10,「？？？」,,「???」
+S0565,story,25,0x789B6C,op29@0x789498,22,「ペルノグラが抜けて、,,"「Perla Negra thoát ra, hắn trở"
+S0566,story,25,0x789B84,op29@0x7894A0,26,　元の人間に戻ったのか？」,,lại thành người rồi sao?」
+S0567,story,25,0x789BA0,op29@0x7894BC,32,「あの、握手してくれないかな？」,,"「À, bắt tay tôi một cái được không?」"
+S0568,story,25,0x789BC4,op29@0x7894D8,26,「あらためてお礼を言うよ、,,「Một lần nữa tôi xin
+S0569,story,25,0x789BE0,op29@0x7894E0,20,　ありがとう・・・」,,"cảm ơn, cảm ơn cậu...」"
+S0570,story,25,0x789BF8,op29@0x78951C,20,「なんてなーっ！！」,,「Đùa đấyyy!!」
+S0571,story,25,0x789C10,op29@0x789548,14,「きゃあ！！」,,「Kyaa!!」
+S0572,story,25,0x789C20,op29@0x78956C,16,「メイベル！！」,,「Mabel!!」
+S0573,story,25,0x789C34,op29@0x789590,18,「ひゃーはっはー、,,"「Hya ha ha, còn non lắm nhóc ạ.」"
+S0574,story,25,0x789C48,op29@0x789598,24,　まだまだ青いねぇ坊主」,,
+S0575,story,25,0x789C64,op29@0x7895BC,18,「こんな三文芝居に,,「Bị lừa dễ dàng bởi màn kịch
+S0576,story,25,0x789C78,op29@0x7895C4,36,　あっさりとだまされるなんてなぁー」,,rẻ tiền thế này cơ đấy~」
+S0577,story,25,0x789CA0,op29@0x7895E8,24,「マイナー・マイナーっ！,,「Myna Myna! Thằng khốn!!」
+S0578,story,25,0x789CBC,op29@0x7895F0,16,　きさまぁ！！」,,
+S0579,story,25,0x789CD0,op29@0x789614,30,「おおっと、動くんじゃねーぜ」,,"「Ối chà, đứng yên đấy.」"
+S0580,story,25,0x789CF0,op29@0x789630,30,「そっから一歩でも動いてみな」,,「Thử nhúc nhích một bước xem nào.」
+S0581,story,25,0x789D10,op29@0x78964C,26,「嬢ちゃんのかわいい顔に、,,「Khuôn mặt xinh xắn của cô bé
+S0582,story,25,0x789D2C,op29@0x789654,28,　みにくーい傷あとがつくぜ」,,sẽ có vết sẹo xấu xí đấy.」
+S0583,story,25,0x789D4C,op29@0x789678,32,「さて、まずはそのやっかいな銃を,,"「Rồi, trước tiên vứt khẩu"
+S0584,story,25,0x789D70,op29@0x789680,28,　ポイッと捨ててもらおうか」,,súng phiền phức đó đi nào.」
+S0585,story,25,0x789D90,op29@0x7896A4,12,「こいつは、,,「Khẩu súng này không làm
+S0586,story,25,0x789DA0,op29@0x7896AC,32,　人を傷つけられる銃じゃない！」,,người bị thương được!」
+S0587,story,25,0x789DC4,op29@0x7896C8,14,「そんなこと、,,「Ai mà tin chuyện đó chứ.」
+S0588,story,25,0x789DD4,op29@0x7896D0,28,　信じられるわけねーだろが」,,
+S0589,story,25,0x789DF4,op29@0x7896EC,28,「ほれっ、さっさと捨てな！」,,"「Nào, vứt mau!」"
+S0590,story,25,0x789E14,op29@0x789710,12,「くそっ！」,,「Chết tiệt!」
+S0591,story,25,0x789E24,op29@0x789734,22,「さてと、ちゃっちゃと,,"「Rồi, giờ thì chết nhanh"
+S0592,story,25,0x789E3C,op29@0x78973C,30,　死んでもらっちゃおうかねぇ」,,gọn giùm cái nhé.」
+S0593,story,25,0x789E5C,op29@0x789744,28,「恨むんなら、マヌケな自分を,,「Muốn oán thì oán bản thân
+S0594,story,25,0x789E7C,op29@0x78974C,20,　うらむんだなぁ！」,,ngu ngốc của mày ấy!」
+S0595,story,25,0x789E94,op29@0x789780,14,「ソコまでダ」,,「DỪNG Ở ĐÓ.」
+S0596,story,25,0x789EA4,op29@0x7897A4,18,「なにぃぃぃぃ！」,,「Cái gìiii!」
+S0597,story,25,0x789EB8,op29@0x7897C0,12,「クラえ！」,,「NHẬN LẤY!」
+S0598,story,25,0x789EC8,op29@0x789824,30,「ひぃぃぃぃぃ・・・あがぁ！」,,「Hiiiii... ặc!」
+S0599,story,25,0x789EE8,op29@0x7898D0,18,「・・・ぐふっ！」,,「...Hự!」
+S0600,story,25,0x789EFC,op29@0x7898F4,16,「ヤツめ・・・、,,「Tên đó... đã để lại món
+S0601,story,25,0x789F10,op29@0x7898FC,36,　シっかり置キ土産を刻ンデいっタカ」,,quà kỷ niệm thật rồi.」
+S0602,story,25,0x789F38,op29@0x789920,34,「おまえは、あの時のペルノグラ！」,,「Ngươi là Perla Negra lúc đó!」
+S0603,story,25,0x789F5C,op29@0x78993C,30,「どうして俺たちを助けた！？」,,「Sao lại cứu bọn ta!?」
+S0604,story,25,0x789F7C,op29@0x789960,18,「気にスルな少年、,,"「Đừng bận tâm, cậu bé."
+S0605,story,25,0x789F90,op29@0x789968,20,　コレは私の役目ダ」,,Đây là nhiệm vụ của ta.」
+S0606,story,25,0x789FA8,op29@0x78998C,32,「隊長、ご命令ヲ最後まで守レズ、,,"「Đội trưởng, thuộc hạ không giữ trọn"
+S0607,story,25,0x789FCC,op29@0x789994,36,　申シ訳、あり、マ・・・セン・・・」,,"mệnh lệnh... xin, thứ, lỗi...」"
+S0608,story,25,0x789FF4,op29@0x789A48,16,「あああ・・・」,,「A a a...」
+S0609,story,26,0x78A180,op29@0x78A074,30,「ククククク・・・。よくもまあ,,「Khà khà khà... Vậy mà cũng
+S0610,story,26,0x78A1A0,op29@0x78A07C,26,　ここまで来たもんだねぇ」,,mò được tới tận đây cơ à.」
+S0611,story,26,0x78A1BC,op29@0x78A084,8,「俺様、,,「Đại gia đây phải nhìn mày
+S0612,story,26,0x78A1C8,op29@0x78A08C,34,　ちょーっとだけ見直しちまったぜ」,,bằng con mắt khác đấy.」
+S0613,story,26,0x78A1EC,op29@0x78A094,32,「無鉄砲だけがとりえのお子様かと,,「Tưởng là nhóc con chỉ được cái
+S0614,story,26,0x78A210,op29@0x78A09C,34,　思っていたが、なかなかどーして」,,"liều, ai ngờ cũng ra gì phết.」"
+S0615,story,26,0x78A234,op29@0x78A0C0,14,「ペルノグラ！,,「Perla Negra! Ngươi ở đâu! Ra mặt đi!」
+S0616,story,26,0x78A244,op29@0x78A0C8,26,　どこだ！　姿を見せろ！」,,
+S0617,story,26,0x78A260,op29@0x78A0E4,28,「そうあせんなさんなっての」,,「Đừng có nóng vội thế chứ.」
+S0618,story,26,0x78A280,op29@0x78A100,26,「こらえ性がないところは、,,「Cái tính nóng nảy đó
+S0619,story,26,0x78A29C,op29@0x78A108,24,　やっぱりお子様だねぇ」,,đúng là con nít mà.」
+S0620,story,26,0x78A2B8,op29@0x78A110,32,「その腕前と度胸に敬意を表して、,,「Để tỏ lòng kính trọng tay nghề và lá
+S0621,story,26,0x78A2DC,op29@0x78A118,32,　ちゃんと相手をしてやっからよ」,,"gan của mày, tao sẽ đấu đàng hoàng.」"
+S0622,story,26,0x78A300,op29@0x78A13C,18,「行くぜ、坊主！」,,"「Tới đây, nhóc!」"
+S0623,story,27,0x78A4CC,op29@0x78A444,30,「また、力が流れ込んでくる！」,,「Lại có sức mạnh tràn vào!」
+S0624,story,27,0x78A4EC,op29@0x78A468,32,「・・・メタルガンが震えている。,,「...Metalgun đang run lên.
+S0625,story,27,0x78A510,op29@0x78A470,30,　よ、よろこんでいるのか！？」,,N-nó đang vui sướng sao!?」
+S0626,story,28,0x78AEA4,op29@0x78A59C,26,『キキキキキー、ガチャン』,,『KÉÉÉÉT... RẦM』
+S0627,story,28,0x78AEC0,op29@0x78A5C0,26,「列車・・・止まったの？」,,「Tàu... dừng rồi à?」
+S0628,story,28,0x78AEDC,op29@0x78A5E4,14,「ヒャッホー！,,「Yahoo! Thành công mỹ mãn! Billy!」
+S0629,story,28,0x78AEEC,op29@0x78A5EC,28,　大成功じゃん！　ビリー！」,,
+S0630,story,28,0x78AF0C,op29@0x78A610,14,「・・・うん」,,「...Ừ.」
+S0631,story,28,0x78AF1C,op29@0x78A634,12,「ビリー？」,,「Billy?」
+S0632,story,28,0x78AF2C,op29@0x78A690,30,「うーん、まだ体が揺れてるぜ」,,"「Ư~, người vẫn còn lắc lư đây.」"
+S0633,story,28,0x78AF4C,op29@0x78A6B4,12,「そうそう、,,"「À phải, như lệ thường, tớ"
+S0634,story,28,0x78AF5C,op29@0x78A6BC,30,　恒例のチップ、拾っといたぜ」,,nhặt chip giùm rồi nè.」
+S0635,story,28,0x78AF7C,op29@0x78A6C4,18,「今度は何だろ？」,,「Lần này là gì đây?」
+S0636,story,28,0x78AF90,op29@0x78A6E8,12,「すごいわ！,,「Tuyệt quá! Là chip kỹ năng 『Dragon』.」
+S0637,story,28,0x78AFA0,op29@0x78A6F0,32,　『ドラゴン』のスキルチップよ」,,
+S0638,story,28,0x78AFC4,op29@0x78A6F8,22,「重攻撃メインだから、,,"「Chủ yếu là đòn nặng, nên dùng"
+S0639,story,28,0x78AFDC,op29@0x78A700,30,　取り扱いには十分注意してね」,,phải hết sức cẩn thận nhé.」
+S0640,story,28,0x78AFFC,op29@0x78A724,16,「フェイさん！」,,「Chị Fay!」
+S0641,story,28,0x78B010,op29@0x78A748,22,「はぁい。お疲れさま」,,「Chào cả nhà. Vất vả rồi.」
+S0642,story,28,0x78B028,op29@0x78A76C,24,「・・・ごめんなさいね。,,「...Xin lỗi các em nhé. Lần
+S0643,story,28,0x78B044,op29@0x78A774,34,　今回は任せっきりにしてしまって」,,này để các em gánh hết.」
+S0644,story,28,0x78B068,op29@0x78A798,28,「いえいえ、全然ＯＫっす！」,,"「Không sao không sao, hoàn toàn OK ạ!」"
+S0645,story,28,0x78B088,op29@0x78A7BC,10,「ドクは、,,「Doc có làm được gì đâu mà nói!」
+S0646,story,28,0x78B094,op29@0x78A7C4,30,　なんにもやってないくせに！」,,
+S0647,story,28,0x78B0B4,op29@0x78A7F8,22,「すぐで悪いんだけど、,,"「Vừa xong đã nhờ thì ngại, nhưng"
+S0648,story,28,0x78B0CC,op29@0x78A800,30,　次の作戦も手伝って欲しいの」,,giúp chị chiến dịch tiếp theo nhé.」
+S0649,story,28,0x78B0EC,op29@0x78A824,32,「コスモポリタンを攻略するのに、,,"「Để tấn công Cosmopolitan, chị muốn"
+S0650,story,28,0x78B110,op29@0x78A82C,30,　西側からの遊撃を頼みたいの」,,nhờ các em đánh du kích từ phía tây.」
+S0651,story,28,0x78B130,op29@0x78A834,20,「その混乱に乗じて、,,"「Nhân lúc hỗn loạn, bọn chị"
+S0652,story,28,0x78B148,op29@0x78A83C,32,　私たちは中枢へと侵入を図るわ」,,sẽ đột nhập vào trung tâm.」
+S0653,story,28,0x78B16C,op29@0x78A844,8,「どう？,,「Thế nào? Các em giúp chị được không?」
+S0654,story,28,0x78B178,op29@0x78A84C,28,　やってもらえないかしら？」,,
+S0655,story,28,0x78B198,op29@0x78A888,16,「・・・・・・」,,「......」
+S0656,story,28,0x78B1AC,op29@0x78A8AC,16,「ビリーくん？」,,「Billy?」
+S0657,story,28,0x78B1C0,op29@0x78A8D0,36,「フェイさん、俺がここまで来れたのは,,"「Chị Fay, em đến được đây có"
+S0658,story,28,0x78B1E8,op29@0x78A8D8,32,　本当に自分自身の力なのかな？」,,thật là nhờ sức mình không?」
+S0659,story,28,0x78B20C,op29@0x78A8FC,36,「なんていうか、銃に引きずられている,,"「Nói sao nhỉ, em có cảm giác"
+S0660,story,28,0x78B234,op29@0x78A904,18,　感じがあるんだ」,,như đang bị khẩu súng lôi đi.」
+S0661,story,28,0x78B248,op29@0x78A90C,30,「正直言って怖いよ、俺・・・」,,"「Nói thật, em sợ lắm...」"
+S0662,story,28,0x78B268,op29@0x78A928,22,「戦いを続けることも、,,「Sợ phải tiếp tục chiến
+S0663,story,28,0x78B280,op29@0x78A930,22,　これ以上進むことも」,,"đấu, sợ phải tiến xa hơn.」"
+S0664,story,28,0x78B298,op29@0x78A954,32,「・・・サムに向かって行った時の,,「...Cái em lúc lao vào
+S0665,story,28,0x78B2BC,op29@0x78A95C,36,　あなたはどこへ行ってしまったの？」,,Sam đi đâu mất rồi?」
+S0666,story,28,0x78B2E4,op29@0x78A980,36,「心配しないで。あなたの力は本物よ。,,「Đừng lo. Sức mạnh của em là
+S0667,story,28,0x78B30C,op29@0x78A988,30,　ホークにだって負けてないわ」,,thật. Chẳng thua gì Hawk đâu.」
+S0668,story,28,0x78B32C,op29@0x78A9AC,12,「ホーク？」,,「Hawk?」
+S0669,story,28,0x78B33C,op29@0x78A9D0,18,「自信持ちなさい。,,"「Tự tin lên. Nào, đứng thẳng lên!」"
+S0670,story,28,0x78B350,op29@0x78A9D8,26,　ほらっ、しゃんとして！」,,
+S0671,story,28,0x78B36C,op29@0x78A9E0,34,「あなたに期待している人は多いの。,,「Có nhiều người đặt kỳ vọng vào
+S0672,story,28,0x78B390,op29@0x78A9E8,34,　弱気になってないで、頑張って！」,,"em. Đừng nhụt chí, cố lên!」"
+S0673,story,28,0x78B3B4,op29@0x78AA14,36,「いいかげんなこと、言わないでよ！」,,「Đừng có nói vô trách nhiệm thế!」
+S0674,story,28,0x78B3DC,op29@0x78AA40,18,「メイベル・・・」,,「Mabel...」
+S0675,story,28,0x78B3F0,op29@0x78AA6C,14,「いつもいつも,,「Lúc nào cũng toàn lời đường mật!」
+S0676,story,28,0x78B400,op29@0x78AA74,28,　調子のいい言葉ばっかり！」,,
+S0677,story,28,0x78B420,op29@0x78AA7C,26,「そうやってまた、ビリーを,,「Rồi lại định đẩy Billy vào
+S0678,story,28,0x78B43C,op29@0x78AA84,36,　危険な目にあわせようとするのね！」,,nguy hiểm nữa chứ gì!」
+S0679,story,28,0x78B464,op29@0x78AA8C,30,「もう、いいかげんにして！！」,,「Đủ rồi đấy!!」
+S0680,story,28,0x78B484,op29@0x78AAB8,32,「メイベルちゃん、でもね・・・」,,"「Mabel à, nhưng mà...」"
+S0681,story,28,0x78B4A8,op29@0x78AADC,30,「そんなこと、あなたたちだけで,,「Chuyện đó các người tự làm
+S0682,story,28,0x78B4C8,op29@0x78AAE4,34,　やればいいのよ。強いんだから！」,,đi. Các người mạnh lắm mà!」
+S0683,story,28,0x78B4EC,op29@0x78AAEC,26,「私たちを巻きこまなくても,,「Đâu cần phải lôi bọn tôi vào chứ!」
+S0684,story,28,0x78B508,op29@0x78AAF4,18,　いいじゃない！」,,
+S0685,story,28,0x78B51C,op29@0x78AAFC,36,「もう、うんざりよ！　こんな戦い！」,,「Chán lắm rồi! Cuộc chiến này!」
+S0686,story,28,0x78B544,op29@0x78AB20,10,「・・・」,,「...」
+S0687,story,28,0x78B550,op29@0x78AB44,14,「フェイさん、,,"「Chị Fay, em sẽ làm.」"
+S0688,story,28,0x78B560,op29@0x78AB4C,16,　俺、やります」,,
+S0689,story,28,0x78B574,op29@0x78AB70,16,「ビリーっ！？」,,「Billy!?」
+S0690,story,28,0x78B588,op29@0x78AB94,32,「メイベルの言葉で吹っ切れたよ」,,「Nhờ lời Mabel mà tớ hết lấn cấn rồi.」
+S0691,story,28,0x78B5AC,op29@0x78ABB8,12,「ホントは、,,「Thật ra tớ vẫn còn hơi sợ một chút.」
+S0692,story,28,0x78B5BC,op29@0x78ABC0,30,　まだちょっと怖いんだけどね」,,
+S0693,story,28,0x78B5DC,op29@0x78ABC8,34,「ずっと『何でこんな気味の悪い力が,,「Tớ cứ nghĩ mãi 『Sao lại có thứ
+S0694,story,28,0x78B600,op29@0x78ABD0,22,　ここにあるんだろう』,,"sức mạnh ghê rợn thế này』,」"
+S0695,story,28,0x78B618,op29@0x78ABD8,34,『ペルノグラを倒すだけの力なんて、,,『Sức mạnh chỉ để diệt Perla
+S0696,story,28,0x78B63C,op29@0x78ABE0,36,　他には何も生まないじゃないか』・・,,Negra thì đâu tạo ra được gì
+S0697,story,28,0x78B664,op29@0x78ABE8,26,　・・・なんて、考えてた」,,khác』... tớ cứ nghĩ vậy đấy.」
+S0698,story,28,0x78B680,op29@0x78AC0C,20,「だけど、その力を、,,「Nhưng việc tớ đang nắm giữ sức
+S0699,story,28,0x78B698,op29@0x78AC14,36,　今、この時に俺が持っている事には、,,"mạnh đó, vào đúng lúc này,"
+S0700,story,28,0x78B6C0,op29@0x78AC1C,24,　意味があると思うんだ」,,chắc hẳn phải có ý nghĩa.」
+S0701,story,28,0x78B6DC,op29@0x78AC38,36,「だからって、ビリーが全部せおう事は,,"「Dù vậy, đâu cần Billy"
+S0702,story,28,0x78B704,op29@0x78AC40,18,　ないじゃない！」,,gánh hết mọi thứ!」
+S0703,story,28,0x78B718,op29@0x78AC64,18,「うん、だからさ、,,"「Ừ, nên là chuyện to tát như"
+S0704,story,28,0x78B72C,op29@0x78AC6C,36,　人々を救おうなんて立派でスゴイ事は,,"cứu giúp mọi người, tớ giao"
+S0705,story,28,0x78B754,op29@0x78AC74,28,　フェイさんたちに任せるよ」,,cho chị Fay và mọi người.」
+S0706,story,28,0x78B774,op29@0x78AC90,22,「俺は、そのお手伝い」,,「Tớ chỉ phụ giúp thôi.」
+S0707,story,28,0x78B78C,op29@0x78ACB4,24,「俺は、俺にできる事を、,,「Tớ đã quyết định sẽ làm
+S0708,story,28,0x78B7A8,op29@0x78ACBC,26,　その時のめいっぱいの力で,,"những gì mình làm được, bằng"
+S0709,story,28,0x78B7C4,op29@0x78ACC4,22,　やるって決めたんだ」,,toàn bộ sức lực lúc đó.」
+S0710,story,28,0x78B7DC,op29@0x78ACE8,24,「心は決まったようだな」,,「Có vẻ cậu đã quyết rồi.」
+S0711,story,28,0x78B7F8,op29@0x78AD0C,8,「！！」,,「!!」
+S0712,story,28,0x78B804,op29@0x78AD30,16,「ホーク・・・」,,「Hawk...」
+S0713,story,28,0x78B818,op29@0x78AD54,36,「ねえ、ここまで来たら私たちだけでも,,"「Này, đến nước này rồi, chỉ bọn"
+S0714,story,28,0x78B840,op29@0x78AD5C,32,　何とかなるんじゃないかしら？」,,mình chắc cũng xoay xở được chứ?」
+S0715,story,28,0x78B864,op29@0x78AD64,24,「無理にビリーくんたちを,,「Đâu cần cố lôi Billy
+S0716,story,28,0x78B880,op29@0x78AD6C,26,　引き込まなくても・・・」,,và các bạn vào...」
+S0717,story,28,0x78B89C,op29@0x78AD90,26,「自分で戦うと決めたんだ」,,「Cậu ta tự quyết định chiến đấu.」
+S0718,story,28,0x78B8B8,op29@0x78ADAC,30,「その決意に口をはさむ権利は、,,「Không ai có quyền xen
+S0719,story,28,0x78B8D8,op29@0x78ADB4,14,　誰にもない」,,vào quyết tâm đó.」
+S0720,story,28,0x78B8E8,op29@0x78ADD8,16,「行くぞ・・・。,,「Đi thôi... Để kết thúc tất cả!」
+S0721,story,28,0x78B8FC,op29@0x78ADE0,24,　全ての決着をつけに！」,,
+S0722,story,28,0x78B918,op29@0x78AE04,12,「はいっ！」,,「Vâng!」
+S0723,story,28,0x78B928,op29@0x78AE64,14,『ドラゴン』の,,Nhận được chip kỹ năng 『Dragon』.
+S0724,story,28,0x78B938,op29@0x78AE6C,28,　スキルチップを手に入れた。,,
+S0725,story,29,0x78BC60,op29@0x78B9CC,32,「ビリー、あとはホークさんたちに,,"「Billy, còn lại giao cho anh"
+S0726,story,29,0x78BC84,op29@0x78B9D4,34,　任せて、おいらたちは脱出しよう」,,"Hawk, bọn mình thoát ra thôi.」"
+S0727,story,29,0x78BCA8,op29@0x78B9DC,18,「いくらなんでも、,,「Dù gì thì ở lại nữa nguy lắm đấy!」
+S0728,story,29,0x78BCBC,op29@0x78B9E4,24,　これ以上はやばいぜ！」,,
+S0729,story,29,0x78BCD8,op29@0x78BA08,14,「・・・ドク。,,「...Doc. Dẫn Mabel đi trước đi.」
+S0730,story,29,0x78BCE8,op29@0x78BA10,34,　メイベルを連れて先に行ってくれ」,,
+S0731,story,29,0x78BD0C,op29@0x78BA34,28,「俺は最後まで見届けてくる」,,「Tớ sẽ ở lại chứng kiến đến cùng.」
+S0732,story,29,0x78BD2C,op29@0x78BA58,20,「なに言ってるのよ！,,「Cậu nói gì vậy! Đừng
+S0733,story,29,0x78BD44,op29@0x78BA60,30,　バカも休み休み言いなさい！」,,có nói ngớ ngẩn!」
+S0734,story,29,0x78BD64,op29@0x78BA68,18,「ビリーの力じゃ、,,「Với sức của Billy thì chỉ
+S0735,story,29,0x78BD78,op29@0x78BA70,34,　足手まといにしかならないわよ！」,,vướng chân người ta thôi!」
+S0736,story,29,0x78BD9C,op29@0x78BA94,30,「これから先は、ただの自己満足,,"「Từ giờ trở đi, có khi chỉ"
+S0737,story,29,0x78BDBC,op29@0x78BA9C,20,　かもしれないけど」,,"là tự thỏa mãn bản thân,」"
+S0738,story,29,0x78BDD4,op29@0x78BAA4,14,「今の俺には、,,"「nhưng tớ nghĩ, với tớ bây giờ,"
+S0739,story,29,0x78BDE4,op29@0x78BAAC,32,　たぶん必要なことだと思うんだ」,,chắc đó là việc cần làm.」
+S0740,story,29,0x78BE08,op29@0x78BAD0,32,「自分自身で決めたことだからさ」,,「Vì đây là điều tớ tự quyết định mà.」
+S0741,story,29,0x78BE2C,op29@0x78BAF4 op29@0x78BBA4,10,「・・・」,,「...」
+S0742,story,29,0x78BE38,op29@0x78BB18,24,「わかった。止めねーよ。,,「Hiểu rồi. Không cản nữa. Cứ
+S0743,story,29,0x78BE54,op29@0x78BB20,30,　満足するまで突っ走ってきな」,,lao đi cho đến khi thỏa mãn.」
+S0744,story,29,0x78BE74,op29@0x78BB44,14,「ドクっ！？」,,「Doc!?」
+S0745,story,29,0x78BE84,op29@0x78BB68,22,「自分で決めたんなら、,,「Đã tự quyết thì phải làm đến
+S0746,story,29,0x78BE9C,op29@0x78BB70,36,　最後までやり通すのが男ってもんだ」,,"cùng, thế mới là đàn ông.」"
+S0747,story,29,0x78BEC4,op29@0x78BB78,32,「でも、何かあったら絶対呼べよ。,,「Nhưng có chuyện gì thì nhất định
+S0748,story,29,0x78BEE8,op29@0x78BB80,30,　すぐにかけつけてやるから！」,,phải gọi đấy. Tớ sẽ chạy tới ngay!」
+S0749,story,29,0x78BF08,op29@0x78BBD0,24,「無事に戻ってこないと、,,「Không trở về an toàn thì
+S0750,story,29,0x78BF24,op29@0x78BBD8,26,　一生許さないんだから！」,,cả đời tớ không tha đâu!」
+S0751,story,29,0x78BF40,op29@0x78BBF4,8,「うん」,,「Ừ.」
+S0752,story,29,0x78BF4C,op29@0x78BC18,14,「行ってくる」,,「Tớ đi đây.」
+S0753,story,30,0x78C288,op29@0x78BFD0,6,「ん？,,「Hửm? Có ai ở đó sao!?」
+S0754,story,30,0x78C290,op29@0x78BFD8,22,　誰か、いるのか！？」,,
+S0755,story,30,0x78C2A8,op29@0x78BFFC,36,「ほう、何やら騒がしいと見にくれば、,,"「Hừm, thấy ồn ào tới xem thử, hóa"
+S0756,story,30,0x78C2D0,op29@0x78C004,36,　子ネズミが迷い込んでいたか・・・」,,ra có chuột nhắt lạc vào...」
+S0757,story,30,0x78C2F8,op29@0x78C028,24,「お、お前は・・・！！」,,「Ng-ngươi là...!!」
+S0758,story,30,0x78C314,op29@0x78C044,28,「ダルトン・ナンドヴァル！」,,「Dalton Nandoval!」
+S0759,story,30,0x78C334,op29@0x78C060,32,「ほう、私を知っているようだな」,,"「Ồ, có vẻ ngươi biết ta.」"
+S0760,story,30,0x78C358,op29@0x78C084,36,「人々の英雄で、ペルノグラになっても,,"「Người anh hùng của nhân dân, dù"
+S0761,story,30,0x78C380,op29@0x78C08C,24,　最強の将であり続ける、,,thành Perla Negra vẫn là vị tướng
+S0762,story,30,0x78C39C,op29@0x78C094,36,　将軍ダルトンの名を知らない奴なんて,,mạnh nhất! Ở Alamo này ai mà không
+S0763,story,30,0x78C3C4,op29@0x78C09C,28,　このアラモにいるものか！」,,biết danh tướng quân Dalton!」
+S0764,story,30,0x78C3E4,op29@0x78C0C0,10,「ほほう、,,"「Hừm hừm, cơ thể này nổi"
+S0765,story,30,0x78C3F0,op29@0x78C0C8,30,　この体がそれほど有名とはな」,,tiếng đến vậy cơ à.」
+S0766,story,30,0x78C410,op29@0x78C0EC,24,「このコスモポリタンは、,,「Cosmopolitan này là trung tâm
+S0767,story,30,0x78C42C,op29@0x78C0F4,26,　我らペルノグラの中枢だ」,,của Perla Negra chúng ta.」
+S0768,story,30,0x78C448,op29@0x78C0FC,22,「当然、私がいることも,,「Lẽ ra ngươi phải đoán được
+S0769,story,30,0x78C460,op29@0x78C104,30,　予想できたであろうに・・・」,,là ta có mặt ở đây...」
+S0770,story,30,0x78C480,op29@0x78C10C,22,「敵の強さを知りつつ、,,"「Biết rõ kẻ địch mạnh, vậy"
+S0771,story,30,0x78C498,op29@0x78C114,34,　それでもなお、死地へとおもむく」,,mà vẫn lao vào đất chết.」
+S0772,story,30,0x78C4BC,op29@0x78C138,20,「人間という種族は、,,「Giống loài gọi là con
+S0773,story,30,0x78C4D4,op29@0x78C140,28,　なかなか興味深いものだな」,,người quả thật thú vị.」
+S0774,story,30,0x78C4F4,op29@0x78C148,14,「お前にしろ、,,"「Ngươi cũng vậy, Oldman cũng vậy...」"
+S0775,story,30,0x78C504,op29@0x78C150,28,　オールドマンにしろ・・・」,,
+S0776,story,30,0x78C524,op29@0x78C174,16,「オールドマン？,,「Oldman? Ý ngươi là Sam Oldman!?」
+S0777,story,30,0x78C538,op29@0x78C17C,32,　サム・オールドマンの事か！？」,,
+S0778,story,30,0x78C55C,op29@0x78C184,32,「あいつはペルノグラじゃ・・・」,,「Hắn chẳng phải Perla Negra sao...」
+S0779,story,30,0x78C580,op29@0x78C1A8,26,「・・・知らないようだな。,,「...Có vẻ ngươi không biết.
+S0780,story,30,0x78C59C,op29@0x78C1B0,16,　奴は人間だぞ」,,Hắn là con người đấy.」
+S0781,story,30,0x78C5B0,op29@0x78C1B8,36,「本人は隠しているつもりだろうがな」,,「Dù hắn tưởng mình giấu kỹ lắm.」
+S0782,story,30,0x78C5D8,op29@0x78C1DC,34,「奴は人として人の敵になったのだ。,,「Là người mà thành kẻ thù của người.
+S0783,story,30,0x78C5FC,op29@0x78C1E4,36,　つまり、人間族の裏切り者なのだよ」,,Tức là kẻ phản bội loài người.」
+S0784,story,30,0x78C624,op29@0x78C208,26,「何でそんなことを・・・」,,「Sao lại làm chuyện đó...」
+S0785,story,30,0x78C640,op29@0x78C22C,16,「そんなことは、,,「Chuyện đó thì chẳng quan trọng gì.」
+S0786,story,30,0x78C654,op29@0x78C234,26,　どうでもいいことだがな」,,
+S0787,story,30,0x78C670,op29@0x78C23C,26,「さて、そろそろ害虫駆除を,,"「Nào, bắt đầu diệt sâu bọ thôi.」"
+S0788,story,30,0x78C68C,op29@0x78C244,20,　始めるとしようか」,,
+S0789,story,31,0x78C820,op29@0x78C788,20,「ペルノグラがっ！」,,「Perla Negra!」
+S0790,story,31,0x78C838,op29@0x78C7A4,36,「今度はどこに行くつもりなんだ！？」,,「Lần này định đi đâu nữa đây!?」
+S0791,story,32,0x78C9F0,op29@0x78C8D4,26,「くそっ、逃がすものか！」,,"「Chết tiệt, không để ngươi thoát đâu!」"
+S0792,story,32,0x78CA0C,op29@0x78C900,12,「あれっ？」,,「Ơ?」
+S0793,story,32,0x78CA1C,op29@0x78C91C,20,「何か落ちてる・・・,,「Có gì rơi kìa... ...Huy
+S0794,story,32,0x78CA34,op29@0x78C924,26,　・・・シェリフバッジ？」,,hiệu Cảnh sát trưởng?」
+S0795,story,32,0x78CA50,op29@0x78C948,28,「ペルノグラの士官クラスは、,,「Sĩ quan Perla Negra đứa nào
+S0796,story,32,0x78CA70,op29@0x78C950,34,　必ず持っているものなのか・・・」,,cũng có món này sao...」
+S0797,story,32,0x78CA94,op29@0x78C9B0,16,『ワイアット』の,,Nhận được Huy hiệu Cảnh
+S0798,story,32,0x78CAA8,op29@0x78C9B8,30,　シェリフバッジを手に入れた。,,sát trưởng 『Wyatt』.
+S0799,story,33,0x78D2B8,op29@0x78CBFC,20,「待ちかねたぞ少年」,,"「Ta đợi ngươi lâu lắm rồi, nhóc.」"
+S0800,story,33,0x78D2D0,op29@0x78CC18,26,「先ほどは不覚をとったが、,,"「Lúc nãy ta sơ suất, giờ tái đấu nào.」"
+S0801,story,33,0x78D2EC,op29@0x78CC20,26,　再戦といこうじゃないか」,,
+S0802,story,33,0x78D308,op29@0x78CC28,28,「この“シューター”でな！」,,"「Bằng cỗ ""Shooter"" này!」"
+S0803,story,33,0x78D328,op29@0x78CC4C,36,「そんな鉄のかたまりに何ができる！」,,「Đống sắt vụn đó thì làm được gì!」
+S0804,story,33,0x78D350,op29@0x78CE40,24,「全然、効いてない！？」,,「Hoàn toàn không ăn thua!?」
+S0805,story,33,0x78D36C,op29@0x78CF58,36,「フハハハハ！　そんな貧弱な攻撃で、,,「Ha ha ha! Đòn yếu ớt thế mà đòi
+S0806,story,33,0x78D394,op29@0x78CF60,36,　この身体を破壊できると思ったか！」,,phá được thân thể này sao!」
+S0807,story,33,0x78D3BC,op29@0x78CF94,36,「機械の恩恵を受けているだけのお前が,,「Chỉ nhờ ơn máy móc mà dám
+S0808,story,33,0x78D3E4,op29@0x78CF9C,32,　たいそうな口をきけるものだな」,,nói giọng to tát nhỉ.」
+S0809,story,33,0x78D408,op29@0x78CFB8,28,「貴様の力、奪わせてもらう」,,"「Sức mạnh của ngươi, ta xin lấy.」"
+S0810,story,33,0x78D428,op29@0x78D208,32,「シ、シールドがぁぁぁぁ！！！」,,「L-lá chắn của taaa!!!」
+S0811,story,33,0x78D44C,op29@0x78D224,10,「うぬぬ、,,"「Grừ, phải xử con chuột kia trước!」"
+S0812,story,33,0x78D458,op29@0x78D22C,36,　もう一匹のネズミの始末が先かぁ！」,,
+S0813,story,33,0x78D480,op29@0x78D274,20,「行かせはしないっ！,,「Không cho ngươi đi đâu!
+S0814,story,33,0x78D498,op29@0x78D27C,28,　ここがお前の死に場所だ！」,,Đây là nơi ngươi chết!」
+S0815,story,34,0x78D718,op29@0x78D5E8,8,「くっ、,,"「Hự, sức mạnh khủng"
+S0816,story,34,0x78D724,op29@0x78D5F0,34,　すさまじい力が流れ込んでくる！」,,khiếp đang tràn vào!」
+S0817,story,34,0x78D748,op29@0x78D5F8,26,「今までのペルノグラとは、,,「Lượng sức mạnh khác xa những
+S0818,story,34,0x78D764,op29@0x78D600,24,　力の量がケタ違いだ！」,,Perla Negra trước đây!」
+S0819,story,34,0x78D780,op29@0x78D624,34,「こんな力を吸収したメタルガンは、,,"「Hấp thụ sức mạnh thế này, rồi"
+S0820,story,34,0x78D7A4,op29@0x78D62C,34,　一体どうなってしまうんだ・・・」,,Metalgun sẽ ra sao đây...」
+S0821,story,34,0x78D7C8,op29@0x78D648,26,「ん、シェリフバッジ……。,,"「Hửm, Huy hiệu Cảnh sát trưởng..."
+S0822,story,34,0x78D7E4,op29@0x78D650,36,　ダルトンはふたつも持っていたのか」,,Dalton có tới hai cái sao.」
+S0823,story,34,0x78D80C,op29@0x78D6BC,12,『ダブル』の,,Nhận được Huy hiệu Cảnh
+S0824,story,34,0x78D81C,op29@0x78D6C4,30,　シェリフバッジを手に入れた。,,sát trưởng 『Double』.
+S0825,story,35,0x78DAA0,op29@0x78D8BC,16,「勝った・・・」,,「Thắng rồi...」
+S0826,story,35,0x78DAB4,op29@0x78D8D8,24,「これで終わった・・・」,,「Thế là kết thúc...」
+S0827,story,35,0x78DAD0,op29@0x78D8FC,10,「まだだ」,,「Chưa đâu.」
+S0828,story,35,0x78DADC,op29@0x78D920,10,「！！！」,,「!!!」
+S0829,story,35,0x78DAE8,op29@0x78D93C,32,「ホークさん！　まだって・・・」,,「Anh Hawk! Chưa là sao...」
+S0830,story,35,0x78DB0C,op29@0x78D958,32,「あのダルトンを倒したんですよ！,,「Bọn em đã hạ được Dalton rồi
+S0831,story,35,0x78DB30,op29@0x78D960,22,　後はザコだけ・・・」,,mà! Còn lại toàn lính quèn...」
+S0832,story,35,0x78DB48,op29@0x78D9A4,18,『ドクンッ・・・』,,『THỊCH...』
+S0833,story,35,0x78DB5C,op29@0x78D9C8,18,「メ、メタルガンが,,「M-Metalgun đang run lên...」
+S0834,story,35,0x78DB70,op29@0x78D9D0,20,　震えている・・・」,,
+S0835,story,35,0x78DB88,op29@0x78D9EC,26,「ペルノグラの波動・・・、,,「Có lẽ Metalgun đang cảm nhận
+S0836,story,35,0x78DBA4,op29@0x78D9F4,30,　それもケタ違いに大きなものを,,được làn sóng của Perla Negra...
+S0837,story,35,0x78DBC4,op29@0x78D9FC,34,　メタルガンが感じているのだろう」,,một thứ còn lớn hơn rất nhiều.」
+S0838,story,35,0x78DBE8,op29@0x78DA18,24,「まだ残っている・・・」,,「Vẫn còn một kẻ...」
+S0839,story,35,0x78DC04,op29@0x78DA34,32,「ペルノグラの、親玉とも言うべき,,「Nó cảm nhận được kẻ có thể gọi
+S0840,story,35,0x78DC28,op29@0x78DA3C,22,　存在を感じて・・・」,,là trùm của Perla Negra...」
+S0841,story,35,0x78DC40,op29@0x78DA58,16,「そんな・・・」,,「Không thể nào...」
+S0842,story,36,0x78E160,op29@0x78DCD8,14,「ビリーっ！」,,「Billy!」
+S0843,story,36,0x78E170,op29@0x78DCFC,34,「よかった・・・、無事だったのね。,,"「May quá..., cậu bình an"
+S0844,story,36,0x78E194,op29@0x78DD04,18,　心配しちゃった」,,rồi. Tớ lo quá trời.」
+S0845,story,36,0x78E1A8,op29@0x78DD0C,18,「もう終わりよね？,,「Kết thúc rồi phải không?
+S0846,story,36,0x78E1BC,op29@0x78DD14,24,　家に帰れるんだよね？」,,Mình về nhà được rồi chứ?」
+S0847,story,36,0x78E1D8,op29@0x78DD38 op29@0x78DF7C,10,「・・・」,,「...」
+S0848,story,36,0x78E1E4,op29@0x78DD5C,28,「ねぇっ！　ビリーったら！」,,"「Này! Billy, nói gì đi chứ!」"
+S0849,story,36,0x78E204,op29@0x78DD80,20,「どうしちゃったの？,,「Cậu sao vậy? Có chuyện gì rồi à!?」
+S0850,story,36,0x78E21C,op29@0x78DD88,30,　もしかして何かあったの！？」,,
+S0851,story,36,0x78E23C,op29@0x78DDBC,26,「スピーダーホースを２台、,,「Chuẩn bị giúp tôi hai
+S0852,story,36,0x78E258,op29@0x78DDC4,16,　用意してくれ」,,chiếc Speeder Horse.」
+S0853,story,36,0x78E26C,op29@0x78DDCC,20,「それと運転を頼む」,,「Và nhờ cô lái.」
+S0854,story,36,0x78E284,op29@0x78DDF0,20,「わかったわ・・・。,,"「Chị hiểu rồi... Doc,"
+S0855,story,36,0x78E29C,op29@0x78DDF8,30,　ドクくん、もう一度手伝って」,,giúp chị lần nữa nhé.」
+S0856,story,36,0x78E2BC,op29@0x78DE1C,10,「はいっ！,,「Vâng! Cứ giao cho em!」
+S0857,story,36,0x78E2C8,op29@0x78DE24,20,　任せてください！」,,
+S0858,story,36,0x78E2E0,op29@0x78DE48,12,「ってなに？,,"「Ơ, là sao? Chẳng phải"
+S0859,story,36,0x78E2F0,op29@0x78DE50,28,　終わったんじゃないの！？」,,kết thúc rồi sao!?」
+S0860,story,36,0x78E310,op29@0x78DE84,32,「ビリー、手順はわかっているな」,,"「Billy, cậu nắm rõ cách làm rồi chứ.」"
+S0861,story,36,0x78E334,op29@0x78DEA0,36,「メタルガンから伝わる波動を感じろ。,,「Cảm nhận làn sóng từ Metalgun. Chỉ
+S0862,story,36,0x78E35C,op29@0x78DEA8,26,　頼りは自分の感覚だけだ」,,dựa vào cảm giác của bản thân.」
+S0863,story,36,0x78E378,op29@0x78DEB0,26,「そして強い力の方へ行け。,,「Rồi đi về phía có sức mạnh
+S0864,story,36,0x78E394,op29@0x78DEB8,24,　そこに敵がいるはずだ」,,lớn. Kẻ địch sẽ ở đó.」
+S0865,story,36,0x78E3B0,op29@0x78DEDC,16,「わかりました」,,「Em hiểu rồi.」
+S0866,story,36,0x78E3C4,op29@0x78DF00,14,「ねえ、戦いは,,"「Này, chẳng phải mọi trận"
+S0867,story,36,0x78E3D4,op29@0x78DF08,32,　みんな終わったんじゃないの？」,,chiến đã kết thúc rồi sao?」
+S0868,story,36,0x78E3F8,op29@0x78DF2C,18,「メイベル・・・。,,「Mabel... Xin lỗi. Tớ phải đi rồi.」
+S0869,story,36,0x78E40C,op29@0x78DF34,26,　ごめん。もう行かなきゃ。,,
+S0870,story,36,0x78E428,op29@0x78DF3C,32,「でも、きっとこれが最後だから」,,「Nhưng chắc chắn đây là lần cuối.」
+S0871,story,36,0x78E44C,op29@0x78DF58,28,「終わったらみんなで帰ろう」,,「Xong việc rồi cả bọn cùng về nhé.」
+S0872,story,36,0x78E46C,op29@0x78DF98,10,「ビリーが,,「Đây là điều Billy tự
+S0873,story,36,0x78E478,op29@0x78DFA0,32,　自分で決めたことなんだよね？」,,"quyết định, đúng không?」"
+S0874,story,36,0x78E49C,op29@0x78DFBC,36,「止めたりしちゃ、ダメなんだよね？」,,"「Tớ không được ngăn cản, phải không?」"
+S0875,story,36,0x78E4C4,op29@0x78DFE8,18,「・・・待ってる」,,「...Tớ sẽ đợi.」
+S0876,story,36,0x78E4D8,op29@0x78E004,20,「私、全部終わるの、,,「Tớ sẽ... đợi đến khi
+S0877,story,36,0x78E4F0,op29@0x78E00C,20,　・・・待ってるね」,,mọi chuyện xong.」
+S0878,story,36,0x78E508,op29@0x78E038,30,「この私が待ってるんだからね。,,「Là tớ đây đang đợi đấy nhé.
+S0879,story,36,0x78E528,op29@0x78E040,34,　すぐに終わらせて戻ってきてよ！」,,Làm xong nhanh rồi về đi!」
+S0880,story,36,0x78E54C,op29@0x78E064,18,「メイベル・・・」,,「Mabel...」
+S0881,story,36,0x78E560,op29@0x78E088,24,「無茶・・・しないでね」,,「Đừng... liều mạng nhé.」
+S0882,story,36,0x78E57C,op29@0x78E0C4,24,「はいはい、お二人さん」,,"「Rồi rồi, hai người kia.」"
+S0883,story,36,0x78E598,op29@0x78E0E0,16,「そんなところで,,「Đừng có tạo bầu không khí
+S0884,story,36,0x78E5AC,op29@0x78E0E8,28,　甘い雰囲気を作ってないの」,,ngọt ngào ở chỗ này.」
+S0885,story,36,0x78E5CC,op29@0x78E10C,20,「時間ないんだから、,,"「Không còn thời gian đâu, đi mau nào!」"
+S0886,story,36,0x78E5E4,op29@0x78E114,20,　さっさと行くよ！」,,
+S0887,story,37,0x78EB00,op29@0x78E668,14,「近い・・・」,,「Gần lắm rồi...」
+S0888,story,37,0x78EB10,op29@0x78E6BC op29@0x78E860,10,「！！！」,,「!!!」
+S0889,story,37,0x78EB1C,op29@0x78E6D8,12,「奴かっ！」,,「Là hắn!」
+S0890,story,37,0x78EB2C,op29@0x78E6FC,10,「・・・」,,「...」
+S0891,story,37,0x78EB38,op29@0x78E718,36,「まだ、気付かれていないみたいだな」,,「Có vẻ hắn vẫn chưa phát hiện ra.」
+S0892,story,37,0x78EB60,op29@0x78E73C,22,「一撃で・・・倒す！」,,「Một phát... hạ gục!」
+S0893,story,37,0x78EB78,op29@0x78E768,26,「待てっ！　早まるなっ！」,,「Khoan đã! Đừng hấp tấp!」
+S0894,story,37,0x78EB94,op29@0x78E7D4,20,「遅かったか・・・」,,「Muộn mất rồi sao...」
+S0895,story,37,0x78EBAC,op29@0x78E7F8,14,「ホークさん？,,「Anh Hawk? Rốt cuộc chuyện gì...」
+S0896,story,37,0x78EBBC,op29@0x78E800,18,　一体何が・・・」,,
+S0897,story,37,0x78EBD0,op29@0x78E834,16,「危ないっ！！」,,「Nguy hiểm!!」
+S0898,story,37,0x78EBE4,op29@0x78E8C4,18,「ぐわぁぁぁぁぁ」,,「Gư aaaaaa」
+S0899,story,37,0x78EBF8,op29@0x78E8F8,18,「ホークさんっ！」,,「Anh Hawk!」
+S0900,story,37,0x78EC0C,op29@0x78E91C,10,「奴には、,,「Đòn của Metalgun không
+S0901,story,37,0x78EC18,op29@0x78E924,32,　メタルガンの攻撃は効かない！」,,có tác dụng với hắn!」
+S0902,story,37,0x78EC3C,op29@0x78E940,30,「しかし、何か手はあるはずだ！,,「Nhưng chắc chắn phải có cách!
+S0903,story,37,0x78EC5C,op29@0x78E948,26,　見極めろ！　ビリーっ！」,,Nhìn cho kỹ vào! Billy!」
+S0904,story,37,0x78EC78,op29@0x78E964,20,「そ、そんな・・・。,,「S-sao lại thế... Metalgun
+S0905,story,37,0x78EC90,op29@0x78E96C,36,　メタルガンが効かないんじゃ・・・」,,không có tác dụng thì...」
+S0906,story,37,0x78ECB8,op29@0x78E988,24,「気を抜くな、ビリーっ！,,"「Đừng lơ là, Billy! Đòn"
+S0907,story,37,0x78ECD4,op29@0x78E990,18,　次が、来るぞ！」,,tiếp theo tới kìa!」
+S0908,story,37,0x78ECE8,op29@0x78E9B4,34,「くそっ、一体どうしたらいいんだ」,,"「Chết tiệt, phải làm sao đây.」"
+S0909,story,37,0x78ED0C,op29@0x78E9D0,24,「メイベル、ドク・・・、,,"「Mabel, Doc..., bố, mẹ...」"
+S0910,story,37,0x78ED28,op29@0x78E9D8,24,　父さん、母さん・・・」,,
+S0911,story,37,0x78ED44,op29@0x78EA24,12,「バッジが！,,「Huy hiệu! Huy hiệu bố
+S0912,story,37,0x78ED54,op29@0x78EA2C,36,　父さんの形見のバッジが光ってる！」,,để lại đang phát sáng!」
+S0913,story,37,0x78ED7C,op29@0x78EA34,32,「バッジの力が流れ込んでくる！」,,「Sức mạnh của huy hiệu đang tràn vào!」
+S0914,story,37,0x78EDA0,op29@0x78EA58,26,「ペルノグラの力じゃない。,,「Không phải sức mạnh Perla Negra. Mà
+S0915,story,37,0x78EDBC,op29@0x78EA60,28,　もっと別の、人の願う力だ」,,là sức mạnh từ ước nguyện con người.」
+S0916,story,37,0x78EDDC,op29@0x78EA7C,24,「父さん、みんな・・・」,,"「Bố, mọi người...」"
+S0917,story,37,0x78EDF8,op29@0x78EA98,18,「メイベル・・・」,,「Mabel...」
+S0918,story,37,0x78EE0C,op29@0x78EABC,14,「行くぞっ！」,,「Tới đây!」
+S0919,story,38,0x78F014,op29@0x78EE98 op29@0x78EFAC,10,「！！！」,,「!!!」
+S0920,story,38,0x78F020,op29@0x78EF14,12,「やった！」,,「Được rồi!」
+S0921,story,38,0x78F030,op29@0x78EF38,26,「気を抜くな！　ビリー！」,,「Đừng lơ là! Billy!」
+S0922,story,38,0x78F04C,op29@0x78EF5C,16,「ホークさん！！,,「Anh Hawk!! Anh không sao chứ!」
+S0923,story,38,0x78F060,op29@0x78EF64,18,　大丈夫ですか！」,,
+S0924,story,38,0x78F074,op29@0x78EF80,28,「俺の事なんてどうでもいい！,,「Đừng bận tâm đến tôi! Nhìn
+S0925,story,38,0x78F094,op29@0x78EF88,30,　見ろ、奴が真の姿を現すぞ！」,,"kìa, hắn sắp lộ nguyên hình!」"
+S0926,story,38,0x78F0B4,op29@0x78EFC8,30,「ここからが本当の戦いだ・・・,,「Từ giờ mới là trận chiến
+S0927,story,38,0x78F0D4,op29@0x78EFD0,12,　ビリー！」,,thật sự... Billy!」
+S0928,story,39,0x790030,op29@0x78F168 op29@0x78F858 op29@0x78FC80 op29@0x78FE28 op29@0x78FF70,10,「・・・」,,「...」
+S0929,story,39,0x79003C,op29@0x78F184,24,「・・・勝った、のか？」,,"「...Thắng rồi, sao?」"
+S0930,story,39,0x790058,op29@0x78F1A8,18,「倒したんだよな、,,"「Mình đã hạ được rồi, con"
+S0931,story,39,0x79006C,op29@0x78F1B0,22,　最後のペルノグラを」,,Perla Negra cuối cùng.」
+S0932,story,39,0x790084,op29@0x78F1D4,34,「あっ、そう言えば、ホークさん！？,,"「À, phải rồi, anh"
+S0933,story,39,0x7900A8,op29@0x78F1DC,14,　無事・・・」,,Hawk!? Anh có sao...」
+S0934,story,39,0x7900B8,op29@0x78F210,12,「大丈夫？」,,「Anh ổn chứ?」
+S0935,story,39,0x7900C8,op29@0x78F234,8,「ああ」,,「Ừ.」
+S0936,story,39,0x7900D4,op29@0x78F258,20,「・・・お疲れさま」,,「...Vất vả rồi.」
+S0937,story,39,0x7900EC,op29@0x78F27C,20,「大したことはない」,,「Có gì to tát đâu.」
+S0938,story,39,0x790104,op29@0x78F2A0,8,「もう」,,「Thật là.」
+S0939,story,39,0x790110,op29@0x78F2BC,18,「こんな時くらい、,,「Những lúc thế này thành thật
+S0940,story,39,0x790124,op29@0x78F2C4,32,　素直になってくれてもいいのに」,,một chút cũng được mà.」
+S0941,story,39,0x790148,op29@0x78F2E0,18,「・・・すまんな」,,「...Xin lỗi.」
+S0942,story,39,0x79015C,op29@0x78F304,16,「いいわよもう。,,「Thôi được rồi. ...Em quen rồi.」
+S0943,story,39,0x790170,op29@0x78F30C,20,　・・・なれてるわ」,,
+S0944,story,39,0x790188,op29@0x78F338,22,「ビリーくんも大丈夫？,,「Billy cũng ổn chứ?
+S0945,story,39,0x7901A0,op29@0x78F340,16,　ケガはない？」,,Không bị thương chứ?」
+S0946,story,39,0x7901B4,op29@0x78F364,30,「はい。何とか平気みたいです」,,「Vâng. Có vẻ em vẫn ổn.」
+S0947,story,39,0x7901D4,op29@0x78F388,12,「それより、,,「Mà... có khi nào em đang
+S0948,story,39,0x7901E4,op29@0x78F390,34,　もしかして俺、おじゃまですか？」,,làm kỳ đà cản mũi không ạ?」
+S0949,story,39,0x790208,op29@0x78F3B4,8,「プッ。,,"「Phì. Nói gì vậy, đừng trêu chị chứ.」"
+S0950,story,39,0x790214,op29@0x78F3BC,34,　何言ってるのよ、からかわないで」,,
+S0951,story,39,0x790238,op29@0x78F3E8,20,「そんなことよりも、,,"「Chuyện đó để sau, thật"
+S0952,story,39,0x790250,op29@0x78F3F0,22,　ホントにお疲れさま」,,sự vất vả cho em rồi.」
+S0953,story,39,0x790268,op29@0x78F3F8,30,「あなたのおかげで助かったわ」,,「Nhờ có em mà mọi người được cứu.」
+S0954,story,39,0x790288,op29@0x78F41C,28,「感謝してるわ。ありがとう」,,「Chị rất biết ơn. Cảm ơn em.」
+S0955,story,39,0x7902A8,op29@0x78F440,16,「そんな・・・」,,「Đâu có...」
+S0956,story,39,0x7902BC,op29@0x78F464,14,「俺の方こそ、,,「Em mới là người được giúp đỡ suốt.」
+S0957,story,39,0x7902CC,op29@0x78F46C,26,　助けてもらいっぱなしで」,,
+S0958,story,39,0x7902E8,op29@0x78F474,34,「ホークさんがいてくれたからこそ、,,「Chính nhờ có anh Hawk mà em
+S0959,story,39,0x79030C,op29@0x78F47C,32,　終わらせることができたんです」,,mới kết thúc được mọi chuyện.」
+S0960,story,39,0x790330,op29@0x78F4A8,36,「たしかにホークの助けもあったけど、,,"「Đúng là Hawk có giúp, nhưng"
+S0961,story,39,0x790358,op29@0x78F4B0,28,　それだけじゃダメだったわ」,,chỉ vậy thì không đủ đâu.」
+S0962,story,39,0x790378,op29@0x78F4B8,12,「やっぱり、,,「Quả nhiên vẫn cần đến
+S0963,story,39,0x790388,op29@0x78F4C0,32,　ビリーくんの力が必要だったの」,,sức mạnh của Billy.」
+S0964,story,39,0x7903AC,op29@0x78F4E4,34,「ほら、もっと胸を張っていいのよ。,,"「Nào, cứ ưỡn ngực tự hào lên đi. Kiểu"
+S0965,story,39,0x7903D0,op29@0x78F4EC,34,　『世界の英雄ここにあり』ってね」,,『Anh hùng thế giới đây rồi』 ấy.」
+S0966,story,39,0x7903F4,op29@0x78F510,36,「それだけは、カンベンしてください。,,「Riêng cái đó thì tha cho em.
+S0967,story,39,0x79041C,op29@0x78F518,24,　ガラじゃないですから」,,Không hợp với em đâu ạ.」
+S0968,story,39,0x790438,op29@0x78F534,16,「照れちゃって。,,"「Ngại kìa. Trời ạ, dễ thương ghê cơ~」"
+S0969,story,39,0x79044C,op29@0x78F53C,28,　もー、カワイイんだからぁ」,,
+S0970,story,39,0x79046C,op29@0x78F560,20,「あ、感謝してるのは,,"「À, chị biết ơn là thật lòng đấy.」"
+S0971,story,39,0x790484,op29@0x78F568,18,　ウソじゃないわ」,,
+S0972,story,39,0x790498,op29@0x78F570,24,「ホークを守ってくれて、,,「Cảm ơn em thật nhiều
+S0973,story,39,0x7904B4,op29@0x78F578,20,　本当にありがとう」,,vì đã bảo vệ Hawk.」
+S0974,story,39,0x7904CC,op29@0x78F59C,10,「あの人、,,「Người đó bình thường lúc nào cũng
+S0975,story,39,0x7904D8,op29@0x78F5A4,32,　いつもはクールに決めてるけど、,,"tỏ ra lạnh lùng, nhưng tới lúc"
+S0976,story,39,0x7904FC,op29@0x78F5AC,18,　いざというときは,,quan trọng là liều mạng lắm.」
+S0977,story,39,0x790510,op29@0x78F5B4,22,　結構無茶するのよね」,,
+S0978,story,39,0x790528,op29@0x78F5BC,36,「率先して自分から危険に飛び込むし」,,「Luôn tự mình lao vào nguy hiểm.」
+S0979,story,39,0x790550,op29@0x78F5E0,30,「それでいて、後で悩むのよね。,,「Vậy mà sau đó lại trăn trở. Rốt
+S0980,story,39,0x790570,op29@0x78F5E8,34,　いったい何が正しいのか・・・を」,,cuộc điều gì mới là đúng...」
+S0981,story,39,0x790594,op29@0x78F5F0,26,「あなたと同じよね・・・」,,「Giống hệt em nhỉ...」
+S0982,story,39,0x7905B0,op29@0x78F60C,26,「やっぱり血なのかしら？」,,「Phải chăng là do huyết thống?」
+S0983,story,39,0x7905CC,op29@0x78F638,8,「え？」,,「Dạ?」
+S0984,story,39,0x7905D8,op29@0x78F664,24,「ううん、何でもないわ」,,"「Không, không có gì đâu.」"
+S0985,story,39,0x7905F4,op29@0x78F688,12,「それじゃ、,,「Vậy bọn chị xin phép đi trước nhé.」
+S0986,story,39,0x790604,op29@0x78F690,32,　私たちはこの辺で失礼するわね」,,
+S0987,story,39,0x790628,op29@0x78F6B4,30,「え、そんなに急がなくたって。,,"「Ơ, đâu cần vội thế ạ. Giờ đâu"
+S0988,story,39,0x790648,op29@0x78F6BC,36,　もう襲われる心配もないんだし・・」,,còn lo bị tấn công nữa...」
+S0989,story,39,0x790670,op29@0x78F6C4,26,「一緒に街へ帰りましょう！,,「Cùng về thị trấn đi ạ! Em cũng
+S0990,story,39,0x79068C,op29@0x78F6CC,36,　俺たちの家にも寄って欲しいですし」,,muốn mời anh chị ghé nhà.」
+S0991,story,39,0x7906B4,op29@0x78F6F0,10,「うーん、,,"「Ừm, em nói vậy chị vui"
+S0992,story,39,0x7906C0,op29@0x78F6F8,36,　そう言ってくれるのはありがたいし、,,"lắm, và lời mời cũng hấp"
+S0993,story,39,0x7906E8,op29@0x78F700,20,　すごく、心ひかれる,,"dẫn thật đấy, nhưng mà...」"
+S0994,story,39,0x790700,op29@0x78F708,30,　提案ではあるんだけど・・・」,,
+S0995,story,39,0x790720,op29@0x78F73C,16,「・・・行くぞ」,,「...Đi thôi.」
+S0996,story,39,0x790734,op29@0x78F770,14,「はい、はい」,,"「Vâng, vâng.」"
+S0997,story,39,0x790744,op29@0x78F794,22,「ね、あの通りだから」,,"「Đấy, em thấy rồi đó.」"
+S0998,story,39,0x79075C,op29@0x78F7B0,20,「それじゃ、またね」,,「Vậy hẹn gặp lại nhé.」
+S0999,story,39,0x790774,op29@0x78F7D4,12,「あ、はい。,,"「À, vâng. Mình... sẽ gặp lại chứ ạ?」"
+S1000,story,39,0x790784,op29@0x78F7DC,30,　また・・・、会えますよね？」,,
+S1001,story,39,0x7907A4,op29@0x78F7F8,20,「また、どこかでね」,,"「Ừ, ở đâu đó nhé.」"
+S1002,story,39,0x7907BC,op29@0x78F82C op29@0x78F834,18,　　　　　　　　・,,.
+S1003,story,39,0x7907D0,op29@0x78F87C,20,「・・・・・・はぁ」,,「......Haizz.」
+S1004,story,39,0x7907E8,op29@0x78F898,10,「なんか、,,「Sao tự dưng thấy hụt hẫng ghê.」
+S1005,story,39,0x7907F4,op29@0x78F8A0,22,　気が抜けちゃったな」,,
+S1006,story,39,0x79080C,op29@0x78F8C4,24,「みんな心配してるかな？,,「Mọi người có lo không nhỉ?
+S1007,story,39,0x790828,op29@0x78F8CC,32,　巻き込まれていないといいけど」,,Mong là họ không bị liên lụy.」
+S1008,story,39,0x79084C,op29@0x78F8D4,20,「会いたいな・・・」,,「Muốn gặp họ quá...」
+S1009,story,39,0x790864,op29@0x78F928,14,「ビリぃー！」,,「Billyyy!」
+S1010,story,39,0x790874,op29@0x78F94C,14,「メイベル！」,,「Mabel!」
+S1011,story,39,0x790884,op29@0x78F968,22,「はぁはぁはぁ・・・」,,「Hộc hộc hộc...」
+S1012,story,39,0x79089C,op29@0x78F984,16,「ビリー、無事？,,"「Billy, cậu không sao chứ? Có"
+S1013,story,39,0x7908B0,op29@0x78F98C,22,　ケガとかしてない！？,,bị thương chỗ nào không!?」
+S1014,story,39,0x7908C8,op29@0x78F9B0,24,「メイベル落ち着いて！」,,"「Mabel, bình tĩnh đã!」"
+S1015,story,39,0x7908E4,op29@0x78F9CC,24,「大丈夫、大丈夫だから！,,"「Không sao, không sao mà! Nhé?」"
+S1016,story,39,0x790900,op29@0x78F9D4,10,　ねっ？」,,
+S1017,story,39,0x79090C,op29@0x78F9F8,16,「もー、平気なら,,"「Trời ạ, đã ổn thì sao"
+S1018,story,39,0x790920,op29@0x78FA00,30,　何でスグ帰ってこないのよ！」,,không về ngay hả!」
+S1019,story,39,0x790940,op29@0x78FA08,26,「戻ってくるのが遅いから、,,「Cậu về muộn quá nên tớ chỉ
+S1020,story,39,0x79095C,op29@0x78FA10,32,　ちょっとだけ気になっちゃって」,,hơi lo một chút thôi.」
+S1021,story,39,0x790980,op29@0x78FA44,34,「さっきまで泣きそうだったクセに、,,「Lúc nãy còn suýt khóc đến
+S1022,story,39,0x7909A4,op29@0x78FA4C,14,　よく言うよ」,,"nơi, giờ nói hay ghê.」"
+S1023,story,39,0x7909B4,op29@0x78FA80,18,「ちょっとドク！！,,「Này Doc!! Không cần
+S1024,story,39,0x7909C8,op29@0x78FA88,32,　余計なこと言わなくていいの！」,,nói mấy chuyện thừa!」
+S1025,story,39,0x7909EC,op29@0x78FAAC,24,「あー、えーっと、その、,,"「À, ừm, thì là..., tớ chỉ"
+S1026,story,39,0x790A08,op29@0x78FAB4,36,　ほんのちょっと、心配したんだから」,,lo một tí xíu thôi đấy.」
+S1027,story,39,0x790A30,op29@0x78FAD8,16,「え、あ、うん。,,"「Ơ, à, ừ. ...Cảm ơn cậu.」"
+S1028,story,39,0x790A44,op29@0x78FAE0,20,　・・・ありがとう」,,
+S1029,story,39,0x790A5C,op29@0x78FB04,28,「それよりさぁ、フェイさんは,,"「Mà này, chị Fay đâu rồi?」"
+S1030,story,39,0x790A7C,op29@0x78FB0C,20,　どこにいるんだ？」,,
+S1031,story,39,0x790A94,op29@0x78FB30,22,「もう、行っちゃった。,,「Đi mất rồi. Tớ có giữ lại rồi mà.」
+S1032,story,39,0x790AAC,op29@0x78FB38,24,　引きとめたんだけどね」,,
+S1033,story,39,0x790AC8,op29@0x78FB5C,14,「なにぃ！？」,,「Cái gìii!?」
+S1034,story,39,0x790AD8,op29@0x78FB80,16,「ちっくしょー、,,"「Khốn thật, tớ đã định nói lời"
+S1035,story,39,0x790AEC,op29@0x78FB88,36,　カッコよくお礼の言葉を述べてから、,,"cảm ơn thật ngầu, rồi bàn"
+S1036,story,39,0x790B14,op29@0x78FB90,36,　二人の将来設計について話そうとか、,,"chuyện tương lai của hai đứa,"
+S1037,story,39,0x790B3C,op29@0x78FB98,30,　色々と計画してたのにぃぃぃ」,,đủ thứ kế hoạch thế màaa」
+S1038,story,39,0x790B5C,op29@0x78FBB4,18,「おいおい・・・」,,「Này này...」
+S1039,story,39,0x790B70,op29@0x78FBD0,18,「真っ青な空の下、,,"「Dưới bầu trời xanh ngắt, chiếc"
+S1040,story,39,0x790B84,op29@0x78FBD8,36,　二人を乗せて走るスピーダー・・・」,,Speeder chở hai người lao đi...」
+S1041,story,39,0x790BAC,op29@0x78FBE0,36,「く～、これだね！　しびれるねっ！」,,"「Ư~, đúng nó rồi! Phê quá đi!」"
+S1042,story,39,0x790BD4,op29@0x78FC0C,16,「・・・・・・」,,「......」
+S1043,story,39,0x790BE8,op29@0x78FC38,32,「私、ドクがいくらがんばっても、,,「Tớ nghĩ Doc có cố mấy cũng
+S1044,story,39,0x790C0C,op29@0x78FC40,32,　ホークさんには勝てないと思う」,,không thắng nổi anh Hawk đâu.」
+S1045,story,39,0x790C30,op29@0x78FC64,22,「俺もその意見に賛成」,,「Tớ cũng đồng ý.」
+S1046,story,39,0x790C48,op29@0x78FC9C,22,「・・・・・・くすっ」,,「......Khúc khích.」
+S1047,story,39,0x790C60,op29@0x78FCC0,22,「・・・・くすくすっ」,,「....Khúc khích khúc khích.」
+S1048,story,39,0x790C78,op29@0x78FCF4,26,「プ、ププッ、あはははは」,,"「Phì, phì phì, a ha ha ha ha.」"
+S1049,story,39,0x790C94,op29@0x78FD30,34,「わっ、一体なんだって言うんだよ」,,"「Oa, rốt cuộc là cái gì hả.」"
+S1050,story,39,0x790CB8,op29@0x78FD64,32,「わるいわるい、なんでもないよ」,,"「Xin lỗi xin lỗi, không có gì đâu.」"
+S1051,story,39,0x790CDC,op29@0x78FD88,16,「ねえビリー？」,,「Này Billy?」
+S1052,story,39,0x790CF0,op29@0x78FDA4,24,「ホントに、ホントーに、,,"「Thật sự, thật sự là mọi chuyện"
+S1053,story,39,0x790D0C,op29@0x78FDAC,26,　全部終わったんだよね？」,,"đã kết thúc rồi, đúng không?」"
+S1054,story,39,0x790D28,op29@0x78FDD8,24,「明日になったら、突然、,,"「Sáng mai, cậu sẽ không đột"
+S1055,story,39,0x790D44,op29@0x78FDE0,32,　『行かなくちゃ』なんて言って、,,nhiên nói 『Tớ phải đi rồi』
+S1056,story,39,0x790D68,op29@0x78FDE8,30,　いなくなったりしないよね？」,,"rồi biến mất, đúng không?」"
+S1057,story,39,0x790D88,op29@0x78FE04,26,「ちゃんとおうちに帰って、,,"「Mình sẽ được về nhà, nấu cơm"
+S1058,story,39,0x790DA4,op29@0x78FE0C,34,　ご飯を作ったり出来るんだよね？」,,"như bình thường, đúng không?」"
+S1059,story,39,0x790DC8,op29@0x78FE4C,34,「・・・正直、まだわからないんだ」,,"「...Nói thật, tớ vẫn chưa biết nữa.」"
+S1060,story,39,0x790DEC,op29@0x78FE70,12,「ビリー？」,,「Billy?」
+S1061,story,39,0x790DFC,op29@0x78FE94,24,「あ、メタルガンの鼓動は,,"「À, nhịp đập của Metalgun"
+S1062,story,39,0x790E18,op29@0x78FE9C,20,　もう収まってるよ」,,đã lắng xuống rồi.」
+S1063,story,39,0x790E30,op29@0x78FEA4,36,「元凶も倒したし、段々とペルノグラの,,"「Kẻ cầm đầu cũng bị hạ, tớ nghĩ mối"
+S1064,story,39,0x790E58,op29@0x78FEAC,32,　脅威も無くなっていくと思うよ」,,đe dọa Perla Negra sẽ dần biến mất.」
+S1065,story,39,0x790E7C,op29@0x78FF00,20,「でも、それも何かの,,「Nhưng tớ có cảm giác đó cũng chỉ
+S1066,story,39,0x790E94,op29@0x78FF08,32,　始まりでしかない気がするんだ」,,là khởi đầu của điều gì đó.」
+S1067,story,39,0x790EB8,op29@0x78FF10,14,「そうやって、,,"「Cứ như thế, có gì đó kết thúc"
+S1068,story,39,0x790EC8,op29@0x78FF18,36,　何かが終わると同時にまた始まって、,,"thì đồng thời lại bắt đầu, và"
+S1069,story,39,0x790EF0,op29@0x78FF20,34,　ずっとずーっと続いていくと思う」,,cứ tiếp diễn mãi mãi.」
+S1070,story,39,0x790F14,op29@0x78FF3C,14,「ビリー・・・,,「Billy... cậu thay đổi
+S1071,story,39,0x790F24,op29@0x78FF44,24,　すこし、変わったかな」,,một chút rồi nhỉ.」
+S1072,story,39,0x790F40,op29@0x78FF60,16,「え、そうかな？,,"「Ơ, vậy à? Tớ vẫn như mọi khi mà.」"
+S1073,story,39,0x790F54,op29@0x78FF68,26,　いつもと変わらないって」,,
+S1074,story,39,0x790F70,op29@0x78FF8C,26,「・・・でも、もしかしたら,,「...Nhưng có lẽ đúng là vậy thật.」
+S1075,story,39,0x790F8C,op29@0x78FF94,22,　そうかもしれないね」,,
+S1076,story,39,0x790FA4,op29@0x78FF9C,10,「きっと、,,"「Chắc chắn, có điều"
+S1077,story,39,0x790FB0,op29@0x78FFA4,22,　何かが変わったんだ」,,gì đó đã thay đổi.」
+S1078,story,39,0x790FC8,op29@0x78FFC8,18,「俺だけじゃない、,,"「Không chỉ mình tớ, mà 『điều"
+S1079,story,39,0x790FDC,op29@0x78FFD0,34,　すべてのものの“何か”が・・・」,,gì đó』 của tất cả mọi thứ...」
+S1080,story,40,0x7918CC,op29@0x791084,22,メタルガン・スリンガー,,METALGUN SLINGER
+S1081,story,40,0x7918E4,op29@0x79108C op29@0x7910D8 op29@0x791120 op29@0x791168 op29@0x7911B0 op29@0x7911F8 op29@0x791240 op29@0x791290 op29@0x7912F0 op29@0x791338 op29@0x791380 op29@0x7913D0 op29@0x791424 op29@0x79149C op29@0x791514 op29@0x79156C op29@0x7915BC op29@0x79160C op29@0x791664 op29@0x7916B4 op29@0x791704 op29@0x79171C op29@0x791764 op29@0x7917AC op29@0x7917F4 op29@0x79183C,2,　,,
+S1082,story,40,0x7918E8,op29@0x791094,16,　　製作スタッフ,,Đội ngũ sản xuất
+S1083,story,40,0x7918FC,op29@0x7910D0,14,プロデューサー,,Nhà sản xuất
+S1084,story,40,0x79190C,op29@0x7910E0,10,　秋元哲也,,Tetsuya Akimoto
+S1085,story,40,0x791918,op29@0x791118,20,キャラクターイラスト,,Minh họa nhân vật
+S1086,story,40,0x791930,op29@0x791128,14,　　有賀ヒトシ,,Hitoshi Ariga
+S1087,story,40,0x791940,op29@0x791160,12,ディレクター,,Đạo diễn
+S1088,story,40,0x791950,op29@0x791170,10,　亀井知英,,Tomohide Kamei
+S1089,story,40,0x79195C,op29@0x7911A8,22,プロダクトマネージャー,,Quản lý sản phẩm
+S1090,story,40,0x791974,op29@0x7911B8,14,　　　　高田陽,,Akira Takada
+S1091,story,40,0x791984,op29@0x7911F0,12,プランニング,,Lên kế hoạch
+S1092,story,40,0x791994,op29@0x791200,10,　近藤康浩,,Yasuhiro Kondo
+S1093,story,40,0x7919A0,op29@0x791238,12,プログラマー,,Lập trình
+S1094,story,40,0x7919B0,op29@0x791248,10,　熊田浩司,,Koji Kumada
+S1095,story,40,0x7919BC,op29@0x791250,10,　桜井巌雪,,Mineyuki Sakurai
+S1096,story,40,0x7919C8,op29@0x791288,14,グラフィッカー,,Đồ họa
+S1097,story,40,0x7919D8,op29@0x791298,12,　大塚真由美,,Mayumi Otsuka
+S1098,story,40,0x7919E8,op29@0x7912A0,10,　渡辺明寿,,Akihisa Watanabe
+S1099,story,40,0x7919F4,op29@0x7912A8,10,　佐藤祐治,,Yuji Sato
+S1100,story,40,0x791A00,op29@0x7912B0,14,いわはらまどか,,Madoka Iwahara
+S1101,story,40,0x791A10,op29@0x7912E8,20,サウンドクリエイター,,Sáng tác âm thanh
+S1102,story,40,0x791A28,op29@0x7912F8,14,　　　沼田出穂,,Izuho Numata
+S1103,story,40,0x791A38,op29@0x791330,18,サウンドエフェクト,,Hiệu ứng âm thanh
+S1104,story,40,0x791A4C,op29@0x791340,12,　　高橋登也,,Noboru Takahashi
+S1105,story,40,0x791A5C,op29@0x791378,18,宣伝プロデューサー,,Nhà sản xuất quảng bá
+S1106,story,40,0x791A70,op29@0x791388,12,　　平澤正博,,Masahiro Hirasawa
+S1107,story,40,0x791A80,op29@0x791390 op29@0x79151C,12,　　金子政路,,Masamichi Kaneko
+S1108,story,40,0x791A90,op29@0x7913C8,12,宣伝スタッフ,,Nhân viên quảng bá
+S1109,story,40,0x791AA0,op29@0x7913D8,10,川上みゆき,,Miyuki Kawakami
+S1110,story,40,0x791AAC,op29@0x791414,28,　　　　　オープニングテーマ,,Nhạc mở đầu
+S1111,story,40,0x791ACC,op29@0x79141C,32,　　　「メタルガン・スリンガー」,,"""Metalgun Slinger"""
+S1112,story,40,0x791AF0,op29@0x79142C op29@0x7914A4,18,作詞　　　寺門有紀,,Lời:      Yuki Terakado
+S1113,story,40,0x791B04,op29@0x791434 op29@0x7914AC,16,作・編曲　剱持満,,Nhạc&phối: Mitsuru Kemmochi
+S1114,story,40,0x791B18,op29@0x79143C op29@0x7914B4,36,唄　　　　Ｂｉｌｌｙ’ｓ　Ａｎｇｅｌ,,Trình bày: Billy's Angel
+S1115,story,40,0x791B40,op29@0x791444 op29@0x7914BC,16,　　　　　仲西環,,Tamaki Nakanishi
+S1116,story,40,0x791B54,op29@0x79144C op29@0x7914C4,20,　　　　　那須めぐみ,,Megumi Nasu
+S1117,story,40,0x791B6C,op29@0x791454 op29@0x7914CC,20,　　　　　相沢あすか,,Asuka Aizawa
+S1118,story,40,0x791B84,op29@0x79148C,28,　　　　　エンディングテーマ,,Nhạc kết thúc
+S1119,story,40,0x791BA4,op29@0x791494,36,「ＲＡＤＩＡＮＴ～ビリーのテーマ～」,,"""RADIANT ~Billy's Theme~"""
+S1120,story,40,0x791BCC,op29@0x791504,18,音楽プロデューサー,,Nhà sản xuất âm nhạc
+S1121,story,40,0x791BE0,op29@0x79150C op29@0x79165C,14,　　（主題歌）,,(Ca khúc chủ đề)
+S1122,story,40,0x791BF0,op29@0x791524,10,　　森本信,,Makoto Morimoto
+S1123,story,40,0x791BFC,op29@0x79155C,16,音楽ディレクター,,Đạo diễn âm nhạc
+S1124,story,40,0x791C10,op29@0x791564 op29@0x7915B4,12,　（主題歌）,,(Ca khúc chủ đề)
+S1125,story,40,0x791C20,op29@0x791574,10,　　剱持満,,Mitsuru Kemmochi
+S1126,story,40,0x791C2C,op29@0x7915AC,16,制作ディレクター,,Đạo diễn sản xuất
+S1127,story,40,0x791C40,op29@0x7915C4,12,　　高橋易史,,Yasushi Takahashi
+S1128,story,40,0x791C50,op29@0x7915FC,10,エンジニア,,Kỹ sư âm thanh
+S1129,story,40,0x791C5C,op29@0x791604,10,（主題歌）,,(Ca khúc chủ đề)
+S1130,story,40,0x791C68,op29@0x791614,8,東舘康夫,,Yasuo Higashidate
+S1131,story,40,0x791C74,op29@0x79161C,6,　岡亨,,Toru Oka
+S1132,story,40,0x791C7C,op29@0x791654,12,　　スタジオ,,Phòng thu
+S1133,story,40,0x791C8C,op29@0x79166C,16,スタジオアトムズ,,STUDIO ATOMS
+S1134,story,40,0x791CA0,op29@0x7916A4,14,　　　音楽制作,,Sản xuất âm nhạc
+S1135,story,40,0x791CB0,op29@0x7916AC,16,　　　（主題歌）,,(Ca khúc chủ đề)
+S1136,story,40,0x791CC4,op29@0x7916BC,14,　　Ｔ．Ｆ．Ｃ,,T.F.C
+S1137,story,40,0x791CD4,op29@0x7916C4,20,アークプロダクション,,ARC PRODUCTION
+S1138,story,40,0x791CEC,op29@0x7916FC,18,　　　　　　　協力,,Hợp tác
+S1139,story,40,0x791D00,op29@0x79170C,26,　フジパシフィック音楽出版,,Fuji Pacific Music Publishing
+S1140,story,40,0x791D1C,op29@0x791714,24,　セントラルミュージック,,Central Music
+S1141,story,40,0x791D38,op29@0x791724,30,角川書店ドラゴンジュニア編集部,,Kadokawa Shoten - Dragon Junior
+S1142,story,40,0x791D58,op29@0x79175C,28,ＳＰＥＣＩＡＬ　ＴＨＡＮＫＳ,,SPECIAL THANKS
+S1143,story,40,0x791D78,op29@0x79176C,18,　　　　　小路幸也,,Yukiya Shoji
+S1144,story,40,0x791D8C,op29@0x7917A4,14,　　　　　開発,,Phát triển
+S1145,story,40,0x791D9C,op29@0x7917B4,22,有限会社オープンセサミ,,"Open Sesame Co., Ltd."
+S1146,story,40,0x791DB4,op29@0x7917EC,8,　　制作,,Sản xuất
+S1147,story,40,0x791DC0,op29@0x7917FC,12,めでぃあっと,,Mediat
+S1148,story,40,0x791DD0,op29@0x791834,12,　　　　販売,,Phát hành
+S1149,story,40,0x791DE0,op29@0x791844,20,株式会社アットマーク,,AtMark Inc.
+S1150,story,41,0x79206C,op29@0x792004,28,「こんな時でも力を吸うのか？,,「Ngay cả lúc này mà vẫn hút
+S1151,story,41,0x79208C,op29@0x79200C,20,　メタルガンっ！！」,,sức mạnh sao? Metalgun!!」
+S1152,story,41,0x7920A4,op29@0x792014,12,「ちくしょー,,"「Khốn kiếp, rốt cuộc mày"
+S1153,story,41,0x7920B4,op29@0x79201C,28,　いったいなんなんだよ！？」,,là cái gì vậy hả!?」
+S1154,story,45,0x792980,op29@0x792608,32,ショットボタンでメタルガン発射！,,Nhấn nút BẮN để bắn Metalgun!
+S1155,story,45,0x7929A4,op29@0x792610 op29@0x792644 op29@0x792698 op29@0x792744 op29@0x79281C,2,　,,
+S1156,story,45,0x7929A8,op29@0x792618,34,敵を倒すとペルノグラが出現するぞ。,,Hạ địch sẽ làm xuất hiện Perla Negra.
+S1157,story,45,0x7929CC,op29@0x792620,24,捕獲してGFを補給しよう。,,Thu lấy chúng để nạp lại GF.
+S1158,story,45,0x7929E8,op29@0x79263C,32,回復アイテムを落とす敵もいるぞ。,,Có địch sẽ đánh rơi vật phẩm hồi phục.
+S1159,story,45,0x792A0C,op29@0x79264C,32,アイテムはすぐに消えてしまうので,,"Vật phẩm sẽ biến mất rất nhanh,"
+S1160,story,45,0x792A30,op29@0x792654,28,取り逃がさないようにしよう。,,nên đừng để vuột mất nhé.
+S1161,story,45,0x792A50,op29@0x792670,26,アーツボタンと十字ボタンで,,Nhấn nút ARTS cùng nút Hướng
+S1162,story,45,0x792A6C,op29@0x792678,24,ガンアーツが発動するぞ。,,để phát động Gun Arts.
+S1163,story,45,0x792A88,op29@0x792680,28,今、装備しているガンアーツは,,Gun Arts đang trang bị hiện giờ là
+S1164,story,45,0x792AA8,op29@0x792688,22,「ワイルドキャット」！,,「Wildcat」!
+S1165,story,45,0x792AC0,op29@0x792690,20,よけ系の技が中心だ！,,Chuyên về các đòn né tránh!
+S1166,story,45,0x792AD8,op29@0x7926A0,34,敵が弾を撃ったらアーツボタンと↑で,,"Khi địch bắn, nhấn nút ARTS và ↑"
+S1167,story,45,0x792AFC,op29@0x7926A8,30,弾をよけるぞ！　やってみよう！,,để né đạn! Thử xem nào!
+S1168,story,45,0x792B1C,op29@0x7926C4,28,次はアーツボタンと→を入力！,,"Tiếp theo, nhấn nút ARTS và →!"
+S1169,story,45,0x792B3C,op29@0x7926CC,30,今度は飛びこんで弾をよけるぞ！,,Lần này hãy lao người tới để né đạn!
+S1170,story,45,0x792B5C,op29@0x7926D4,34,さらに飛びこみ中にショットすると、,,"Nếu bắn trong lúc đang lao tới,"
+S1171,story,45,0x792B80,op29@0x7926DC,16,ほふく三連射だ！,,sẽ nằm sấp bắn ba phát liên tiếp!
+S1172,story,45,0x792B94,op29@0x7926F8,36,その他にも、様々なガンアーツがある。,,Ngoài ra còn nhiều loại Gun Arts khác.
+S1173,story,45,0x792BBC,op29@0x792700,30,手に入れたら色々試してみよう！,,Có được rồi thì thử đủ kiểu nhé!
+S1174,story,45,0x792BDC,op29@0x792708,30,ガンアーツはGFを消費するので、,,"Gun Arts sẽ tiêu hao GF, nên"
+S1175,story,45,0x792BFC,op29@0x792710,34,こまめにペルノグラをつかまえよう。,,hãy chăm chỉ thu lấy Perla Negra.
+S1176,story,45,0x792C20,op29@0x79272C,30,アーツボタンとショットボタンや,,"Nhấn nút ARTS cùng nút BẮN, hoặc"
+S1177,story,45,0x792C40,op29@0x792734,38,アーツボタンとジャンプボタンを押すと、,,nút ARTS cùng nút NHẢY sẽ phát động
+S1178,story,45,0x792C68,op29@0x79273C,32,スーパーガンアーツが発動するぞ！,,Super Gun Arts!
+S1179,story,45,0x792C8C,op29@0x79274C,22,メタルガンが変化しての,,"Metalgun sẽ biến đổi, cho phép"
+S1180,story,45,0x792CA4,op29@0x792754,30,強力攻撃や、特殊攻撃が可能だ！,,tung đòn mạnh hoặc đòn đặc biệt!
+S1181,story,45,0x792CC4,op29@0x79275C,32,中には、宙返り中にアーツボタンを,,Có loại được phát động bằng cách
+S1182,story,45,0x792CE8,op29@0x792764,32,押すことで発動するものもあるぞ。,,nhấn nút ARTS khi đang nhào lộn.
+S1183,story,45,0x792D0C,op29@0x79276C,24,ただし、使用すると弾丸が,,"Tuy nhiên, dùng sẽ tốn đạn, nên"
+S1184,story,45,0x792D28,op29@0x792774,26,減るので使いすぎに要注意！,,chú ý đừng dùng quá nhiều nhé!
+S1185,story,45,0x792D44,op29@0x79277C,26,弾丸は宝箱から補給可能だ！,,Có thể nạp thêm đạn từ rương báu!
+S1186,story,45,0x792D60,op29@0x792798,34,ハシゴ、トゲ、ロープ、動く足場など,,"Thang, gai, dây thừng, bục di động..."
+S1187,story,45,0x792D84,op29@0x7927A0,36,ステージには様々な要素が存在するぞ。,,Màn chơi có đủ loại cơ quan.
+S1188,story,45,0x792DAC,op29@0x7927BC,18,ハシゴからロープへ,,Có thể nhảy từ thang
+S1189,story,45,0x792DC0,op29@0x7927C4,22,飛び移ることも可能だ。,,sang dây thừng.
+S1190,story,45,0x792DD8,op29@0x7927CC,36,ハシゴやロープからの攻撃もできるぞ。,,Cũng có thể tấn công khi đang leo.
+S1191,story,45,0x792E00,op29@0x7927E8,20,トーテムポールの前で,,Đứng trước cột totem
+S1192,story,45,0x792E18,op29@0x7927F0,22,ショットボタンを押すと,,và nhấn nút BẮN
+S1193,story,45,0x792E30,op29@0x7927F8,24,体力を回復してくれるぞ。,,sẽ được hồi phục thể lực.
+S1194,story,45,0x792E4C,op29@0x792814,34,→→や↑↑でもいろんな技が出るぞ。,,→→ hay ↑↑ cũng tung ra nhiều chiêu.
+S1195,story,45,0x792E70,op29@0x792824,30,技の途中で他のボタンを押すと、,,Nhấn nút khác giữa lúc ra chiêu
+S1196,story,45,0x792E90,op29@0x79282C,20,違う技に連結するぞ。,,sẽ nối sang một chiêu khác.
+S1197,story,45,0x792EA8,op29@0x792834,24,たとえば、→→で側転中に,,"Ví dụ, đang lộn nghiêng bằng →→"
+S1198,story,45,0x792EC4,op29@0x79283C,24,ジャンプボタンで宙返り。,,thì nhấn nút NHẢY để nhào lộn.
+S1199,story,45,0x792EE0,op29@0x792844,36,さらに宙返り中に↓とショットボタンで,,"Đang nhào lộn, nhấn ↓ và nút BẮN"
+S1200,story,45,0x792F08,op29@0x79284C,24,空中で下に三連射するぞ！,,sẽ bắn ba phát xuống từ trên không!
+S1201,story,45,0x792F24,op29@0x792868,24,ＧＦが残っている状態で、,,"Khi vẫn còn GF,"
+S1202,story,45,0x792F40,op29@0x792870,26,技を連続して発生させると、,,"nếu tung các chiêu liên tiếp,"
+S1203,story,45,0x792F5C,op29@0x792878,30,特別な効果がビリーに表れるぞ！,,Billy sẽ có hiệu ứng đặc biệt!
+S1204,story,45,0x792F7C,op29@0x792880,30,がんばって技をつなげてみよう。,,Hãy cố gắng nối các chiêu với nhau.
+S1205,story,45,0x792F9C,op29@0x79289C,22,スタートボタンを押すと,,Nhấn nút START
+S1206,story,45,0x792FB4,op29@0x7928A4,24,オプション画面が開くぞ。,,để mở màn hình tùy chọn.
+S1207,story,45,0x792FD0,op29@0x7928AC,34,キー操作などはここで変えられるぞ。,,Có thể đổi cài đặt phím ở đây.
+S1208,story,45,0x792FF4,op29@0x7928C8,26,点滅している台に飛び乗れば,,Nhảy lên bục đang nhấp nháy
+S1209,story,45,0x793010,op29@0x7928D0,16,ステージ終了だ。,,là hoàn thành màn chơi.
+S1210,story,45,0x793024,op29@0x7928D8,30,さまざまな要素をうまく使って、,,Hãy khéo léo tận dụng mọi thứ
+S1211,story,45,0x793044,op29@0x7928E0,28,各ステージを攻略していこう。,,để vượt qua từng màn nhé.
+S1212,story,45,0x793064,op29@0x7928FC,26,滑車のフックに飛びつけば、,,Nhảy bám vào móc ròng rọc
+S1213,story,45,0x793080,op29@0x792904,18,目的地まで一直線！,,là lao thẳng tới đích!
+S1214,story,45,0x793094,op29@0x792920,20,この先のステージには,,Ở các màn tiếp theo
+S1215,story,45,0x7930AC,op29@0x792928,22,賞金首が潜んでいるぞ！,,có tội phạm truy nã ẩn nấp!
+S1216,story,45,0x7930C4,op29@0x792930,26,見つけ出して無事撃破すると,,Tìm ra và hạ gục chúng
+S1217,story,45,0x7930E0,op29@0x792938,24,ソウルダイヤが手に入る！,,để nhận Kim cương Linh hồn!
+S1218,story,45,0x7930FC,op29@0x792940,30,ソウルダイヤを４つ手に入れると,,Thu đủ 4 Kim cương Linh hồn
+S1219,story,45,0x79311C,op29@0x792948,28,ＨＰのＭＡＸがアップするぞ！,,thì HP tối đa sẽ tăng lên!
+S1220,story,45,0x79313C,op29@0x792964,28,スライディングをうまく使うと,,Khéo léo dùng cú trượt
+S1221,story,45,0x79315C,op29@0x79296C,30,敵をすり抜けることができるぞ。,,để lách qua kẻ địch.

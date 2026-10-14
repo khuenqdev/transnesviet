@@ -1,0 +1,172 @@
+# part 2 (scenes 14-25)
+T0161 | 「Hửm? Có nghe thấy... gì không?」
+T0162 | 「...Nghe cậu nói thì... tiếng máy móc? Hình như tiếng đục đẽo gì đó?」 / 「Vậy thì có khi nó thông với đường hầm nào đó.」
+T0163 | 「...Này Doc.」
+T0164 | 「Xuôi theo con sông này có tới được hầm chính không nhỉ?」
+T0165 | 「Ừm~, không rõ phương hướng chính xác nên khó nói lắm.」 / 「Nhưng xét theo cấu trúc tới giờ, tớ nghĩ khả năng cao là tới được.」
+T0166 | 「Mà xuôi kiểu gì đây? Tớ bơi dở lắm đấy.」
+T0167 | 「Này, lại đây xem. Có thuyền nè.」
+T0168 | 「Ồ, giải quyết vấn đề cái rụp luôn.」
+T0169 | 「Ừm~, trông như thuyền chở vật liệu.」
+T0170 | 「Loại này thì tớ lái được. Sao đây, Billy?」
+T0171 | 「Được, có vẻ chẳng còn đường nào khác, thử đặt cược vào nó vậy.」
+T0172 | 「Dòng sông chảy chậm dần rồi nhỉ.」
+T0173 | 「Cảnh vật cũng khang khác, có khi sắp tới nơi rồi.」 / 「Còn nghe cả tiếng như đang đào bới nữa.」 / 「Sắp phải tìm chỗ lên bờ...」
+T0174 | 『RẦM!』
+T0175 | 「Oa!」
+T0176 | 「Chuyện gì vậy!?」
+T0177 | 「K-không biết nữa! Tự dưng tăng tốc...」
+T0178 | 「Cái gì vậy!? Thuyền đang chạy ngược dòng!」
+T0179 | 「Ta đã chờ sẵn.」
+T0180 | 「A-ai đó!?」
+T0181 | 「Kẻ sắp biến mất khỏi dòng thời gian thì không cần biết tên ta.」
+T0182 | 「!!!」
+T0183 | 「Đứng lại! Định chạy trốn sao!」
+T0184 | 「Ê, này! Đừng có bỏ bọn này lại chứ!」
+T0185 | 「À mà này Billy, có cái huy hiệu rơi ở đây nè~」
+T0186 | Nhận được Huy hiệu Cảnh sát trưởng 『Zett』.
+T0187 | 「Này, sao tự dưng im ắng thế nhỉ?」
+T0188 | 「...Ừ. Xem ra để tên lúc nãy chạy thoát đúng là sai lầm...」
+T0189 | 「Giờ nói chuyện đó cũng vô ích thôi.」
+T0190 | 「Vấn đề là bọn chúng đã lặn đi đâu chứ?」
+T0191 | 「Có vẻ chúng quyết định bỏ nơi này rồi.」 / 「Chúng đang lũ lượt về nhà ga.」
+T0192 | 「A, chị Fay!!」
+T0193 | 「Nhà ga?」
+T0194 | 「Mỏ này có xây một nhà ga để chở quặng khai thác ra ngoài.」 / 「Các em từng nghe rồi chứ?」
+T0195 | 「Cái tên tuyến đường sắt xuyên lục địa 『Iron Train』.」
+T0196 | 「À, cái tuyến nối tới 『Cosmopolitan』...」
+T0197 | 「Đúng. Một đầu cuối của đoàn tàu đó chính là Gold Mountain này.」 / 「Máy móc cần thiết, quặng khai thác, cả những người bị bắt, chắc đều được chở đi từ đây.」
+T0198 | 「Vậy 『Cosmopolitan』 là đại bản doanh của Perla Negra sao!?」
+T0199 | 「Khả năng đó rất cao.」
+T0200 | 「Rồi, em định làm gì đây, Billy?」
+T0201 | 「Tất nhiên là đi rồi!」 / 「Em sẽ chặn đoàn tàu lại! Nhất định không để chúng thoát!」
+T0202 | 「Ui trời! Địch gì mà đông khủng khiếp vậy!」 / 「Thế này thì bước ra một bước thôi cũng là tự sát còn gì!?」
+T0203 | 「Giờ đâu phải lúc nói chuyện đó!」 / 「Tớ sẽ xông vào gây náo loạn. Các cậu nhân lúc đó lẻn vào.」
+T0204 | 「Vậy, đi đây... 3... 2...」
+T0205 | 「Đứng lại! Cấm tiến thêm bước nào nữa.」 / 「Phía trước không phải lãnh địa của các ngươi!」 / 「Mau rời khỏi đây!」
+T0206 | 「Ai đó!」
+T0207 | 「Ta là người phụ trách nơi này. Tên ta là Sam Oldman.」
+T0208 | 「Sam Oldman á!?」
+T0209 | 「Là đội trưởng đội tinh nhuệ của Perla Negra còn gì!」 / 「Sao nhân vật cỡ đó lại ở đây!」
+T0210 | 「Nếu quay về ngay bây giờ, ta sẽ coi đây là trò nghịch dại của trẻ con mà bỏ qua lần này.」
+T0211 | 「Nhưng nếu các ngươi vẫn cố tiến lên thì hãy biết rằng ta sẽ không nương tay.」
+T0212 | 「Không, chẳng cần phải bi quan.」
+T0213 | 「Các ngươi chỉ được bảo đảm một cuộc sống như Perla Negra mà thôi.」
+T0214 | 「Tôi không sợ lời đe dọa đó đâu!」
+T0215 | 「Dù ông có nói gì đi nữa, tôi nhất định sẽ chặn các người lại!」
+T0216 | 「...」
+T0217 | 「Gầm hay lắm!」
+T0218 | 「Lời đó có thật hay không, hãy dùng chính thân mình chứng minh đi!!」
+T0219 | 「Sức mạnh đang tràn vào từ Metalgun! Cảm giác rợn cả người!」
+T0220 | 「Tay nghề khá lắm.」
+T0221 | 「Với tay nghề đó, sau này...」
+T0222 | 「Tiếp theo là ông! Xuống đây!!」
+T0223 | 「Hừ..., can đảm đấy.」
+T0224 | 「Nhưng cho phép ta tránh cuộc đối đầu này. Ta xin cáo từ.」
+T0225 | 「Chết tiệt, bỏ chạy là hèn! Chưa phân thắng bại đâu!」
+T0226 | 「Billy, nhanh lên!」
+T0227 | 「Đoàn tàu vẫn chưa đi xa đâu!」
+T0228 | 「Chị Fay!!」
+T0229 | 「Chuyện để sau!」
+T0230 | 「Doc, từ đó ra ngoài được đấy. Kiếm phương tiện đi!」
+T0231 | 「Rõ! Cứ giao cho em!」
+T0232 | 「Chờ ngoài đó nhé. Tớ đi lấy Speeder!」
+T0233 | 「Nhanh lên nhé.」
+T0234 | 「Billy, cái này dành cho em.」
+T0235 | 「Đây là?」
+T0236 | 「Chip kỹ năng 『Eagle』. Bộ Arts chuyên tấn công trên không.」 / 「Hình như gã lúc nãy đánh rơi.」 / 「Có vẻ địch phân phát vật phẩm cho cấp chỉ huy.」
+T0237 | 「Chuyện đó tính sau, mau lên nào.」
+T0238 | 「Vâng!」
+T0239 | 「...」
+T0240 | 「Babag, có đó không?」
+T0241 | 「Vâng, thuộc hạ ĐÂY.」
+T0242 | 「Cậu ta... không, nhờ ngươi lo cho bọn họ.」
+T0243 | 「Xin cứ GIAO cho tôi.」
+T0244 | 「Lúc nào cũng xin lỗi ngươi. Toàn bắt ngươi gánh vai thiệt thòi...」
+T0245 | 「Không, đó LÀ nhiệm vụ của tôi MÀ.」
+T0246 | Nhận được chip kỹ năng 『Eagle』.
+T0247 | 「Sắp đuổi kịp rồi, nhưng bám theo thêm nữa thì khó đấy.」 / 「Sao đây, Billy?」
+T0248 | 「Doc, có chỗ nào nhảy sang được không!?」
+T0249 | 「Hừm, để xem nào...」
+T0250 | 「A, Billy, đằng kia! Cánh cửa đó nhảy sang được!」
+T0251 | 「Được! Lại gần thêm chút nữa!」
+T0252 | 「Thêm chút nữa, chỉ một chút nữa thôi!」
+T0253 | 「Trời ơi, hết cỡ rồi! Thêm nữa là quá nhiệt mất!」
+T0254 | 「Chút nữa thôi...」
+T0255 | 「Được rồi!!」
+T0256 | 「Bên này chịu thua rồi~, còn lại giao cho cậu đó, Billy~」
+T0257 | 「Dừng ở đâu đó rồi đợi bọn tớ nha~」
+T0258 | 「Hộc, hộc, hộc...」
+T0259 | 「Chào nhóc. Vội vàng thế định đi đâu vậy?」
+T0260 | 「Ai đó!」
+T0261 | 「Ối chà, sợ quá sợ quá.」
+T0262 | 「Đừng có hùng hổ thế chứ, đâu phải con nít.」
+T0263 | 「Đại gia đây chỉ định chơi với mày một chút thôi mà?」
+T0264 | 「Rốt cuộc ngươi là ai!」
+T0265 | 「Tao chưa giới thiệu à?」
+T0266 | 「Tên đại gia là Myna Myna. Cứ coi như anh trai trông trẻ đi.」
+T0267 | 「Myna Myna...」
+T0268 | 「!!!」
+T0269 | 「Killer Edge!」
+T0270 | 「Tên sát nhân tồi tệ nhất lịch sử! Kẻ bị treo thưởng cao nhất!!」
+T0271 | 「Ồ, biết cả cái tên đó cơ à... Không phải nhóc tầm thường rồi.」
+T0272 | 「Đúng vậy, kẻ mang danh "Killer Edge", cái tên vang khắp thế gian, đồng nghĩa với kinh hoàng... chính là đại gia đây.」 / 「Mà nói thật, tao cũng là đồng bọn của bé Perla đấy.」
+T0273 | 「Thôi, khoe khoang thế đủ rồi, đến giờ phạt rồi nhé.」 / 「Con nít nghịch quá trớn thì phải dạy dỗ cho thật đau, nhỉ?」
+T0274 | 「Chết tiệt, không để ngươi thoát!」
+T0275 | 「Đây là... phòng riêng của Myna sao?」
+T0276 | 「Dùng phanh phụ ở đây có khi dừng được đoàn tàu.」 / 「Được!」
+T0277 | 『KÉÉÉÉÉÉÉT』
+T0278 | 「...Hình như thành công rồi.」
+T0279 |                   . /                   .
+T0280 | 「Billy!!」
+T0281 | 「Mabel! Doc!」
+T0282 | 「Thằng quỷ này, làm tốt lắm~」
+T0283 | 「Ừ, cũng tạm. Nhưng để Perla Negra chạy mất rồi...」
+T0284 | 「Lo gì~, tàu đã dừng rồi mà.」
+T0285 | 「Giữa sa mạc thế này, chúng hết đường chạy!」
+T0286 | 「Ồ? Cái này là...」
+T0287 | 「Billy, lại có chip rơi nè. Không phải loại mới à?」
+T0288 | 「Cái gì đây nhỉ...」
+T0289 | 「CHIP ĐÓ LÀ 『SERPENT』. GỒM CÁC ĐÒN TẤN CÔNG SÁT ĐẤT.」
+T0290 | 「.... Tự dưng lên tiếng, con này.」
+T0291 | 『Xình xịch... xình xịch...』
+T0292 | 「Á! G-gì vậy? Toa tàu chạy rồi kìa!」
+T0293 | 「Khốn kiếp, lũ Perla Negra chết tiệt!」 / 「Chúng tách toa có phanh ra rồi!」 / 「Thế này thì tàu sẽ lao thẳng tới Cosmopolitan mất!」
+T0294 | 「Làm sao đây!? Thế này thì bị địch bắt mất!」
+T0295 | 「Đến nước này chỉ còn cách phá bộ phận động lực!」 / 「Đi thôi!」
+T0296 | Nhận được chip kỹ năng 『Serpent』.
+T0297 | 「Ơi, đợi đã~」
+T0298 | 「Đừng bỏ tôi lại mà~」
+T0299 | 「Myna Myna!!」
+T0300 | 「Hộc, hộc, cậu đã cứu tôi phải không?」 / 「Nhưng bỏ tôi lại thì ác quá đi.」
+T0301 | 「Tỉnh dậy mà tôi ngớ cả người.」
+T0302 | 「???」
+T0303 | 「Perla Negra thoát ra, hắn trở lại thành người rồi sao?」
+T0304 | 「À, bắt tay tôi một cái được không?」
+T0305 | 「Một lần nữa tôi xin cảm ơn, cảm ơn cậu...」
+T0306 | 「Đùa đấyyy!!」
+T0307 | 「Kyaa!!」
+T0308 | 「Mabel!!」
+T0309 | 「Hya ha ha, còn non lắm nhóc ạ.」
+T0310 | 「Bị lừa dễ dàng bởi màn kịch rẻ tiền thế này cơ đấy~」
+T0311 | 「Myna Myna! Thằng khốn!!」
+T0312 | 「Ối chà, đứng yên đấy.」
+T0313 | 「Thử nhúc nhích một bước xem nào.」
+T0314 | 「Khuôn mặt xinh xắn của cô bé sẽ có vết sẹo xấu xí đấy.」
+T0315 | 「Rồi, trước tiên vứt khẩu súng phiền phức đó đi nào.」
+T0316 | 「Khẩu súng này không làm người bị thương được!」
+T0317 | 「Ai mà tin chuyện đó chứ.」
+T0318 | 「Nào, vứt mau!」
+T0319 | 「Chết tiệt!」
+T0320 | 「Rồi, giờ thì chết nhanh gọn giùm cái nhé.」 / 「Muốn oán thì oán bản thân ngu ngốc của mày ấy!」
+T0321 | 「DỪNG Ở ĐÓ.」
+T0322 | 「Cái gìiii!」
+T0323 | 「NHẬN LẤY!」
+T0324 | 「Hiiiii... ặc!」
+T0325 | 「...Hự!」
+T0326 | 「Tên đó... đã để lại món quà kỷ niệm thật rồi.」
+T0327 | 「Ngươi là Perla Negra lúc đó!」
+T0328 | 「Sao lại cứu bọn ta!?」
+T0329 | 「Đừng bận tâm, cậu bé. Đây là nhiệm vụ của ta.」
+T0330 | 「Đội trưởng, thuộc hạ không giữ trọn mệnh lệnh... xin, thứ, lỗi...」
+T0331 | 「A a a...」

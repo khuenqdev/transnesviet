@@ -1,0 +1,10 @@
+# title screen (with © 2002 ATMARK) -> data select (cursor on the CHÉP/XÓA tab row)
+run 900
+press START 3
+run 60
+shot t/title.ppm
+press START 3
+run 60
+press UP 3
+run 30
+shot t/datasel.ppm

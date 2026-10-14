@@ -1,11 +1,11 @@
 ---
 name: nes-vietnamese-translation
-description: Translate a NES (Famicom) game into Vietnamese with full tone marks, Sino-Vietnamese vocabulary and no dialog overflow. Use for NES/UNROM/CHR-RAM ROM text hacking, bitmap-font injection, bank expansion and IPS patching.
+description: Translate a NES/Famicom game into Vietnamese (full tone marks, Hán-Việt, no overflow); covers ROM recon, text/engine RE, bitmap-font injection, UNROM/MMC1-SUROM expansion, IPS, QA bug-hunting and separate gameplay patches (e.g. walk speed).
 ---
 
 # NES → Vietnamese ROM translation
 
-Distilled from a finished project (Saiyuuki World, UNROM, hiragana-only, CHR-RAM). Reference implementation: `build_rom.py`, `src/tramp.asm`, `src/window.asm`, docs 01/02.
+Distilled from two finished projects: Saiyuuki World (UNROM, hiragana-only, CHR-RAM) and Doraemon: Giga Zombie no Gyakushuu (MMC1/SUROM 512 KB, script/event tables, field engine). Reference implementation: `build_rom.py`, `src/tramp.asm`, `src/window.asm`, docs 01/02 (parts 15 and 18, chapters 20-25).
 
 ## 0. Ground rules
 - Work on a COPY of the user's ROM; record md5; ship an IPS patch, never the ROM alone.
@@ -62,6 +62,7 @@ If title art is tiles in CHR-RAM: replace free tiles with outlined Vietnamese te
 - [ ] Shop prices/status/menus; banners
 - [ ] IPS regenerated and reproduces the ROM byte-for-byte
 - [ ] README lists untested areas and md5 of the required base ROM
+- [ ] QA section (10) done: table counts asserted, all string copies patched, force-message sweep, gameplay flow replay
 
 ## 9. Known pitfalls (all hit in the original project)
 - Assembler "branch out of range" → invert the branch over a JMP.
@@ -71,6 +72,45 @@ If title art is tiles in CHR-RAM: replace free tiles with outlined Vietnamese te
 - Matplotlib mathtext eats `$…$` in docs (set `text.parse_math=False`).
 - Queue stalls ≈20 frames after big uploads: wait before screenshotting.
 - Calling engine routines outside their normal context crashes; call the hook instead.
+- Fixed-bank hook applied to only one of two SUROM copies → works in one half, crashes in the other.
+- Gameplay patch changed one variable but a private timer kept the old rate (NPCs stop between tiles).
+- Table header/count bytes not carried along when rewriting a table → wrong entry selected.
+- Patch validated only on the player/scroll, not on NPCs/sprites → regression found by users.
 
-## 10. Deliverables
-Patched ROM + IPS + README + translation table (JP | VI | width) + technical walkthrough with figures + tutorial + scripts. Provide md5s, state limitations, remind the user to own the original.
+## 10. QA: the game is more than its text (do this BEFORE delivering)
+Text rewrites break things that do not look like text. Budget as much time for QA as for translation.
+1. **Diff audit**: `cmp -l original new` grouped by bank. Every changed region must be explained.
+2. **Lookup tables with counts/headers.** If a table is preceded by small numbers that sum to its size, they are counts or group sizes (Doraemon event table: `03 02 04 08 04` at bank 2 `$813E`). When the build rewrites or moves a table, copy the header and `assert` it equals the original. A lost header produces *wrong-entry* bugs (the wrong character joins the party, repeatedly).
+3. **Strings that exist in several copies** (Yes/No drawn from three places, menu labels re-drawn by other screens). Search every bank of the original for each fixed string; patch all copies with the **same length** (pad with the blank tile).
+4. **Force-message sweep**: write each message id into the engine's message RAM variable, screenshot the box, review a contact sheet. Also sweep menus, shops, status, title (`©`, alignment of left-aligned labels).
+5. **Play the real flow** (title → intro → first town → first event → shop/save) with a recorded input script; compare screenshots with the original ROM at the same points. Replay by frame counts diverges when timings change, so use RAM/state conditions where possible.
+6. **Keep a `docs/BUGFIXES.md`**: symptom, mechanism, fix, how verified, version.
+7. When a tester reports a bug: reproduce → compare with original → find who writes the deciding RAM variable → fix at the lowest level (table byte) → test neighbours → audit the same bug class everywhere.
+
+## 11. Bigger ROMs: MMC1/SUROM (512 KB) and fixed-bank copies
+* SUROM: PRG select (reg 3) switches 16 KB within a 256 KB half; the half is chosen by a CHR-register bit. Bank-switch routines must set both. Header byte 4 = `0x20` for 512 KB.
+* The fixed bank must exist **identically in both halves** (Doraemon: banks 15 and 31; banks 14/15 copied to 30/31). Redirect the game's bank-switch entry (`$C0B2`) to a stub that handles the half bit.
+* Every later patch to the fixed bank must be applied to **all copies** (`forEachFixed`). Original ROM (header byte 4 = 16) has one copy. Detect the variant from the header.
+* Free space: check `0xFF` runs in **both** ROMs and use the intersection. Prefer free space in the same bank as the caller (`JSR` within the bank) when the fixed bank is tight. Also verify free RAM with a never-referenced-address scan (search all banks for the address bytes) *and* a runtime check.
+* Emulator: headless jsnes needs custom SUROM handling (see `scripts/jsnes_lib.mjs`); don't trust savestates (garbled tiles after `fromJSON`) - replay from boot and consume the pending reset with `cpu.emulate()`.
+
+## 12. Gameplay patches (speed, etc.) as separate patches
+Rules learned the hard way (walk speed took three versions):
+1. **Inventory every reader/writer of the variable you change in ALL banks** (search each addressing mode: zero page `A5/85 xx`, absolute `AD/8D/CE/EE lo hi`). Read the consumers (NPC, camera, animation, collision) before designing.
+2. **Never add an exception only part of the engine sees.** An extra scroll/movement call on some frames (v1) desynchronised NPC sprites that compensate for `$34` px/frame. Change the *step value* for the whole frame (before the consumers run) and restore it after (v2).
+3. **Look for private timers** that tick once per frame regardless of speed (Doraemon NPC step clock `$0450`, `DEC` at bank D `$8BB3`). They must scale with the speed (v3: `$0450 -= $34`) or entities stop between tiles, overlap walls and start moving together.
+4. Keep steps landing exactly on 0 (collision/events at step boundaries); gate a boost on counters (`$32 >= 2`, NPC clock != 1).
+5. Reuse values the game already supports (e.g. `$34 = 2` with doubled sprite deltas) instead of inventing semantics.
+6. A tiny flag in verified-free RAM remembers "I boosted, restore after"; never infer it from the value (modes that legitimately use 2 are ambiguous).
+7. Deliver **separately** from the translation: one IPS per ROM (`*_JP.ips` must not write beyond the original size; `*_VN.ips` patches all fixed-bank copies) + `apply_*.js` that detects ROM type, verifies expected bytes, refuses double patching, supports variants, and produces output byte-identical to the IPS result. Order: translation first, gameplay patch second.
+8. Version the patch; README lists hooks, free space, RAM byte, tests, open issues.
+
+## 13. Measure glitches, don't eyeball them
+* OAM buffer: find the `STA $4014` page (Doraemon `$0500`). Sprite = `y, tile, attr, x`.
+* World position = sprite + scroll (+256 per X nametable bit, +240 per Y bit, mod 480 vertically).
+* Static NPCs must keep a constant world position; walkers move in whole tile steps; **at rest, sprite left edge − (logical tile x × 16) must be 0** (NPC table in RAM, Doraemon `$420…`). Print a histogram for original, broken and fixed ROM. The original also shows noise (neighbouring NPC mis-matched, NPC mid-step) - compare against it, not against perfection.
+* Add a seeded random-walk test with periodic screenshots (`scripts/wander.mjs`). Hero steering by frame counts means original and patched runs cannot be compared step by step - say so.
+* State untested areas (other towns, vehicles, hardware) in the README and the final answer.
+
+## 14. Deliverables
+Patched ROM + IPS (+ separate gameplay IPS per ROM and an apply script) + README + translation table (JP | VI | width) + BUGFIXES.md + technical walkthrough with figures + tutorial + scripts and tests. Provide md5s, state limitations and untested areas, remind the user to own the original.

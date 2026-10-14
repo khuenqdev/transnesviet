@@ -1,0 +1,163 @@
+# Metal Gunslinger – Vietnamese script, part 1 (scenes 1-14)
+# Format: Txxxx | paragraph / paragraph ...   (intro/tutorial/credits: one part = one screen line)
+T0000 | Mặt đất khô cằn / Nắng gắt như kim đâm
+T0001 | 『Tinh cầu cát Alamo』
+T0002 | Gió nóng thổi tạt / Mồ hôi lăn trên má / Cát bám đầy người
+T0003 | Tất cả đều thân quen
+T0004 | Nhưng giờ mình thấy / một "sức nóng" lạ
+T0005 | Sức nóng hủy diệt
+T0006 | Mùi chẳng thể quen / ...mùi máu đang cháy
+T0007 | Tay vẫn cử động / Chân vẫn cử động
+T0008 | Dù chẳng chắc lắm / có lẽ mình đang chạy
+T0009 | Phải đi đâu / phải hướng về đâu / mình chẳng hề biết
+T0010 | Về tới thị trấn / là mọi thứ kết thúc
+T0011 | Gặp lại mọi người / lại sống như thường
+T0012 | Lúc ấy mình đã nghĩ như vậy
+T0013 | Thật đấy, mình đã nghĩ như vậy...
+T0014 | 「Hộc, hộc...」
+T0015 | 「Chạy đến đây chắc là an toàn... rồi nhỉ.」
+T0016 | 「Chết tiệt! Giá mà dùng được súng tia thì đâu cần phải chạy trốn!」
+T0017 | 「Nhưng họ vẫn là con người, nên mình không thể làm họ bị thương...」
+T0018 | 「Không được hạ chúng, khổ thật!」
+T0019 | 「C-chết rồi, bị phát hiện!」
+T0020 | 「!! Bên này cũng có địch!」
+T0021 | 「K-không thoát được rồi!」
+T0022 | 「Chết tiệt, hết đường rồi sao!!」
+T0023 | 「C-cái gì vậy?」
+T0024 | 「Đây là... một khẩu súng ư!? Nhưng phải làm sao đây...」
+T0025 | 「ĐỪNG DO DỰ. BÓP CÒ ĐI.」
+T0026 | 「U... oaaaaaaaa!!」
+T0027 | 「M-mình làm được rồi sao...?」
+T0028 | 「Mà khẩu súng này...」
+T0029 | 「Khẩu súng này là gì vậy?」
+T0030 | 「Súng có tác dụng với Perla Negra? Mình chưa từng nghe nói đến.」
+T0031 | 「...」
+T0032 | 「...Về thôi.」
+T0033 | 「Nếu là Doc, có khi cậu ấy biết gì đó.」
+T0034 | 「Billy!!」
+T0035 | 「Mabel, cậu không sao chứ!?」
+T0036 | 「Tớ không sao.」
+T0037 | 「Còn Billy thì sao? Có bị thương chỗ nào không?」
+T0038 | 「Có đau chỗ nào không? Nếu có thì phải băng bó ngay...」
+T0039 | 「Hai người ơi~, xin lỗi vì làm phiền nha, nhưng tình tứ để sau được không?」
+T0040 | 「Thôi đi, Doc im giùm cái!」
+T0041 | 「Ha ha ha ha~」
+T0042 | 「Doc cũng bình an vô sự nhỉ!」
+T0043 | 「À phải rồi Doc, cậu xem cái này giúp tớ.」
+T0044 | 「C-cái gì đây!? Tớ chưa từng thấy khẩu súng nào thế này.」 / 「Hình dạng ghê ghê sao ấy.」
+T0045 | 「ĐÓ LÀ KHẨU SÚNG CỦA KẺ ĐƯỢC CHỌN, 『METALGUN』.」
+T0046 | 「Metalgun!? ...M-mày là con chim lúc nãy!」
+T0047 | 「VŨ KHÍ DUY NHẤT DIỆT PERLA NEGRA.」
+T0048 | 「ĐÓ CHÍNH LÀ 『METALGUN』.」
+T0049 | 「Ui chà, có thứ như vậy thật sao?」
+T0050 | 「Nhưng khoan đã. Chuyện này có dễ ăn quá không vậy?」 / 「Con chim này nhìn đã thấy mờ ám, chắc chắn có uẩn khúc gì đây.」
+T0051 | 「...」
+T0052 | 「Nhưng dùng nó chiến đấu được với chúng là sự thật mà.」 / 「Giờ chỉ còn biết dựa vào nó...」
+T0053 | 「Hừm, vậy à. Metalgun hả...」
+T0054 | 「Mà này Billy, cậu có biết Sun Dance đâu không?」
+T0055 | 「Lúc đầu bọn tớ chạy cùng nhau, rồi chẳng biết từ lúc nào lạc mất.」
+T0056 | 「Hả!?」
+T0057 | 「Trời ạ! Doc! Sao còn nói giọng thong thả thế hả!」 / 「Sun Dance mà có mệnh hệ gì thì là tại cậu đấy, Doc!」
+T0058 | 「Sun Dance đi đâu rồi nhỉ...?」
+T0059 | 「Không lẽ là Navanho? Nghe nói bên đó bị tàn phá nặng lắm.」
+T0060 | 「Vậy thì phải đi tìm ngay thôi!」 / 「Đến Navanho!」
+T0061 | 「Chắc là đi lối này đúng rồi...」
+T0062 | 「Này này... Doc, làm ơn đấy.」
+T0063 | 「Bọn mình không thể lề mề ở chỗ này được.」
+T0064 | 「Hả!?」
+T0065 | 「Chào cậu bé. Có vẻ đang gặp khó khăn nhỉ. Để chị đây giúp một tay.」
+T0066 | 「Oa! Một chị gái xinh đẹp!」
+T0067 | 「Ai đó!?」
+T0068 | 「Đừng cảnh giác thế chứ.」
+T0069 | 「Ít ra chị không phải kẻ thù. Cứ coi như người hợp tác đi.」
+T0070 | 「Chị là Fay.」
+T0071 | 「Xét về lập trường thì chị cũng không khác các em là mấy.」 / 「Chị còn là chủ của nhóc này nữa.」
+T0072 | 「Vậy khẩu Metalgun này là...!?」
+T0073 | 「Là quà của chị đấy.」
+T0074 | 「Thấy em có vẻ thích nó, chị mừng lắm.」 / 「Nó khá quý hiếm đấy. Giữ gìn cẩn thận nhé.」
+T0075 | 「...」
+T0076 | 「Sao lại đưa súng cho em?」
+T0077 | 「Vì em có tài năng... nói vậy không được sao?」 / 「Thật ra người dùng được Metalgun là cực kỳ hiếm đấy.」
+T0078 | 「Ai mà tin được chứ!! Billy có gì đặc biệt đâu!」 / 「Cậu ấy chỉ là cậu bé bình thường!」
+T0079 | 「Đúng vậy, nhưng chỉ lúc này thôi, em tin chị được không?」 / 「Em muốn cứu bạn mình, đúng không?」
+T0080 | 「Chị biết Sun Dance đang ở đâu sao!?」
+T0081 | 「Ừ. Cậu ấy ở trung tâm khu dân cư.」
+T0082 | 「Tạm thời vẫn an toàn. Có điều, xét như một con người thì...」
+T0083 | 「Hừ! Đi thôi, mọi người!」
+T0084 | 「Ấy ấy, định đi bộ từ đây tới tận đó à?」 / 「Xuyên qua vòng vây địch? Liều quá. Liều lĩnh khác dũng cảm đấy.」
+T0085 | 「Vậy chị bảo phải làm sao đây!」
+T0086 | 「Bình tĩnh. Chị đã chuẩn bị sẵn phương tiện rồi.」
+T0087 | 「Dùng chiếc Speeder Horse chị đi tới đây ấy.」 / 「Với nó thì có thể vượt qua địch.」
+T0088 | 「Vâââng~ Em hiểu rồi ạ~」
+T0089 | 「Kế hoạch của chị Fay không chê vào đâu được!」 / 「Việc lái xe cứ giao cho Doc này!」
+T0090 | 「Lái Speeder là sở trường của em đấy!」
+T0091 | 「Doc... Sao cậu quyết dễ dàng thế hả?」
+T0092 | 「Người bảo phải cẩn thận chẳng phải là cậu sao, Doc...」
+T0093 | 「Nói gì vậy hả!!」
+T0094 | 「Lời của người đẹp phải được ưu tiên hơn tất cả mọi thứ!」
+T0095 | 「Lý lẽ tiện lợi ghê!」
+T0096 | 「Đượcc, xuất phát thôi!!」
+T0097 | 「...」
+T0098 | 「Sun Dance, cậu không sao...!?」
+T0099 | 「Cơ thể này dùng khá là được đấy.」
+T0100 | 「B-bị Perla Negra nhập mất rồi!」
+T0101 | 「Khốn kiếp!」
+T0102 | 「Perla Negra trong người Sun Dance đang bỏ chạy!?」
+T0103 | 「Sun Dance, cậu ổn chứ?」
+T0104 | 「Ơ, Billy? Tôi, rốt cuộc, bị, làm sao?」
+T0105 | 「Cơ thể cậu bị Perla Negra chiếm mất đấy.」 / 「Giờ không sao rồi, đừng lo.」
+T0106 | 「Xin lỗi, Billy. Làm phiền, cậu rồi.」
+T0107 | 「Nói gì thế, mình là bạn mà.」
+T0108 | 「Mà hướng bên kia có gì vậy?」 / 「Perla Negra đã chạy trốn về phía đó...」
+T0109 | 「Bên kia, nối với, Gold Mountain.」 / 「Gold Mountain, mỏ, Gold Crystal.」 / 「Mọi người, bị bắt, đến đó.」
+T0110 | 「Có cả người bị bắt đến đó sao.」
+T0111 | 「Vậy thì nhiều khả năng đó là căn cứ của chúng.」 / 「Thử đến đó xem sao...」
+T0112 | 「Billy, đợi. Cái này, mang, theo.」
+T0113 | 「Cái gì đây?」
+T0114 | 「Huy hiệu Cảnh sát trưởng. Cài, trên ngực, tôi.」
+T0115 | 「Chắc chắn, có ích.」
+T0116 | 「Cảm ơn cậu.」
+T0117 | Nhận được Huy hiệu Cảnh sát trưởng 『Jack』.
+T0118 | 「A!!」
+T0119 | 「Kyaa!」
+T0120 | 「Chết tiệt, đến tận đây rồi mà!」
+T0121 | 「...」
+T0122 | 「Nào, mau lên, nhân lúc này!」
+T0123 | 「Nhanh lên, Mabel!」
+T0124 | 「Được rồi, lối ra kìa!」
+T0125 | 「Ấy, không cho đi tiếp nữa đâu.」
+T0126 | 「Ai đó!」
+T0127 | 「Lúc nãy nhờ ơn mày nhiều, nhóc.」
+T0128 | 「Giọng đó...! Là con Perla Negra lúc nãy!」
+T0129 | 「Đúng vậy. Không ngờ ta lại phải dùng đến cơ thể này đấy.」 / 「Thôi được, coi như khởi động, ta chơi với ngươi một chút.」
+T0130 | 「M-Metalgun đã hấp thụ Perla Negra!?」
+T0131 | 「Nhịp đập của Metalgun đang mạnh dần lên!」
+T0132 | 「Ơ, cái gì đây? Trông như một con chip...」
+T0133 | 「ĐÓ LÀ CHIP KỸ NĂNG CỦA GUN ARTS 『BEAR』.」 / 「TRONG ĐÓ LƯU BỘ ARTS CHUYÊN VỀ SỨC MẠNH.」
+T0134 | 「Hừm, chip kỹ năng à.」
+T0135 | 「Này Billy, lát nữa cho tớ xem chút nhé?」 / 「Tớ muốn tháo ra nghiên cứu tí ghê.」
+T0136 | 「Chuyện đó sao cũng được, mau về thị trấn thôi!」 / 「Ở thị trấn vẫn an toàn hơn đây mà.」
+T0137 | 「...」
+T0138 | 「Không, tớ định đến Gold Mountain, các cậu thấy sao?」 / 「Phải xem bên đó ra sao đã. Giờ mình có vũ khí rồi...」
+T0139 | 「Cậu nói gì vậy!? Liều lĩnh quá đấy!」
+T0140 | 「Đánh được Perla Negra một chút đâu có nghĩa là sau này cũng ổn!」
+T0141 | 「Vậy tức là có khả năng ổn, dù chỉ 『một chút』, đúng không?」 / 「Vậy thì tớ nghĩ cũng đáng để đặt cược vào đó.」
+T0142 | 「Nhưng mà...」
+T0143 | 「...Ừ nhỉ, nếu là cậu thì có khi làm được thật.」
+T0144 | 「Ngay vừa rồi cậu đã hạ được Perla Negra đấy thôi.」
+T0145 | 「Tin vào cái gọi là tài năng của cậu ta đi.」
+T0146 | 「Nhưng tất nhiên bọn tớ cũng đi theo. Có bảo không cũng mặc kệ.」 / 「Mabel cũng thế, phải không?」
+T0147 | 「Đương nhiên rồi!」
+T0148 | 「Chỗ nguy hiểm như thế sao để Billy đi một mình được chứ!」
+T0149 | 「Doc..., Mabel...」
+T0150 | Nhận được chip kỹ năng 『Bear』.
+T0151 | 「Suỵt, im lặng nào...」
+T0152 | 「Đúng như mình nghĩ.」
+T0153 | 「Chỉ là mỏ thường thôi mà canh gác quy mô quá lớn...」
+T0154 | 「Thế này thì khó mà xông thẳng vào...」
+T0155 | 「Này này, đừng có vừa vào đã dùng sức chứ.」
+T0156 | 「Đường hầm mỏ bên trong đều thông nhau cả.」 / 「Đằng kia có chỗ canh gác tương đối lỏng lẻo, bọn mình lẻn vào từ đó đi.」
+T0157 | 「Ui, con sông to quá đi.」
+T0158 | 「Dưới lòng đất có chỗ thế này...」
+T0159 | 「Thế này thì không đi tiếp được. Làm sao đây?」
+T0160 | 「Ở đây cũng chẳng được gì. Quay lại tìm lối rẽ đi...」

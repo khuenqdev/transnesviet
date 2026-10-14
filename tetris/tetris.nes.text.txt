@@ -1,0 +1,17 @@
+Text fact sheet - tetris.nes
+Platform: NES / Famicom
+
+== Text ==
+Table file                                : custom encoding (no ASCII / Shift-JIS text found): run again with --known WORD or --tbl FILE
+Text confirmed on screen                  : (fill in)
+Control codes                             : (fill in)
+Dictionary / DTE / compression            : (fill in)
+Pointer tables                            : (fill in)
+Hard-coded pointers                       : (fill in)
+Window size / line width / lines per page : (fill in)
+Fixed width or VWF                        : (fill in) (NES: almost always fixed 8x8; a VWF has to draw into CHR-RAM tiles)
+Non-script text                           : (fill in)
+
+== Encoding ==
+ASCII: 5 region(s), 105 bytes of text-like data
+Shift-JIS: 10 region(s), 487 bytes of text-like data

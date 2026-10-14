@@ -1,0 +1,55 @@
+Emulator text evidence - tetris.nes
+System: nes   core: fceumm
+
+== Captures ==
+  boot.ram (2,048B), boot.state (5,604B), title.ram (2,048B), title.state (5,604B), menu.ram (2,048B), menu.state (5,604B), game1.ram (2,048B), game1.state (5,604B), game2.ram (2,048B), game2.state (5,604B), game3.ram (2,048B), game3.state (5,604B)
+
+== Measured facts ==
+  Text on screen      : 45 run(s) of ROM bytes found in 10 capture(s)
+  Code -> tile        : tile = code + $00 (44 run(s) agree)  [codes are tile indices]
+  Line width          : longest matched run 32 chars, median 32
+  Row pitch           : 32 entries between lines (11 gap(s) agree)
+  Lines on one screen : 5
+  Fixed width or VWF  : fixed-width tiles: the text is on screen as tile indices
+  Ignored as not text : 12 asset copy/copies, 139 run(s) in non-tilemap memory
+
+== Byte after each matched line ==
+  a line normally ends at a newline, a terminator or the edge of the window
+  $22 x11, $21 x9, $83 x8, $FF x4, $0F x4, $20 x3, $23 x3, $16 x1, $2C x1, $04 x1
+
+== Byte before each matched line ==
+  $20 x29, $EC x8, $14 x4, $10 x1, $83 x1, $3B x1, $FD x1
+
+== Matched runs ==
+  rom offset     len  delta  stride  fill  capture           at
+  002E8D-002EAD    32  $00   1      0.75  boot.state        0x00975
+  002ED3-002EF3    32  $00   1      0.85  boot.state        0x009b5
+  002F19-002F39    32  $00   1      0.81  boot.state        0x009f5
+  002F5F-002F7F    32  $00   1      0.77  boot.state        0x00a35
+  002FA5-002FC5    32  $00   1      0.75  boot.state        0x00a75
+  002FEB-00300B    32  $00   1      0.74  boot.state        0x00ab5
+  003031-003051    32  $00   1      0.78  boot.state        0x00af5
+  003077-003097    32  $00   1      0.80  boot.state        0x00b35
+  0030BD-0030DD    32  $00   1      0.85  boot.state        0x00b75
+  0031D5-0031F5    32  $00   1      0.53  boot.state        0x00c75
+  00437C-00439C    32  $00   1      0.44  game3.state       0x00c95
+  00321C-00323C    32  $00   1      0.46  title.state       0x008b5
+  00323F-00325F    32  $00   1      0.42  title.state       0x008d5
+  003357-003377    32  $00   1      0.44  title.state       0x009d5
+  00337A-00339A    32  $00   1      0.48  title.state       0x009f5
+  00339D-0033BD    32  $00   1      0.52  title.state       0x00a15
+  0033C0-0033E0    32  $00   1      0.54  title.state       0x00a35
+  0033E3-003403    32  $00   1      0.52  title.state       0x00a55
+  00344C-00346C    32  $00   1      0.56  title.state       0x00ab5
+  00346F-00348F    32  $00   1      0.59  title.state       0x00ad5
+  ... 25 more
+
+== Notes ==
+- A match means the ROM bytes and the captured screen differ by one constant offset,
+  so the text is stored as plain character codes (no DTE/compression) for that run.
+- Text that is decompressed or built in RAM shows up in the .ram/.state captures instead
+  of the tilemap; the ROM offset is still the real storage location.
+- Runs marked as assets are graphics copied from the ROM, not text.
+- A run is only counted as text if the memory around it looks like a tilemap
+  (mostly one blank tile); raise or lower that bar with --min-fill.
+- The default route only mashes START/A: use --script for a game-specific path into dialogue.

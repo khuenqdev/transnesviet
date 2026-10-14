@@ -1,0 +1,157 @@
+# part 4 (scenes 37-45: finale, ending, credits, tutorial)
+T0474 | 「Gần lắm rồi...」
+T0475 | 「!!!」
+T0476 | 「Là hắn!」
+T0477 | 「...」
+T0478 | 「Có vẻ hắn vẫn chưa phát hiện ra.」
+T0479 | 「Một phát... hạ gục!」
+T0480 | 「Khoan đã! Đừng hấp tấp!」
+T0481 | 「Muộn mất rồi sao...」
+T0482 | 「Anh Hawk? Rốt cuộc chuyện gì...」
+T0483 | 「Nguy hiểm!!」
+T0484 | 「!!!」
+T0485 | 「Gư aaaaaa」
+T0486 | 「Anh Hawk!」
+T0487 | 「Đòn của Metalgun không có tác dụng với hắn!」
+T0488 | 「Nhưng chắc chắn phải có cách! Nhìn cho kỹ vào! Billy!」
+T0489 | 「S-sao lại thế... Metalgun không có tác dụng thì...」
+T0490 | 「Đừng lơ là, Billy! Đòn tiếp theo tới kìa!」
+T0491 | 「Chết tiệt, phải làm sao đây.」
+T0492 | 「Mabel, Doc..., bố, mẹ...」
+T0493 | 「Huy hiệu! Huy hiệu bố để lại đang phát sáng!」 / 「Sức mạnh huy hiệu đang tràn vào!」
+T0494 | 「Không phải sức mạnh Perla Negra. Là sức mạnh từ ước nguyện con người.」
+T0495 | 「Bố, mọi người...」
+T0496 | 「Mabel...」
+T0497 | 「Tới đây!」
+T0498 | 「!!!」
+T0499 | 「Được rồi!」
+T0500 | 「Đừng lơ là! Billy!」
+T0501 | 「Anh Hawk!! Anh không sao chứ!」
+T0502 | 「Đừng bận tâm đến tôi! Nhìn kìa, hắn sắp lộ nguyên hình!」
+T0503 | 「!!!」
+T0504 | 「Từ giờ mới là trận chiến thật sự... Billy!」
+T0505 | 「...」
+T0506 | 「...Thắng rồi, sao?」
+T0507 | 「Mình đã hạ được rồi, con Perla Negra cuối cùng.」
+T0508 | 「À, phải rồi, anh Hawk!? Anh có sao...」
+T0509 | 「Anh ổn chứ?」
+T0510 | 「Ừ.」
+T0511 | 「...Vất vả rồi.」
+T0512 | 「Có gì to tát đâu.」
+T0513 | 「Thật là.」
+T0514 | 「Những lúc thế này thành thật một chút cũng được mà.」
+T0515 | 「...Xin lỗi.」
+T0516 | 「Thôi được rồi. ...Em quen rồi.」
+T0517 | 「Billy cũng ổn chứ? Không bị thương chứ?」
+T0518 | 「Vâng. Có vẻ em vẫn ổn.」
+T0519 | 「Mà... có khi nào em đang làm kỳ đà cản mũi không ạ?」
+T0520 | 「Phì. Nói gì vậy, đừng trêu chị chứ.」
+T0521 | 「Chuyện đó để sau, thật sự vất vả cho em rồi.」 / 「Nhờ có em mà mọi người được cứu.」
+T0522 | 「Chị rất biết ơn. Cảm ơn em.」
+T0523 | 「Đâu có...」
+T0524 | 「Em mới là người được giúp đỡ suốt.」 / 「Chính nhờ có anh Hawk mà em mới kết thúc được mọi chuyện.」
+T0525 | 「Đúng là Hawk có giúp, nhưng chỉ vậy thì không đủ đâu.」 / 「Quả nhiên vẫn cần đến sức mạnh của Billy.」
+T0526 | 「Nào, cứ ưỡn ngực tự hào lên. Kiểu 『Anh hùng thế giới đây rồi』 ấy.」
+T0527 | 「Riêng cái đó thì tha cho em. Không hợp với em đâu ạ.」
+T0528 | 「Ngại kìa. Trời ạ, dễ thương ghê cơ~」
+T0529 | 「À, chị biết ơn là thật lòng đấy.」 / 「Cảm ơn em thật nhiều vì đã bảo vệ Hawk.」
+T0530 | 「Người đó bình thường lúc nào cũng tỏ ra lạnh lùng, nhưng tới lúc quan trọng là liều mạng lắm.」 / 「Luôn tự mình lao vào nguy hiểm.」
+T0531 | 「Vậy mà sau đó lại trăn trở. Rốt cuộc điều gì mới là đúng...」 / 「Giống hệt em nhỉ...」
+T0532 | 「Phải chăng là do huyết thống?」
+T0533 | 「Dạ?」
+T0534 | 「Không, không có gì đâu.」
+T0535 | 「Vậy bọn chị xin phép đi trước nhé.」
+T0536 | 「Ơ, đâu cần vội thế ạ. Giờ đâu còn lo bị tấn công nữa...」 / 「Cùng về thị trấn đi ạ! Em cũng muốn mời anh chị ghé nhà.」
+T0537 | 「Ừm, em nói vậy chị vui lắm, và lời mời cũng hấp dẫn thật đấy, nhưng mà...」
+T0538 | 「...Đi thôi.」
+T0539 | 「Vâng, vâng.」
+T0540 | 「Đấy, em thấy rồi đó.」
+T0541 | 「Vậy hẹn gặp lại nhé.」
+T0542 | 「À, vâng. Mình... sẽ gặp lại chứ ạ?」
+T0543 | 「Ừ, ở đâu đó nhé.」
+T0544 |                   . /                   .
+T0545 | 「...」
+T0546 | 「......Haizz.」
+T0547 | 「Sao tự dưng thấy hụt hẫng ghê.」
+T0548 | 「Mọi người có lo không nhỉ? Mong là họ không bị liên lụy.」 / 「Muốn gặp họ quá...」
+T0549 | 「Billyyy!」
+T0550 | 「Mabel!」
+T0551 | 「Hộc hộc hộc...」
+T0552 | 「Billy, cậu không sao chứ? Có bị thương chỗ nào không!?」
+T0553 | 「Mabel, bình tĩnh đã!」
+T0554 | 「Không sao, không sao mà! Nhé?」
+T0555 | 「Trời ạ, đã ổn thì sao không về ngay hả!」 / 「Cậu về muộn quá nên tớ chỉ hơi lo một chút thôi.」
+T0556 | 「Lúc nãy còn suýt khóc đến nơi, giờ nói hay ghê.」
+T0557 | 「Này Doc!! Không cần nói mấy chuyện thừa!」
+T0558 | 「À, ừm, thì là..., tớ chỉ lo một tí xíu thôi đấy.」
+T0559 | 「Ơ, à, ừ. ...Cảm ơn cậu.」
+T0560 | 「Mà này, chị Fay đâu rồi?」
+T0561 | 「Đi mất rồi. Tớ có giữ lại rồi mà.」
+T0562 | 「Cái gìii!?」
+T0563 | 「Khốn thật, tớ đã định nói lời cảm ơn thật ngầu, rồi bàn chuyện tương lai của hai đứa, đủ thứ kế hoạch thế màaa」
+T0564 | 「Này này...」
+T0565 | 「Dưới bầu trời xanh ngắt, chiếc Speeder chở hai người lao đi...」 / 「Ư~, đúng nó rồi! Phê quá đi!」
+T0566 | 「......」
+T0567 | 「Tớ nghĩ Doc có cố mấy cũng không thắng nổi anh Hawk đâu.」
+T0568 | 「Tớ cũng đồng ý.」
+T0569 | 「...」
+T0570 | 「......Khúc khích.」
+T0571 | 「....Khúc khích khúc khích.」
+T0572 | 「Phì, phì phì, a ha ha ha ha.」
+T0573 | 「Oa, rốt cuộc là cái gì hả.」
+T0574 | 「Xin lỗi xin lỗi, không có gì đâu.」
+T0575 | 「Này Billy?」
+T0576 | 「Thật sự, thật sự là mọi chuyện đã kết thúc rồi, đúng không?」
+T0577 | 「Sáng mai, cậu sẽ không đột nhiên nói 『Tớ phải đi rồi』 rồi biến mất, đúng không?」
+T0578 | 「Mình sẽ được về nhà, nấu cơm như bình thường, đúng không?」
+T0579 | 「...」
+T0580 | 「...Nói thật, tớ vẫn chưa biết nữa.」
+T0581 | 「Billy?」
+T0582 | 「À, nhịp đập của Metalgun đã lắng xuống rồi.」 / 「Kẻ cầm đầu đã bị hạ, mối đe dọa Perla Negra sẽ dần biến mất.」
+T0583 | 「Nhưng tớ có cảm giác đó cũng chỉ là khởi đầu của điều gì đó.」 / 「Cứ như thế, có gì đó kết thúc thì đồng thời lại bắt đầu, và cứ tiếp diễn mãi mãi.」
+T0584 | 「Billy... cậu thay đổi một chút rồi nhỉ.」
+T0585 | 「Ơ, vậy à? Tớ vẫn như mọi khi mà.」 / 「...」
+T0586 | 「...Nhưng có lẽ đúng là vậy thật.」 / 「Chắc chắn, có điều gì đó đã thay đổi.」
+T0587 | 「Không chỉ mình tớ, mà 『điều gì đó』 của tất cả mọi thứ...」
+T0588 | METALGUN SLINGER /  /    Đội ngũ sản xuất
+T0589 | Nhà sản xuất /  /   Tetsuya Akimoto
+T0590 | Minh họa nhân vật /  /    Hitoshi Ariga
+T0591 | Đạo diễn /  /   Tomohide Kamei
+T0592 | Quản lý sản phẩm /  /    Akira Takada
+T0593 | Lên kế hoạch /  /   Yasuhiro Kondo
+T0594 | Lập trình /  /   Koji Kumada /   Mineyuki Sakurai
+T0595 | Đồ họa /  /   Mayumi Otsuka /   Akihisa Watanabe /   Yuji Sato /   Madoka Iwahara
+T0596 | Sáng tác âm thanh /  /    Izuho Numata
+T0597 | Hiệu ứng âm thanh /  /    Noboru Takahashi
+T0598 | Nhà sản xuất quảng bá /  /    Masahiro Hirasawa /    Masamichi Kaneko
+T0599 | Nhân viên quảng bá /  /   Miyuki Kawakami
+T0600 |      Nhạc mở đầu /   "Metalgun Slinger" /  / Lời:      Yuki Terakado / Nhạc&phối: Mitsuru Kemmochi / Trình bày: Billy's Angel /           Tamaki Nakanishi /           Megumi Nasu /           Asuka Aizawa
+T0601 |      Nhạc kết thúc / "RADIANT ~Billy's Theme~" /  / Lời:      Yuki Terakado / Nhạc&phối: Mitsuru Kemmochi / Trình bày: Billy's Angel /           Tamaki Nakanishi /           Megumi Nasu /           Asuka Aizawa
+T0602 | Nhà sản xuất âm nhạc /   (Ca khúc chủ đề) /  /    Masamichi Kaneko /    Makoto Morimoto
+T0603 | Đạo diễn âm nhạc /   (Ca khúc chủ đề) /  /    Mitsuru Kemmochi
+T0604 | Đạo diễn sản xuất /   (Ca khúc chủ đề) /  /    Yasushi Takahashi
+T0605 | Kỹ sư âm thanh /   (Ca khúc chủ đề) /  / Yasuo Higashidate /   Toru Oka
+T0606 |   Phòng thu /   (Ca khúc chủ đề) /  / STUDIO ATOMS
+T0607 |   Sản xuất âm nhạc /   (Ca khúc chủ đề) /  /    T.F.C / ARC PRODUCTION
+T0608 |        Hợp tác /  /  Fuji Pacific Music Publishing /  Central Music /  / Kadokawa Shoten - Dragon Junior
+T0609 | SPECIAL THANKS /  /      Yukiya Shoji
+T0610 |      Phát triển /  / Open Sesame Co., Ltd.
+T0611 |   Sản xuất /  / Mediat
+T0612 |     Phát hành /  / AtMark Inc.
+T0613 | 「Ngay cả lúc này mà vẫn hút sức mạnh sao? Metalgun!!」 / 「Khốn kiếp, rốt cuộc mày là cái gì vậy hả!?」
+T0614 | Nhấn nút BẮN để bắn Metalgun! /  / Hạ địch sẽ xuất hiện Perla Negra. / Thu lấy chúng để nạp lại GF.
+T0615 | Có địch đánh rơi vật phẩm hồi phục. /  / Vật phẩm sẽ biến mất rất nhanh, / nên đừng để vuột mất nhé.
+T0616 | Nhấn nút ARTS cùng nút Hướng / để phát động Gun Arts. / Gun Arts đang trang bị hiện giờ là / 「Wildcat」! / Chuyên về các đòn né tránh! /  / Khi địch bắn, nhấn nút ARTS và ↑ / để né đạn! Thử xem nào!
+T0617 | Tiếp theo, nhấn nút ARTS và →! / Lần này hãy lao người tới để né đạn! / Nếu bắn trong lúc đang lao tới, / sẽ nằm sấp bắn ba phát liên tiếp!
+T0618 | Ngoài ra còn nhiều Gun Arts khác. / Có được rồi thì thử đủ kiểu nhé! / Gun Arts sẽ tiêu hao GF, nên / hãy chăm chỉ thu lấy Perla Negra.
+T0619 | Nhấn nút ARTS cùng nút BẮN, hoặc / nút ARTS cùng nút NHẢY sẽ phát động / Super Gun Arts! /  / Metalgun sẽ biến đổi, cho phép / tung đòn mạnh hoặc đòn đặc biệt! / Có loại được phát động bằng cách / nhấn nút ARTS khi đang nhào lộn. / Tuy nhiên, dùng sẽ tốn đạn, nên / chú ý đừng dùng quá nhiều nhé! / Có thể nạp thêm đạn từ rương báu!
+T0620 | Thang, gai, dây thừng, bục di động / Màn chơi có đủ loại cơ quan.
+T0621 | Có thể nhảy từ thang / sang dây thừng. / Cũng có thể tấn công khi đang leo.
+T0622 | Đứng trước cột totem / và nhấn nút BẮN / sẽ được hồi phục thể lực.
+T0623 | →→ hay ↑↑ cũng tung ra nhiều chiêu. /  / Nhấn nút khác giữa lúc ra chiêu / sẽ nối sang một chiêu khác. / Ví dụ, đang lộn nghiêng bằng →→ / thì nhấn nút NHẢY để nhào lộn. / Đang nhào lộn, nhấn ↓ và nút BẮN / sẽ bắn ba phát xuống từ trên không!
+T0624 | Khi vẫn còn GF, / nếu tung các chiêu liên tiếp, / Billy sẽ có hiệu ứng đặc biệt! / Hãy cố gắng nối các chiêu với nhau.
+T0625 | Nhấn nút START / để mở màn hình tùy chọn. / Có thể đổi cài đặt phím ở đây.
+T0626 | Nhảy lên bục đang nhấp nháy / là hoàn thành màn chơi. / Hãy khéo léo tận dụng mọi thứ / để vượt qua từng màn nhé.
+T0627 | Nhảy bám vào móc ròng rọc / là lao thẳng tới đích!
+T0628 | Ở các màn tiếp theo / có tội phạm truy nã ẩn nấp! / Tìm ra và hạ gục chúng / để nhận Kim cương Linh hồn! / Thu đủ 4 Kim cương Linh hồn / thì HP tối đa sẽ tăng lên!
+T0629 | Khéo léo dùng cú trượt / để lách qua kẻ địch.
